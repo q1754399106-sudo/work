@@ -1,0 +1,7 @@
+{
+  "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_output_trust_experiment_20261023.zip",
+  "bytes": 21162386,
+  "sha256": "1a137cfbbc725b267fcea2c34f3656ae834264f072dd3235239f3b0c8d7d770d",
+  "files": 664,
+  "contents": "All inversion/scoring inputs and targets, original JSON outputs, source/input snapshots, logs, CSV, figures and code. Rebuildable prepared MAT caches and full-99-trace generator scratch arrays remain local; generator code and variant plans retained."
+}

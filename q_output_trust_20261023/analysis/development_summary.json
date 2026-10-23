@@ -1,0 +1,134 @@
+{
+  "stage": "development",
+  "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_output_trust_20261023\\runs\\development_20261023T112349Z",
+  "means": {
+    "FullCalRefit": {
+      "LiveTraceError": 0.5853065632609831,
+      "LowEnergyRegionError": 0.832631761073924,
+      "DeepLiveError": 0.6918299684888398,
+      "CorrelationLive": 0.8142174714344064,
+      "AmplitudeProjectionGain": 0.6072598055043248
+    },
+    "PrunedFullCalRefit": {
+      "LiveTraceError": 0.6208147529683954,
+      "LowEnergyRegionError": 0.8950796666543559,
+      "DeepLiveError": 0.7401747703738604,
+      "CorrelationLive": 0.7846721985642928,
+      "AmplitudeProjectionGain": 0.5922119423506986
+    },
+    "QAwareRidge": {
+      "LiveTraceError": 0.5838531176207479,
+      "LowEnergyRegionError": 0.8349058531421554,
+      "DeepLiveError": 0.6917794759203382,
+      "CorrelationLive": 0.8150724532598908,
+      "AmplitudeProjectionGain": 0.6124369812147724
+    },
+    "QAwareCluster": {
+      "LiveTraceError": 0.605344686437316,
+      "LowEnergyRegionError": 0.8135513160612731,
+      "DeepLiveError": 0.7159213275256346,
+      "CorrelationLive": 0.7998386963042992,
+      "AmplitudeProjectionGain": 0.5785457793329338
+    },
+    "Trust05": {
+      "LiveTraceError": 0.5829840654678862,
+      "LowEnergyRegionError": 0.8283122200597006,
+      "DeepLiveError": 0.6890865328561239,
+      "CorrelationLive": 0.8157982264081619,
+      "AmplitudeProjectionGain": 0.6100951468572124
+    },
+    "Trust10": {
+      "LiveTraceError": 0.5878368838449235,
+      "LowEnergyRegionError": 0.8190528789460154,
+      "DeepLiveError": 0.6937698730228002,
+      "CorrelationLive": 0.8124923456967338,
+      "AmplitudeProjectionGain": 0.6013007830003451
+    },
+    "Trust20": {
+      "LiveTraceError": 0.5940680246950538,
+      "LowEnergyRegionError": 0.8132734408307516,
+      "DeepLiveError": 0.6999718083855868,
+      "CorrelationLive": 0.8082517403873299,
+      "AmplitudeProjectionGain": 0.590352010247167
+    }
+  },
+  "gates": {},
+  "checks": [
+    {
+      "complete": true,
+      "case": "Development",
+      "traces": 44,
+      "optimization_flags": 0,
+      "max_normal": 8.095773893437192e-15,
+      "max_guard_ratio": 0.9996322231417121,
+      "controls": {
+        "duplicate_rank_after": 1,
+        "duplicate_error": 9.999999895676855e-09,
+        "zero_covariance_difference": 0,
+        "zero_input": true,
+        "protected_change_sd": 1.0000000000004976,
+        "passed": true,
+        "scope": "Oracle-support numerical controls, not performance evidence"
+      },
+      "elapsed_seconds": 388.3996147
+    }
+  ],
+  "selection": {
+    "method": "Trust05",
+    "kappa": 0.5,
+    "feasible": true,
+    "all_development_means": {
+      "FullCalRefit": {
+        "LiveTraceError": 0.5853065632609831,
+        "LowEnergyRegionError": 0.832631761073924,
+        "DeepLiveError": 0.6918299684888398,
+        "CorrelationLive": 0.8142174714344064,
+        "AmplitudeProjectionGain": 0.6072598055043248
+      },
+      "PrunedFullCalRefit": {
+        "LiveTraceError": 0.6208147529683954,
+        "LowEnergyRegionError": 0.8950796666543559,
+        "DeepLiveError": 0.7401747703738604,
+        "CorrelationLive": 0.7846721985642928,
+        "AmplitudeProjectionGain": 0.5922119423506986
+      },
+      "QAwareRidge": {
+        "LiveTraceError": 0.5838531176207479,
+        "LowEnergyRegionError": 0.8349058531421554,
+        "DeepLiveError": 0.6917794759203382,
+        "CorrelationLive": 0.8150724532598908,
+        "AmplitudeProjectionGain": 0.6124369812147724
+      },
+      "QAwareCluster": {
+        "LiveTraceError": 0.605344686437316,
+        "LowEnergyRegionError": 0.8135513160612731,
+        "DeepLiveError": 0.7159213275256346,
+        "CorrelationLive": 0.7998386963042992,
+        "AmplitudeProjectionGain": 0.5785457793329338
+      },
+      "Trust05": {
+        "LiveTraceError": 0.5829840654678862,
+        "LowEnergyRegionError": 0.8283122200597006,
+        "DeepLiveError": 0.6890865328561239,
+        "CorrelationLive": 0.8157982264081619,
+        "AmplitudeProjectionGain": 0.6100951468572124
+      },
+      "Trust10": {
+        "LiveTraceError": 0.5878368838449235,
+        "LowEnergyRegionError": 0.8190528789460154,
+        "DeepLiveError": 0.6937698730228002,
+        "CorrelationLive": 0.8124923456967338,
+        "AmplitudeProjectionGain": 0.6013007830003451
+      },
+      "Trust20": {
+        "LiveTraceError": 0.5940680246950538,
+        "LowEnergyRegionError": 0.8132734408307516,
+        "DeepLiveError": 0.6999718083855868,
+        "CorrelationLive": 0.8082517403873299,
+        "AmplitudeProjectionGain": 0.590352010247167
+      }
+    },
+    "rule": "Among low-energy feasible candidates minimize development waveform error; tie: smaller kappa. No validation scores used."
+  },
+  "scope": "Descriptive means over one development geology or three new same-family geologies; two dependent observations per geology."
+}

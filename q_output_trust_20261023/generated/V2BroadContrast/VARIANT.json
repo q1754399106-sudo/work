@@ -1,0 +1,19 @@
+{
+  "name": "V2BroadContrast",
+  "seed": 20264201,
+  "beds": 38,
+  "spacing": [
+    23,
+    37
+  ],
+  "qbase": 65,
+  "qgradient": 0.015,
+  "frequency": 55,
+  "phase": -8,
+  "offset": 650,
+  "calibration_seed": 20264202,
+  "observation_seeds": [
+    20264211,
+    20264212
+  ]
+}

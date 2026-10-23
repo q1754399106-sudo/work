@@ -1,0 +1,105 @@
+{
+  "caches": [
+    {
+      "stage": "development",
+      "case": "Development",
+      "condition": "Moderate",
+      "path": "runs/development_20261023T112349Z/Development/Moderate_prepared.mat",
+      "bytes": 34837323,
+      "sha256": "fd8c6fc00f41a51a67f1eb749b3434929b3872d014b716418b0f26a342406f86",
+      "source_manifest_sha256": "aec85eec7afdff2ddb36b1c09e382bb6ad9afc5e07eb782c3b3699952b929105",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "development",
+      "case": "Development",
+      "condition": "Strong",
+      "path": "runs/development_20261023T112349Z/Development/Strong_prepared.mat",
+      "bytes": 34826580,
+      "sha256": "8605caa04f9012882236108f9cf84114a4969338df431ad7ba72b0f5475d2100",
+      "source_manifest_sha256": "aec85eec7afdff2ddb36b1c09e382bb6ad9afc5e07eb782c3b3699952b929105",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "validation",
+      "case": "V2DenseLowQ",
+      "condition": "Moderate",
+      "path": "runs/validation_20261023T113145Z/V2DenseLowQ/Moderate_prepared.mat",
+      "bytes": 34580936,
+      "sha256": "167308f5e88ef99992f1841e538c5dac9f7b2d8e918686cc4f212ebacaef0289",
+      "source_manifest_sha256": "5c6bde1be4b55a508a2130a073bd7ed1e3ce185eb7624314fe9e694691251a18",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "validation",
+      "case": "V2DenseLowQ",
+      "condition": "Strong",
+      "path": "runs/validation_20261023T113145Z/V2DenseLowQ/Strong_prepared.mat",
+      "bytes": 34567745,
+      "sha256": "11166f616a8d25ab127b2d6d61f21aa18b26e1f17e1c37acf75c3d8dbfc0bd23",
+      "source_manifest_sha256": "5c6bde1be4b55a508a2130a073bd7ed1e3ce185eb7624314fe9e694691251a18",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "validation",
+      "case": "V2BroadContrast",
+      "condition": "Moderate",
+      "path": "runs/validation_20261023T113145Z/V2BroadContrast/Moderate_prepared.mat",
+      "bytes": 34001595,
+      "sha256": "69be5d215d40a75fc79d5261c3ebc766ceeb9490ebd423afa964688ee067c686",
+      "source_manifest_sha256": "5c6bde1be4b55a508a2130a073bd7ed1e3ce185eb7624314fe9e694691251a18",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "validation",
+      "case": "V2BroadContrast",
+      "condition": "Strong",
+      "path": "runs/validation_20261023T113145Z/V2BroadContrast/Strong_prepared.mat",
+      "bytes": 33987686,
+      "sha256": "e4f6e5f0e6c81e5bdb3294fd6ede93623b876963565588bdc40690910af3c46f",
+      "source_manifest_sha256": "5c6bde1be4b55a508a2130a073bd7ed1e3ce185eb7624314fe9e694691251a18",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "validation",
+      "case": "V2ThinQReverse",
+      "condition": "Moderate",
+      "path": "runs/validation_20261023T113145Z/V2ThinQReverse/Moderate_prepared.mat",
+      "bytes": 35261380,
+      "sha256": "96d1c8315a63656917f14facef91db861979847bc8d583f508b77cac12424956",
+      "source_manifest_sha256": "5c6bde1be4b55a508a2130a073bd7ed1e3ce185eb7624314fe9e694691251a18",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "validation",
+      "case": "V2ThinQReverse",
+      "condition": "Strong",
+      "path": "runs/validation_20261023T113145Z/V2ThinQReverse/Strong_prepared.mat",
+      "bytes": 35251873,
+      "sha256": "76190324e01de922367aaf6043c1c71d362d9bcb73857ab5b33a16367c31ccb1",
+      "source_manifest_sha256": "5c6bde1be4b55a508a2130a073bd7ed1e3ce185eb7624314fe9e694691251a18",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "sensitivity",
+      "case": "QPoint080",
+      "condition": "Moderate",
+      "path": "runs/sensitivity_20261023T115623Z/QPoint080/Moderate_prepared.mat",
+      "bytes": 34544327,
+      "sha256": "057ee777ad815dd57ad475875fd2fc372ada1b4de908e8cafa431df9e2184127",
+      "source_manifest_sha256": "65c11bddf89a2c920c9bf6817e070970f5b8e56c6f51a90d67ab6c6f1d0a284e",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    },
+    {
+      "stage": "sensitivity",
+      "case": "QPoint125",
+      "condition": "Moderate",
+      "path": "runs/sensitivity_20261023T115623Z/QPoint125/Moderate_prepared.mat",
+      "bytes": 34569922,
+      "sha256": "9eb65bfe9a3a0e03bb7b654e996cb9a36dbdda165b0655d07ca38dbfce7b3654",
+      "source_manifest_sha256": "65c11bddf89a2c920c9bf6817e070970f5b8e56c6f51a90d67ab6c6f1d0a284e",
+      "scope": "Prepared dictionary, calibration uncertainty and observed-data support; no target arrays"
+    }
+  ],
+  "note": "Reusable prepared-data caches for future development. Reuse requires matching case, observation, point-Q setting and solver source; these are not independent data."
+}

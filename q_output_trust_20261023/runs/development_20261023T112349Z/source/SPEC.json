@@ -1,0 +1,110 @@
+{
+  "registered_utc": "2026-10-23T11:21:38.930987+00:00",
+  "indices_zero_based": [
+    0,
+    5,
+    9,
+    14,
+    19,
+    23,
+    28,
+    33,
+    37,
+    42,
+    47,
+    51,
+    56,
+    61,
+    65,
+    70,
+    75,
+    79,
+    84,
+    89,
+    93,
+    98
+  ],
+  "development": "complex_fieldlike_20261023",
+  "methods": [
+    "FullCalRefit",
+    "PrunedFullCalRefit",
+    "QAwareRidge",
+    "QAwareCluster",
+    "OutputTrustNoQ",
+    "QAwareOutputTrust"
+  ],
+  "finite_difference_log_step": 0.02,
+  "mode_penalty_log_nt_multiplier": 1.0,
+  "svd_relative_cutoff": 0.01,
+  "covariance_log_std_floor": 0.03,
+  "covariance_log_std_cap": 0.5,
+  "calibration_log_prior_std": 0.5,
+  "variants": [
+    {
+      "name": "V2DenseLowQ",
+      "seed": 20264101,
+      "beds": 70,
+      "spacing": [
+        9,
+        22
+      ],
+      "qbase": 32,
+      "qgradient": 0.018,
+      "frequency": 40,
+      "phase": 18,
+      "offset": 525,
+      "calibration_seed": 20264102,
+      "observation_seeds": [
+        20264111,
+        20264112
+      ]
+    },
+    {
+      "name": "V2BroadContrast",
+      "seed": 20264201,
+      "beds": 38,
+      "spacing": [
+        23,
+        37
+      ],
+      "qbase": 65,
+      "qgradient": 0.015,
+      "frequency": 55,
+      "phase": -8,
+      "offset": 650,
+      "calibration_seed": 20264202,
+      "observation_seeds": [
+        20264211,
+        20264212
+      ]
+    },
+    {
+      "name": "V2ThinQReverse",
+      "seed": 20264301,
+      "beds": 85,
+      "spacing": [
+        8,
+        16
+      ],
+      "qbase": 78,
+      "qgradient": -0.018,
+      "frequency": 32,
+      "phase": 30,
+      "offset": 375,
+      "calibration_seed": 20264302,
+      "observation_seeds": [
+        20264311,
+        20264312
+      ]
+    }
+  ],
+  "source_generator_sha256": "5304b53b3908602fff2da4b0632c7ac28df5dd34c421a3e802158f9b3da8cf68",
+  "note": "22 fixed spatial samples per 99-trace model; two observations are dependent conditions, not independent models.",
+  "version": "output_trust_v2",
+  "kappas": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "protection_snr_threshold": 2.0
+}

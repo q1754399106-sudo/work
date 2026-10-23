@@ -1,0 +1,14 @@
+{
+  "figures_checked": 38,
+  "gallery_views": 36,
+  "detail_pixels": [
+    7600,
+    2960
+  ],
+  "dpi": 400,
+  "gain_groups": 66950,
+  "minimum_gain": 6.3245426238719775e-06,
+  "maximum_gain": 0.9999125136240183,
+  "zero_gains": 0,
+  "source_and_api_hashes_match": true
+}

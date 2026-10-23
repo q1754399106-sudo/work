@@ -1,0 +1,19 @@
+{
+  "name": "V2ThinQReverse",
+  "seed": 20264301,
+  "beds": 85,
+  "spacing": [
+    8,
+    16
+  ],
+  "qbase": 78,
+  "qgradient": -0.018,
+  "frequency": 32,
+  "phase": 30,
+  "offset": 375,
+  "calibration_seed": 20264302,
+  "observation_seeds": [
+    20264311,
+    20264312
+  ]
+}

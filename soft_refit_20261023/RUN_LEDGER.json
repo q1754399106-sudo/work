@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "completed_blocks": 180,
+  "expected_blocks": 180,
+  "gallery": "D:\\ChatGPT_Research_Outputs\\soft_trial_delivery_20261023\\soft_refit_20261023\\index.html",
+  "figures": 38,
+  "storage": "D:\\ChatGPT_Research_Outputs\\soft_trial_delivery_20261023\\soft_refit_20261023",
+  "inference_rule": "one frozen candidate",
+  "api_verified": true
+}

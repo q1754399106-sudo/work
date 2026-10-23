@@ -1,0 +1,13 @@
+{
+  "reviewed_date": "2026-10-23",
+  "reviewed_pngs": [
+    "validation_errors.png",
+    "constraint_and_rank.png",
+    "development_selection.png",
+    "Q_sensitivity.png",
+    "fixed_gathers.png"
+  ],
+  "inspection": "All five exported PNGs visually inspected. Development-axis headroom was increased to avoid cutting marker tops, and constraint curves were given redundant shape/color encoding; both corrected figures were re-inspected. Labels and legends are readable, paired gathers use common amplitudes at actual selected coordinates, and comparisons include every registered condition and method. No trace normalization or amplitude clipping is used.",
+  "limits": "Several method curves overlap because differences are small; full numeric data are in CSV. PNG layout review also describes PDFs exported from the same figure objects; PDF font embedding, formal accessibility certification and journal-specific compliance were not separately audited.",
+  "provenance": "Image hashes and source CSV hashes are in manifest.json. Review confirms layout and encoding, not scientific novelty or physical recovery."
+}

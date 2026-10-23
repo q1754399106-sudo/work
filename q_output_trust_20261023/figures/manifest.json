@@ -1,0 +1,61 @@
+{
+  "plots": [
+    {
+      "path": "figures/constraint_and_rank.png",
+      "sha256": "1871e4fc14d370233115e785df5f90b008b21c576b4d300c5d69c2c23585dd53",
+      "pixels": [
+        2040,
+        816
+      ]
+    },
+    {
+      "path": "figures/development_selection.png",
+      "sha256": "9f56600b7771c6fc1045b15ace4eadc8ee8a36a27e05ac330fcf0d135bfdbdff",
+      "pixels": [
+        2040,
+        765
+      ]
+    },
+    {
+      "path": "figures/fixed_gathers.png",
+      "sha256": "d8d269cc84d33d63b1b2fa6e3e0926d6b31c471c7b99239579cec4f90f641942",
+      "pixels": [
+        2210,
+        1020
+      ]
+    },
+    {
+      "path": "figures/Q_sensitivity.png",
+      "sha256": "3b0f00528b67c36aa16de95948015c0b8ff15828ffccea2dfcdc423956192594",
+      "pixels": [
+        2040,
+        816
+      ]
+    },
+    {
+      "path": "figures/validation_errors.png",
+      "sha256": "b1eb50c0f2c2ace959513b9d780603258479d5ac0812c39536b0fae2bc3ec64a",
+      "pixels": [
+        2040,
+        1360
+      ]
+    }
+  ],
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "gather_shared_limit": 0.1056784277924668,
+  "clipping": "none",
+  "selection": "first registered validation model/Moderate, never chosen by error",
+  "uncertainty": "no confidence intervals; dependent conditions",
+  "source_csv_hashes": {
+    "development_metrics.csv": "50b98e29b1b4e18ee2284e7849ad612eb41874c006273f147be7a52f4e7a9277",
+    "development_modes.csv": "c65ba2bab1100745b91e2ff8aa0fca559deaab9733f0a792da316ced60c65b0f",
+    "development_trace_metrics.csv": "d501195d69d0411a410922909738014165b610b1fd2b92161869d3da04f80cc0",
+    "previous_round_output_diagnosis.csv": "0b270a032b6908f5ca6745dfd229a5c9d85af3d3ab740a1767f8d7e2ab11f7c4",
+    "sensitivity_metrics.csv": "d8a99eb5f525f3de63e3eefc9ac4b426c811c8430dde6a6823347c0abdfff6c7",
+    "validation_metrics.csv": "85da2fda90f35bc6a4f0c4979165ea0773910d46aed8dc172b846f12453cb52d",
+    "validation_modes.csv": "d2229849ca81edb46a268f656f414ec105f43f3b9f13687c341a977855cd2ef8",
+    "validation_trace_metrics.csv": "c232624c225e1e40797b9b731318b258a473b0b252fc4e2ce0587d338b2ac194"
+  }
+}

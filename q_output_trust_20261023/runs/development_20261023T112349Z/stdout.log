@@ -1,0 +1,13 @@
+CALIBRATION_READY Development elapsed=7.0
+SUPPORT_START Development Moderate traces=22
+METHOD_DONE Development Moderate QAwareRidge rank=108.1 elapsed=93.0
+METHOD_DONE Development Moderate QAwareCluster rank=63.4 elapsed=133.9
+METHOD_DONE Development Moderate Trust05 rank=87.7 elapsed=158.3
+METHOD_DONE Development Moderate Trust10 rank=78.6 elapsed=186.8
+METHOD_DONE Development Moderate Trust20 rank=69.9 elapsed=220.0
+SUPPORT_START Development Strong traces=22
+METHOD_DONE Development Strong QAwareRidge rank=95.7 elapsed=296.1
+METHOD_DONE Development Strong QAwareCluster rank=52.5 elapsed=322.4
+METHOD_DONE Development Strong Trust05 rank=72.6 elapsed=340.3
+METHOD_DONE Development Strong Trust10 rank=64.5 elapsed=361.9
+METHOD_DONE Development Strong Trust20 rank=57.6 elapsed=386.6

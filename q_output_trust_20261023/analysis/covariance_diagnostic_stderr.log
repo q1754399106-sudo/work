@@ -1,0 +1,11 @@
+{错误使用 jsonencode
+Unable to encode complex-valued objects of class double as JSON-formatted text.
+
+出错 uq_writejson (第 2 行)
+f=fopen(path,'w','n','UTF-8'); cl=onCleanup(@()fclose(f)); fprintf(f,'%s',jsonencode(x));
+                                                                          ^^^^^^^^^^^^^
+出错 check_output_covariance_mc (第 20 行)
+uq_writejson(dest,out);assert(out.passed);
+^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

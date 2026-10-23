@@ -21,3 +21,10 @@ desktop.ini
 *.pem
 *.key
 
+
+# Rebuildable experiment caches remain local
+cache/
+q_output_trust_20261023/runs/**/*_prepared.mat
+
+# Local complete bundle contains rebuildable caches
+/soft_refit_complete_20261023.zip

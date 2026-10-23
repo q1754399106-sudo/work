@@ -1,0 +1,12 @@
+CALIBRATION_READY QPoint080 elapsed=6.7
+SUPPORT_START QPoint080 Moderate traces=22
+METHOD_DONE QPoint080 Moderate QAwareRidge rank=96.4 elapsed=98.8
+METHOD_DONE QPoint080 Moderate QAwareCluster rank=59.5 elapsed=125.7
+METHOD_DONE QPoint080 Moderate OutputTrustNoQ rank=80.2 elapsed=141.8
+METHOD_DONE QPoint080 Moderate QAwareOutputTrust rank=79.4 elapsed=158.7
+CALIBRATION_READY QPoint125 elapsed=5.3
+SUPPORT_START QPoint125 Moderate traces=22
+METHOD_DONE QPoint125 Moderate QAwareRidge rank=113.1 elapsed=121.3
+METHOD_DONE QPoint125 Moderate QAwareCluster rank=66.7 elapsed=166.2
+METHOD_DONE QPoint125 Moderate OutputTrustNoQ rank=91.5 elapsed=193.7
+METHOD_DONE QPoint125 Moderate QAwareOutputTrust rank=91.9 elapsed=221.9

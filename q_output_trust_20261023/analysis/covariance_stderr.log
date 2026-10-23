@@ -1,0 +1,8 @@
+{错误使用 assert
+断言失败。
+
+出错 check_output_covariance_mc (第 20 行)
+assert(out.passed);uq_writejson(dest,out);
+^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

@@ -1,0 +1,19 @@
+{
+  "name": "V2DenseLowQ",
+  "seed": 20264101,
+  "beds": 70,
+  "spacing": [
+    9,
+    22
+  ],
+  "qbase": 32,
+  "qgradient": 0.018,
+  "frequency": 40,
+  "phase": 18,
+  "offset": 525,
+  "calibration_seed": 20264102,
+  "observation_seeds": [
+    20264111,
+    20264112
+  ]
+}

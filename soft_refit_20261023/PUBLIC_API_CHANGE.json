@@ -1,0 +1,4 @@
+{
+  "reason": "Whole-gather wrapper now bounds memory with 11-trace chunks and labels initial fit residual correctly. Not called by run_soft_trial; frozen statistical core unchanged.",
+  "prior_wrapper_sha256": "a00b81f98caca8b9ad9e4f00c600286d43b337217aded6c3b25df08d04654043"
+}

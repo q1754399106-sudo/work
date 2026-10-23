@@ -58,3 +58,25 @@ q_identifiable_cluster_20261023/generated/FreshDenseQReverse/truth/model_truth.n
 denoise_and_field_20261023/field_data/alaska_120_fk.npz filter=lfs diff=lfs merge=lfs -text
 q_dense_gathers_20261023/results/complex/Q_+30.json filter=lfs diff=lfs merge=lfs -text
 dense_gathers_hd_20261023.zip filter=lfs diff=lfs merge=lfs -text
+# Preserve exact bytes of frozen research snapshots
+soft_refit_20261023/** -text
+q_output_trust_20261023/** -text
+q_output_trust_20261023/generated/V2DenseLowQ/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+q_output_trust_20261023/generated/V2ThinQReverse/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/complex/reference.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/primary/Q_+10.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/primary/Q_-10.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/figures/complex_Moderate_wiggle.png filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/inputs/complex.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/complex/Q_+30.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/complex/Q_-10.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/complex/Q_-30.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_results_20261023.zip filter=lfs diff=lfs merge=lfs -text
+q_output_trust_20261023/generated/V2BroadContrast/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/complex/Q_+10.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/primary/Q_+0.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/primary/Q_+30.json filter=lfs diff=lfs merge=lfs -text
+q_output_trust_experiment_20261023.zip filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/figures/complex_Strong_wiggle.png filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/complex/Q_+0.json filter=lfs diff=lfs merge=lfs -text
+soft_refit_20261023/results/primary/Q_-30.json filter=lfs diff=lfs merge=lfs -text

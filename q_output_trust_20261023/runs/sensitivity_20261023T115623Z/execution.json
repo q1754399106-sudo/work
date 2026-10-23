@@ -1,0 +1,22 @@
+{
+  "stage": "sensitivity",
+  "cases": [
+    "QPoint080",
+    "QPoint125"
+  ],
+  "kappa": 0.5,
+  "status": "COMPLETED",
+  "started_utc": "2026-10-23T11:56:24.108790+00:00",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/sensitivity_20261023T115623Z/source/core');run_output_trust_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/sensitivity_20261023T115623Z/QPoint080','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/sensitivity_20261023T115623Z/source/QPoint080.json','sensitivity',0.5);run_output_trust_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/sensitivity_20261023T115623Z/QPoint125','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/sensitivity_20261023T115623Z/source/QPoint125.json','sensitivity',0.5);"
+  ],
+  "timeout_seconds": 5400,
+  "pid": 32392,
+  "exit_code": 0,
+  "elapsed_seconds": 398.0630000000092
+}

@@ -1,0 +1,23 @@
+{
+  "stage": "validation",
+  "cases": [
+    "V2DenseLowQ",
+    "V2BroadContrast",
+    "V2ThinQReverse"
+  ],
+  "kappa": 0.5,
+  "status": "COMPLETED",
+  "started_utc": "2026-10-23T11:31:47.090514+00:00",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/validation_20261023T113145Z/source/core');run_output_trust_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/validation_20261023T113145Z/V2DenseLowQ','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/validation_20261023T113145Z/source/V2DenseLowQ.json','validation',0.5);run_output_trust_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/validation_20261023T113145Z/V2BroadContrast','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/validation_20261023T113145Z/source/V2BroadContrast.json','validation',0.5);run_output_trust_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/validation_20261023T113145Z/V2ThinQReverse','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_output_trust_20261023/runs/validation_20261023T113145Z/source/V2ThinQReverse.json','validation',0.5);"
+  ],
+  "timeout_seconds": 5400,
+  "pid": 1312,
+  "exit_code": 0,
+  "elapsed_seconds": 1406.3129999999946
+}

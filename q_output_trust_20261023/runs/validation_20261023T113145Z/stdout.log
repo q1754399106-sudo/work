@@ -1,0 +1,33 @@
+CALIBRATION_READY V2DenseLowQ elapsed=76.0
+SUPPORT_START V2DenseLowQ Moderate traces=22
+METHOD_DONE V2DenseLowQ Moderate QAwareRidge rank=104.1 elapsed=174.2
+METHOD_DONE V2DenseLowQ Moderate QAwareCluster rank=62.3 elapsed=208.6
+METHOD_DONE V2DenseLowQ Moderate OutputTrustNoQ rank=84.0 elapsed=230.1
+METHOD_DONE V2DenseLowQ Moderate QAwareOutputTrust rank=84.0 elapsed=251.8
+SUPPORT_START V2DenseLowQ Strong traces=22
+METHOD_DONE V2DenseLowQ Strong QAwareRidge rank=91.0 elapsed=341.1
+METHOD_DONE V2DenseLowQ Strong QAwareCluster rank=48.9 elapsed=365.7
+METHOD_DONE V2DenseLowQ Strong OutputTrustNoQ rank=69.1 elapsed=382.7
+METHOD_DONE V2DenseLowQ Strong QAwareOutputTrust rank=69.4 elapsed=399.6
+CALIBRATION_READY V2BroadContrast elapsed=46.5
+SUPPORT_START V2BroadContrast Moderate traces=22
+METHOD_DONE V2BroadContrast Moderate QAwareRidge rank=135.8 elapsed=255.1
+METHOD_DONE V2BroadContrast Moderate QAwareCluster rank=83.2 elapsed=344.0
+METHOD_DONE V2BroadContrast Moderate OutputTrustNoQ rank=111.4 elapsed=398.0
+METHOD_DONE V2BroadContrast Moderate QAwareOutputTrust rank=111.2 elapsed=453.9
+SUPPORT_START V2BroadContrast Strong traces=22
+METHOD_DONE V2BroadContrast Strong QAwareRidge rank=112.6 elapsed=597.6
+METHOD_DONE V2BroadContrast Strong QAwareCluster rank=60.8 elapsed=652.5
+METHOD_DONE V2BroadContrast Strong OutputTrustNoQ rank=85.4 elapsed=689.2
+METHOD_DONE V2BroadContrast Strong QAwareOutputTrust rank=86.4 elapsed=725.9
+CALIBRATION_READY V2ThinQReverse elapsed=79.0
+SUPPORT_START V2ThinQReverse Moderate traces=22
+METHOD_DONE V2ThinQReverse Moderate QAwareRidge rank=107.0 elapsed=120.4
+METHOD_DONE V2ThinQReverse Moderate QAwareCluster rank=64.0 elapsed=142.7
+METHOD_DONE V2ThinQReverse Moderate OutputTrustNoQ rank=85.0 elapsed=157.6
+METHOD_DONE V2ThinQReverse Moderate QAwareOutputTrust rank=85.5 elapsed=172.2
+SUPPORT_START V2ThinQReverse Strong traces=22
+METHOD_DONE V2ThinQReverse Strong QAwareRidge rank=94.1 elapsed=215.3
+METHOD_DONE V2ThinQReverse Strong QAwareCluster rank=48.6 elapsed=233.5
+METHOD_DONE V2ThinQReverse Strong OutputTrustNoQ rank=66.1 elapsed=247.7
+METHOD_DONE V2ThinQReverse Strong QAwareOutputTrust rank=67.1 elapsed=261.8
