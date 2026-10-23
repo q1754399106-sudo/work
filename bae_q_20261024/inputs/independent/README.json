@@ -1,0 +1,1 @@
+{"forward":"exact 1D normal-incidence viscoacoustic layered response (Kjartansson constant Q), all internal multiples and transmission losses, off-grid interfaces","target":"same stack with Q=Inf (elastic), Ricker 32 Hz zero phase","solver_Q":"traveltime-weighted harmonic upscaling of fine Q into the four public macro intervals at trace 50","offset":0}

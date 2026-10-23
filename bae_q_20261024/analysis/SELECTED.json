@@ -1,0 +1,14 @@
+{
+  "frozen_before_validation": true,
+  "frozen_utc": "2026-10-23T18:50:00Z",
+  "rule": "PLAN_ZH.md development selection rule, applied by score_dev.m (analysis/dev_selection.json)",
+  "BAE": {"selected": null, "status": "FAILED development feasibility (all s: mean Q0 ratio 2.12-2.65 > 1.02); not run on validation"},
+  "BAECovOnly": {"selected": null, "status": "FAILED development feasibility"},
+  "BAE_posthoc_small_s": {"status": "exploratory only; s=0.02 complex Q0 ratio 1.19-1.49, infeasible; not promoted"},
+  "QEnsembleMean": {"selected": "QEnsembleMean_s010", "mean_wc_ratio": 0.9573, "mean_q0_ratio": 0.9688},
+  "QScanRefit": {"selected": "QScanRefit", "note": "no tunable parameter; registered as experiment 1b before running"},
+  "WangIQF": {"selected": "WangIQF_G10", "rule": "minimum mean Q0 waveform error over the four development combinations (0.556 vs 0.603 for G20)"},
+  "SBL_TVD": {"selected": "SBL_TVD", "note": "no tunable parameter; noise variance fixed to shared sigma"},
+  "s_values": [0.10],
+  "frozen_runs_omit": "PrunedFullCalRefit and BAE variants (lean mode) to bound run time"
+}

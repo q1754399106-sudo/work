@@ -1,0 +1,144 @@
+V1 Q-50 Moderate factor=1.974 (ideal 2.000) elapsed=23.4s
+V1 Q-30 Moderate factor=1.427 (ideal 1.429) elapsed=39.9s
+V1 Q-10 Moderate factor=1.149 (ideal 1.111) elapsed=57.4s
+V1 Q+0 Moderate factor=1.031 (ideal 1.000) elapsed=75.1s
+V1 Q+10 Moderate factor=0.925 (ideal 0.909) elapsed=92.0s
+V1 Q+30 Moderate factor=0.745 (ideal 0.769) elapsed=108.9s
+V1 Q+50 Moderate factor=0.669 (ideal 0.667) elapsed=124.0s
+V1 Q-50 Strong factor=1.974 (ideal 2.000) elapsed=138.8s
+V1 Q-30 Strong factor=1.427 (ideal 1.429) elapsed=152.8s
+V1 Q-10 Strong factor=1.149 (ideal 1.111) elapsed=166.5s
+V1 Q+0 Strong factor=1.031 (ideal 1.000) elapsed=180.0s
+V1 Q+10 Strong factor=0.925 (ideal 0.909) elapsed=192.1s
+V1 Q+30 Strong factor=0.745 (ideal 0.769) elapsed=203.1s
+V1 Q+50 Strong factor=0.669 (ideal 0.667) elapsed=214.7s
+V2 Q-50 Moderate factor=1.974 (ideal 2.000) elapsed=234.3s
+V2 Q-30 Moderate factor=1.427 (ideal 1.429) elapsed=256.7s
+V2 Q-10 Moderate factor=1.149 (ideal 1.111) elapsed=281.5s
+V2 Q+0 Moderate factor=1.031 (ideal 1.000) elapsed=307.6s
+V2 Q+10 Moderate factor=0.925 (ideal 0.909) elapsed=327.2s
+V2 Q+30 Moderate factor=0.745 (ideal 0.769) elapsed=342.4s
+V2 Q+50 Moderate factor=0.669 (ideal 0.667) elapsed=356.6s
+V2 Q-50 Strong factor=1.974 (ideal 2.000) elapsed=368.3s
+V2 Q-30 Strong factor=1.427 (ideal 1.429) elapsed=379.3s
+V2 Q-10 Strong factor=1.149 (ideal 1.111) elapsed=390.1s
+V2 Q+0 Strong factor=1.031 (ideal 1.000) elapsed=399.5s
+V2 Q+10 Strong factor=0.925 (ideal 0.909) elapsed=408.9s
+V2 Q+30 Strong factor=0.745 (ideal 0.769) elapsed=417.7s
+V2 Q+50 Strong factor=0.669 (ideal 0.667) elapsed=426.9s
+V3 Q-50 Moderate factor=1.974 (ideal 2.000) elapsed=548.3s
+V3 Q-30 Moderate factor=1.427 (ideal 1.429) elapsed=664.0s
+V3 Q-10 Moderate factor=1.031 (ideal 1.111) elapsed=753.7s
+V3 Q+0 Moderate factor=0.925 (ideal 1.000) elapsed=853.1s
+V3 Q+10 Moderate factor=0.830 (ideal 0.909) elapsed=966.4s
+V3 Q+30 Moderate factor=0.745 (ideal 0.769) elapsed=1063.9s
+V3 Q+50 Moderate factor=0.669 (ideal 0.667) elapsed=1145.6s
+V3 Q-50 Strong factor=1.772 (ideal 2.000) elapsed=1219.7s
+V3 Q-30 Strong factor=1.280 (ideal 1.429) elapsed=1291.9s
+V3 Q-10 Strong factor=1.031 (ideal 1.111) elapsed=1360.0s
+V3 Q+0 Strong factor=0.925 (ideal 1.000) elapsed=1435.4s
+V3 Q+10 Strong factor=0.830 (ideal 0.909) elapsed=1488.1s
+V3 Q+30 Strong factor=0.745 (ideal 0.769) elapsed=1540.9s
+V3 Q+50 Strong factor=0.600 (ideal 0.667) elapsed=1606.1s
+DONE qscan val 1606.1s
+F1 Q-50 Moderate factor=2.200 (ideal 2.000) elapsed=19.9s
+F1 Q-30 Moderate factor=1.772 (ideal 1.429) elapsed=44.3s
+F1 Q-10 Moderate factor=1.427 (ideal 1.111) elapsed=63.4s
+F1 Q+0 Moderate factor=1.280 (ideal 1.000) elapsed=75.5s
+F1 Q+10 Moderate factor=1.149 (ideal 0.909) elapsed=85.7s
+F1 Q+30 Moderate factor=1.031 (ideal 0.769) elapsed=94.9s
+F1 Q+50 Moderate factor=0.830 (ideal 0.667) elapsed=104.4s
+F1 Q-50 Strong factor=2.200 (ideal 2.000) elapsed=112.3s
+F1 Q-30 Strong factor=1.772 (ideal 1.429) elapsed=119.0s
+F1 Q-10 Strong factor=1.427 (ideal 1.111) elapsed=125.8s
+F1 Q+0 Strong factor=1.280 (ideal 1.000) elapsed=132.1s
+F1 Q+10 Strong factor=1.149 (ideal 0.909) elapsed=139.2s
+F1 Q+30 Strong factor=1.031 (ideal 0.769) elapsed=146.5s
+F1 Q+50 Strong factor=0.830 (ideal 0.667) elapsed=152.6s
+F2 Q-50 Moderate factor=2.200 (ideal 2.000) elapsed=166.7s
+F2 Q-30 Moderate factor=1.772 (ideal 1.429) elapsed=177.6s
+F2 Q-10 Moderate factor=1.427 (ideal 1.111) elapsed=187.6s
+F2 Q+0 Moderate factor=1.280 (ideal 1.000) elapsed=200.3s
+F2 Q+10 Moderate factor=1.149 (ideal 0.909) elapsed=217.6s
+F2 Q+30 Moderate factor=0.925 (ideal 0.769) elapsed=233.7s
+F2 Q+50 Moderate factor=0.830 (ideal 0.667) elapsed=248.0s
+F2 Q-50 Strong factor=2.200 (ideal 2.000) elapsed=264.4s
+F2 Q-30 Strong factor=1.772 (ideal 1.429) elapsed=274.7s
+F2 Q-10 Strong factor=1.427 (ideal 1.111) elapsed=283.8s
+F2 Q+0 Strong factor=1.280 (ideal 1.000) elapsed=292.0s
+F2 Q+10 Strong factor=1.149 (ideal 0.909) elapsed=299.8s
+F2 Q+30 Strong factor=0.925 (ideal 0.769) elapsed=306.7s
+F2 Q+50 Strong factor=0.830 (ideal 0.667) elapsed=312.8s
+DONE qscan ind 312.8s
+F1 Q-50 Moderate sbl_converged=1 elapsed=111.7s
+F1 Q-30 Moderate sbl_converged=1 elapsed=212.8s
+F1 Q-10 Moderate sbl_converged=1 elapsed=314.9s
+F1 Q+0 Moderate sbl_converged=1 elapsed=416.9s
+F1 Q+10 Moderate sbl_converged=1 elapsed=521.1s
+F1 Q+30 Moderate sbl_converged=1 elapsed=631.6s
+F1 Q+50 Moderate sbl_converged=1 elapsed=724.5s
+F1 Q-50 Strong sbl_converged=1 elapsed=784.2s
+F1 Q-30 Strong sbl_converged=1 elapsed=843.3s
+F1 Q-10 Strong sbl_converged=1 elapsed=900.7s
+F1 Q+0 Strong sbl_converged=1 elapsed=959.4s
+F1 Q+10 Strong sbl_converged=1 elapsed=1016.9s
+F1 Q+30 Strong sbl_converged=1 elapsed=1074.9s
+F1 Q+50 Strong sbl_converged=1 elapsed=1127.7s
+F2 Q-50 Moderate sbl_converged=1 elapsed=1172.2s
+F2 Q-30 Moderate sbl_converged=1 elapsed=1210.2s
+F2 Q-10 Moderate sbl_converged=1 elapsed=1258.1s
+F2 Q+0 Moderate sbl_converged=1 elapsed=1301.1s
+F2 Q+10 Moderate sbl_converged=1 elapsed=1340.7s
+F2 Q+30 Moderate sbl_converged=1 elapsed=1386.0s
+F2 Q+50 Moderate sbl_converged=1 elapsed=1425.5s
+F2 Q-50 Strong sbl_converged=1 elapsed=1458.1s
+F2 Q-30 Strong sbl_converged=1 elapsed=1487.8s
+F2 Q-10 Strong sbl_converged=1 elapsed=1520.0s
+F2 Q+0 Strong sbl_converged=1 elapsed=1554.9s
+F2 Q+10 Strong sbl_converged=1 elapsed=1599.1s
+F2 Q+30 Strong sbl_converged=1 elapsed=1632.4s
+F2 Q+50 Strong sbl_converged=1 elapsed=1668.7s
+DONE ind 1668.7s
+V1 Q-50 Moderate sbl_converged=1 elapsed=41.2s
+V1 Q-30 Moderate sbl_converged=1 elapsed=68.2s
+V1 Q-10 Moderate sbl_converged=1 elapsed=92.3s
+V1 Q+0 Moderate sbl_converged=1 elapsed=115.0s
+V1 Q+10 Moderate sbl_converged=1 elapsed=148.0s
+V1 Q+30 Moderate sbl_converged=1 elapsed=179.0s
+V1 Q+50 Moderate sbl_converged=1 elapsed=210.3s
+V1 Q-50 Strong sbl_converged=1 elapsed=243.1s
+V1 Q-30 Strong sbl_converged=1 elapsed=274.0s
+V1 Q-10 Strong sbl_converged=1 elapsed=302.2s
+V1 Q+0 Strong sbl_converged=1 elapsed=325.7s
+V1 Q+10 Strong sbl_converged=1 elapsed=352.0s
+V1 Q+30 Strong sbl_converged=1 elapsed=377.7s
+V1 Q+50 Strong sbl_converged=1 elapsed=404.1s
+V2 Q-50 Moderate sbl_converged=1 elapsed=442.0s
+V2 Q-30 Moderate sbl_converged=1 elapsed=466.2s
+V2 Q-10 Moderate sbl_converged=1 elapsed=486.5s
+V2 Q+0 Moderate sbl_converged=1 elapsed=504.9s
+V2 Q+10 Moderate sbl_converged=1 elapsed=531.0s
+V2 Q+30 Moderate sbl_converged=1 elapsed=557.9s
+V2 Q+50 Moderate sbl_converged=1 elapsed=586.7s
+V2 Q-50 Strong sbl_converged=1 elapsed=615.9s
+V2 Q-30 Strong sbl_converged=1 elapsed=640.9s
+V2 Q-10 Strong sbl_converged=1 elapsed=662.6s
+V2 Q+0 Strong sbl_converged=1 elapsed=685.5s
+V2 Q+10 Strong sbl_converged=1 elapsed=707.3s
+V2 Q+30 Strong sbl_converged=1 elapsed=736.3s
+V2 Q+50 Strong sbl_converged=1 elapsed=762.0s
+V3 Q-50 Moderate sbl_converged=1 elapsed=960.5s
+V3 Q-30 Moderate sbl_converged=1 elapsed=1134.6s
+V3 Q-10 Moderate sbl_converged=1 elapsed=1338.5s
+V3 Q+0 Moderate sbl_converged=1 elapsed=1538.6s
+V3 Q+10 Moderate sbl_converged=1 elapsed=1742.7s
+V3 Q+30 Moderate sbl_converged=1 elapsed=1950.9s
+V3 Q+50 Moderate sbl_converged=1 elapsed=2165.5s
+V3 Q-50 Strong sbl_converged=1 elapsed=2287.8s
+V3 Q-30 Strong sbl_converged=1 elapsed=2422.7s
+V3 Q-10 Strong sbl_converged=1 elapsed=2547.7s
+V3 Q+0 Strong sbl_converged=1 elapsed=2687.3s
+V3 Q+10 Strong sbl_converged=1 elapsed=2833.6s
+V3 Q+30 Strong sbl_converged=1 elapsed=2979.1s
+V3 Q+50 Strong sbl_converged=1 elapsed=3139.4s
+DONE val 3139.4s

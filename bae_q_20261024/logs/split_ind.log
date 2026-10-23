@@ -1,0 +1,30 @@
+BAE math checks passed.
+F1 Q-50 Moderate flags=0 normal=7.7e-15 elapsed=17.4s
+F1 Q-30 Moderate flags=0 normal=6.5e-15 elapsed=33.2s
+F1 Q-10 Moderate flags=0 normal=6e-15 elapsed=48.5s
+F1 Q+0 Moderate flags=0 normal=6e-15 elapsed=61.1s
+F1 Q+10 Moderate flags=0 normal=7e-15 elapsed=73.3s
+F1 Q+30 Moderate flags=0 normal=8.6e-15 elapsed=85.9s
+F1 Q+50 Moderate flags=0 normal=5.5e-15 elapsed=99.1s
+F1 Q-50 Strong flags=0 normal=6.2e-15 elapsed=108.8s
+F1 Q-30 Strong flags=0 normal=5.5e-15 elapsed=117.9s
+F1 Q-10 Strong flags=0 normal=6.1e-15 elapsed=127.3s
+F1 Q+0 Strong flags=0 normal=7.3e-15 elapsed=136.3s
+F1 Q+10 Strong flags=0 normal=6.6e-15 elapsed=148.5s
+F1 Q+30 Strong flags=0 normal=6.9e-15 elapsed=159.4s
+F1 Q+50 Strong flags=0 normal=6e-15 elapsed=169.4s
+F2 Q-50 Moderate flags=0 normal=9.1e-15 elapsed=183.8s
+F2 Q-30 Moderate flags=0 normal=8.4e-15 elapsed=193.1s
+F2 Q-10 Moderate flags=0 normal=7.6e-15 elapsed=201.6s
+F2 Q+0 Moderate flags=0 normal=1.1e-14 elapsed=210.7s
+F2 Q+10 Moderate flags=0 normal=7.5e-15 elapsed=219.0s
+F2 Q+30 Moderate flags=0 normal=8.1e-15 elapsed=227.5s
+F2 Q+50 Moderate flags=0 normal=8.5e-15 elapsed=236.0s
+F2 Q-50 Strong flags=0 normal=9.4e-15 elapsed=246.4s
+F2 Q-30 Strong flags=0 normal=9.3e-15 elapsed=254.5s
+F2 Q-10 Strong flags=0 normal=7.9e-15 elapsed=263.4s
+F2 Q+0 Strong flags=0 normal=8.4e-15 elapsed=272.2s
+F2 Q+10 Strong flags=0 normal=8.6e-15 elapsed=280.3s
+F2 Q+30 Strong flags=0 normal=9.5e-15 elapsed=288.1s
+F2 Q+50 Strong flags=0 normal=1e-14 elapsed=296.1s
+DONE ind 296.1s

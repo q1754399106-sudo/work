@@ -1,0 +1,8 @@
+BAE math checks passed.
+complex Q+50 Moderate flags=0 normal=2e-14 rank=28 elapsed=2396.7s
+complex Q+50 Strong flags=0 normal=1.5e-14 rank=29 elapsed=3606.4s
+complex Q+30 Moderate flags=0 normal=2.2e-14 rank=29 elapsed=4674.0s
+complex Q+30 Strong flags=0 normal=1.9e-14 rank=30 elapsed=5640.3s
+complex Q+10 Moderate flags=0 normal=1.6e-14 rank=30 elapsed=6534.3s
+complex Q+10 Strong flags=0 normal=6.9e-14 rank=30 elapsed=7291.6s
+DONE subset complex 7291.6s

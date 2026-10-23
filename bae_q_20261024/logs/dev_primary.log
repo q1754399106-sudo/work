@@ -1,0 +1,16 @@
+BAE math checks passed.
+primary Q-50 Moderate flags=0 normal=1.3e-14 rank=31 elapsed=127.8s
+primary Q-50 Strong flags=0 normal=1.4e-14 rank=31 elapsed=212.4s
+primary Q-30 Moderate flags=0 normal=1.1e-14 rank=30 elapsed=376.2s
+primary Q-30 Strong flags=0 normal=8.5e-15 rank=31 elapsed=571.6s
+primary Q-10 Moderate flags=0 normal=1.1e-14 rank=29 elapsed=724.9s
+primary Q-10 Strong flags=0 normal=1.3e-14 rank=30 elapsed=825.0s
+primary Q+0 Moderate flags=0 normal=8.8e-15 rank=28 elapsed=929.3s
+primary Q+0 Strong flags=0 normal=1.1e-14 rank=30 elapsed=1020.2s
+primary Q+10 Moderate flags=0 normal=8.7e-15 rank=28 elapsed=1138.9s
+primary Q+10 Strong flags=0 normal=1.1e-14 rank=29 elapsed=1230.1s
+primary Q+30 Moderate flags=0 normal=1e-14 rank=27 elapsed=1355.0s
+primary Q+30 Strong flags=0 normal=8.4e-15 rank=27 elapsed=1459.3s
+primary Q+50 Moderate flags=0 normal=9.9e-15 rank=26 elapsed=1589.3s
+primary Q+50 Strong flags=0 normal=1.2e-14 rank=27 elapsed=1686.6s
+DONE primary 1686.6s

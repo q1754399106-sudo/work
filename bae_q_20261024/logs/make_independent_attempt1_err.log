@@ -1,0 +1,8 @@
+{错误使用 assert
+Independent scenes already exist; refusing to regenerate.
+
+出错 make_independent (第 8 行)
+assert(~isfolder(out)&&~isfolder(truth),'Independent scenes already exist; refusing to regenerate.');mkdir(out);mkdir(truth);
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
