@@ -1,0 +1,58 @@
+[
+  {
+    "name": "2016-02-10T210245_LWLI",
+    "station": "LWLI",
+    "event": "2016-02-10T210245",
+    "Q": 192.621626,
+    "tstar": 0.143476,
+    "P_pick_s": 27.636600494384766,
+    "dt_original_s": 0.05000000074505806,
+    "sigma": 0.01466826234453865,
+    "scale": 1.4786741382913805e-06,
+    "source_filename": "2016-02-10T210245.LWLI.BHZ.D.sac",
+    "source_sha256": "44a0934e1866bf2c2718fc783bf8bacb503987332f671e80ae873b2aee856eb2",
+    "split": "development"
+  },
+  {
+    "name": "2013-04-29T022000_MNSI",
+    "station": "MNSI",
+    "event": "2013-04-29T022000",
+    "Q": 408.659739,
+    "tstar": 0.045835,
+    "P_pick_s": 18.730899810791016,
+    "dt_original_s": 0.05000000074505806,
+    "sigma": 0.01384198495784008,
+    "scale": 5.007777589886052e-07,
+    "source_filename": "2013-04-29T022000.MNSI.BHZ.D.sac",
+    "source_sha256": "c86ef730f54077fa49a32389b9465a8ea6b768ebaff28669e1d27a3c79d294db",
+    "split": "evaluation"
+  },
+  {
+    "name": "2013-04-29T022000_SISI",
+    "station": "SISI",
+    "event": "2013-04-29T022000",
+    "Q": 403.932661,
+    "tstar": 0.080308,
+    "P_pick_s": 32.4390983581543,
+    "dt_original_s": 0.05000000074505806,
+    "sigma": 0.0685411589603265,
+    "scale": 2.1152821016159401e-07,
+    "source_filename": "2013-04-29T022000.SISI.BHZ.D.sac",
+    "source_sha256": "72b636438ed2066bbf063e9f7bc64e0c8d6efd2c75402458a05b00f78628204e",
+    "split": "evaluation"
+  },
+  {
+    "name": "2013-04-29T022000_MLSI",
+    "station": "MLSI",
+    "event": "2013-04-29T022000",
+    "Q": 725.364353,
+    "tstar": 0.100555,
+    "P_pick_s": 72.93890380859375,
+    "dt_original_s": 0.05000000074505806,
+    "sigma": 0.08043775940168475,
+    "scale": 2.389024928905574e-07,
+    "source_filename": "2013-04-29T022000.MLSI.BHZ.D.sac",
+    "source_sha256": "82974bf6ba03d4466e79bddb257adc7d91a71fb360b669e8c0b9e96d72f76780",
+    "split": "evaluation"
+  }
+]

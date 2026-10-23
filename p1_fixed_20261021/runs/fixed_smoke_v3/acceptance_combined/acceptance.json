@@ -1,0 +1,239 @@
+{
+  "status": "FAIL",
+  "candidate": "CombinedUncertainty",
+  "baseline": "Frozen",
+  "route": "Split",
+  "pairs": 6,
+  "equal_model_main_improvement": 0.10133805279811137,
+  "groups": [
+    {
+      "Suite": "Main",
+      "Model": "SoftLowQ",
+      "n": 5,
+      "baseline": 0.7506621740146819,
+      "candidate": 0.674591530990837,
+      "improvement_percent": 10.133805279811137,
+      "baseline_median": 0.66656886039347,
+      "candidate_median": 0.667638908560957,
+      "baseline_p90": 0.9464579016654056,
+      "candidate_p90": 0.7363335065912044,
+      "baseline_p95": 1.0392853669048576,
+      "candidate_p95": 0.7581386069170531,
+      "baseline_worst": 1.13211283214431,
+      "candidate_worst": 0.779943707242902,
+      "baseline_failures": 1,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "StressVelocityError",
+      "Model": "SoftLowQ",
+      "n": 1,
+      "baseline": 7.47115833239619,
+      "candidate": 8.49721459909905,
+      "improvement_percent": -13.733563405472339,
+      "baseline_median": 7.47115833239619,
+      "candidate_median": 8.49721459909905,
+      "baseline_p90": 7.47115833239619,
+      "candidate_p90": 8.49721459909905,
+      "baseline_p95": 7.47115833239619,
+      "candidate_p95": 8.49721459909905,
+      "baseline_worst": 7.47115833239619,
+      "candidate_worst": 8.49721459909905,
+      "baseline_failures": 1,
+      "candidate_failures": 1
+    }
+  ],
+  "checks": [
+    {
+      "name": "matched_prior_direct_present",
+      "pass_": true,
+      "detail": "CSV presence only; identical prior/Q and tuning-budget provenance must be audited separately."
+    },
+    {
+      "name": "local_scenario_coverage",
+      "pass_": true,
+      "detail": [
+        "CoherentNoiseAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "SmoothAVO",
+        "WeakSection"
+      ]
+    },
+    {
+      "name": "Main/SoftLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "SoftLowQ",
+        "n": 5,
+        "baseline": 0.7506621740146819,
+        "candidate": 0.674591530990837,
+        "improvement_percent": 10.133805279811137,
+        "baseline_median": 0.66656886039347,
+        "candidate_median": 0.667638908560957,
+        "baseline_p90": 0.9464579016654056,
+        "candidate_p90": 0.7363335065912044,
+        "baseline_p95": 1.0392853669048576,
+        "candidate_p95": 0.7581386069170531,
+        "baseline_worst": 1.13211283214431,
+        "candidate_worst": 0.779943707242902,
+        "baseline_failures": 1,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 1,
+        "candidate": 0,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.531686246021088,
+        "candidate": 0.5066725580198812,
+        "allowance": 0.026584312301054402,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.430321310107534,
+        "candidate": 0.417777778510446,
+        "allowance": 0.0215160655053767,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.669835246762995,
+        "candidate": 0.673120270369485,
+        "allowance": 0.03349176233814975,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.000257354985195299,
+        "candidate": 0.00015846063303936,
+        "allowance": 0.001,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5515618689460765,
+        "candidate": 0.5217253396413045,
+        "allowance": 0.027578093447303827,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.630644826873719,
+        "candidate": 0.6337073218284834,
+        "allowance": 0.03153224134368595,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityError/SoftLowQ/mean_noninferiority",
+      "pass_": false,
+      "detail": {
+        "Suite": "StressVelocityError",
+        "Model": "SoftLowQ",
+        "n": 1,
+        "baseline": 7.47115833239619,
+        "candidate": 8.49721459909905,
+        "improvement_percent": -13.733563405472339,
+        "baseline_median": 7.47115833239619,
+        "candidate_median": 8.49721459909905,
+        "baseline_p90": 7.47115833239619,
+        "candidate_p90": 8.49721459909905,
+        "baseline_p95": 7.47115833239619,
+        "candidate_p95": 8.49721459909905,
+        "baseline_worst": 7.47115833239619,
+        "candidate_worst": 8.49721459909905,
+        "baseline_failures": 1,
+        "candidate_failures": 1
+      }
+    },
+    {
+      "name": "StressVelocityError/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 1,
+        "candidate": 1,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityError/SoftLowQ/EventAmplitudeError",
+      "pass_": false,
+      "detail": {
+        "baseline": 3.44756234155844,
+        "candidate": 3.91267679304114,
+        "allowance": 0.17237811707792203,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityError/SoftLowQ/AVOInterceptError",
+      "pass_": false,
+      "detail": {
+        "baseline": 2.65751126114753,
+        "candidate": 3.01326155051287,
+        "allowance": 0.1328755630573765,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityError/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 1.83184482864344,
+        "candidate": 1.89673302171283,
+        "allowance": 0.091592241432172,
+        "n": 1
+      }
+    },
+    {
+      "name": "main_equal_model_improvement",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7506621740146819,
+        "candidate": 0.674591530990837,
+        "relative_improvement": 0.10133805279811137
+      }
+    },
+    {
+      "name": "candidate_solver_quality",
+      "pass_": true,
+      "detail": "Direct and requested route included"
+    }
+  ],
+  "diagnostic_counts": {},
+  "scope": "Engineering gates on supplied paired metrics. No automatic proof of independent geology, absence of leakage or statistical significance.",
+  "unverified_requirements": [
+    "new geological holdout",
+    "repeated independent calibration",
+    "identical information/priors across routes",
+    "source/config hashes and actual execution",
+    "hierarchical uncertainty intervals"
+  ]
+}

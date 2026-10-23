@@ -1,0 +1,250 @@
+--- fixed/core_p1/inputs/guard_policy.json
++++ guarded/core_p1/inputs/guard_policy.json
+@@ -0,0 +1,8 @@
++{
++  "version": "2026-10-21-guard-exploratory-v1",
++  "fit_deviance_max": 3.0,
++  "reliable_offset_method": "NoiseUncertaintyOnly",
++  "reliable_section_method": "Frozen",
++  "rejected_method": "NoCompensation",
++  "interpretation": "Engineering rejection rule; selected after previous exploratory results, not a calibrated statistical test or blind evaluation"
++}
+--- fixed/core_p1/inputs/p1_experiment_spec.json
++++ guarded/core_p1/inputs/p1_experiment_spec.json
+@@ -1,5 +1,5 @@
+ {
+-  "version": "2026-10-21-P1-fixed-v1",
++  "version": "2026-10-21-guard-trial-v1",
+   "priority": "P1 model-error-aware regularization",
+   "frozen_before_test": false,
+   "calibration_seeds": [
+@@ -120,6 +120,26 @@
+       "name": "CombinedFixedTarget",
+       "pilot_multiplier": null,
+       "role": "Candidate weights with Frozen discrepancy target",
++      "target_multiplier": null,
++      "use_noise_unc": null,
++      "use_q_err": null,
++      "use_structure": null
++    },
++    {
++      "gamma": null,
++      "name": "GuardedNoise",
++      "pilot_multiplier": null,
++      "role": "guard_policy_trial",
++      "target_multiplier": null,
++      "use_noise_unc": null,
++      "use_q_err": null,
++      "use_structure": null
++    },
++    {
++      "gamma": null,
++      "name": "NoCompensation",
++      "pilot_multiplier": null,
++      "role": "guard_policy_trial",
+       "target_multiplier": null,
+       "use_noise_unc": null,
+       "use_q_err": null,
+@@ -510,5 +530,5 @@
+       "vp_multiplier": null
+     }
+   ],
+-  "revision_note": "Bug fixes and uncertainty-averaged empirical weights; revised after observing historical tests. Requires fresh future holdouts."
++  "revision_note": "Exploratory guarded routing based on previously observed failures; no claim of blind testing."
+ }
+--- fixed/core_p1/matlab_src/p1_calibrate_ensemble.m
++++ guarded/core_p1/matlab_src/p1_calibrate_ensemble.m
+@@ -19,4 +19,5 @@
+ est.log_parameter_covariance=[est.log_q_std^2,cov_qf;cov_qf,est.log_f_std^2];
+ est.log_qf_corr=cov_qf/(est.log_q_std*est.log_f_std);
+ est.uncertainty_interpretation='Heuristic profile-loss covariance with variance floors; not a confidence interval';
++est.reliability=p1_calibration_reliability(est);
+ end
+--- fixed/core_p1/matlab_src/p1_calibration_reliability.m
++++ guarded/core_p1/matlab_src/p1_calibration_reliability.m
+@@ -0,0 +1,16 @@
++function guard=p1_calibration_reliability(est)
++% Uses calibration diagnostics only; no truth or reconstruction score.
++root=fileparts(fileparts(mfilename('fullpath')));
++policy=jsondecode(fileread(fullfile(root,'inputs','guard_policy.json')));
++n=est.fit_samples_per_trace*numel(est.selected_traces);
++deviance=2*est.minimum_loss/max(n,1);
++reasons={};
++if ~isfinite(est.effective_Q) || est.effective_Q<=0, reasons{end+1}='invalid_Q'; end
++if ~isfinite(est.estimated_frequency) || est.estimated_frequency<=0, reasons{end+1}='invalid_frequency'; end
++if est.q_boundary, reasons{end+1}='Q_search_boundary'; end
++if est.frequency_boundary, reasons{end+1}='frequency_search_boundary'; end
++if est.optimizer_exitflag<=0, reasons{end+1}='optimizer_not_converged'; end
++if ~isfinite(deviance) || deviance>policy.fit_deviance_max, reasons{end+1}='calibration_fit_mismatch'; end
++guard=struct('reliable',isempty(reasons),'reasons',{reasons},'fit_deviance',deviance, ...
++ 'fit_deviance_max',policy.fit_deviance_max,'interpretation',policy.interpretation);
++end
+--- fixed/core_p1/matlab_src/p1_guard_checks.m
++++ guarded/core_p1/matlab_src/p1_guard_checks.m
+@@ -0,0 +1,18 @@
++function p1_guard_checks(outdir)
++good=struct('fit_samples_per_trace',200,'selected_traces',[1,4,7,11], ...
++ 'minimum_loss',400,'effective_Q',40,'estimated_frequency',55,'q_boundary',false, ...
++ 'frequency_boundary',false,'optimizer_exitflag',1);
++a=p1_calibration_reliability(good); assert(a.reliable);
++bad=good; bad.q_boundary=true; bad.optimizer_exitflag=0; bad.minimum_loss=2000;
++b=p1_calibration_reliability(bad); assert(~b.reliable && numel(b.reasons)==3);
++cm=config_model(); cm.calibration_reliable=false;
++rng(1081,'twister'); D=randn(cm.nt,11)*.001;
++[out,~,~]=p1_solve_branch(D,{},[],cm,'Offset',sparse(numel(D),numel(D)),'GuardedNoise');
++assert(isequal(D,out.direct) && isequal(D,out.split));
++assert(~out.compensation_applied && out.fallback_used && strcmp(out.effective_method,'NoCompensation'));
++assert(strcmp(out.pipeline_status,'REJECTED_CALIBRATION_PASSTHROUGH'));
++uq_writejson(fullfile(outdir,'guard_checks.json'),struct('pass',true,'good_calibration_accepted',a.reliable, ...
++ 'bad_calibration_rejected',~b.reliable,'bad_reasons',{b.reasons}, ...
++ 'rejected_output_max_difference',max(abs(out.direct(:)-D(:))),'rejected_compensation_applied',out.compensation_applied));
++fprintf('PASS: calibration rejection and explicit non-compensating pass-through\n');
++end
+--- fixed/core_p1/matlab_src/p1_run_grid.m
++++ guarded/core_p1/matlab_src/p1_run_grid.m
+@@ -34,11 +34,11 @@
+      idx=isu-2; if smoke, idx=isu-1; end
+      stress=spec.stress_suites(idx); suite=stress.name;
+      scenarios=spec.stress_scenarios; if smoke, scenarios=scenarios(1); end
+-     if strcmp(suite,'StressVelocityError')
++     if startsWith(suite,'StressVelocity')
+       bad=public; bad.vp=public.vp*stress.vp_multiplier;
+       [est_use,cm_use,models_use,R_use]=p1_prepare_calibration(calD,c.offset,bad);
+       assert(norm(cm_use.vp-cm.vp)>0 && norm(models_use{6}.G-invmodels{6}.G,'fro')>1e-8);
+-      uq_writejson(fullfile(outdir,sprintf('velocity_stress_%s_%d.json',c.model_name,cseed)), ...
++      uq_writejson(fullfile(outdir,sprintf('velocity_stress_%s_%s_%d.json',stress.name,c.model_name,cseed)), ...
+        struct('vp_multiplier',stress.vp_multiplier,'baseline_vp',cm.vp,'stress_vp',cm_use.vp, ...
+        'operator_frobenius_change',norm(models_use{6}.G-invmodels{6}.G,'fro'),'calibration',est_use));
+      end
+--- fixed/core_p1/matlab_src/p1_solve_branch.m
++++ guarded/core_p1/matlab_src/p1_solve_branch.m
+@@ -3,6 +3,34 @@
+ root=fileparts(fileparts(mfilename('fullpath')));
+ p1spec=jsondecode(fileread(fullfile(root,'inputs','p1_experiment_spec.json')));
+ p1=p1spec.p1_hyperparameters;
++if strcmp(branch_name,'GuardedNoise')
++ policy=jsondecode(fileread(fullfile(root,'inputs','guard_policy.json')));
++ reliable=isfield(cm,'calibration_reliable') && cm.calibration_reliable;
++ effective=policy.rejected_method;
++ if reliable
++  effective=policy.reliable_offset_method;
++  if strcmp(domain,'Section'), effective=policy.reliable_section_method; end
++ end
++ [out,prior,preset]=p1_solve_branch(D,models,map,cm,domain,R_avo,effective);
++ preset.name=branch_name; out.effective_method=effective;
++ out.fallback_used=~reliable; out.compensation_applied=reliable;
++ out.pipeline_status='ACCEPTED_COMPENSATION';
++ if ~reliable, out.pipeline_status='REJECTED_CALIBRATION_PASSTHROUGH'; end
++ return;
++end
++if strcmp(branch_name,'NoCompensation')
++ [n,nx]=size(D); sigma=zeros(1,nx);
++ for j=1:nx, ni=estimate_trace_snr(D(:,j),cm.t); sigma(j)=ni.sigma; end
++ % Identity reference S=D, not an attenuation inverse. Residual is for I*S=D.
++ rec=struct('flag',0,'initial_flag',0,'solver','IdentityPassThrough','iterations',0, ...
++  'normal_residual',0,'data_residual',0);
++ prior=struct('H',sparse(n*nx,n*nx),'sigma',sigma,'lambda',zeros(1,nx),'pilot',D);
++ preset=struct('name',branch_name,'gamma',0,'pilot_multiplier',0,'noise_target_multiplier',1);
++ out=struct('direct',D,'split',D,'scale',0,'target',0,'endpoint',false,'residual_mismatch',0, ...
++  'records',{{rec,rec}},'direct_record',rec,'split_record',rec,'effective_method',branch_name, ...
++  'fallback_used',false,'compensation_applied',false,'pipeline_status','UNCOMPENSATED_REFERENCE');
++ return;
++end
+ o_struct=structure_options(); v2=v2_options();
+ [n,nx]=size(D); sigma=zeros(1,nx); lam=sigma; pilot=zeros(n,nx);
+ for j=1:nx
+--- fixed/core_p1/matlab_src/uq_inverse_config.m
++++ guarded/core_p1/matlab_src/uq_inverse_config.m
+@@ -3,6 +3,8 @@
+ c=p; c.Q=repmat(est.effective_Q,1,4); c.fpeak=est.estimated_frequency;
+ c.event_t=cumsum(2*p.h./p.vp(1:3));
+ c.log_parameter_covariance=zeros(2);
++c.calibration_reliable=false;
++if isfield(est,'reliability'), c.calibration_reliable=est.reliability.reliable; end
+ if isfield(est,'log_parameter_covariance')
+  c.log_parameter_covariance=est.log_parameter_covariance;
+ end
+--- fixed/core_p1/matlab_src/uq_metric_row.m
++++ guarded/core_p1/matlab_src/uq_metric_row.m
+@@ -7,4 +7,12 @@
+ row.Scale=out.scale; row.ScaleEndpoint=out.endpoint; row.TargetMismatch=out.residual_mismatch;
+ row.NormalResidual=r.normal_residual; row.FinalFlag=r.flag; row.Solver=r.solver;
+ row.HTruthRatio=norm(prior.H*scene.truth(:))/norm(scene.truth(:));
++row.CalibrationReliable=est.reliability.reliable;
++row.CalibrationFitDeviance=est.reliability.fit_deviance;
++row.FallbackUsed=false; row.CompensationApplied=true; row.EffectiveMethod=method;
++row.PipelineStatus='UNGUARDED_COMPENSATION';
++if isfield(out,'fallback_used'), row.FallbackUsed=out.fallback_used; end
++if isfield(out,'compensation_applied'), row.CompensationApplied=out.compensation_applied; end
++if isfield(out,'effective_method'), row.EffectiveMethod=out.effective_method; end
++if isfield(out,'pipeline_status'), row.PipelineStatus=out.pipeline_status; end
+ end
+--- fixed/core_p1/p1_compensate.m
++++ guarded/core_p1/p1_compensate.m
+@@ -1,8 +1,8 @@
+ function out=p1_compensate(D,offsets,public,calibrationD,calibrationOffsets,domain,variant)
+ % P1 public entry point. Enforces public input whitelist; zero access to true Q, fpeak, rho, vs.
+ % Outputs Direct and Split using common priors and uncertainty-averaged empirical weights.
+-if nargin<7 || isempty(variant), variant='CombinedUncertainty'; end
+-allowedVariants={'Baseline','Frozen','StrongerDamping','NoiseUncertaintyOnly','QModelErrorOnly','CombinedUncertainty','CombinedUncertainty_NoStructure','TargetMatched','CombinedFixedTarget'};
++if nargin<7 || isempty(variant), variant='GuardedNoise'; end
++allowedVariants={'Baseline','Frozen','StrongerDamping','NoiseUncertaintyOnly','QModelErrorOnly','CombinedUncertainty','CombinedUncertainty_NoStructure','TargetMatched','CombinedFixedTarget','GuardedNoise','NoCompensation'};
+ assert(any(strcmp(variant,allowedVariants)),'Unsupported P1 variant');
+ root=fileparts(mfilename('fullpath')); oldpath=path; cleanup=onCleanup(@()path(oldpath));
+ addpath(fullfile(root,'matlab_src'));
+@@ -15,6 +15,12 @@
+ assert(all(isfinite(calibrationD(:))) && size(calibrationD,2)>=11,'Calibration requires 11-trace layout');
+ est=p1_calibrate_ensemble(calibrationD,calibrationOffsets,public);
+ cm=uq_inverse_config(public,est);
++if strcmp(variant,'GuardedNoise') && ~cm.calibration_reliable
++ [out,prior,preset]=p1_solve_branch(D,{},[],cm,domain,sparse(numel(D),numel(D)),variant);
++ out.estimated_Q=est; out.prior=prior; out.preset=preset;
++ out.selected_method='NoCompensation_Split'; out.requested_method=variant; out.gather=out.split;
++ return;
++end
+ allmodels=prepare_models_v2(public.offset,cm);
+ R_avo=avo_projector_v2(allmodels);
+ map=ones(1,numel(offsets));
+@@ -24,5 +30,6 @@
+ models=allmodels(map);
+ [out,prior,preset]=p1_solve_branch(D,models,map,cm,domain,R_avo,variant);
+ out.estimated_Q=est; out.prior=prior; out.preset=preset;
+-out.selected_method=['UnknownQ_' variant '_Split']; out.gather=out.split;
++actual=variant; if isfield(out,'effective_method'), actual=out.effective_method; end
++out.selected_method=[actual '_Split']; out.requested_method=variant; out.gather=out.split;
+ end
+--- fixed/core_p1/run_p1_research.m
++++ guarded/core_p1/run_p1_research.m
+@@ -6,17 +6,28 @@
+ addpath(fullfile(root,'matlab_src'));
+ switch action
+  case 'validate'
+-  mkdir(outdir); validate_p1_unknown_q(fullfile(outdir,'original_units')); p1_regression_checks(outdir);
++  mkdir(outdir); validate_p1_unknown_q(fullfile(outdir,'original_units')); p1_regression_checks(outdir); p1_guard_checks(outdir);
+  case {'regression','replay'}, run_research(action,outdir);
+- case {'smoke','p1_experiment','full'}
++ case {'smoke','guard_trial','p1_experiment','full'}
+   spec=jsondecode(fileread(fullfile(root,'inputs','p1_experiment_spec.json')));
+-  if strcmp(action,'smoke')
++  small=any(strcmp(action,{'smoke','guard_trial'}));
++  if small
+    spec.calibration_seeds=spec.calibration_seeds(1); spec.test_seeds=spec.test_seeds(1);
+    spec.models.historical=spec.models.historical(1);
+    spec.models.development=[]; spec.models.heldout_new_geology=[];
+    spec.stress_suites=spec.stress_suites(strcmp({spec.stress_suites.name},'StressVelocityError'));
+   end
+-  p1_run_grid(outdir,spec,strcmp(action,'smoke'));
++  if strcmp(action,'guard_trial')
++   spec.test_seeds=[20261101;20261107];
++   chosen={'Frozen','NoiseUncertaintyOnly','CombinedUncertainty','GuardedNoise','NoCompensation'};
++   spec.methods=spec.methods(ismember({spec.methods.name},chosen));
++   positive=spec.stress_suites; negative=positive;
++   positive.name='StressVelocityPlus3'; positive.vp_multiplier=1.03;
++   negative.name='StressVelocityMinus3'; negative.vp_multiplier=.97;
++   negative.description='-3% velocity with fixed thickness; recalibrate and rebuild operators';
++   spec.stress_suites=[positive;negative];
++  end
++  p1_run_grid(outdir,spec,small);
+  otherwise, error('Unknown action: %s',action);
+ end
+ end

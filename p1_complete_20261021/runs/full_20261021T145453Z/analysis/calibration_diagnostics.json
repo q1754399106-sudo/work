@@ -1,0 +1,380 @@
+[
+  {
+    "model": "SoftLowQ",
+    "file": "SoftLowQ\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "SoftLowQ",
+    "file": "SoftLowQ\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "SoftLowQ",
+    "file": "SoftLowQ\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "SoftLowQ",
+    "file": "SoftLowQ\\matlab\\velocity_20261030.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "SoftLowQ",
+    "file": "SoftLowQ\\matlab\\velocity_20261035.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "SoftLowQ",
+    "file": "SoftLowQ\\matlab\\velocity_20261040.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "VelocityReversal",
+    "file": "VelocityReversal\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "VelocityReversal",
+    "file": "VelocityReversal\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "VelocityReversal",
+    "file": "VelocityReversal\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "VelocityReversal",
+    "file": "VelocityReversal\\matlab\\velocity_20261030.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "VelocityReversal",
+    "file": "VelocityReversal\\matlab\\velocity_20261035.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "VelocityReversal",
+    "file": "VelocityReversal\\matlab\\velocity_20261040.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "ThinHighFrequency",
+    "file": "ThinHighFrequency\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "ThinHighFrequency",
+    "file": "ThinHighFrequency\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "ThinHighFrequency",
+    "file": "ThinHighFrequency\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "ThinHighFrequency",
+    "file": "ThinHighFrequency\\matlab\\velocity_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": true,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "ThinHighFrequency",
+    "file": "ThinHighFrequency\\matlab\\velocity_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": true,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "ThinHighFrequency",
+    "file": "ThinHighFrequency\\matlab\\velocity_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": true,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_ModerateQ",
+    "file": "Dev_ModerateQ\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_ModerateQ",
+    "file": "Dev_ModerateQ\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_ModerateQ",
+    "file": "Dev_ModerateQ\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_ModerateQ",
+    "file": "Dev_ModerateQ\\matlab\\velocity_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_ModerateQ",
+    "file": "Dev_ModerateQ\\matlab\\velocity_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_ModerateQ",
+    "file": "Dev_ModerateQ\\matlab\\velocity_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_DeepContrast",
+    "file": "Dev_DeepContrast\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_DeepContrast",
+    "file": "Dev_DeepContrast\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_DeepContrast",
+    "file": "Dev_DeepContrast\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_DeepContrast",
+    "file": "Dev_DeepContrast\\matlab\\velocity_20261030.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Dev_DeepContrast",
+    "file": "Dev_DeepContrast\\matlab\\velocity_20261035.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "Dev_DeepContrast",
+    "file": "Dev_DeepContrast\\matlab\\velocity_20261040.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_StrongAtten",
+    "file": "Holdout_StrongAtten\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_StrongAtten",
+    "file": "Holdout_StrongAtten\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_StrongAtten",
+    "file": "Holdout_StrongAtten\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_StrongAtten",
+    "file": "Holdout_StrongAtten\\matlab\\velocity_20261030.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "Holdout_StrongAtten",
+    "file": "Holdout_StrongAtten\\matlab\\velocity_20261035.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "Holdout_StrongAtten",
+    "file": "Holdout_StrongAtten\\matlab\\velocity_20261040.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "Holdout_HighContrastReversal",
+    "file": "Holdout_HighContrastReversal\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_HighContrastReversal",
+    "file": "Holdout_HighContrastReversal\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_HighContrastReversal",
+    "file": "Holdout_HighContrastReversal\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_HighContrastReversal",
+    "file": "Holdout_HighContrastReversal\\matlab\\velocity_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_HighContrastReversal",
+    "file": "Holdout_HighContrastReversal\\matlab\\velocity_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_HighContrastReversal",
+    "file": "Holdout_HighContrastReversal\\matlab\\velocity_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_ThinInterbed",
+    "file": "Holdout_ThinInterbed\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_ThinInterbed",
+    "file": "Holdout_ThinInterbed\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_ThinInterbed",
+    "file": "Holdout_ThinInterbed\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_ThinInterbed",
+    "file": "Holdout_ThinInterbed\\matlab\\velocity_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": true,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "Holdout_ThinInterbed",
+    "file": "Holdout_ThinInterbed\\matlab\\velocity_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": true,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_ThinInterbed",
+    "file": "Holdout_ThinInterbed\\matlab\\velocity_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": true,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "Holdout_DeepLowQ",
+    "file": "Holdout_DeepLowQ\\matlab\\calibration_20261030.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_DeepLowQ",
+    "file": "Holdout_DeepLowQ\\matlab\\calibration_20261035.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_DeepLowQ",
+    "file": "Holdout_DeepLowQ\\matlab\\calibration_20261040.json",
+    "q_boundary": false,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_DeepLowQ",
+    "file": "Holdout_DeepLowQ\\matlab\\velocity_20261030.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  },
+  {
+    "model": "Holdout_DeepLowQ",
+    "file": "Holdout_DeepLowQ\\matlab\\velocity_20261035.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 0
+  },
+  {
+    "model": "Holdout_DeepLowQ",
+    "file": "Holdout_DeepLowQ\\matlab\\velocity_20261040.json",
+    "q_boundary": true,
+    "frequency_boundary": false,
+    "optimizer_exitflag": 1
+  }
+]

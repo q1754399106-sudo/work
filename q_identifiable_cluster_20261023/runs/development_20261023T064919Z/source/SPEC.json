@@ -1,0 +1,103 @@
+{
+  "registered_utc": "2026-10-23T06:49:18.183828+00:00",
+  "indices_zero_based": [
+    0,
+    5,
+    9,
+    14,
+    19,
+    23,
+    28,
+    33,
+    37,
+    42,
+    47,
+    51,
+    56,
+    61,
+    65,
+    70,
+    75,
+    79,
+    84,
+    89,
+    93,
+    98
+  ],
+  "development": "complex_fieldlike_20261023",
+  "methods": [
+    "FullCalRefit",
+    "PrunedFullCalRefit",
+    "GlobalTSVD",
+    "ClusterModesNoQ",
+    "QAwareRidge",
+    "QAwareCluster"
+  ],
+  "finite_difference_log_step": 0.02,
+  "mode_penalty_log_nt_multiplier": 1.0,
+  "svd_relative_cutoff": 0.01,
+  "covariance_log_std_floor": 0.03,
+  "covariance_log_std_cap": 0.5,
+  "calibration_log_prior_std": 0.5,
+  "variants": [
+    {
+      "name": "FreshFoldLowQ",
+      "seed": 20262701,
+      "beds": 42,
+      "spacing": [
+        18,
+        33
+      ],
+      "qbase": 28,
+      "qgradient": 0.025,
+      "frequency": 42,
+      "phase": 12,
+      "offset": 600,
+      "calibration_seed": 20262702,
+      "observation_seeds": [
+        20262711,
+        20262712
+      ]
+    },
+    {
+      "name": "FreshDenseQReverse",
+      "seed": 20262801,
+      "beds": 80,
+      "spacing": [
+        8,
+        18
+      ],
+      "qbase": 85,
+      "qgradient": -0.025,
+      "frequency": 48,
+      "phase": -16,
+      "offset": 450,
+      "calibration_seed": 20262802,
+      "observation_seeds": [
+        20262811,
+        20262812
+      ]
+    },
+    {
+      "name": "FreshThinLowFrequency",
+      "seed": 20262901,
+      "beds": 50,
+      "spacing": [
+        14,
+        29
+      ],
+      "qbase": 45,
+      "qgradient": 0.025,
+      "frequency": 30,
+      "phase": 35,
+      "offset": 300,
+      "calibration_seed": 20262902,
+      "observation_seeds": [
+        20262911,
+        20262912
+      ]
+    }
+  ],
+  "source_generator_sha256": "5304b53b3908602fff2da4b0632c7ac28df5dd34c421a3e802158f9b3da8cf68",
+  "note": "22 fixed spatial samples per 99-trace model; two observations are dependent conditions, not independent models."
+}

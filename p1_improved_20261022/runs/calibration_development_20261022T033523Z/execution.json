@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/calibration_development_20261022T033523Z/source/core_p1');run_calibration_study('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/calibration_development_20261022T033523Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T03:35:24.246259+00:00",
+  "timeout_seconds": 2400.0,
+  "pid": 34276,
+  "exit_code": 0,
+  "elapsed_seconds": 103.82800000000134
+}

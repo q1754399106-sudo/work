@@ -1,0 +1,10 @@
+Main ReplayConfidenceIdentityPenalty rows=2 elapsed=30.3s maxnormal=9.436e-08 flags=0
+Main Target085Gamma3 rows=4 elapsed=37.8s maxnormal=9.436e-08 flags=0
+Main Target075Gamma3 rows=6 elapsed=44.3s maxnormal=9.436e-08 flags=0
+Main Target085Gamma0 rows=8 elapsed=48.5s maxnormal=9.436e-08 flags=0
+Main Target100Gamma0 rows=10 elapsed=52.5s maxnormal=9.436e-08 flags=0
+LowerSNR ReplayConfidenceIdentityPenalty rows=12 elapsed=58.6s maxnormal=9.436e-08 flags=0
+LowerSNR Target085Gamma3 rows=14 elapsed=63.8s maxnormal=9.436e-08 flags=0
+LowerSNR Target075Gamma3 rows=16 elapsed=68.9s maxnormal=9.436e-08 flags=0
+LowerSNR Target085Gamma0 rows=18 elapsed=72.7s maxnormal=9.436e-08 flags=0
+LowerSNR Target100Gamma0 rows=20 elapsed=76.0s maxnormal=9.436e-08 flags=0

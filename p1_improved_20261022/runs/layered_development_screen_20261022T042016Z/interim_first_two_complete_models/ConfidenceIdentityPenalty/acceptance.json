@@ -1,0 +1,803 @@
+{
+  "status": "PROVISIONAL_PASS",
+  "candidate": "ConfidenceIdentityPenalty",
+  "baseline": "Frozen",
+  "route": "Split",
+  "pairs": 24,
+  "equal_model_main_improvement": 0.12934039401237285,
+  "groups": [
+    {
+      "Suite": "LowerSNR",
+      "Model": "Dev_DeepContrast",
+      "n": 5,
+      "baseline": 0.6830209833254121,
+      "candidate": 0.658451915741764,
+      "improvement_percent": 3.5971175386192544,
+      "baseline_median": 0.675193439005987,
+      "candidate_median": 0.638580209631695,
+      "baseline_p90": 0.703363786114,
+      "candidate_p90": 0.7111015414685162,
+      "baseline_p95": 0.707428213510813,
+      "candidate_p95": 0.7235169444407386,
+      "baseline_worst": 0.711492640907626,
+      "candidate_worst": 0.735932347412961,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "LowerSNR",
+      "Model": "Dev_ModerateQ",
+      "n": 5,
+      "baseline": 0.7246520190121158,
+      "candidate": 0.6407121978267702,
+      "improvement_percent": 11.583466130374799,
+      "baseline_median": 0.716854295908848,
+      "candidate_median": 0.664805869484392,
+      "baseline_p90": 0.7417019043861968,
+      "candidate_p90": 0.6813143515839019,
+      "baseline_p95": 0.7457172840443884,
+      "candidate_p95": 0.6848695863675824,
+      "baseline_worst": 0.74973266370258,
+      "candidate_worst": 0.688424821151263,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "Main",
+      "Model": "Dev_DeepContrast",
+      "n": 5,
+      "baseline": 0.574176485863615,
+      "candidate": 0.537657865185854,
+      "improvement_percent": 6.360173496626842,
+      "baseline_median": 0.566408971168216,
+      "candidate_median": 0.507541401675909,
+      "baseline_p90": 0.5951270025071513,
+      "candidate_p90": 0.595868357583643,
+      "baseline_p95": 0.5952090421935482,
+      "candidate_p95": 0.609652604640783,
+      "baseline_worst": 0.595291081879945,
+      "candidate_worst": 0.623436851697923,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "Main",
+      "Model": "Dev_ModerateQ",
+      "n": 5,
+      "baseline": 0.6337951387574456,
+      "candidate": 0.5140742335509526,
+      "improvement_percent": 18.889527212405845,
+      "baseline_median": 0.635316921835244,
+      "candidate_median": 0.502839038450376,
+      "baseline_p90": 0.6590246700213442,
+      "candidate_p90": 0.5567824070301418,
+      "baseline_p95": 0.6659303191107706,
+      "candidate_p95": 0.5617562015020965,
+      "baseline_worst": 0.672835968200197,
+      "candidate_worst": 0.566729995974051,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "StressVelocityMinus3",
+      "Model": "Dev_DeepContrast",
+      "n": 1,
+      "baseline": 0.780671599629031,
+      "candidate": 0.504540535159865,
+      "improvement_percent": 35.37096323221971,
+      "baseline_median": 0.780671599629031,
+      "candidate_median": 0.504540535159865,
+      "baseline_p90": 0.780671599629031,
+      "candidate_p90": 0.504540535159865,
+      "baseline_p95": 0.780671599629031,
+      "candidate_p95": 0.504540535159865,
+      "baseline_worst": 0.780671599629031,
+      "candidate_worst": 0.504540535159865,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "StressVelocityMinus3",
+      "Model": "Dev_ModerateQ",
+      "n": 1,
+      "baseline": 0.573489825328423,
+      "candidate": 0.48759487758061,
+      "improvement_percent": 14.977588782612338,
+      "baseline_median": 0.573489825328423,
+      "candidate_median": 0.48759487758061,
+      "baseline_p90": 0.573489825328423,
+      "candidate_p90": 0.48759487758061,
+      "baseline_p95": 0.573489825328423,
+      "candidate_p95": 0.48759487758061,
+      "baseline_worst": 0.573489825328423,
+      "candidate_worst": 0.48759487758061,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "StressVelocityPlus3",
+      "Model": "Dev_DeepContrast",
+      "n": 1,
+      "baseline": 0.921016109230492,
+      "candidate": 0.504540432042229,
+      "improvement_percent": 45.219152305189105,
+      "baseline_median": 0.921016109230492,
+      "candidate_median": 0.504540432042229,
+      "baseline_p90": 0.921016109230492,
+      "candidate_p90": 0.504540432042229,
+      "baseline_p95": 0.921016109230492,
+      "candidate_p95": 0.504540432042229,
+      "baseline_worst": 0.921016109230492,
+      "candidate_worst": 0.504540432042229,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "StressVelocityPlus3",
+      "Model": "Dev_ModerateQ",
+      "n": 1,
+      "baseline": 10.9972302930992,
+      "candidate": 0.487602264358727,
+      "improvement_percent": 95.56613573269718,
+      "baseline_median": 10.9972302930992,
+      "candidate_median": 0.487602264358727,
+      "baseline_p90": 10.9972302930992,
+      "candidate_p90": 0.487602264358727,
+      "baseline_p95": 10.9972302930992,
+      "candidate_p95": 0.487602264358727,
+      "baseline_worst": 10.9972302930992,
+      "candidate_worst": 0.487602264358727,
+      "baseline_failures": 1,
+      "candidate_failures": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "matched_prior_direct_present",
+      "pass_": true,
+      "detail": "CSV presence only; identical prior/Q and tuning-budget provenance must be audited separately."
+    },
+    {
+      "name": "local_scenario_coverage",
+      "pass_": true,
+      "detail": [
+        "CoherentNoiseAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "SmoothAVO",
+        "WeakSection"
+      ]
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "Dev_DeepContrast",
+        "n": 5,
+        "baseline": 0.6830209833254121,
+        "candidate": 0.658451915741764,
+        "improvement_percent": 3.5971175386192544,
+        "baseline_median": 0.675193439005987,
+        "candidate_median": 0.638580209631695,
+        "baseline_p90": 0.703363786114,
+        "candidate_p90": 0.7111015414685162,
+        "baseline_p95": 0.707428213510813,
+        "candidate_p95": 0.7235169444407386,
+        "baseline_worst": 0.711492640907626,
+        "candidate_worst": 0.735932347412961,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 5
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5951868142122012,
+        "candidate": 0.5578110768329466,
+        "allowance": 0.029759340710610063,
+        "n": 5
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.503282824061745,
+        "candidate": 0.511187119903232,
+        "allowance": 0.02516414120308725,
+        "n": 1
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.658827342448367,
+        "candidate": 0.662564088420275,
+        "allowance": 0.03294136712241835,
+        "n": 1
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.00446664314981207,
+        "candidate": 0.00162959375459111,
+        "allowance": 0.001,
+        "n": 1
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.584053531233118,
+        "candidate": 0.4929579489492675,
+        "allowance": 0.0292026765616559,
+        "n": 2
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_DeepContrast/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.605916931358223,
+        "candidate": 0.5166661941630505,
+        "allowance": 0.03029584656791115,
+        "n": 2
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "Dev_ModerateQ",
+        "n": 5,
+        "baseline": 0.7246520190121158,
+        "candidate": 0.6407121978267702,
+        "improvement_percent": 11.583466130374799,
+        "baseline_median": 0.716854295908848,
+        "candidate_median": 0.664805869484392,
+        "baseline_p90": 0.7417019043861968,
+        "candidate_p90": 0.6813143515839019,
+        "baseline_p95": 0.7457172840443884,
+        "candidate_p95": 0.6848695863675824,
+        "baseline_worst": 0.74973266370258,
+        "candidate_worst": 0.688424821151263,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 5
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6593195930533864,
+        "candidate": 0.50568010465876,
+        "allowance": 0.03296597965266932,
+        "n": 5
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.627537730139944,
+        "candidate": 0.47233799912907,
+        "allowance": 0.0313768865069972,
+        "n": 1
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.700588580341353,
+        "candidate": 0.652954601485802,
+        "allowance": 0.03502942901706765,
+        "n": 1
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.00239556453875852,
+        "candidate": 0.00250795584687432,
+        "allowance": 0.001,
+        "n": 1
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6672135271536295,
+        "candidate": 0.4299146369586855,
+        "allowance": 0.033360676357681474,
+        "n": 2
+      }
+    },
+    {
+      "name": "LowerSNR/Dev_ModerateQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7341342670910556,
+        "candidate": 0.5256986603586845,
+        "allowance": 0.03670671335455278,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "Dev_DeepContrast",
+        "n": 5,
+        "baseline": 0.574176485863615,
+        "candidate": 0.537657865185854,
+        "improvement_percent": 6.360173496626842,
+        "baseline_median": 0.566408971168216,
+        "candidate_median": 0.507541401675909,
+        "baseline_p90": 0.5951270025071513,
+        "candidate_p90": 0.595868357583643,
+        "baseline_p95": 0.5952090421935482,
+        "candidate_p95": 0.609652604640783,
+        "baseline_worst": 0.595291081879945,
+        "candidate_worst": 0.623436851697923,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.4610574682328854,
+        "candidate": 0.421694794937257,
+        "allowance": 0.023052873411644272,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.376590646980461,
+        "candidate": 0.342772540085427,
+        "allowance": 0.018829532349023053,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.559803829932642,
+        "candidate": 0.540420673187292,
+        "allowance": 0.0279901914966321,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.00341520363538211,
+        "candidate": 0.00130331769273533,
+        "allowance": 0.001,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.4621543372203635,
+        "candidate": 0.3707962538963485,
+        "allowance": 0.023107716861018174,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/Dev_DeepContrast/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.4887143174775085,
+        "candidate": 0.38201966109382945,
+        "allowance": 0.024435715873875427,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "Dev_ModerateQ",
+        "n": 5,
+        "baseline": 0.6337951387574456,
+        "candidate": 0.5140742335509526,
+        "improvement_percent": 18.889527212405845,
+        "baseline_median": 0.635316921835244,
+        "candidate_median": 0.502839038450376,
+        "baseline_p90": 0.6590246700213442,
+        "candidate_p90": 0.5567824070301418,
+        "baseline_p95": 0.6659303191107706,
+        "candidate_p95": 0.5617562015020965,
+        "baseline_worst": 0.672835968200197,
+        "candidate_worst": 0.566729995974051,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5513857945032702,
+        "candidate": 0.3721477590202932,
+        "allowance": 0.02756928972516351,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.544843935294589,
+        "candidate": 0.328875042797601,
+        "allowance": 0.02724219676472945,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.608228630022118,
+        "candidate": 0.532209266831697,
+        "allowance": 0.030411431501105902,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.00196538838310368,
+        "candidate": 0.00226387974276517,
+        "allowance": 0.001,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.570395969822522,
+        "candidate": 0.3230078207723975,
+        "allowance": 0.028519798491126104,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/Dev_ModerateQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.638552518302694,
+        "candidate": 0.4120979134445285,
+        "allowance": 0.0319276259151347,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_DeepContrast/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressVelocityMinus3",
+        "Model": "Dev_DeepContrast",
+        "n": 1,
+        "baseline": 0.780671599629031,
+        "candidate": 0.504540535159865,
+        "improvement_percent": 35.37096323221971,
+        "baseline_median": 0.780671599629031,
+        "candidate_median": 0.504540535159865,
+        "baseline_p90": 0.780671599629031,
+        "candidate_p90": 0.504540535159865,
+        "baseline_p95": 0.780671599629031,
+        "candidate_p95": 0.504540535159865,
+        "baseline_worst": 0.780671599629031,
+        "candidate_worst": 0.504540535159865,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_DeepContrast/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_DeepContrast/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.761376474625632,
+        "candidate": 0.396538232363219,
+        "allowance": 0.0380688237312816,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_DeepContrast/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.732412935792127,
+        "candidate": 0.372134577293797,
+        "allowance": 0.03662064678960635,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_DeepContrast/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.708417660255292,
+        "candidate": 0.374460063593099,
+        "allowance": 0.0354208830127646,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_ModerateQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressVelocityMinus3",
+        "Model": "Dev_ModerateQ",
+        "n": 1,
+        "baseline": 0.573489825328423,
+        "candidate": 0.48759487758061,
+        "improvement_percent": 14.977588782612338,
+        "baseline_median": 0.573489825328423,
+        "candidate_median": 0.48759487758061,
+        "baseline_p90": 0.573489825328423,
+        "candidate_p90": 0.48759487758061,
+        "baseline_p95": 0.573489825328423,
+        "candidate_p95": 0.48759487758061,
+        "baseline_worst": 0.573489825328423,
+        "candidate_worst": 0.48759487758061,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_ModerateQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_ModerateQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.456130081560017,
+        "candidate": 0.37644054644243,
+        "allowance": 0.02280650407800085,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_ModerateQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.460863378464853,
+        "candidate": 0.352503355778394,
+        "allowance": 0.023043168923242652,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/Dev_ModerateQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.559270771693208,
+        "candidate": 0.40272272311706,
+        "allowance": 0.027963538584660403,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_DeepContrast/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressVelocityPlus3",
+        "Model": "Dev_DeepContrast",
+        "n": 1,
+        "baseline": 0.921016109230492,
+        "candidate": 0.504540432042229,
+        "improvement_percent": 45.219152305189105,
+        "baseline_median": 0.921016109230492,
+        "candidate_median": 0.504540432042229,
+        "baseline_p90": 0.921016109230492,
+        "candidate_p90": 0.504540432042229,
+        "baseline_p95": 0.921016109230492,
+        "candidate_p95": 0.504540432042229,
+        "baseline_worst": 0.921016109230492,
+        "candidate_worst": 0.504540432042229,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_DeepContrast/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_DeepContrast/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.914624519306992,
+        "candidate": 0.396543499892105,
+        "allowance": 0.0457312259653496,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_DeepContrast/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.895100659281894,
+        "candidate": 0.372139606541129,
+        "allowance": 0.0447550329640947,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_DeepContrast/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.878166171581033,
+        "candidate": 0.374464535758537,
+        "allowance": 0.043908308579051654,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_ModerateQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressVelocityPlus3",
+        "Model": "Dev_ModerateQ",
+        "n": 1,
+        "baseline": 10.9972302930992,
+        "candidate": 0.487602264358727,
+        "improvement_percent": 95.56613573269718,
+        "baseline_median": 10.9972302930992,
+        "candidate_median": 0.487602264358727,
+        "baseline_p90": 10.9972302930992,
+        "candidate_p90": 0.487602264358727,
+        "baseline_p95": 10.9972302930992,
+        "candidate_p95": 0.487602264358727,
+        "baseline_worst": 10.9972302930992,
+        "candidate_worst": 0.487602264358727,
+        "baseline_failures": 1,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_ModerateQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 1,
+        "candidate": 0,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_ModerateQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 3.09506360432772,
+        "candidate": 0.376460477347349,
+        "allowance": 0.154753180216386,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_ModerateQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 2.64212577555423,
+        "candidate": 0.352526056256625,
+        "allowance": 0.1321062887777115,
+        "n": 1
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/Dev_ModerateQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 2.33643497812194,
+        "candidate": 0.402748706910236,
+        "allowance": 0.116821748906097,
+        "n": 1
+      }
+    },
+    {
+      "name": "main_equal_model_improvement",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6039858123105304,
+        "candidate": 0.5258660493684033,
+        "relative_improvement": 0.12934039401237285
+      }
+    },
+    {
+      "name": "candidate_solver_quality",
+      "pass_": true,
+      "detail": "Direct and requested route included"
+    }
+  ],
+  "diagnostic_counts": {},
+  "scope": "Engineering gates on supplied paired metrics. No automatic proof of independent geology, absence of leakage or statistical significance.",
+  "unverified_requirements": [
+    "new geological holdout",
+    "repeated independent calibration",
+    "identical information/priors across routes",
+    "source/config hashes and actual execution",
+    "hierarchical uncertainty intervals"
+  ]
+}

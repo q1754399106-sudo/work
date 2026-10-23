@@ -1,0 +1,7 @@
+{在不同结构体之间进行下标赋值。
+
+出错 run_complete_job (第 26 行)
+ audit(ic)=struct('calibration_seed',cseed,'operator_change',delta,'Q',est.effective_Q, ...
+ ^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

@@ -1,0 +1,150 @@
+{
+  "calibration_seeds": [
+    20261201
+  ],
+  "test_seeds": [
+    20261211
+  ],
+  "profiles": [
+    {
+      "name": "ConfidenceOnly",
+      "confidence_floor": 0.2,
+      "section_modal_blend": 1,
+      "section_target": -1,
+      "section_gamma": 10
+    },
+    {
+      "name": "ConfidenceBalanced",
+      "confidence_floor": 0.2,
+      "section_modal_blend": 0.5,
+      "section_target": 1,
+      "section_gamma": 10
+    },
+    {
+      "name": "ConfidenceLight",
+      "confidence_floor": 0.2,
+      "section_modal_blend": 0.25,
+      "section_target": 1,
+      "section_gamma": 3
+    },
+    {
+      "name": "ConfidenceIdentityPenalty",
+      "confidence_floor": 0.2,
+      "section_modal_blend": 0,
+      "section_target": 1,
+      "section_gamma": 3
+    }
+  ],
+  "additional_models": [
+    {
+      "name": "Dev_ThinPairWideContrast",
+      "vp": [
+        2100,
+        2500,
+        2800,
+        3250
+      ],
+      "vs": [
+        970,
+        1290,
+        1500,
+        1780
+      ],
+      "rho": [
+        2.01,
+        2.2,
+        2.33,
+        2.5
+      ],
+      "Q": [
+        30,
+        75,
+        45,
+        90
+      ],
+      "event_t": [
+        0.33,
+        0.68,
+        0.704
+      ],
+      "fpeak": 84,
+      "nominal_frequency": 90
+    },
+    {
+      "name": "Dev_ThinLowQ",
+      "vp": [
+        1850,
+        2250,
+        2500,
+        2950
+      ],
+      "vs": [
+        820,
+        1110,
+        1330,
+        1630
+      ],
+      "rho": [
+        1.97,
+        2.13,
+        2.28,
+        2.46
+      ],
+      "Q": [
+        24,
+        45,
+        28,
+        65
+      ],
+      "event_t": [
+        0.37,
+        0.71,
+        0.732
+      ],
+      "fpeak": 72,
+      "nominal_frequency": 80
+    }
+  ],
+  "suites": [
+    {
+      "name": "Main",
+      "snr_db": 18,
+      "vp_multiplier": 1,
+      "scenarios": [
+        "SmoothAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "WeakSection",
+        "CoherentNoiseAVO"
+      ]
+    },
+    {
+      "name": "LowerSNR",
+      "snr_db": 12,
+      "vp_multiplier": 1,
+      "scenarios": [
+        "SmoothAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "WeakSection",
+        "CoherentNoiseAVO"
+      ]
+    },
+    {
+      "name": "StressVelocityPlus3",
+      "snr_db": 18,
+      "vp_multiplier": 1.03,
+      "scenarios": [
+        "SmoothAVO"
+      ]
+    },
+    {
+      "name": "StressVelocityMinus3",
+      "snr_db": 18,
+      "vp_multiplier": 0.97,
+      "scenarios": [
+        "SmoothAVO"
+      ]
+    }
+  ]
+}

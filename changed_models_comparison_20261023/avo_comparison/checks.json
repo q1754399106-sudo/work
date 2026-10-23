@@ -1,0 +1,30 @@
+{
+  "cases": 40,
+  "model_checks": {
+    "Changed_DeepLowQ": {
+      "synthetic_two_term_max_error": 2.1649348980190553e-15,
+      "max_idempotence_error": 8.326672684688674e-17,
+      "calibration_source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\calibration_Changed_DeepLowQ.json",
+      "calibration_sha256": "c2511159013b24f75db9e7eee96ce338d4f8b71a882b09eb3a9ede7f8b329827"
+    },
+    "Changed_ThinPolarity": {
+      "synthetic_two_term_max_error": 2.130240428499519e-15,
+      "max_idempotence_error": 5.551115123125783e-17,
+      "calibration_source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\calibration_Changed_ThinPolarity.json",
+      "calibration_sha256": "ae3a734baa49bafbe5e2526d16064aab6858e82fbdd6449637f711815b068522"
+    },
+    "Changed_LowContrast": {
+      "synthetic_two_term_max_error": 2.1788126858268697e-15,
+      "max_idempotence_error": 1.734723475976807e-17,
+      "calibration_source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\calibration_Changed_LowContrast.json",
+      "calibration_sha256": "0ade6a353de9b320485e4352d025821d38da3513295641556726e0361716a9e0"
+    },
+    "Changed_HighFreqQReverse": {
+      "synthetic_two_term_max_error": 1.7763568394002505e-15,
+      "max_idempotence_error": 5.551115123125783e-17,
+      "calibration_source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\calibration_Changed_HighFreqQReverse.json",
+      "calibration_sha256": "0cd9f3437b84392168a289757bd322bd5e74a4645f130dc0c6444784dec037b5"
+    }
+  },
+  "original_compensation_unchanged": true
+}

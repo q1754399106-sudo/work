@@ -1,0 +1,14 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "matlab_executable": "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+  "workers": 2,
+  "per_model_timeout_seconds": 43200,
+  "created_utc": "2026-10-22T05:41:43.539008+00:00",
+  "source_manifest_sha256": "553f406d0e59a049ab7872514f3528d8eb8cca8ede48849d60b8edb0fc90dce7",
+  "policy_sha256": "523e95ba3085b58945241af6121c928dfd9bfd24bff585f2ce8ae0ad4921a3f3",
+  "original_run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_complete_20261021\\runs\\full_20261021T145453Z",
+  "reserved_models_frozen_before_selection": true,
+  "original_models_are_regression": true,
+  "actual_matlab_versions_recorded_in_per_model_checks": true
+}

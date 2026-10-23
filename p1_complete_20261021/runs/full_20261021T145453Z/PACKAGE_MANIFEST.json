@@ -1,0 +1,1260 @@
+{
+  "files": [
+    {
+      "path": "analysis/acceptance_CombinedUncertainty/acceptance.json",
+      "bytes": 149710,
+      "sha256": "44b88a168eba3cc72a14de298d866ca9becd9e107023bb4fbe3b2cb04ced9e1e"
+    },
+    {
+      "path": "analysis/acceptance_CombinedUncertainty/effects.html",
+      "bytes": 105622,
+      "sha256": "c162bf5f80412611f0a1bc969803591862127a8ebc38d6ca57162a54cf2316fd"
+    },
+    {
+      "path": "analysis/acceptance_CombinedUncertainty/EFFECTS_ZH.md",
+      "bytes": 8217,
+      "sha256": "4a41204aca37740f8920b1140ebbbc46eeda0dc32bd99ee0fbd2278eb00f794a"
+    },
+    {
+      "path": "analysis/acceptance_CombinedUncertainty/paired_differences.csv",
+      "bytes": 883322,
+      "sha256": "35e2ec4b5c802d235ebe358f08d67b330f7aa31da4ff376e207c6dd6f82e1464"
+    },
+    {
+      "path": "analysis/acceptance_CombinedUncertainty_NoStructure/acceptance.json",
+      "bytes": 149786,
+      "sha256": "078bccf869f3c7e0d292f5d1f924a00cb9aa907672854694a1932bcc4d1c3778"
+    },
+    {
+      "path": "analysis/acceptance_CombinedUncertainty_NoStructure/effects.html",
+      "bytes": 105751,
+      "sha256": "15954bae604ecefc0a251863b165bcb58feae2fbb88e2df3c2dd566ec842761f"
+    },
+    {
+      "path": "analysis/acceptance_CombinedUncertainty_NoStructure/EFFECTS_ZH.md",
+      "bytes": 13861,
+      "sha256": "b7e4e5da9d8bf5f179da5f2b9d4e6d9c6e469a7a0f3edfd04153bc7a82127022"
+    },
+    {
+      "path": "analysis/acceptance_CombinedUncertainty_NoStructure/paired_differences.csv",
+      "bytes": 883513,
+      "sha256": "099ae0b579c90ca3bc5a747a6a87791ee28ac2264a8de4de92e620db2ef6bc37"
+    },
+    {
+      "path": "analysis/acceptance_NoiseUncertaintyOnly/acceptance.json",
+      "bytes": 149744,
+      "sha256": "420775686ac74722de11abb4d48c4f66aa694f9ab12fd2505b4d38bff6ebe86a"
+    },
+    {
+      "path": "analysis/acceptance_NoiseUncertaintyOnly/effects.html",
+      "bytes": 105616,
+      "sha256": "99c72e85cff944e7d6f3b60517dad4ddbbcac8778798dd893e5326ddc7f4fba6"
+    },
+    {
+      "path": "analysis/acceptance_NoiseUncertaintyOnly/EFFECTS_ZH.md",
+      "bytes": 6710,
+      "sha256": "273370d7d1ec60a6f67b3e048e129224599f3a41f80d1ce93201bbd450e24034"
+    },
+    {
+      "path": "analysis/acceptance_NoiseUncertaintyOnly/paired_differences.csv",
+      "bytes": 888513,
+      "sha256": "1cd4478b82561ed62106f27ec7d7602e46fd7ff0776d01c5b1e7028b3ba6dea2"
+    },
+    {
+      "path": "analysis/acceptance_QModelErrorOnly/acceptance.json",
+      "bytes": 149730,
+      "sha256": "38379411ad13011b9e2cf10d858c4f06156fe0ec802ab0804c2385bc8d27c1ad"
+    },
+    {
+      "path": "analysis/acceptance_QModelErrorOnly/effects.html",
+      "bytes": 105643,
+      "sha256": "9aeaaaa9e5dc3421a548a25cb014db1a60ea29036fe827480aef212f823a9a4b"
+    },
+    {
+      "path": "analysis/acceptance_QModelErrorOnly/EFFECTS_ZH.md",
+      "bytes": 8359,
+      "sha256": "6046e37d39cebacd3d0978a8817ca7a6764dab35f0269c0a6f1b73305863a43f"
+    },
+    {
+      "path": "analysis/acceptance_QModelErrorOnly/paired_differences.csv",
+      "bytes": 883418,
+      "sha256": "9bcf5a300c7f5b4c7b5dfbb2f8647138ffd4316a3aeddab603bcf70f9ac1fa87"
+    },
+    {
+      "path": "analysis/acceptance_StrongerDamping/acceptance.json",
+      "bytes": 149920,
+      "sha256": "cb72b29ebe439b7d8df01e3cb90cc62f2196917ccd8bb0ed1725c1dcb0e8aad1"
+    },
+    {
+      "path": "analysis/acceptance_StrongerDamping/effects.html",
+      "bytes": 106658,
+      "sha256": "1aa2690ffde8e2ca67c7d1b34d5845eeaf452f3c79ec6f677f645e9469bbe701"
+    },
+    {
+      "path": "analysis/acceptance_StrongerDamping/EFFECTS_ZH.md",
+      "bytes": 42153,
+      "sha256": "4cd5018abd8ef7b27b7a4e5e61f3b38e91c06535ce44bbbae817f096c9861322"
+    },
+    {
+      "path": "analysis/acceptance_StrongerDamping/paired_differences.csv",
+      "bytes": 872437,
+      "sha256": "3b40c99bb510b540699c0264659471f220c75ab39233ca872bc2cace76ea897b"
+    },
+    {
+      "path": "analysis/acceptance_summary.json",
+      "bytes": 92304,
+      "sha256": "0e0397b338c0179adc73eada67f4967d4f97659ac647e3fc434556fdc2abf29f"
+    },
+    {
+      "path": "analysis/all_methods_solver_quality.json",
+      "bytes": 954,
+      "sha256": "5a4cee4db44b458759c310e42953b0669fb15abcd9272d13f346dc41cf98d67c"
+    },
+    {
+      "path": "analysis/calibration_diagnostics.json",
+      "bytes": 10917,
+      "sha256": "3872cebacc813178f40de50f6b8999661a3704f6263bf2f892c6e0cf99c110c1"
+    },
+    {
+      "path": "analysis/coverage.json",
+      "bytes": 143,
+      "sha256": "bab011fe9fa232f251d17412d244134ce013c2a920c138f4880e1c10d79bd1ce"
+    },
+    {
+      "path": "analysis/crossed_bootstrap_ci.json",
+      "bytes": 1968,
+      "sha256": "660d15bd937bab1d5c048753f9f6fbdedf774799e7449216257e695193bf132b"
+    },
+    {
+      "path": "analysis/deterministic_overlap_replay.json",
+      "bytes": 36827,
+      "sha256": "ca0a71ca8bd18774a05933fa5b9946057bcf6cec123b7f91608cb44768cc9dc2"
+    },
+    {
+      "path": "analysis/group_summary.csv",
+      "bytes": 54580,
+      "sha256": "aa8af7211abb66a555afcd73b8d0a965231d487b86f43fd27a8470d85ffe997b"
+    },
+    {
+      "path": "analysis/matched_prior_fairness.json",
+      "bytes": 272,
+      "sha256": "ee2ca4e54decabfba4c17b07b41f7da726129442d5e94f32ee2aee8e8a86e0cc"
+    },
+    {
+      "path": "analysis/RESULTS_ZH.md",
+      "bytes": 7286,
+      "sha256": "297086726e246f8fc4c329fc0399ac3132d2a1b937c2b460baf8ad431074120b"
+    },
+    {
+      "path": "ANALYSIS_SOURCE_HASHES.json",
+      "bytes": 189,
+      "sha256": "d83ef1d262425201a26ea5b78e0abbb57c26833e5b1d7844ffdbbb7f14974555"
+    },
+    {
+      "path": "analysis_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis_stdout.log",
+      "bytes": 8318,
+      "sha256": "4db39c80167eaee301882433d529000a19a8f26d9557b3d08849a4473b86c3f2"
+    },
+    {
+      "path": "Dev_DeepContrast/execution.json",
+      "bytes": 718,
+      "sha256": "557f89f880644e09e043b6b01ff6cb67e98545a20927ed4f1020f4ec75a0bfdd"
+    },
+    {
+      "path": "Dev_DeepContrast/job.json",
+      "bytes": 2929,
+      "sha256": "29621acf62224c28a5d44bca0146eb8b4208068aa74a81c920125dfc985c1dd9"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/calibration_20261030.json",
+      "bytes": 3170,
+      "sha256": "c4e3196cf1875e4945256fd2947e2058b494e83364cd3982ad41a1d392229c94"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/calibration_20261035.json",
+      "bytes": 3167,
+      "sha256": "d71a002d86d76c348d5946ef01702e99f8fc5be6412d63abd71c50405ce886b3"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/calibration_20261040.json",
+      "bytes": 3182,
+      "sha256": "522f724a413ca69fb656c0ac66a119197917c8ace7b118b7c64ab25cc1687b45"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/calibration_input_20261030.mat",
+      "bytes": 54259,
+      "sha256": "d109c4fca4343fc694fceab7c259dd55f50d86275d602daa6ea4f981010ae03f"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/calibration_input_20261035.mat",
+      "bytes": 54239,
+      "sha256": "b7e422581e45204ebb50726c25885d2ff977064ed7310dc5b936c69459aa066c"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/calibration_input_20261040.mat",
+      "bytes": 54244,
+      "sha256": "eb5436c74dbd564bbb7830345e66cf2b1d3be254c6e46ba919f6b5e8302231b2"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/calibration_operator_audit.json",
+      "bytes": 567,
+      "sha256": "e6c9b2e64e5ae9f71b86844a25eb30bfba007a2f9ec94354b17ae247227496af"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/checks.json",
+      "bytes": 215,
+      "sha256": "ba5f0cc32bed59dfae0d31ec29ed04b803afac764796fae39cc0f924d76455db"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/executed_job.json",
+      "bytes": 1732,
+      "sha256": "8b0a4230d5227c75acd0fa129fd7c17b922ce2d24d99989706e454c33a315cee"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/metrics.csv",
+      "bytes": 2277608,
+      "sha256": "f13cf033ac2f613a7ab918e6d8c2307b7413abc05549c9d219cff32fe4d24e7d"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/progress.json",
+      "bytes": 125,
+      "sha256": "799cba7c13e6902c64d21b06c99a815124786dc9e2bac7a68f931c2877cb69e9"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/velocity_20261030.json",
+      "bytes": 3422,
+      "sha256": "b804dadd72528fcf0af1b6536c73a1ea797bf72d0c959d4d2a89b8f47124efd1"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/velocity_20261035.json",
+      "bytes": 3386,
+      "sha256": "c2eb71beb4c001b673248009ab1503847ed6f919b721c3a860fe1c56a29fbee7"
+    },
+    {
+      "path": "Dev_DeepContrast/matlab/velocity_20261040.json",
+      "bytes": 3407,
+      "sha256": "4f26047d6ab006600dff527d46698e00ff7894bbb1deb64b54100bec65600127"
+    },
+    {
+      "path": "Dev_DeepContrast/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Dev_DeepContrast/stdout.log",
+      "bytes": 36864,
+      "sha256": "4516b72ddfd1bcd8923b00e917a7e0d5198399d76940f5adb615d06e294a394c"
+    },
+    {
+      "path": "Dev_ModerateQ/execution.json",
+      "bytes": 698,
+      "sha256": "7deb7f41e5275f8899d653e5e651d3d8ef6b9e8cf98b703fc12097700e28c890"
+    },
+    {
+      "path": "Dev_ModerateQ/job.json",
+      "bytes": 2926,
+      "sha256": "7ebab2f502379d5c6cfc85d3fcedeb6965baeb460e817026df15736e07a6fc3d"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/calibration_20261030.json",
+      "bytes": 3172,
+      "sha256": "6991d070520b71ebda482edd626f6de4de9ae6b52fe6ad09fc4f2b60d5bb2a21"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/calibration_20261035.json",
+      "bytes": 3157,
+      "sha256": "623e2ebff0d472e1c4d01893fd3938ecec5d0be7a30f57af650e483a860a8d04"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/calibration_20261040.json",
+      "bytes": 3178,
+      "sha256": "f7077a841529b170078c41a3f75e996be216a50b9af5b89a691996bc58230ff6"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/calibration_input_20261030.mat",
+      "bytes": 54306,
+      "sha256": "a7c83b25482d351845708d88add7a4c1b771658a98de469fface633354d4c894"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/calibration_input_20261035.mat",
+      "bytes": 54293,
+      "sha256": "e687412ff6d397f97c8d2f29cfb8d9c3db3d8cd19e5885dc782c60f36be1d30a"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/calibration_input_20261040.mat",
+      "bytes": 54268,
+      "sha256": "5e3768ea0508fdf9985f617ff84ced2356d51a2fe66db1264008fe3eca1f0515"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/calibration_operator_audit.json",
+      "bytes": 564,
+      "sha256": "08e19b95a29c85bf0b9611f3bc3b9bf06d9ef98171507e23bd2e55fde1709493"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/checks.json",
+      "bytes": 214,
+      "sha256": "e75ff8791b74d24f6915d41a2f033873d2295335b5b6370e567eb7ed9a1eb289"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/executed_job.json",
+      "bytes": 1729,
+      "sha256": "3813d916db503f5cc601df80cc4c2c781461ad6f36c846f61c943c9b44e39814"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/metrics.csv",
+      "bytes": 2262443,
+      "sha256": "98c4a9a74b26ea511f979ce53d1c62af7520e8c1dd3e2bd91ffa50eb2706e0ad"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/progress.json",
+      "bytes": 124,
+      "sha256": "4eeecdf460aee5202cb1b6e30585df8fbeb2e0eceb2271a6d4c921b538d9c602"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/velocity_20261030.json",
+      "bytes": 3415,
+      "sha256": "0278b76fd9486365895d56f693da4eaa4a8043b08233b22206a8fd04e2cac07d"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/velocity_20261035.json",
+      "bytes": 3418,
+      "sha256": "a9453e3f69457fd60e7c6bef40fc4da626c77edd8c3e38c5df69f26fc5e494d2"
+    },
+    {
+      "path": "Dev_ModerateQ/matlab/velocity_20261040.json",
+      "bytes": 3409,
+      "sha256": "49c1d1b32be0f6e590c149796863225157641da2490f24c6dcdd9d4ec3eb0134"
+    },
+    {
+      "path": "Dev_ModerateQ/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Dev_ModerateQ/stdout.log",
+      "bytes": 35887,
+      "sha256": "5323377833da16d405346aa717c43958f08d6b132948df7a23ae1ca5a69ff259"
+    },
+    {
+      "path": "EXECUTION_SUMMARY.json",
+      "bytes": 7203,
+      "sha256": "c89f0254fc7f370f1da73656d10079ff30b1f9616ef337572cbced5acd81df89"
+    },
+    {
+      "path": "FROZEN_EXECUTION_PLAN.json",
+      "bytes": 38385,
+      "sha256": "c897a98a14584d43d0b835aecd52c9450f191c2b8732acee8cc1cdd21764eca1"
+    },
+    {
+      "path": "Holdout_DeepLowQ/execution.json",
+      "bytes": 718,
+      "sha256": "953510592c18bd0813f4e1248dfecbad0010e0a01f6ca903958436a1bd6a0587"
+    },
+    {
+      "path": "Holdout_DeepLowQ/job.json",
+      "bytes": 2937,
+      "sha256": "d9059bde480b0451e0419b11399462efac68e63916e2614685926c31e289c81b"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/calibration_20261030.json",
+      "bytes": 3109,
+      "sha256": "ee3d118a5e18388fc205ea6d25660d1bbe01c621a3641a11ad3f343030e018f7"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/calibration_20261035.json",
+      "bytes": 3116,
+      "sha256": "c832b6fc4c08d1f65b5b89796564cc9c53f7b9d1b51a8c8f6284fc092499fc03"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/calibration_20261040.json",
+      "bytes": 3103,
+      "sha256": "4e244a4a73c8f89b79c20077932545e37b626482f9ce649a5d1e5de54712a3d6"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/calibration_input_20261030.mat",
+      "bytes": 54173,
+      "sha256": "5c4f8391eb45aeaaa889b0da72ec341785e5ef0bef8412cd6f5d4f02312b9f27"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/calibration_input_20261035.mat",
+      "bytes": 54176,
+      "sha256": "15fa5b13174dfb672b104ec64aa8303757c5ab323fa70503b26ce73dc02bfe63"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/calibration_input_20261040.mat",
+      "bytes": 54205,
+      "sha256": "8c957d49ecbe9eb2f882da7afb253ddf6cfc84abda4958804f68dd762a4e21b3"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/calibration_operator_audit.json",
+      "bytes": 566,
+      "sha256": "e64e3224b3144622b341d0eeb6103333e80b717a353c2ca0eff02347e678b31d"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/checks.json",
+      "bytes": 215,
+      "sha256": "39fdfae9c61c762f93f5cb6dd78b3c9bc813864fd2b4ac810610886de5ec925a"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/executed_job.json",
+      "bytes": 1738,
+      "sha256": "1bdded70fcd1e369a0f1123c2d267def148d752054b96279d85f339fc045c17e"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/metrics.csv",
+      "bytes": 2311610,
+      "sha256": "3faa7f56a22d1e2731b2cdb98b886ec7defc14d8fa9726f92f61cc15e8ff0eea"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/progress.json",
+      "bytes": 125,
+      "sha256": "c94068a58537971c9ebd6903423ba225dda8bce5c3d69c9f9f389c7cca08ce94"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/velocity_20261030.json",
+      "bytes": 3367,
+      "sha256": "bc34c5aeecbead9ba5a9ff9d7d0d3293afed9826e884f7d7944d036a7cdd56ff"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/velocity_20261035.json",
+      "bytes": 3355,
+      "sha256": "31759667dc78987e8045694e7434c752ac642a8fa7347805f466e3c4dc762fd7"
+    },
+    {
+      "path": "Holdout_DeepLowQ/matlab/velocity_20261040.json",
+      "bytes": 3364,
+      "sha256": "84bbbb9830bff49351a1a877254189af934ab241de5cc5a65aeb5fc354701653"
+    },
+    {
+      "path": "Holdout_DeepLowQ/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Holdout_DeepLowQ/stdout.log",
+      "bytes": 36886,
+      "sha256": "db4e04dfc33b7478a131a37f524a17769d4b6f9c11b9a74802da973353a35a4a"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/execution.json",
+      "bytes": 754,
+      "sha256": "e57b11be853b2dd1567e002bd7eaa3ccf20900392c5e513f9cbe7942c9afcfb9"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/job.json",
+      "bytes": 2951,
+      "sha256": "9463cd0a68d8e48ba35cbbc569a4206ad0873a1e0dd1ffc088120540a9dbaeb6"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/calibration_20261030.json",
+      "bytes": 3138,
+      "sha256": "1a0a6510d522eabf8ee158a87df47ec3143db77fc7e8d1a5175258a432cd4c73"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/calibration_20261035.json",
+      "bytes": 3188,
+      "sha256": "6469c84f61ee933234ee6f971a41bacb54ff4cbcc789d5dcb84a04f2295f6c73"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/calibration_20261040.json",
+      "bytes": 3179,
+      "sha256": "15aba8e5e32cd0dc5ab72cdeb87633e1c8665535bffda7a5313dbaa728ad50cf"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/calibration_input_20261030.mat",
+      "bytes": 54083,
+      "sha256": "516c1ed7364c31582f0604432102eba2c3cbe2c7ade022ad3a20a690128d9d2b"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/calibration_input_20261035.mat",
+      "bytes": 54102,
+      "sha256": "279bd5681bae4ff798b9c12d71a40f44bd003524c9eb7367d28a6de0cce65f69"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/calibration_input_20261040.mat",
+      "bytes": 54082,
+      "sha256": "22f8cef7e0d553daddf86373f9422a0a4eb3d287dfaeb58f4484232a802a5002"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/calibration_operator_audit.json",
+      "bytes": 564,
+      "sha256": "d581e512b19edaba54ccfad88b3430e26953edf4d8c6e1735492edf8c9ec6e7a"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/checks.json",
+      "bytes": 215,
+      "sha256": "72683c4931750f662fc1a2b68914fa791aaefa5ec6dae4059379119c02995cbe"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/executed_job.json",
+      "bytes": 1754,
+      "sha256": "3b1ff86846581a44656ff4c71e44739854b03e245045e4255f10bfbd4b4f03e8"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/metrics.csv",
+      "bytes": 2371321,
+      "sha256": "08e979ac314b9e3e1e856d8f099a0b915025f1d7262036509e911e59644e0265"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/progress.json",
+      "bytes": 125,
+      "sha256": "00dceafc839685fe2a54f66cdc07624e87a1ab64b18e83f73c47006c05dcde4f"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/velocity_20261030.json",
+      "bytes": 3379,
+      "sha256": "20d6e9202c6a6e0857396578f4cfb41907a57da3c774382a01e687a7ff8f9577"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/velocity_20261035.json",
+      "bytes": 3393,
+      "sha256": "d98eaa40351cf34d70cdda6d2dea134644c03d759ac65c3c9dd73050a4955526"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/matlab/velocity_20261040.json",
+      "bytes": 3392,
+      "sha256": "63b8f7ed9943e84fa9e5c348fc927c965cf2c8a69eea653a9a82c12db162518e"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Holdout_HighContrastReversal/stdout.log",
+      "bytes": 40750,
+      "sha256": "f68227b3643eabb62936c67463eb13c008d5487ad58b525f0e771f2af894c0d1"
+    },
+    {
+      "path": "Holdout_StrongAtten/execution.json",
+      "bytes": 718,
+      "sha256": "6f91b481deadcb5f18e0c89f7cf29e959ec509deba767cd2a4dcec2e3d366d22"
+    },
+    {
+      "path": "Holdout_StrongAtten/job.json",
+      "bytes": 2940,
+      "sha256": "af9b7a7d5c98f3bc5e379453cc417cf724b9a2a6de436b92f7b4672480f8207b"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/calibration_20261030.json",
+      "bytes": 3158,
+      "sha256": "fe418364cb4f48f1ebdde3a53ed68af19dceb91bc47d22b13da9e904a9d7bd62"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/calibration_20261035.json",
+      "bytes": 3141,
+      "sha256": "1853ac071f16f40005131c8fbe335431d0388039883213a08f5d4858dd690458"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/calibration_20261040.json",
+      "bytes": 3153,
+      "sha256": "9d0671ac4d67e85b47779382330753c785b1fe23abae06554fd457c4eb4f4fc8"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/calibration_input_20261030.mat",
+      "bytes": 54216,
+      "sha256": "91dd1acf79f08714e5d314df95f1462997a3401dac9ceb641384158bfa61b22c"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/calibration_input_20261035.mat",
+      "bytes": 54198,
+      "sha256": "3f4d21f1c593859b914595805624d388c33ff94b7a39cab569514229df285cdb"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/calibration_input_20261040.mat",
+      "bytes": 54224,
+      "sha256": "bf188149d4790ddade9d3747dd0609ae959a861c21bde94832705a146b108640"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/calibration_operator_audit.json",
+      "bytes": 563,
+      "sha256": "6f08a06590fa730204af9e59180323471753369c7d7841856fed3517d8eed6cd"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/checks.json",
+      "bytes": 215,
+      "sha256": "1780b01d1e157cd0a130da2919787da494371271827af093243df5b772496102"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/executed_job.json",
+      "bytes": 1743,
+      "sha256": "a324eaf359f89577dfa949687f8489968c71ff26c5deedac748620be8f9646a2"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/metrics.csv",
+      "bytes": 2319500,
+      "sha256": "29e5c96789105c2465ab6807fef704e89b4cfaadf220c0ff3752dcb670b0526b"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/progress.json",
+      "bytes": 125,
+      "sha256": "a95439f5a0dc054644cf0998ce37f7063ad4bd1160b9637c14b816da4a562cf8"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/velocity_20261030.json",
+      "bytes": 3339,
+      "sha256": "66659d7f7cae1d0c00bae57d7b41764710e2b4e267bd6a114c89f6b252defe03"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/velocity_20261035.json",
+      "bytes": 3372,
+      "sha256": "ca3cd1313ef5fdcb09e8b24c0282c4a37e8f80258130aa063b0ca9d93b7c31e2"
+    },
+    {
+      "path": "Holdout_StrongAtten/matlab/velocity_20261040.json",
+      "bytes": 3327,
+      "sha256": "3b88945def19fa018dd8da15f1755b958f0be309dd20a325d67bc9feeb6b3895"
+    },
+    {
+      "path": "Holdout_StrongAtten/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Holdout_StrongAtten/stdout.log",
+      "bytes": 37855,
+      "sha256": "01d4e44c46935c57919f936a3a263d367cae9d963c307f593ee65519d59ac7cd"
+    },
+    {
+      "path": "Holdout_ThinInterbed/execution.json",
+      "bytes": 730,
+      "sha256": "31f8617d7aa9167d92c9173035c49a247b074731b82a3c56663074c4a851565c"
+    },
+    {
+      "path": "Holdout_ThinInterbed/job.json",
+      "bytes": 2942,
+      "sha256": "1061a377ff6aa1035da3e0369bd4aef974eb6b8dac1a924043dc2b8f6dacc1e8"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/calibration_20261030.json",
+      "bytes": 3175,
+      "sha256": "0b580037e4da3f7cd8d2d2c89a4ea0b7fd810ac6d0d963a42fb28672d786d8c4"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/calibration_20261035.json",
+      "bytes": 3153,
+      "sha256": "483b40235f61c7d2a1b4728d302e43ca768018044696f0a1bc7091545a534cfd"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/calibration_20261040.json",
+      "bytes": 3178,
+      "sha256": "2b62b4ef3b8c75641458c3fa786ef57045faa502ff171a342adf11de4a6796bb"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/calibration_input_20261030.mat",
+      "bytes": 54199,
+      "sha256": "4e1a61697146ade4d28e64d407573b9f97fed7a72a307c17dfaa68da8c1cc464"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/calibration_input_20261035.mat",
+      "bytes": 54184,
+      "sha256": "036733e46c9ba411152042d1fab42adae93b04cbf1dafdedde32aa2f47343fee"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/calibration_input_20261040.mat",
+      "bytes": 54158,
+      "sha256": "bb0100558d34f0e31dd95b48ec2b321acbc12c271e77d3cdb3ddea51c6b1381c"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/calibration_operator_audit.json",
+      "bytes": 567,
+      "sha256": "870c8208f2e1e19d54b561468830355a55c467ef729ddd17d2d432b22fbfbdc8"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/checks.json",
+      "bytes": 215,
+      "sha256": "136805f952f6d5c369d9d95d3fee68a8abd71e9e7d147868a6c2824df78d6bb9"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/executed_job.json",
+      "bytes": 1745,
+      "sha256": "6653ab4db6ab82e1f7abc04d1f0108550eccca8fcc3031ee177a465276797e0a"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/metrics.csv",
+      "bytes": 2335725,
+      "sha256": "bc6060e78ef0ecaf4e5325e71206f78555f4b2bb90ba0ba5448a8282bbaa84cc"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/progress.json",
+      "bytes": 125,
+      "sha256": "47c41c4d33fae8a60a5b559404fd249abe85fedea6f5b46fbcaf87bbf40eff75"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/velocity_20261030.json",
+      "bytes": 3444,
+      "sha256": "0dfa659c4d11ce39cbe33f3b6cc3d4fe3f4277d715d641a4e6633e3dedb2a613"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/velocity_20261035.json",
+      "bytes": 3441,
+      "sha256": "84afdaae5074b4b01bce567a12c8c49e86dbcf3fe03ed92d30617a2ea5a4f849"
+    },
+    {
+      "path": "Holdout_ThinInterbed/matlab/velocity_20261040.json",
+      "bytes": 3448,
+      "sha256": "da270d256bd4fa8ea56813cb3c836904b74807bf16ea7712e05cd1e551d0eb97"
+    },
+    {
+      "path": "Holdout_ThinInterbed/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Holdout_ThinInterbed/stdout.log",
+      "bytes": 38152,
+      "sha256": "a3894656644249a5feaaeddcd3770336fa440c5bf045173b8ba9e7db35a5dc42"
+    },
+    {
+      "path": "metrics.csv",
+      "bytes": 20656195,
+      "sha256": "4ff07898b58332af2fe1f51b0eaf53fa0571cb135c94ac86e68524a549f2ff08"
+    },
+    {
+      "path": "SoftLowQ/execution.json",
+      "bytes": 685,
+      "sha256": "e0bef4b2e20322e4a3cec8e944923a85c3cac650dcbd9ed1186371b369c8a0a0"
+    },
+    {
+      "path": "SoftLowQ/job.json",
+      "bytes": 2919,
+      "sha256": "c7623913e8a34444f7cdf5aa632076972a9ec7e918eaf68d2b37642f6a90de82"
+    },
+    {
+      "path": "SoftLowQ/matlab/calibration_20261030.json",
+      "bytes": 3154,
+      "sha256": "5535f364b50da32536c4ca25c13f2ba9130c56e19a4d54d61577092183a266de"
+    },
+    {
+      "path": "SoftLowQ/matlab/calibration_20261035.json",
+      "bytes": 3172,
+      "sha256": "e5be8389e49f2f2f82af85307e46b59120b607888fef14ed5c49d7577ec2eeb5"
+    },
+    {
+      "path": "SoftLowQ/matlab/calibration_20261040.json",
+      "bytes": 3168,
+      "sha256": "edca90c1ca9cca72ba7a1b54eb28f3cd740514f18d0bf61158799aa0e8fc06bb"
+    },
+    {
+      "path": "SoftLowQ/matlab/calibration_input_20261030.mat",
+      "bytes": 54279,
+      "sha256": "900866d647d58b8b06ee3b1b9f6d000e88dc325fb1556bd2e850e606243790ef"
+    },
+    {
+      "path": "SoftLowQ/matlab/calibration_input_20261035.mat",
+      "bytes": 54302,
+      "sha256": "e27635b337565d6262d24b7dee7ceee9c3750e292006626433953681c3dfb752"
+    },
+    {
+      "path": "SoftLowQ/matlab/calibration_input_20261040.mat",
+      "bytes": 54288,
+      "sha256": "cadcffc3e3f23cac2942c908588f1fd3c31e07925b0e2406d5e15fad61298fff"
+    },
+    {
+      "path": "SoftLowQ/matlab/calibration_operator_audit.json",
+      "bytes": 563,
+      "sha256": "ef6b6634e0caa6fc65d8bf8241688bc63009c577e3a6f3c684cb1b1b7035974f"
+    },
+    {
+      "path": "SoftLowQ/matlab/checks.json",
+      "bytes": 215,
+      "sha256": "b9ab2040e4b6a590411de226fdeecc3ce05ad4d1e42656ee0cd0f6f696b20d41"
+    },
+    {
+      "path": "SoftLowQ/matlab/executed_job.json",
+      "bytes": 1722,
+      "sha256": "22a4de7b83c4e799b4d43a6d67e8d4ba3b63c9c9ec73a3cb3ba83962e8bafad9"
+    },
+    {
+      "path": "SoftLowQ/matlab/metrics.csv",
+      "bytes": 2230583,
+      "sha256": "561a788e6385f4c7ae315031a13f926a5bfd4e4ba3e5052be0993984cbca078a"
+    },
+    {
+      "path": "SoftLowQ/matlab/progress.json",
+      "bytes": 125,
+      "sha256": "1b5ed603086520b6bdb2e815df97c683d3eaa8a377f4bc5facd0c19e75eaece2"
+    },
+    {
+      "path": "SoftLowQ/matlab/velocity_20261030.json",
+      "bytes": 3417,
+      "sha256": "f056cdf1d3432129c154356001dc7728014ef069a378d5048ccb730353388895"
+    },
+    {
+      "path": "SoftLowQ/matlab/velocity_20261035.json",
+      "bytes": 3403,
+      "sha256": "24162206d4f2b4fce0a134b8020c05b177359941959e292f9b142bf64de23618"
+    },
+    {
+      "path": "SoftLowQ/matlab/velocity_20261040.json",
+      "bytes": 3376,
+      "sha256": "b451b48e17b71afa920bade6bbebc61ca40b7723f427e6a638edf3d7b016fffb"
+    },
+    {
+      "path": "SoftLowQ/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "SoftLowQ/stdout.log",
+      "bytes": 34296,
+      "sha256": "678122bd20c6e4aa95357d85646e11c6d7add4e73ecf236f6a0209b37dd8d4d0"
+    },
+    {
+      "path": "source/core_p1/frozen_compensate.m",
+      "bytes": 1134,
+      "sha256": "8e22c81a40956c9a805b88147c3852fc7701bb85bf1f593693153ca792cb8f5d"
+    },
+    {
+      "path": "source/core_p1/inputs/options.json",
+      "bytes": 663,
+      "sha256": "f1f8a1aa5c7982262beb2109eb458e56c22bf6466c88016670437d6e971c9f3a"
+    },
+    {
+      "path": "source/core_p1/inputs/p1_experiment_spec.json",
+      "bytes": 8959,
+      "sha256": "3f2d4f4cf75144adfd332a16f8491f53459bab94c73b10096bb957ae946d24b2"
+    },
+    {
+      "path": "source/core_p1/inputs/stability_spec.json",
+      "bytes": 1352,
+      "sha256": "dc61a8b500090f9cde00dfff8472d5d83a2a32dc3b4b1ac34cb58eec574f1a40"
+    },
+    {
+      "path": "source/core_p1/inputs/uq_spec.json",
+      "bytes": 1433,
+      "sha256": "4eeb79354d2c30b7c9e6af982bc42c2daeee755ef6bd2dbab7f4a3cf51dbd35a"
+    },
+    {
+      "path": "source/core_p1/inputs/v2_options.json",
+      "bytes": 822,
+      "sha256": "bf9348a703e7a834b35b4b31f9cb5ad3750a3627f50e4131dac20d27bb294efc"
+    },
+    {
+      "path": "source/core_p1/matlab_src/attenuation_matrix.m",
+      "bytes": 488,
+      "sha256": "93d6cf4fd2f8fcb797016c02094d1b6ad8b63d1ca3cc83e0f5594bec2304c68b"
+    },
+    {
+      "path": "source/core_p1/matlab_src/avo_projector_v2.m",
+      "bytes": 901,
+      "sha256": "31a441af73c12f30a037dac00cf0a5240b190c5a9e721d1cb9f9273e13c6fa9e"
+    },
+    {
+      "path": "source/core_p1/matlab_src/build_structure_models.m",
+      "bytes": 849,
+      "sha256": "6062e968d07ec45f229a25bdb76a160266501afc0ad899332aaa726df015962c"
+    },
+    {
+      "path": "source/core_p1/matlab_src/compensate_unknown_q.m",
+      "bytes": 688,
+      "sha256": "2fc9f2b94e2021bc94ce4c8f5abd26027652f51da220ee68563cfb42e8aa0a74"
+    },
+    {
+      "path": "source/core_p1/matlab_src/config_model.m",
+      "bytes": 771,
+      "sha256": "383758437200c5d656114daa157fd7c3fcbc59911a155ef82599426f6af2c050"
+    },
+    {
+      "path": "source/core_p1/matlab_src/context_v2.m",
+      "bytes": 556,
+      "sha256": "5c30c38c2230a9af0b32c0b43d5da9809a4c815f13cf58ca9587ed9e08e7816f"
+    },
+    {
+      "path": "source/core_p1/matlab_src/discrepancy_apply.m",
+      "bytes": 596,
+      "sha256": "47c1353bd6bf9a6cdb56d0d1c30a2ec0c2741e60828ff576fabda6384d739edb"
+    },
+    {
+      "path": "source/core_p1/matlab_src/discrepancy_factor.m",
+      "bytes": 164,
+      "sha256": "23da2f7fde0f5db52f0a57300da346e69a1a1889e40c0a0d5dd648061f26a5dd"
+    },
+    {
+      "path": "source/core_p1/matlab_src/estimate_q_effective.m",
+      "bytes": 2742,
+      "sha256": "63570c7d57b7a224b2e8deff836123043ab8c14a65a6e7655811401462dfab5f"
+    },
+    {
+      "path": "source/core_p1/matlab_src/estimate_trace_snr.m",
+      "bytes": 2222,
+      "sha256": "f444fd0f9c53c2928af1927ec6e5b38f78bf90f5552aa09abdd998fd0e157983"
+    },
+    {
+      "path": "source/core_p1/matlab_src/learn_structure_operator.m",
+      "bytes": 2208,
+      "sha256": "098892432742a23b0f6bc2fa376377ac84f200cce710ab4a5cb311c9ba064649"
+    },
+    {
+      "path": "source/core_p1/matlab_src/make_reference.m",
+      "bytes": 654,
+      "sha256": "aff7a2523147f7ca79da475437919c4244949c2b322630d5216a420e1b1b11c7"
+    },
+    {
+      "path": "source/core_p1/matlab_src/make_stability_scene.m",
+      "bytes": 1120,
+      "sha256": "6ff0fd07aaa23822db58cc6a8fc7e3d80eb136d7baf7f746215cbf8c24e6a98c"
+    },
+    {
+      "path": "source/core_p1/matlab_src/p1_calibrate_ensemble.m",
+      "bytes": 1235,
+      "sha256": "d60b805b713df36126ca815bfb160f546cde68c6ca9aa330d394d99b8f6a9954"
+    },
+    {
+      "path": "source/core_p1/matlab_src/p1_models.m",
+      "bytes": 694,
+      "sha256": "1bfa365f9a18f7ad25f914963a15a42fb382a708a2b0d863e66f5845b1a141f6"
+    },
+    {
+      "path": "source/core_p1/matlab_src/p1_noise_uncertainty.m",
+      "bytes": 1715,
+      "sha256": "5ef7deae27dcb467ec98675d5e1b15f76ed992213cbd0c7843368e86f2bfd26e"
+    },
+    {
+      "path": "source/core_p1/matlab_src/p1_q_model_error.m",
+      "bytes": 2150,
+      "sha256": "4bacc63775a7e05d6f7f86812c133c7adf75bf99d20d61ec2e59054ea91ca19a"
+    },
+    {
+      "path": "source/core_p1/matlab_src/p1_solve_branch.m",
+      "bytes": 7275,
+      "sha256": "ff1606722ac92ce6878812b2d759e9708903288d9e325ff068a5f0f160ace8a9"
+    },
+    {
+      "path": "source/core_p1/matlab_src/prepare_models_v2.m",
+      "bytes": 403,
+      "sha256": "44441fc455c4fd3b9ba6087a5f30089d0fee6000b62e8debfd8a411c24606b3a"
+    },
+    {
+      "path": "source/core_p1/matlab_src/ray_absorption.m",
+      "bytes": 959,
+      "sha256": "c74fe81b4925d1a069e81ad2d198e4b7bdfc14248f1df520f18faf373277a175"
+    },
+    {
+      "path": "source/core_p1/matlab_src/ridge_operator.m",
+      "bytes": 134,
+      "sha256": "f458abdb8726c0565abb9a116ec482860e4f77e35efa4d9862ea583191cc0a52"
+    },
+    {
+      "path": "source/core_p1/matlab_src/score_stability.m",
+      "bytes": 337,
+      "sha256": "0b7b5e721ff5c644d23a459f74f90759d88aca84694d0c66f645a50fa901b822"
+    },
+    {
+      "path": "source/core_p1/matlab_src/score_structure.m",
+      "bytes": 1585,
+      "sha256": "a8878a12b2f245983bc5086b16fb40584ef71e765068606f791261b166195a94"
+    },
+    {
+      "path": "source/core_p1/matlab_src/select_v2.m",
+      "bytes": 1494,
+      "sha256": "76aee1128e8c5c427dc1642a42a2c180f8aafca79dded00b7ea0a904b6a67102"
+    },
+    {
+      "path": "source/core_p1/matlab_src/solve_v2.m",
+      "bytes": 1806,
+      "sha256": "1b450f8559b76000cbb4f13dc1bd6d05325125337322994ddc4e65f4dd22c3b1"
+    },
+    {
+      "path": "source/core_p1/matlab_src/stability_models.m",
+      "bytes": 537,
+      "sha256": "41a0e38587012a0ae38d5dfe479bb8e34c12ed212a6c5a6d9b6e38ddd4da3c62"
+    },
+    {
+      "path": "source/core_p1/matlab_src/structure_options.m",
+      "bytes": 149,
+      "sha256": "849b9803725c1ec7ed7da341bfcbf5620dfd1f30004b2a66e7d931daeff686ef"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_audit_outputs.m",
+      "bytes": 342,
+      "sha256": "e4a966409d02eacc035983cb61ada4bbdc4f88d30891c9a2a7e0eb2d490029f9"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_build_prior.m",
+      "bytes": 684,
+      "sha256": "0b8562a885116cd9ab921ee5ca96bc581fbcc03302741b2ab75acdd75a82d2b2"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_case.m",
+      "bytes": 220,
+      "sha256": "6975bf52ce605a3b001d4b75cab797ccaf069006d313561013ebd1f5736c1491"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_inverse_config.m",
+      "bytes": 1625,
+      "sha256": "d084e826fb7158dd028856bc802cd77fb8c94eb86bc230ee1d5c94b82eb24f81"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_metric_row.m",
+      "bytes": 1054,
+      "sha256": "3bbbcd84aa25ba8b5817dbaadfe840e978c4ed551cbb5cf214e6b6e5b8d4048f"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_observation.m",
+      "bytes": 628,
+      "sha256": "283999b97822d2b76833a93c1c67edbedb6e9d89aa5597e2b316377667b01f9a"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_public_config.m",
+      "bytes": 333,
+      "sha256": "03d220346379a0c7e85303d4221e818e1d63f2ed2023ebe2e609bea79946cbbc"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_select.m",
+      "bytes": 1491,
+      "sha256": "e04128ba1d0a3d83afc53fd7717f410d179dd2549e816996952af9814cd2e33b"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_spec.m",
+      "bytes": 139,
+      "sha256": "077df6ea906a6c8c14f1c2e48ff683f797d102545ae5cf9320abf3477470d671"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_templates.m",
+      "bytes": 612,
+      "sha256": "e60d7f7df87f6f02120185177ee5f955cddd4212a486239205bde5b396301db2"
+    },
+    {
+      "path": "source/core_p1/matlab_src/uq_writejson.m",
+      "bytes": 124,
+      "sha256": "74a3ea78143819e5710adf9aeb06f755f3ce0dc4c074a51f904a02a10f587c3c"
+    },
+    {
+      "path": "source/core_p1/matlab_src/v2_options.m",
+      "bytes": 145,
+      "sha256": "12371e5c756543fbe4b126e954870f832ecc82bd0fdc3addc46a53b1997fa1d0"
+    },
+    {
+      "path": "source/core_p1/matlab_src/validate_p1_unknown_q.m",
+      "bytes": 2349,
+      "sha256": "7a9b7b7e6c45ad76030ffd4084dfd3c12b4abde07450b96ea1ef812beae0ecf8"
+    },
+    {
+      "path": "source/core_p1/matlab_src/validate_unknown_q.m",
+      "bytes": 1936,
+      "sha256": "19d9c88ff8b2e8026bb7bf7288f8812ed06bf3e8747672b88af80bb65631c680"
+    },
+    {
+      "path": "source/core_p1/p1_compensate.m",
+      "bytes": 1854,
+      "sha256": "0bd7bd060dd8e5fbf812bacf5e5b29b75a6bbf7fb0d24d1aacff3b7dd75ba64f"
+    },
+    {
+      "path": "source/core_p1/run_complete_job.m",
+      "bytes": 7643,
+      "sha256": "e20756718b6d6217c25c1eba2194e43bf5d7c6199b9c11dc908fab4f80d436d4"
+    },
+    {
+      "path": "source/core_p1/run_p1_research.m",
+      "bytes": 7454,
+      "sha256": "7bb736429cdd2e6c6fc578c44bd747cf0e8d51f51bbced755ff99314b194a66b"
+    },
+    {
+      "path": "source/core_p1/run_research.m",
+      "bytes": 3730,
+      "sha256": "1257fb17dd294061bb02323e7d869d753d7ed7113d7a5b577757b392719c3aa8"
+    },
+    {
+      "path": "source/scripts/evaluate_candidate.py",
+      "bytes": 11130,
+      "sha256": "75b4a5ab481cc9e570f08ee937ade80ed4a6d7648b8777fc13af4d9d67935477"
+    },
+    {
+      "path": "source/scripts/run_complete.py",
+      "bytes": 6798,
+      "sha256": "b7ddd1377bb3ea3420b6fab5b4b44ca63c2b77e52a750503792852001f2c24c6"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 5791,
+      "sha256": "eca7571b3c66ac15f876483b556bd95e06cbe31d265fa7cc68f364ee5cc4ef3d"
+    },
+    {
+      "path": "ThinHighFrequency/execution.json",
+      "bytes": 712,
+      "sha256": "c8e1cc4d2b3e4c97b526517a1223091e9cb5f134e06cc4c5db81b1a6f5f8658b"
+    },
+    {
+      "path": "ThinHighFrequency/job.json",
+      "bytes": 2928,
+      "sha256": "52ccde058a39602b4da5c06ee014f10fdf3e48d3040ee4d91605bd5b918bcd66"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/calibration_20261030.json",
+      "bytes": 3147,
+      "sha256": "c4c0b24547d4ec50a64f8b775988c4e843efd798a4de3e1423c3a40287ce7f83"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/calibration_20261035.json",
+      "bytes": 3148,
+      "sha256": "0feebdf43cce6b263f54800c4cf087f11483f605b82541dfae88c4f350cf26c5"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/calibration_20261040.json",
+      "bytes": 3148,
+      "sha256": "dd04027edc34dfb1a3a234bf9477b0ddd7f2195c6a0225caffe018713b10b378"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/calibration_input_20261030.mat",
+      "bytes": 54174,
+      "sha256": "8ea839c07f2766e40d3edf64e12ca6a52dcf1c2b45169eec4193d0ef12b0cf1b"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/calibration_input_20261035.mat",
+      "bytes": 54169,
+      "sha256": "9839f24e44fb0508145d037c3b42a40fcddf0ebc02f1bde906d81155c3764119"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/calibration_input_20261040.mat",
+      "bytes": 54162,
+      "sha256": "5fb84a36982a2ce2cdcbaa96e6064bde96b1fa80976b49071634fbc3ad8b1283"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/calibration_operator_audit.json",
+      "bytes": 565,
+      "sha256": "c87e15fb566cec2ea13338adb3e950c608a6950cc7ec5ff3de18c3937c290dbd"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/checks.json",
+      "bytes": 215,
+      "sha256": "b8ccc294cf8ad1742a00569c0101df6f1f940b2a4bae1b6b37a694bc52be282a"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/executed_job.json",
+      "bytes": 1729,
+      "sha256": "a0b20facace4388bd530a91bd750ce412fc4963dbcd28fbab92b6c5e0f5751cf"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/metrics.csv",
+      "bytes": 2278546,
+      "sha256": "981024b7803e9276028972bd5cac62872ceecdcf452f9a517f095680d3046fff"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/progress.json",
+      "bytes": 125,
+      "sha256": "f76efc7a75faa23d6d650d98ac7781a4c357d502406a765d6670c30b57997520"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/velocity_20261030.json",
+      "bytes": 3381,
+      "sha256": "b8102275630fd4c1aad5a85695407fc5e8ef65b30e373ad38bfe7e92931ad9fd"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/velocity_20261035.json",
+      "bytes": 3411,
+      "sha256": "e53d01651e5ed46d4c3696393d1623a59e022e9babe9fedc8940a22852a95f4c"
+    },
+    {
+      "path": "ThinHighFrequency/matlab/velocity_20261040.json",
+      "bytes": 3406,
+      "sha256": "61fdbc7bab2569648fbeb1bb864dadb7e22a321d2362475770a4beeb3d64a6f5"
+    },
+    {
+      "path": "ThinHighFrequency/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ThinHighFrequency/stdout.log",
+      "bytes": 37212,
+      "sha256": "065d5bc302de90ada8dbc192a36222ddc3bf5b5740cd0e59e6b942b38b3484c2"
+    },
+    {
+      "path": "VelocityReversal/execution.json",
+      "bytes": 708,
+      "sha256": "8d5d2de9d35975b3742df70cf1dbb8a64991279df8f5419434334a9c0e85debb"
+    },
+    {
+      "path": "VelocityReversal/job.json",
+      "bytes": 2928,
+      "sha256": "a53ce8c25e2876823ba9c6b3faa5972f99de6b27e849d417b47d0cc2dcc8e47e"
+    },
+    {
+      "path": "VelocityReversal/matlab/calibration_20261030.json",
+      "bytes": 3117,
+      "sha256": "57f3b1c5ba85ca09d3d0fea79ce62cadd604aba7a3f3a7d945146bb91d11d227"
+    },
+    {
+      "path": "VelocityReversal/matlab/calibration_20261035.json",
+      "bytes": 3111,
+      "sha256": "36d8b633b854127734e12f108413f022017bbdfd2cc21d6b9e12aefe8424b2f3"
+    },
+    {
+      "path": "VelocityReversal/matlab/calibration_20261040.json",
+      "bytes": 3109,
+      "sha256": "4e916b40525e3c0e8b4f97e5aa26c5e0d0510decd20e6b08a5c21850f36c4ec3"
+    },
+    {
+      "path": "VelocityReversal/matlab/calibration_input_20261030.mat",
+      "bytes": 54105,
+      "sha256": "826a09ea44c0910c6b3818cf0fa8e19275a9c42346ff1d8e27f0f594b19beb5d"
+    },
+    {
+      "path": "VelocityReversal/matlab/calibration_input_20261035.mat",
+      "bytes": 54100,
+      "sha256": "a46faf275a0c9b9cf9f8ad4a20f3709a11eeb84ad2e1580dad9461377e25c14d"
+    },
+    {
+      "path": "VelocityReversal/matlab/calibration_input_20261040.mat",
+      "bytes": 54109,
+      "sha256": "aab300f15b38972e7140b78443f13398a226142264e914aa2756467991f8951e"
+    },
+    {
+      "path": "VelocityReversal/matlab/calibration_operator_audit.json",
+      "bytes": 566,
+      "sha256": "d4de7100d4e481a466c5f72933054572f6c0f8083e18a70126e5b725517716eb"
+    },
+    {
+      "path": "VelocityReversal/matlab/checks.json",
+      "bytes": 213,
+      "sha256": "4e76af4c72f59ff4896f9e27ce72796dfae998609de437422a95f9defeef36a4"
+    },
+    {
+      "path": "VelocityReversal/matlab/executed_job.json",
+      "bytes": 1729,
+      "sha256": "e90d083ab78c1e1ff72534c5544db2f5ba2f8dfe7300343cbcfa97f5da2724d3"
+    },
+    {
+      "path": "VelocityReversal/matlab/metrics.csv",
+      "bytes": 2273952,
+      "sha256": "f0fa419a803a52648fdb60208f17c830cab9eef21506ed3fe244e2282149a4e0"
+    },
+    {
+      "path": "VelocityReversal/matlab/progress.json",
+      "bytes": 123,
+      "sha256": "35bbb4a2702f56016efaad3351d6925139e38423657b98ba86f0e71ede328390"
+    },
+    {
+      "path": "VelocityReversal/matlab/velocity_20261030.json",
+      "bytes": 3304,
+      "sha256": "8604b5c45e19559ed3752eff1ff188b17eb105452dae56ffe593d5845c673b18"
+    },
+    {
+      "path": "VelocityReversal/matlab/velocity_20261035.json",
+      "bytes": 3299,
+      "sha256": "dca44f3ed030334697163f97c1765ccab56a088e7cababf1439a85157f5fbe2e"
+    },
+    {
+      "path": "VelocityReversal/matlab/velocity_20261040.json",
+      "bytes": 3305,
+      "sha256": "8a7666a3e6c873e396aac1f31569e238edcd1e65c8fa91b3bab27f9802603dba"
+    },
+    {
+      "path": "VelocityReversal/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "VelocityReversal/stdout.log",
+      "bytes": 36887,
+      "sha256": "0cbc8f8dfe290f44cef3d5b329fc8f77699f176c1e6117f256cf16d9a539beec"
+    }
+  ],
+  "file_count": 251
+}

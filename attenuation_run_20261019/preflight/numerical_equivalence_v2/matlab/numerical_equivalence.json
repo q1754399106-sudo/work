@@ -1,0 +1,466 @@
+{
+  "status": "PASS",
+  "development_only": true,
+  "heldout_data_used": false,
+  "original_threads": 8,
+  "matlab_version": "24.2.0.2923080 (R2024b) Update 6",
+  "thread_control_documentation": "https://www.mathworks.com/help/matlab/ref/maxnumcompthreads.html",
+  "scope": "Numerical implementation and hardware scheduling equivalence; not scientific acceptance",
+  "small_matrix": {
+    "status": "PASS",
+    "cases": [
+      {
+        "covariance_rank": 0,
+        "normal_product_relative_error": 3.0666563117724016E-16,
+        "rhs_relative_error": 2.5296267241500786E-16,
+        "rhs_rearrangement_relative_error": 1.7916264345823588E-16,
+        "solution_relative_error": 4.7242440435848589E-12,
+        "original_precision_normal_residual": 1.4691399798581052E-12,
+        "pass": true
+      },
+      {
+        "covariance_rank": 4,
+        "normal_product_relative_error": 5.9035004196257008E-16,
+        "rhs_relative_error": 3.5540622737700912E-16,
+        "rhs_rearrangement_relative_error": 2.2459576383994377E-16,
+        "solution_relative_error": 1.36401397023139E-11,
+        "original_precision_normal_residual": 7.8060367509377E-12,
+        "pass": true
+      }
+    ]
+  },
+  "case": {
+    "Model": "DevGradedCompact",
+    "Suite": "Main",
+    "Scenario": "SmoothAVO",
+    "Seed": 410101,
+    "CalibrationSeed": 310101,
+    "calibration_setup_seconds": 36.0133906,
+    "calibration_setup_threads": 1,
+    "input_hash": "84ae24fcf149ebde220df8c290706aa5acbec312faf9c88f770d6473751cf8fa",
+    "point_estimate_hash": "9be429d3ad4f11a9c73665612d7d6c8456f2c77f713aeb735ece910b6466f8e2",
+    "bootstrap_draws_hash": "d854971751800d1d59e94e78733ee0c7bf1f5d086e62e370691f95276a53dbd2",
+    "truth_used_for_estimation": false
+  },
+  "thread_benchmark": [
+    {
+      "threads": 8,
+      "elapsed_seconds": 7.1992693,
+      "comparison_to_original_threads": {
+        "direct_relative_difference": 0,
+        "split_relative_difference": 0,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 8.8656551523831386E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "direct_normal_residual": 8.8656551523831386E-9,
+      "split_normal_residual": 6.7434320950251067E-9,
+      "scale": 0.77736503023877579
+    },
+    {
+      "threads": 1,
+      "elapsed_seconds": 8.4409541,
+      "comparison_to_original_threads": {
+        "direct_relative_difference": 4.79357971025714E-14,
+        "split_relative_difference": 4.7216514768879206E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 8.8656551523831386E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "direct_normal_residual": 8.8656550885184509E-9,
+      "split_normal_residual": 6.7434322218264393E-9,
+      "scale": 0.77736503023877579
+    },
+    {
+      "threads": 2,
+      "elapsed_seconds": 7.9284443,
+      "comparison_to_original_threads": {
+        "direct_relative_difference": 5.0745242361314352E-14,
+        "split_relative_difference": 5.2730282188964391E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 8.8656551523831386E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "direct_normal_residual": 8.865655094502373E-9,
+      "split_normal_residual": 6.7434322357387396E-9,
+      "scale": 0.77736503023877579
+    },
+    {
+      "threads": 4,
+      "elapsed_seconds": 7.3821833,
+      "comparison_to_original_threads": {
+        "direct_relative_difference": 4.3407743465213443E-14,
+        "split_relative_difference": 4.5832949750610944E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 8.8656551523831386E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "direct_normal_residual": 8.8656550776558638E-9,
+      "split_normal_residual": 6.7434320728289433E-9,
+      "scale": 0.77736503023877579
+    }
+  ],
+  "recommended_threads": 8,
+  "branches": [
+    {
+      "method": "NoiseUncertaintyOnly",
+      "threads": 8,
+      "legacy_seconds": 12.2633232,
+      "optimized_seconds": 7.6900269,
+      "comparison": {
+        "direct_relative_difference": 4.1297127026487694E-14,
+        "split_relative_difference": 3.5561743911546122E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 9.79170234868186E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "historical_metrics": {
+        "maximum_absolute_metric_difference": 7.7715611723760958E-16,
+        "tolerance": 1E-5,
+        "routes": [
+          {
+            "route": "Direct",
+            "absolute_metric_differences": {
+              "RelativeError": 2.2204460492503131E-16,
+              "SignalWindowError": 1.1102230246251565E-16,
+              "NoiseWindowRMS": 4.3368086899420177E-19,
+              "EventAmplitudeError": 5.5511151231257827E-16,
+              "AVOInterceptError": 3.3306690738754696E-16,
+              "AVOGradientError": 7.7715611723760958E-16
+            }
+          },
+          {
+            "route": "Split",
+            "absolute_metric_differences": {
+              "RelativeError": 3.3306690738754696E-16,
+              "SignalWindowError": 4.4408920985006262E-16,
+              "NoiseWindowRMS": 2.6020852139652106E-18,
+              "EventAmplitudeError": 7.7715611723760958E-16,
+              "AVOInterceptError": 5.5511151231257827E-16,
+              "AVOGradientError": 2.2204460492503131E-16
+            }
+          }
+        ],
+        "pass": true,
+        "post_hoc_scoring_only": true
+      },
+      "pass": true
+    },
+    {
+      "method": "QModelErrorOnly",
+      "threads": 8,
+      "legacy_seconds": 13.5681321,
+      "optimized_seconds": 7.7478588,
+      "comparison": {
+        "direct_relative_difference": 7.5173173412692267E-14,
+        "split_relative_difference": 6.2608089041606475E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 9.3862191691383223E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "historical_metrics": {
+        "maximum_absolute_metric_difference": 2.4424906541753444E-15,
+        "tolerance": 1E-5,
+        "routes": [
+          {
+            "route": "Direct",
+            "absolute_metric_differences": {
+              "RelativeError": 2.2204460492503131E-16,
+              "SignalWindowError": 7.7715611723760958E-16,
+              "NoiseWindowRMS": 6.3967928176644762E-18,
+              "EventAmplitudeError": 1.9984014443252818E-15,
+              "AVOInterceptError": 8.8817841970012523E-16,
+              "AVOGradientError": 1.3322676295501878E-15
+            }
+          },
+          {
+            "route": "Split",
+            "absolute_metric_differences": {
+              "RelativeError": 1.5543122344752192E-15,
+              "SignalWindowError": 1.3322676295501878E-15,
+              "NoiseWindowRMS": 9.86623976961809E-18,
+              "EventAmplitudeError": 2.3314683517128287E-15,
+              "AVOInterceptError": 8.8817841970012523E-16,
+              "AVOGradientError": 2.4424906541753444E-15
+            }
+          }
+        ],
+        "pass": true,
+        "post_hoc_scoring_only": true
+      },
+      "pass": true
+    },
+    {
+      "method": "CombinedUncertainty",
+      "threads": 8,
+      "legacy_seconds": 13.0901845,
+      "optimized_seconds": 7.8569767,
+      "comparison": {
+        "direct_relative_difference": 5.5815894651420203E-14,
+        "split_relative_difference": 4.6374438237381832E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 8.8656551750171544E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "historical_metrics": {
+        "maximum_absolute_metric_difference": 4.7739590058881731E-15,
+        "tolerance": 1E-5,
+        "routes": [
+          {
+            "route": "Direct",
+            "absolute_metric_differences": {
+              "RelativeError": 1.8873791418627661E-15,
+              "SignalWindowError": 2.1094237467877974E-15,
+              "NoiseWindowRMS": 4.2283884726934673E-18,
+              "EventAmplitudeError": 2.886579864025407E-15,
+              "AVOInterceptError": 2.886579864025407E-15,
+              "AVOGradientError": 3.4416913763379853E-15
+            }
+          },
+          {
+            "route": "Split",
+            "absolute_metric_differences": {
+              "RelativeError": 8.8817841970012523E-16,
+              "SignalWindowError": 9.9920072216264089E-16,
+              "NoiseWindowRMS": 5.2041704279304213E-18,
+              "EventAmplitudeError": 8.8817841970012523E-16,
+              "AVOInterceptError": 1.6653345369377348E-15,
+              "AVOGradientError": 4.7739590058881731E-15
+            }
+          }
+        ],
+        "pass": true,
+        "post_hoc_scoring_only": true
+      },
+      "pass": true
+    },
+    {
+      "method": "ScalarBudgetDamping",
+      "threads": 8,
+      "legacy_seconds": 9.5455879,
+      "optimized_seconds": 5.2563408,
+      "comparison": {
+        "direct_relative_difference": 3.7355927728068096E-14,
+        "split_relative_difference": 3.4784322310595165E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 10,
+        "candidate_selected_index": 10,
+        "maximum_normal_residual": 7.8554320870158984E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "historical_metrics": {
+        "maximum_absolute_metric_difference": 3.6637359812630166E-15,
+        "tolerance": 1E-5,
+        "routes": [
+          {
+            "route": "Direct",
+            "absolute_metric_differences": {
+              "RelativeError": 8.8817841970012523E-16,
+              "SignalWindowError": 9.9920072216264089E-16,
+              "NoiseWindowRMS": 2.2768245622195593E-18,
+              "EventAmplitudeError": 5.5511151231257827E-16,
+              "AVOInterceptError": 1.3322676295501878E-15,
+              "AVOGradientError": 3.6637359812630166E-15
+            }
+          },
+          {
+            "route": "Split",
+            "absolute_metric_differences": {
+              "RelativeError": 6.6613381477509392E-16,
+              "SignalWindowError": 7.7715611723760958E-16,
+              "NoiseWindowRMS": 2.7105054312137611E-18,
+              "EventAmplitudeError": 8.8817841970012523E-16,
+              "AVOInterceptError": 4.4408920985006262E-16,
+              "AVOGradientError": 2.2204460492503131E-16
+            }
+          }
+        ],
+        "pass": true,
+        "post_hoc_scoring_only": true
+      },
+      "pass": true
+    },
+    {
+      "method": "NoiseCovarianceOnly",
+      "threads": 8,
+      "legacy_seconds": 9.5403221,
+      "optimized_seconds": 5.3554651,
+      "comparison": {
+        "direct_relative_difference": 5.3729671287220928E-14,
+        "split_relative_difference": 4.7099049211348279E-14,
+        "same_selected_scale": true,
+        "reference_selected_index": 12,
+        "candidate_selected_index": 12,
+        "maximum_normal_residual": 8.6672654355695532E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "historical_metrics": {
+        "maximum_absolute_metric_difference": 2.2204460492503131E-15,
+        "tolerance": 1E-5,
+        "routes": [
+          {
+            "route": "Direct",
+            "absolute_metric_differences": {
+              "RelativeError": 5.5511151231257827E-16,
+              "SignalWindowError": 0,
+              "NoiseWindowRMS": 1.0842021724855044E-17,
+              "EventAmplitudeError": 4.4408920985006262E-16,
+              "AVOInterceptError": 1.1102230246251565E-16,
+              "AVOGradientError": 6.6613381477509392E-16
+            }
+          },
+          {
+            "route": "Split",
+            "absolute_metric_differences": {
+              "RelativeError": 1.9984014443252818E-15,
+              "SignalWindowError": 2.2204460492503131E-15,
+              "NoiseWindowRMS": 1.6263032587282567E-18,
+              "EventAmplitudeError": 1.5543122344752192E-15,
+              "AVOInterceptError": 2.2204460492503131E-16,
+              "AVOGradientError": 1.8873791418627661E-15
+            }
+          }
+        ],
+        "pass": true,
+        "post_hoc_scoring_only": true
+      },
+      "pass": true
+    },
+    {
+      "method": "NoStructureCombined",
+      "threads": 8,
+      "legacy_seconds": 2.1565818,
+      "optimized_seconds": 1.7072734,
+      "comparison": {
+        "direct_relative_difference": 1.000656057330051E-13,
+        "split_relative_difference": 1.1202609224812649E-13,
+        "same_selected_scale": true,
+        "reference_selected_index": 10,
+        "candidate_selected_index": 10,
+        "maximum_normal_residual": 2.8290405435280543E-9,
+        "solver_flags": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "waveform_tolerance": 1E-5,
+        "pass": true
+      },
+      "historical_metrics": {
+        "maximum_absolute_metric_difference": 2.4424906541753444E-15,
+        "tolerance": 1E-5,
+        "routes": [
+          {
+            "route": "Direct",
+            "absolute_metric_differences": {
+              "RelativeError": 4.4408920985006262E-16,
+              "SignalWindowError": 9.9920072216264089E-16,
+              "NoiseWindowRMS": 0,
+              "EventAmplitudeError": 5.5511151231257827E-16,
+              "AVOInterceptError": 5.5511151231257827E-16,
+              "AVOGradientError": 2.4424906541753444E-15
+            }
+          },
+          {
+            "route": "Split",
+            "absolute_metric_differences": {
+              "RelativeError": 1.9984014443252818E-15,
+              "SignalWindowError": 1.7763568394002505E-15,
+              "NoiseWindowRMS": 5.5294310796760726E-18,
+              "EventAmplitudeError": 9.9920072216264089E-16,
+              "AVOInterceptError": 1.5543122344752192E-15,
+              "AVOGradientError": 2.3314683517128287E-15
+            }
+          }
+        ],
+        "pass": true,
+        "post_hoc_scoring_only": true
+      },
+      "pass": true
+    }
+  ],
+  "session_preserved": {
+    "path": true,
+    "rng": true,
+    "computational_threads": true
+  },
+  "recommendation_basis": "Fastest passing CombinedUncertainty timing on one development observation; no heldout outcomes used"
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "dataset": "cape",
+    "url": "https://gdr.openei.org/files/1823/spectra.zip",
+    "archive_bytes": 16378110956,
+    "transferred_bytes": 6273419,
+    "requests": [
+      {
+        "start": 16378110934,
+        "end": 16378110955,
+        "bytes": 22
+      },
+      {
+        "start": 16378110914,
+        "end": 16378110933,
+        "bytes": 20
+      },
+      {
+        "start": 16378110858,
+        "end": 16378110913,
+        "bytes": 56
+      },
+      {
+        "start": 16377239124,
+        "end": 16378110857,
+        "bytes": 871734
+      },
+      {
+        "start": 70,
+        "end": 99,
+        "bytes": 30
+      },
+      {
+        "start": 100,
+        "end": 149,
+        "bytes": 50
+      },
+      {
+        "start": 182,
+        "end": 1585634,
+        "bytes": 1585453
+      },
+      {
+        "start": 1585651,
+        "end": 1585680,
+        "bytes": 30
+      },
+      {
+        "start": 1585681,
+        "end": 1585730,
+        "bytes": 50
+      },
+      {
+        "start": 1585763,
+        "end": 5401736,
+        "bytes": 3815974
+      }
+    ],
+    "files": [
+      {
+        "member": "spectra/spec_D-1OB_P_arr_20240228125612_509795.npz",
+        "file": "cape\\samples\\spec_D-1OB_P_arr_20240228125612_509795.npz",
+        "bytes": 1679580,
+        "crc32": "c420da8a",
+        "sha256": "51c47d864cef6e0ba6cfea723bd143cdfb9bc56eae7b05aaea1401901631b746"
+      },
+      {
+        "member": "spectra/spec_D-1OB_P_arr_20240218145151_891022.npz",
+        "file": "cape\\samples\\spec_D-1OB_P_arr_20240218145151_891022.npz",
+        "bytes": 4052052,
+        "crc32": "8ea17827",
+        "sha256": "ca3621f1d5bda40dad4fde89c1de63fdb9629bfd2ebadc783dc7a824092cf0a5"
+      }
+    ]
+  },
+  {
+    "dataset": "sumatra",
+    "url": "https://zenodo.org/api/records/6932666/files/waveforms%20(0.2%20Hz%20highpass%20displacement%20data%20-%20Z%20and%20T%20components).zip/content",
+    "archive_bytes": 601253620,
+    "transferred_bytes": 1604494,
+    "requests": [
+      {
+        "start": 601253598,
+        "end": 601253619,
+        "bytes": 22
+      },
+      {
+        "start": 601253578,
+        "end": 601253597,
+        "bytes": 20
+      },
+      {
+        "start": 599849767,
+        "end": 601253597,
+        "bytes": 1403831
+      },
+      {
+        "start": 1978423,
+        "end": 1978452,
+        "bytes": 30
+      },
+      {
+        "start": 1978453,
+        "end": 1978512,
+        "bytes": 60
+      },
+      {
+        "start": 1978545,
+        "end": 2028525,
+        "bytes": 49981
+      },
+      {
+        "start": 3941153,
+        "end": 3941182,
+        "bytes": 30
+      },
+      {
+        "start": 3941183,
+        "end": 3941242,
+        "bytes": 60
+      },
+      {
+        "start": 3941275,
+        "end": 3991622,
+        "bytes": 50348
+      },
+      {
+        "start": 3553189,
+        "end": 3553218,
+        "bytes": 30
+      },
+      {
+        "start": 3553219,
+        "end": 3553278,
+        "bytes": 60
+      },
+      {
+        "start": 3553311,
+        "end": 3603094,
+        "bytes": 49784
+      },
+      {
+        "start": 3603506,
+        "end": 3603535,
+        "bytes": 30
+      },
+      {
+        "start": 3603536,
+        "end": 3603595,
+        "bytes": 60
+      },
+      {
+        "start": 3603628,
+        "end": 3653775,
+        "bytes": 50148
+      }
+    ],
+    "files": [
+      {
+        "member": "waveforms/2016-02-10T210245/2016-02-10T210245.LWLI.BHZ.D.sac",
+        "file": "sumatra\\samples\\2016-02-10T210245.LWLI.BHZ.D.sac",
+        "bytes": 54044,
+        "crc32": "9f1d4d1b",
+        "sha256": "44a0934e1866bf2c2718fc783bf8bacb503987332f671e80ae873b2aee856eb2"
+      },
+      {
+        "member": "waveforms/2013-04-29T022000/2013-04-29T022000.MNSI.BHZ.D.sac",
+        "file": "sumatra\\samples\\2013-04-29T022000.MNSI.BHZ.D.sac",
+        "bytes": 54324,
+        "crc32": "a74e79e7",
+        "sha256": "c86ef730f54077fa49a32389b9465a8ea6b768ebaff28669e1d27a3c79d294db"
+      },
+      {
+        "member": "waveforms/2013-04-29T022000/2013-04-29T022000.SISI.BHZ.D.sac",
+        "file": "sumatra\\samples\\2013-04-29T022000.SISI.BHZ.D.sac",
+        "bytes": 54008,
+        "crc32": "a2b9b0bd",
+        "sha256": "72b636438ed2066bbf063e9f7bc64e0c8d6efd2c75402458a05b00f78628204e"
+      },
+      {
+        "member": "waveforms/2013-04-29T022000/2013-04-29T022000.MLSI.BHZ.D.sac",
+        "file": "sumatra\\samples\\2013-04-29T022000.MLSI.BHZ.D.sac",
+        "bytes": 54412,
+        "crc32": "3582c933",
+        "sha256": "82974bf6ba03d4466e79bddb257adc7d91a71fb360b669e8c0b9e96d72f76780"
+      }
+    ]
+  }
+]

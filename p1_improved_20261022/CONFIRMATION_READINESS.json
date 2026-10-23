@@ -1,0 +1,45 @@
+{
+  "status": "READY_FOR_FROZEN_CONFIRMATION",
+  "stages": {
+    "production_verification": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\production_verification_20261022T052940Z",
+      "checks": {
+        "passed": true,
+        "public_fields_equal_after_poison": true,
+        "production_output_exact_poison_invariance": true,
+        "production_and_batch_exact_match": true,
+        "section_production_and_batch_exact_match": true,
+        "illegal_truth_field_rejected": true,
+        "offset_and_section_direct_split_normal_residuals": [
+          7.776339399994482e-08,
+          7.703998036709791e-08,
+          6.197100715189826e-08,
+          6.134169310846942e-08
+        ],
+        "all_scale_max_residual": 9.904935396876475e-08,
+        "compensation_applied": true,
+        "estimated_velocity_correction": 1,
+        "kinematic_correction_applied": false
+      }
+    },
+    "validation_harness_smoke": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\validation_harness_smoke_20261022T053327Z",
+      "checks": {
+        "passed": true,
+        "development_only": true,
+        "observations": 4,
+        "new_rows": 28,
+        "original_replay_rows": 12
+      }
+    }
+  },
+  "replay": {
+    "rows": 12,
+    "exact_match": true,
+    "differences": []
+  },
+  "policy_sha256": "523e95ba3085b58945241af6121c928dfd9bfd24bff585f2ce8ae0ad4921a3f3",
+  "policy_unchanged": true,
+  "full_confirmation_started": false,
+  "goal_complete": false
+}

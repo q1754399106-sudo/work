@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "raw_rows": 756,
+  "observations": 126,
+  "four_method_rows": 504,
+  "main_observations": 90,
+  "stress_observations": 36,
+  "keys_complete": true,
+  "same_Q_frequency_noise_estimate": true,
+  "original_hashes_unchanged": true,
+  "source_matlab_version": "24.2.0.2923080 (R2024b) Update 6",
+  "source_final_flags": 0,
+  "max_normal_residual": 9.99427362454097e-08,
+  "waveform_rechecks": 24,
+  "waveform_max_difference": 5.10702591327572e-15,
+  "fourway_endpoint_rows": 3,
+  "fourway_max_target_mismatch": 0.0441402388594936,
+  "new_matlab_runs": 0,
+  "figures": 9
+}

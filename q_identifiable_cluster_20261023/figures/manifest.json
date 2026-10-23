@@ -1,0 +1,50 @@
+{
+  "plots": [
+    {
+      "path": "figures/fixed_example_gathers.png",
+      "sha256": "4ab103e149d08d8403737445a93014c18ad89d124dbf0683ad539abd8dfbadda",
+      "pixels": [
+        2210,
+        1020
+      ]
+    },
+    {
+      "path": "figures/fixed_example_waveforms.png",
+      "sha256": "26b5a9582e02247f345e72482608ad12ef2cdbeb707a4b3c065bd29e416f8b83",
+      "pixels": [
+        2040,
+        1105
+      ]
+    },
+    {
+      "path": "figures/Q_sensitivity.png",
+      "sha256": "62baa7d19f3276dfbca1d933c05803cd0834f6269b632d5d42856ff3c5264266",
+      "pixels": [
+        2040,
+        816
+      ]
+    },
+    {
+      "path": "figures/validation_errors.png",
+      "sha256": "b385ef00c620590e6128b6135f5b2f9352c86be9e5fab210286c4bf998609186",
+      "pixels": [
+        2040,
+        1360
+      ]
+    }
+  ],
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "error_bars": "none: no independent replicates for each configuration",
+  "gather_amplitude_limit": 0.10349074298727,
+  "gather_clipping": "none",
+  "example_selection": "first registered validation geology/condition; traces first and middle registered indices",
+  "source_csvs": {
+    "development_metrics.csv": "80297c2c7d29907c46434df3ea82d7b023c54cd1d81eeccd2f0cfe9bf5e15f27",
+    "development_trace_metrics.csv": "8b17e984472bf5b6549eed83ff9fd486e04af0162499a6630b941532ad1de697",
+    "sensitivity_metrics.csv": "b499376c6fd8844bbc1ac6f8d28f686d208afd379f772ed6c0d0bf986760a426",
+    "validation_metrics.csv": "e2735e131e3296792fb04215b4a12b1c559fe254654785d0d84ec2d6c69b201a",
+    "validation_trace_metrics.csv": "2ef5fb27b0279e570ca3c989c86ed02da3b06233a25797407996041e4dc81f69"
+  }
+}

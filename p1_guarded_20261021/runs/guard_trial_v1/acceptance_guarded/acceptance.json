@@ -1,0 +1,327 @@
+{
+  "status": "FAIL",
+  "candidate": "GuardedNoise",
+  "baseline": "Frozen",
+  "route": "Split",
+  "pairs": 14,
+  "equal_model_main_improvement": 0.09920074929792733,
+  "groups": [
+    {
+      "Suite": "Main",
+      "Model": "SoftLowQ",
+      "n": 10,
+      "baseline": 0.7439729282776198,
+      "candidate": 0.6701702563351069,
+      "improvement_percent": 9.920074929792733,
+      "baseline_median": 0.6577231876510206,
+      "candidate_median": 0.6546713659760255,
+      "baseline_p90": 1.111171585603798,
+      "candidate_p90": 0.7647039419088149,
+      "baseline_p95": 1.1216422088740539,
+      "candidate_p95": 0.7660212582147694,
+      "baseline_worst": 1.13211283214431,
+      "candidate_worst": 0.767338574520724,
+      "baseline_failures": 2,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "StressVelocityMinus3",
+      "Model": "SoftLowQ",
+      "n": 2,
+      "baseline": 0.75065288041706,
+      "candidate": 1.0008946401813752,
+      "improvement_percent": -33.33654826253139,
+      "baseline_median": 0.75065288041706,
+      "candidate_median": 1.0008946401813752,
+      "baseline_p90": 0.7557543590925536,
+      "candidate_p90": 1.000957057503651,
+      "baseline_p95": 0.7563920439269903,
+      "candidate_p95": 1.0009648596689356,
+      "baseline_worst": 0.757029728761427,
+      "candidate_worst": 1.00097266183422,
+      "baseline_failures": 0,
+      "candidate_failures": 2
+    },
+    {
+      "Suite": "StressVelocityPlus3",
+      "Model": "SoftLowQ",
+      "n": 2,
+      "baseline": 8.00751025506502,
+      "candidate": 1.0008946401813752,
+      "improvement_percent": 87.50055125376485,
+      "baseline_median": 8.00751025506502,
+      "candidate_median": 1.0008946401813752,
+      "baseline_p90": 8.436591793200083,
+      "candidate_p90": 1.000957057503651,
+      "baseline_p95": 8.490226985466967,
+      "candidate_p95": 1.0009648596689356,
+      "baseline_worst": 8.54386217773385,
+      "candidate_worst": 1.00097266183422,
+      "baseline_failures": 2,
+      "candidate_failures": 2
+    }
+  ],
+  "checks": [
+    {
+      "name": "matched_prior_direct_present",
+      "pass_": true,
+      "detail": "CSV presence only; identical prior/Q and tuning-budget provenance must be audited separately."
+    },
+    {
+      "name": "local_scenario_coverage",
+      "pass_": true,
+      "detail": [
+        "CoherentNoiseAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "SmoothAVO",
+        "WeakSection"
+      ]
+    },
+    {
+      "name": "Main/SoftLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "SoftLowQ",
+        "n": 10,
+        "baseline": 0.7439729282776198,
+        "candidate": 0.6701702563351069,
+        "improvement_percent": 9.920074929792733,
+        "baseline_median": 0.6577231876510206,
+        "candidate_median": 0.6546713659760255,
+        "baseline_p90": 1.111171585603798,
+        "candidate_p90": 0.7647039419088149,
+        "baseline_p95": 1.1216422088740539,
+        "candidate_p95": 0.7660212582147694,
+        "baseline_worst": 1.13211283214431,
+        "candidate_worst": 0.767338574520724,
+        "baseline_failures": 2,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 2,
+        "candidate": 0,
+        "n": 10
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5219665620923803,
+        "candidate": 0.515535979674772,
+        "allowance": 0.02609832810461902,
+        "n": 10
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.45112670985639547,
+        "candidate": 0.45112670985639547,
+        "allowance": 0.022556335492819775,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.670293650852098,
+        "candidate": 0.670293650852098,
+        "allowance": 0.0335146825426049,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.000293818710857278,
+        "candidate": 0.000293818710857278,
+        "allowance": 0.001,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5429285313565125,
+        "candidate": 0.5326847894031123,
+        "allowance": 0.027146426567825628,
+        "n": 4
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6226021160396535,
+        "candidate": 0.6383399559471538,
+        "allowance": 0.03113010580198268,
+        "n": 4
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/SoftLowQ/mean_noninferiority",
+      "pass_": false,
+      "detail": {
+        "Suite": "StressVelocityMinus3",
+        "Model": "SoftLowQ",
+        "n": 2,
+        "baseline": 0.75065288041706,
+        "candidate": 1.0008946401813752,
+        "improvement_percent": -33.33654826253139,
+        "baseline_median": 0.75065288041706,
+        "candidate_median": 1.0008946401813752,
+        "baseline_p90": 0.7557543590925536,
+        "candidate_p90": 1.000957057503651,
+        "baseline_p95": 0.7563920439269903,
+        "candidate_p95": 1.0009648596689356,
+        "baseline_worst": 0.757029728761427,
+        "candidate_worst": 1.00097266183422,
+        "baseline_failures": 0,
+        "candidate_failures": 2
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/SoftLowQ/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 0,
+        "candidate": 2,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/SoftLowQ/EventAmplitudeError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.709522710358759,
+        "candidate": 0.997668500515875,
+        "allowance": 0.035476135517937955,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/SoftLowQ/AVOInterceptError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.6872197787080555,
+        "candidate": 0.991792876406848,
+        "allowance": 0.03436098893540278,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/SoftLowQ/AVOGradientError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.719473474394835,
+        "candidate": 0.997829253072292,
+        "allowance": 0.03597367371974175,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/SoftLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressVelocityPlus3",
+        "Model": "SoftLowQ",
+        "n": 2,
+        "baseline": 8.00751025506502,
+        "candidate": 1.0008946401813752,
+        "improvement_percent": 87.50055125376485,
+        "baseline_median": 8.00751025506502,
+        "candidate_median": 1.0008946401813752,
+        "baseline_p90": 8.436591793200083,
+        "candidate_p90": 1.000957057503651,
+        "baseline_p95": 8.490226985466967,
+        "candidate_p95": 1.0009648596689356,
+        "baseline_worst": 8.54386217773385,
+        "candidate_worst": 1.00097266183422,
+        "baseline_failures": 2,
+        "candidate_failures": 2
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 2,
+        "candidate": 2,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 3.702577407129125,
+        "candidate": 0.997668500515875,
+        "allowance": 0.18512887035645625,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 2.86991269977664,
+        "candidate": 0.991792876406848,
+        "allowance": 0.143495634988832,
+        "n": 2
+      }
+    },
+    {
+      "name": "StressVelocityPlus3/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 2.07573329987908,
+        "candidate": 0.997829253072292,
+        "allowance": 0.103786664993954,
+        "n": 2
+      }
+    },
+    {
+      "name": "main_equal_model_improvement",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7439729282776198,
+        "candidate": 0.6701702563351069,
+        "relative_improvement": 0.09920074929792733
+      }
+    },
+    {
+      "name": "candidate_solver_quality",
+      "pass_": true,
+      "detail": "Direct and requested route included"
+    },
+    {
+      "name": "candidate_compensation_coverage",
+      "pass_": false,
+      "detail": {
+        "compensated_observations": 10,
+        "total": 14,
+        "note": "Pass-through rejection is not successful attenuation compensation."
+      }
+    }
+  ],
+  "diagnostic_counts": {},
+  "scope": "Engineering gates on supplied paired metrics. No automatic proof of independent geology, absence of leakage or statistical significance.",
+  "unverified_requirements": [
+    "new geological holdout",
+    "repeated independent calibration",
+    "identical information/priors across routes",
+    "source/config hashes and actual execution",
+    "hierarchical uncertainty intervals"
+  ]
+}

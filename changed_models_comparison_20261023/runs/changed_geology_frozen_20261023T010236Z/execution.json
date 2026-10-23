@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/changed_models_comparison_20261023/runs/changed_geology_frozen_20261023T010236Z/source/core_p1');run_changed_models('C:/Users/qq175/Documents/ChatGPT/研究/changed_models_comparison_20261023/runs/changed_geology_frozen_20261023T010236Z/matlab');"
+  ],
+  "started_utc": "2026-10-23T01:02:37.483009+00:00",
+  "timeout_seconds": 5400.0,
+  "pid": 29256,
+  "exit_code": 0,
+  "elapsed_seconds": 1332.6559999999954
+}

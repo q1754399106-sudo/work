@@ -1,0 +1,10 @@
+{
+  "action": "check",
+  "created_utc": "2026-10-19T06:25:45.055946+00:00",
+  "session_required": "ResearchMATLAB",
+  "started_new_instance": false,
+  "discovered_sessions": [],
+  "status": "BLOCKED_ENGINE",
+  "reason": "Official matlab.engine module not present in current runtime (No module named 'matlab'); no new instance started.",
+  "elapsed_seconds": 0.0011159269997733645
+}

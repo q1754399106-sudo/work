@@ -1,0 +1,24 @@
+test_complete_artificial_fixture_passes_without_becoming_science (test_strict_evaluate.StrictAuditFixtures.test_complete_artificial_fixture_passes_without_becoming_science) ... ok
+test_current_sources_must_match_manifest (test_strict_evaluate.StrictAuditFixtures.test_current_sources_must_match_manifest) ... ok
+test_duplicate_observation_method_route_rejected (test_strict_evaluate.StrictAuditFixtures.test_duplicate_observation_method_route_rejected) ... ok
+test_empty_csv_reports_not_run (test_strict_evaluate.StrictAuditFixtures.test_empty_csv_reports_not_run) ... ok
+test_failed_direct_nan_row_retained_and_branch_fails (test_strict_evaluate.StrictAuditFixtures.test_failed_direct_nan_row_retained_and_branch_fails) ... ok
+test_frozen_spec_hash_required (test_strict_evaluate.StrictAuditFixtures.test_frozen_spec_hash_required) ... ok
+test_frozen_stress_subset_accepted_without_claiming_calibration_variance (test_strict_evaluate.StrictAuditFixtures.test_frozen_stress_subset_accepted_without_claiming_calibration_variance) ... ok
+test_global_gain_cannot_hide_local_weak_harm (test_strict_evaluate.StrictAuditFixtures.test_global_gain_cannot_hide_local_weak_harm) ... ok
+test_local_coverage_required_for_each_model_snr (test_strict_evaluate.StrictAuditFixtures.test_local_coverage_required_for_each_model_snr) ... ok
+test_main_gain_cannot_hide_lower_snr_harm (test_strict_evaluate.StrictAuditFixtures.test_main_gain_cannot_hide_lower_snr_harm) ... ok
+test_matched_prior_and_information_hashes_enforced (test_strict_evaluate.StrictAuditFixtures.test_matched_prior_and_information_hashes_enforced) ... ok
+test_missing_calibration_layer_rejected (test_strict_evaluate.StrictAuditFixtures.test_missing_calibration_layer_rejected) ... ok
+test_missing_observation_layer_rejected (test_strict_evaluate.StrictAuditFixtures.test_missing_observation_layer_rejected) ... ok
+test_no_csv_reports_blocked_engine_without_fabrication (test_strict_evaluate.StrictAuditFixtures.test_no_csv_reports_blocked_engine_without_fabrication) ... ok
+test_preparation_failure_retains_both_routes_with_unavailable_prior (test_strict_evaluate.StrictAuditFixtures.test_preparation_failure_retains_both_routes_with_unavailable_prior) ... ok
+test_scientific_metadata_cannot_substitute_a_boolean_for_freeze_envelope (test_strict_evaluate.StrictAuditFixtures.test_scientific_metadata_cannot_substitute_a_boolean_for_freeze_envelope) ... ok
+test_shared_information_hash_across_all_methods (test_strict_evaluate.StrictAuditFixtures.test_shared_information_hash_across_all_methods) ... ok
+test_source_configuration_freeze_identity_checked (test_strict_evaluate.StrictAuditFixtures.test_source_configuration_freeze_identity_checked) ... ok
+test_successful_nonfinite_metric_rejected (test_strict_evaluate.StrictAuditFixtures.test_successful_nonfinite_metric_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 12.237s
+
+OK

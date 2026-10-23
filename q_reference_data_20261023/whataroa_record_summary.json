@@ -1,0 +1,198 @@
+{
+  "title": "Correlated walk-away Vertical Seismic Profile (VSP) data from Whataroa, New Zealand",
+  "description": "<p>This dataset include the distributed acoustic sensing (DAS) and 3C geophone vertical seismic profile (VSP) data collected in Whataroa, New Zealand and the manually picked qP- and qS-waves transit times on the dataset.</p>",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "files": [
+    {
+      "id": "ad78f326-70a7-4a59-90da-453497677827",
+      "key": "Readme.txt",
+      "size": 666,
+      "checksum": "md5:19b46b5848efe336987aae11f419a4fa",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/Readme.txt/content"
+      }
+    },
+    {
+      "id": "e3d13248-2a92-414d-9349-bed0c04cc807",
+      "key": "4_hDVS_10110.segy",
+      "size": 7084240,
+      "checksum": "md5:0d50e25405165badc91ad1b5f9fa15d0",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/4_hDVS_10110.segy/content"
+      }
+    },
+    {
+      "id": "76619a5d-acc1-4f7f-8325-d0b24fac6393",
+      "key": "2_hDVS_8125.fbp",
+      "size": 2885,
+      "checksum": "md5:f6f42625baa4cb900d5ab9d85a66ceb5",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/2_hDVS_8125.fbp/content"
+      }
+    },
+    {
+      "id": "acc9bb2c-9281-47fd-bc66-9e0927dd6483",
+      "key": "6_hDVS_10120.fbp",
+      "size": 3147,
+      "checksum": "md5:7c9a54f53696b993d80a39e3ea7c682f",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/6_hDVS_10120.fbp/content"
+      }
+    },
+    {
+      "id": "435a689f-72fd-4bb1-a07c-8d54256f776d",
+      "key": "2_hDVS_8125.segy",
+      "size": 7084240,
+      "checksum": "md5:c6efe8e91b19f15467ea3b845e74b75a",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/2_hDVS_8125.segy/content"
+      }
+    },
+    {
+      "id": "9b7212d9-dcc3-417b-b814-9c481ea1c3b9",
+      "key": "5_hDVS_10115.fbp",
+      "size": 2809,
+      "checksum": "md5:883d27f5e57ea49791ec700b9d2fdefe",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/5_hDVS_10115.fbp/content"
+      }
+    },
+    {
+      "id": "3195f59a-0253-40da-88c3-2a7dc8635475",
+      "key": "3_hDVS_10105.segy",
+      "size": 7084240,
+      "checksum": "md5:4c27631ba9fe772ab3d1dee1ba433004",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/3_hDVS_10105.segy/content"
+      }
+    },
+    {
+      "id": "436918a0-e44b-4515-9a7d-ad011c0477db",
+      "key": "recXYZ.csv",
+      "size": 10247,
+      "checksum": "md5:efc05eb0b8dd54fde9333e191bbf01ac",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/recXYZ.csv/content"
+      }
+    },
+    {
+      "id": "560d84d7-c410-4fbd-a2d0-b0dafe950509",
+      "key": "8_hDVS_10134.segy",
+      "size": 7084240,
+      "checksum": "md5:5da77dd0d6207f066e3cb5ac10251525",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/8_hDVS_10134.segy/content"
+      }
+    },
+    {
+      "id": "64da57b4-7b46-4050-8be9-f13eab968953",
+      "key": "4_hDVS_10110.fbp",
+      "size": 2807,
+      "checksum": "md5:b2e5f72b0df80fe96ba24220793c99d0",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/4_hDVS_10110.fbp/content"
+      }
+    },
+    {
+      "id": "1aecb1b4-d998-4e73-bde3-25241a6b2e86",
+      "key": "8_hDVS_10134.fbp",
+      "size": 4362,
+      "checksum": "md5:39ef71e232390599dfa1b280dc42b364",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/8_hDVS_10134.fbp/content"
+      }
+    },
+    {
+      "id": "c7a95f79-08be-4eec-9384-33540a1be9e2",
+      "key": "5_hDVS_10115.segy",
+      "size": 7084240,
+      "checksum": "md5:bae4f8147daa7d2f015cbaee8cd42e0f",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/5_hDVS_10115.segy/content"
+      }
+    },
+    {
+      "id": "042b917d-4f4e-48ca-aa01-3781f1bd4a2f",
+      "key": "0_hDVS_2239.segy",
+      "size": 7084240,
+      "checksum": "md5:ab7ada55c649f92b0bd951b49dbe0299",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/0_hDVS_2239.segy/content"
+      }
+    },
+    {
+      "id": "8b19d4d3-67c6-47c6-8b7b-4000e7c4adee",
+      "key": "7_hDVS_10130.segy",
+      "size": 7084240,
+      "checksum": "md5:2a47aa3b319dd47282f45a92a3ab95b2",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/7_hDVS_10130.segy/content"
+      }
+    },
+    {
+      "id": "4f1dfc05-e635-4870-aa66-b68dcc1c52e3",
+      "key": "1_hDVS_6101.fbp",
+      "size": 4551,
+      "checksum": "md5:e154b73d6c08fef33d90a9e15223f900",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/1_hDVS_6101.fbp/content"
+      }
+    },
+    {
+      "id": "e1edc4b2-2170-4b51-8ec4-ccee11d8abca",
+      "key": "srcXYZ.csv",
+      "size": 191,
+      "checksum": "md5:ad6e5a97d06861c27a9e4fb92b4c31cc",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/srcXYZ.csv/content"
+      }
+    },
+    {
+      "id": "f62691d7-4446-48ba-b38f-170a8f911cf5",
+      "key": "6_hDVS_10120.segy",
+      "size": 7084240,
+      "checksum": "md5:85d4d5a70da57705b044f1f9e2bbf788",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/6_hDVS_10120.segy/content"
+      }
+    },
+    {
+      "id": "cec7e3b2-03c8-4c69-8bd2-55d274a4b202",
+      "key": "1_hDVS_6101.segy",
+      "size": 7084240,
+      "checksum": "md5:d087b4ce0d18ed22e663f6b9e32c8e3b",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/1_hDVS_6101.segy/content"
+      }
+    },
+    {
+      "id": "985201ea-97d3-4cd0-b5e5-594e72abf72e",
+      "key": "7_hDVS_10130.fbp",
+      "size": 4426,
+      "checksum": "md5:3e49878777f8542778dab4b822377047",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/7_hDVS_10130.fbp/content"
+      }
+    },
+    {
+      "id": "f359f7c0-1519-4869-92d2-aee025ac6177",
+      "key": "3_hDVS_10105.fbp",
+      "size": 2800,
+      "checksum": "md5:a7804760d0894c5cd89976adafcab986",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/3_hDVS_10105.fbp/content"
+      }
+    },
+    {
+      "id": "330b2927-d7f1-4e07-86c3-b6a677e6df51",
+      "key": "0_hDVS_2239.fbp",
+      "size": 4978,
+      "checksum": "md5:453f6e8f8a73cbbd693a2278ec034f37",
+      "links": {
+        "self": "https://zenodo.org/api/records/15858598/files/0_hDVS_2239.fbp/content"
+      }
+    }
+  ]
+}

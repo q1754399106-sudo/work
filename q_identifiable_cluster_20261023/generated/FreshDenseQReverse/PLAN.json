@@ -1,0 +1,43 @@
+{
+  "name": "FreshDenseQReverse",
+  "registered_utc": "2026-10-23T06:50:12.131615+00:00",
+  "seed": 20262801,
+  "nx": 99,
+  "dx_m": 30,
+  "nz": 441,
+  "dz_m": 5,
+  "nt": 851,
+  "dt_s": 0.002,
+  "offset_m": 450,
+  "geology": "80 irregular beds; inherited folding, faults, channel, wedge and low-Q lens",
+  "wavelet": "Spatially varying 48 Hz +/-7%; phase -16 +/-7 degrees; inherited source ghosts",
+  "forward": "Column-wise 2D-property quasi-1D convolution; cumulative vertical dt/Q multiplied by straight/RMS finite-offset path factor; constant-Q amplitude/dispersion. Kinematic diffraction/multiples. Not 2D elastic/viscoelastic full-wave simulation.",
+  "calibration": "Independent calibration seed 20262802, nominal source 48 Hz and midpoint phase; known coarse four-layer geometry",
+  "observations": [
+    {
+      "name": "Moderate",
+      "snr_db": 14,
+      "seed": 20262811,
+      "coherent_energy_fraction": 0.18,
+      "multiple_scale": 1.0,
+      "static_std_ms": 1.5
+    },
+    {
+      "name": "Strong",
+      "snr_db": 8,
+      "seed": 20262812,
+      "coherent_energy_fraction": 0.3,
+      "multiple_scale": 1.5,
+      "static_std_ms": 3.0
+    }
+  ],
+  "noise": "AR(1)=0.55 temporally colored/spatially correlated Gaussian noise, ground roll, linear interference, impulsive bursts, two dead traces (1-based 23 and 78)",
+  "scoring": "Full and live-trace relative waveform error; waveform correlation; deep window t>=1.05s; low-energy truth-local-RMS 20th-45th percentile region (evaluation only). No individual amplitude claim for overlapping dense reflectors.",
+  "methods": [
+    "FixedSplit",
+    "FixedSplitSharedCal",
+    "FullCalRefit",
+    "PrunedFullCalRefit"
+  ],
+  "solver_policy": "All original production MATLAB files frozen; process independent adjacent blocks of 11 Section traces, same 450 m offset; reuse prepared calibration/dictionary. No new thresholds selected on this experiment."
+}

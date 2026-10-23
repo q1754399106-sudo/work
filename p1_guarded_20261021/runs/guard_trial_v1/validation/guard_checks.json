@@ -1,0 +1,1 @@
+{"pass":true,"good_calibration_accepted":true,"bad_calibration_rejected":true,"bad_reasons":["Q_search_boundary","optimizer_not_converged","calibration_fit_mismatch"],"rejected_output_max_difference":0,"rejected_compensation_applied":false}

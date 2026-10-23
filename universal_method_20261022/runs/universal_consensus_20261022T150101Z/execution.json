@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/universal_method_20261022/runs/universal_consensus_20261022T150101Z/source/core_p1');run_universal_consensus('C:/Users/qq175/Documents/ChatGPT/研究/universal_method_20261022/runs/universal_consensus_20261022T150101Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T15:01:01.775327+00:00",
+  "timeout_seconds": 300.0,
+  "pid": 4436,
+  "exit_code": 0,
+  "elapsed_seconds": 13.593999999997322
+}

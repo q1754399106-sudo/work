@@ -1,0 +1,13 @@
+primary scenario 1/13 bias_-50 cases=2 flags=0 elapsed=5.3s
+primary scenario 2/13 bias_-40 cases=4 flags=0 elapsed=9.5s
+primary scenario 3/13 bias_-30 cases=6 flags=0 elapsed=13.3s
+primary scenario 4/13 bias_-20 cases=8 flags=0 elapsed=17.1s
+primary scenario 5/13 bias_-10 cases=10 flags=0 elapsed=20.6s
+primary scenario 6/13 bias_+0 cases=12 flags=0 elapsed=23.8s
+primary scenario 7/13 bias_+10 cases=14 flags=0 elapsed=27.4s
+primary scenario 8/13 bias_+20 cases=16 flags=0 elapsed=31.1s
+primary scenario 9/13 bias_+30 cases=18 flags=0 elapsed=35.2s
+primary scenario 10/13 bias_+40 cases=20 flags=0 elapsed=39.6s
+primary scenario 11/13 bias_+50 cases=22 flags=0 elapsed=44.2s
+primary scenario 12/13 shallow_low_deep_high cases=24 flags=0 elapsed=48.1s
+primary scenario 13/13 shallow_high_deep_low cases=26 flags=0 elapsed=51.8s

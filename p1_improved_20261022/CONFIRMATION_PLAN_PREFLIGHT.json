@@ -1,0 +1,12 @@
+{
+  "preflight_only": true,
+  "no_simulation": true,
+  "models": 13,
+  "prospective_synthetic_models": 4,
+  "regression_models": 9,
+  "observations": 4680,
+  "rows": 46800,
+  "reserved_design_sha256": "eac0a513329a338460cb583002e37a7238edca757c008b4fce9909cf19e66774",
+  "reserved_seed_sets_disjoint_from_original": true,
+  "exact_model_parameters_different_from_original": true
+}

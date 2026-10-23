@@ -1,0 +1,2 @@
+PASS: P1 public-input poison invariance and solver residual checks
+PASS: repaired no-structure solve, pure-Q isolation, uncertainty propagation, operator refresh

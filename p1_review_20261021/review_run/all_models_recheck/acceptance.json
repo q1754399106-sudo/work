@@ -1,0 +1,1598 @@
+{
+  "status": "FAIL",
+  "candidate": "CombinedUncertainty",
+  "baseline": "Frozen",
+  "route": "Split",
+  "pairs": 246,
+  "equal_model_main_improvement": 0.0731469436850094,
+  "groups": [
+    {
+      "Suite": "DevMain",
+      "Model": "Dev_DeepContrast",
+      "n": 15,
+      "baseline": 0.5596010894708331,
+      "candidate": 0.5216857751943497,
+      "improvement_percent": 6.775418238076824,
+      "baseline_median": 0.553466161761584,
+      "candidate_median": 0.524054381574873,
+      "baseline_p90": 0.5807749687884578,
+      "candidate_p90": 0.562877897585682,
+      "baseline_p95": 0.5822693878629628,
+      "candidate_p95": 0.5664271517907008,
+      "baseline_worst": 0.585230374975505,
+      "candidate_worst": 0.567739922305446,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "DevMain",
+      "Model": "Dev_ModerateQ",
+      "n": 15,
+      "baseline": 0.6276021172201837,
+      "candidate": 0.5933516087934283,
+      "improvement_percent": 5.457360242578524,
+      "baseline_median": 0.627959259647303,
+      "candidate_median": 0.593860151839589,
+      "baseline_p90": 0.668253812414502,
+      "candidate_p90": 0.6129772436045383,
+      "baseline_p95": 0.6718318244314738,
+      "candidate_p95": 0.6163072077613734,
+      "baseline_worst": 0.673397368481842,
+      "candidate_worst": 0.619157397638088,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "LowerSNR",
+      "Model": "SoftLowQ",
+      "n": 12,
+      "baseline": 0.9510237977318503,
+      "candidate": 0.7691230589493467,
+      "improvement_percent": 19.126833546787026,
+      "baseline_median": 1.0031703336488265,
+      "candidate_median": 0.7548535044765895,
+      "baseline_p90": 1.1104404157962582,
+      "candidate_p90": 0.8519628267418117,
+      "baseline_p95": 1.1850354357972335,
+      "candidate_p95": 0.8909440048493443,
+      "baseline_worst": 1.27508249807594,
+      "candidate_worst": 0.934131585057211,
+      "baseline_failures": 6,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "LowerSNR",
+      "Model": "ThinHighFrequency",
+      "n": 12,
+      "baseline": 0.789360425243275,
+      "candidate": 0.7435149375871927,
+      "improvement_percent": 5.80792831639021,
+      "baseline_median": 0.7897390304638445,
+      "candidate_median": 0.7465422812579815,
+      "baseline_p90": 0.8010175920325626,
+      "candidate_p90": 0.7570411427298515,
+      "baseline_p95": 0.8012588393858252,
+      "candidate_p95": 0.7578866252086429,
+      "baseline_worst": 0.80139926829667,
+      "candidate_worst": 0.758886294755509,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "LowerSNR",
+      "Model": "VelocityReversal",
+      "n": 12,
+      "baseline": 0.6680101099288946,
+      "candidate": 0.6169990944500433,
+      "improvement_percent": 7.6362639907173175,
+      "baseline_median": 0.667653728742355,
+      "candidate_median": 0.6154407143583185,
+      "baseline_p90": 0.6800993325585063,
+      "candidate_p90": 0.6327953885299115,
+      "baseline_p95": 0.680682253247415,
+      "candidate_p95": 0.6346508658435808,
+      "baseline_worst": 0.681388834985705,
+      "candidate_worst": 0.6359377613139,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "Main",
+      "Model": "SoftLowQ",
+      "n": 30,
+      "baseline": 0.7730730253812398,
+      "candidate": 0.6758382305331987,
+      "improvement_percent": 12.577698568655904,
+      "baseline_median": 0.6700371753097335,
+      "candidate_median": 0.6583990665030065,
+      "baseline_p90": 1.177297165293944,
+      "candidate_p90": 0.7967883399206532,
+      "baseline_p95": 1.2349099380047988,
+      "candidate_p95": 0.808237293850499,
+      "baseline_worst": 1.27028309713872,
+      "candidate_worst": 0.810794566208604,
+      "baseline_failures": 6,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "Main",
+      "Model": "ThinHighFrequency",
+      "n": 30,
+      "baseline": 0.729227713314787,
+      "candidate": 0.7032691836281124,
+      "improvement_percent": 3.5597289039766666,
+      "baseline_median": 0.7296632006637576,
+      "candidate_median": 0.6992372767217501,
+      "baseline_p90": 0.7497770817743367,
+      "candidate_p90": 0.7383090324594945,
+      "baseline_p95": 0.7514302708904635,
+      "candidate_p95": 0.7392325176195798,
+      "baseline_worst": 0.751644954377368,
+      "candidate_worst": 0.740694899054422,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "Main",
+      "Model": "VelocityReversal",
+      "n": 30,
+      "baseline": 0.5550796321234029,
+      "candidate": 0.5277818705351458,
+      "improvement_percent": 4.9178099877007275,
+      "baseline_median": 0.5463256310877865,
+      "candidate_median": 0.527765002032326,
+      "baseline_p90": 0.5902650845740474,
+      "candidate_p90": 0.5437902013396401,
+      "baseline_p95": 0.5935315883196566,
+      "candidate_p95": 0.5449037521944545,
+      "baseline_worst": 0.595894626422358,
+      "candidate_worst": 0.548386273620882,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "MultiCalMain",
+      "Model": "SoftLowQ",
+      "n": 10,
+      "baseline": 0.8410420590655308,
+      "candidate": 0.6961032488077131,
+      "improvement_percent": 17.23324163108525,
+      "baseline_median": 0.703332988708493,
+      "candidate_median": 0.6779884775952595,
+      "baseline_p90": 1.26513891347166,
+      "candidate_p90": 0.8092290012839501,
+      "baseline_p95": 1.26513891347166,
+      "candidate_p95": 0.80975326485123,
+      "baseline_worst": 1.26513891347166,
+      "candidate_worst": 0.81027752841851,
+      "baseline_failures": 2,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "MultiCalMain",
+      "Model": "ThinHighFrequency",
+      "n": 10,
+      "baseline": 0.7262724271629358,
+      "candidate": 0.7007448049426732,
+      "improvement_percent": 3.514882469100755,
+      "baseline_median": 0.723981908722937,
+      "candidate_median": 0.693293245059297,
+      "baseline_p90": 0.747920133552487,
+      "candidate_p90": 0.7364502131536252,
+      "baseline_p95": 0.747920133552487,
+      "candidate_p95": 0.7364721966608662,
+      "baseline_worst": 0.747920133552487,
+      "candidate_worst": 0.736494180168107,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "MultiCalMain",
+      "Model": "VelocityReversal",
+      "n": 10,
+      "baseline": 0.5508923865983159,
+      "candidate": 0.5248098555611279,
+      "improvement_percent": 4.734596387915968,
+      "baseline_median": 0.545773683803325,
+      "candidate_median": 0.5231822572321589,
+      "baseline_p90": 0.591622751477987,
+      "candidate_p90": 0.5454976906714784,
+      "baseline_p95": 0.591622751477987,
+      "candidate_p95": 0.5455046767613612,
+      "baseline_worst": 0.591622751477987,
+      "candidate_worst": 0.545511662851244,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "NewGeologyMain",
+      "Model": "Holdout_DeepLowQ",
+      "n": 15,
+      "baseline": 0.6116909763747576,
+      "candidate": 0.5886490671526036,
+      "improvement_percent": 3.766919917425293,
+      "baseline_median": 0.625811237875812,
+      "candidate_median": 0.577402659306079,
+      "baseline_p90": 0.744633741762766,
+      "candidate_p90": 0.7367331299081338,
+      "baseline_p95": 0.7498057941047277,
+      "candidate_p95": 0.7423307457983681,
+      "baseline_worst": 0.752773694872685,
+      "candidate_worst": 0.745893864668656,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "NewGeologyMain",
+      "Model": "Holdout_HighContrastReversal",
+      "n": 15,
+      "baseline": 0.5851498965684767,
+      "candidate": 0.5548382354587833,
+      "improvement_percent": 5.18015320304277,
+      "baseline_median": 0.57979536549754,
+      "candidate_median": 0.551190319614997,
+      "baseline_p90": 0.6123470823934892,
+      "candidate_p90": 0.5717213377702972,
+      "baseline_p95": 0.6133877049713992,
+      "candidate_p95": 0.5721990697795651,
+      "baseline_worst": 0.615709845147072,
+      "candidate_worst": 0.572512749737161,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "NewGeologyMain",
+      "Model": "Holdout_StrongAtten",
+      "n": 15,
+      "baseline": 0.8967675417250199,
+      "candidate": 0.7227500377259255,
+      "improvement_percent": 19.404973519040926,
+      "baseline_median": 0.715464097163483,
+      "candidate_median": 0.688953998135678,
+      "baseline_p90": 1.6619876876089759,
+      "candidate_p90": 0.9430033821172056,
+      "baseline_p95": 1.7409034585457088,
+      "candidate_p95": 0.9660147453424872,
+      "baseline_worst": 1.83170546184641,
+      "candidate_worst": 0.984858864376361,
+      "baseline_failures": 3,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "NewGeologyMain",
+      "Model": "Holdout_ThinInterbed",
+      "n": 15,
+      "baseline": 0.629956946424661,
+      "candidate": 0.5952737309945813,
+      "improvement_percent": 5.505648541051156,
+      "baseline_median": 0.633739908030435,
+      "candidate_median": 0.605673011515197,
+      "baseline_p90": 0.6468309394273516,
+      "candidate_p90": 0.6307506680852893,
+      "baseline_p95": 0.6471164326430411,
+      "candidate_p95": 0.6311957214703928,
+      "baseline_worst": 0.647164623487895,
+      "candidate_worst": 0.63174441567943,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "matched_prior_direct_present",
+      "pass_": true,
+      "detail": "CSV presence only; identical prior/Q and tuning-budget provenance must be audited separately."
+    },
+    {
+      "name": "local_scenario_coverage",
+      "pass_": true,
+      "detail": [
+        "CoherentNoiseAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "SmoothAVO",
+        "WeakSection"
+      ]
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "DevMain",
+        "Model": "Dev_DeepContrast",
+        "n": 15,
+        "baseline": 0.5596010894708331,
+        "candidate": 0.5216857751943497,
+        "improvement_percent": 6.775418238076824,
+        "baseline_median": 0.553466161761584,
+        "candidate_median": 0.524054381574873,
+        "baseline_p90": 0.5807749687884578,
+        "candidate_p90": 0.562877897585682,
+        "baseline_p95": 0.5822693878629628,
+        "candidate_p95": 0.5664271517907008,
+        "baseline_worst": 0.585230374975505,
+        "candidate_worst": 0.567739922305446,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 15
+      }
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.4349038125368818,
+        "candidate": 0.3903709558964463,
+        "allowance": 0.02174519062684409,
+        "n": 15
+      }
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.37867441504081667,
+        "candidate": 0.36145463523584165,
+        "allowance": 0.018933720752040833,
+        "n": 3
+      }
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5603471448316446,
+        "candidate": 0.5437060646815124,
+        "allowance": 0.028017357241582233,
+        "n": 3
+      }
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.00411725247108435,
+        "candidate": 0.0028476002859960537,
+        "allowance": 0.001,
+        "n": 3
+      }
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.43830160752958003,
+        "candidate": 0.3738207995329535,
+        "allowance": 0.021915080376479004,
+        "n": 6
+      }
+    },
+    {
+      "name": "DevMain/Dev_DeepContrast/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.4703853064491137,
+        "candidate": 0.4207978687034827,
+        "allowance": 0.023519265322455685,
+        "n": 6
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "DevMain",
+        "Model": "Dev_ModerateQ",
+        "n": 15,
+        "baseline": 0.6276021172201837,
+        "candidate": 0.5933516087934283,
+        "improvement_percent": 5.457360242578524,
+        "baseline_median": 0.627959259647303,
+        "candidate_median": 0.593860151839589,
+        "baseline_p90": 0.668253812414502,
+        "candidate_p90": 0.6129772436045383,
+        "baseline_p95": 0.6718318244314738,
+        "candidate_p95": 0.6163072077613734,
+        "baseline_worst": 0.673397368481842,
+        "candidate_worst": 0.619157397638088,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 15
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5477207969894112,
+        "candidate": 0.5120143097669019,
+        "allowance": 0.027386039849470564,
+        "n": 15
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.542296060453205,
+        "candidate": 0.529000851303428,
+        "allowance": 0.027114803022660252,
+        "n": 3
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6189489234686143,
+        "candidate": 0.6041051587591073,
+        "allowance": 0.030947446173430718,
+        "n": 3
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.0025863365376948737,
+        "candidate": 0.0018413405719472544,
+        "allowance": 0.001,
+        "n": 3
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5644250328188101,
+        "candidate": 0.5162688111963456,
+        "allowance": 0.028221251640940505,
+        "n": 6
+      }
+    },
+    {
+      "name": "DevMain/Dev_ModerateQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6175052672405433,
+        "candidate": 0.5868070607804942,
+        "allowance": 0.03087526336202717,
+        "n": 6
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "SoftLowQ",
+        "n": 12,
+        "baseline": 0.9510237977318503,
+        "candidate": 0.7691230589493467,
+        "improvement_percent": 19.126833546787026,
+        "baseline_median": 1.0031703336488265,
+        "candidate_median": 0.7548535044765895,
+        "baseline_p90": 1.1104404157962582,
+        "candidate_p90": 0.8519628267418117,
+        "baseline_p95": 1.1850354357972335,
+        "candidate_p95": 0.8909440048493443,
+        "baseline_worst": 1.27508249807594,
+        "candidate_worst": 0.934131585057211,
+        "baseline_failures": 6,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 6,
+        "candidate": 0,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.654288156960578,
+        "candidate": 0.6031489300702247,
+        "allowance": 0.0327144078480289,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.633897670569117,
+        "candidate": 0.5924991427753055,
+        "allowance": 0.031694883528455856,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.714766632541035,
+        "candidate": 0.7208645249301269,
+        "allowance": 0.03573833162705175,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "ThinHighFrequency",
+        "n": 12,
+        "baseline": 0.789360425243275,
+        "candidate": 0.7435149375871927,
+        "improvement_percent": 5.80792831639021,
+        "baseline_median": 0.7897390304638445,
+        "candidate_median": 0.7465422812579815,
+        "baseline_p90": 0.8010175920325626,
+        "candidate_p90": 0.7570411427298515,
+        "baseline_p95": 0.8012588393858252,
+        "candidate_p95": 0.7578866252086429,
+        "baseline_worst": 0.80139926829667,
+        "candidate_worst": 0.758886294755509,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.750799059061362,
+        "candidate": 0.6991602252042216,
+        "allowance": 0.037539952953068105,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.737106194111073,
+        "candidate": 0.6879402488617131,
+        "allowance": 0.03685530970555365,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7661581598744143,
+        "candidate": 0.722339362185547,
+        "allowance": 0.03830790799372072,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "VelocityReversal",
+        "n": 12,
+        "baseline": 0.6680101099288946,
+        "candidate": 0.6169990944500433,
+        "improvement_percent": 7.6362639907173175,
+        "baseline_median": 0.667653728742355,
+        "candidate_median": 0.6154407143583185,
+        "baseline_p90": 0.6800993325585063,
+        "candidate_p90": 0.6327953885299115,
+        "baseline_p95": 0.680682253247415,
+        "candidate_p95": 0.6346508658435808,
+        "baseline_worst": 0.681388834985705,
+        "candidate_worst": 0.6359377613139,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5674834907217146,
+        "candidate": 0.49526212101338235,
+        "allowance": 0.02837417453608573,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.557433070992515,
+        "candidate": 0.5100924884998388,
+        "allowance": 0.027871653549625754,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7904736608472188,
+        "candidate": 0.7812888780850435,
+        "allowance": 0.039523683042360945,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "SoftLowQ",
+        "n": 30,
+        "baseline": 0.7730730253812398,
+        "candidate": 0.6758382305331987,
+        "improvement_percent": 12.577698568655904,
+        "baseline_median": 0.6700371753097335,
+        "candidate_median": 0.6583990665030065,
+        "baseline_p90": 1.177297165293944,
+        "candidate_p90": 0.7967883399206532,
+        "baseline_p95": 1.2349099380047988,
+        "candidate_p95": 0.808237293850499,
+        "baseline_worst": 1.27028309713872,
+        "candidate_worst": 0.810794566208604,
+        "baseline_failures": 6,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 6,
+        "candidate": 0,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5156683114656474,
+        "candidate": 0.4897629222406403,
+        "allowance": 0.02578341557328237,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.49494948837317915,
+        "candidate": 0.4703609306781182,
+        "allowance": 0.02474747441865896,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6873753195640346,
+        "candidate": 0.6746202484202125,
+        "allowance": 0.03436876597820173,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.0010856887231104938,
+        "candidate": 0.0006758869879161439,
+        "allowance": 0.001,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5484916267646273,
+        "candidate": 0.5264244774131166,
+        "allowance": 0.027424581338231363,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6331437808361635,
+        "candidate": 0.6499681586374619,
+        "allowance": 0.03165718904180818,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "ThinHighFrequency",
+        "n": 30,
+        "baseline": 0.729227713314787,
+        "candidate": 0.7032691836281124,
+        "improvement_percent": 3.5597289039766666,
+        "baseline_median": 0.7296632006637576,
+        "candidate_median": 0.6992372767217501,
+        "baseline_p90": 0.7497770817743367,
+        "candidate_p90": 0.7383090324594945,
+        "baseline_p95": 0.7514302708904635,
+        "candidate_p95": 0.7392325176195798,
+        "baseline_worst": 0.751644954377368,
+        "candidate_worst": 0.740694899054422,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6780207671466306,
+        "candidate": 0.6517540574996271,
+        "allowance": 0.033901038357331534,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 1.1573072241855349,
+        "candidate": 1.2038325451900134,
+        "allowance": 0.057865361209276746,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.723568413512614,
+        "candidate": 0.7072254953912708,
+        "allowance": 0.0361784206756307,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.006898663004472483,
+        "candidate": 0.005705128667085077,
+        "allowance": 0.001,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6673092322586104,
+        "candidate": 0.6311872621721141,
+        "allowance": 0.03336546161293052,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6965196452900149,
+        "candidate": 0.660829015778761,
+        "allowance": 0.034825982264500746,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "VelocityReversal",
+        "n": 30,
+        "baseline": 0.5550796321234029,
+        "candidate": 0.5277818705351458,
+        "improvement_percent": 4.9178099877007275,
+        "baseline_median": 0.5463256310877865,
+        "candidate_median": 0.527765002032326,
+        "baseline_p90": 0.5902650845740474,
+        "candidate_p90": 0.5437902013396401,
+        "baseline_p95": 0.5935315883196566,
+        "candidate_p95": 0.5449037521944545,
+        "baseline_worst": 0.595894626422358,
+        "candidate_worst": 0.548386273620882,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.41692802793201744,
+        "candidate": 0.3817529571876784,
+        "allowance": 0.020846401396600874,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5769834305720764,
+        "candidate": 0.584842379488082,
+        "allowance": 0.02884917152860382,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5431739782017192,
+        "candidate": 0.5292004549139722,
+        "allowance": 0.02715869891008596,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.02639109967497725,
+        "candidate": 0.020723813469094667,
+        "allowance": 0.002639109967497725,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.4641770892621081,
+        "candidate": 0.42074051218240743,
+        "allowance": 0.023208854463105406,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6835783444419565,
+        "candidate": 0.6426593766894049,
+        "allowance": 0.03417891722209783,
+        "n": 12
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "MultiCalMain",
+        "Model": "SoftLowQ",
+        "n": 10,
+        "baseline": 0.8410420590655308,
+        "candidate": 0.6961032488077131,
+        "improvement_percent": 17.23324163108525,
+        "baseline_median": 0.703332988708493,
+        "candidate_median": 0.6779884775952595,
+        "baseline_p90": 1.26513891347166,
+        "candidate_p90": 0.8092290012839501,
+        "baseline_p95": 1.26513891347166,
+        "candidate_p95": 0.80975326485123,
+        "baseline_worst": 1.26513891347166,
+        "candidate_worst": 0.81027752841851,
+        "baseline_failures": 2,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 2,
+        "candidate": 0,
+        "n": 10
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5039377161556208,
+        "candidate": 0.4868225555908401,
+        "allowance": 0.02519688580778104,
+        "n": 10
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.454710387386613,
+        "candidate": 0.42935352358877055,
+        "allowance": 0.022735519369330652,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.758024068683604,
+        "candidate": 0.706838573352178,
+        "allowance": 0.0379012034341802,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.00199555057734103,
+        "candidate": 0.00129942099239657,
+        "allowance": 0.001,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5455770484172625,
+        "candidate": 0.529431404649576,
+        "allowance": 0.02727885242086313,
+        "n": 4
+      }
+    },
+    {
+      "name": "MultiCalMain/SoftLowQ/AVOGradientError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.620129296988298,
+        "candidate": 0.6544855183589797,
+        "allowance": 0.0310064648494149,
+        "n": 4
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "MultiCalMain",
+        "Model": "ThinHighFrequency",
+        "n": 10,
+        "baseline": 0.7262724271629358,
+        "candidate": 0.7007448049426732,
+        "improvement_percent": 3.514882469100755,
+        "baseline_median": 0.723981908722937,
+        "candidate_median": 0.693293245059297,
+        "baseline_p90": 0.747920133552487,
+        "candidate_p90": 0.7364502131536252,
+        "baseline_p95": 0.747920133552487,
+        "candidate_p95": 0.7364721966608662,
+        "baseline_worst": 0.747920133552487,
+        "candidate_worst": 0.736494180168107,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 10
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6742839624298506,
+        "candidate": 0.6483153665674785,
+        "allowance": 0.03371419812149253,
+        "n": 10
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 1.08325315760627,
+        "candidate": 1.12194065306504,
+        "allowance": 0.054162657880313506,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.724020876050944,
+        "candidate": 0.708072529220243,
+        "allowance": 0.036201043802547204,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.009753108166117,
+        "candidate": 0.008396529521873714,
+        "allowance": 0.001,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6683953929169095,
+        "candidate": 0.6334567717583648,
+        "allowance": 0.033419769645845476,
+        "n": 4
+      }
+    },
+    {
+      "name": "MultiCalMain/ThinHighFrequency/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6949595210549935,
+        "candidate": 0.6631859909996888,
+        "allowance": 0.03474797605274967,
+        "n": 4
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "MultiCalMain",
+        "Model": "VelocityReversal",
+        "n": 10,
+        "baseline": 0.5508923865983159,
+        "candidate": 0.5248098555611279,
+        "improvement_percent": 4.734596387915968,
+        "baseline_median": 0.545773683803325,
+        "candidate_median": 0.5231822572321589,
+        "baseline_p90": 0.591622751477987,
+        "candidate_p90": 0.5454976906714784,
+        "baseline_p95": 0.591622751477987,
+        "candidate_p95": 0.5455046767613612,
+        "baseline_worst": 0.591622751477987,
+        "candidate_worst": 0.545511662851244,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 10
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.411102611147109,
+        "candidate": 0.3771470074485177,
+        "allowance": 0.02055513055735545,
+        "n": 10
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.518771333316723,
+        "candidate": 0.5274925580086576,
+        "allowance": 0.02593856666583615,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.534231756642795,
+        "candidate": 0.519219409748066,
+        "allowance": 0.02671158783213975,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.0343152043390318,
+        "candidate": 0.025417429621939602,
+        "allowance": 0.00343152043390318,
+        "n": 2
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.469793101047013,
+        "candidate": 0.4267547271682772,
+        "allowance": 0.02348965505235065,
+        "n": 4
+      }
+    },
+    {
+      "name": "MultiCalMain/VelocityReversal/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.740058361856059,
+        "candidate": 0.6902701604720003,
+        "allowance": 0.03700291809280295,
+        "n": 4
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "NewGeologyMain",
+        "Model": "Holdout_DeepLowQ",
+        "n": 15,
+        "baseline": 0.6116909763747576,
+        "candidate": 0.5886490671526036,
+        "improvement_percent": 3.766919917425293,
+        "baseline_median": 0.625811237875812,
+        "candidate_median": 0.577402659306079,
+        "baseline_p90": 0.744633741762766,
+        "candidate_p90": 0.7367331299081338,
+        "baseline_p95": 0.7498057941047277,
+        "candidate_p95": 0.7423307457983681,
+        "baseline_worst": 0.752773694872685,
+        "candidate_worst": 0.745893864668656,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.49955130279540694,
+        "candidate": 0.4874369861442279,
+        "allowance": 0.024977565139770348,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.13296424618085884,
+        "candidate": 0.12322509026617359,
+        "allowance": 0.006648212309042942,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6332516496434449,
+        "candidate": 0.6253882040616113,
+        "allowance": 0.03166258248217225,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.0161744881748783,
+        "candidate": 0.012578398058369564,
+        "allowance": 0.00161744881748783,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.4662890769675883,
+        "candidate": 0.454627955230485,
+        "allowance": 0.023314453848379418,
+        "n": 6
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_DeepLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5164112361878886,
+        "candidate": 0.49273675390859434,
+        "allowance": 0.025820561809394432,
+        "n": 6
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "NewGeologyMain",
+        "Model": "Holdout_HighContrastReversal",
+        "n": 15,
+        "baseline": 0.5851498965684767,
+        "candidate": 0.5548382354587833,
+        "improvement_percent": 5.18015320304277,
+        "baseline_median": 0.57979536549754,
+        "candidate_median": 0.551190319614997,
+        "baseline_p90": 0.6123470823934892,
+        "candidate_p90": 0.5717213377702972,
+        "baseline_p95": 0.6133877049713992,
+        "candidate_p95": 0.5721990697795651,
+        "baseline_worst": 0.615709845147072,
+        "candidate_worst": 0.572512749737161,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.44905425138358895,
+        "candidate": 0.40863255627455164,
+        "allowance": 0.02245271256917945,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5017064869544621,
+        "candidate": 0.49723309751690303,
+        "allowance": 0.025085324347723106,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5858614375805343,
+        "candidate": 0.5709742249151534,
+        "allowance": 0.029293071879026716,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.020517572841487065,
+        "candidate": 0.016636588572778933,
+        "allowance": 0.0020517572841487067,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.49829151915566616,
+        "candidate": 0.44497171574193867,
+        "allowance": 0.02491457595778331,
+        "n": 6
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_HighContrastReversal/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7734087718514349,
+        "candidate": 0.7164664519851773,
+        "allowance": 0.03867043859257174,
+        "n": 6
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "NewGeologyMain",
+        "Model": "Holdout_StrongAtten",
+        "n": 15,
+        "baseline": 0.8967675417250199,
+        "candidate": 0.7227500377259255,
+        "improvement_percent": 19.404973519040926,
+        "baseline_median": 0.715464097163483,
+        "candidate_median": 0.688953998135678,
+        "baseline_p90": 1.6619876876089759,
+        "candidate_p90": 0.9430033821172056,
+        "baseline_p95": 1.7409034585457088,
+        "candidate_p95": 0.9660147453424872,
+        "baseline_worst": 1.83170546184641,
+        "candidate_worst": 0.984858864376361,
+        "baseline_failures": 3,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 3,
+        "candidate": 0,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.49763353478214106,
+        "candidate": 0.4714482567742159,
+        "allowance": 0.024881676739107055,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.49171488387209566,
+        "candidate": 0.46547464643604136,
+        "allowance": 0.024585744193604785,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7816301113333554,
+        "candidate": 0.7593216459421037,
+        "allowance": 0.03908150556666777,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.01073772535227714,
+        "candidate": 0.00718349335819856,
+        "allowance": 0.0010737725352277141,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.49797791146145787,
+        "candidate": 0.4757355932939405,
+        "allowance": 0.024898895573072895,
+        "n": 6
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_StrongAtten/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.602080502115416,
+        "candidate": 0.629374534888253,
+        "allowance": 0.0301040251057708,
+        "n": 6
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "NewGeologyMain",
+        "Model": "Holdout_ThinInterbed",
+        "n": 15,
+        "baseline": 0.629956946424661,
+        "candidate": 0.5952737309945813,
+        "improvement_percent": 5.505648541051156,
+        "baseline_median": 0.633739908030435,
+        "candidate_median": 0.605673011515197,
+        "baseline_p90": 0.6468309394273516,
+        "candidate_p90": 0.6307506680852893,
+        "baseline_p95": 0.6471164326430411,
+        "candidate_p95": 0.6311957214703928,
+        "baseline_worst": 0.647164623487895,
+        "candidate_worst": 0.63174441567943,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5460153033113944,
+        "candidate": 0.5096130769081901,
+        "allowance": 0.02730076516556972,
+        "n": 15
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/WeakEventError",
+      "pass_": false,
+      "detail": {
+        "baseline": 1.35183097947591,
+        "candidate": 1.4390702190878033,
+        "allowance": 0.0675915489737955,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6278961900289387,
+        "candidate": 0.6156444059725773,
+        "allowance": 0.031394809501446935,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.007648069252372596,
+        "candidate": 0.006232546978977526,
+        "allowance": 0.001,
+        "n": 3
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5386490550752269,
+        "candidate": 0.48492132283089934,
+        "allowance": 0.026932452753761344,
+        "n": 6
+      }
+    },
+    {
+      "name": "NewGeologyMain/Holdout_ThinInterbed/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5618348526470959,
+        "candidate": 0.5079724300772527,
+        "allowance": 0.028091742632354796,
+        "n": 6
+      }
+    },
+    {
+      "name": "main_equal_model_improvement",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6857934569398099,
+        "candidate": 0.6356297615654857,
+        "relative_improvement": 0.0731469436850094
+      }
+    },
+    {
+      "name": "candidate_solver_quality",
+      "pass_": true,
+      "detail": "Direct and requested route included"
+    }
+  ],
+  "diagnostic_counts": {
+    "residual target mismatch": 131
+  },
+  "scope": "Engineering gates on supplied paired metrics. No automatic proof of independent geology, absence of leakage or statistical significance.",
+  "unverified_requirements": [
+    "new geological holdout",
+    "repeated independent calibration",
+    "identical information/priors across routes",
+    "source/config hashes and actual execution",
+    "hierarchical uncertainty intervals"
+  ]
+}

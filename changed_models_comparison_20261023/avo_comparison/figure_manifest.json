@@ -1,0 +1,1242 @@
+[
+  {
+    "case": "Changed_DeepLowQ_CoherentNoiseAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_DeepLowQ_CoherentNoiseAVO_colored_12dB_20262413",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_CoherentNoiseAVO_colored_12dB_20262413.json",
+    "source_sha256": "9f8ab77026656be3facd96bd2377b37938f1f394ea1bc033ac29816762f29705",
+    "figure": "figures/Changed_DeepLowQ_CoherentNoiseAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.39810318595441174,
+    "figure_sha256": "01047d2966fdbb3cf81a560d266b81f065da9660467e62336d8114574972e156"
+  },
+  {
+    "case": "Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262411",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262411.json",
+    "source_sha256": "d75b500ea4b9654947f57d8225944dd96e659eeb651d53e12999b837960a077f",
+    "figure": "figures/Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.39634015939129563,
+    "figure_sha256": "178cee6b30b8f2245f1ec80b659061b5965a59680b9da302909aa17b6540a6ae"
+  },
+  {
+    "case": "Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262412",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262412.json",
+    "source_sha256": "0a3b92d62fa53a278bdd29b919900c747bf7fa8b28a5c006d4a8795c6cad9ad0",
+    "figure": "figures/Changed_DeepLowQ_CoherentNoiseAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.3546347568029939,
+    "figure_sha256": "7f3f968a4d07cbe3200f531d0119ccabcae5c94d4a43925e491ec1f7862c9f67"
+  },
+  {
+    "case": "Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262411",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262411.json",
+    "source_sha256": "616e190ec36f531b63d02223bfdb290dd0d75af01c7b59deabd0b4995171d79e",
+    "figure": "figures/Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.23552938497721337,
+    "figure_sha256": "c542a831407e4bbb9c9b4de331ded015c912bddebcd82c6cd0f0f69a6e4cad9c"
+  },
+  {
+    "case": "Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262412",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262412.json",
+    "source_sha256": "39b3a182eaa12c5e405754690d92cfdfd3f9f8c5932337c8b028e1ead8670786",
+    "figure": "figures/Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.22623966836484333,
+    "figure_sha256": "4948898233d32404da1ef2924ed588fe998a664e755bc6a740aac669890f27c3"
+  },
+  {
+    "case": "Changed_DeepLowQ_SmoothAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_DeepLowQ_SmoothAVO_colored_12dB_20262413",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_SmoothAVO_colored_12dB_20262413.json",
+    "source_sha256": "a0b84a4cc6e832e9d7b35722d3a54fda17b5994330dd26c300ba725e4417c438",
+    "figure": "figures/Changed_DeepLowQ_SmoothAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.14300310170878391,
+    "figure_sha256": "755690677140fa4dbfd55a04060bedda1796638d34081231e2749918350c9c85"
+  },
+  {
+    "case": "Changed_DeepLowQ_SmoothAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_DeepLowQ_SmoothAVO_normal_12dB_20262411",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_SmoothAVO_normal_12dB_20262411.json",
+    "source_sha256": "01ac586523442b4adc09cf3ba64da613123e7dcc7e8249c0ec163aa867540142",
+    "figure": "figures/Changed_DeepLowQ_SmoothAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.14376381818477213,
+    "figure_sha256": "128069214e84c6a927ecb4c41f8a9ab2b44ac08498c91c842dc35f09c9d6afcb"
+  },
+  {
+    "case": "Changed_DeepLowQ_SmoothAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_DeepLowQ_SmoothAVO_normal_12dB_20262412",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_SmoothAVO_normal_12dB_20262412.json",
+    "source_sha256": "8cf999e6b0cdb7c97bac71f8f516cdb6d2b055757cb8b5985967f2b6212425e4",
+    "figure": "figures/Changed_DeepLowQ_SmoothAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.14113109785663222,
+    "figure_sha256": "3cf02f8f9be868899aee6110c6e67eeeb5f36462c9db062a8c6da17404ffeecd"
+  },
+  {
+    "case": "Changed_DeepLowQ_SmoothAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_DeepLowQ_SmoothAVO_normal_18dB_20262411",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_SmoothAVO_normal_18dB_20262411.json",
+    "source_sha256": "94ac855fef7e930c323e6d54ee66a6e89fdcfd526b623e9848ef474690506df5",
+    "figure": "figures/Changed_DeepLowQ_SmoothAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.1414372167037607,
+    "figure_sha256": "603d57a0f17d3eb96d01ecbe98a8d6419d42aaf19ff355f8a922c4818b3b6549"
+  },
+  {
+    "case": "Changed_DeepLowQ_SmoothAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_DeepLowQ_SmoothAVO_normal_18dB_20262412",
+      "model": "Changed_DeepLowQ",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "Q_new": [
+        22.03518089188009,
+        31.976264967094714,
+        45.20949808602152,
+        51.17229035736809
+      ],
+      "frequency_baseline": 50.385649204263025,
+      "frequency_new": 50.385649204263025
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_SmoothAVO_normal_18dB_20262412.json",
+    "source_sha256": "9157d47a9a1285907d71b19ef0b9b8d38ed57b5bac6cab52e4b6e3606a7c5263",
+    "figure": "figures/Changed_DeepLowQ_SmoothAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.141151305433097,
+    "figure_sha256": "2f2e4dcd13d97f3d38ad0de292c35187dc36593ed87b1b8cb1742c5068999244"
+  },
+  {
+    "case": "Changed_ThinPolarity_CoherentNoiseAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_ThinPolarity_CoherentNoiseAVO_colored_12dB_20262413",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_CoherentNoiseAVO_colored_12dB_20262413.json",
+    "source_sha256": "52325891ede761f5b5c6e3919d0bf741e992b3f0d0979030f4fc80e810b9e3ce",
+    "figure": "figures/Changed_ThinPolarity_CoherentNoiseAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.1919741568856996,
+    "figure_sha256": "30c7be6da25dea03ad9f64845b80f8c912219efaed7d13a89df707dee9bfa813"
+  },
+  {
+    "case": "Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262411",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262411.json",
+    "source_sha256": "bf499bbffb3766c4f50584ab5aa650bfa18f6a6f996383a4383b887e9f070a25",
+    "figure": "figures/Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.19962529802953854,
+    "figure_sha256": "fb8225bec3c8bb839b4b820aad320ab41513a3ca9725e1e27733d12deb6232d6"
+  },
+  {
+    "case": "Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262412",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262412.json",
+    "source_sha256": "b75a1dcf97c85091a50079e5d1755a7ebfa68c3c5aa030f04ea869ae2e3c1fad",
+    "figure": "figures/Changed_ThinPolarity_CoherentNoiseAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.20362181082076763,
+    "figure_sha256": "2790b96767bf5341614f7acccb4253b9408a97d1117dc9bcc57fc43611476134"
+  },
+  {
+    "case": "Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262411",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262411.json",
+    "source_sha256": "5fb737183272740f413e521c5faf22502e94e3bae419e05bbb8ecae208146294",
+    "figure": "figures/Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.19398392342698653,
+    "figure_sha256": "b728373eb442405b2052873a2398ca4761799529d210cabf7aac36fedf1dbd07"
+  },
+  {
+    "case": "Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262412",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262412.json",
+    "source_sha256": "808f15185b4fd01c0c5dc81fffcad5c219b440357253ceacbec4ffe98aca2b66",
+    "figure": "figures/Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.1895595135854018,
+    "figure_sha256": "c0b122c7f11ca1fe5b04669dac239ad8dc1c44ff8ab587990db98d11dfd3c845"
+  },
+  {
+    "case": "Changed_ThinPolarity_SmoothAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_ThinPolarity_SmoothAVO_colored_12dB_20262413",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_SmoothAVO_colored_12dB_20262413.json",
+    "source_sha256": "bcdbbdb08186688cedb5936f6125c8615dbfea095a963a182e1952890b3b4718",
+    "figure": "figures/Changed_ThinPolarity_SmoothAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.19197429653327275,
+    "figure_sha256": "feeadf4dabbcd2f73b8950a8bb742ecdbe0b3379cc940151e9c8320beddf7349"
+  },
+  {
+    "case": "Changed_ThinPolarity_SmoothAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_ThinPolarity_SmoothAVO_normal_12dB_20262411",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_SmoothAVO_normal_12dB_20262411.json",
+    "source_sha256": "5a569764048766cacc1222e92ffdf484365b39b356a0434e96cdfd4a4cb9b7e2",
+    "figure": "figures/Changed_ThinPolarity_SmoothAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.19962541110050386,
+    "figure_sha256": "4dc849e20be950a615b7bed7a310d80e266c40d7878fd841a551fc0099872f9f"
+  },
+  {
+    "case": "Changed_ThinPolarity_SmoothAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_ThinPolarity_SmoothAVO_normal_12dB_20262412",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_SmoothAVO_normal_12dB_20262412.json",
+    "source_sha256": "f25096adc556364e0867a9ff79b8dba9ed1a1efb22dc923f372f385b7586f6f0",
+    "figure": "figures/Changed_ThinPolarity_SmoothAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.20362233944255476,
+    "figure_sha256": "d41921441904e989337d275df57e0491aa25986b5fed62f518d51b8f1928a74c"
+  },
+  {
+    "case": "Changed_ThinPolarity_SmoothAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_ThinPolarity_SmoothAVO_normal_18dB_20262411",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_SmoothAVO_normal_18dB_20262411.json",
+    "source_sha256": "f8407e82f89ae6ac3951e5122f94167ac3a2d42eb115961fe0f6e0ef4a8b9df0",
+    "figure": "figures/Changed_ThinPolarity_SmoothAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.18697977151135034,
+    "figure_sha256": "d913fd26c39ce8462bc737505704c4d4ebe34507a4a4bcdb73d7341c60ece47d"
+  },
+  {
+    "case": "Changed_ThinPolarity_SmoothAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_ThinPolarity_SmoothAVO_normal_18dB_20262412",
+      "model": "Changed_ThinPolarity",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "Q_new": [
+        55.41128386247071,
+        35.5491182093443,
+        68.91470710317893,
+        52.65982481475452
+      ],
+      "frequency_baseline": 68.28074301608636,
+      "frequency_new": 68.28074301608636
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_SmoothAVO_normal_18dB_20262412.json",
+    "source_sha256": "6947d50746f7dce3fd38e255be8f6a9e53403917c20708a47cdf4b11daa88ad8",
+    "figure": "figures/Changed_ThinPolarity_SmoothAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.1871853978479428,
+    "figure_sha256": "b178f8a724431c3b09365f5a1235f429224a1b8efc4bba5b2880310a2b826608"
+  },
+  {
+    "case": "Changed_LowContrast_CoherentNoiseAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_LowContrast_CoherentNoiseAVO_colored_12dB_20262413",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_CoherentNoiseAVO_colored_12dB_20262413.json",
+    "source_sha256": "c9ba44df119e08fa41d98fdd8dc35f42a58afabafeaf1e54efdbb123e24e2b14",
+    "figure": "figures/Changed_LowContrast_CoherentNoiseAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.03329895302673448,
+    "figure_sha256": "983c47a7b5e8b02cf05ec791eb80a92ea6f7ba77f1101dfc2699e982b6f8c0e2"
+  },
+  {
+    "case": "Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262411",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262411.json",
+    "source_sha256": "1b2e6389605971dcc6e58f033c468230b9db2056b79e4693dbd04c831253b285",
+    "figure": "figures/Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.03329425916470956,
+    "figure_sha256": "119f8f61acfc7f70c5f2a5b5e6992b99f87316618ba77cbc1a612d0f4f174f21"
+  },
+  {
+    "case": "Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262412",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262412.json",
+    "source_sha256": "1e81d889f03f2a3ddefd1ad7cda8e2af740ba619cf5e0b029d0bb9da16609cd0",
+    "figure": "figures/Changed_LowContrast_CoherentNoiseAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.032488421891340075,
+    "figure_sha256": "ad67027b28b533ea1fc50f319a9b64b558e04763505df1e4742d609523973666"
+  },
+  {
+    "case": "Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262411",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262411.json",
+    "source_sha256": "6ea04d4718ffa891a2174d93d73b9ba03a86b386fecc15d2ccd57da84b548a5d",
+    "figure": "figures/Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.032488421891340075,
+    "figure_sha256": "4ebdcdd9cd85b5b6d516c195c8864ed9d7a3498d682337fe0094d66c3a157cc0"
+  },
+  {
+    "case": "Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262412",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262412.json",
+    "source_sha256": "3822bb86c7e3bef63c87f12f3ae07b8d4727bbc0f5799b663de60b3b2903a336",
+    "figure": "figures/Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.032488421891340075,
+    "figure_sha256": "7a03f8d0064ec03961c37e60d83417643fcaecaae8c05f72aee8d3c8d017d824"
+  },
+  {
+    "case": "Changed_LowContrast_SmoothAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_LowContrast_SmoothAVO_colored_12dB_20262413",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_SmoothAVO_colored_12dB_20262413.json",
+    "source_sha256": "ca3e122c103f026c1985a67ba5f0a465f0c58d9d6260643092ed3d4e318f113c",
+    "figure": "figures/Changed_LowContrast_SmoothAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.03329895240464281,
+    "figure_sha256": "7060a1540b1dcfab3727c9608fe7762f707bb2e90cbcb902b57882354188d4b0"
+  },
+  {
+    "case": "Changed_LowContrast_SmoothAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_LowContrast_SmoothAVO_normal_12dB_20262411",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_SmoothAVO_normal_12dB_20262411.json",
+    "source_sha256": "c3962efc055b6548be28029dae1a4b5ecce3fb41a228c577f53bf2da85dcdb0a",
+    "figure": "figures/Changed_LowContrast_SmoothAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.03329425854357791,
+    "figure_sha256": "5a1428dafafa58569f9140cb35514861f2c31a9d781a5cdfc9b0a148d9fff714"
+  },
+  {
+    "case": "Changed_LowContrast_SmoothAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_LowContrast_SmoothAVO_normal_12dB_20262412",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_SmoothAVO_normal_12dB_20262412.json",
+    "source_sha256": "4134cbcdf054ddfad43f1194f32732934490408e34a23871664a094d982c761e",
+    "figure": "figures/Changed_LowContrast_SmoothAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.032488421891340075,
+    "figure_sha256": "f623aaa8d63641ab678401bf67d4c1dc9d5b9b23f8c5994944140fdc66e59b05"
+  },
+  {
+    "case": "Changed_LowContrast_SmoothAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_LowContrast_SmoothAVO_normal_18dB_20262411",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_SmoothAVO_normal_18dB_20262411.json",
+    "source_sha256": "b17ecc5bd41738bb03f4931a8d3c1fa91e3c39af951d0b1815b42a06021ba0da",
+    "figure": "figures/Changed_LowContrast_SmoothAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.032488421891340075,
+    "figure_sha256": "c9275e24b84128818d5202579bf987abad63f8e0fb2049d2d8faf276c953dcfb"
+  },
+  {
+    "case": "Changed_LowContrast_SmoothAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_LowContrast_SmoothAVO_normal_18dB_20262412",
+      "model": "Changed_LowContrast",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "Q_new": [
+        92.12948379697428,
+        66.04868437889733,
+        95.56247130432583,
+        168.127373033708
+      ],
+      "frequency_baseline": 37.67914270824528,
+      "frequency_new": 37.67914270824528
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_SmoothAVO_normal_18dB_20262412.json",
+    "source_sha256": "c6e37a32295c7ac682cd510975558f2aa66438af9f9ae7d1826b69f28cea6fd8",
+    "figure": "figures/Changed_LowContrast_SmoothAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.032488421891340075,
+    "figure_sha256": "4395121c2e64d6d7bac47207f5b39aff98b8d1282f2a9746816f6b441b5b7291"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_CoherentNoiseAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_CoherentNoiseAVO_colored_12dB_20262413",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_CoherentNoiseAVO_colored_12dB_20262413.json",
+    "source_sha256": "82de33f089e549efdd5d98475c41574335c2580ed105eca77f1dee03ae4aeda3",
+    "figure": "figures/Changed_HighFreqQReverse_CoherentNoiseAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "0663451b0a8a3f1709820cc6a2cdbd19f8e81b2c8f63a68c057ac384044d9159"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262411",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262411.json",
+    "source_sha256": "5aa2fe0027791d5d314bd773c4e82fefa1ba2558493872d430527e78e7bec9f8",
+    "figure": "figures/Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "f6ceab000dbc4d06334695b37240c8e96b59bf1c7860cc75e832a217573bbf34"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262412",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262412.json",
+    "source_sha256": "8956443b616ddc09104ff32c8e0c911c54541da1389eb6ad7041759e117dcaf3",
+    "figure": "figures/Changed_HighFreqQReverse_CoherentNoiseAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "45dde25a0eb90a5704238a25f94b0553e9019563eda180ea5691dc02e76f1e57"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262411",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262411.json",
+    "source_sha256": "2e33e31ccd1b7d09bd1b162dcb323e7758dfd4c03612eb8d2a741cc83913f960",
+    "figure": "figures/Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.14890782150517332,
+    "figure_sha256": "8ca6580801662454dc220b2be5e81c8cebc96254ffdc9938e3ef26bdeab9076d"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262412",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "CoherentNoiseAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262412.json",
+    "source_sha256": "844dbceef572425a5f59744464541894e780a295342077bd967c0ea2f931a124",
+    "figure": "figures/Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.1501385669555739,
+    "figure_sha256": "d8c5133ac7076f75eb479b09bd18c386245683e03986bf7d68e0fc52df6f5725"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_SmoothAVO_colored_12dB_20262413",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_SmoothAVO_colored_12dB_20262413",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "colored",
+      "snr_db": 12,
+      "seed": 20262413.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_SmoothAVO_colored_12dB_20262413.json",
+    "source_sha256": "d05115aecccbbaec146358a20dac1463fd6e9d8639300392bb1175e68e7ce87d",
+    "figure": "figures/Changed_HighFreqQReverse_SmoothAVO_colored_12dB_20262413.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "129fbd753c498b94558c7a67fee09cb03ac5b4a0c4b609288e34533a370b8277"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262411",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262411",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262411.json",
+    "source_sha256": "7488be7590c92b187eca0e67448ec949365bbe587498933b15966df62c449b59",
+    "figure": "figures/Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262411.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "378ae06570ddeb19991fe49ad530ebebbf391d8d0d647a73df9421669f5615a3"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262412",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262412",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 12,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262412.json",
+    "source_sha256": "84a88c506976111f7118227d91e9ecd9b52b97b1764583c0dc3cf8e560741c48",
+    "figure": "figures/Changed_HighFreqQReverse_SmoothAVO_normal_12dB_20262412.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "61ff25771e4115fc203f2a425a3feb9626eb559b46546e0bbb4361bd9f6b0fdf"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262411",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262411",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262411.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262411.json",
+    "source_sha256": "ee682843d03bfbfc5c969f4263b6e0af3b9945e51a43f0530a2da1b8184f8539",
+    "figure": "figures/Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262411.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "d93f35f08900e8eaeefec1cc7bf4bb2f0cb049e76f81eb4f740299e269a6ff38"
+  },
+  {
+    "case": "Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262412",
+    "meta": {
+      "id": "Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262412",
+      "model": "Changed_HighFreqQReverse",
+      "domain": "Offset",
+      "scenario": "SmoothAVO",
+      "suite": "normal",
+      "snr_db": 18,
+      "seed": 20262412.0,
+      "Q_baseline": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "Q_new": [
+        38.16540694453158,
+        88.70224518883705,
+        24.583538870304988,
+        98.92834308849932
+      ],
+      "frequency_baseline": 87.60397544038148,
+      "frequency_new": 87.60397544038148
+    },
+    "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262412.json",
+    "source_sha256": "e03258e217b843db533d6b0ce6fe8c14f9df5c707af47aa660bf3551f3f5a74a",
+    "figure": "figures/Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262412.png",
+    "amplitude_limit": 0.14610466493014454,
+    "figure_sha256": "a4b5c5d4d0ad654a7e72891510d59dec1806110ff7ece8f2fb0462c8c8c93c11"
+  }
+]

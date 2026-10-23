@@ -1,0 +1,15 @@
+{
+  "models": ["OriginalReference", "Dev_ThinLowQ", "Dev_ThinPairWideContrast"],
+  "scenarios": ["SmoothAVO", "CoherentNoiseAVO", "FaultSection", "WeakSection", "PinchoutSection"],
+  "snr_db": [18, 12],
+  "seeds": [20261411, 20261412],
+  "calibration_seed": 20261401,
+  "calibration_snr_db": 18,
+  "new_mode": "DecoupledWeak",
+  "beta_factor": 0.3,
+  "lambda_x": 0.001,
+  "lambda_fixed": 0.001,
+  "expected_observations": 60,
+  "expected_rows": 120,
+  "information": "Both methods receive identical calibration-derived Q and kinematics; true Q only in synthesis/scoring. Same D for both methods."
+}

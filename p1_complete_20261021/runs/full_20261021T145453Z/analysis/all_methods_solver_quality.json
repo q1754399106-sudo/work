@@ -1,0 +1,44 @@
+{
+  "Baseline": {
+    "rows": 5832,
+    "bad_final": 0,
+    "bad_any_scale": 0,
+    "max_normal": 2.9652665935595e-13
+  },
+  "Frozen": {
+    "rows": 5832,
+    "bad_final": 0,
+    "bad_any_scale": 0,
+    "max_normal": 9.99969268384773e-08
+  },
+  "StrongerDamping": {
+    "rows": 5832,
+    "bad_final": 0,
+    "bad_any_scale": 0,
+    "max_normal": 9.9993032074278e-08
+  },
+  "NoiseUncertaintyOnly": {
+    "rows": 5832,
+    "bad_final": 0,
+    "bad_any_scale": 0,
+    "max_normal": 9.99846540202627e-08
+  },
+  "QModelErrorOnly": {
+    "rows": 5832,
+    "bad_final": 0,
+    "bad_any_scale": 0,
+    "max_normal": 9.9996407915468e-08
+  },
+  "CombinedUncertainty": {
+    "rows": 5832,
+    "bad_final": 0,
+    "bad_any_scale": 0,
+    "max_normal": 9.99941379653546e-08
+  },
+  "CombinedUncertainty_NoStructure": {
+    "rows": 5832,
+    "bad_final": 0,
+    "bad_any_scale": 0,
+    "max_normal": 4.00843012461605e-13
+  }
+}

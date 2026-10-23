@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checkpoint_cases": 6,
+  "checkpoint_scoring_rows": 12,
+  "resumed_total_cases": 9,
+  "cached_output_files_unchanged": 18,
+  "algorithm_hashes_unchanged": [
+    "p1_solve_branch.m",
+    "adaptive_cv_prepared.m",
+    "cv_masks.m",
+    "cv_training_models.m",
+    "cv_normalize_context.m",
+    "cv_solve.m"
+  ]
+}

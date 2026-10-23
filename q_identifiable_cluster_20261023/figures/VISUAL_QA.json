@@ -1,0 +1,12 @@
+{
+  "reviewed_date": "2026-10-23",
+  "reviewed_pngs": [
+    "validation_errors.png",
+    "Q_sensitivity.png",
+    "fixed_example_gathers.png",
+    "fixed_example_waveforms.png"
+  ],
+  "inspection": "All four exported PNGs visually inspected at displayed resolution. Labels and legends readable; no overlapping titles, missing labels or clipping of plotted curves found. Comparison gathers share one amplitude scale and actual selected spatial coordinates. Waveform panels preserve original amplitudes. Primary comparisons include all six methods and all six validation conditions. Figures make no journal-compliance claim.",
+  "known_limits": "Some method curves overlap because their numeric results are close; complete values remain available in CSV. PNG visual inspection also covers the layout of PDF files exported from the same Matplotlib figure objects; PDF font embedding and journal-specific submission requirements were not separately audited.",
+  "raw_data": "analysis/validation_metrics.csv and analysis/sensitivity_metrics.csv; exact image hashes and rendering metadata in figures/manifest.json"
+}

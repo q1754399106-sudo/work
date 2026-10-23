@@ -1,0 +1,43 @@
+{
+  "default": "Frozen_Split",
+  "status": "conditional synthetic evidence; not universally best",
+  "presets": {
+    "Baseline": {
+      "gamma": 0,
+      "pilot_multiplier": 4,
+      "noise_target_multiplier": 1
+    },
+    "Frozen": {
+      "gamma": 10,
+      "pilot_multiplier": 4,
+      "noise_target_multiplier": 1
+    }
+  },
+  "required_comparators": [
+    "Baseline_Direct",
+    "Baseline_Split",
+    "Frozen_Direct",
+    "Frozen_Split"
+  ],
+  "retained": [
+    "exact layered rays",
+    "noise-window MAD",
+    "discrepancy selection",
+    "stage covariance whitening",
+    "conservative pilot",
+    "AVO subspace protection in Offset domain only",
+    "matched-prior Direct control"
+  ],
+  "disabled_by_default": [
+    "time-frequency weights",
+    "empirical spectral robustness",
+    "EdgeAware",
+    "Combined",
+    "Target08",
+    "PINN"
+  ],
+  "experimental_input_component": "single effective Q and approximate wavelet frequency calibration; not layer-Q recovery",
+  "fixed_first_stage_lambda_x": 0.001,
+  "default_coefficients_are_user_chosen": true,
+  "no_claim_of_novelty": true
+}

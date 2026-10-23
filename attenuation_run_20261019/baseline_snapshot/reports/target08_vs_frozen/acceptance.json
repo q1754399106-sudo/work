@@ -1,0 +1,618 @@
+{
+  "status": "FAIL",
+  "candidate": "Tuned",
+  "baseline": "Frozen",
+  "route": "Split",
+  "pairs": 126,
+  "equal_model_main_improvement": -0.06922334273820807,
+  "groups": [
+    {
+      "Suite": "LowerSNR",
+      "Model": "SoftLowQ",
+      "n": 12,
+      "baseline": 0.8929767611181485,
+      "candidate": 1.1764356291161597,
+      "improvement_percent": -31.743140509398682,
+      "baseline_median": 0.8758417134806935,
+      "candidate_median": 1.179179503043715,
+      "baseline_p90": 1.059815075090963,
+      "candidate_p90": 1.622387718266536,
+      "baseline_p95": 1.073449544443812,
+      "candidate_p95": 1.970349066283285,
+      "baseline_worst": 1.08724302222858,
+      "candidate_worst": 2.36870778737757,
+      "baseline_failures": 4,
+      "candidate_failures": 7
+    },
+    {
+      "Suite": "LowerSNR",
+      "Model": "ThinHighFrequency",
+      "n": 12,
+      "baseline": 0.7960374589136265,
+      "candidate": 0.7352030618403066,
+      "improvement_percent": 7.642152563566828,
+      "baseline_median": 0.7976515630781149,
+      "candidate_median": 0.740897653277921,
+      "baseline_p90": 0.809684417079311,
+      "candidate_p90": 0.7607984197088749,
+      "baseline_p95": 0.8134789394028072,
+      "candidate_p95": 0.7648942728833471,
+      "baseline_worst": 0.818093567597399,
+      "candidate_worst": 0.769416395813588,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "LowerSNR",
+      "Model": "VelocityReversal",
+      "n": 12,
+      "baseline": 0.6753626912220204,
+      "candidate": 0.622336683543155,
+      "improvement_percent": 7.85148607823134,
+      "baseline_median": 0.6754712353304444,
+      "candidate_median": 0.624357299502301,
+      "baseline_p90": 0.6872795003075052,
+      "candidate_p90": 0.6378026622798458,
+      "baseline_p95": 0.6896122032925296,
+      "candidate_p95": 0.6421379683917297,
+      "baseline_worst": 0.692226533410505,
+      "candidate_worst": 0.647311900347256,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "Main",
+      "Model": "SoftLowQ",
+      "n": 30,
+      "baseline": 0.763758422316647,
+      "candidate": 1.0046567626000358,
+      "improvement_percent": -31.541169726507402,
+      "baseline_median": 0.668457795299802,
+      "candidate_median": 0.7444674885367305,
+      "baseline_p90": 1.134532447400935,
+      "candidate_p90": 1.538861375618679,
+      "baseline_p95": 1.1795736563589974,
+      "candidate_p95": 1.796388458524499,
+      "baseline_worst": 1.24779254442409,
+      "candidate_worst": 2.85581590953063,
+      "baseline_failures": 6,
+      "candidate_failures": 12
+    },
+    {
+      "Suite": "Main",
+      "Model": "ThinHighFrequency",
+      "n": 30,
+      "baseline": 0.7352108931736402,
+      "candidate": 0.6785834143982338,
+      "improvement_percent": 7.702208890154772,
+      "baseline_median": 0.7370712637192984,
+      "candidate_median": 0.6794177275670565,
+      "baseline_p90": 0.7523830980375403,
+      "candidate_p90": 0.7042721959572935,
+      "baseline_p95": 0.7585055483106093,
+      "candidate_p95": 0.7087838794761171,
+      "baseline_worst": 0.764067033669447,
+      "candidate_worst": 0.716286449213713,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "Main",
+      "Model": "VelocityReversal",
+      "n": 30,
+      "baseline": 0.5597908861163408,
+      "candidate": 0.5180342876599562,
+      "improvement_percent": 7.459320880709431,
+      "baseline_median": 0.5522841072584155,
+      "candidate_median": 0.5160564674510165,
+      "baseline_p90": 0.5925880557991181,
+      "candidate_p90": 0.5502487557783103,
+      "baseline_p95": 0.5956292196947545,
+      "candidate_p95": 0.5526804466334078,
+      "baseline_worst": 0.602237828867673,
+      "candidate_worst": 0.560499531261677,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "matched_prior_direct_present",
+      "pass_": true,
+      "detail": "CSV presence only; identical prior/Q and tuning-budget provenance must be audited separately."
+    },
+    {
+      "name": "local_scenario_coverage",
+      "pass_": true,
+      "detail": [
+        "CoherentNoiseAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "SmoothAVO",
+        "WeakSection"
+      ]
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/mean_noninferiority",
+      "pass_": false,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "SoftLowQ",
+        "n": 12,
+        "baseline": 0.8929767611181485,
+        "candidate": 1.1764356291161597,
+        "improvement_percent": -31.743140509398682,
+        "baseline_median": 0.8758417134806935,
+        "candidate_median": 1.179179503043715,
+        "baseline_p90": 1.059815075090963,
+        "candidate_p90": 1.622387718266536,
+        "baseline_p95": 1.073449544443812,
+        "candidate_p95": 1.970349066283285,
+        "baseline_worst": 1.08724302222858,
+        "candidate_worst": 2.36870778737757,
+        "baseline_failures": 4,
+        "candidate_failures": 7
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 4,
+        "candidate": 7,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6801536945641113,
+        "candidate": 0.4841007120775412,
+        "allowance": 0.03400768472820557,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6607431643122047,
+        "candidate": 0.4739243366294813,
+        "allowance": 0.033037158215610235,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7490160344226413,
+        "candidate": 0.5555938679491524,
+        "allowance": 0.03745080172113207,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "ThinHighFrequency",
+        "n": 12,
+        "baseline": 0.7960374589136265,
+        "candidate": 0.7352030618403066,
+        "improvement_percent": 7.642152563566828,
+        "baseline_median": 0.7976515630781149,
+        "candidate_median": 0.740897653277921,
+        "baseline_p90": 0.809684417079311,
+        "candidate_p90": 0.7607984197088749,
+        "baseline_p95": 0.8134789394028072,
+        "candidate_p95": 0.7648942728833471,
+        "baseline_worst": 0.818093567597399,
+        "candidate_worst": 0.769416395813588,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7588975582402409,
+        "candidate": 0.6814852110855089,
+        "allowance": 0.037944877912012044,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7458604510804764,
+        "candidate": 0.6722007996429908,
+        "allowance": 0.03729302255402382,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/ThinHighFrequency/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7758559432657319,
+        "candidate": 0.7012399566367963,
+        "allowance": 0.038792797163286596,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "VelocityReversal",
+        "n": 12,
+        "baseline": 0.6753626912220204,
+        "candidate": 0.622336683543155,
+        "improvement_percent": 7.85148607823134,
+        "baseline_median": 0.6754712353304444,
+        "candidate_median": 0.624357299502301,
+        "baseline_p90": 0.6872795003075052,
+        "candidate_p90": 0.6378026622798458,
+        "baseline_p95": 0.6896122032925296,
+        "candidate_p95": 0.6421379683917297,
+        "baseline_worst": 0.692226533410505,
+        "candidate_worst": 0.647311900347256,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5810857110114128,
+        "candidate": 0.47849461194564685,
+        "allowance": 0.029054285550570644,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5653043713892599,
+        "candidate": 0.4880856281065706,
+        "allowance": 0.028265218569463,
+        "n": 12
+      }
+    },
+    {
+      "name": "LowerSNR/VelocityReversal/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7739431612346676,
+        "candidate": 0.7073385252593636,
+        "allowance": 0.03869715806173338,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/mean_noninferiority",
+      "pass_": false,
+      "detail": {
+        "Suite": "Main",
+        "Model": "SoftLowQ",
+        "n": 30,
+        "baseline": 0.763758422316647,
+        "candidate": 1.0046567626000358,
+        "improvement_percent": -31.541169726507402,
+        "baseline_median": 0.668457795299802,
+        "candidate_median": 0.7444674885367305,
+        "baseline_p90": 1.134532447400935,
+        "candidate_p90": 1.538861375618679,
+        "baseline_p95": 1.1795736563589974,
+        "candidate_p95": 1.796388458524499,
+        "baseline_worst": 1.24779254442409,
+        "candidate_worst": 2.85581590953063,
+        "baseline_failures": 6,
+        "candidate_failures": 12
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 6,
+        "candidate": 12,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5308393459513489,
+        "candidate": 0.32536768774761043,
+        "allowance": 0.026541967297567443,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/WeakEventError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.5034851739117435,
+        "candidate": 0.5719460295241808,
+        "allowance": 0.025174258695587176,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/FaultNeighborhoodError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.6585558833873612,
+        "candidate": 0.7742468207493395,
+        "allowance": 0.03292779416936806,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/PinchoutTailError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.0008695287878698672,
+        "candidate": 0.0053829900425701295,
+        "allowance": 0.001,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5588647426473026,
+        "candidate": 0.42409736124164565,
+        "allowance": 0.02794323713236513,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6522189219709958,
+        "candidate": 0.49863168495266624,
+        "allowance": 0.032610946098549795,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "ThinHighFrequency",
+        "n": 30,
+        "baseline": 0.7352108931736402,
+        "candidate": 0.6785834143982338,
+        "improvement_percent": 7.702208890154772,
+        "baseline_median": 0.7370712637192984,
+        "candidate_median": 0.6794177275670565,
+        "baseline_p90": 0.7523830980375403,
+        "candidate_p90": 0.7042721959572935,
+        "baseline_p95": 0.7585055483106093,
+        "candidate_p95": 0.7087838794761171,
+        "baseline_worst": 0.764067033669447,
+        "candidate_worst": 0.716286449213713,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6853922847046511,
+        "candidate": 0.6158211397011153,
+        "allowance": 0.03426961423523255,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/WeakEventError",
+      "pass_": false,
+      "detail": {
+        "baseline": 1.178976534487705,
+        "candidate": 1.355316364278945,
+        "allowance": 0.058948826724385256,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7295601911171928,
+        "candidate": 0.6583948337579704,
+        "allowance": 0.03647800955585964,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/PinchoutTailError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.006006143020115632,
+        "candidate": 0.012675339615280232,
+        "allowance": 0.001,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.672478642205867,
+        "candidate": 0.6168000069100078,
+        "allowance": 0.033623932110293346,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/ThinHighFrequency/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7020371541791155,
+        "candidate": 0.6386793761415582,
+        "allowance": 0.035101857708955776,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "VelocityReversal",
+        "n": 30,
+        "baseline": 0.5597908861163408,
+        "candidate": 0.5180342876599562,
+        "improvement_percent": 7.459320880709431,
+        "baseline_median": 0.5522841072584155,
+        "candidate_median": 0.5160564674510165,
+        "baseline_p90": 0.5925880557991181,
+        "candidate_p90": 0.5502487557783103,
+        "baseline_p95": 0.5956292196947545,
+        "candidate_p95": 0.5526804466334078,
+        "baseline_worst": 0.602237828867673,
+        "candidate_worst": 0.560499531261677,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.42598058630295327,
+        "candidate": 0.34822325400933685,
+        "allowance": 0.021299029315147665,
+        "n": 30
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/WeakEventError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.4959318440919577,
+        "candidate": 0.5627478150983601,
+        "allowance": 0.024796592204597886,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5559465092585242,
+        "candidate": 0.49198121998855715,
+        "allowance": 0.02779732546292621,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/PinchoutTailError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.023182958910829634,
+        "candidate": 0.03626076813577985,
+        "allowance": 0.0023182958910829637,
+        "n": 6
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.46738766356687467,
+        "candidate": 0.40448753183827724,
+        "allowance": 0.023369383178343736,
+        "n": 12
+      }
+    },
+    {
+      "name": "Main/VelocityReversal/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.6962430927160618,
+        "candidate": 0.6145906351979906,
+        "allowance": 0.03481215463580309,
+        "n": 12
+      }
+    },
+    {
+      "name": "main_equal_model_improvement",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.6862534005355426,
+        "candidate": 0.7337581548860752,
+        "relative_improvement": -0.06922334273820807
+      }
+    },
+    {
+      "name": "candidate_solver_quality",
+      "pass_": true,
+      "detail": "Direct and requested route included"
+    }
+  ],
+  "diagnostic_counts": {
+    "scale endpoint": 3,
+    "residual target mismatch": 1
+  },
+  "scope": "Engineering gates on supplied paired metrics. No automatic proof of independent geology, absence of leakage or statistical significance.",
+  "unverified_requirements": [
+    "new geological holdout",
+    "repeated independent calibration",
+    "identical information/priors across routes",
+    "source/config hashes and actual execution",
+    "hierarchical uncertainty intervals"
+  ]
+}

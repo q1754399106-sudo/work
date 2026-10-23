@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/fixed_vs_new_gathers_20261022/runs/paired_gathers_20261022T140103Z/source/core_p1');run_fixed_vs_new('C:/Users/qq175/Documents/ChatGPT/研究/fixed_vs_new_gathers_20261022/runs/paired_gathers_20261022T140103Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T14:01:03.734269+00:00",
+  "timeout_seconds": 7200.0,
+  "pid": 45432,
+  "exit_code": 0,
+  "elapsed_seconds": 778.8589999999967
+}

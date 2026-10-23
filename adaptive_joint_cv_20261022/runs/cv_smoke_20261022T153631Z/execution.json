@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/cv_smoke_20261022T153631Z/source/core_p1');run_cv_smoke('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/cv_smoke_20261022T153631Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T15:36:32.474488+00:00",
+  "timeout_seconds": 600.0,
+  "pid": 45720,
+  "exit_code": 0,
+  "elapsed_seconds": 109.21899999999732
+}

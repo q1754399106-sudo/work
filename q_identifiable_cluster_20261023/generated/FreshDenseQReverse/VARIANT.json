@@ -1,0 +1,19 @@
+{
+  "name": "FreshDenseQReverse",
+  "seed": 20262801,
+  "beds": 80,
+  "spacing": [
+    8,
+    18
+  ],
+  "qbase": 85,
+  "qgradient": -0.025,
+  "frequency": 48,
+  "phase": -16,
+  "offset": 450,
+  "calibration_seed": 20262802,
+  "observation_seeds": [
+    20262811,
+    20262812
+  ]
+}

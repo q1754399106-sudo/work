@@ -1,0 +1,212 @@
+{
+  "objective": "我想提升 CombinedUncertainty 方法的效果，定期给我汇报情况",
+  "goal_status": "paused",
+  "stage": "cancelled_by_user",
+  "completed": [
+    "Isolated candidate code copied from verified full-run source",
+    "Joint Q/f/global-velocity calibration implemented with held-out calibration traces",
+    "Six calibration-only development conditions completed",
+    "Four fixed data-driven Section profiles implemented",
+    "Original numerical methods retained as controls"
+  ],
+  "current_run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\validation_20261022T054143Z",
+  "expected_development_rows": 672,
+  "next_actions": [
+    "Read CONFIRMATION_PIPELINE.json and FULL_CONFIRMATION_RUN.json; enumerate per-model execution/progress and actual MATLAB command lines for the frozen run (PIDs rotate as queue advances). First two prospective models completed; ThinPair/MixedDeep now active. Do not restart the run.",
+    "Keep frozen run source/policy/thresholds unchanged. Local pipeline automatically runs frozen analysis and fixed-case figures after numerical completion; no retries",
+    "If a driver/analysis failure occurs, diagnose retained logs before repairing only the driver; do not rerun costly numerical work without cause",
+    "After numerical completion, inspect exact coverage, all-method solver quality, source hashes, original baseline replay, per-cohort gates and crossed intervals; preserve failed judgments",
+    "Before completion, perform explicit V2 deterministic replay on completed confirmation data, visually inspect actual figure files, finish report and verified archive; old9 are regression and new4 same-simulator synthetic only",
+    "After all jobs finish, run audit_confirmation_calibration.py on completed run; review 117 diagnostics/39 unique calibration observations and incorporate real boundary/nonconvergence counts into final interpretation without altering frozen gates"
+  ],
+  "constraints": [
+    "Do not edit archived original full-run data",
+    "Do not use holdout truth or scenario labels for online branch selection",
+    "Do not count raw pass-through as compensation improvement",
+    "Existing nine models are regression cases; reserve unseen models for confirmation"
+  ],
+  "secondary_run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\layered_calibration_development_20261022T041332Z",
+  "evidence": [
+    "Global velocity correction passes 6 calibration cases; positive-error waveform improves but negative-error waveform regresses on first development model",
+    "Exact single-Q forward calibration basis matches full G to 3.35e-12 but does not improve waveform; retained as rejected development experiment",
+    "Layered Q parameter extension now being tested using calibration data only",
+    "Four new synthetic confirmation models reserved and hashed before any scoring",
+    "Layered calibration first development model: Main SmoothAVO 0.4734 vs v1 about0.60; WeakSection weak amplitude error0.3122 vs v1 about0.534; +/-3percent velocity SmoothAVO about0.4876; all require wider validation"
+  ],
+  "pipeline_status_file": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\CONFIRMATION_PIPELINE.json",
+  "pipeline_pid": 37800,
+  "layered_study_completed": true,
+  "first_screen_completed": true,
+  "first_screen_feasible_candidate": false,
+  "first_screen_analysis": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\development_screen_20261022T034341Z\\analysis\\development_selection.json",
+  "last_verified_utc": "2026-10-22T10:30:25.337557+00:00",
+  "validation_infrastructure": {
+    "runner": "scripts/run_validation.py",
+    "analyzer": "scripts/analyze_validation.py",
+    "audit_tests": "scripts/test_validation_audit.py",
+    "tests_passed": 3,
+    "numerical_smoke_test": "PASS: four development observations, 28 new rows, 12 exact original baseline replay rows",
+    "full_confirmation": "RUNNING: 13models, 3calibrations,6observation seeds,20conditions,5methods,2routes;2 owned MATLAB batches",
+    "production_and_harness_sequence": "Old readiness controller exited without launching numerical verification because previous candidates failed; requires a newly feasible frozen policy before restarting checks",
+    "packager": "scripts/package_validation.py: terminal execution required; failed acceptance and logs retained; file hashes, ZIP CRC and archived hashes verified; synthetic control passed",
+    "run_metadata": "Runner records Python/platform/MATLAB executable, worker count, timeouts, source/policy hashes and comparator provenance before numerical launch",
+    "figures": {
+      "script": "scripts/plot_validation.py",
+      "environment": ".figure_env/Scripts/python.exe",
+      "locked_dependencies": "scripts/figure_requirements.lock.txt",
+      "render_control": "PASS",
+      "actual_data_figures": "PENDING_COMPLETE_CONFIRMATION",
+      "manual_review": "PENDING",
+      "software_citation": "scripts/FIGURE_SOFTWARE_NOTES_ZH.md"
+    },
+    "production_api_verification": "PASS: hidden truth rejection/poison invariance, Offset and Section exact API/batch equality, Direct and Split all-scale residuals below1e-7",
+    "candidate_deterministic_replay": {
+      "driver": "scripts/replay_confirmation.py",
+      "matlab_caller": "scripts/replay_confirmation_case.m",
+      "status": "PREPARED_NOT_EXECUTED",
+      "predetermined_case": "First prospective model, first calibration and observation seed, Main WeakSection, Direct and Split",
+      "command": "py -3 scripts/replay_confirmation.py <completed confirmation run>",
+      "scope": "Frozen production API; exact all-CSV-field and trace6 waveform comparison; frozen source hash check. Caller lives outside frozen source."
+    },
+    "calibration_audit": {
+      "driver": "scripts/audit_confirmation_calibration.py",
+      "status": "PREPARED_NOT_EXECUTED",
+      "expected_records": 117,
+      "independent_calibration_observations": 39,
+      "command": "py -3 scripts/audit_confirmation_calibration.py <completed confirmation run>",
+      "scope": "Report actual optimizer flags and Q/f boundaries, separate deterministic shrinkage from fitted estimates; no acceptance changes or method tuning"
+    }
+  },
+  "readiness_controller_pid": 26404,
+  "readiness_status_file": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\CONFIRMATION_READINESS.json",
+  "latest_development_rows": 672,
+  "interim_development_diagnostic": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\layered_development_screen_20261022T042016Z\\interim_first_two_complete_models\\INTERIM_DIAGNOSTIC.json",
+  "interim_findings": [
+    "Previous full 672-row layered screen has no feasible candidate; average improvements coexist with local thin weak-event failures",
+    "Target/source-band-only diagnostics did not solve weak-event gates",
+    "Parameter shrinkage diagnostic supports a broader four-model screen; no candidate selected or reserved-model simulation yet"
+  ],
+  "diagnostic_studies": {
+    "SECTION_DIAGNOSTIC_RUN.json": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\section_target_diagnostic_20261022T050108Z",
+      "status": "COMPLETED"
+    },
+    "SOURCE_BAND_DIAGNOSTIC_RUN.json": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\source_band_diagnostic_20261022T050439Z",
+      "status": "COMPLETED"
+    },
+    "CALIBRATION_SHRINKAGE_RUN.json": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\calibration_shrinkage_diagnostic_20261022T051534Z",
+      "status": "COMPLETED",
+      "rows": 32,
+      "endpoint_replays": 12,
+      "endpoint_exact": true
+    }
+  },
+  "layered_four_model_screen_completed": true,
+  "layered_four_model_feasible_candidate": false,
+  "layered_four_model_selection": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\layered_development_screen_20261022T042016Z\\analysis\\development_selection.json",
+  "selected_profile": {
+    "name": "CalShrink025Light",
+    "confidence_floor": 0.2,
+    "section_modal_blend": 0.25,
+    "section_target": 1,
+    "section_gamma": 3,
+    "section_calibration_weight": 0.25
+  },
+  "development_gain_vs_original": 0.06774633893791437,
+  "matlab_child_pids": [
+    36996,
+    34716
+  ],
+  "expected_observations": 4680,
+  "expected_rows": 46800,
+  "confirmation_started": true,
+  "policy_sha256": "523e95ba3085b58945241af6121c928dfd9bfd24bff585f2ce8ae0ad4921a3f3",
+  "latest_confirmation_progress": {
+    "observations": 955,
+    "new_numerical_rows": 9550,
+    "completed_models": [
+      "V2Audit_LowQDeep",
+      "V2Audit_Reversal"
+    ],
+    "active_models": [
+      "V2Audit_MixedDeep",
+      "V2Audit_ThinPair"
+    ],
+    "solver_flags": 0,
+    "per_model": [
+      {
+        "model": "V2Audit_LowQDeep",
+        "status": "COMPLETED",
+        "observations": 360,
+        "rows": 3600,
+        "replay_rows": 0,
+        "elapsed_seconds": 13866.9617818,
+        "solver_flags": 0,
+        "max_normal_residual": 9.999826597193457e-08
+      },
+      {
+        "model": "V2Audit_MixedDeep",
+        "status": "RUNNING",
+        "observations": 105,
+        "rows": 1050,
+        "replay_rows": 0,
+        "elapsed_seconds": 3389.198702,
+        "solver_flags": 0,
+        "max_normal_residual": 9.999796326243233e-08
+      },
+      {
+        "model": "V2Audit_Reversal",
+        "status": "COMPLETED",
+        "observations": 360,
+        "rows": 3600,
+        "replay_rows": 0,
+        "elapsed_seconds": 13081.2539544,
+        "solver_flags": 0,
+        "max_normal_residual": 9.999947329908288e-08
+      },
+      {
+        "model": "V2Audit_ThinPair",
+        "status": "RUNNING",
+        "observations": 130,
+        "rows": 1300,
+        "replay_rows": 0,
+        "elapsed_seconds": 4175.9131209,
+        "solver_flags": 0,
+        "max_normal_residual": 9.9999845948087e-08
+      }
+    ]
+  },
+  "user_guide": "USAGE_ZH.md (also copied outside frozen source into confirmation run for final package)",
+  "periodic_reporting": {
+    "automation_id": "combineduncertainty",
+    "interval_minutes": 30,
+    "status": "PAUSED",
+    "destination": "current_thread",
+    "created_after_user_requested_regular_reports": true
+  },
+  "model_reporting": {
+    "requested": true,
+    "reported_models": [
+      "V2Audit_LowQDeep",
+      "V2Audit_Reversal"
+    ],
+    "reporter": "scripts/report_completed_models.py",
+    "reports": "runs/validation_20261022T054143Z/model_reports",
+    "last_report_utc": "2026-10-22T10:17:34.179370+00:00",
+    "report_scope": "Completed-model descriptive performance and frozen engineering gates; final cohort audit remains pending; failures preserved"
+  },
+  "confirmation_effectiveness_checkpoint": {
+    "status": "LOCAL_GATES_FAILED_FULL_AUDIT_PENDING",
+    "goal_achieved": false,
+    "completed_model_reports": "runs/validation_20261022T054143Z/model_reports",
+    "known_failures": [
+      "LowQDeep: large-recovery-error count increases vs Frozen in five suites; three Main records share one observation seed and three calibration seeds",
+      "Reversal: velocity +3% AVO gradient gate fails despite improved mean waveform recovery"
+    ],
+    "interpretation": "Do not tune frozen policy or lower gates. Finish all planned observations and report complete failures. A failed confirmation report does not establish that the improvement goal is achieved."
+  },
+  "cancelled_utc": "2026-10-22T10:31:17.754109+00:00",
+  "cancellation_status": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\validation_20261022T054143Z\\CANCELLATION_STATUS.json"
+}

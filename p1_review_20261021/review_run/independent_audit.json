@@ -1,0 +1,146 @@
+{
+  "manifest_declared_count": 136,
+  "entries_checked": 136,
+  "mismatches": [],
+  "historical_file_rows": 3444,
+  "split_branch_summary": {
+    "Baseline": {
+      "observations": 246,
+      "failures_error_gt_1": 19
+    },
+    "CombinedUncertainty": {
+      "observations": 246,
+      "failures_error_gt_1": 0
+    },
+    "CombinedUncertainty_NoStructure": {
+      "observations": 246,
+      "failures_error_gt_1": 19
+    },
+    "Frozen": {
+      "observations": 246,
+      "failures_error_gt_1": 17
+    },
+    "NoiseUncertaintyOnly": {
+      "observations": 246,
+      "failures_error_gt_1": 0
+    },
+    "QModelErrorOnly": {
+      "observations": 246,
+      "failures_error_gt_1": 16
+    },
+    "StrongerDamping": {
+      "observations": 246,
+      "failures_error_gt_1": 15
+    }
+  },
+  "calibration_observation_counts": [
+    {
+      "model": "Dev_DeepContrast",
+      "counts": {
+        "DevMain/20261030": 5,
+        "DevMain/20261035": 5,
+        "DevMain/20261040": 5
+      }
+    },
+    {
+      "model": "Dev_ModerateQ",
+      "counts": {
+        "DevMain/20261030": 5,
+        "DevMain/20261035": 5,
+        "DevMain/20261040": 5
+      }
+    },
+    {
+      "model": "Holdout_DeepLowQ",
+      "counts": {
+        "NewGeologyMain/20261030": 5,
+        "NewGeologyMain/20261035": 5,
+        "NewGeologyMain/20261040": 5
+      }
+    },
+    {
+      "model": "Holdout_HighContrastReversal",
+      "counts": {
+        "NewGeologyMain/20261030": 5,
+        "NewGeologyMain/20261035": 5,
+        "NewGeologyMain/20261040": 5
+      }
+    },
+    {
+      "model": "Holdout_StrongAtten",
+      "counts": {
+        "NewGeologyMain/20261030": 5,
+        "NewGeologyMain/20261035": 5,
+        "NewGeologyMain/20261040": 5
+      }
+    },
+    {
+      "model": "Holdout_ThinInterbed",
+      "counts": {
+        "NewGeologyMain/20261030": 5,
+        "NewGeologyMain/20261035": 5,
+        "NewGeologyMain/20261040": 5
+      }
+    },
+    {
+      "model": "SoftLowQ",
+      "counts": {
+        "Main/20261030": 30,
+        "LowerSNR/20261030": 12,
+        "MultiCalMain/20261035": 5,
+        "MultiCalMain/20261040": 5
+      }
+    },
+    {
+      "model": "ThinHighFrequency",
+      "counts": {
+        "Main/20261030": 30,
+        "LowerSNR/20261030": 12,
+        "MultiCalMain/20261035": 5,
+        "MultiCalMain/20261040": 5
+      }
+    },
+    {
+      "model": "VelocityReversal",
+      "counts": {
+        "Main/20261030": 30,
+        "LowerSNR/20261030": 12,
+        "MultiCalMain/20261035": 5,
+        "MultiCalMain/20261040": 5
+      }
+    }
+  ],
+  "historical_recheck": {
+    "status": "PROVISIONAL_PASS",
+    "pairs": 126,
+    "equal_model_main_improvement": 0.0731469436850094,
+    "failed_checks": []
+  },
+  "all_models_recheck": {
+    "status": "FAIL",
+    "pairs": 246,
+    "equal_model_main_improvement": 0.0731469436850094,
+    "failed_checks": [
+      {
+        "name": "MultiCalMain/SoftLowQ/AVOGradientError",
+        "pass_": false,
+        "detail": {
+          "baseline": 0.620129296988298,
+          "candidate": 0.6544855183589797,
+          "allowance": 0.0310064648494149,
+          "n": 4
+        }
+      },
+      {
+        "name": "NewGeologyMain/Holdout_ThinInterbed/WeakEventError",
+        "pass_": false,
+        "detail": {
+          "baseline": 1.35183097947591,
+          "candidate": 1.4390702190878033,
+          "allowance": 0.0675915489737955,
+          "n": 3
+        }
+      }
+    ]
+  }
+}

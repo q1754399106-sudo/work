@@ -1,0 +1,10 @@
+Prepared independent fold operators: Dev_ThinLowQ Offset elapsed=14.5s
+1/9 Dev_ThinLowQ_CoherentNoiseAVO_12dB_20261411 baseline=0.79168 CV=1.08225 alpha=1 beta=0 elapsed=97.9s
+2/9 Dev_ThinLowQ_SmoothAVO_12dB_20261411 baseline=0.73112 CV=0.67468 alpha=0.1 beta=3 elapsed=176.7s
+Prepared independent fold operators: Dev_ThinLowQ Section elapsed=181.7s
+3/9 Dev_ThinLowQ_WeakSection_12dB_20261411 baseline=0.89481 CV=0.92291 alpha=1 beta=3 elapsed=213.7s
+Prepared independent fold operators: Dev_ThinPairWideContrast Offset elapsed=228.2s
+4/9 Dev_ThinPairWideContrast_CoherentNoiseAVO_12dB_20261411 baseline=0.66155 CV=0.56736 alpha=0.1 beta=3 elapsed=315.5s
+5/9 Dev_ThinPairWideContrast_SmoothAVO_12dB_20261411 baseline=0.65505 CV=0.55669 alpha=0.1 beta=3 elapsed=389.3s
+Prepared independent fold operators: Dev_ThinPairWideContrast Section elapsed=392.7s
+6/9 Dev_ThinPairWideContrast_WeakSection_12dB_20261411 baseline=0.84169 CV=0.77596 alpha=0.3 beta=0 elapsed=413.0s

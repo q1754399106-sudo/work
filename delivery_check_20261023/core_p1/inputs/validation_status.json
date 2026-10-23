@@ -1,0 +1,40 @@
+{
+  "method": "PrunedFullCalRefit",
+  "ready_for_research_use": true,
+  "research_only": true,
+  "unique_cases": 185,
+  "gates": {
+    "development": {
+      "overall": true,
+      "each_model": true,
+      "weak": true,
+      "weak_vs_original": true,
+      "avo": true,
+      "noise": true,
+      "fault": true,
+      "pinchout": true,
+      "solver": true,
+      "all_pass": true
+    },
+    "validation": {
+      "overall": true,
+      "each_model": true,
+      "weak": true,
+      "weak_vs_original": true,
+      "avo": true,
+      "noise": true,
+      "fault": true,
+      "pinchout": true,
+      "solver": true,
+      "all_pass": true
+    },
+    "colored_stress": {
+      "RelativeError": true,
+      "WeakEventError": true,
+      "solver": true,
+      "all_pass": true
+    }
+  },
+  "api_replay_relative_error": 0,
+  "scope": "8 geological models within one synthetic simulator; 100 normal and 10 colored development cases, 60 fresh normal validation cases and 15 fresh colored stress cases. Zero-phase Ricker dictionary, independent calibration, known geometry, 11 traces."
+}

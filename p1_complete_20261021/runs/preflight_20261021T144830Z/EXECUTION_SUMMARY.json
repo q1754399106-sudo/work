@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETED",
+  "tasks": [
+    {
+      "status": "COMPLETED",
+      "model": "SoftLowQ",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/preflight_20261021T144830Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/preflight_20261021T144830Z/SoftLowQ/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/preflight_20261021T144830Z/SoftLowQ/matlab');"
+      ],
+      "started_utc": "2026-10-21T14:48:30.648348+00:00",
+      "pid": 8052,
+      "exit_code": 0,
+      "elapsed_seconds": 267.59300000000076
+    }
+  ],
+  "source_changed_during_run": [],
+  "rows": 126,
+  "expected_rows": 126,
+  "coverage_complete": true
+}

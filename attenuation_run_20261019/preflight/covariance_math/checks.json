@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "seed": 20261019,
+  "checks": {
+    "woodbury_relative_error": 1.6078537194177932e-15,
+    "exact_propagation_precision_relative_error": 5.1704022481696164e-15,
+    "matched_route_solution_relative_error": 2.513892485979391e-13,
+    "bias_centering_residual": 2.2245250015449154e-16,
+    "wrong_bias_sign_residual": 1.8685977489049532,
+    "floored_whitened_expected_energy": 21.813165763510856,
+    "floored_target_trace_error": 3.552713678800501e-15,
+    "minimum_covariance_eigenvalue": 0.007029814034365757,
+    "ce_zero_precision_error": 0.0,
+    "shared_q_cross_trace_covariance_norm": 0.3375590390776236
+  },
+  "scope": "Independent dense linear algebra in Python. No MATLAB code execution, Q calibration, geological test or performance estimate."
+}

@@ -1,0 +1,435 @@
+{
+  "file_count": 86,
+  "files": [
+    {
+      "path": "CHANGES.patch",
+      "bytes": 13575,
+      "sha256": "97cf69cd8c32f325411dbbeabd36639581c42b0f9749387f3e2d1d8339157b5c"
+    },
+    {
+      "path": "core_p1/frozen_compensate.m",
+      "bytes": 1134,
+      "sha256": "8e22c81a40956c9a805b88147c3852fc7701bb85bf1f593693153ca792cb8f5d"
+    },
+    {
+      "path": "core_p1/inputs/guard_policy.json",
+      "bytes": 358,
+      "sha256": "9fdc2f6b4cacca4fea0d60c409ce52665fa2ee20ec8d53155673448dd9c9b3ad"
+    },
+    {
+      "path": "core_p1/inputs/options.json",
+      "bytes": 663,
+      "sha256": "f1f8a1aa5c7982262beb2109eb458e56c22bf6466c88016670437d6e971c9f3a"
+    },
+    {
+      "path": "core_p1/inputs/p1_experiment_spec.json",
+      "bytes": 10927,
+      "sha256": "b60caa7f25f595ec8dc86b57c7bdc1f2d4a007057314219a9feafb0f35680f86"
+    },
+    {
+      "path": "core_p1/inputs/stability_spec.json",
+      "bytes": 1352,
+      "sha256": "dc61a8b500090f9cde00dfff8472d5d83a2a32dc3b4b1ac34cb58eec574f1a40"
+    },
+    {
+      "path": "core_p1/inputs/uq_spec.json",
+      "bytes": 1433,
+      "sha256": "4eeb79354d2c30b7c9e6af982bc42c2daeee755ef6bd2dbab7f4a3cf51dbd35a"
+    },
+    {
+      "path": "core_p1/inputs/v2_options.json",
+      "bytes": 822,
+      "sha256": "bf9348a703e7a834b35b4b31f9cb5ad3750a3627f50e4131dac20d27bb294efc"
+    },
+    {
+      "path": "core_p1/matlab_src/attenuation_matrix.m",
+      "bytes": 488,
+      "sha256": "93d6cf4fd2f8fcb797016c02094d1b6ad8b63d1ca3cc83e0f5594bec2304c68b"
+    },
+    {
+      "path": "core_p1/matlab_src/avo_projector_v2.m",
+      "bytes": 901,
+      "sha256": "31a441af73c12f30a037dac00cf0a5240b190c5a9e721d1cb9f9273e13c6fa9e"
+    },
+    {
+      "path": "core_p1/matlab_src/build_structure_models.m",
+      "bytes": 849,
+      "sha256": "6062e968d07ec45f229a25bdb76a160266501afc0ad899332aaa726df015962c"
+    },
+    {
+      "path": "core_p1/matlab_src/compensate_unknown_q.m",
+      "bytes": 688,
+      "sha256": "2fc9f2b94e2021bc94ce4c8f5abd26027652f51da220ee68563cfb42e8aa0a74"
+    },
+    {
+      "path": "core_p1/matlab_src/config_model.m",
+      "bytes": 771,
+      "sha256": "383758437200c5d656114daa157fd7c3fcbc59911a155ef82599426f6af2c050"
+    },
+    {
+      "path": "core_p1/matlab_src/context_v2.m",
+      "bytes": 556,
+      "sha256": "5c30c38c2230a9af0b32c0b43d5da9809a4c815f13cf58ca9587ed9e08e7816f"
+    },
+    {
+      "path": "core_p1/matlab_src/discrepancy_apply.m",
+      "bytes": 596,
+      "sha256": "47c1353bd6bf9a6cdb56d0d1c30a2ec0c2741e60828ff576fabda6384d739edb"
+    },
+    {
+      "path": "core_p1/matlab_src/discrepancy_factor.m",
+      "bytes": 164,
+      "sha256": "23da2f7fde0f5db52f0a57300da346e69a1a1889e40c0a0d5dd648061f26a5dd"
+    },
+    {
+      "path": "core_p1/matlab_src/estimate_q_effective.m",
+      "bytes": 2742,
+      "sha256": "63570c7d57b7a224b2e8deff836123043ab8c14a65a6e7655811401462dfab5f"
+    },
+    {
+      "path": "core_p1/matlab_src/estimate_trace_snr.m",
+      "bytes": 2222,
+      "sha256": "f444fd0f9c53c2928af1927ec6e5b38f78bf90f5552aa09abdd998fd0e157983"
+    },
+    {
+      "path": "core_p1/matlab_src/learn_structure_operator.m",
+      "bytes": 2208,
+      "sha256": "098892432742a23b0f6bc2fa376377ac84f200cce710ab4a5cb311c9ba064649"
+    },
+    {
+      "path": "core_p1/matlab_src/make_reference.m",
+      "bytes": 654,
+      "sha256": "aff7a2523147f7ca79da475437919c4244949c2b322630d5216a420e1b1b11c7"
+    },
+    {
+      "path": "core_p1/matlab_src/make_stability_scene.m",
+      "bytes": 1120,
+      "sha256": "6ff0fd07aaa23822db58cc6a8fc7e3d80eb136d7baf7f746215cbf8c24e6a98c"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_calibrate_ensemble.m",
+      "bytes": 1250,
+      "sha256": "a657fefafd0cdfaab02d1214c54c01b25d63dbce0864bb3afa4a309a6ad1e2c0"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_calibration_reliability.m",
+      "bytes": 1038,
+      "sha256": "bf82b25773f133c8e00c0caf84ec5498f4e659de81369dfec424b7c283296d03"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_guard_checks.m",
+      "bytes": 1273,
+      "sha256": "2e9c7b18c80cd6ea402d4f10d20e5d2cc0ec8b7576dd30f1391a19d3e0f3b09b"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_modal_penalty.m",
+      "bytes": 411,
+      "sha256": "b838d1affcb44489751a98f2d1ad9b4658a747e178ef5aee77562d928829070b"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_models.m",
+      "bytes": 694,
+      "sha256": "1bfa365f9a18f7ad25f914963a15a42fb382a708a2b0d863e66f5845b1a141f6"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_noise_uncertainty.m",
+      "bytes": 1715,
+      "sha256": "5ef7deae27dcb467ec98675d5e1b15f76ed992213cbd0c7843368e86f2bfd26e"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_parameter_nodes.m",
+      "bytes": 642,
+      "sha256": "69de91befa065fc593a21c36afd9ddce2b0c8bfe401b4d4fc54ad639d7dc0d4f"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_prepare_calibration.m",
+      "bytes": 297,
+      "sha256": "b2b177de1d5515dcdac7e83d82f0a80106401638a95282aa292cf89d88339779"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_q_model_error.m",
+      "bytes": 1451,
+      "sha256": "3efaa75a18a0f0101367fb775fc5561aaccf46589835e15f6e17eb2d42add686"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_regression_checks.m",
+      "bytes": 2990,
+      "sha256": "74418e146d20cb419639f2664e1025fae4942a57a727fab5b153aca1f48a013e"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_run_grid.m",
+      "bytes": 4151,
+      "sha256": "1dcfce71e0a16d5b8b38997c186da5620c67d405fcf062e4dd80d58bac97f2f5"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_solve_branch.m",
+      "bytes": 8107,
+      "sha256": "2137cb51bae7f828e12df6d793915123cf33f00efede2a087905b6eba8ff306e"
+    },
+    {
+      "path": "core_p1/matlab_src/prepare_models_v2.m",
+      "bytes": 403,
+      "sha256": "44441fc455c4fd3b9ba6087a5f30089d0fee6000b62e8debfd8a411c24606b3a"
+    },
+    {
+      "path": "core_p1/matlab_src/ray_absorption.m",
+      "bytes": 959,
+      "sha256": "c74fe81b4925d1a069e81ad2d198e4b7bdfc14248f1df520f18faf373277a175"
+    },
+    {
+      "path": "core_p1/matlab_src/ridge_operator.m",
+      "bytes": 134,
+      "sha256": "f458abdb8726c0565abb9a116ec482860e4f77e35efa4d9862ea583191cc0a52"
+    },
+    {
+      "path": "core_p1/matlab_src/score_stability.m",
+      "bytes": 337,
+      "sha256": "0b7b5e721ff5c644d23a459f74f90759d88aca84694d0c66f645a50fa901b822"
+    },
+    {
+      "path": "core_p1/matlab_src/score_structure.m",
+      "bytes": 1585,
+      "sha256": "a8878a12b2f245983bc5086b16fb40584ef71e765068606f791261b166195a94"
+    },
+    {
+      "path": "core_p1/matlab_src/select_v2.m",
+      "bytes": 1494,
+      "sha256": "76aee1128e8c5c427dc1642a42a2c180f8aafca79dded00b7ea0a904b6a67102"
+    },
+    {
+      "path": "core_p1/matlab_src/solve_v2.m",
+      "bytes": 1806,
+      "sha256": "1b450f8559b76000cbb4f13dc1bd6d05325125337322994ddc4e65f4dd22c3b1"
+    },
+    {
+      "path": "core_p1/matlab_src/stability_models.m",
+      "bytes": 537,
+      "sha256": "41a0e38587012a0ae38d5dfe479bb8e34c12ed212a6c5a6d9b6e38ddd4da3c62"
+    },
+    {
+      "path": "core_p1/matlab_src/structure_options.m",
+      "bytes": 149,
+      "sha256": "849b9803725c1ec7ed7da341bfcbf5620dfd1f30004b2a66e7d931daeff686ef"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_audit_outputs.m",
+      "bytes": 342,
+      "sha256": "e4a966409d02eacc035983cb61ada4bbdc4f88d30891c9a2a7e0eb2d490029f9"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_build_prior.m",
+      "bytes": 684,
+      "sha256": "0b8562a885116cd9ab921ee5ca96bc581fbcc03302741b2ab75acdd75a82d2b2"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_case.m",
+      "bytes": 220,
+      "sha256": "6975bf52ce605a3b001d4b75cab797ccaf069006d313561013ebd1f5736c1491"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_inverse_config.m",
+      "bytes": 451,
+      "sha256": "a6c7df5c8847f663eb05b9bc3228a2ca84b94d59e5ec107d1342df4ed87eb269"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_metric_row.m",
+      "bytes": 1414,
+      "sha256": "a7a61d072045ee2a64405a0c4348bc6a328d1499f666c6413c255776ee6f8ee0"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_observation.m",
+      "bytes": 1358,
+      "sha256": "4f7454ecc5ef19067b7c6339d58627590c564c6d327e288ba498b6a06a164316"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_public_config.m",
+      "bytes": 333,
+      "sha256": "03d220346379a0c7e85303d4221e818e1d63f2ed2023ebe2e609bea79946cbbc"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_select.m",
+      "bytes": 1491,
+      "sha256": "e04128ba1d0a3d83afc53fd7717f410d179dd2549e816996952af9814cd2e33b"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_spec.m",
+      "bytes": 139,
+      "sha256": "077df6ea906a6c8c14f1c2e48ff683f797d102545ae5cf9320abf3477470d671"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_templates.m",
+      "bytes": 612,
+      "sha256": "e60d7f7df87f6f02120185177ee5f955cddd4212a486239205bde5b396301db2"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_writejson.m",
+      "bytes": 124,
+      "sha256": "74a3ea78143819e5710adf9aeb06f755f3ce0dc4c074a51f904a02a10f587c3c"
+    },
+    {
+      "path": "core_p1/matlab_src/v2_options.m",
+      "bytes": 145,
+      "sha256": "12371e5c756543fbe4b126e954870f832ecc82bd0fdc3addc46a53b1997fa1d0"
+    },
+    {
+      "path": "core_p1/matlab_src/validate_p1_unknown_q.m",
+      "bytes": 1637,
+      "sha256": "accdeabb64d0d350634c07efefa7871261500493b88b828b0a412e231238c68f"
+    },
+    {
+      "path": "core_p1/matlab_src/validate_unknown_q.m",
+      "bytes": 1936,
+      "sha256": "19d9c88ff8b2e8026bb7bf7288f8812ed06bf3e8747672b88af80bb65631c680"
+    },
+    {
+      "path": "core_p1/p1_compensate.m",
+      "bytes": 2339,
+      "sha256": "fda12b58de156cf6fe24b0aba8ab04c09b0f94d7863449d0ad218f9b9bd7c3fa"
+    },
+    {
+      "path": "core_p1/run_p1_research.m",
+      "bytes": 1838,
+      "sha256": "6a5106f1e4d89ac0ba6b954e43410b421f5890a87985b1edfb4196293e8a708f"
+    },
+    {
+      "path": "core_p1/run_research.m",
+      "bytes": 3730,
+      "sha256": "1257fb17dd294061bb02323e7d869d753d7ed7113d7a5b577757b392719c3aa8"
+    },
+    {
+      "path": "NEXT_EXPERIMENT.json",
+      "bytes": 1782,
+      "sha256": "1d6a0c1ea79de2f81e40536e6ee28c78fe83d5bde08dbeb9f16e0c26d1d829ab"
+    },
+    {
+      "path": "README_ZH.md",
+      "bytes": 2898,
+      "sha256": "53975a61165347c495a80d190cfdd8bb6150f252c0d337a2842a26fed0bba764"
+    },
+    {
+      "path": "RESULTS_ZH.md",
+      "bytes": 5249,
+      "sha256": "5bb754af28e16d5a4115bef95ff2c436d826d1ecb130e65a9cd6b36f92f25be3"
+    },
+    {
+      "path": "runs/guard_trial_v1/acceptance_guarded/acceptance.json",
+      "bytes": 9681,
+      "sha256": "a5929389909e39d2b93712a364daeeb1ce15bc364a0df13068be69f207a6e67a"
+    },
+    {
+      "path": "runs/guard_trial_v1/acceptance_guarded/effects.html",
+      "bytes": 7171,
+      "sha256": "aed5f09b98c66c97c5b9bc0b092ac584873420d84f1ced1722d280680e470e1b"
+    },
+    {
+      "path": "runs/guard_trial_v1/acceptance_guarded/EFFECTS_ZH.md",
+      "bytes": 2179,
+      "sha256": "dc1c7749c5ad6fffb0ae1bc7ca07b68ef1e8b96f4298a93fa7eacdf4e8aded11"
+    },
+    {
+      "path": "runs/guard_trial_v1/acceptance_guarded/paired_differences.csv",
+      "bytes": 4268,
+      "sha256": "e7b481bff4f6a58f2ef692f4b2c074d41518ec769c11563dc4ba011fe6da01f5"
+    },
+    {
+      "path": "runs/guard_trial_v1/execution.json",
+      "bytes": 7320,
+      "sha256": "5359047b6e4740c985aea6ddf04242dc72b428de742e38072e1476313fe3559c"
+    },
+    {
+      "path": "runs/guard_trial_v1/matlab/calibration_operator_audit.json",
+      "bytes": 137,
+      "sha256": "a5930bc7e945398e72fce6ce49873cca63dd0ebd1ce71d7271228d08495e4bfb"
+    },
+    {
+      "path": "runs/guard_trial_v1/matlab/calibration_SoftLowQ_20261030.json",
+      "bytes": 3536,
+      "sha256": "8c93028b777cbc9a17fa248ab47bdd901f1becd3aa5bcb3a02038cc40dc3edfb"
+    },
+    {
+      "path": "runs/guard_trial_v1/matlab/checks.json",
+      "bytes": 161,
+      "sha256": "60067133a3d30640060e132172837551f90f216d1a04080bdcecf3da3ebdd63e"
+    },
+    {
+      "path": "runs/guard_trial_v1/matlab/executed_spec.json",
+      "bytes": 2706,
+      "sha256": "c29ace33b834c6c2c65f57a87675ac8abf3b29dcd3decd4b2e8c95f0fced7bd8"
+    },
+    {
+      "path": "runs/guard_trial_v1/matlab/metrics.csv",
+      "bytes": 55962,
+      "sha256": "6c9ae73e4aba33db7d26af8ba0320e9f862f139b9ada16dfba54be505113af8f"
+    },
+    {
+      "path": "runs/guard_trial_v1/matlab/velocity_stress_StressVelocityMinus3_SoftLowQ_20261030.json",
+      "bytes": 3741,
+      "sha256": "270f3b2c5329258b55a0f5fc4f4866e2cae150d64d0b5af66f3076fcbba452f9"
+    },
+    {
+      "path": "runs/guard_trial_v1/matlab/velocity_stress_StressVelocityPlus3_SoftLowQ_20261030.json",
+      "bytes": 3746,
+      "sha256": "b5939a9ed8dab44dc32c53d47293f198717d7642c87123050c71a76ffcefa1ca"
+    },
+    {
+      "path": "runs/guard_trial_v1/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/guard_trial_v1/stdout.log",
+      "bytes": 9631,
+      "sha256": "69b7fa6a8cd58ebad51376d61158a0e7f4ba8f59609e6fd9e1db10581a2c3caf"
+    },
+    {
+      "path": "runs/guard_trial_v1/summary.json",
+      "bytes": 16159,
+      "sha256": "38dca44c13f8cbe6c174ac540f2513c652add4333f2ee9f57f8723e80d7b33da"
+    },
+    {
+      "path": "runs/guard_trial_v1/validation/guard_checks.json",
+      "bytes": 240,
+      "sha256": "62eb140317a0e22ff203724ac2cd8ac2384fcd47b300e89c430a2ada1bd1fbaf"
+    },
+    {
+      "path": "runs/guard_trial_v1/validation/original_units/checks.json",
+      "bytes": 291,
+      "sha256": "2acdb8229bb48cb7400104cfb53ade74309de9a1a0f86fc7302be6369a7ef46b"
+    },
+    {
+      "path": "runs/guard_trial_v1/validation/regression_checks.json",
+      "bytes": 335,
+      "sha256": "8237c885e34a7cc917104283ca434e8e8cd2cce0a7d4489b9b72357a639e1c2d"
+    },
+    {
+      "path": "scripts/evaluate_candidate.py",
+      "bytes": 11455,
+      "sha256": "327dd1ed4d95800b36b7430cce7ee880a1339bbce392ae627cbadc9bc94bf106"
+    },
+    {
+      "path": "scripts/package_guard.py",
+      "bytes": 2181,
+      "sha256": "d0903db447929579d366107f0f5601cee9b40ce73cbadf2cf28a9c72515b4c9e"
+    },
+    {
+      "path": "scripts/prepare_guard_trial.py",
+      "bytes": 757,
+      "sha256": "8d05e0efe9d3104cf97139927676638285ff6aebf52e4eac41f8475dff062ec7"
+    },
+    {
+      "path": "scripts/run_matlab.py",
+      "bytes": 2754,
+      "sha256": "d96e8f06b54ff9433cf886543b566da498f636796f5f93cd1f1f3a0145cd2ffb"
+    },
+    {
+      "path": "scripts/summarize_guard.py",
+      "bytes": 5835,
+      "sha256": "96fc9af07318c3cfaf0a615c146550dbc7d4ef9ceb075ffbf11605c36d5fd88d"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 8425,
+      "sha256": "ce940e69981c6be6fd9014efedd178d54500bc2c42aac302d895dd8b7b19a140"
+    }
+  ]
+}

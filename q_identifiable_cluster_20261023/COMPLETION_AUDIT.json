@@ -1,0 +1,178 @@
+{
+  "completed": true,
+  "checked_utc": "2026-10-23T07:22:30.356592+00:00",
+  "checks": {
+    "frozen_sources_inputs_and_truth_unchanged": true,
+    "original_baseline_MATLAB_unchanged": true,
+    "development_exit_zero": true,
+    "development_exact_executed_source_snapshot": true,
+    "Development_numerical": true,
+    "Development_public_input_truth_isolation": true,
+    "validation_exit_zero": true,
+    "frozen_before_validation_run": true,
+    "validation_exact_executed_source_snapshot": true,
+    "FreshFoldLowQ_numerical": true,
+    "FreshFoldLowQ_limiting_controls": true,
+    "FreshFoldLowQ_public_input_truth_isolation": true,
+    "FreshDenseQReverse_numerical": true,
+    "FreshDenseQReverse_limiting_controls": true,
+    "FreshDenseQReverse_public_input_truth_isolation": true,
+    "FreshThinLowFrequency_numerical": true,
+    "FreshThinLowFrequency_limiting_controls": true,
+    "FreshThinLowFrequency_public_input_truth_isolation": true,
+    "sensitivity_exit_zero": true,
+    "sensitivity_exact_executed_source_snapshot": true,
+    "QPoint080_numerical": true,
+    "QPoint080_limiting_controls": true,
+    "QPoint080_public_input_truth_isolation": true,
+    "QPoint125_numerical": true,
+    "QPoint125_limiting_controls": true,
+    "QPoint125_public_input_truth_isolation": true,
+    "QPoint080_same_observation_as_nominal": true,
+    "QPoint080_registered_scale": true,
+    "QPoint125_same_observation_as_nominal": true,
+    "QPoint125_registered_scale": true,
+    "new_model_and_noise_seeds_distinct": true,
+    "all_220_trace_conditions": true,
+    "all_1320_method_waveforms": true,
+    "development_metrics.csv_complete": true,
+    "validation_metrics.csv_complete": true,
+    "sensitivity_metrics.csv_complete": true,
+    "artifact_RESULTS_ZH.md": true,
+    "artifact_METHOD_ZH.md": true,
+    "artifact_README_ZH.md": true,
+    "artifact_index.html": true,
+    "artifact_analysis/validation_summary.json": true,
+    "artifact_analysis/sensitivity_summary.json": true,
+    "artifact_figures/manifest.json": true,
+    "all_rendered_figure_hashes": true
+  },
+  "trace_conditions": 220,
+  "method_waveforms": 1320,
+  "execution": {
+    "development": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\development_20261023T064919Z",
+      "elapsed_seconds": 311.0619999999981,
+      "cases": {
+        "Development": {
+          "complete": true,
+          "case": "Development",
+          "traces": 44,
+          "optimization_flags": 0,
+          "max_normal": 8.389001519379172e-15,
+          "zero_Q_covariance_limit": 0,
+          "zero_input_exact": true,
+          "elapsed_seconds": 298.1523909
+        }
+      }
+    },
+    "validation": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z",
+      "elapsed_seconds": 1072.1879999999946,
+      "cases": {
+        "FreshFoldLowQ": {
+          "complete": true,
+          "case": "FreshFoldLowQ",
+          "traces": 44,
+          "optimization_flags": 0,
+          "max_normal": 5.354602632513967e-15,
+          "zero_Q_covariance_limit": 0,
+          "zero_Q_ridge_refit_limit": 2.4654914107752328e-14,
+          "zero_input_exact": true,
+          "synthetic_controls": {
+            "duplicate_rank_before": 2,
+            "duplicate_rank_after": 1,
+            "duplicate_waveform_error": 9.999999765006412e-09,
+            "zero_Q_covariance_limit": 0,
+            "positive_Q_uncertainty_finite": true,
+            "scope": "Oracle-support numerical controls only, not performance evidence"
+          },
+          "elapsed_seconds": 346.4375864
+        },
+        "FreshDenseQReverse": {
+          "complete": true,
+          "case": "FreshDenseQReverse",
+          "traces": 44,
+          "optimization_flags": 0,
+          "max_normal": 5.4892834957780915e-15,
+          "zero_Q_covariance_limit": 0,
+          "zero_Q_ridge_refit_limit": 1.2515089932909449e-14,
+          "zero_input_exact": true,
+          "synthetic_controls": {
+            "duplicate_rank_before": 2,
+            "duplicate_rank_after": 1,
+            "duplicate_waveform_error": 9.999999765006412e-09,
+            "zero_Q_covariance_limit": 0,
+            "positive_Q_uncertainty_finite": true,
+            "scope": "Oracle-support numerical controls only, not performance evidence"
+          },
+          "elapsed_seconds": 443.1663513
+        },
+        "FreshThinLowFrequency": {
+          "complete": true,
+          "case": "FreshThinLowFrequency",
+          "traces": 44,
+          "optimization_flags": 0,
+          "max_normal": 5.507420097928157e-15,
+          "zero_Q_covariance_limit": 0,
+          "zero_Q_ridge_refit_limit": 9.801605428214416e-15,
+          "zero_input_exact": true,
+          "synthetic_controls": {
+            "duplicate_rank_before": 2,
+            "duplicate_rank_after": 1,
+            "duplicate_waveform_error": 9.999999765006412e-09,
+            "zero_Q_covariance_limit": 0,
+            "positive_Q_uncertainty_finite": true,
+            "scope": "Oracle-support numerical controls only, not performance evidence"
+          },
+          "elapsed_seconds": 269.6130379
+        }
+      }
+    },
+    "sensitivity": {
+      "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\sensitivity_20261023T071601Z",
+      "elapsed_seconds": 370.4689999999973,
+      "cases": {
+        "QPoint080": {
+          "complete": true,
+          "case": "QPoint080",
+          "traces": 22,
+          "optimization_flags": 0,
+          "max_normal": 6.391513381431268e-15,
+          "zero_Q_covariance_limit": 0,
+          "zero_Q_ridge_refit_limit": 6.849181330191059e-14,
+          "zero_input_exact": true,
+          "synthetic_controls": {
+            "duplicate_rank_before": 2,
+            "duplicate_rank_after": 1,
+            "duplicate_waveform_error": 9.999999765006412e-09,
+            "zero_Q_covariance_limit": 0,
+            "positive_Q_uncertainty_finite": true,
+            "scope": "Oracle-support numerical controls only, not performance evidence"
+          },
+          "elapsed_seconds": 139.3413366
+        },
+        "QPoint125": {
+          "complete": true,
+          "case": "QPoint125",
+          "traces": 22,
+          "optimization_flags": 0,
+          "max_normal": 4.935417191496471e-15,
+          "zero_Q_covariance_limit": 0,
+          "zero_Q_ridge_refit_limit": 4.87428308797744e-14,
+          "zero_input_exact": true,
+          "synthetic_controls": {
+            "duplicate_rank_before": 2,
+            "duplicate_rank_after": 1,
+            "duplicate_waveform_error": 9.999999765006412e-09,
+            "zero_Q_covariance_limit": 0,
+            "positive_Q_uncertainty_finite": true,
+            "scope": "Oracle-support numerical controls only, not performance evidence"
+          },
+          "elapsed_seconds": 216.5977952
+        }
+      }
+    }
+  },
+  "interpretation": "Experiment completion is distinct from candidate promotion; inspect validation gates for performance. Hash checks prove code/data consistency, not scientific novelty or physical validity."
+}

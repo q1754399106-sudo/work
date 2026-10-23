@@ -1,0 +1,17 @@
+{
+  "status": "INTERRUPTED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/cv_pilot_20261022T155015Z/source/core_p1');run_cv_pilot('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/cv_pilot_20261022T155015Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T15:50:16.590153+00:00",
+  "timeout_seconds": 1800.0,
+  "pid": 43728,
+  "recovery_note": "MATLAB reported 0x40010004 after six saved cases; launcher was no longer present. Six cases preserved bit-for-bit; remaining three solved in the resume run.",
+  "recovered_into": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\adaptive_joint_cv_20261022\\runs\\cv_pilot_resume_20261022T161243Z",
+  "detected_utc": "2026-10-22T16:57:53.701310+00:00"
+}

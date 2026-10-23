@@ -1,0 +1,7 @@
+{在不同结构体之间进行下标赋值。
+
+出错 run_refit_validation (第 29 行)
+   for snr=reshape(plan.snr_db,1,[]),for seed=reshape(plan.seeds,1,[]),q=q+1;suites(q)=struct('kind','normal','snr_db',snr,'seed',seed,'ar1_rho',0);end,end
+                                                                             ^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

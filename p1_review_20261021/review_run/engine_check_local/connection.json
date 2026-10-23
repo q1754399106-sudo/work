@@ -1,0 +1,10 @@
+{
+  "action": "check",
+  "created_utc": "2026-10-21T12:29:21.280218+00:00",
+  "session_required": "ResearchMATLAB",
+  "started_new_instance": false,
+  "discovered_sessions": [],
+  "status": "BLOCKED_ENGINE",
+  "reason": "Existing ResearchMATLAB was not discoverable; no new instance started.",
+  "elapsed_seconds": 1.280999999999949
+}

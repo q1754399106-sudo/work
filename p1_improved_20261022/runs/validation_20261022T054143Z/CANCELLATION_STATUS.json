@@ -1,0 +1,24 @@
+{
+  "status": "CANCELLED_BY_USER",
+  "cancelled_utc": "2026-10-22T10:31:17.754109+00:00",
+  "user_request": "取消",
+  "pipeline_before_cancellation": {
+    "status": "NUMERICAL_CONFIRMATION_RUNNING",
+    "workers": 2,
+    "automatic_retry": false,
+    "goal_complete": false,
+    "updated_utc": "2026-10-22T05:41:42.762021+00:00"
+  },
+  "goal_status": "paused",
+  "periodic_reporting": "PAUSED",
+  "results_and_logs_retained": true,
+  "completed_models": [
+    "V2Audit_LowQDeep",
+    "V2Audit_Reversal"
+  ],
+  "partial_models": [
+    "V2Audit_ThinPair",
+    "V2Audit_MixedDeep"
+  ],
+  "full_confirmation_complete": false
+}

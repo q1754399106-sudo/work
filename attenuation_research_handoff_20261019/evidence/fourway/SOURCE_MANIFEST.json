@@ -1,0 +1,152 @@
+[
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\metrics.csv",
+    "snapshot": "inputs\\results\\matlab_test\\metrics.csv",
+    "sha256": "e16f5bfb8aed43e33299507b0c348dfec22b066eae2ac3f7addba169819a624d",
+    "bytes": 242819
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\spec_used.json",
+    "snapshot": "inputs\\results\\matlab_test\\spec_used.json",
+    "sha256": "55eb675a8dc14418ce4e631e16df0f0689b2fdbe934a1fe611fcff664c822186",
+    "bytes": 1381
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\connection.json",
+    "snapshot": "inputs\\results\\matlab_test\\connection.json",
+    "sha256": "118f467ad6a1e6b41eebc220b76059b2c0abd01a911918b5587f0d6894fd7e09",
+    "bytes": 295
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\run_status.json",
+    "snapshot": "inputs\\results\\matlab_test\\run_status.json",
+    "sha256": "550a10f228e99202d86db329e15c11ca6f471557545de2b5754cbb0ba99c9102",
+    "bytes": 254
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\selected_before_test.json",
+    "snapshot": "inputs\\results\\matlab_test\\selected_before_test.json",
+    "sha256": "1a666206645d7baf4f8bc1897c16b948361c494c3d7ea10e839012430c0c3a92",
+    "bytes": 1769
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\selection_evidence.json",
+    "snapshot": "inputs\\results\\matlab_test\\selection_evidence.json",
+    "sha256": "1b8d74c894321aa6fb68cb960b3f7460d7ddeca9f9df7539f72c90a19346062c",
+    "bytes": 253400
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_search2\\selected_presets.json",
+    "snapshot": "inputs\\results\\matlab_search2\\selected_presets.json",
+    "sha256": "1a666206645d7baf4f8bc1897c16b948361c494c3d7ea10e839012430c0c3a92",
+    "bytes": 1769
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\inputs\\stability_spec.json",
+    "snapshot": "inputs\\inputs\\stability_spec.json",
+    "sha256": "dc61a8b500090f9cde00dfff8472d5d83a2a32dc3b4b1ac34cb58eec574f1a40",
+    "bytes": 1352
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\run_unknown_q_test.m",
+    "snapshot": "inputs\\matlab_src\\run_unknown_q_test.m",
+    "sha256": "3ba490bef354e52b7f0c2e555f37fbdcc18f798087d94644d8860c372686146d",
+    "bytes": 4014
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_build_prior.m",
+    "snapshot": "inputs\\matlab_src\\uq_build_prior.m",
+    "sha256": "0b8562a885116cd9ab921ee5ca96bc581fbcc03302741b2ab75acdd75a82d2b2",
+    "bytes": 684
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_select.m",
+    "snapshot": "inputs\\matlab_src\\uq_select.m",
+    "sha256": "e04128ba1d0a3d83afc53fd7717f410d179dd2549e816996952af9814cd2e33b",
+    "bytes": 1491
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\context_v2.m",
+    "snapshot": "inputs\\matlab_src\\context_v2.m",
+    "sha256": "5c30c38c2230a9af0b32c0b43d5da9809a4c815f13cf58ca9587ed9e08e7816f",
+    "bytes": 556
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\build_structure_models.m",
+    "snapshot": "inputs\\matlab_src\\build_structure_models.m",
+    "sha256": "6062e968d07ec45f229a25bdb76a160266501afc0ad899332aaa726df015962c",
+    "bytes": 849
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\score_structure.m",
+    "snapshot": "inputs\\matlab_src\\score_structure.m",
+    "sha256": "a8878a12b2f245983bc5086b16fb40584ef71e765068606f791261b166195a94",
+    "bytes": 1585
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\score_stability.m",
+    "snapshot": "inputs\\matlab_src\\score_stability.m",
+    "sha256": "0b7b5e721ff5c644d23a459f74f90759d88aca84694d0c66f645a50fa901b822",
+    "bytes": 337
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\solve_v2.m",
+    "snapshot": "inputs\\matlab_src\\solve_v2.m",
+    "sha256": "1b450f8559b76000cbb4f13dc1bd6d05325125337322994ddc4e65f4dd22c3b1",
+    "bytes": 1806
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_calibrate\\estimate_SoftLowQ.json",
+    "snapshot": "inputs\\results\\matlab_calibrate\\estimate_SoftLowQ.json",
+    "sha256": "4d5aedb387ce2160309564e6de2c3d3c1c8cef386963ffe2575aed06a4bd1db1",
+    "bytes": 2982
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_calibrate\\estimate_VelocityReversal.json",
+    "snapshot": "inputs\\results\\matlab_calibrate\\estimate_VelocityReversal.json",
+    "sha256": "8184321eb089016be2a4d5d2e66c62f7d265225e19a71cbebebf386f423db8d5",
+    "bytes": 2941
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_calibrate\\estimate_ThinHighFrequency.json",
+    "snapshot": "inputs\\results\\matlab_calibrate\\estimate_ThinHighFrequency.json",
+    "sha256": "ae92192139a4306c47e2b6989fdd5e29784dac78d7ad55403f29cd04672603cf",
+    "bytes": 2978
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\example_SoftLowQ_SmoothAVO.json",
+    "snapshot": "inputs\\results\\matlab_test\\example_SoftLowQ_SmoothAVO.json",
+    "sha256": "d5f27355b48a18f57cee4acd130c3bf2e9b08949f2222acaf3c98103632e269d",
+    "bytes": 1238681
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\example_SoftLowQ_CoherentNoiseAVO.json",
+    "snapshot": "inputs\\results\\matlab_test\\example_SoftLowQ_CoherentNoiseAVO.json",
+    "sha256": "2a54bc6a5593a2646ada0a039b3a8f31c60ed37ac0b7936cfa62a31d69d9be2e",
+    "bytes": 1232101
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\example_VelocityReversal_SmoothAVO.json",
+    "snapshot": "inputs\\results\\matlab_test\\example_VelocityReversal_SmoothAVO.json",
+    "sha256": "d74ee620b5f9623b442ea2170837b40921d17368f88dc27007e33de2509ab0db",
+    "bytes": 1207543
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\example_VelocityReversal_CoherentNoiseAVO.json",
+    "snapshot": "inputs\\results\\matlab_test\\example_VelocityReversal_CoherentNoiseAVO.json",
+    "sha256": "85e0be2b6c260a83b00728a7e0c261e8aa5f0f901f02cc39a144a436eba8993e",
+    "bytes": 1206525
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\example_ThinHighFrequency_SmoothAVO.json",
+    "snapshot": "inputs\\results\\matlab_test\\example_ThinHighFrequency_SmoothAVO.json",
+    "sha256": "817536caf2f5c88ad5804c8f2525aa6c7a6e56654cce290127b17e566a612e52",
+    "bytes": 1176226
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\example_ThinHighFrequency_CoherentNoiseAVO.json",
+    "snapshot": "inputs\\results\\matlab_test\\example_ThinHighFrequency_CoherentNoiseAVO.json",
+    "sha256": "8908583c8caa619cd833820d1ad1fb898c50c055a58dcfe237c90075b898ac57",
+    "bytes": 1178703
+  }
+]

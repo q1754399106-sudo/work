@@ -1,0 +1,8 @@
+RUN_DIRECTORY C:\Users\qq175\Documents\ChatGPT\ÑÐ¾¿\p1_improved_20261022\runs\validation_20261022T054143Z
+EXPECTED observations=4680 rows=46800
+STARTED V2Audit_Reversal pid=14692
+STARTED V2Audit_LowQDeep pid=46032
+FINISHED V2Audit_Reversal COMPLETED 13118.6s
+STARTED V2Audit_ThinPair pid=7112
+FINISHED V2Audit_LowQDeep COMPLETED 13903.0s
+STARTED V2Audit_MixedDeep pid=45572

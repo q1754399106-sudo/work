@@ -1,0 +1,144 @@
+{
+  "figures": [
+    {
+      "name": "01_overall_four_methods",
+      "description": "Both suites separately; exact same inputs; all six seed means and SD; not independent geological repetitions.",
+      "legends": [
+        "一步法 / Direct",
+        "常规分步 / Split",
+        "Frozen分步 / Frozen split",
+        "Target08分步 / Target08 split",
+        "小点：每种子情景均值 / Small dots: seed means"
+      ],
+      "inches": [
+        16.0,
+        9.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "02_all_scenes",
+      "description": "All five scenes, no selected favorable subset; SD across six noise seeds.",
+      "legends": [
+        "一步法 / Direct",
+        "常规分步 / Split",
+        "Frozen分步 / Frozen split",
+        "Target08分步 / Target08 split"
+      ],
+      "inches": [
+        17.0,
+        6.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "03_amplitude_and_local_risks",
+      "description": "Inapplicable metric values remain NaN; pinchout normalization is inherited from MATLAB and uses entire truth norm.",
+      "legends": [
+        "一步法 / Direct",
+        "常规分步 / Split",
+        "Frozen分步 / Frozen split",
+        "Target08分步 / Target08 split"
+      ],
+      "inches": [
+        16.0,
+        9.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "04_all_errors_and_failures",
+      "description": "All 30 scenario-seed outcomes per model; fixed deterministic x offsets; full y range includes worst output.",
+      "legends": [
+        "一步法 / Direct",
+        "常规分步 / Split",
+        "Frozen分步 / Frozen split",
+        "Target08分步 / Target08 split",
+        "误差=1 / Error=1",
+        "误差=2 / Error=2"
+      ],
+      "inches": [
+        16.0,
+        6.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "05_fixed_trace_and_spectrum",
+      "description": "Fixed first held-out seed and far offset; absolute trace amplitudes; spectra divide by one shared truth peak per model; no frequency truncation.",
+      "legends": [
+        "无吸收真值 / Truth",
+        "观测 / Observed",
+        "一步法 / Direct",
+        "常规分步 / Split",
+        "Frozen分步 / Frozen split",
+        "Target08分步 / Target08 split"
+      ],
+      "inches": [
+        16.0,
+        11.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "06_same_gather_SoftLowQ",
+      "description": "All methods from same stored input; each model has a symmetric full-range color scale shared across truth, observation and all four results; no clipping.",
+      "legends": [
+        "负振幅 / Negative",
+        "正振幅 / Positive"
+      ],
+      "inches": [
+        18.0,
+        7.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "07_same_gather_VelocityReversal",
+      "description": "All methods from same stored input; each model has a symmetric full-range color scale shared across truth, observation and all four results; no clipping.",
+      "legends": [
+        "负振幅 / Negative",
+        "正振幅 / Positive"
+      ],
+      "inches": [
+        18.0,
+        7.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "08_same_gather_ThinHighFrequency",
+      "description": "All methods from same stored input; each model has a symmetric full-range color scale shared across truth, observation and all four results; no clipping.",
+      "legends": [
+        "负振幅 / Negative",
+        "正振幅 / Positive"
+      ],
+      "inches": [
+        18.0,
+        7.0
+      ],
+      "dpi": 170
+    },
+    {
+      "name": "09_same_prior_direct_split",
+      "description": "Ancillary control uses all 756 original rows; same H, lambda and scale within each paired route; complete nonstationary G and split XA remain different.",
+      "legends": [
+        "相同约束一步 / Direct, matched prior",
+        "相同约束分步 / Split, matched prior"
+      ],
+      "inches": [
+        15.0,
+        6.0
+      ],
+      "dpi": 170
+    }
+  ],
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2"
+  },
+  "uncertainty": "sample SD of six noise seed means; same geology and fixed calibration Q, not geological replication",
+  "source_sha256": "e16f5bfb8aed43e33299507b0c348dfec22b066eae2ac3f7addba169819a624d"
+}

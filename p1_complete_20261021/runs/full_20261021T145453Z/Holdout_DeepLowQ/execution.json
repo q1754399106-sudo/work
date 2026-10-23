@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "model": "Holdout_DeepLowQ",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_DeepLowQ/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_DeepLowQ/matlab');"
+  ],
+  "started_utc": "2026-10-21T22:04:48.898598+00:00",
+  "pid": 43472,
+  "exit_code": 0,
+  "elapsed_seconds": 12352.766000000003
+}

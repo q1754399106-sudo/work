@@ -1,0 +1,206 @@
+{
+  "checks": {
+    "Moderate": {
+      "complete": true,
+      "blocks": 9,
+      "optimization_flags": 0,
+      "max_normal": 8.699321533738749e-15,
+      "elapsed_seconds": 340.6657687
+    },
+    "Strong": {
+      "complete": true,
+      "blocks": 9,
+      "optimization_flags": 0,
+      "max_normal": 1.6269164200377958e-14,
+      "elapsed_seconds": 307.7313693
+    }
+  },
+  "metrics": [
+    {
+      "Dataset": "Moderate",
+      "Method": "FixedSplit",
+      "Stage": "Before",
+      "RelativeError": 0.6189292207569894,
+      "LiveError": 0.6045176697502322,
+      "DeepError": 0.644356851102275,
+      "LowEnergyError": 0.7644376408711101
+    },
+    {
+      "Dataset": "Moderate",
+      "Method": "FixedSplit",
+      "Stage": "After",
+      "RelativeError": 0.6180098759210193,
+      "LiveError": 0.6035494503687355,
+      "DeepError": 0.6431960982981225,
+      "LowEnergyError": 0.7602367675528826
+    },
+    {
+      "Dataset": "Moderate",
+      "Method": "FixedSplitSharedCal",
+      "Stage": "Before",
+      "RelativeError": 0.6202686273725628,
+      "LiveError": 0.6059280812443382,
+      "DeepError": 0.6550757660959525,
+      "LowEnergyError": 0.7451241020269925
+    },
+    {
+      "Dataset": "Moderate",
+      "Method": "FixedSplitSharedCal",
+      "Stage": "After",
+      "RelativeError": 0.6193536813536822,
+      "LiveError": 0.604964657692735,
+      "DeepError": 0.6540176923235971,
+      "LowEnergyError": 0.7407527922642894
+    },
+    {
+      "Dataset": "Moderate",
+      "Method": "FullCalRefit",
+      "Stage": "Before",
+      "RelativeError": 0.5505456467584983,
+      "LiveError": 0.5321495247209084,
+      "DeepError": 0.6350323393887616,
+      "LowEnergyError": 0.7218006799822423
+    },
+    {
+      "Dataset": "Moderate",
+      "Method": "FullCalRefit",
+      "Stage": "After",
+      "RelativeError": 0.5466616798082473,
+      "LiveError": 0.5280149670985905,
+      "DeepError": 0.6300025797269888,
+      "LowEnergyError": 0.7072784353848264
+    },
+    {
+      "Dataset": "Moderate",
+      "Method": "PrunedFullCalRefit",
+      "Stage": "Before",
+      "RelativeError": 0.5681529984335657,
+      "LiveError": 0.5508569566473497,
+      "DeepError": 0.6595428249750642,
+      "LowEnergyError": 0.7711919274573364
+    },
+    {
+      "Dataset": "Moderate",
+      "Method": "PrunedFullCalRefit",
+      "Stage": "After",
+      "RelativeError": 0.5633001124543074,
+      "LiveError": 0.5457065569288683,
+      "DeepError": 0.6531875372629108,
+      "LowEnergyError": 0.7616112867358468
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "FixedSplit",
+      "Stage": "Before",
+      "RelativeError": 0.7885989446850321,
+      "LiveError": 0.7831027047375624,
+      "DeepError": 0.7334521278724971,
+      "LowEnergyError": 1.2455287968566486
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "FixedSplit",
+      "Stage": "After",
+      "RelativeError": 0.7865181492435854,
+      "LiveError": 0.7809593274082568,
+      "DeepError": 0.7305569021904623,
+      "LowEnergyError": 1.2381263780476968
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "FixedSplitSharedCal",
+      "Stage": "Before",
+      "RelativeError": 0.8340462790743545,
+      "LiveError": 0.8298671842945989,
+      "DeepError": 0.7425707454349781,
+      "LowEnergyError": 1.242940567189344
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "FixedSplitSharedCal",
+      "Stage": "After",
+      "RelativeError": 0.8320972563597476,
+      "LiveError": 0.827863516552474,
+      "DeepError": 0.7399266194503756,
+      "LowEnergyError": 1.235405552399256
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "FullCalRefit",
+      "Stage": "Before",
+      "RelativeError": 0.6603581575470039,
+      "LiveError": 0.6505299796909914,
+      "DeepError": 0.779107615632212,
+      "LowEnergyError": 1.024201824288167
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "FullCalRefit",
+      "Stage": "After",
+      "RelativeError": 0.6444844799615552,
+      "LiveError": 0.6340373773876457,
+      "DeepError": 0.7551377241849279,
+      "LowEnergyError": 0.9707524767657352
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "PrunedFullCalRefit",
+      "Stage": "Before",
+      "RelativeError": 0.7013672323820095,
+      "LiveError": 0.6930426830142202,
+      "DeepError": 0.8266210492075826,
+      "LowEnergyError": 1.0762959660548632
+    },
+    {
+      "Dataset": "Strong",
+      "Method": "PrunedFullCalRefit",
+      "Stage": "After",
+      "RelativeError": 0.684621515120786,
+      "LiveError": 0.6756985545898788,
+      "DeepError": 0.7977468396953837,
+      "LowEnergyError": 1.0213939114602064
+    }
+  ],
+  "preprocessing": [
+    {
+      "Dataset": "Moderate",
+      "RemovedInputNormFraction": 0.07723250240278907,
+      "CoherentModelResidualRatio": 0.69230493346233,
+      "RemovedCoherentCorrelation": 0.8082928228437187,
+      "CleanInputControlChange": 0.0
+    },
+    {
+      "Dataset": "Strong",
+      "RemovedInputNormFraction": 0.12070403781899147,
+      "CoherentModelResidualRatio": 0.6801038319849697,
+      "RemovedCoherentCorrelation": 0.8227300725747694,
+      "CleanInputControlChange": 0.0
+    }
+  ],
+  "gates": {
+    "Moderate": {
+      "passed": true,
+      "reasons": []
+    },
+    "Strong": {
+      "passed": true,
+      "reasons": []
+    }
+  },
+  "field": {
+    "adaptive_removed_norm_fraction": {
+      "wz25": 0.0,
+      "alaska_111": 0.0,
+      "alaska_120": 0.0,
+      "alaska_130": 0.0
+    },
+    "fk_removed_norm_fraction": {
+      "wz25": 0.11772466020153996,
+      "alaska_111": 0.37887214349107495,
+      "alaska_120": 0.10714369436075664,
+      "alaska_130": 0.17097170616202664
+    }
+  },
+  "promotion": "No default promotion: field adaptive detector did not trigger, no field Q calibration or clean truth. Research trial retained.",
+  "original_matlab_files_unchanged": 117
+}

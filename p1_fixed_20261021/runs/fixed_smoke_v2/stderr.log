@@ -1,0 +1,10 @@
+{在不同结构体之间进行下标赋值。
+
+出错 p1_run_grid (第 26 行)
+   na=na+1; audits(na)=record;
+            ^^^^^^^^^^
+出错 run_p1_research (第 19 行)
+  p1_run_grid(outdir,spec,strcmp(action,'smoke'));
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

@@ -1,0 +1,157 @@
+{
+  "checks": {
+    "complete": true,
+    "blocks": 18,
+    "optimization_flags": 0,
+    "max_normal": 6.5365977505874215e-15,
+    "elapsed_seconds": 906.3221515
+  },
+  "metrics": [
+    {
+      "Dataset": "Moderate",
+      "NominalRandomSNR_dB": 14,
+      "Method": "Observed",
+      "RelativeError": 0.9989462176053195,
+      "LiveTraceError": 0.9989160841571644,
+      "CorrelationLive": 0.0807780311029368,
+      "AmplitudeProjectionGain": 0.011857930876077609,
+      "DeepLiveError": 1.0213313651001503,
+      "LowEnergyRegionError": 0.9787115523952118,
+      "PreArrivalErrorRMS": 0.00039265188138537597
+    },
+    {
+      "Dataset": "Moderate",
+      "NominalRandomSNR_dB": 14,
+      "Method": "FixedSplit",
+      "RelativeError": 0.6189292207569894,
+      "LiveTraceError": 0.6045176697502322,
+      "CorrelationLive": 0.8095153674809399,
+      "AmplitudeProjectionGain": 0.5386866342918429,
+      "DeepLiveError": 0.644356851102275,
+      "LowEnergyRegionError": 0.7644376408711101,
+      "PreArrivalErrorRMS": 0.004730640714909715
+    },
+    {
+      "Dataset": "Moderate",
+      "NominalRandomSNR_dB": 14,
+      "Method": "FixedSplitSharedCal",
+      "RelativeError": 0.6202686273725628,
+      "LiveTraceError": 0.6059280812443382,
+      "CorrelationLive": 0.800418572553244,
+      "AmplitudeProjectionGain": 0.5698940180137825,
+      "DeepLiveError": 0.6550757660959525,
+      "LowEnergyRegionError": 0.7451241020269925,
+      "PreArrivalErrorRMS": 0.006647776710374855
+    },
+    {
+      "Dataset": "Moderate",
+      "NominalRandomSNR_dB": 14,
+      "Method": "FullCalRefit",
+      "RelativeError": 0.5505456467584983,
+      "LiveTraceError": 0.5321495247209084,
+      "CorrelationLive": 0.8580226624522144,
+      "AmplitudeProjectionGain": 0.61673728507862,
+      "DeepLiveError": 0.6350323393887616,
+      "LowEnergyRegionError": 0.7218006799822423,
+      "PreArrivalErrorRMS": 0.0004900833165286858
+    },
+    {
+      "Dataset": "Moderate",
+      "NominalRandomSNR_dB": 14,
+      "Method": "PrunedFullCalRefit",
+      "RelativeError": 0.5681529984335657,
+      "LiveTraceError": 0.5508569566473497,
+      "CorrelationLive": 0.8431284043537198,
+      "AmplitudeProjectionGain": 0.6100106747940923,
+      "DeepLiveError": 0.6595428249750642,
+      "LowEnergyRegionError": 0.7711919274573364,
+      "PreArrivalErrorRMS": 0.0002760088118633203
+    },
+    {
+      "Dataset": "Strong",
+      "NominalRandomSNR_dB": 8,
+      "Method": "Observed",
+      "RelativeError": 1.0006626058520993,
+      "LiveTraceError": 1.0006777388106964,
+      "CorrelationLive": 0.07563967555451033,
+      "AmplitudeProjectionGain": 0.01208451911884865,
+      "DeepLiveError": 1.0234742061586453,
+      "LowEnergyRegionError": 0.9883490403724461,
+      "PreArrivalErrorRMS": 0.0007468161672833748
+    },
+    {
+      "Dataset": "Strong",
+      "NominalRandomSNR_dB": 8,
+      "Method": "FixedSplit",
+      "RelativeError": 0.7885989446850321,
+      "LiveTraceError": 0.7831027047375624,
+      "CorrelationLive": 0.6479604593026185,
+      "AmplitudeProjectionGain": 0.5377433483362923,
+      "DeepLiveError": 0.7334521278724971,
+      "LowEnergyRegionError": 1.2455287968566486,
+      "PreArrivalErrorRMS": 0.00937007349274186
+    },
+    {
+      "Dataset": "Strong",
+      "NominalRandomSNR_dB": 8,
+      "Method": "FixedSplitSharedCal",
+      "RelativeError": 0.8340462790743545,
+      "LiveTraceError": 0.8298671842945989,
+      "CorrelationLive": 0.6257913440417939,
+      "AmplitudeProjectionGain": 0.5689404910800493,
+      "DeepLiveError": 0.7425707454349781,
+      "LowEnergyRegionError": 1.242940567189344,
+      "PreArrivalErrorRMS": 0.013119989466863118
+    },
+    {
+      "Dataset": "Strong",
+      "NominalRandomSNR_dB": 8,
+      "Method": "FullCalRefit",
+      "RelativeError": 0.6603581575470039,
+      "LiveTraceError": 0.6505299796909914,
+      "CorrelationLive": 0.7597609107792518,
+      "AmplitudeProjectionGain": 0.5929156078289586,
+      "DeepLiveError": 0.779107615632212,
+      "LowEnergyRegionError": 1.024201824288167,
+      "PreArrivalErrorRMS": 0.0009443010615189268
+    },
+    {
+      "Dataset": "Strong",
+      "NominalRandomSNR_dB": 8,
+      "Method": "PrunedFullCalRefit",
+      "RelativeError": 0.7013672323820095,
+      "LiveTraceError": 0.6930426830142202,
+      "CorrelationLive": 0.7237963240010543,
+      "AmplitudeProjectionGain": 0.57072857282939,
+      "DeepLiveError": 0.8266210492075826,
+      "LowEnergyRegionError": 1.0762959660548632,
+      "PreArrivalErrorRMS": 0.0004959047745253897
+    }
+  ],
+  "block_wins_out_of_9": {
+    "Moderate": 8,
+    "Strong": 9
+  },
+  "source_files_unchanged": 117,
+  "manifest": [
+    {
+      "dataset": "Moderate",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\complex_fieldlike_20261023\\runs\\complex_frozen_comparison_20261023T032139Z\\matlab\\Moderate.json",
+      "source_sha256": "5106dd16869081458d9a404520fbaa8abd5e2f23d54a6ba0fe8c4aaa38ccc2da",
+      "gather": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\complex_fieldlike_20261023\\figures\\Moderate_comparison.png",
+      "amplitude_limit": 0.1109954671344264,
+      "error_limit": 0.10606437564638868,
+      "sha256": "99ec7a3f788cb2d376f253d3b81f01eef9431a0ef719cd5ceb40f96f3e3c6859"
+    },
+    {
+      "dataset": "Strong",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\complex_fieldlike_20261023\\runs\\complex_frozen_comparison_20261023T032139Z\\matlab\\Strong.json",
+      "source_sha256": "a6092d814f7fdea38f3962738e7ff74862da30a7138793892e62533d0c181ea5",
+      "gather": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\complex_fieldlike_20261023\\figures\\Strong_comparison.png",
+      "amplitude_limit": 0.09814958805907917,
+      "error_limit": 0.09386238652557295,
+      "sha256": "41397a7004bae707d2dfc250a95b1bfa9591101720d9d5374ac525b58e6b87fd"
+    }
+  ],
+  "scope": "One complex geological model, two noise conditions; no independent real-data validation."
+}

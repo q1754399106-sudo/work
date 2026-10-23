@@ -1,0 +1,42 @@
+{
+  "destination": "general research report, no journal target",
+  "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\joint_refactor_20261022\\runs\\paired_continuation_20261022T113517Z\\matlab\\metrics.csv",
+  "source_sha256": "e37cdf796df88a37ed00069be0ab448e6eda7920e39e028ce018542cafd08e1c",
+  "python": "3.10.11",
+  "matplotlib": "3.10.7",
+  "numpy": "2.2.6",
+  "files": [
+    {
+      "file": "calibration_regularization.png",
+      "sha256": "6f949206b138c347e3d535749d03906fc5cbfa7894d25b3c56013801333fd1c9",
+      "pixels": [
+        2880,
+        1272
+      ],
+      "dpi": [
+        240.00459999999998,
+        240.00459999999998
+      ]
+    },
+    {
+      "file": "calibration_regularization.pdf",
+      "sha256": "4d1241564b52abeea747b09d645fac28ba845630b6da1fba25b33f33cb69a624"
+    },
+    {
+      "file": "local_paired_ratios.png",
+      "sha256": "add8c73a53d13273fe81356ccfae2515367a05eb4f6f2d767127d504dd92630b",
+      "pixels": [
+        2880,
+        1920
+      ],
+      "dpi": [
+        240.00459999999998,
+        240.00459999999998
+      ]
+    },
+    {
+      "file": "local_paired_ratios.pdf",
+      "sha256": "d117eadd3fcb153e0fdfd4500f82fca1adbdc829586b3264986eaca23507ef69"
+    }
+  ]
+}

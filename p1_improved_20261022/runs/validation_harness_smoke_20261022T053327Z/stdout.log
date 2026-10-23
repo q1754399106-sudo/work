@@ -1,0 +1,4 @@
+Dev_ModerateQ Main SmoothAVO cal=20261030 seed=20261101 observations=1 rows=6 elapsed=87.8s normal=9.843e-08 flags=0
+Dev_ModerateQ Main WeakSection cal=20261030 seed=20261101 observations=2 rows=12 elapsed=108.3s normal=9.843e-08 flags=0
+Dev_ModerateQ StressVelocityError SmoothAVO cal=20261030 seed=20261101 observations=3 rows=18 elapsed=202.0s normal=9.973e-08 flags=0
+Dev_ModerateQ StressVelocityMinus3 SmoothAVO cal=20261030 seed=20261101 observations=4 rows=28 elapsed=296.0s normal=9.980e-08 flags=0

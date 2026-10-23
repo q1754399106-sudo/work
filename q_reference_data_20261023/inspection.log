@@ -1,0 +1,159 @@
+{
+  "cape": {
+    "measured_finite_channels": 1050,
+    "measured_depth_m": [
+      275.3586604538748,
+      2414.8199619798443
+    ],
+    "measured_Q_range": [
+      15.299111864538379,
+      84.86692117246515
+    ],
+    "full_channel_count": 1600,
+    "Q_type": "Author-estimated interval P-wave Q, with channel-wise median and MAD; not ground truth",
+    "band_hz": [
+      20,
+      200
+    ],
+    "excluded_as_measurements": [
+      "Q_interp: includes interpolation and assumed values outside measured range"
+    ],
+    "spectrum_samples": [
+      {
+        "file": "cape\\samples\\spec_D-1OB_P_arr_20240228125612_509795.npz",
+        "shape": [
+          528,
+          198
+        ],
+        "frequency_range_hz": [
+          12.345679012345679,
+          498.7654320987654
+        ],
+        "phase_available": false
+      },
+      {
+        "file": "cape\\samples\\spec_D-1OB_P_arr_20240218145151_891022.npz",
+        "shape": [
+          1275,
+          198
+        ],
+        "frequency_range_hz": [
+          12.345679012345679,
+          498.7654320987654
+        ],
+        "phase_available": false
+      }
+    ]
+  },
+  "sumatra_waveforms": [
+    {
+      "file": "sumatra\\samples\\2016-02-10T210245.LWLI.BHZ.D.sac",
+      "event": "2016-02-10T210245",
+      "station": "LWLI",
+      "channel": "BHZ",
+      "npts": 13353,
+      "dt_s": 0.05000000074505806,
+      "duration_s": 667.6000099480152,
+      "author_constant_Q": 192.621626,
+      "author_tstar_s": 0.143476,
+      "author_snr": 17.894316,
+      "available_alpha_values": [
+        0.0,
+        0.1,
+        0.2,
+        0.27,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.65,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ]
+    },
+    {
+      "file": "sumatra\\samples\\2013-04-29T022000.MNSI.BHZ.D.sac",
+      "event": "2013-04-29T022000",
+      "station": "MNSI",
+      "channel": "BHZ",
+      "npts": 13423,
+      "dt_s": 0.05000000074505806,
+      "duration_s": 671.1000100001693,
+      "author_constant_Q": 408.659739,
+      "author_tstar_s": 0.045835,
+      "author_snr": 15.227022,
+      "available_alpha_values": [
+        0.0,
+        0.1,
+        0.2,
+        0.27,
+        0.3,
+        1.0
+      ]
+    },
+    {
+      "file": "sumatra\\samples\\2013-04-29T022000.SISI.BHZ.D.sac",
+      "event": "2013-04-29T022000",
+      "station": "SISI",
+      "channel": "BHZ",
+      "npts": 13344,
+      "dt_s": 0.05000000074505806,
+      "duration_s": 667.1500099413097,
+      "author_constant_Q": 403.932661,
+      "author_tstar_s": 0.080308,
+      "author_snr": 6.595903,
+      "available_alpha_values": [
+        0.0,
+        0.1,
+        0.2,
+        0.27,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.65,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ]
+    },
+    {
+      "file": "sumatra\\samples\\2013-04-29T022000.MLSI.BHZ.D.sac",
+      "event": "2013-04-29T022000",
+      "station": "MLSI",
+      "channel": "BHZ",
+      "npts": 13445,
+      "dt_s": 0.05000000074505806,
+      "duration_s": 672.2000100165606,
+      "author_constant_Q": 725.364353,
+      "author_tstar_s": 0.100555,
+      "author_snr": 6.890475,
+      "available_alpha_values": [
+        0.0,
+        0.1,
+        0.2,
+        0.27,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.65,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ]
+    }
+  ],
+  "delivery": {
+    "zip": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_reference_data_20261023.zip",
+    "bytes": 11361647,
+    "sha256": "55a3f38e3a3fd9bf3296e1469e8c235daa184ad5af978a2ad8957ff09657ad11",
+    "verified_downloads": 10,
+    "verified_spectrum_samples": 2,
+    "verified_matched_SAC_waveforms": 4
+  }
+}

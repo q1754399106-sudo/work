@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/joint_refactor_20261022/runs/algebra_check_20261022T103808Z/source/core_p1');test_joint_algebra('C:/Users/qq175/Documents/ChatGPT/研究/joint_refactor_20261022/runs/algebra_check_20261022T103808Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T10:38:09.213415+00:00",
+  "timeout_seconds": 180.0,
+  "pid": 36612,
+  "exit_code": 0,
+  "elapsed_seconds": 19.406999999991967
+}

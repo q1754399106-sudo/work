@@ -1,0 +1,1 @@
+{"pass":true,"public_input_poison_invariance":true,"stationary_template_Q_relative_error":3.7272997690074305E-5,"stationary_template_frequency_relative_error":1.317062566352778E-5,"frozen_selection_regression_relative_error":0,"note":"Stationary-template recovery is a model-consistency test, not independent inverse validation."}

@@ -1,0 +1,46 @@
+1 inner offset zero trace (49) added; source at trace 49
+phone spacing 50 meters, inner offset 50 meters
+in=/q2/wz/wz.25.F survey=land area=Alberta source=Dynamite spread=split
+n1=2000 n2=97 n3=1 d1=.002 o1=.002  nt=2000 nx=97 np=1 dt=.002 t0=.002  
+# d2=50 o2=-2400 dx=50 x0=-2400 label2="Offset(meters)"  
+d2=.050 o2=-2.400 dx=.050 x0=-2.400 label2="Offset(km)"  
+label1="Time(seconds)" title="Hwz.25" plottpow=3.191650
+
+
+Swab:   joe@mazama   Sun Feb 16 18:00:41 1986
+#	input history file /r3/q2/wz/wz.25.H
+		input() :    in ="/q2/wz/wz.25.F"
+		output() : sets next in="/q2/wz/wz.25.F_000534_Rcp"
+		#ibs=8192
+		#obs=8192
+
+#
+Rcp: joe Sun Feb 16 18:00:52 PST 1986
+Copying from mazama:/r3/q2/wz/wz.25.H
+to hanauma:/q2/wz/wz.25.H
+in="/q2/wz/wz.25.F"
+#
+
+vi:  jon	 esize=4
+
+vi: jon		I don't believe old o2 and d2.
+		Changing them by a factor of two smaller
+		will make direct wave match water velocity
+		and ground-roll match air wave velocity.
+		No confirmation for this contention comes
+		from looking at wz.26.H which is nearby, however.
+		Better keep as is.
+
+
+
+vi: jon Nov 1992
+        current environment Q2="/q2"
+        in="$Q2/wz/wz.25.F"
+
+
+
+Cp:   jon@oas   Wed Jun 14 16:03:48 1995
+		sepstr_ready_out() : sets next in="stdin"
+#	output tag is "out" 
+		data_format="xdr_float"
+

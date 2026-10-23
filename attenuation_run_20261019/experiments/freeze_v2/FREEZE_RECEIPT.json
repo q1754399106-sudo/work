@@ -1,0 +1,6 @@
+{
+  "expected_hash": "9f9d80784ceb0fbc696411171be67cf5abd9f263b58fe07b62a533be632a0697",
+  "frozen_spec_sha256": "e29a757383e3bb8a2c2cf0bf7094aff633bf89cff8deef5deaec57e3b5f08092",
+  "frozen_spec": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\attenuation_run_20261019\\experiments\\freeze_v2\\frozen_experiment_spec.json",
+  "post_test_tuning_allowed": false
+}

@@ -1,0 +1,964 @@
+--- original/core_p1/inputs/p1_experiment_spec.json
++++ fixed/core_p1/inputs/p1_experiment_spec.json
+@@ -1,37 +1,153 @@
+ {
+-  "version": "2026-10-19-P1",
++  "version": "2026-10-21-P1-fixed-v1",
+   "priority": "P1 model-error-aware regularization",
+-  "frozen_before_test": true,
+-  "calibration_seeds": [20261030, 20261035, 20261040],
+-  "tuning_seeds": [20261031, 20261032],
+-  "test_seeds": [20261101, 20261102, 20261103, 20261104, 20261105, 20261106],
+-  "scenarios": ["SmoothAVO", "FaultSection", "PinchoutSection", "WeakSection", "CoherentNoiseAVO"],
+-  "stress_scenarios": ["SmoothAVO", "CoherentNoiseAVO"],
+-  "snr_db": {"Main": 18, "LowerSNR": 12},
++  "frozen_before_test": false,
++  "calibration_seeds": [
++    20261030,
++    20261035,
++    20261040
++  ],
++  "tuning_seeds": [
++    20261031,
++    20261032
++  ],
++  "test_seeds": [
++    20261101,
++    20261102,
++    20261103,
++    20261104,
++    20261105,
++    20261106
++  ],
++  "scenarios": [
++    "SmoothAVO",
++    "FaultSection",
++    "PinchoutSection",
++    "WeakSection",
++    "CoherentNoiseAVO"
++  ],
++  "stress_scenarios": [
++    "SmoothAVO",
++    "CoherentNoiseAVO"
++  ],
++  "snr_db": {
++    "Main": 18,
++    "LowerSNR": 12
++  },
+   "methods": [
+-    {"name": "Baseline", "role": "comparator", "use_noise_unc": false, "use_q_err": false, "use_structure": false, "gamma": 0.0, "pilot_multiplier": 4.0, "target_multiplier": 1.0},
+-    {"name": "Frozen", "role": "baseline", "use_noise_unc": false, "use_q_err": false, "use_structure": true, "gamma": 10.0, "pilot_multiplier": 4.0, "target_multiplier": 1.0},
+-    {"name": "StrongerDamping", "role": "control_scalar_damping", "use_noise_unc": false, "use_q_err": false, "use_structure": true, "gamma": 10.0, "pilot_multiplier": 4.0, "target_multiplier": 1.15},
+-    {"name": "NoiseUncertaintyOnly", "role": "candidate_branch_1", "use_noise_unc": true, "use_q_err": false, "use_structure": true, "gamma": 10.0, "pilot_multiplier": 4.0},
+-    {"name": "QModelErrorOnly", "role": "candidate_branch_2", "use_noise_unc": false, "use_q_err": true, "use_structure": true, "gamma": 10.0, "pilot_multiplier": 4.0},
+-    {"name": "CombinedUncertainty", "role": "candidate_branch_3_primary", "use_noise_unc": true, "use_q_err": true, "use_structure": true, "gamma": 10.0, "pilot_multiplier": 4.0},
+-    {"name": "CombinedUncertainty_NoStructure", "role": "control_no_structure", "use_noise_unc": true, "use_q_err": true, "use_structure": false, "gamma": 0.0, "pilot_multiplier": 4.0}
+-  ],
+-  "routes": ["Direct", "Split"],
++    {
++      "gamma": 0.0,
++      "name": "Baseline",
++      "pilot_multiplier": 4.0,
++      "role": "comparator",
++      "target_multiplier": 1.0,
++      "use_noise_unc": false,
++      "use_q_err": false,
++      "use_structure": false
++    },
++    {
++      "gamma": 10.0,
++      "name": "Frozen",
++      "pilot_multiplier": 4.0,
++      "role": "baseline",
++      "target_multiplier": 1.0,
++      "use_noise_unc": false,
++      "use_q_err": false,
++      "use_structure": true
++    },
++    {
++      "gamma": 10.0,
++      "name": "StrongerDamping",
++      "pilot_multiplier": 4.0,
++      "role": "control_scalar_damping",
++      "target_multiplier": 1.15,
++      "use_noise_unc": false,
++      "use_q_err": false,
++      "use_structure": true
++    },
++    {
++      "gamma": 10.0,
++      "name": "NoiseUncertaintyOnly",
++      "pilot_multiplier": 4.0,
++      "role": "candidate_branch_1",
++      "target_multiplier": null,
++      "use_noise_unc": true,
++      "use_q_err": false,
++      "use_structure": true
++    },
++    {
++      "gamma": 10.0,
++      "name": "QModelErrorOnly",
++      "pilot_multiplier": 4.0,
++      "role": "candidate_branch_2",
++      "target_multiplier": null,
++      "use_noise_unc": false,
++      "use_q_err": true,
++      "use_structure": true
++    },
++    {
++      "gamma": 10.0,
++      "name": "CombinedUncertainty",
++      "pilot_multiplier": 4.0,
++      "role": "candidate_branch_3_primary",
++      "target_multiplier": null,
++      "use_noise_unc": true,
++      "use_q_err": true,
++      "use_structure": true
++    },
++    {
++      "gamma": 0.0,
++      "name": "CombinedUncertainty_NoStructure",
++      "pilot_multiplier": 4.0,
++      "role": "control_no_structure",
++      "target_multiplier": null,
++      "use_noise_unc": true,
++      "use_q_err": true,
++      "use_structure": false
++    },
++    {
++      "gamma": null,
++      "name": "TargetMatched",
++      "pilot_multiplier": null,
++      "role": "Frozen prior with candidate discrepancy target",
++      "target_multiplier": null,
++      "use_noise_unc": null,
++      "use_q_err": null,
++      "use_structure": null
++    },
++    {
++      "gamma": null,
++      "name": "CombinedFixedTarget",
++      "pilot_multiplier": null,
++      "role": "Candidate weights with Frozen discrepancy target",
++      "target_multiplier": null,
++      "use_noise_unc": null,
++      "use_q_err": null,
++      "use_structure": null
++    }
++  ],
++  "routes": [
++    "Direct",
++    "Split"
++  ],
+   "p1_hyperparameters": {
+     "coherent_ortho_ratio_gate": 1.25,
+-    "coherent_prediction_lags": [-3, -2, -1, 1, 2, 3],
++    "coherent_prediction_lags": [
++      -3,
++      -2,
++      -1,
++      1,
++      2,
++      3
++    ],
+     "coherent_prediction_ridge": 0.05,
+     "coherent_r2_gate": 0.25,
+-    "coherent_r2_span": 0.50,
++    "coherent_r2_span": 0.5,
+     "offset_avo_ortho_weight_noise": 0.75,
+-    "offset_avo_ortho_weight_qonly": 0.30,
+     "section_tail_power_factor": 2.2,
+     "section_tail_lateral_ratio": 0.12,
+     "section_tail_h_scale": 0.25,
+     "section_tail_diag_lambda_mult": 2.5,
+-    "q_perturbation_factors": [0.80, 0.90, 1.12, 1.25],
+-    "q_perturbation_weights": [0.20, 0.30, 0.30, 0.20],
+     "low_q_reference": 25.0,
+     "low_q_decay_scale": 10.0,
+     "q_sensitivity_scale": 0.16,
+@@ -48,25 +164,351 @@
+   },
+   "models": {
+     "historical": [
+-      {"name": "SoftLowQ", "vp": [1850, 2050, 2300, 2550], "vs": [800, 980, 1200, 1400], "rho": [1.95, 2.08, 2.22, 2.35], "Q": [22, 30, 42, 60], "event_t": [0.34, 0.60, 0.94], "fpeak": 45, "nominal_frequency": 52},
+-      {"name": "VelocityReversal", "vp": [2200, 2700, 2450, 3200], "vs": [1050, 1450, 1250, 1750], "rho": [2.05, 2.30, 2.20, 2.52], "Q": [90, 45, 110, 65], "event_t": [0.42, 0.73, 1.00], "fpeak": 70, "nominal_frequency": 60},
+-      {"name": "ThinHighFrequency", "vp": [2000, 2400, 2550, 2900], "vs": [900, 1200, 1350, 1600], "rho": [2.00, 2.20, 2.28, 2.45], "Q": [35, 65, 40, 85], "event_t": [0.36, 0.70, 0.724], "fpeak": 80, "nominal_frequency": 92}
++      {
++        "name": "SoftLowQ",
++        "vp": [
++          1850,
++          2050,
++          2300,
++          2550
++        ],
++        "vs": [
++          800,
++          980,
++          1200,
++          1400
++        ],
++        "rho": [
++          1.95,
++          2.08,
++          2.22,
++          2.35
++        ],
++        "Q": [
++          22,
++          30,
++          42,
++          60
++        ],
++        "event_t": [
++          0.34,
++          0.6,
++          0.94
++        ],
++        "fpeak": 45,
++        "nominal_frequency": 52
++      },
++      {
++        "name": "VelocityReversal",
++        "vp": [
++          2200,
++          2700,
++          2450,
++          3200
++        ],
++        "vs": [
++          1050,
++          1450,
++          1250,
++          1750
++        ],
++        "rho": [
++          2.05,
++          2.3,
++          2.2,
++          2.52
++        ],
++        "Q": [
++          90,
++          45,
++          110,
++          65
++        ],
++        "event_t": [
++          0.42,
++          0.73,
++          1.0
++        ],
++        "fpeak": 70,
++        "nominal_frequency": 60
++      },
++      {
++        "name": "ThinHighFrequency",
++        "vp": [
++          2000,
++          2400,
++          2550,
++          2900
++        ],
++        "vs": [
++          900,
++          1200,
++          1350,
++          1600
++        ],
++        "rho": [
++          2.0,
++          2.2,
++          2.28,
++          2.45
++        ],
++        "Q": [
++          35,
++          65,
++          40,
++          85
++        ],
++        "event_t": [
++          0.36,
++          0.7,
++          0.724
++        ],
++        "fpeak": 80,
++        "nominal_frequency": 92
++      }
+     ],
+     "development": [
+-      {"name": "Dev_ModerateQ", "vp": [1950, 2200, 2500, 2850], "vs": [880, 1080, 1280, 1520], "rho": [1.98, 2.12, 2.25, 2.40], "Q": [32, 48, 65, 80], "event_t": [0.36, 0.64, 0.92], "fpeak": 55, "nominal_frequency": 62},
+-      {"name": "Dev_DeepContrast", "vp": [2100, 2350, 2900, 3300], "vs": [950, 1180, 1550, 1800], "rho": [2.02, 2.18, 2.38, 2.55], "Q": [55, 40, 75, 95], "event_t": [0.40, 0.68, 0.96], "fpeak": 65, "nominal_frequency": 58}
++      {
++        "name": "Dev_ModerateQ",
++        "vp": [
++          1950,
++          2200,
++          2500,
++          2850
++        ],
++        "vs": [
++          880,
++          1080,
++          1280,
++          1520
++        ],
++        "rho": [
++          1.98,
++          2.12,
++          2.25,
++          2.4
++        ],
++        "Q": [
++          32,
++          48,
++          65,
++          80
++        ],
++        "event_t": [
++          0.36,
++          0.64,
++          0.92
++        ],
++        "fpeak": 55,
++        "nominal_frequency": 62
++      },
++      {
++        "name": "Dev_DeepContrast",
++        "vp": [
++          2100,
++          2350,
++          2900,
++          3300
++        ],
++        "vs": [
++          950,
++          1180,
++          1550,
++          1800
++        ],
++        "rho": [
++          2.02,
++          2.18,
++          2.38,
++          2.55
++        ],
++        "Q": [
++          55,
++          40,
++          75,
++          95
++        ],
++        "event_t": [
++          0.4,
++          0.68,
++          0.96
++        ],
++        "fpeak": 65,
++        "nominal_frequency": 58
++      }
+     ],
+     "heldout_new_geology": [
+-      {"name": "Holdout_StrongAtten", "vp": [1800, 2000, 2250, 2500], "vs": [780, 940, 1150, 1360], "rho": [1.92, 2.05, 2.19, 2.32], "Q": [24, 28, 38, 55], "event_t": [0.35, 0.62, 0.93], "fpeak": 48, "nominal_frequency": 55},
+-      {"name": "Holdout_HighContrastReversal", "vp": [2250, 2800, 2400, 3250], "vs": [1080, 1500, 1220, 1780], "rho": [2.08, 2.34, 2.18, 2.54], "Q": [85, 42, 105, 60], "event_t": [0.40, 0.71, 0.98], "fpeak": 72, "nominal_frequency": 62},
+-      {"name": "Holdout_ThinInterbed", "vp": [2050, 2420, 2600, 2950], "vs": [920, 1220, 1380, 1620], "rho": [2.02, 2.21, 2.30, 2.47], "Q": [38, 60, 44, 80], "event_t": [0.37, 0.68, 0.706], "fpeak": 76, "nominal_frequency": 88},
+-      {"name": "Holdout_DeepLowQ", "vp": [2000, 2300, 2650, 3000], "vs": [900, 1120, 1360, 1600], "rho": [2.00, 2.16, 2.29, 2.44], "Q": [70, 50, 28, 45], "event_t": [0.38, 0.66, 0.95], "fpeak": 58, "nominal_frequency": 65}
++      {
++        "name": "Holdout_StrongAtten",
++        "vp": [
++          1800,
++          2000,
++          2250,
++          2500
++        ],
++        "vs": [
++          780,
++          940,
++          1150,
++          1360
++        ],
++        "rho": [
++          1.92,
++          2.05,
++          2.19,
++          2.32
++        ],
++        "Q": [
++          24,
++          28,
++          38,
++          55
++        ],
++        "event_t": [
++          0.35,
++          0.62,
++          0.93
++        ],
++        "fpeak": 48,
++        "nominal_frequency": 55
++      },
++      {
++        "name": "Holdout_HighContrastReversal",
++        "vp": [
++          2250,
++          2800,
++          2400,
++          3250
++        ],
++        "vs": [
++          1080,
++          1500,
++          1220,
++          1780
++        ],
++        "rho": [
++          2.08,
++          2.34,
++          2.18,
++          2.54
++        ],
++        "Q": [
++          85,
++          42,
++          105,
++          60
++        ],
++        "event_t": [
++          0.4,
++          0.71,
++          0.98
++        ],
++        "fpeak": 72,
++        "nominal_frequency": 62
++      },
++      {
++        "name": "Holdout_ThinInterbed",
++        "vp": [
++          2050,
++          2420,
++          2600,
++          2950
++        ],
++        "vs": [
++          920,
++          1220,
++          1380,
++          1620
++        ],
++        "rho": [
++          2.02,
++          2.21,
++          2.3,
++          2.47
++        ],
++        "Q": [
++          38,
++          60,
++          44,
++          80
++        ],
++        "event_t": [
++          0.37,
++          0.68,
++          0.706
++        ],
++        "fpeak": 76,
++        "nominal_frequency": 88
++      },
++      {
++        "name": "Holdout_DeepLowQ",
++        "vp": [
++          2000,
++          2300,
++          2650,
++          3000
++        ],
++        "vs": [
++          900,
++          1120,
++          1360,
++          1600
++        ],
++        "rho": [
++          2.0,
++          2.16,
++          2.29,
++          2.44
++        ],
++        "Q": [
++          70,
++          50,
++          28,
++          45
++        ],
++        "event_t": [
++          0.38,
++          0.66,
++          0.95
++        ],
++        "fpeak": 58,
++        "nominal_frequency": 65
++      }
+     ]
+   },
+   "stress_suites": [
+-    {"name": "StressNonRickerPhase", "description": "30-degree phase-rotated non-Ricker source wavelet", "phase_deg": 30.0},
+-    {"name": "StressVelocityError", "description": "+3% kinematic velocity error in public inverse config", "vp_multiplier": 1.03},
+-    {"name": "StressResidualNMO", "description": "Residual NMO moveout curvature across offsets (up to 4ms at far offset)", "max_nmo_shift_s": 0.004},
+-    {"name": "StressColoredNoise", "description": "AR(1) colored background noise with rho1=0.55 at 18dB", "ar1_rho": 0.55}
+-  ]
++    {
++      "ar1_rho": null,
++      "description": "30-degree phase-rotated non-Ricker source wavelet",
++      "max_nmo_shift_s": null,
++      "name": "StressNonRickerPhase",
++      "phase_deg": 30.0,
++      "vp_multiplier": null
++    },
++    {
++      "ar1_rho": null,
++      "description": "+3% kinematic velocity error in public inverse config",
++      "max_nmo_shift_s": null,
++      "name": "StressVelocityError",
++      "phase_deg": null,
++      "vp_multiplier": 1.03
++    },
++    {
++      "ar1_rho": null,
++      "description": "Residual NMO moveout curvature across offsets (up to 4ms at far offset)",
++      "max_nmo_shift_s": 0.004,
++      "name": "StressResidualNMO",
++      "phase_deg": null,
++      "vp_multiplier": null
++    },
++    {
++      "ar1_rho": 0.55,
++      "description": "AR(1) colored background noise with rho1=0.55 at 18dB",
++      "max_nmo_shift_s": null,
++      "name": "StressColoredNoise",
++      "phase_deg": null,
++      "vp_multiplier": null
++    }
++  ],
++  "revision_note": "Bug fixes and uncertainty-averaged empirical weights; revised after observing historical tests. Requires fresh future holdouts."
+ }
+--- original/core_p1/matlab_src/p1_calibrate_ensemble.m
++++ fixed/core_p1/matlab_src/p1_calibrate_ensemble.m
+@@ -1,5 +1,6 @@
+ function est=p1_calibrate_ensemble(D,offsets,p)
+-% Joint (Q, frequency) calibration with correlated block-bootstrap ensemble.
++% Joint (Q, frequency) point fit and heuristic profile-loss uncertainty.
++% This is not a bootstrap or a calibrated Bayesian posterior.
+ % Never reads true Q, true wavelet peak, or reflection coefficients.
+ assert(~isfield(p,'Q') && ~isfield(p,'fpeak') && ~isfield(p,'rho'),'Public inputs only');
+ est=estimate_q_effective(D,offsets,p);
+@@ -14,7 +15,8 @@
+ cov_qf=sum(W(:).*(QQ(:)-mq).*(FF(:)-mf));
+ est.log_q_std=sqrt(max(vq,0.01));
+ est.log_f_std=sqrt(max(vf,0.005));
+-est.log_qf_corr=cov_qf/max(sqrt(vq*vf),realmin);
+-est.q_perturbation_factors=[0.80,0.90,1.12,1.25];
+-est.q_perturbation_weights=[0.20,0.30,0.30,0.20];
++cov_qf=max(-sqrt(vq*vf),min(sqrt(vq*vf),cov_qf));
++est.log_parameter_covariance=[est.log_q_std^2,cov_qf;cov_qf,est.log_f_std^2];
++est.log_qf_corr=cov_qf/(est.log_q_std*est.log_f_std);
++est.uncertainty_interpretation='Heuristic profile-loss covariance with variance floors; not a confidence interval';
+ end
+--- original/core_p1/matlab_src/p1_modal_penalty.m
++++ fixed/core_p1/matlab_src/p1_modal_penalty.m
+@@ -0,0 +1,8 @@
++function r2=p1_modal_penalty(z,f_m,q,fp,p1)
++low_q_weight=exp(-max(0,q-p1.low_q_reference)/p1.low_q_decay_scale);
++u=f_m/max(fp,10); s_prior=u.^2.*exp(1-min(u.^2,20));
++q_sens=(p1.q_sensitivity_scale*low_q_weight*log(1./max(z,1e-4))).^2;
++hf_pen=(2.5*low_q_weight+0.4)*max(0,u-p1.hf_cutoff_factor_q).^2;
++boost=p1.passband_boost_lowq*low_q_weight+p1.passband_boost_base;
++r2=(1+hf_pen+q_sens)./(1+boost*s_prior);
++end
+--- original/core_p1/matlab_src/p1_parameter_nodes.m
++++ fixed/core_p1/matlab_src/p1_parameter_nodes.m
+@@ -0,0 +1,12 @@
++function [nodes,weights]=p1_parameter_nodes(cm)
++% Positive five-point cubature matching mean/covariance in log(Q,f).
++% Nodes average empirical modal penalties, not a full data-error covariance.
++C=zeros(2); if isfield(cm,'log_parameter_covariance'), C=cm.log_parameter_covariance; end
++assert(isequal(size(C),[2,2]) && all(isfinite(C(:))),'Invalid log parameter covariance');
++C=(C+C')/2; [V,E]=eig(C); ev=diag(E);
++assert(min(ev)>=-1e-12,'Log parameter covariance must be positive semidefinite');
++L=V*diag(sqrt(max(ev,0))); center=log([cm.Q(1);cm.fpeak]);
++delta=sqrt(2.5)*L;
++nodes=exp(center+[zeros(2,1),delta,-delta]);
++weights=ones(1,5)/5;
++end
+--- original/core_p1/matlab_src/p1_prepare_calibration.m
++++ fixed/core_p1/matlab_src/p1_prepare_calibration.m
+@@ -0,0 +1,7 @@
++function [est,cm,models,R]=p1_prepare_calibration(D,offsets,public)
++% Rebuild calibrated operators and ray projectors together, on every fit.
++est=p1_calibrate_ensemble(D,offsets,public);
++cm=uq_inverse_config(public,est);
++models=prepare_models_v2(public.offset,cm);
++R=avo_projector_v2(models);
++end
+--- original/core_p1/matlab_src/p1_q_model_error.m
++++ fixed/core_p1/matlab_src/p1_q_model_error.m
+@@ -1,10 +1,12 @@
+ function [r2_D,r2_S,eta_eff,b_eD,b_eS]=p1_q_model_error(pilot,models,cm,domain,use_q,use_noise,p1)
+-% Compute singular-basis Q-model-error regularization weights and calibrated frequency prior R(s).
++% Average empirical modal penalties over calibrated log(Q,f) uncertainty.
++% No claim of a full forward-model-error covariance or Bayesian inversion.
+ [n,nx]=size(pilot); fpeak=max(cm.fpeak,10); q_eff=cm.Q(1);
+ low_q_weight=exp(-max(0,q_eff-p1.low_q_reference)/p1.low_q_decay_scale);
+ freqs=(0:floor(n/2))'/(n*cm.dt);
+ r2_D=cell(1,nx); r2_S=cell(1,nx);
+ b_eD=zeros(n,nx); b_eS=zeros(n,nx);
++[nodes,weights]=p1_parameter_nodes(cm);
+ for j=1:nx
+  for ir=1:2
+   if ir==1, F=models{j}.direct; else, F=models{j}.split; end
+@@ -13,10 +15,10 @@
+   u_f=f_m/fpeak;
+   s_prior=(u_f.^2).*exp(1-min(u_f.^2,20));
+   if use_q
+-   q_sens=(p1.q_sensitivity_scale*low_q_weight*log(1./max(z,1e-4))).^2;
+-   hf_pen=(2.5*low_q_weight+0.4)*max(0,u_f-p1.hf_cutoff_factor_q).^2;
+-   pass_boost=p1.passband_boost_lowq*low_q_weight+p1.passband_boost_base;
+-   r2=(1+hf_pen+q_sens)./(1+pass_boost*s_prior);
++   r2=zeros(size(z));
++   for k=1:numel(weights)
++    r2=r2+weights(k)*p1_modal_penalty(z,f_m,nodes(1,k),nodes(2,k),p1);
++   end
+   elseif use_noise
+    hf_pen=0.6*max(0,u_f-p1.hf_cutoff_factor_noise).^2;
+    r2=(1+hf_pen)./(1+0.06*s_prior);
+--- original/core_p1/matlab_src/p1_regression_checks.m
++++ fixed/core_p1/matlab_src/p1_regression_checks.m
+@@ -0,0 +1,41 @@
++function p1_regression_checks(outdir)
++% Targeted regressions for the observed bugs, independent of acceptance gains.
++root=fileparts(fileparts(mfilename('fullpath')));
++spec=jsondecode(fileread(fullfile(root,'inputs','p1_experiment_spec.json'))); p1=spec.p1_hyperparameters;
++cm=config_model(); cm.nt=161; cm.t=(0:160)'*cm.dt; cm.nfft=1024;
++cm.Q=40*ones(1,4); cm.fpeak=55;
++cm.log_parameter_covariance=[.04,-.006;-.006,.01];
++[nodes,w]=p1_parameter_nodes(cm); logs=log(nodes); meanlog=logs*w';
++dc=logs-meanlog; recovered=(dc.*w)*dc';
++assert(norm(meanlog-log([40;55]))<1e-12 && norm(recovered-cm.log_parameter_covariance,'fro')<1e-12);
++n=cm.nt; model=struct('G',eye(n),'F',eye(n),'K',eye(n),'gram_direct',eye(n),'gram_split',eye(n), ...
++ 'direct',struct('U',eye(n),'V',eye(n),'z',ones(n,1)), ...
++ 'split',struct('U',eye(n),'V',eye(n),'z',ones(n,1)));
++models=repmat({model},1,11); R=sparse(n*11,n*11);
++rng(58121,'twister'); D=1e-3*randn(n,11); D(:,end)=D(:,end)*.01;
++[a,prior]=p1_solve_branch(D,models,ones(1,11),cm,'Section',R,'CombinedUncertainty_NoStructure');
++assert(nnz(prior.extra_diag)>0,'Regression fixture must activate tail regularization');
++assert(a.direct_record.normal_residual<=2e-7 && a.split_record.normal_residual<=2e-7);
++[~,qprior]=p1_solve_branch(D,models,ones(1,11),cm,'Section',R,'QModelErrorOnly');
++assert(nnz(qprior.extra_diag)==0 && nnz(qprior.tail_mask)==0,'Pure Q branch leaked noise protection');
++[r_unc,~,~,~,~]=p1_q_model_error(D,models,cm,'Section',true,false,p1);
++cz=cm; cz.log_parameter_covariance=zeros(2);
++[r_zero,~,~,~,~]=p1_q_model_error(D,models,cz,'Section',true,false,p1);
++f=(0:floor(n/2))'/(n*cm.dt); Vf=abs(fft(model.direct.V,n,1)); Vf=Vf(1:numel(f),:).^2;
++fm=((f'*Vf)./max(sum(Vf,1),realmin))';
++legacy=p1_modal_penalty(ones(n,1),fm,40,55,p1);
++assert(norm(r_zero{1}-legacy)<1e-12,'Zero uncertainty must recover point penalty');
++weight_change=norm(r_unc{1}-r_zero{1}); assert(weight_change>1e-6,'Uncertainty is not used');
++small=config_model(); small.nt=161; small.t=(0:160)'*small.dt; small.nfft=1024;
++pub=uq_public_config(small,55);
++est=struct('effective_Q',40,'estimated_frequency',55,'log_parameter_covariance',zeros(2));
++ca=uq_inverse_config(pub,est); ma=prepare_models_v2(750,ca);
++est.effective_Q=80; cb=uq_inverse_config(pub,est); mb=prepare_models_v2(750,cb);
++operator_change=norm(ma{1}.G-mb{1}.G,'fro'); assert(operator_change>1e-4);
++checks=struct('pass',true,'cubature_covariance_error',norm(recovered-cm.log_parameter_covariance,'fro'), ...
++ 'active_tail_diagonal_entries',nnz(prior.extra_diag),'no_structure_normal_residual',a.direct_record.normal_residual, ...
++ 'pure_q_noise_entries',nnz(qprior.extra_diag),'uncertainty_weight_change',weight_change, ...
++ 'zero_uncertainty_point_penalty_error',norm(r_zero{1}-legacy),'recalibrated_operator_change',operator_change);
++uq_writejson(fullfile(outdir,'regression_checks.json'),checks);
++fprintf('PASS: repaired no-structure solve, pure-Q isolation, uncertainty propagation, operator refresh\n');
++end
+--- original/core_p1/matlab_src/p1_run_grid.m
++++ fixed/core_p1/matlab_src/p1_run_grid.m
+@@ -0,0 +1,78 @@
++function p1_run_grid(outdir,spec,smoke)
++mkdir(outdir); start=tic;
++uq_writejson(fullfile(outdir,'executed_spec.json'),spec);
++splits={'historical','development','heldout_new_geology'};
++rows=struct([]); count=0; flags=0; maxnormal=0; audits=struct([]); na=0;
++for is=1:numel(splits)
++ sname=splits{is}; listed=spec.models.(sname);
++ if isempty(listed), continue; end
++ [configs,~]=p1_models(sname);
++ for im=1:numel(listed)
++  c=configs{im}; public=uq_public_config(c,c.nominal_frequency);
++  trueModels=prepare_models_v2(c.offset,c);
++  [~,~,~,calScene]=uq_case('SmoothAVO',c,trueModels);
++  previousModels=[];
++  for ic=1:numel(spec.calibration_seeds)
++   cseed=spec.calibration_seeds(ic);
++   [calD,~]=uq_observation(calScene,c,trueModels,1:11,cseed,18);
++   [est,cm,invmodels,R_avo]=p1_prepare_calibration(calD,c.offset,public);
++   record=struct('model',c.model_name,'calibration_seed',cseed,'Q',est.effective_Q, ...
++    'frequency',est.estimated_frequency,'operator_change_from_previous',0);
++   if ~isempty(previousModels)
++    record.operator_change_from_previous=norm(invmodels{6}.G-previousModels{6}.G,'fro');
++   end
++   previousModels=invmodels;
++   uq_writejson(fullfile(outdir,sprintf('calibration_%s_%d.json',c.model_name,cseed)),est);
++   na=na+1; if na==1, audits=record; else, audits(na)=record; end
++   ns=2+numel(spec.stress_suites); if smoke, ns=1+numel(spec.stress_suites); end
++   for isu=1:ns
++    suite='Main'; snr=18; scenarios=spec.scenarios; stress=[];
++    cm_use=cm; models_use=invmodels; R_use=R_avo; est_use=est;
++    if ~smoke && isu==2
++     suite='LowerSNR'; snr=12; scenarios=spec.stress_scenarios;
++    elseif (smoke && isu>1) || (~smoke && isu>2)
++     idx=isu-2; if smoke, idx=isu-1; end
++     stress=spec.stress_suites(idx); suite=stress.name;
++     scenarios=spec.stress_scenarios; if smoke, scenarios=scenarios(1); end
++     if strcmp(suite,'StressVelocityError')
++      bad=public; bad.vp=public.vp*stress.vp_multiplier;
++      [est_use,cm_use,models_use,R_use]=p1_prepare_calibration(calD,c.offset,bad);
++      assert(norm(cm_use.vp-cm.vp)>0 && norm(models_use{6}.G-invmodels{6}.G,'fro')>1e-8);
++      uq_writejson(fullfile(outdir,sprintf('velocity_stress_%s_%d.json',c.model_name,cseed)), ...
++       struct('vp_multiplier',stress.vp_multiplier,'baseline_vp',cm.vp,'stress_vp',cm_use.vp, ...
++       'operator_frobenius_change',norm(models_use{6}.G-invmodels{6}.G,'fro'),'calibration',est_use));
++     end
++    end
++    if ~strcmp(sname,'historical'), suite=[sname '_' suite]; end
++    for isc=1:numel(scenarios)
++     scname=char(scenarios{isc});
++     [models,domain,map,scene]=uq_case(scname,c,models_use);
++     for seed=reshape(spec.test_seeds,1,[])
++      [D,trueSigma]=uq_observation(scene,c,trueModels,map,seed,snr,stress);
++      for ib=1:numel(spec.methods)
++       bname=spec.methods(ib).name;
++       [out,prior,preset]=p1_solve_branch(D,models,map,cm_use,domain,R_use,bname);
++       au=uq_audit_outputs(out); flags=flags+au.flags; maxnormal=max(maxnormal,au.max_normal);
++       for ir=1:2
++        route='Direct'; S=out.direct; if ir==2, route='Split'; S=out.split; end
++        row=uq_metric_row(S,scene,c,c.model_name,suite,seed,bname,route,out,prior,preset,est_use);
++        row.EstimatedSigmaRatio=mean(prior.sigma./trueSigma); row.CalibrationSeed=cseed;
++        count=count+1; if count==1, rows=row; else, rows(count)=row; end
++       end
++       fprintf('%s %s %s seed=%d cal=%d error=%.9f normal=%.3e/%.3e elapsed=%.1fs\n', ...
++        c.model_name,suite,[scname '/' bname],seed,cseed,row.RelativeError, ...
++        out.direct_record.normal_residual,out.split_record.normal_residual,toc(start));
++      end
++      writetable(struct2table(rows),fullfile(outdir,'metrics.csv'));
++     end
++    end
++   end
++  end
++ end
++end
++uq_writejson(fullfile(outdir,'calibration_operator_audit.json'),audits);
++uq_writejson(fullfile(outdir,'checks.json'),struct('solver_flags',flags,'max_normal_residual',maxnormal, ...
++ 'rows',count,'elapsed_seconds',toc(start),'smoke',smoke,'version',version));
++assert(flags==0 && maxnormal<=2e-7,'Solver quality failure; outputs retained for diagnosis');
++fprintf('COMPLETED %d rows %.1fs\n',count,toc(start));
++end
+--- original/core_p1/matlab_src/p1_solve_branch.m
++++ fixed/core_p1/matlab_src/p1_solve_branch.m
+@@ -10,22 +10,25 @@
+  [~,lam(j)]=discrepancy_apply(models{j}.direct,D(:,j),cm.lambda_grid,sqrt(n)*sigma(j));
+  F=models{j}.direct; u=F.U'*D(:,j); pilot(:,j)=F.V*(F.z./(F.z.^2+4*lam(j)).*u);
+ end
+-if any(strcmp(branch_name,{'Baseline','Frozen','StrongerDamping'}))
++if any(strcmp(branch_name,{'Baseline','Frozen','StrongerDamping','TargetMatched'}))
+  gamma=10; if strcmp(branch_name,'Baseline'), gamma=0; end
+  eta=1.0; if strcmp(branch_name,'StrongerDamping'), eta=1.15; end
++ if strcmp(branch_name,'TargetMatched')
++  [~,~,eta]=p1_q_model_error(pilot,models,cm,domain,true,false,p1);
++ end
+  preset=struct('name',branch_name,'gamma',gamma,'pilot_multiplier',4,'noise_target_multiplier',eta);
+  prior=uq_build_prior(D,models,cm,domain,preset);
+  out=uq_select(D,models,prior,preset);
+  return;
+ end
+-use_noise=any(strcmp(branch_name,{'NoiseUncertaintyOnly','CombinedUncertainty','CombinedUncertainty_NoStructure'}));
+-use_q=any(strcmp(branch_name,{'QModelErrorOnly','CombinedUncertainty','CombinedUncertainty_NoStructure'}));
++use_noise=any(strcmp(branch_name,{'NoiseUncertaintyOnly','CombinedUncertainty','CombinedUncertainty_NoStructure','CombinedFixedTarget'}));
++use_q=any(strcmp(branch_name,{'QModelErrorOnly','CombinedUncertainty','CombinedUncertainty_NoStructure','CombinedFixedTarget'}));
+ use_struct=~strcmp(branch_name,'CombinedUncertainty_NoStructure');
+ if use_noise
+  [D_work,b_coh,ortho_ratio,tail_mask,extra_diag]=p1_noise_uncertainty(D,pilot,models,sigma,lam,domain,R_avo,p1);
+ else
+  D_work=D; b_coh=zeros(n,nx); ortho_ratio=0;
+- [~,~,~,tail_mask,extra_diag]=p1_noise_uncertainty(D,pilot,models,sigma,lam,domain,R_avo,p1);
++ tail_mask=false(n,nx); extra_diag=zeros(n,nx);
+ end
+ pilot_w=pilot;
+ if any(b_coh(:)~=0)
+@@ -37,7 +40,7 @@
+ if use_struct
+  [H0,~]=learn_structure_operator(pilot_w,cm,o_struct);
+  if strcmp(domain,'Offset')
+-  w_avo=p1.offset_avo_ortho_weight_qonly; if use_noise, w_avo=p1.offset_avo_ortho_weight_noise; end
++  w_avo=0; if use_noise, w_avo=p1.offset_avo_ortho_weight_noise; end
+   H=[H0*R_avo; w_avo*R_avo];
+  else
+   if any(tail_mask(:))
+@@ -51,6 +54,7 @@
+  H=sparse(n*nx,n*nx);
+ end
+ [r2_D,r2_S,eta_eff,b_eD,b_eS]=p1_q_model_error(pilot_w,models,cm,domain,use_q,use_noise,p1);
++if strcmp(branch_name,'CombinedFixedTarget'), eta_eff=1; end
+ D_D=D_work-b_eD; D_S=D_work-b_eS;
+ Yw=zeros(n,nx); rhsD=Yw; rhsS=Yw; uD=Yw; uS=Yw;
+ for j=1:nx
+@@ -80,7 +84,8 @@
+ end
+ [~,ix]=min(abs(residuals-target)); scale=scales(ix); direct=candidates{ix};
+ [split,sr]=solve_weighted(ctx,scale,'Split',o_struct);
+-prior=struct('H',H,'sigma',sigma,'lambda',lam,'pilot',pilot_w,'ortho_ratio',ortho_ratio);
++prior=struct('H',H,'sigma',sigma,'lambda',lam,'pilot',pilot_w,'ortho_ratio',ortho_ratio, ...
++ 'tail_mask',tail_mask,'extra_diag',extra_diag,'r2_D',{r2_D},'r2_S',{r2_S});
+ preset=struct('name',branch_name,'gamma',gamma,'pilot_multiplier',4,'noise_target_multiplier',eta_eff);
+ out=struct('direct',direct,'split',split,'scale',scale,'scale_grid',scales,'residual_grid',residuals,'target',target, ...
+  'endpoint',scale==v2.scale_grid(1) || scale==v2.scale_grid(end),'residual_mismatch',abs(residuals(ix)/target-1), ...
+@@ -109,9 +114,15 @@
+  end
+  normal=norm(op(s)-rhs(:))/norm(rhs(:)); S=reshape(s,n,nx);
+ else
++ for j=1:nx
++  if any(ctx.extra_diag(:,j)~=0)
++   C=chol(N{j},'lower'); S(:,j)=C'\(C\rhs(:,j)); solver='BlockCholesky';
++  end
++ end
+  check=zeros(n,nx); for j=1:nx, check(:,j)=N{j}*S(:,j)-rhs(:,j); end
+- normal=norm(check(:))/norm(rhs(:));
++ normal=norm(check(:))/max(norm(rhs(:)),realmin);
+ end
++if ~isfinite(normal) || normal>2*o.pcg_tolerance, flag=3; end
+ rr=0;
+ for j=1:nx
+  if strcmp(route,'Direct'), e=ctx.models{j}.G*S(:,j)-ctx.D(:,j); else, e=ctx.models{j}.F*S(:,j)-ctx.Yw(:,j); end
+--- original/core_p1/matlab_src/uq_inverse_config.m
++++ fixed/core_p1/matlab_src/uq_inverse_config.m
+@@ -2,4 +2,8 @@
+ assert(~isfield(p,'Q') && ~isfield(p,'fpeak'));
+ c=p; c.Q=repmat(est.effective_Q,1,4); c.fpeak=est.estimated_frequency;
+ c.event_t=cumsum(2*p.h./p.vp(1:3));
++c.log_parameter_covariance=zeros(2);
++if isfield(est,'log_parameter_covariance')
++ c.log_parameter_covariance=est.log_parameter_covariance;
+ end
++end
+--- original/core_p1/matlab_src/uq_observation.m
++++ fixed/core_p1/matlab_src/uq_observation.m
+@@ -1,11 +1,30 @@
+-function [D,sigma]=uq_observation(scene,c,trueModels,map,seed,snr)
++function [D,sigma]=uq_observation(scene,c,trueModels,map,seed,snr,stress)
+ % SYNTHESIS ONLY. No inverse method may call this function.
+-clean=zeros(size(scene.truth)); for j=1:11, clean(:,j)=trueModels{map(j)}.G*scene.truth(:,j); end
++if nargin<7, stress=[]; end
++signal=scene.truth;
++if ~isempty(stress) && strcmp(stress.name,'StressNonRickerPhase')
++ z=fft(signal,c.nfft,1); rad=stress.phase_deg*pi/180;
++ ph=[1;exp(-1i*rad)*ones(c.nfft/2-1,1);1;exp(1i*rad)*ones(c.nfft/2-1,1)];
++ signal=real(ifft(z.*ph,[],1)); signal=signal(1:c.nt,:);
++end
++clean=zeros(size(signal)); for j=1:11, clean(:,j)=trueModels{map(j)}.G*signal(:,j); end
++if ~isempty(stress) && strcmp(stress.name,'StressResidualNMO')
++ f=[0:c.nfft/2,-c.nfft/2+1:-1]'/(c.nfft*c.dt);
++ for j=1:11
++  shift=stress.max_nmo_shift_s*((j-1)/10)^2;
++  z=real(ifft(fft(clean(:,j),c.nfft).*exp(-2i*pi*f*shift))); clean(:,j)=z(1:c.nt);
++ end
++end
+ coherent=zeros(size(clean));
+ if strcmp(scene.name,'CoherentNoiseAVO')
+  for j=1:11, z=pi*35*(c.t-(mean(c.event_t(1:2))+.004*(j-1))); coherent(:,j)=(1-2*z.^2).*exp(-z.^2); end
+  coherent=.25*norm(clean,'fro')*coherent/norm(coherent,'fro');
+ end
+-rng(seed,'twister'); noise=randn(size(clean)); noise=noise./sqrt(mean(noise.^2,1));
++rng(seed,'twister'); noise=randn(size(clean));
++if ~isempty(stress) && strcmp(stress.name,'StressColoredNoise')
++ rho=stress.ar1_rho;
++ for k=2:size(noise,1), noise(k,:)=rho*noise(k-1,:)+sqrt(1-rho^2)*noise(k,:); end
++end
++noise=noise./sqrt(mean(noise.^2,1));
+ sigma=sqrt(mean(clean.^2,1))*10^(-snr/20); D=clean+noise.*sigma+coherent;
+ end
+--- original/core_p1/p1_compensate.m
++++ fixed/core_p1/p1_compensate.m
+@@ -1,8 +1,8 @@
+ function out=p1_compensate(D,offsets,public,calibrationD,calibrationOffsets,domain,variant)
+ % P1 public entry point. Enforces public input whitelist; zero access to true Q, fpeak, rho, vs.
+-% Outputs both Direct and Split routes using identical priors and error covariance models.
++% Outputs Direct and Split using common priors and uncertainty-averaged empirical weights.
+ if nargin<7 || isempty(variant), variant='CombinedUncertainty'; end
+-allowedVariants={'Baseline','Frozen','StrongerDamping','NoiseUncertaintyOnly','QModelErrorOnly','CombinedUncertainty','CombinedUncertainty_NoStructure'};
++allowedVariants={'Baseline','Frozen','StrongerDamping','NoiseUncertaintyOnly','QModelErrorOnly','CombinedUncertainty','CombinedUncertainty_NoStructure','TargetMatched','CombinedFixedTarget'};
+ assert(any(strcmp(variant,allowedVariants)),'Unsupported P1 variant');
+ root=fileparts(mfilename('fullpath')); oldpath=path; cleanup=onCleanup(@()path(oldpath));
+ addpath(fullfile(root,'matlab_src'));
+--- original/core_p1/run_p1_research.m
++++ fixed/core_p1/run_p1_research.m
+@@ -5,56 +5,19 @@
+ oldpath=path; oldrng=rng; cleanup=onCleanup(@()restore(oldpath,oldrng));
+ addpath(fullfile(root,'matlab_src'));
+ switch action
+- case 'validate', validate_p1_unknown_q(outdir);
++ case 'validate'
++  mkdir(outdir); validate_p1_unknown_q(fullfile(outdir,'original_units')); p1_regression_checks(outdir);
+  case {'regression','replay'}, run_research(action,outdir);
+- case 'p1_experiment', run_p1_grid(outdir,pkg);
++ case {'smoke','p1_experiment','full'}
++  spec=jsondecode(fileread(fullfile(root,'inputs','p1_experiment_spec.json')));
++  if strcmp(action,'smoke')
++   spec.calibration_seeds=spec.calibration_seeds(1); spec.test_seeds=spec.test_seeds(1);
++   spec.models.historical=spec.models.historical(1);
++   spec.models.development=[]; spec.models.heldout_new_geology=[];
++   spec.stress_suites=spec.stress_suites(strcmp({spec.stress_suites.name},'StressVelocityError'));
++  end
++  p1_run_grid(outdir,spec,strcmp(action,'smoke'));
+  otherwise, error('Unknown action: %s',action);
+ end
+ end
+ function restore(p,r), path(p); rng(r); end
+-function run_p1_grid(outdir,pkg)
+-mkdir(outdir); start=tic;
+-spec=jsondecode(fileread(fullfile(fileparts(mfilename('fullpath')),'inputs','p1_experiment_spec.json')));
+-splits={'historical','development','heldout_new_geology'};
+-rows=struct([]); count=0; flags=0; maxnormal=0;
+-for is=1:numel(splits)
+- sname=splits{is}; [configs,~]=p1_models(sname);
+- for im=1:numel(configs)
+-  c=configs{im}; public=uq_public_config(c,c.nominal_frequency);
+-  trueModels=prepare_models_v2(c.offset,c);
+-  for ic=1:numel(spec.calibration_seeds)
+-   cseed=spec.calibration_seeds(ic);
+-   [~,~,calScene]=uq_case('SmoothAVO',c,trueModels);
+-   [calD,~]=uq_observation(calScene,c,trueModels,1:11,cseed,18);
+-   est=p1_calibrate_ensemble(calD,c.offset,public);
+-   cm=uq_inverse_config(public,est); invmodels=prepare_models_v2(c.offset,cm);
+-   R_avo=avo_projector_v2(invmodels);
+-   for isu=1:2
+-    suite='Main'; snr=18; scenarios=spec.scenarios;
+-    if isu==2, suite='LowerSNR'; snr=12; scenarios=spec.stress_scenarios; end
+-    if ~strcmp(sname,'historical'), suite=[sname '_' suite]; end
+-    for isc=1:numel(scenarios)
+-     scname=char(scenarios{isc});
+-     [models,domain,map,scene]=uq_case(scname,c,invmodels);
+-     for seed=reshape(spec.test_seeds,1,[])
+-      [D,trueSigma]=uq_observation(scene,c,trueModels,map,seed,snr);
+-      for ib=1:numel(spec.methods)
+-       bname=spec.methods(ib).name;
+-       [out,prior,preset]=p1_solve_branch(D,models,map,cm,domain,R_avo,bname);
+-       au=uq_audit_outputs(out); flags=flags+au.flags; maxnormal=max(maxnormal,au.max_normal);
+-       for ir=1:2
+-        route='Direct'; S=out.direct; if ir==2, route='Split'; S=out.split; end
+-        row=uq_metric_row(S,scene,c,c.model_name,suite,seed,bname,route,out,prior,preset,est);
+-        row.EstimatedSigmaRatio=mean(prior.sigma./trueSigma); row.CalibrationSeed=cseed;
+-        count=count+1; if count==1, rows=row; else, rows(count)=row; end
+-       end
+-      end
+-     end
+-    end
+-   end
+-  end
+- end
+-end
+-writetable(struct2table(rows),fullfile(outdir,'metrics.csv'));
+-uq_writejson(fullfile(outdir,'checks.json'),struct('solver_flags',flags,'max_normal_residual',maxnormal,'rows',count,'elapsed_seconds',toc(start)));
+-end

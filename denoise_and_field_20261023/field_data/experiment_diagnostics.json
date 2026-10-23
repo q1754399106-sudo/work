@@ -1,0 +1,498 @@
+{
+  "wz25": {
+    "parameters": {
+      "band_edges_relative_to_observed_f90": [
+        0,
+        0.4,
+        0.8,
+        1.3,
+        2.0
+      ],
+      "trace_rms_preconditioning": "For prediction only; restore physical amplitudes before subtraction",
+      "base_parameters": {
+        "minimum_apparent_velocity_m_s": 400.0,
+        "slope_count": 1201,
+        "minimum_peak_semblance": 0.65,
+        "gate_onset": 0.45,
+        "maximum_components": 3,
+        "subtraction_fraction": 0.6,
+        "scan_dt_min_s": 0.004,
+        "minimum_aperture_coverage": 0.7
+      }
+    },
+    "f90_hz": 82.8857421875,
+    "bands": [
+      {
+        "band": 1,
+        "upper_edge_hz": 33.154296875,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 29.9072265625,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 2,
+        "upper_edge_hz": 66.30859375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 58.349609375,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 3,
+        "upper_edge_hz": 107.75146484375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 93.3837890625,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 4,
+        "upper_edge_hz": 165.771484375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 119.0185546875,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      }
+    ],
+    "removed_norm_fraction": 0.0,
+    "raw_npz_sha256": "b64d4f615b0887bfefef239502750c649ee5ba6e58a3b4ccb3b7d1f1b440e210",
+    "real_data_has_clean_truth": false,
+    "processing": "Denoising prototype only; no Q compensation, no AGC or t^2 gain in processing",
+    "display_gain": "t^2 common to original/output/removed; common symmetric 99.5-percentile amplitude limit; clipped display fraction recorded",
+    "display_amplitude_limit": 25983193.97634403,
+    "display_clipped_fractions": [
+      0.0075,
+      0.0075,
+      0.0
+    ]
+  },
+  "alaska_111": {
+    "parameters": {
+      "band_edges_relative_to_observed_f90": [
+        0,
+        0.4,
+        0.8,
+        1.3,
+        2.0
+      ],
+      "trace_rms_preconditioning": "For prediction only; restore physical amplitudes before subtraction",
+      "base_parameters": {
+        "minimum_apparent_velocity_m_s": 400.0,
+        "slope_count": 1201,
+        "minimum_peak_semblance": 0.65,
+        "gate_onset": 0.45,
+        "maximum_components": 3,
+        "subtraction_fraction": 0.6,
+        "scan_dt_min_s": 0.004,
+        "minimum_aperture_coverage": 0.7
+      }
+    },
+    "f90_hz": 49.01123046875,
+    "bands": [
+      {
+        "band": 1,
+        "upper_edge_hz": 19.6044921875,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 17.02880859375,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 2,
+        "upper_edge_hz": 39.208984375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 36.62109375,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 3,
+        "upper_edge_hz": 63.714599609375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 51.08642578125,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 4,
+        "upper_edge_hz": 98.0224609375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 93.3837890625,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      }
+    ],
+    "removed_norm_fraction": 0.0,
+    "raw_npz_sha256": "f621bf9d5c18dc311c7490cd11bbf514f3cbcad9f7ebe06edba9391e379d17dd",
+    "real_data_has_clean_truth": false,
+    "processing": "Denoising prototype only; no Q compensation, no AGC or t^2 gain in processing",
+    "display_gain": "t^2 common to original/output/removed; common symmetric 99.5-percentile amplitude limit; clipped display fraction recorded",
+    "display_amplitude_limit": 153376108.101632,
+    "display_clipped_fractions": [
+      0.0075,
+      0.0075,
+      0.0
+    ]
+  },
+  "alaska_120": {
+    "parameters": {
+      "band_edges_relative_to_observed_f90": [
+        0,
+        0.4,
+        0.8,
+        1.3,
+        2.0
+      ],
+      "trace_rms_preconditioning": "For prediction only; restore physical amplitudes before subtraction",
+      "base_parameters": {
+        "minimum_apparent_velocity_m_s": 400.0,
+        "slope_count": 1201,
+        "minimum_peak_semblance": 0.65,
+        "gate_onset": 0.45,
+        "maximum_components": 3,
+        "subtraction_fraction": 0.6,
+        "scan_dt_min_s": 0.004,
+        "minimum_aperture_coverage": 0.7
+      }
+    },
+    "f90_hz": 104.4921875,
+    "bands": [
+      {
+        "band": 1,
+        "upper_edge_hz": 41.796875,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 32.89794921875,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 2,
+        "upper_edge_hz": 83.59375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 77.81982421875,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 3,
+        "upper_edge_hz": 135.83984375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 113.58642578125,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 4,
+        "upper_edge_hz": 208.984375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 119.93408203125,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      }
+    ],
+    "removed_norm_fraction": 0.0,
+    "raw_npz_sha256": "48ca8f261224bdfde22c7a2e684e2490974dba789330cfac2a9506523ed9ec67",
+    "real_data_has_clean_truth": false,
+    "processing": "Denoising prototype only; no Q compensation, no AGC or t^2 gain in processing",
+    "display_gain": "t^2 common to original/output/removed; common symmetric 99.5-percentile amplitude limit; clipped display fraction recorded",
+    "display_amplitude_limit": 25012827.41963192,
+    "display_clipped_fractions": [
+      0.0075,
+      0.0075,
+      0.0
+    ]
+  },
+  "alaska_130": {
+    "parameters": {
+      "band_edges_relative_to_observed_f90": [
+        0,
+        0.4,
+        0.8,
+        1.3,
+        2.0
+      ],
+      "trace_rms_preconditioning": "For prediction only; restore physical amplitudes before subtraction",
+      "base_parameters": {
+        "minimum_apparent_velocity_m_s": 400.0,
+        "slope_count": 1201,
+        "minimum_peak_semblance": 0.65,
+        "gate_onset": 0.45,
+        "maximum_components": 3,
+        "subtraction_fraction": 0.6,
+        "scan_dt_min_s": 0.004,
+        "minimum_aperture_coverage": 0.7
+      }
+    },
+    "f90_hz": 101.98974609375,
+    "bands": [
+      {
+        "band": 1,
+        "upper_edge_hz": 40.7958984375,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 36.0107421875,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 2,
+        "upper_edge_hz": 81.591796875,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 72.8759765625,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 3,
+        "upper_edge_hz": 132.586669921875,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 110.2294921875,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      },
+      {
+        "band": 4,
+        "upper_edge_hz": 203.9794921875,
+        "diagnostics": {
+          "parameters": {
+            "minimum_apparent_velocity_m_s": 400.0,
+            "slope_count": 1201,
+            "minimum_peak_semblance": 0.65,
+            "gate_onset": 0.45,
+            "maximum_components": 3,
+            "subtraction_fraction": 0.6,
+            "scan_dt_min_s": 0.004,
+            "minimum_aperture_coverage": 0.7
+          },
+          "components": [],
+          "live_traces": 96,
+          "f90_hz": 119.873046875,
+          "scan_dt_s": 0.004,
+          "removed_norm_fraction": 0.0,
+          "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+        }
+      }
+    ],
+    "removed_norm_fraction": 0.0,
+    "raw_npz_sha256": "ddf7d0ac243f64e791196c2d7de487ee5adab6743262fd6914478a89c41ece1d",
+    "real_data_has_clean_truth": false,
+    "processing": "Denoising prototype only; no Q compensation, no AGC or t^2 gain in processing",
+    "display_gain": "t^2 common to original/output/removed; common symmetric 99.5-percentile amplitude limit; clipped display fraction recorded",
+    "display_amplitude_limit": 47931654.11313665,
+    "display_clipped_fractions": [
+      0.0075,
+      0.0075,
+      0.0
+    ]
+  }
+}

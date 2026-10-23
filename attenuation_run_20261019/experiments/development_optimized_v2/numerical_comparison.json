@@ -1,0 +1,9 @@
+{
+  "RelativeError": 4.6849191193132356e-12,
+  "EventAmplitudeError": 3.540057136319774e-12,
+  "Scale": 0.0,
+  "TargetMismatch": 6.3949713580147e-14,
+  "rows": 384,
+  "all_keys_match": true,
+  "scope": "Development numerical equivalence only"
+}

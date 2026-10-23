@@ -1,0 +1,6 @@
+Resuming 6 saved cases without recomputation
+Prepared independent fold operators: OriginalReference Offset elapsed=28.2s
+7/9 OriginalReference_CoherentNoiseAVO_12dB_20261411 baseline=0.56770 CV=0.47700 alpha=0.1 beta=3 elapsed=132.2s
+8/9 OriginalReference_SmoothAVO_12dB_20261411 baseline=0.54609 CV=0.46034 alpha=0.1 beta=3 elapsed=232.2s
+Prepared independent fold operators: OriginalReference Section elapsed=236.5s
+9/9 OriginalReference_WeakSection_12dB_20261411 baseline=0.66963 CV=0.74355 alpha=1 beta=3 elapsed=260.9s

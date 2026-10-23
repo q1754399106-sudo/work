@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-23T07:24:43.261958+00:00",
+  "purpose": "Replace 11-trace figures with computed 99-trace gathers and legible exports",
+  "errors_percent": [
+    -30,
+    -10,
+    0,
+    10,
+    30
+  ],
+  "methods": [
+    "FixedSplitSharedQ",
+    "FullCalRefit",
+    "PrunedFullCalRefit"
+  ],
+  "primary": "New 99-trace synthesis on the same 0-300m aperture and continuous event-time/amplitude laws. New fixed noise draws; no interpolation of processed traces.",
+  "complex": "All original 99 traces, original observations and targets unchanged, including dead traces 23 and 78. No spatial interpolation.",
+  "solver": "Original 65 core files, contiguous 11-trace blocks. Same Q/wavelet/noise estimate across methods and frozen noise estimates across Q.",
+  "execution": "MATLAB 4 computation threads; all five Q cases recomputed, including zero. No solver parameters tuned for denser figures.",
+  "display": "Raster PNG >=400 dpi plus vector PDF; large comparisons split into separate bias pages. Shared color limits per comparison, with declared common clipping for detail views; no tracewise gains.",
+  "comparability": "Primary is a newly sampled synthetic observation, so old 11-trace numbers are not directly interchangeable. Complex full-gather statistics differ from old subsample statistics."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "model": "Dev_ModerateQ",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Dev_ModerateQ/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Dev_ModerateQ/matlab');"
+  ],
+  "started_utc": "2026-10-21T18:25:33.785891+00:00",
+  "pid": 15756,
+  "exit_code": 0,
+  "elapsed_seconds": 11764.0
+}

@@ -1,0 +1,55 @@
+{
+  "engine": "Independent NumPy implementation; MATLAB execution not implied",
+  "zero_loss_error": 7.709338382293393e-17,
+  "homogeneous_ray_error": 3.878959614448864e-18,
+  "rows": [
+    {
+      "offset": 0,
+      "composition_error": 6.999004248369895e-17,
+      "small_angle_error": 0.0,
+      "identity_residual": 6.604398759184582e-16,
+      "lambda_cov": 0.0010592537251772876,
+      "lambda_direct": 0.0010592537251772876,
+      "lambda_unweighted": 0.0010592537251772876,
+      "errors": {
+        "observed": 0.9470794848634075,
+        "fixed": 0.5044341136628349,
+        "unweighted": 0.509595077562026,
+        "covariance": 0.5094150673723533,
+        "direct": 0.5093913774893788
+      }
+    },
+    {
+      "offset": 750,
+      "composition_error": 0.004022876731490223,
+      "small_angle_error": 0.20499289340870672,
+      "identity_residual": 8.01415550779661e-16,
+      "lambda_cov": 0.0004731512589614803,
+      "lambda_direct": 0.00031622776601683794,
+      "lambda_unweighted": 0.01778279410038923,
+      "errors": {
+        "observed": 0.9728704846870456,
+        "fixed": 0.7220719768820866,
+        "unweighted": 0.7864806576369644,
+        "covariance": 0.5054127548528469,
+        "direct": 0.4668286240210896
+      }
+    },
+    {
+      "offset": 1500,
+      "composition_error": 0.008116306091913883,
+      "small_angle_error": 0.5565498917341297,
+      "identity_residual": 7.229326452651445e-16,
+      "lambda_cov": 0.00021134890398366455,
+      "lambda_direct": 9.440608762859227e-05,
+      "lambda_unweighted": 0.005308844442309879,
+      "errors": {
+        "observed": 0.9983133842005933,
+        "fixed": 0.6196126737510464,
+        "unweighted": 0.6941245221028747,
+        "covariance": 0.63740241861222,
+        "direct": 0.5770495108977395
+      }
+    }
+  ]
+}

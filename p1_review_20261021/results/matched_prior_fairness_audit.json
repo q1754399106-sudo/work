@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "total_matched_direct_split_pairs": 1722,
+  "max_scale_difference_between_direct_and_split": 0.0,
+  "max_effective_q_difference_between_direct_and_split": 0.0,
+  "max_sigma_ratio_difference_between_direct_and_split": 0.0,
+  "max_relative_error_difference_between_direct_and_split_by_method": {
+    "Baseline": 0.005494100098129895,
+    "Frozen": 0.005347032795300022,
+    "StrongerDamping": 0.004077748507069989,
+    "NoiseUncertaintyOnly": 0.0020198333816390246,
+    "CombinedUncertainty": 0.0024761191096500657,
+    "CombinedUncertainty_NoStructure": 0.012377178344270101,
+    "QModelErrorOnly": 0.0053417955630099545
+  }
+}

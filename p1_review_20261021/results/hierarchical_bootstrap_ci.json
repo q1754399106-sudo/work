@@ -1,0 +1,337 @@
+{
+  "CombinedUncertainty": {
+    "historical_main_split": {
+      "point_gain_pct": 6.066085410285549,
+      "hierarchical_ci95_pct": [
+        3.17477066347731,
+        10.373544335552236
+      ],
+      "within_model_ci95_pct": [
+        4.260072929721165,
+        7.863978150084556
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_main_direct": {
+      "point_gain_pct": 6.078474215891861,
+      "hierarchical_ci95_pct": [
+        3.168494136264118,
+        10.4195592682682
+      ],
+      "within_model_ci95_pct": [
+        4.2601466096549725,
+        7.891660424211588
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_all_split": {
+      "point_gain_pct": 6.514675856434793,
+      "hierarchical_ci95_pct": [
+        3.6340479726549617,
+        10.45792853761501
+      ],
+      "within_model_ci95_pct": [
+        5.077713156110134,
+        7.952133899272386
+      ],
+      "n_models": 3,
+      "n_pairs": 126
+    },
+    "heldout_new_geology_split": {
+      "point_gain_pct": 7.803790471177763,
+      "hierarchical_ci95_pct": [
+        3.5273800051908752,
+        13.754809825090225
+      ],
+      "within_model_ci95_pct": [
+        4.571010014496382,
+        11.331030672926165
+      ],
+      "n_models": 4,
+      "n_pairs": 60
+    },
+    "all_9_models_split": {
+      "point_gain_pct": 6.769180862980873,
+      "hierarchical_ci95_pct": [
+        4.154989979781461,
+        10.262283226975446
+      ],
+      "within_model_ci95_pct": [
+        5.155817884118374,
+        8.519928036677221
+      ],
+      "n_models": 9,
+      "n_pairs": 180
+    }
+  },
+  "NoiseUncertaintyOnly": {
+    "historical_main_split": {
+      "point_gain_pct": 4.747866868199457,
+      "hierarchical_ci95_pct": [
+        0.9770960548543417,
+        10.887238325779439
+      ],
+      "within_model_ci95_pct": [
+        2.5091559074262344,
+        6.990960946137126
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_main_direct": {
+      "point_gain_pct": 4.761351977728722,
+      "hierarchical_ci95_pct": [
+        0.9723045540122133,
+        10.92834948584011
+      ],
+      "within_model_ci95_pct": [
+        2.5167865421391604,
+        7.014008410698708
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_all_split": {
+      "point_gain_pct": 5.409424845570032,
+      "hierarchical_ci95_pct": [
+        1.0214808865330396,
+        11.773772891400853
+      ],
+      "within_model_ci95_pct": [
+        3.666380337073813,
+        7.125893836585051
+      ],
+      "n_models": 3,
+      "n_pairs": 126
+    },
+    "heldout_new_geology_split": {
+      "point_gain_pct": 6.586263391474089,
+      "hierarchical_ci95_pct": [
+        1.3717049359337763,
+        14.754656545255521
+      ],
+      "within_model_ci95_pct": [
+        2.287016923074473,
+        11.280737009604662
+      ],
+      "n_models": 4,
+      "n_pairs": 60
+    },
+    "all_9_models_split": {
+      "point_gain_pct": 5.09839397671551,
+      "hierarchical_ci95_pct": [
+        1.589604505898273,
+        9.840078591157818
+      ],
+      "within_model_ci95_pct": [
+        3.0560739160793706,
+        7.321222711030702
+      ],
+      "n_models": 9,
+      "n_pairs": 180
+    }
+  },
+  "QModelErrorOnly": {
+    "historical_main_split": {
+      "point_gain_pct": 2.5901230153030363,
+      "hierarchical_ci95_pct": [
+        1.327021280958022,
+        3.6374706882343353
+      ],
+      "within_model_ci95_pct": [
+        1.8621839083838576,
+        3.3868651963953162
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_main_direct": {
+      "point_gain_pct": 2.5800230623093556,
+      "hierarchical_ci95_pct": [
+        1.3080068195436156,
+        3.638177840108599
+      ],
+      "within_model_ci95_pct": [
+        1.8504965623215683,
+        3.375123389336319
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_all_split": {
+      "point_gain_pct": 3.255975712148851,
+      "hierarchical_ci95_pct": [
+        1.9822792235058457,
+        4.362879220886045
+      ],
+      "within_model_ci95_pct": [
+        2.3823132700528187,
+        4.25458367209498
+      ],
+      "n_models": 3,
+      "n_pairs": 126
+    },
+    "heldout_new_geology_split": {
+      "point_gain_pct": 2.8285343524370066,
+      "hierarchical_ci95_pct": [
+        1.350467822544927,
+        4.475793399096148
+      ],
+      "within_model_ci95_pct": [
+        1.8393122479047481,
+        3.9854441202972097
+      ],
+      "n_models": 4,
+      "n_pairs": 60
+    },
+    "all_9_models_split": {
+      "point_gain_pct": 3.060107178415916,
+      "hierarchical_ci95_pct": [
+        2.137392141206897,
+        4.0589507745125175
+      ],
+      "within_model_ci95_pct": [
+        2.5169698653862156,
+        3.627269136179563
+      ],
+      "n_models": 9,
+      "n_pairs": 180
+    }
+  },
+  "StrongerDamping": {
+    "historical_main_split": {
+      "point_gain_pct": -2.896305317166825,
+      "hierarchical_ci95_pct": [
+        -4.535525026546044,
+        -0.6724940951283037
+      ],
+      "within_model_ci95_pct": [
+        -3.8986176838828017,
+        -1.912589505243799
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_main_direct": {
+      "point_gain_pct": -2.8938383654581346,
+      "hierarchical_ci95_pct": [
+        -4.549172608913662,
+        -0.660899679487771
+      ],
+      "within_model_ci95_pct": [
+        -3.9007134007892073,
+        -1.90699220665497
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_all_split": {
+      "point_gain_pct": -2.2258090727054647,
+      "hierarchical_ci95_pct": [
+        -4.4876406808822145,
+        0.5519291223190839
+      ],
+      "within_model_ci95_pct": [
+        -3.107235280328981,
+        -1.363389764255627
+      ],
+      "n_models": 3,
+      "n_pairs": 126
+    },
+    "heldout_new_geology_split": {
+      "point_gain_pct": -2.3812959615298057,
+      "hierarchical_ci95_pct": [
+        -5.681748663586884,
+        1.1865298809860099
+      ],
+      "within_model_ci95_pct": [
+        -4.022326818022948,
+        -0.6189057176991031
+      ],
+      "n_models": 4,
+      "n_pairs": 60
+    },
+    "all_9_models_split": {
+      "point_gain_pct": -3.33277543146282,
+      "hierarchical_ci95_pct": [
+        -5.268238248803961,
+        -1.0653433360779536
+      ],
+      "within_model_ci95_pct": [
+        -4.215968792783746,
+        -2.426815782092174
+      ],
+      "n_models": 9,
+      "n_pairs": 180
+    }
+  },
+  "CombinedUncertainty_NoStructure": {
+    "historical_main_split": {
+      "point_gain_pct": 0.008233651824685051,
+      "hierarchical_ci95_pct": [
+        -4.6981545790023045,
+        3.085472910242194
+      ],
+      "within_model_ci95_pct": [
+        -2.0114240105361265,
+        1.9858410562875
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_main_direct": {
+      "point_gain_pct": 0.01667349321761158,
+      "hierarchical_ci95_pct": [
+        -4.655204369931669,
+        3.0768610194596895
+      ],
+      "within_model_ci95_pct": [
+        -1.982080433457175,
+        1.9831344351834905
+      ],
+      "n_models": 3,
+      "n_pairs": 90
+    },
+    "historical_all_split": {
+      "point_gain_pct": -3.4990566749906638,
+      "hierarchical_ci95_pct": [
+        -13.113803669353988,
+        3.100142462682075
+      ],
+      "within_model_ci95_pct": [
+        -6.289299029661788,
+        -0.9044572144894278
+      ],
+      "n_models": 3,
+      "n_pairs": 126
+    },
+    "heldout_new_geology_split": {
+      "point_gain_pct": 0.4349963129665846,
+      "hierarchical_ci95_pct": [
+        -4.858871639238792,
+        4.236965048387026
+      ],
+      "within_model_ci95_pct": [
+        -2.2284303867648854,
+        2.675264699737608
+      ],
+      "n_models": 4,
+      "n_pairs": 60
+    },
+    "all_9_models_split": {
+      "point_gain_pct": 1.0026847323362231,
+      "hierarchical_ci95_pct": [
+        -2.2121956393755435,
+        3.6355542948767696
+      ],
+      "within_model_ci95_pct": [
+        -0.5270784832405423,
+        2.2713856977990803
+      ],
+      "n_models": 9,
+      "n_pairs": 180
+    }
+  }
+}

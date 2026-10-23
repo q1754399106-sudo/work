@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/joint_refactor_20261022/runs/paired_continuation_20261022T113517Z/source/core_p1');run_joint_resume('C:/Users/qq175/Documents/ChatGPT/研究/joint_refactor_20261022/runs/paired_continuation_20261022T113517Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T11:35:18.302766+00:00",
+  "timeout_seconds": 3600.0,
+  "pid": 42292,
+  "exit_code": 0,
+  "elapsed_seconds": 1116.0160000000033
+}

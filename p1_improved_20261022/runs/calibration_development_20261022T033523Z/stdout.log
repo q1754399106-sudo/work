@@ -1,0 +1,6 @@
+Dev_ModerateQ provided=1.000 correction=1.000000 remaining=1.000000 validation_gain=-0.0001 Q=44.242 f=47.414 elapsed=8.7s
+Dev_ModerateQ provided=1.030 correction=0.970882 remaining=1.000009 validation_gain=0.8759 Q=44.232 f=47.419 elapsed=13.2s
+Dev_ModerateQ provided=0.970 correction=1.030937 remaining=1.000009 validation_gain=0.8671 Q=44.231 f=47.419 elapsed=17.0s
+Dev_DeepContrast provided=1.000 correction=1.000000 remaining=1.000000 validation_gain=0.0008 Q=51.486 f=65.531 elapsed=22.1s
+Dev_DeepContrast provided=1.030 correction=0.970957 remaining=1.000086 validation_gain=0.8786 Q=51.489 f=65.505 elapsed=26.4s
+Dev_DeepContrast provided=0.970 correction=1.031016 remaining=1.000085 validation_gain=0.8721 Q=51.492 f=65.506 elapsed=30.6s

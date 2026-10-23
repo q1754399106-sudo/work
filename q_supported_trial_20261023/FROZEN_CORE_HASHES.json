@@ -1,0 +1,9 @@
+{
+  "attenuation_matrix.m": "93d6cf4fd2f8fcb797016c02094d1b6ad8b63d1ca3cc83e0f5594bec2304c68b",
+  "ridge_operator.m": "f458abdb8726c0565abb9a116ec482860e4f77e35efa4d9862ea583191cc0a52",
+  "fixed_v1_apply.m": "dc11173512b2eb152b4469f7ae8b7d5a00de9a1796de3ad00d34236a5d076597",
+  "reflectivity_refit_prepared.m": "eb1bcbb3598a5e171e0cb6792b7db223f10a88fd47dac5f53293362898c1ad74",
+  "reflectivity_prune_prepared.m": "ef7f2fedd7ff7f13e658a994dc21c8eb24253a79f211fb96194f8ffe663ccae5",
+  "refit_lasso.m": "3d8d9baa17829d4bdb694f53d44eb7f5b132858810846878db8e08d9f9476850",
+  "uq_writejson.m": "74a3ea78143819e5710adf9aeb06f755f3ce0dc4c074a51f904a02a10f587c3c"
+}

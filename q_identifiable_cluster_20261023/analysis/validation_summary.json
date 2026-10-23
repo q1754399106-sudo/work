@@ -1,0 +1,169 @@
+{
+  "stage": "validation",
+  "verification": "ANALYZED",
+  "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z",
+  "means": {
+    "Observed": {
+      "LiveTraceError": 0.9490609834905008,
+      "LowEnergyRegionError": 0.9331801761665703,
+      "DeepLiveError": 0.9947927310728538,
+      "CorrelationLive": 0.21471506726999537,
+      "AmplitudeProjectionGain": 0.07209831927791487
+    },
+    "FullCalRefit": {
+      "LiveTraceError": 0.5589420468618079,
+      "LowEnergyRegionError": 0.9071178533602081,
+      "DeepLiveError": 0.6325908662374874,
+      "CorrelationLive": 0.8278841052910048,
+      "AmplitudeProjectionGain": 0.6137921225454855
+    },
+    "PrunedFullCalRefit": {
+      "LiveTraceError": 0.574538354526702,
+      "LowEnergyRegionError": 0.9819179085354034,
+      "DeepLiveError": 0.6543534828754639,
+      "CorrelationLive": 0.8141843609588916,
+      "AmplitudeProjectionGain": 0.602577826766412
+    },
+    "GlobalTSVD": {
+      "LiveTraceError": 0.561024487224138,
+      "LowEnergyRegionError": 0.9147579624216835,
+      "DeepLiveError": 0.6352195765323414,
+      "CorrelationLive": 0.825921550054871,
+      "AmplitudeProjectionGain": 0.6143251950180054
+    },
+    "ClusterModesNoQ": {
+      "LiveTraceError": 0.5705822876466136,
+      "LowEnergyRegionError": 0.9048244027642177,
+      "DeepLiveError": 0.6468262289664808,
+      "CorrelationLive": 0.8186860489138811,
+      "AmplitudeProjectionGain": 0.5992566664349736
+    },
+    "QAwareRidge": {
+      "LiveTraceError": 0.555461354701027,
+      "LowEnergyRegionError": 0.9114156249536772,
+      "DeepLiveError": 0.629025893176673,
+      "CorrelationLive": 0.8302480001568756,
+      "AmplitudeProjectionGain": 0.6208321968492051
+    },
+    "QAwareCluster": {
+      "LiveTraceError": 0.5723382210325215,
+      "LowEnergyRegionError": 0.8988364592928533,
+      "DeepLiveError": 0.6481890528902384,
+      "CorrelationLive": 0.8187631891520807,
+      "AmplitudeProjectionGain": 0.5905071597139354
+    }
+  },
+  "gates": {
+    "overall_improves_2pct": false,
+    "each_model_within_2pct": false,
+    "better_than_noQ_1pct": false,
+    "better_than_Qridge_1pct": false,
+    "low_energy_within_2pct": true,
+    "numerical": true,
+    "all_pass": false
+  },
+  "checks": [
+    {
+      "complete": true,
+      "case": "FreshFoldLowQ",
+      "traces": 44,
+      "optimization_flags": 0,
+      "max_normal": 5.354602632513967e-15,
+      "zero_Q_covariance_limit": 0,
+      "zero_Q_ridge_refit_limit": 2.4654914107752328e-14,
+      "zero_input_exact": true,
+      "synthetic_controls": {
+        "duplicate_rank_before": 2,
+        "duplicate_rank_after": 1,
+        "duplicate_waveform_error": 9.999999765006412e-09,
+        "zero_Q_covariance_limit": 0,
+        "positive_Q_uncertainty_finite": true,
+        "scope": "Oracle-support numerical controls only, not performance evidence"
+      },
+      "elapsed_seconds": 346.4375864
+    },
+    {
+      "complete": true,
+      "case": "FreshDenseQReverse",
+      "traces": 44,
+      "optimization_flags": 0,
+      "max_normal": 5.4892834957780915e-15,
+      "zero_Q_covariance_limit": 0,
+      "zero_Q_ridge_refit_limit": 1.2515089932909449e-14,
+      "zero_input_exact": true,
+      "synthetic_controls": {
+        "duplicate_rank_before": 2,
+        "duplicate_rank_after": 1,
+        "duplicate_waveform_error": 9.999999765006412e-09,
+        "zero_Q_covariance_limit": 0,
+        "positive_Q_uncertainty_finite": true,
+        "scope": "Oracle-support numerical controls only, not performance evidence"
+      },
+      "elapsed_seconds": 443.1663513
+    },
+    {
+      "complete": true,
+      "case": "FreshThinLowFrequency",
+      "traces": 44,
+      "optimization_flags": 0,
+      "max_normal": 5.507420097928157e-15,
+      "zero_Q_covariance_limit": 0,
+      "zero_Q_ridge_refit_limit": 9.801605428214416e-15,
+      "zero_input_exact": true,
+      "synthetic_controls": {
+        "duplicate_rank_before": 2,
+        "duplicate_rank_after": 1,
+        "duplicate_waveform_error": 9.999999765006412e-09,
+        "zero_Q_covariance_limit": 0,
+        "positive_Q_uncertainty_finite": true,
+        "scope": "Oracle-support numerical controls only, not performance evidence"
+      },
+      "elapsed_seconds": 269.6130379
+    }
+  ],
+  "provenance": [
+    {
+      "case": "FreshFoldLowQ",
+      "condition": "Moderate",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z\\FreshFoldLowQ\\Moderate.json",
+      "sha256": "91e41d099094febbd8d1df08bbf9712ab4ce1905ad646da674e560b2eb355c5d",
+      "truth_sha256": "5d328bc21a88bfe6e1f88814d68383bfa476ec37a64d1c24ecb2cf2c178b85b7"
+    },
+    {
+      "case": "FreshFoldLowQ",
+      "condition": "Strong",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z\\FreshFoldLowQ\\Strong.json",
+      "sha256": "33b423f1c80b8c8f8dc49be8100bd75bf65c8ded25e6a6b276bf1b50c35f64c0",
+      "truth_sha256": "5d328bc21a88bfe6e1f88814d68383bfa476ec37a64d1c24ecb2cf2c178b85b7"
+    },
+    {
+      "case": "FreshDenseQReverse",
+      "condition": "Moderate",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z\\FreshDenseQReverse\\Moderate.json",
+      "sha256": "849fe81e0c459d10820a3890589a189ec80c29828b6e99fa1328f8f19694eea9",
+      "truth_sha256": "cc4391646601aff42d50c32b3beafcc0a93f7e6ad3d0bca5744949e9094ef84b"
+    },
+    {
+      "case": "FreshDenseQReverse",
+      "condition": "Strong",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z\\FreshDenseQReverse\\Strong.json",
+      "sha256": "bbe6203a3887d8fe116f52d66a3048e291f8abfb6e3591b39c6c25e97572157f",
+      "truth_sha256": "cc4391646601aff42d50c32b3beafcc0a93f7e6ad3d0bca5744949e9094ef84b"
+    },
+    {
+      "case": "FreshThinLowFrequency",
+      "condition": "Moderate",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z\\FreshThinLowFrequency\\Moderate.json",
+      "sha256": "1166b635b2bdd7a94343986870637f2b89db3bca185df22e059ef166f3096b28",
+      "truth_sha256": "43febe4f4e85cb1ef9d8e1329e58907903280f82b6401c7b2f54d340800cc07e"
+    },
+    {
+      "case": "FreshThinLowFrequency",
+      "condition": "Strong",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\validation_20261023T065539Z\\FreshThinLowFrequency\\Strong.json",
+      "sha256": "6adb8d24aba496e5dcea83c3e7d80c8994702d1676f5753cf7289b242c4d8433",
+      "truth_sha256": "43febe4f4e85cb1ef9d8e1329e58907903280f82b6401c7b2f54d340800cc07e"
+    }
+  ],
+  "scope": "One development geology or three new same-family geological configurations; two dependent conditions per geology; descriptive equal-geology means, no significance claims."
+}

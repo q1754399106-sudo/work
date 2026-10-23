@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "model": "ThinHighFrequency",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/ThinHighFrequency/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/ThinHighFrequency/matlab');"
+  ],
+  "started_utc": "2026-10-21T14:54:53.558041+00:00",
+  "pid": 39276,
+  "exit_code": 0,
+  "elapsed_seconds": 12755.953
+}

@@ -1,0 +1,33 @@
+CALIBRATION_READY FreshFoldLowQ elapsed=73.2 Q=[33.32815       38.4778      54.19398      120.1165]
+SUPPORT_START FreshFoldLowQ Moderate traces=22
+METHOD_DONE FreshFoldLowQ Moderate GlobalTSVD rank_mean=98.05 elapsed=160.8
+METHOD_DONE FreshFoldLowQ Moderate ClusterModesNoQ rank_mean=58.73 elapsed=194.7
+METHOD_DONE FreshFoldLowQ Moderate QAwareRidge rank_mean=102.59 elapsed=194.9
+METHOD_DONE FreshFoldLowQ Moderate QAwareCluster rank_mean=57.91 elapsed=229.9
+SUPPORT_START FreshFoldLowQ Strong traces=22
+METHOD_DONE FreshFoldLowQ Strong GlobalTSVD rank_mean=87.23 elapsed=300.2
+METHOD_DONE FreshFoldLowQ Strong ClusterModesNoQ rank_mean=48.14 elapsed=322.2
+METHOD_DONE FreshFoldLowQ Strong QAwareRidge rank_mean=88.77 elapsed=322.4
+METHOD_DONE FreshFoldLowQ Strong QAwareCluster rank_mean=47.27 elapsed=343.1
+CALIBRATION_READY FreshDenseQReverse elapsed=64.5 Q=[130.9996      106.3442      76.81466      199.9943]
+SUPPORT_START FreshDenseQReverse Moderate traces=22
+METHOD_DONE FreshDenseQReverse Moderate GlobalTSVD rank_mean=133.68 elapsed=163.6
+METHOD_DONE FreshDenseQReverse Moderate ClusterModesNoQ rank_mean=84.32 elapsed=221.0
+METHOD_DONE FreshDenseQReverse Moderate QAwareRidge rank_mean=134.82 elapsed=221.2
+METHOD_DONE FreshDenseQReverse Moderate QAwareCluster rank_mean=83.55 elapsed=279.4
+SUPPORT_START FreshDenseQReverse Strong traces=22
+METHOD_DONE FreshDenseQReverse Strong GlobalTSVD rank_mean=111.77 elapsed=361.3
+METHOD_DONE FreshDenseQReverse Strong ClusterModesNoQ rank_mean=60.91 elapsed=399.0
+METHOD_DONE FreshDenseQReverse Strong QAwareRidge rank_mean=113.45 elapsed=399.1
+METHOD_DONE FreshDenseQReverse Strong QAwareCluster rank_mean=60.68 elapsed=437.7
+CALIBRATION_READY FreshThinLowFrequency elapsed=84.6 Q=[61.0383      61.0383      61.0383      61.0383]
+SUPPORT_START FreshThinLowFrequency Moderate traces=22
+METHOD_DONE FreshThinLowFrequency Moderate GlobalTSVD rank_mean=99.00 elapsed=135.6
+METHOD_DONE FreshThinLowFrequency Moderate ClusterModesNoQ rank_mean=59.32 elapsed=157.9
+METHOD_DONE FreshThinLowFrequency Moderate QAwareRidge rank_mean=100.77 elapsed=158.0
+METHOD_DONE FreshThinLowFrequency Moderate QAwareCluster rank_mean=59.23 elapsed=180.6
+SUPPORT_START FreshThinLowFrequency Strong traces=22
+METHOD_DONE FreshThinLowFrequency Strong GlobalTSVD rank_mean=87.82 elapsed=229.2
+METHOD_DONE FreshThinLowFrequency Strong ClusterModesNoQ rank_mean=49.18 elapsed=248.6
+METHOD_DONE FreshThinLowFrequency Strong QAwareRidge rank_mean=89.00 elapsed=248.8
+METHOD_DONE FreshThinLowFrequency Strong QAwareCluster rank_mean=48.36 elapsed=267.6

@@ -1,0 +1,664 @@
+{
+  "status": "FAIL",
+  "candidate": "CombinedUncertaintyV2",
+  "baseline": "Frozen",
+  "route": "Split",
+  "pairs": 360,
+  "equal_model_main_improvement": 0.045878754971638624,
+  "groups": [
+    {
+      "Suite": "LowerSNR",
+      "Model": "V2Audit_LowQDeep",
+      "n": 90,
+      "baseline": 0.8646892859741778,
+      "candidate": 0.8400251551141508,
+      "improvement_percent": 2.852369198982252,
+      "baseline_median": 0.8632408607813185,
+      "candidate_median": 0.845225747853194,
+      "baseline_p90": 0.8960123690081916,
+      "candidate_p90": 0.8635103533765958,
+      "baseline_p95": 0.897895567449018,
+      "candidate_p95": 0.8901023879024625,
+      "baseline_worst": 0.899197703063823,
+      "candidate_worst": 1.20667210061542,
+      "baseline_failures": 0,
+      "candidate_failures": 3
+    },
+    {
+      "Suite": "Main",
+      "Model": "V2Audit_LowQDeep",
+      "n": 90,
+      "baseline": 0.8135689665312342,
+      "candidate": 0.7762434352632185,
+      "improvement_percent": 4.5878754971638624,
+      "baseline_median": 0.813604017853396,
+      "candidate_median": 0.7813454413777785,
+      "baseline_p90": 0.8718368854167936,
+      "candidate_p90": 0.8556080873372712,
+      "baseline_p95": 0.873332952099701,
+      "candidate_p95": 0.8881350117968017,
+      "baseline_worst": 0.879757453348062,
+      "candidate_worst": 1.13788328111377,
+      "baseline_failures": 0,
+      "candidate_failures": 3
+    },
+    {
+      "Suite": "StressColoredNoise",
+      "Model": "V2Audit_LowQDeep",
+      "n": 36,
+      "baseline": 0.8552754498744007,
+      "candidate": 0.7634443505165623,
+      "improvement_percent": 10.737020379963436,
+      "baseline_median": 0.8566575457003021,
+      "candidate_median": 0.7587971642996025,
+      "baseline_p90": 0.879507885848816,
+      "candidate_p90": 0.8360792761476714,
+      "baseline_p95": 0.880486942871089,
+      "candidate_p95": 0.8422804736647245,
+      "baseline_worst": 0.880486942871089,
+      "candidate_worst": 0.845562453417642,
+      "baseline_failures": 0,
+      "candidate_failures": 0
+    },
+    {
+      "Suite": "StressNonRickerPhase",
+      "Model": "V2Audit_LowQDeep",
+      "n": 36,
+      "baseline": 0.9124451586291844,
+      "candidate": 0.8530465556741378,
+      "improvement_percent": 6.509827181754613,
+      "baseline_median": 0.9103305023946375,
+      "candidate_median": 0.8286877633946725,
+      "baseline_p90": 0.946048732212383,
+      "candidate_p90": 0.971322950813448,
+      "baseline_p95": 0.950388821003517,
+      "candidate_p95": 1.1421964656586925,
+      "baseline_worst": 0.950388821003517,
+      "candidate_worst": 1.15627949653753,
+      "baseline_failures": 0,
+      "candidate_failures": 3
+    },
+    {
+      "Suite": "StressResidualNMO",
+      "Model": "V2Audit_LowQDeep",
+      "n": 36,
+      "baseline": 0.853874914163876,
+      "candidate": 0.782819907143487,
+      "improvement_percent": 8.321477284523205,
+      "baseline_median": 0.8523359641991626,
+      "candidate_median": 0.7549909043386556,
+      "baseline_p90": 0.889471762202629,
+      "candidate_p90": 0.911596661304368,
+      "baseline_p95": 0.895028130812667,
+      "candidate_p95": 1.1133044813328425,
+      "baseline_worst": 0.895028130812667,
+      "candidate_worst": 1.14825602892727,
+      "baseline_failures": 0,
+      "candidate_failures": 3
+    },
+    {
+      "Suite": "StressVelocityError",
+      "Model": "V2Audit_LowQDeep",
+      "n": 36,
+      "baseline": 15.956874005852939,
+      "candidate": 0.7685102390631398,
+      "improvement_percent": 95.1838296223856,
+      "baseline_median": 15.5923126067558,
+      "candidate_median": 0.7392933614061186,
+      "baseline_p90": 22.192368340149052,
+      "candidate_p90": 0.8959863438013616,
+      "baseline_p95": 28.77381580789215,
+      "candidate_p95": 1.095799466966255,
+      "baseline_worst": 35.3522783948585,
+      "candidate_worst": 1.16174788201726,
+      "baseline_failures": 36,
+      "candidate_failures": 3
+    },
+    {
+      "Suite": "StressVelocityMinus3",
+      "Model": "V2Audit_LowQDeep",
+      "n": 36,
+      "baseline": 0.8417358062272127,
+      "candidate": 0.7685040428716962,
+      "improvement_percent": 8.700088889381142,
+      "baseline_median": 0.844640849907826,
+      "candidate_median": 0.7392805144005135,
+      "baseline_p90": 0.889214992605907,
+      "candidate_p90": 0.89593661656341,
+      "baseline_p95": 0.8960596200535474,
+      "candidate_p95": 1.09587781814496,
+      "baseline_worst": 0.910314286233409,
+      "candidate_worst": 1.1616068042715,
+      "baseline_failures": 0,
+      "candidate_failures": 3
+    }
+  ],
+  "checks": [
+    {
+      "name": "matched_prior_direct_present",
+      "pass_": true,
+      "detail": "CSV presence only; identical prior/Q and tuning-budget provenance must be audited separately."
+    },
+    {
+      "name": "local_scenario_coverage",
+      "pass_": true,
+      "detail": [
+        "CoherentNoiseAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "SmoothAVO",
+        "WeakSection"
+      ]
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "LowerSNR",
+        "Model": "V2Audit_LowQDeep",
+        "n": 90,
+        "baseline": 0.8646892859741778,
+        "candidate": 0.8400251551141508,
+        "improvement_percent": 2.852369198982252,
+        "baseline_median": 0.8632408607813185,
+        "candidate_median": 0.845225747853194,
+        "baseline_p90": 0.8960123690081916,
+        "candidate_p90": 0.8635103533765958,
+        "baseline_p95": 0.897895567449018,
+        "candidate_p95": 0.8901023879024625,
+        "baseline_worst": 0.899197703063823,
+        "candidate_worst": 1.20667210061542,
+        "baseline_failures": 0,
+        "candidate_failures": 3
+      }
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 0,
+        "candidate": 3,
+        "n": 90
+      }
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8176004064210208,
+        "candidate": 0.7077993939208735,
+        "allowance": 0.04088002032105104,
+        "n": 90
+      }
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8209932409571278,
+        "candidate": 0.7947280933853448,
+        "allowance": 0.04104966204785639,
+        "n": 18
+      }
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.860434006466833,
+        "candidate": 0.8579592476423565,
+        "allowance": 0.043021700323341655,
+        "n": 18
+      }
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.0002482969449396673,
+        "candidate": 0.00015522582920611742,
+        "allowance": 0.001,
+        "n": 18
+      }
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8187130674155577,
+        "candidate": 0.5367444193919274,
+        "allowance": 0.04093565337077789,
+        "n": 36
+      }
+    },
+    {
+      "name": "LowerSNR/V2Audit_LowQDeep/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8733117162367445,
+        "candidate": 0.6363381094777619,
+        "allowance": 0.04366558581183723,
+        "n": 36
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "V2Audit_LowQDeep",
+        "n": 90,
+        "baseline": 0.8135689665312342,
+        "candidate": 0.7762434352632185,
+        "improvement_percent": 4.5878754971638624,
+        "baseline_median": 0.813604017853396,
+        "candidate_median": 0.7813454413777785,
+        "baseline_p90": 0.8718368854167936,
+        "candidate_p90": 0.8556080873372712,
+        "baseline_p95": 0.873332952099701,
+        "candidate_p95": 0.8881350117968017,
+        "baseline_worst": 0.879757453348062,
+        "candidate_worst": 1.13788328111377,
+        "baseline_failures": 0,
+        "candidate_failures": 3
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 0,
+        "candidate": 3,
+        "n": 90
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7494946902329609,
+        "candidate": 0.6245290722558001,
+        "allowance": 0.037474734511648046,
+        "n": 90
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.774490622093163,
+        "candidate": 0.7303428146235311,
+        "allowance": 0.03872453110465815,
+        "n": 18
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7907794241765513,
+        "candidate": 0.7857277064195616,
+        "allowance": 0.03953897120882757,
+        "n": 18
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.000161532918906323,
+        "candidate": 0.00011171960660102734,
+        "allowance": 0.001,
+        "n": 18
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7630328168599851,
+        "candidate": 0.4467513320817861,
+        "allowance": 0.03815164084299926,
+        "n": 36
+      }
+    },
+    {
+      "name": "Main/V2Audit_LowQDeep/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.824348838696254,
+        "candidate": 0.5572380552673999,
+        "allowance": 0.0412174419348127,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressColoredNoise/V2Audit_LowQDeep/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressColoredNoise",
+        "Model": "V2Audit_LowQDeep",
+        "n": 36,
+        "baseline": 0.8552754498744007,
+        "candidate": 0.7634443505165623,
+        "improvement_percent": 10.737020379963436,
+        "baseline_median": 0.8566575457003021,
+        "candidate_median": 0.7587971642996025,
+        "baseline_p90": 0.879507885848816,
+        "candidate_p90": 0.8360792761476714,
+        "baseline_p95": 0.880486942871089,
+        "candidate_p95": 0.8422804736647245,
+        "baseline_worst": 0.880486942871089,
+        "candidate_worst": 0.845562453417642,
+        "baseline_failures": 0,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "StressColoredNoise/V2Audit_LowQDeep/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 0,
+        "candidate": 0,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressColoredNoise/V2Audit_LowQDeep/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7911774534758746,
+        "candidate": 0.5803511728308657,
+        "allowance": 0.03955887267379374,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressColoredNoise/V2Audit_LowQDeep/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7882211179646937,
+        "candidate": 0.5525987707971651,
+        "allowance": 0.03941105589823469,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressColoredNoise/V2Audit_LowQDeep/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8443037528305203,
+        "candidate": 0.6627032147234271,
+        "allowance": 0.042215187641526014,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressNonRickerPhase/V2Audit_LowQDeep/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressNonRickerPhase",
+        "Model": "V2Audit_LowQDeep",
+        "n": 36,
+        "baseline": 0.9124451586291844,
+        "candidate": 0.8530465556741378,
+        "improvement_percent": 6.509827181754613,
+        "baseline_median": 0.9103305023946375,
+        "candidate_median": 0.8286877633946725,
+        "baseline_p90": 0.946048732212383,
+        "candidate_p90": 0.971322950813448,
+        "baseline_p95": 0.950388821003517,
+        "candidate_p95": 1.1421964656586925,
+        "baseline_worst": 0.950388821003517,
+        "candidate_worst": 1.15627949653753,
+        "baseline_failures": 0,
+        "candidate_failures": 3
+      }
+    },
+    {
+      "name": "StressNonRickerPhase/V2Audit_LowQDeep/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 0,
+        "candidate": 3,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressNonRickerPhase/V2Audit_LowQDeep/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8253133346296084,
+        "candidate": 0.5347717348284605,
+        "allowance": 0.041265666731480424,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressNonRickerPhase/V2Audit_LowQDeep/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.833261299437286,
+        "candidate": 0.5112538325021417,
+        "allowance": 0.041663064971864304,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressNonRickerPhase/V2Audit_LowQDeep/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8804453614457577,
+        "candidate": 0.6117926928281637,
+        "allowance": 0.04402226807228789,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressResidualNMO/V2Audit_LowQDeep/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressResidualNMO",
+        "Model": "V2Audit_LowQDeep",
+        "n": 36,
+        "baseline": 0.853874914163876,
+        "candidate": 0.782819907143487,
+        "improvement_percent": 8.321477284523205,
+        "baseline_median": 0.8523359641991626,
+        "candidate_median": 0.7549909043386556,
+        "baseline_p90": 0.889471762202629,
+        "candidate_p90": 0.911596661304368,
+        "baseline_p95": 0.895028130812667,
+        "candidate_p95": 1.1133044813328425,
+        "baseline_worst": 0.895028130812667,
+        "candidate_worst": 1.14825602892727,
+        "baseline_failures": 0,
+        "candidate_failures": 3
+      }
+    },
+    {
+      "name": "StressResidualNMO/V2Audit_LowQDeep/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 0,
+        "candidate": 3,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressResidualNMO/V2Audit_LowQDeep/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7732987780440334,
+        "candidate": 0.48706491846657296,
+        "allowance": 0.03866493890220167,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressResidualNMO/V2Audit_LowQDeep/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7668457898097565,
+        "candidate": 0.4455607849082699,
+        "allowance": 0.038342289490487826,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressResidualNMO/V2Audit_LowQDeep/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7997987745080136,
+        "candidate": 0.49633736218187724,
+        "allowance": 0.03998993872540069,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityError/V2Audit_LowQDeep/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressVelocityError",
+        "Model": "V2Audit_LowQDeep",
+        "n": 36,
+        "baseline": 15.956874005852939,
+        "candidate": 0.7685102390631398,
+        "improvement_percent": 95.1838296223856,
+        "baseline_median": 15.5923126067558,
+        "candidate_median": 0.7392933614061186,
+        "baseline_p90": 22.192368340149052,
+        "candidate_p90": 0.8959863438013616,
+        "baseline_p95": 28.77381580789215,
+        "candidate_p95": 1.095799466966255,
+        "baseline_worst": 35.3522783948585,
+        "candidate_worst": 1.16174788201726,
+        "baseline_failures": 36,
+        "candidate_failures": 3
+      }
+    },
+    {
+      "name": "StressVelocityError/V2Audit_LowQDeep/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 36,
+        "candidate": 3,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityError/V2Audit_LowQDeep/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 6.567157645584504,
+        "candidate": 0.46846289237168215,
+        "allowance": 0.32835788227922524,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityError/V2Audit_LowQDeep/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 5.474884597449455,
+        "candidate": 0.44182647473839004,
+        "allowance": 0.27374422987247277,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityError/V2Audit_LowQDeep/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 4.854347436684982,
+        "candidate": 0.552421460109324,
+        "allowance": 0.24271737183424913,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/V2Audit_LowQDeep/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "StressVelocityMinus3",
+        "Model": "V2Audit_LowQDeep",
+        "n": 36,
+        "baseline": 0.8417358062272127,
+        "candidate": 0.7685040428716962,
+        "improvement_percent": 8.700088889381142,
+        "baseline_median": 0.844640849907826,
+        "candidate_median": 0.7392805144005135,
+        "baseline_p90": 0.889214992605907,
+        "candidate_p90": 0.89593661656341,
+        "baseline_p95": 0.8960596200535474,
+        "candidate_p95": 1.09587781814496,
+        "baseline_worst": 0.910314286233409,
+        "candidate_worst": 1.1616068042715,
+        "baseline_failures": 0,
+        "candidate_failures": 3
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/V2Audit_LowQDeep/failure_count",
+      "pass_": false,
+      "detail": {
+        "baseline": 0,
+        "candidate": 3,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/V2Audit_LowQDeep/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7441067790255779,
+        "candidate": 0.4684783175099349,
+        "allowance": 0.03720533895127889,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/V2Audit_LowQDeep/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7483901921576235,
+        "candidate": 0.44183939345366635,
+        "allowance": 0.03741950960788117,
+        "n": 36
+      }
+    },
+    {
+      "name": "StressVelocityMinus3/V2Audit_LowQDeep/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.8214657957082138,
+        "candidate": 0.5524173947650215,
+        "allowance": 0.041073289785410694,
+        "n": 36
+      }
+    },
+    {
+      "name": "main_equal_model_improvement",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.8135689665312342,
+        "candidate": 0.7762434352632185,
+        "relative_improvement": 0.045878754971638624
+      }
+    },
+    {
+      "name": "candidate_solver_quality",
+      "pass_": true,
+      "detail": "Direct and requested route included"
+    }
+  ],
+  "diagnostic_counts": {},
+  "scope": "Engineering gates on supplied paired metrics. No automatic proof of independent geology, absence of leakage or statistical significance.",
+  "unverified_requirements": [
+    "new geological holdout",
+    "repeated independent calibration",
+    "identical information/priors across routes",
+    "source/config hashes and actual execution",
+    "hierarchical uncertainty intervals"
+  ]
+}

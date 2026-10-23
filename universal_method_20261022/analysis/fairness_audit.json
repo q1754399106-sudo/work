@@ -1,0 +1,11 @@
+{
+  "source_hashes_unchanged": true,
+  "paired_cases": 60,
+  "same_calibration_Q_max_difference": 0.0,
+  "same_calibration_frequency_max_difference": 0.0,
+  "baseline_score_replay": 0,
+  "max_normal_residual": 9.994746886119226e-08,
+  "algorithm_rule": "Same fixed profile across all models and scenarios; truth/scene used by scoring driver only",
+  "consensus_source_hashes_unchanged": true,
+  "consensus_cases": 60
+}

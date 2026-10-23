@@ -1,0 +1,20 @@
+{
+  "variants": ["Baseline", "RawH", "PilotH", "AVOProtected", "EdgeAware", "Combined", "RawNormMatched"],
+  "pilot_lambda_multiplier": 4,
+  "edge_window_samples": 31,
+  "edge_max_lag_samples": 2,
+  "edge_correlation_threshold": 0.65,
+  "gamma": 10,
+  "scale_grid": [0.01, 0.03162277660168379, 0.1, 0.31622776601683794, 1, 3.1622776601683795, 10],
+  "residual_tolerance": 0.005,
+  "refinement_max_steps": 8,
+  "snr_db": 18,
+  "seeds": [20261018, 20261019, 20261020, 20261021, 20261022, 20261023],
+  "scenarios": ["SmoothAVO", "FaultSection", "PinchoutSection", "WeakSection", "CoherentNoiseAVO"],
+  "stress": [
+    {"name": "QLow", "q_scale": 0.8, "snr_db": 18},
+    {"name": "QHigh", "q_scale": 1.2, "snr_db": 18},
+    {"name": "LowerSNR", "q_scale": 1, "snr_db": 12}
+  ],
+  "stress_variants": ["Baseline", "Combined"]
+}

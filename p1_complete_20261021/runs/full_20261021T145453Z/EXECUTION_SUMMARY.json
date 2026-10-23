@@ -1,0 +1,153 @@
+{
+  "status": "COMPLETED",
+  "tasks": [
+    {
+      "status": "COMPLETED",
+      "model": "VelocityReversal",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/VelocityReversal/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/VelocityReversal/matlab');"
+      ],
+      "started_utc": "2026-10-21T14:54:53.558041+00:00",
+      "pid": 5616,
+      "exit_code": 0,
+      "elapsed_seconds": 12640.219
+    },
+    {
+      "status": "COMPLETED",
+      "model": "ThinHighFrequency",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/ThinHighFrequency/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/ThinHighFrequency/matlab');"
+      ],
+      "started_utc": "2026-10-21T14:54:53.558041+00:00",
+      "pid": 39276,
+      "exit_code": 0,
+      "elapsed_seconds": 12755.953
+    },
+    {
+      "status": "COMPLETED",
+      "model": "SoftLowQ",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/SoftLowQ/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/SoftLowQ/matlab');"
+      ],
+      "started_utc": "2026-10-21T14:54:53.558041+00:00",
+      "pid": 26748,
+      "exit_code": 0,
+      "elapsed_seconds": 12844.219
+    },
+    {
+      "status": "COMPLETED",
+      "model": "Dev_ModerateQ",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Dev_ModerateQ/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Dev_ModerateQ/matlab');"
+      ],
+      "started_utc": "2026-10-21T18:25:33.785891+00:00",
+      "pid": 15756,
+      "exit_code": 0,
+      "elapsed_seconds": 11764.0
+    },
+    {
+      "status": "COMPLETED",
+      "model": "Dev_DeepContrast",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Dev_DeepContrast/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Dev_DeepContrast/matlab');"
+      ],
+      "started_utc": "2026-10-21T18:27:29.520873+00:00",
+      "pid": 17124,
+      "exit_code": 0,
+      "elapsed_seconds": 12017.953000000001
+    },
+    {
+      "status": "COMPLETED",
+      "model": "Holdout_StrongAtten",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_StrongAtten/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_StrongAtten/matlab');"
+      ],
+      "started_utc": "2026-10-21T18:28:57.774697+00:00",
+      "pid": 35388,
+      "exit_code": 0,
+      "elapsed_seconds": 12944.718
+    },
+    {
+      "status": "COMPLETED",
+      "model": "Holdout_HighContrastReversal",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_HighContrastReversal/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_HighContrastReversal/matlab');"
+      ],
+      "started_utc": "2026-10-21T21:41:37.805634+00:00",
+      "pid": 32004,
+      "exit_code": 0,
+      "elapsed_seconds": 11855.108999999997
+    },
+    {
+      "status": "COMPLETED",
+      "model": "Holdout_ThinInterbed",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_ThinInterbed/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_ThinInterbed/matlab');"
+      ],
+      "started_utc": "2026-10-21T21:47:47.492222+00:00",
+      "pid": 21628,
+      "exit_code": 0,
+      "elapsed_seconds": 11673.796999999999
+    },
+    {
+      "status": "COMPLETED",
+      "model": "Holdout_DeepLowQ",
+      "command": [
+        "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+        "-wait",
+        "-nojvm",
+        "-singleCompThread",
+        "-batch",
+        "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/source/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_DeepLowQ/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/full_20261021T145453Z/Holdout_DeepLowQ/matlab');"
+      ],
+      "started_utc": "2026-10-21T22:04:48.898598+00:00",
+      "pid": 43472,
+      "exit_code": 0,
+      "elapsed_seconds": 12352.766000000003
+    }
+  ],
+  "source_changed_during_run": [],
+  "rows": 40824,
+  "expected_rows": 40824,
+  "coverage_complete": true
+}

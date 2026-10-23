@@ -1,0 +1,255 @@
+[
+  {
+    "Calibration": "Old",
+    "Route": "Direct",
+    "Method": "DecoupledWeak",
+    "ImprovementPercent": 0.5083923228451304,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "Old",
+    "Route": "Direct",
+    "Method": "Decoupled",
+    "ImprovementPercent": -0.4388926724818276,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/mean_degradation_above_2_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/WeakSection/WeakEventError"
+    ]
+  },
+  {
+    "Calibration": "Old",
+    "Route": "Direct",
+    "Method": "SharedIsotropic",
+    "ImprovementPercent": 0.17451377143110625,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "Old",
+    "Route": "Direct",
+    "Method": "Physical",
+    "ImprovementPercent": 2.050702765231527,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "Old",
+    "Route": "Split",
+    "Method": "DecoupledWeak",
+    "ImprovementPercent": 0.5082262612513988,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "Old",
+    "Route": "Split",
+    "Method": "Decoupled",
+    "ImprovementPercent": -0.4481536160949373,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/mean_degradation_above_2_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/WeakSection/WeakEventError"
+    ]
+  },
+  {
+    "Calibration": "Old",
+    "Route": "Split",
+    "Method": "SharedIsotropic",
+    "ImprovementPercent": 0.13742851719702465,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "Old",
+    "Route": "Split",
+    "Method": "Physical",
+    "ImprovementPercent": 2.0141207877127143,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Direct",
+    "Method": "DecoupledWeak",
+    "ImprovementPercent": 0.7470284258783488,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Direct",
+    "Method": "Decoupled",
+    "ImprovementPercent": -0.7064920444651124,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/mean_degradation_above_2_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/WeakSection/WeakEventError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Direct",
+    "Method": "SharedIsotropic",
+    "ImprovementPercent": -0.3054731454095849,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOGradientError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOGradientError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Direct",
+    "Method": "Physical",
+    "ImprovementPercent": -12.056338832889324,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/mean_degradation_above_2_percent",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOGradientError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOGradientError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Split",
+    "Method": "DecoupledWeak",
+    "ImprovementPercent": 0.7457887331871249,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Split",
+    "Method": "Decoupled",
+    "ImprovementPercent": -0.7286170835191452,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/mean_degradation_above_2_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/WeakSection/WeakEventError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Split",
+    "Method": "SharedIsotropic",
+    "ImprovementPercent": -0.3416829763817075,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOGradientError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOGradientError"
+    ]
+  },
+  {
+    "Calibration": "New",
+    "Route": "Split",
+    "Method": "Physical",
+    "ImprovementPercent": -12.100014349399203,
+    "Pass": false,
+    "Reasons": [
+      "overall_improvement_below_5_percent",
+      "Dev_DeepContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ModerateQ/mean_degradation_above_2_percent",
+      "Dev_ModerateQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinLowQ/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/mean_degradation_above_2_percent",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/CoherentNoiseAVO/AVOGradientError",
+      "Dev_ThinPairWideContrast/PinchoutSection/PinchoutTailError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOInterceptError",
+      "Dev_ThinPairWideContrast/SmoothAVO/AVOGradientError"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+CALIBRATION_READY QPoint080 elapsed=7.4 Q=[26.6625      30.7822      43.3552      96.0932]
+SUPPORT_START QPoint080 Moderate traces=22
+METHOD_DONE QPoint080 Moderate GlobalTSVD rank_mean=90.82 elapsed=83.2
+METHOD_DONE QPoint080 Moderate ClusterModesNoQ rank_mean=55.82 elapsed=109.6
+METHOD_DONE QPoint080 Moderate QAwareRidge rank_mean=92.55 elapsed=109.7
+METHOD_DONE QPoint080 Moderate QAwareCluster rank_mean=54.64 elapsed=136.6
+CALIBRATION_READY QPoint125 elapsed=5.5 Q=[41.66019      48.09726      67.74248      150.1456]
+SUPPORT_START QPoint125 Moderate traces=22
+METHOD_DONE QPoint125 Moderate GlobalTSVD rank_mean=108.73 elapsed=120.9
+METHOD_DONE QPoint125 Moderate ClusterModesNoQ rank_mean=66.09 elapsed=166.3
+METHOD_DONE QPoint125 Moderate QAwareRidge rank_mean=113.05 elapsed=166.5
+METHOD_DONE QPoint125 Moderate QAwareCluster rank_mean=66.41 elapsed=211.9

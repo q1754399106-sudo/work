@@ -1,0 +1,494 @@
+{
+  "development_only": true,
+  "rows": 672,
+  "results": {
+    "CombinedUncertainty": {
+      "status": "FAIL",
+      "passed": 104,
+      "total": 108,
+      "failed": [
+        {
+          "name": "StressVelocityPlus3/Dev_ModerateQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityPlus3",
+            "Model": "Dev_ModerateQ",
+            "n": 1,
+            "baseline": 10.9972302930992,
+            "candidate": 11.4986828986245,
+            "improvement_percent": -4.559808171335322,
+            "baseline_median": 10.9972302930992,
+            "candidate_median": 11.4986828986245,
+            "baseline_p90": 10.9972302930992,
+            "candidate_p90": 11.4986828986245,
+            "baseline_p95": 10.9972302930992,
+            "candidate_p95": 11.4986828986245,
+            "baseline_worst": 10.9972302930992,
+            "candidate_worst": 11.4986828986245,
+            "baseline_failures": 1,
+            "candidate_failures": 1
+          }
+        },
+        {
+          "name": "StressVelocityPlus3/Dev_ModerateQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 2.64212577555423,
+            "candidate": 2.80029148618854,
+            "allowance": 0.1321062887777115,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityPlus3/Dev_ModerateQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 2.33643497812194,
+            "candidate": 2.61250536654978,
+            "allowance": 0.116821748906097,
+            "n": 1
+          }
+        },
+        {
+          "name": "main_equal_model_improvement",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.7083528693454353,
+            "candidate": 0.6861502583855421,
+            "relative_improvement": 0.03134399805623689
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.03134399805623689,
+      "solver_failures": 0
+    },
+    "CombinedJointCalibration": {
+      "status": "FAIL",
+      "passed": 99,
+      "total": 108,
+      "failed": [
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.84548601554034,
+            "candidate": 2.5950082571702,
+            "allowance": 0.09227430077701701,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00313809667711491,
+            "candidate": 0.0102620680488835,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.792735677493171,
+            "candidate": 0.932892438039747,
+            "allowance": 0.03963678387465855,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinPairWideContrast/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.000696547384979592,
+            "candidate": 0.00176406013915303,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ModerateQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00196538838310368,
+            "candidate": 0.00308301964496815,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.98815813969812,
+            "candidate": 2.88344179525298,
+            "allowance": 0.09940790698490601,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00229046924436405,
+            "candidate": 0.00738509085533941,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.672854011465345,
+            "candidate": 0.940218569324604,
+            "allowance": 0.03364270057326725,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.000568308576057571,
+            "candidate": 0.00179487801532767,
+            "allowance": 0.001,
+            "n": 1
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.1621399944084566,
+      "solver_failures": 0,
+      "gain_vs_original_combined": 0.1350283238732395,
+      "feasible_for_validation": false
+    },
+    "ConfidenceOnly": {
+      "status": "FAIL",
+      "passed": 99,
+      "total": 108,
+      "failed": [
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.84548601554034,
+            "candidate": 2.57845514213646,
+            "allowance": 0.09227430077701701,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00313809667711491,
+            "candidate": 0.00996631084686379,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.792735677493171,
+            "candidate": 0.945876250982606,
+            "allowance": 0.03963678387465855,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinPairWideContrast/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.000696547384979592,
+            "candidate": 0.00171764838762927,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ModerateQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00196538838310368,
+            "candidate": 0.00299182676044623,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.98815813969812,
+            "candidate": 2.87060497097949,
+            "allowance": 0.09940790698490601,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00229046924436405,
+            "candidate": 0.00724198973573946,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.672854011465345,
+            "candidate": 0.930714960293388,
+            "allowance": 0.03364270057326725,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.000568308576057571,
+            "candidate": 0.00173286808532089,
+            "allowance": 0.001,
+            "n": 1
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.15625842167644888,
+      "solver_failures": 0,
+      "gain_vs_original_combined": 0.12895643383156785,
+      "feasible_for_validation": false
+    },
+    "ConfidenceBalanced": {
+      "status": "FAIL",
+      "passed": 101,
+      "total": 108,
+      "failed": [
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.84548601554034,
+            "candidate": 2.47808346889176,
+            "allowance": 0.09227430077701701,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00313809667711491,
+            "candidate": 0.00904684795065078,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.792735677493171,
+            "candidate": 0.960240638997842,
+            "allowance": 0.03963678387465855,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.98815813969812,
+            "candidate": 2.81605918640551,
+            "allowance": 0.09940790698490601,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00229046924436405,
+            "candidate": 0.00685477016559171,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.672854011465345,
+            "candidate": 0.89928191584692,
+            "allowance": 0.03364270057326725,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.000568308576057571,
+            "candidate": 0.00158419818903078,
+            "allowance": 0.001,
+            "n": 1
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.14386975936666058,
+      "solver_failures": 0,
+      "gain_vs_original_combined": 0.11616689628167565,
+      "feasible_for_validation": false
+    },
+    "ConfidenceLight": {
+      "status": "FAIL",
+      "passed": 102,
+      "total": 108,
+      "failed": [
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.84548601554034,
+            "candidate": 2.415835858476,
+            "allowance": 0.09227430077701701,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00313809667711491,
+            "candidate": 0.00744356924381208,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.792735677493171,
+            "candidate": 0.908948247360999,
+            "allowance": 0.03963678387465855,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.98815813969812,
+            "candidate": 2.76351398641582,
+            "allowance": 0.09940790698490601,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00229046924436405,
+            "candidate": 0.00541116387815904,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.672854011465345,
+            "candidate": 0.826330935724644,
+            "allowance": 0.03364270057326725,
+            "n": 1
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.14786202526308367,
+      "solver_failures": 0,
+      "gain_vs_original_combined": 0.12028834485414297,
+      "feasible_for_validation": false
+    },
+    "ConfidenceIdentityPenalty": {
+      "status": "FAIL",
+      "passed": 102,
+      "total": 108,
+      "failed": [
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.84548601554034,
+            "candidate": 2.41081432019314,
+            "allowance": 0.09227430077701701,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00313809667711491,
+            "candidate": 0.00749370714840345,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "LowerSNR/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.792735677493171,
+            "candidate": 0.906021729167842,
+            "allowance": 0.03963678387465855,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 1.98815813969812,
+            "candidate": 2.76830918862716,
+            "allowance": 0.09940790698490601,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinLowQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00229046924436405,
+            "candidate": 0.0054357417620227,
+            "allowance": 0.001,
+            "n": 1
+          }
+        },
+        {
+          "name": "Main/Dev_ThinPairWideContrast/WeakEventError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.672854011465345,
+            "candidate": 0.823368714489235,
+            "allowance": 0.03364270057326725,
+            "n": 1
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.14881424828885237,
+      "solver_failures": 0,
+      "gain_vs_original_combined": 0.12127138013587135,
+      "feasible_for_validation": false
+    }
+  },
+  "selected_profile": null,
+  "selection_rule": "All original engineering gates and solver quality; Main mean must improve vs original Combined; among feasible profiles minimize Main equal-model error",
+  "source_manifest_sha256": "448621bcfbc737bd96237b556dfec71a252c11f16f4e46d8f5effe936ee39ba4"
+}

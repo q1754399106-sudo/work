@@ -1,0 +1,58 @@
+[
+  {
+    "name": "wz.25.H",
+    "url": "https://ahay.org/data/wz/wz.25.H",
+    "reference": "https://ahay.org/RSF/book/tccs/orthogroll/field.html",
+    "description": "Yilmaz shot record used in published field ground-roll experiments; inspect header and upstream provenance before using.",
+    "headers": {
+      "Date": "Fri, 23 Oct 2026 04:29:21 GMT",
+      "Content-Type": "text/plain",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "last-modified": "Thu, 26 Sep 2024 22:51:46 GMT",
+      "etag": "W/\"bdc44-66f5e582-ac8a96ef4c9879df;gz\"",
+      "platform": "hostinger",
+      "panel": "hpanel",
+      "content-security-policy": "upgrade-insecure-requests",
+      "Server": "hcdn",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-hcdn-request-id": "c4fdf8a7d0f6071873e9e28ee2bf6a8b-tok-edge3",
+      "x-hcdn-cache-status": "DYNAMIC",
+      "x-hcdn-upstream-rt": "0.137"
+    },
+    "status": 200,
+    "bytes": 777284,
+    "sha256": "d21a055cbe281642f5d9085f9c22e9370d9de02219c061cff0f36b87c894b38a",
+    "elapsed_seconds": 0.9370000000053551,
+    "downloaded": true
+  },
+  {
+    "name": "L23535.SGY",
+    "url": "https://ahay.org/data/alaska/L23535.SGY",
+    "reference": "https://ahay.org/RSF/book/data/alaska/line31-81-m8r.html",
+    "description": "Madagascar mirror of USGS Alaska NPRA line 31-81 raw seismic; one original SEG-Y file.",
+    "headers": {
+      "Date": "Fri, 23 Oct 2026 04:29:21 GMT",
+      "Content-Type": "text/plain",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "last-modified": "Thu, 26 Sep 2024 22:46:24 GMT",
+      "etag": "W/\"235f5f0-66f5e440-4b8eb64879ccfa99;gz\"",
+      "platform": "hostinger",
+      "panel": "hpanel",
+      "content-security-policy": "upgrade-insecure-requests",
+      "Server": "hcdn",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-hcdn-request-id": "4842dee4d4e69c61ea7d85e05203bbeb-tok-edge3",
+      "x-hcdn-cache-status": "DYNAMIC",
+      "x-hcdn-upstream-rt": "0.113"
+    },
+    "status": 200,
+    "bytes": 37090800,
+    "sha256": "a07d59ee732100b36a985f83ed3222572d5b2e45aee966ee639ac0373cc08487",
+    "elapsed_seconds": 5.359000000004016,
+    "downloaded": true
+  }
+]

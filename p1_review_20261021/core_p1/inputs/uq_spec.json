@@ -1,0 +1,27 @@
+{
+  "calibration_seed":20261030,
+  "tuning_seeds":[20261031,20261032],
+  "test_seeds":[20261101,20261102,20261103,20261104,20261105,20261106],
+  "nominal_frequency_hz":[52,60,92],
+  "q_grid":[15,20,25,32,40,50,65,80,100,130,160,200],
+  "frequency_factors":[0.65,0.74375,0.8375,0.93125,1.025,1.11875,1.2125,1.30625,1.4],
+  "calibration_trace_indices":[1,4,7,11],
+  "event_half_window_s":0.12,
+  "huber_delta":1.5,
+  "irls_iterations":3,
+  "source_prior_log_scale":0.22314355131420976,
+  "source_prior_weight":4,
+  "profile_loss_increment_per_sample":0.02,
+  "test_scenarios":["SmoothAVO","FaultSection","PinchoutSection","WeakSection","CoherentNoiseAVO"],
+  "stress_scenarios":["SmoothAVO","CoherentNoiseAVO"],
+  "presets":[
+    {"name":"Baseline","gamma":0,"pilot_multiplier":4,"noise_target_multiplier":1},
+    {"name":"Frozen","gamma":10,"pilot_multiplier":4,"noise_target_multiplier":1},
+    {"name":"Conservative","gamma":10,"pilot_multiplier":4,"noise_target_multiplier":1.5},
+    {"name":"StructureStrong","gamma":30,"pilot_multiplier":8,"noise_target_multiplier":1.5},
+    {"name":"Damped","gamma":3,"pilot_multiplier":12,"noise_target_multiplier":2}
+  ],
+  "selection_rule":"Minimum mean symmetric cross-noise prediction error over all five scenes, Direct route only; within 1% choose larger target multiplier then smaller gamma. No clean truth or true Q is used.",
+  "expected_tuning_rows":300,
+  "expected_test_rows":756
+}

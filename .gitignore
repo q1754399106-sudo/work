@@ -1,0 +1,23 @@
+# Local Python environments and installed third-party packages
+.figure_env/
+.venv/
+venv/
+attenuation_run_20261019/dependencies/
+node_modules/
+
+# Rebuildable caches and operating-system metadata
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+

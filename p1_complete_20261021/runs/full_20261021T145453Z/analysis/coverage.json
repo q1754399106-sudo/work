@@ -1,0 +1,8 @@
+{
+  "expected_rows": 40824,
+  "actual_rows": 40824,
+  "duplicates": 0,
+  "missing_rows": 0,
+  "unexpected_rows": 0,
+  "complete": true
+}

@@ -1,0 +1,23 @@
+{
+  "helpers_byte_identical": {
+    "ray_absorption.m": "c74fe81b4925d1a069e81ad2d198e4b7bdfc14248f1df520f18faf373277a175",
+    "attenuation_matrix.m": "93d6cf4fd2f8fcb797016c02094d1b6ad8b63d1ca3cc83e0f5594bec2304c68b",
+    "ridge_operator.m": "f458abdb8726c0565abb9a116ec482860e4f77e35efa4d9862ea583191cc0a52"
+  },
+  "paired_observations": 60,
+  "same_calibration_parameters_verified": true,
+  "source_snapshot_changed_files": 0,
+  "numerical_checks": {
+    "completed": true,
+    "observations": 60,
+    "rows": 120,
+    "new_final_solver_flags": 0,
+    "max_new_normal_residual": 9.998149130579392e-08,
+    "max_old_normal_residual": 1.7062034306725902e-14,
+    "max_old_composition_replay": 4.856704418675686e-15,
+    "same_observation_assertions": 60,
+    "shared_calibration": true,
+    "elapsed_seconds": 752.0553519,
+    "matlab_version": "24.2.0.2923080 (R2024b) Update 6"
+  }
+}

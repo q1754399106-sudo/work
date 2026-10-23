@@ -1,0 +1,11 @@
+{
+  "original_run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\layered_development_screen_20261022T042016Z",
+  "files": {
+    "calibration_Dev_DeepContrast.json": "abca1e48ced6a0b2c8c8a6ec9021180d4230d14fbc356ba2be124e8de59068bb",
+    "calibration_Dev_ModerateQ.json": "bffede823a20fb54ae2f1ef208e9ccc1db925dbd19773b86ba6120f56b8ecc3c",
+    "calibration_Dev_ThinLowQ.json": "2f2accf444c465d2daef1f90c6a4c6c99232ed8b8e853660af7cb0f39a8c9d84",
+    "calibration_Dev_ThinPairWideContrast.json": "239189f2b512f4d8357c0c7ff308b62f4c0cc060e1d0cdbc973d974d5bca1470",
+    "original_development_metrics.csv": "7265e1d51821ed4290dcf389442cbeb7940c09b9bcf04f754b946f7852cbe2ae",
+    "trial_plan.json": "d4a49e1690e06bc97aabd8f6c9cad6c407627658b18573b2b1e399920d7d9c12"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "model": {
+    "name": "Holdout_DeepLowQ",
+    "vp": [
+      2000,
+      2300,
+      2650,
+      3000
+    ],
+    "vs": [
+      900,
+      1120,
+      1360,
+      1600
+    ],
+    "rho": [
+      2.0,
+      2.16,
+      2.29,
+      2.44
+    ],
+    "Q": [
+      70,
+      50,
+      28,
+      45
+    ],
+    "event_t": [
+      0.38,
+      0.66,
+      0.95
+    ],
+    "fpeak": 58,
+    "nominal_frequency": 65
+  },
+  "group": "heldout_new_geology",
+  "calibration_seeds": [
+    20261030,
+    20261035,
+    20261040
+  ],
+  "test_seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105,
+    20261106
+  ],
+  "methods": [
+    "Baseline",
+    "Frozen",
+    "StrongerDamping",
+    "NoiseUncertaintyOnly",
+    "QModelErrorOnly",
+    "CombinedUncertainty",
+    "CombinedUncertainty_NoStructure"
+  ],
+  "suites": [
+    {
+      "vp_multiplier": 1.0,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.0,
+      "ar1_rho": 0.0,
+      "name": "Main",
+      "kind": "normal",
+      "scenarios": [
+        "SmoothAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "WeakSection",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    },
+    {
+      "vp_multiplier": 1.0,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.0,
+      "ar1_rho": 0.0,
+      "name": "LowerSNR",
+      "kind": "normal",
+      "scenarios": [
+        "SmoothAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "WeakSection",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 12
+    },
+    {
+      "vp_multiplier": 1.0,
+      "h_multiplier": 1.0,
+      "phase_deg": 30.0,
+      "max_nmo_shift_s": 0.0,
+      "ar1_rho": 0.0,
+      "name": "StressNonRickerPhase",
+      "kind": "phase",
+      "scenarios": [
+        "SmoothAVO",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    },
+    {
+      "vp_multiplier": 1.03,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.0,
+      "ar1_rho": 0.0,
+      "name": "StressVelocityError",
+      "kind": "velocity",
+      "scenarios": [
+        "SmoothAVO",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    },
+    {
+      "vp_multiplier": 1.0,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.004,
+      "ar1_rho": 0.0,
+      "name": "StressResidualNMO",
+      "kind": "nmo",
+      "scenarios": [
+        "SmoothAVO",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    },
+    {
+      "vp_multiplier": 1.0,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.0,
+      "ar1_rho": 0.55,
+      "name": "StressColoredNoise",
+      "kind": "colored",
+      "scenarios": [
+        "SmoothAVO",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    }
+  ],
+  "preflight": false
+}

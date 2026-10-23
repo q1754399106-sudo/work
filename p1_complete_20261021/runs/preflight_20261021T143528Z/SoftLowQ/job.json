@@ -1,0 +1,100 @@
+{
+  "model": {
+    "name": "SoftLowQ",
+    "vp": [
+      1850,
+      2050,
+      2300,
+      2550
+    ],
+    "vs": [
+      800,
+      980,
+      1200,
+      1400
+    ],
+    "rho": [
+      1.95,
+      2.08,
+      2.22,
+      2.35
+    ],
+    "Q": [
+      22,
+      30,
+      42,
+      60
+    ],
+    "event_t": [
+      0.34,
+      0.6,
+      0.94
+    ],
+    "fpeak": 45,
+    "nominal_frequency": 52
+  },
+  "group": "historical",
+  "calibration_seeds": [
+    20261030
+  ],
+  "test_seeds": [
+    20261101
+  ],
+  "methods": [
+    "Baseline",
+    "Frozen",
+    "StrongerDamping",
+    "NoiseUncertaintyOnly",
+    "QModelErrorOnly",
+    "CombinedUncertainty",
+    "CombinedUncertainty_NoStructure"
+  ],
+  "suites": [
+    {
+      "vp_multiplier": 1.0,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.0,
+      "ar1_rho": 0.0,
+      "name": "Main",
+      "kind": "normal",
+      "scenarios": [
+        "SmoothAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "WeakSection",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    },
+    {
+      "vp_multiplier": 1.03,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.0,
+      "ar1_rho": 0.0,
+      "name": "StressVelocityError",
+      "kind": "velocity",
+      "scenarios": [
+        "SmoothAVO",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    },
+    {
+      "vp_multiplier": 1.0,
+      "h_multiplier": 1.0,
+      "phase_deg": 0.0,
+      "max_nmo_shift_s": 0.004,
+      "ar1_rho": 0.0,
+      "name": "StressResidualNMO",
+      "kind": "nmo",
+      "scenarios": [
+        "SmoothAVO",
+        "CoherentNoiseAVO"
+      ],
+      "snr_db": 18
+    }
+  ],
+  "preflight": true
+}

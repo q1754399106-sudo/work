@@ -1,0 +1,173 @@
+{
+  "Model": "TestDeepLoss",
+  "Suite": "Main",
+  "Scenario": "PinchoutSection",
+  "Seed": 620122,
+  "CalibrationSeed": 520103,
+  "Method": "Frozen",
+  "FailureMessage": "",
+  "records": [
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 18,
+      "normal_residual": 9.1594180139762088E-8,
+      "data_residual": 0.0087538518502271127
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 22,
+      "normal_residual": 8.2931130111033961E-8,
+      "data_residual": 0.0097805467978180315
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 27,
+      "normal_residual": 7.7283798542225747E-8,
+      "data_residual": 0.011469093833594771
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 32,
+      "normal_residual": 9.007520188028871E-8,
+      "data_residual": 0.014843394253773923
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 38,
+      "normal_residual": 7.2812264203813076E-8,
+      "data_residual": 0.021513996599640497
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 42,
+      "normal_residual": 9.9566843034962192E-8,
+      "data_residual": 0.034632327909315169
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 47,
+      "normal_residual": 7.188868906493606E-8,
+      "data_residual": 0.057274283097852381
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 35,
+      "normal_residual": 8.1539467907291016E-8,
+      "data_residual": 0.017628120863416207
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 34,
+      "normal_residual": 7.4402472870800108E-8,
+      "data_residual": 0.016120000193608514
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 34,
+      "normal_residual": 9.5284281612667608E-8,
+      "data_residual": 0.016842826651530595
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 34,
+      "normal_residual": 8.4430668513188037E-8,
+      "data_residual": 0.016473913888735123
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 34,
+      "normal_residual": 8.9727486162672647E-8,
+      "data_residual": 0.016656458331438032
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 34,
+      "normal_residual": 9.2468901637397339E-8,
+      "data_residual": 0.016749159744452641
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG",
+      "iterations": 34,
+      "normal_residual": 9.2819810605893949E-8,
+      "data_residual": 0.016742102847723889
+    }
+  ],
+  "direct_record": {
+    "flag": 0,
+    "initial_flag": 0,
+    "solver": "PCG",
+    "iterations": 34,
+    "normal_residual": 9.2468901637397339E-8,
+    "data_residual": 0.016749159744452641
+  },
+  "split_record": {
+    "flag": 0,
+    "initial_flag": 0,
+    "solver": "PCG",
+    "iterations": 34,
+    "normal_residual": 9.2819810605893949E-8,
+    "data_residual": 0.016742102847723889
+  },
+  "scale": 0.47828581416537913,
+  "scale_grid": [
+    0.01,
+    0.031622776601683791,
+    0.1,
+    0.31622776601683794,
+    1,
+    3.1622776601683795,
+    10,
+    0.56234132519034907,
+    0.42169650342858228,
+    0.48696752516586311,
+    0.45315836376008178,
+    0.46975888167064916,
+    0.47828581416537913
+  ],
+  "residual_grid": [
+    0.0087538518502271127,
+    0.0097805467978180315,
+    0.011469093833594771,
+    0.014843394253773923,
+    0.021513996599640497,
+    0.034632327909315169,
+    0.057274283097852381,
+    0.017628120863416207,
+    0.016120000193608514,
+    0.016842826651530595,
+    0.016473913888735123,
+    0.016656458331438032,
+    0.016749159744452641
+  ],
+  "target": 0.016746994127735365,
+  "endpoint": false,
+  "residual_mismatch": 0.00012931375629321451
+}

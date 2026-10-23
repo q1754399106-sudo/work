@@ -1,0 +1,108 @@
+{
+  "checks": {
+    "complete": true,
+    "cases": 100,
+    "rows": 500,
+    "optimization_flags": 0,
+    "max_normal": 1.4987128123833177e-14,
+    "baseline_flags": 0,
+    "max_baseline_normal": 9.999939541319491e-08,
+    "elapsed_seconds": 1316.3445639
+  },
+  "means": {
+    "normal": {
+      "FixedSplit": {
+        "RelativeError": 0.8376663344931353,
+        "EventAmplitudeError": 0.5005832622026883,
+        "WeakEventError": 1.6703816536278036,
+        "AVOGradientError": 0.45554015050097835,
+        "NoiseWindowRMS": 0.002981249876006992,
+        "FaultNeighborhoodError": 0.8567294243391298,
+        "PinchoutTailError": 0.027289288768404526
+      },
+      "FixedSplitSharedCal": {
+        "RelativeError": 0.8093064915864202,
+        "EventAmplitudeError": 0.48673848731771124,
+        "WeakEventError": 1.877685458529072,
+        "AVOGradientError": 0.45554015050097835,
+        "NoiseWindowRMS": 0.0026837841524225328,
+        "FaultNeighborhoodError": 0.8153851344976784,
+        "PinchoutTailError": 0.02685798030290572
+      },
+      "DecoupledWeak": {
+        "RelativeError": 0.6160076244514976,
+        "EventAmplitudeError": 0.5225936864809415,
+        "WeakEventError": 1.762329453219382,
+        "AVOGradientError": 0.5223359839240586,
+        "NoiseWindowRMS": 0.0009176144226746114,
+        "FaultNeighborhoodError": 0.6374536528191919,
+        "PinchoutTailError": 0.004632556437740239
+      },
+      "FullCalRefit": {
+        "RelativeError": 0.20235254928904833,
+        "EventAmplitudeError": 0.0635621430990737,
+        "WeakEventError": 0.36881765620497925,
+        "AVOGradientError": 0.03002090480820579,
+        "NoiseWindowRMS": 0.00014215830597669215,
+        "FaultNeighborhoodError": 0.10593194447034272,
+        "PinchoutTailError": 0.004295015082863668
+      },
+      "PrunedFullCalRefit": {
+        "RelativeError": 0.1754945012213049,
+        "EventAmplitudeError": 0.06498221308419119,
+        "WeakEventError": 0.5011426336075011,
+        "AVOGradientError": 0.03370605523047988,
+        "NoiseWindowRMS": 1.1161430918177562e-05,
+        "FaultNeighborhoodError": 0.08550235787119577,
+        "PinchoutTailError": 0.0
+      }
+    },
+    "colored": {
+      "FixedSplit": {
+        "RelativeError": 0.8615643559623505,
+        "EventAmplitudeError": 0.5031062935741779,
+        "WeakEventError": 1.818406342478517,
+        "AVOGradientError": 0.4595088798592931,
+        "NoiseWindowRMS": 0.0031804666554555603,
+        "FaultNeighborhoodError": 0.884832057546597,
+        "PinchoutTailError": 0.030169104916104708
+      },
+      "FixedSplitSharedCal": {
+        "RelativeError": 0.8394264379292109,
+        "EventAmplitudeError": 0.4892594285388016,
+        "WeakEventError": 2.046900837109635,
+        "AVOGradientError": 0.4595088798592931,
+        "NoiseWindowRMS": 0.0030145911403981246,
+        "FaultNeighborhoodError": 0.85152437113806,
+        "PinchoutTailError": 0.0303368833026205
+      },
+      "DecoupledWeak": {
+        "RelativeError": 0.6830072585990759,
+        "EventAmplitudeError": 0.6072161510801566,
+        "WeakEventError": 1.7959577331654353,
+        "AVOGradientError": 0.603352108471531,
+        "NoiseWindowRMS": 0.0007569070077081208,
+        "FaultNeighborhoodError": 0.7259009965963772,
+        "PinchoutTailError": 0.005885588692021928
+      },
+      "FullCalRefit": {
+        "RelativeError": 0.29274361811560334,
+        "EventAmplitudeError": 0.08380783318429103,
+        "WeakEventError": 0.5725035524055736,
+        "AVOGradientError": 0.057071257895278754,
+        "NoiseWindowRMS": 0.00029257223847925864,
+        "FaultNeighborhoodError": 0.14748940648224623,
+        "PinchoutTailError": 0.013346887176433031
+      },
+      "PrunedFullCalRefit": {
+        "RelativeError": 0.22481063392876552,
+        "EventAmplitudeError": 0.08414727497808744,
+        "WeakEventError": 0.7652724641524555,
+        "AVOGradientError": 0.0474888370811216,
+        "NoiseWindowRMS": 2.9189063896794243e-05,
+        "FaultNeighborhoodError": 0.0934637657914906,
+        "PinchoutTailError": 0.0
+      }
+    }
+  }
+}

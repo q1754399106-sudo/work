@@ -1,0 +1,181 @@
+{
+  "execution_status": "COMPLETED",
+  "rows": 108,
+  "source_changed_after_start": [],
+  "quality": {
+    "solver_flags": 0,
+    "max_normal_residual": 9.99823853814995e-08,
+    "rows": 108,
+    "elapsed_seconds": 228.1922345,
+    "smoke": true,
+    "version": "24.2.0.2923080 (R2024b) Update 6"
+  },
+  "regressions": {
+    "pass": true,
+    "cubature_covariance_error": 8.337507656981598e-17,
+    "active_tail_diagonal_entries": 161,
+    "no_structure_normal_residual": 1.2195488925319728e-16,
+    "pure_q_noise_entries": 0,
+    "uncertainty_weight_change": 0.8749332583187677,
+    "zero_uncertainty_point_penalty_error": 8.40842783345574e-15,
+    "recalibrated_operator_change": 2.0867278287048108
+  },
+  "methods": {
+    "Baseline": {
+      "main_mean": 0.876420227371982,
+      "previous_main_mean": 0.876420227371982
+    },
+    "CombinedFixedTarget": {
+      "main_mean": 0.692212763752815,
+      "previous_main_mean": null
+    },
+    "CombinedUncertainty": {
+      "main_mean": 0.674591530990837,
+      "previous_main_mean": 0.6742598031368416
+    },
+    "CombinedUncertainty_NoStructure": {
+      "main_mean": 0.791706499829628,
+      "previous_main_mean": 0.7929040060625308
+    },
+    "Frozen": {
+      "main_mean": 0.7506621740146819,
+      "previous_main_mean": 0.7506621740146819
+    },
+    "NoiseUncertaintyOnly": {
+      "main_mean": 0.673959572561774,
+      "previous_main_mean": 0.673959572561774
+    },
+    "QModelErrorOnly": {
+      "main_mean": 0.7979341546186506,
+      "previous_main_mean": 0.7466595841259802
+    },
+    "StrongerDamping": {
+      "main_mean": 0.768211008682105,
+      "previous_main_mean": 0.768211008682105
+    },
+    "TargetMatched": {
+      "main_mean": 0.7537703652199924,
+      "previous_main_mean": null
+    }
+  },
+  "scenes": [
+    {
+      "scene": "CoherentNoiseAVO",
+      "frozen": 1.13211283214431,
+      "combined": 0.779943707242902,
+      "improvement_percent": 31.107246106765896
+    },
+    {
+      "scene": "FaultSection",
+      "frozen": 0.66656886039347,
+      "combined": 0.670918205613658,
+      "improvement_percent": -0.6524975105528741
+    },
+    {
+      "scene": "PinchoutSection",
+      "frozen": 0.625761323494933,
+      "combined": 0.612496112700944,
+      "improvement_percent": 2.11985149863555
+    },
+    {
+      "scene": "SmoothAVO",
+      "frozen": 0.667975505947049,
+      "combined": 0.641960720835724,
+      "improvement_percent": 3.894571714039352
+    },
+    {
+      "scene": "WeakSection",
+      "frozen": 0.660892348093648,
+      "combined": 0.667638908560957,
+      "improvement_percent": -1.0208259312987078
+    }
+  ],
+  "main_improvement_percent": 10.133805279811137,
+  "solver_violations": [],
+  "acceptance": {
+    "acceptance_combined": {
+      "status": "FAIL",
+      "checks": 17,
+      "failed_checks": [
+        {
+          "name": "StressVelocityError/SoftLowQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityError",
+            "Model": "SoftLowQ",
+            "n": 1,
+            "baseline": 7.47115833239619,
+            "candidate": 8.49721459909905,
+            "improvement_percent": -13.733563405472339,
+            "baseline_median": 7.47115833239619,
+            "candidate_median": 8.49721459909905,
+            "baseline_p90": 7.47115833239619,
+            "candidate_p90": 8.49721459909905,
+            "baseline_p95": 7.47115833239619,
+            "candidate_p95": 8.49721459909905,
+            "baseline_worst": 7.47115833239619,
+            "candidate_worst": 8.49721459909905,
+            "baseline_failures": 1,
+            "candidate_failures": 1
+          }
+        },
+        {
+          "name": "StressVelocityError/SoftLowQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 3.44756234155844,
+            "candidate": 3.91267679304114,
+            "allowance": 0.17237811707792203,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityError/SoftLowQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 2.65751126114753,
+            "candidate": 3.01326155051287,
+            "allowance": 0.1328755630573765,
+            "n": 1
+          }
+        }
+      ]
+    },
+    "acceptance_target_matched": {
+      "status": "FAIL",
+      "checks": 17,
+      "failed_checks": [
+        {
+          "name": "Main/SoftLowQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.5887175596411816,
+            "candidate": 0.6337073218284834,
+            "allowance": 0.02943587798205908,
+            "n": 2
+          }
+        }
+      ]
+    }
+  },
+  "velocity_stress": [
+    {
+      "vp_multiplier": 1.03,
+      "operator_change": 2.3373149767412484,
+      "effective_Q": 15.014928148776356,
+      "Q_boundary": true,
+      "optimizer_exitflag": 0,
+      "errors": {
+        "Baseline": 8.18705058127176,
+        "Frozen": 7.47115833239619,
+        "StrongerDamping": 5.34468456211393,
+        "NoiseUncertaintyOnly": 7.64350160669258,
+        "QModelErrorOnly": 9.01156165356009,
+        "CombinedUncertainty": 8.49721459909905,
+        "CombinedUncertainty_NoStructure": 9.46390932809631,
+        "TargetMatched": 9.10168663308298,
+        "CombinedFixedTarget": 6.78665684504869
+      }
+    }
+  ]
+}

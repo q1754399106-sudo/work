@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "model": "SoftLowQ",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/core_p1'); run_complete_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/preflight_20261021T143629Z/SoftLowQ/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_complete_20261021/runs/preflight_20261021T143629Z/SoftLowQ/matlab');"
+  ],
+  "started_utc": "2026-10-21T14:36:29.540861+00:00",
+  "pid": 17792,
+  "exit_code": 0,
+  "elapsed_seconds": 350.89100000000144
+}

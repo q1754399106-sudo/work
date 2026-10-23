@@ -1,0 +1,7 @@
+{
+  "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_experiment_20261023.zip",
+  "bytes": 18412816,
+  "sha256": "508942a93a2d7d4eed9c02f765d86ac7c7ebba327f4386440ff9af2b04b42850",
+  "files": 620,
+  "contents": "All actual inversion/scoring inputs and 22-trace targets, exact run outputs/snapshots/logs, code, frozen manifests, CSV and figures. Full 99-trace generator scratch arrays remain locally in generated/ and are excluded; generator source and variant plans retained."
+}

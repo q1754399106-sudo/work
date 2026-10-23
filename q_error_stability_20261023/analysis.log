@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "primary": {
+      "complete": true,
+      "protocol": "primary",
+      "scenarios": 13,
+      "dataset_cases": 26,
+      "optimization_flags": 0,
+      "maximum_normal_residual": 8.153102651874592e-15,
+      "elapsed_seconds": 51.8248724
+    },
+    "complex": {
+      "complete": true,
+      "protocol": "complex",
+      "scenarios": 7,
+      "dataset_cases": 14,
+      "optimization_flags": 0,
+      "maximum_normal_residual": 9.548223269631879e-15,
+      "elapsed_seconds": 522.4099402
+    }
+  },
+  "practical_intervals": [
+    {
+      "condition": "Moderate",
+      "method": "fixed",
+      "contiguous_tested_interval_percent": [
+        0.0,
+        40.0
+      ],
+      "left_reaches_test_limit": false,
+      "right_reaches_test_limit": false,
+      "definition": "Overall error <=110%, weak amplitude error <=115%, nonlinear noise gain <=200% of own zero-bias baseline. Tested grid only, not a confidence interval."
+    },
+    {
+      "condition": "Moderate",
+      "method": "unpruned",
+      "contiguous_tested_interval_percent": [
+        0.0,
+        0.0
+      ],
+      "left_reaches_test_limit": false,
+      "right_reaches_test_limit": false,
+      "definition": "Overall error <=110%, weak amplitude error <=115%, nonlinear noise gain <=200% of own zero-bias baseline. Tested grid only, not a confidence interval."
+    },
+    {
+      "condition": "Moderate",
+      "method": "optimized",
+      "contiguous_tested_interval_percent": [
+        0.0,
+        0.0
+      ],
+      "left_reaches_test_limit": false,
+      "right_reaches_test_limit": false,
+      "definition": "Overall error <=110%, weak amplitude error <=115%, nonlinear noise gain <=200% of own zero-bias baseline. Tested grid only, not a confidence interval."
+    },
+    {
+      "condition": "Strong",
+      "method": "fixed",
+      "contiguous_tested_interval_percent": [
+        -10.0,
+        50.0
+      ],
+      "left_reaches_test_limit": false,
+      "right_reaches_test_limit": true,
+      "definition": "Overall error <=110%, weak amplitude error <=115%, nonlinear noise gain <=200% of own zero-bias baseline. Tested grid only, not a confidence interval."
+    },
+    {
+      "condition": "Strong",
+      "method": "unpruned",
+      "contiguous_tested_interval_percent": [
+        0.0,
+        20.0
+      ],
+      "left_reaches_test_limit": false,
+      "right_reaches_test_limit": false,
+      "definition": "Overall error <=110%, weak amplitude error <=115%, nonlinear noise gain <=200% of own zero-bias baseline. Tested grid only, not a confidence interval."
+    },
+    {
+      "condition": "Strong",
+      "method": "optimized",
+      "contiguous_tested_interval_percent": [
+        0.0,
+        0.0
+      ],
+      "left_reaches_test_limit": false,
+      "right_reaches_test_limit": false,
+      "definition": "Overall error <=110%, weak amplitude error <=115%, nonlinear noise gain <=200% of own zero-bias baseline. Tested grid only, not a confidence interval."
+    }
+  ],
+  "rows": 120
+}

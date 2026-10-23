@@ -1,0 +1,6 @@
+Layered 1.000 SmoothAVO accepted=1 Qeff=42.976 f=55.146 RelErr=0.473395 WeakErr=NaN elapsed=76.6s
+Layered 1.000 WeakSection accepted=1 Qeff=42.976 f=55.146 RelErr=0.542273 WeakErr=0.312197 elapsed=83.2s
+Layered 0.970 SmoothAVO accepted=1 Qeff=43.724 f=53.846 RelErr=0.487595 WeakErr=NaN elapsed=165.5s
+Layered 0.970 WeakSection accepted=1 Qeff=43.724 f=53.846 RelErr=0.554633 WeakErr=0.347601 elapsed=171.5s
+Layered 1.030 SmoothAVO accepted=1 Qeff=43.724 f=53.844 RelErr=0.487602 WeakErr=NaN elapsed=247.3s
+Layered 1.030 WeakSection accepted=1 Qeff=43.724 f=53.844 RelErr=0.554639 WeakErr=0.347639 elapsed=253.1s

@@ -1,0 +1,16 @@
+{
+  "pairs": 20412,
+  "fields": [
+    "EffectiveQ",
+    "EstimatedFrequency",
+    "Scale",
+    "QUncertainty",
+    "FUncertainty",
+    "PriorSigmaSum",
+    "PriorLambdaSum",
+    "PriorHFro",
+    "TargetMultiplier"
+  ],
+  "mismatches": [],
+  "passed": true
+}

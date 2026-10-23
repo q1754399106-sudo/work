@@ -1,0 +1,17 @@
+C:\Users\qq175\Documents\ChatGPT\ÑÐ¾¿\p1_improved_20261022\runs\validation_harness_smoke_20261022T053327Z
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/p1_improved_20261022/runs/validation_harness_smoke_20261022T053327Z/source/core_p1');run_validation_smoke('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/p1_improved_20261022/runs/validation_harness_smoke_20261022T053327Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T05:33:28.075416+00:00",
+  "timeout_seconds": 3600.0,
+  "pid": 39420,
+  "exit_code": 0,
+  "elapsed_seconds": 309.0939999999973
+}

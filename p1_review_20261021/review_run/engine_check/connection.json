@@ -1,0 +1,9 @@
+{
+  "action": "check",
+  "created_utc": "2026-10-21T12:28:38.979569+00:00",
+  "session_required": "ResearchMATLAB",
+  "started_new_instance": false,
+  "status": "FAILED",
+  "error": "RuntimeError('unable to read D:\\\\Program Files (x86)\\\\MATLAB2024B\\\\extern\\\\engines\\\\python\\\\dist\\\\matlab\\\\engine\\\\_arch.txt')",
+  "elapsed_seconds": 0.3590000000000373
+}

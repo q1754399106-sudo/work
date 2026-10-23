@@ -1,0 +1,21 @@
+{
+  "action": "replay",
+  "created_utc": "2026-10-19T04:49:57.292976+00:00",
+  "session_required": "ResearchMATLAB",
+  "started_new_instance": false,
+  "discovered_sessions": [
+    "ResearchMATLAB"
+  ],
+  "session": "ResearchMATLAB",
+  "version": "24.2.0.2923080 (R2024b) Update 6",
+  "sqrt144": 12.0,
+  "status": "COMPLETED",
+  "preserved": {
+    "path": true,
+    "pwd": true,
+    "rng": true,
+    "workspace": true,
+    "figures": true
+  },
+  "elapsed_seconds": 535.8599999999999
+}

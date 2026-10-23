@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "model": "V2Audit_Reversal",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/source/core_p1');run_validation_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_Reversal/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_Reversal/matlab');"
+  ],
+  "started_utc": "2026-10-22T05:41:43.700741+00:00",
+  "pid": 14692,
+  "exit_code": 0,
+  "elapsed_seconds": 13118.593999999997
+}

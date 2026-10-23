@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/fullcal_control_20261022T160828Z/source/core_p1');run_fullcal_control('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/fullcal_control_20261022T160828Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T16:08:30.253800+00:00",
+  "timeout_seconds": 1200.0,
+  "pid": 17740,
+  "exit_code": 0,
+  "elapsed_seconds": 297.89099999999996
+}

@@ -1,0 +1,86 @@
+{
+  "wz25": {
+    "method": "Soft f-k baseline",
+    "full_suppression_below_velocity_m_s": 1200,
+    "transition_up_to_velocity_m_s": 2500,
+    "frequency_pass_transition_relative_f90": [
+      0.4,
+      0.8
+    ],
+    "maximum_subtraction_fraction": 0.6,
+    "observed_f90_hz": 82.8857421875,
+    "removed_norm_fraction": 0.11772466020153996,
+    "note": "Suppressed spectral cone can contain true signal. Not a noise-free reference and not proof of SNR improvement.",
+    "adaptive_change_fraction": 0.0,
+    "display_limit": 26799272.55936,
+    "display_clip_fractions": [
+      0.006994845360824742,
+      0.006994845360824742,
+      0.006005154639175257,
+      0.0
+    ]
+  },
+  "alaska_111": {
+    "method": "Soft f-k baseline",
+    "full_suppression_below_velocity_m_s": 1200,
+    "transition_up_to_velocity_m_s": 2500,
+    "frequency_pass_transition_relative_f90": [
+      0.4,
+      0.8
+    ],
+    "maximum_subtraction_fraction": 0.6,
+    "observed_f90_hz": 49.01123046875,
+    "removed_norm_fraction": 0.37887214349107495,
+    "note": "Suppressed spectral cone can contain true signal. Not a noise-free reference and not proof of SNR improvement.",
+    "adaptive_change_fraction": 0.0,
+    "display_limit": 145299394.405724,
+    "display_clip_fractions": [
+      0.008315972222222223,
+      0.008315972222222223,
+      0.0018611111111111111,
+      0.0015034722222222222
+    ]
+  },
+  "alaska_120": {
+    "method": "Soft f-k baseline",
+    "full_suppression_below_velocity_m_s": 1200,
+    "transition_up_to_velocity_m_s": 2500,
+    "frequency_pass_transition_relative_f90": [
+      0.4,
+      0.8
+    ],
+    "maximum_subtraction_fraction": 0.6,
+    "observed_f90_hz": 104.4921875,
+    "removed_norm_fraction": 0.10714369436075664,
+    "note": "Suppressed spectral cone can contain true signal. Not a noise-free reference and not proof of SNR improvement.",
+    "adaptive_change_fraction": 0.0,
+    "display_limit": 25402942.1568,
+    "display_clip_fractions": [
+      0.00725,
+      0.00725,
+      0.005496527777777778,
+      0.0
+    ]
+  },
+  "alaska_130": {
+    "method": "Soft f-k baseline",
+    "full_suppression_below_velocity_m_s": 1200,
+    "transition_up_to_velocity_m_s": 2500,
+    "frequency_pass_transition_relative_f90": [
+      0.4,
+      0.8
+    ],
+    "maximum_subtraction_fraction": 0.6,
+    "observed_f90_hz": 101.98974609375,
+    "removed_norm_fraction": 0.17097170616202664,
+    "note": "Suppressed spectral cone can contain true signal. Not a noise-free reference and not proof of SNR improvement.",
+    "adaptive_change_fraction": 0.0,
+    "display_limit": 48933836.086446665,
+    "display_clip_fractions": [
+      0.007065972222222223,
+      0.007065972222222223,
+      0.005826388888888889,
+      4.1666666666666665e-05
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+The supplementary files include the DAS channel configuration, earthquake list, Q results, waveform data, source parameter results, and the code to read and plot them. I introduce each file below.
+
+Hilary Chang 2026.3.16
+
+
+====== plot_Q_well_logs.py ======
+This is the Python code for reading and plotting the Q results and other 
+measurements of the well logs.
+
+
+====== read_cat_plot_spectra.py ======
+This is the Python code for reading the earthquake list and plotting the raw DAS spectra data.
+
+
+====== well_config.npz: Well configuration file ======
+Location of DAS channels.
+
+ref_elev_m: Reference elevation for determining depth (used to convert elevation to depth in this study: ref_elev_m - D_1OB_ele_m = D_1OB_dep_m)    
+D_1OB_x_m: Easting in m
+D_1OB_y_m: Northing in m
+D_1OB_ele_m: Elevation in m
+D_1OB_dep_m: Depth in m 
+
+
+====== Qp_profile_20-200Hz.npz: Q results and well logs ======
+
+The spectral decay for a Q measurement is obtained by dividing a 20 m stack by another 20 m stack that is 80 channels below. These channel windows overlap with each other. Hence, each channel has several Q measurements of nearby 80 channels. The following Q are taken at the median/median absolute deviation of measurements at a channel.
+
+med_Q_chs: Median Q for each channel  
+mad_Q_chs: Median absolute deviation of Q for each channel  
+dep_chs: Corresponding depth (m) for med_X_chs and mad_X_chs 
+Q_interp: Interpolated and assumed Q for depth outside of the measurement range
+dep_interp: Corresponding depth (m) for Q_interp 
+
+I smooth the original well log using 20 channel windows and the windows overlap. Hence, each channel has several well log measurements of nearby 20 channels. The following density (Rho), P-wave velocity (Vp), and shear modulus (G) are taken at the median/median absolute deviation of measurements at a channel.
+
+med_wlogRho_chs: Median well log density (g/cm^3) for each channel 
+mad_wlogRho_chs: Median absolute deviation of well log density (g/cm^3) for each channel
+med_wlogVp_chs: Median well log P-wave velocity (m/s) for each channel
+mad_wlogVp_chs: Median absolute deviation of well log P-wave velocity (m/s) for each channel
+
+The shear modulus is calculated using the well log S-wave velocity and density. 
+
+med_wlogG_chs: Median shear modulus (Pa) for each channel
+mad_wlogG_chs: Median absolute deviation of shear modulus (Pa) calculated for each channel
+
+
+====== event_catalog.csv: Event catalog and results ======
+Event origin time (t0) and source parameter results. Use the provided code to read them. The following columns are taken at the median/median absolute deviation among selected channels that have acceptable incident angles (and met all other QC criteria described in the paper):
+    
+strdrop_MPa: Median stress drop (MPa)
+fc_Hz: Median corner frequency (Hz) 
+m0_Nm: Median seismic moment (N · m)
+fc_mad_Hz: Median absolute deviation corner frequency (Hz) among selected channels
+m0_mad_Nm: Median absolute deviation seismic moment (N.m) among selected channels
+Mw_DAS: Median moment magnitude
+src_radius_m: Median source radius (m) 
+slip_m: Medium source slip (m) 
+
+
+====== spectra/spec_D-1OB_P_arr_XXXXX.npz: Raw DAS P arrival spectra files ======
+Raw DAS spectra calculated using 0.1 s P arrivals in the D-1OB well. Use the provided code to read them.
+(XXXXX is event ID formatted in origin time %Y%m%d%H%M%S_%f)
+
+ch_list_partial: Selected channels with good picks
+spec_list_partial: Spectra of P-arrivals (time window 0.1 s) of selected channels (radian per gauge length (10 m) per second)
+spec_n_list_partial: Noise spectra 0.3 s before P-arrivals (time window 0.1 s) of selected channels (radian per gauge length (10 m) per second)
+f_series: Frequency (Hz)

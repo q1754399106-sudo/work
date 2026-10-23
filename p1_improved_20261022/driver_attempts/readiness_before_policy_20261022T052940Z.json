@@ -1,0 +1,10 @@
+{
+  "status": "DEVELOPMENT_REVIEW_REQUIRED",
+  "development": {
+    "status": "NO_FEASIBLE_CANDIDATE_CONTINUE_DEVELOPMENT",
+    "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\layered_development_screen_20261022T042016Z",
+    "selection": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\layered_development_screen_20261022T042016Z\\analysis\\development_selection.json",
+    "goal_complete": false
+  },
+  "automatic_retry": false
+}

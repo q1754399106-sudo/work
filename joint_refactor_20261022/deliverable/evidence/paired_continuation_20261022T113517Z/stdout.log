@@ -1,0 +1,14 @@
+Dev_ThinLowQ Old CoherentNoiseAVO seed=20261301 rows=510 elapsed=171.0s normal=1.00e-07
+Dev_ThinLowQ Old CoherentNoiseAVO seed=20261302 rows=520 elapsed=286.5s normal=1.00e-07
+Dev_ThinLowQ Old WeakSection seed=20261301 rows=530 elapsed=330.8s normal=1.00e-07
+Dev_ThinLowQ Old WeakSection seed=20261302 rows=540 elapsed=358.2s normal=1.00e-07
+Dev_ThinLowQ Old PinchoutSection seed=20261301 rows=550 elapsed=389.4s normal=1.00e-07
+Dev_ThinLowQ Old PinchoutSection seed=20261302 rows=560 elapsed=428.2s normal=1.00e-07
+Dev_ThinLowQ New SmoothAVO seed=20261301 rows=570 elapsed=586.6s normal=1.00e-07
+Dev_ThinLowQ New SmoothAVO seed=20261302 rows=580 elapsed=677.4s normal=1.00e-07
+Dev_ThinLowQ New CoherentNoiseAVO seed=20261301 rows=590 elapsed=801.3s normal=1.00e-07
+Dev_ThinLowQ New CoherentNoiseAVO seed=20261302 rows=600 elapsed=949.5s normal=1.00e-07
+Dev_ThinLowQ New WeakSection seed=20261301 rows=610 elapsed=995.1s normal=1.00e-07
+Dev_ThinLowQ New WeakSection seed=20261302 rows=620 elapsed=1024.0s normal=1.00e-07
+Dev_ThinLowQ New PinchoutSection seed=20261301 rows=630 elapsed=1056.8s normal=1.00e-07
+Dev_ThinLowQ New PinchoutSection seed=20261302 rows=640 elapsed=1094.4s normal=1.00e-07

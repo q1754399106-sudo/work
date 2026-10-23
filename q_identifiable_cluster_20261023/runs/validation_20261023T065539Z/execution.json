@@ -1,0 +1,22 @@
+{
+  "stage": "validation",
+  "status": "COMPLETED",
+  "cases": [
+    "FreshFoldLowQ",
+    "FreshDenseQReverse",
+    "FreshThinLowFrequency"
+  ],
+  "started_utc": "2026-10-23T06:55:40.315649+00:00",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/runs/validation_20261023T065539Z/source/core');run_qcluster_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/runs/validation_20261023T065539Z/FreshFoldLowQ','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/inputs/FreshFoldLowQ.json');run_qcluster_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/runs/validation_20261023T065539Z/FreshDenseQReverse','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/inputs/FreshDenseQReverse.json');run_qcluster_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/runs/validation_20261023T065539Z/FreshThinLowFrequency','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/inputs/FreshThinLowFrequency.json');"
+  ],
+  "timeout_seconds": 5400,
+  "pid": 6572,
+  "exit_code": 0,
+  "elapsed_seconds": 1072.1879999999946
+}

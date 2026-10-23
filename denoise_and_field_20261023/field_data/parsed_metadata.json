@@ -1,0 +1,50 @@
+{
+  "wz25": {
+    "area": "Alberta, Canada",
+    "source": "Dynamite",
+    "sample_count": 2000,
+    "trace_count": 97,
+    "dt_s": 0.002,
+    "t0_s": 0.002,
+    "offset_spacing_m": 50,
+    "offset_range_m": [
+      -2400,
+      2400
+    ],
+    "center_trace_note": "Header says a zero-valued inner-offset trace was inserted at trace49; retained, detected as dead for processing",
+    "geometry_note": "Historical header notes mention uncertainty in spacing, retained declared50m; not independently surveyed",
+    "header_file": "wz25_header.txt",
+    "source_sha256": "d21a055cbe281642f5d9085f9c22e9370d9de02219c061cff0f36b87c894b38a"
+  },
+  "alaska": {
+    "origin": "USGS NPRA Alaska, line31-81,1981, raw demultiplexed SEG-Y",
+    "format": "Big endian IBM32",
+    "dt_s": 0.002,
+    "ns": 3000,
+    "file_trace_count": 3030,
+    "field_record_range": [
+      101,
+      130
+    ],
+    "selected_records": [
+      111,
+      120,
+      130
+    ],
+    "physical_channels": 96,
+    "aux_channels_excluded": [
+      97,
+      98,
+      99,
+      100,
+      101
+    ],
+    "offset_spacing_m": 33.528,
+    "offset_range_m": [
+      -1592.58,
+      1592.58
+    ],
+    "geometry_note": "Reconstructed from upstream Madagascar processing script o2=-5225ft,d2=110ft; raw offset header is zero. Not navigation coordinates.",
+    "source_sha256": "a07d59ee732100b36a985f83ed3222572d5b2e45aee966ee639ac0373cc08487"
+  }
+}

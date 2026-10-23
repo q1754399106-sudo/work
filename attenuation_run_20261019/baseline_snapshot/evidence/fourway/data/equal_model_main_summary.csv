@@ -1,0 +1,5 @@
+方法 / Method,三模型等权误差 / Equal-model mean
+一步法 / Direct,0.7340071127461164
+常规分步 / Split,0.7337750345571654
+Frozen分步 / Frozen split,0.6862534005355426
+Target08分步 / Target08 split,0.7337581548860753

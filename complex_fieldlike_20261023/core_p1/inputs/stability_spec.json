@@ -1,0 +1,20 @@
+{
+  "seeds": [20261024,20261025,20261026,20261027,20261028,20261029],
+  "control_seeds": [20261018,20261019,20261020,20261021,20261022,20261023],
+  "variants": ["Baseline","RawH","AVOProtected","Combined"],
+  "stress_variants": ["Baseline","AVOProtected","Combined"],
+  "scenarios": ["SmoothAVO","FaultSection","PinchoutSection","WeakSection","CoherentNoiseAVO"],
+  "stress_scenarios": ["SmoothAVO","CoherentNoiseAVO"],
+  "suites": [
+    {"name":"Main","snr_db":18,"q_multipliers":[1,1,1,1]},
+    {"name":"LowerSNR","snr_db":12,"q_multipliers":[1,1,1,1]},
+    {"name":"LayerQError","snr_db":18,"q_multipliers":[0.8,1.2,0.8,1.2]}
+  ],
+  "models": [
+    {"name":"SoftLowQ","vp":[1850,2050,2300,2550],"vs":[800,980,1200,1400],"rho":[1.95,2.08,2.22,2.35],"Q":[22,30,42,60],"event_t":[0.34,0.60,0.94],"fpeak":45},
+    {"name":"VelocityReversal","vp":[2200,2700,2450,3200],"vs":[1050,1450,1250,1750],"rho":[2.05,2.30,2.20,2.52],"Q":[90,45,110,65],"event_t":[0.42,0.73,1.00],"fpeak":70},
+    {"name":"ThinHighFrequency","vp":[2000,2400,2550,2900],"vs":[900,1200,1350,1600],"rho":[2.00,2.20,2.28,2.45],"Q":[35,65,40,85],"event_t":[0.36,0.70,0.724],"fpeak":80}
+  ],
+  "expected_full_rows":1200,
+  "chosen_parameters":"All alternative model parameters and scene geometry are synthetic, chosen before execution; inherited algorithm constants remain unchanged."
+}

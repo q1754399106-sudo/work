@@ -1,0 +1,20 @@
+{
+  "stage": "development",
+  "status": "COMPLETED",
+  "cases": [
+    "Development"
+  ],
+  "started_utc": "2026-10-23T06:49:20.140032+00:00",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/runs/development_20261023T064919Z/source/core');run_qcluster_case('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/runs/development_20261023T064919Z/Development','C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/inputs/Development.json');"
+  ],
+  "timeout_seconds": 5400,
+  "pid": 37012,
+  "exit_code": 0,
+  "elapsed_seconds": 311.0619999999981
+}

@@ -1,0 +1,19 @@
+{
+  "original_rows": 126,
+  "cached_rows": 126,
+  "max_abs_differences": {
+    "RelativeError": 0.0,
+    "SignalWindowError": 0.0,
+    "EventAmplitudeError": 0.0,
+    "WeakEventError": 0.0,
+    "AVOInterceptError": 0.0,
+    "AVOGradientError": 0.0,
+    "FaultNeighborhoodError": 0.0,
+    "PinchoutTailError": 0.0,
+    "Scale": 0.0,
+    "EffectiveQ": 0.0,
+    "EstimatedFrequency": 0.0
+  },
+  "all_final_solver_flags_zero": true,
+  "pass_numerical_tolerance": true
+}

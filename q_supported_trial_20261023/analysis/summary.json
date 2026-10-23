@@ -1,0 +1,341 @@
+{
+  "checks": {
+    "complete": true,
+    "records": 4,
+    "cases": 36,
+    "optimization_flags": 0,
+    "maximum_normal_residual": 1.4088005623996791e-14,
+    "elapsed_seconds": 55.7698785,
+    "config": {
+      "registered_utc": "2026-10-23T06:24:18.060842+00:00",
+      "experiment": "External-reference-Q real-waveform adaptation and controlled added attenuation",
+      "source": "https://zenodo.org/records/6932666",
+      "Q_selection": "Published alpha=0 Z-component results, not re-estimated from trial windows",
+      "waveform_window_relative_P_s": [
+        -4,
+        12
+      ],
+      "background_relative_P_s": [
+        -24,
+        -8
+      ],
+      "dt_s": 0.05,
+      "shared_bandpass_hz": [
+        0.2,
+        0.4,
+        6.5,
+        8
+      ],
+      "evaluated_relative_P_s": [
+        -1,
+        7
+      ],
+      "fref_hz": 1,
+      "adaptation": "Stationary single-path tstar operator; offset stage is identity; optimized dictionary W=I estimates an unknown band-limited source pulse, not layered reflectivity or Ricker atoms.",
+      "fixed_lambda": 0.001,
+      "optimized_penalty": "Unchanged core: .5*sqrt(2*log(nt))*sigma, support refit and group pruning",
+      "full_path_tstar_factors": [
+        0.75,
+        1,
+        1.25
+      ],
+      "controlled_extra_tstar_s": [
+        0.03,
+        0.06,
+        0.12
+      ],
+      "controlled_added_noise_sigma_factors": [
+        0,
+        1
+      ],
+      "seed": 20261023.0,
+      "development_record": "2016-02-10T210245/LWLI",
+      "evaluation_records": "Remaining 3 records; two earthquakes total, not four independent events",
+      "rule": "No parameter tuning based on controlled-test errors. Published Q is an estimated reference, not physical ground truth.",
+      "controlled_reference": "Band-limited real observed P-wave window, already attenuated by nature; recovery only reverses newly added attenuation.",
+      "full_path_quality": "Report replay residual, amplitude gain, background response and tstar sensitivity, not truth error or measured SNR improvement."
+    }
+  },
+  "controlled_summary": [
+    {
+      "split": "development",
+      "noise_factor": 0,
+      "method": "input",
+      "cases": 3,
+      "mean_relative_error": 0.6980910232929767,
+      "median_relative_error": 0.7160690312614492
+    },
+    {
+      "split": "development",
+      "noise_factor": 0,
+      "method": "fixed",
+      "cases": 3,
+      "mean_relative_error": 0.017684850739821904,
+      "median_relative_error": 0.006685815295851383
+    },
+    {
+      "split": "development",
+      "noise_factor": 0,
+      "method": "refit",
+      "cases": 3,
+      "mean_relative_error": 0.3079922503613906,
+      "median_relative_error": 0.18018118850466788
+    },
+    {
+      "split": "development",
+      "noise_factor": 0,
+      "method": "optimized",
+      "cases": 3,
+      "mean_relative_error": 0.3227628166363176,
+      "median_relative_error": 0.2014137749222776
+    },
+    {
+      "split": "development",
+      "noise_factor": 1,
+      "method": "input",
+      "cases": 3,
+      "mean_relative_error": 0.7021787759963333,
+      "median_relative_error": 0.7220221316807887
+    },
+    {
+      "split": "development",
+      "noise_factor": 1,
+      "method": "fixed",
+      "cases": 3,
+      "mean_relative_error": 0.13535391512632414,
+      "median_relative_error": 0.11020689970343558
+    },
+    {
+      "split": "development",
+      "noise_factor": 1,
+      "method": "refit",
+      "cases": 3,
+      "mean_relative_error": 0.3751529424245727,
+      "median_relative_error": 0.2886068258603085
+    },
+    {
+      "split": "development",
+      "noise_factor": 1,
+      "method": "optimized",
+      "cases": 3,
+      "mean_relative_error": 0.38891976583168075,
+      "median_relative_error": 0.2916974531623289
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 0,
+      "method": "input",
+      "cases": 9,
+      "mean_relative_error": 0.43856758200082097,
+      "median_relative_error": 0.4390207838748633
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 0,
+      "method": "fixed",
+      "cases": 9,
+      "mean_relative_error": 0.009670689931311772,
+      "median_relative_error": 0.004327410858560642
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 0,
+      "method": "refit",
+      "cases": 9,
+      "mean_relative_error": 0.3935327699183797,
+      "median_relative_error": 0.3353383464258834
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 0,
+      "method": "optimized",
+      "cases": 9,
+      "mean_relative_error": 0.4589221679149269,
+      "median_relative_error": 0.49023122168650546
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 1,
+      "method": "input",
+      "cases": 9,
+      "mean_relative_error": 0.5318340869063162,
+      "median_relative_error": 0.5174096375979158
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 1,
+      "method": "fixed",
+      "cases": 9,
+      "mean_relative_error": 0.3161898731308642,
+      "median_relative_error": 0.32842226968526345
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 1,
+      "method": "refit",
+      "cases": 9,
+      "mean_relative_error": 0.5285362471947354,
+      "median_relative_error": 0.5431134985423436
+    },
+    {
+      "split": "evaluation",
+      "noise_factor": 1,
+      "method": "optimized",
+      "cases": 9,
+      "mean_relative_error": 0.5582295734997165,
+      "median_relative_error": 0.5698337504678183
+    }
+  ],
+  "nominal_field_metrics": [
+    {
+      "station": "MLSI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "fixed",
+      "tstar_factor": 1,
+      "tstar_s": 0.100555,
+      "amplitude_gain": 2.57921219949629,
+      "background_gain": 1.2977647802526067,
+      "replay_relative_residual": 0.013076788465019761,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "MLSI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "refit",
+      "tstar_factor": 1,
+      "tstar_s": 0.100555,
+      "amplitude_gain": 2.5026076741473666,
+      "background_gain": 1.5959626798492843,
+      "replay_relative_residual": 0.22129973563727398,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "MLSI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "optimized",
+      "tstar_factor": 1,
+      "tstar_s": 0.100555,
+      "amplitude_gain": 2.44536015969231,
+      "background_gain": 0.0,
+      "replay_relative_residual": 0.2811152023338279,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "MNSI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "fixed",
+      "tstar_factor": 1,
+      "tstar_s": 0.045835,
+      "amplitude_gain": 1.5305046660974446,
+      "background_gain": 1.2735162833487765,
+      "replay_relative_residual": 0.004152751942728718,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "MNSI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "refit",
+      "tstar_factor": 1,
+      "tstar_s": 0.045835,
+      "amplitude_gain": 1.53733066739703,
+      "background_gain": 1.2291001043069187,
+      "replay_relative_residual": 0.03212629528278295,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "MNSI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "optimized",
+      "tstar_factor": 1,
+      "tstar_s": 0.045835,
+      "amplitude_gain": 1.5371673736931453,
+      "background_gain": 0.0,
+      "replay_relative_residual": 0.03534359290088526,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "SISI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "fixed",
+      "tstar_factor": 1,
+      "tstar_s": 0.080308,
+      "amplitude_gain": 1.6920092390910224,
+      "background_gain": 1.15265425558132,
+      "replay_relative_residual": 0.004807422689071663,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "SISI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "refit",
+      "tstar_factor": 1,
+      "tstar_s": 0.080308,
+      "amplitude_gain": 1.7674386456293476,
+      "background_gain": 1.3249285309631378,
+      "replay_relative_residual": 0.1628792640252063,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "SISI",
+      "event": "2013-04-29T022000",
+      "split": "evaluation",
+      "method": "optimized",
+      "tstar_factor": 1,
+      "tstar_s": 0.080308,
+      "amplitude_gain": 1.6541160775977433,
+      "background_gain": 0.0,
+      "replay_relative_residual": 0.338405469139582,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "LWLI",
+      "event": "2016-02-10T210245",
+      "split": "development",
+      "method": "fixed",
+      "tstar_factor": 1,
+      "tstar_s": 0.143476,
+      "amplitude_gain": 7.477595977632322,
+      "background_gain": 1.747039519452256,
+      "replay_relative_residual": 0.08917746165525012,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "LWLI",
+      "event": "2016-02-10T210245",
+      "split": "development",
+      "method": "refit",
+      "tstar_factor": 1,
+      "tstar_s": 0.143476,
+      "amplitude_gain": 8.269763737109393,
+      "background_gain": 2.2825114772189,
+      "replay_relative_residual": 0.13358867720858617,
+      "relative_change_from_nominal": 0.0
+    },
+    {
+      "station": "LWLI",
+      "event": "2016-02-10T210245",
+      "split": "development",
+      "method": "optimized",
+      "tstar_factor": 1,
+      "tstar_s": 0.143476,
+      "amplitude_gain": 8.269638923333412,
+      "background_gain": 1.2204756153999483,
+      "replay_relative_residual": 0.13391614923734185,
+      "relative_change_from_nominal": 0.0
+    }
+  ],
+  "raw_sources_unchanged": true,
+  "solver_sources_unchanged": 7,
+  "adaptation": "Stationary author tstar + identity offset stage; W=I source waveform sparsity, not original layered Ricker reflectivity",
+  "no_physical_ground_truth": true,
+  "controlled_test_reverses_only_added_attenuation": true,
+  "statistics": "Descriptive; repeated cases and 3 stations for one event are not independent samples. No significance or generalization claim."
+}

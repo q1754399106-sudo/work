@@ -1,0 +1,16 @@
+{
+  "status": "FAILED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/universal_method_20261022/runs/universal_screen_20261022T144617Z/source/core_p1');run_universal_screen('C:/Users/qq175/Documents/ChatGPT/研究/universal_method_20261022/runs/universal_screen_20261022T144617Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T14:46:17.568857+00:00",
+  "timeout_seconds": 2400.0,
+  "pid": 4224,
+  "exit_code": 1,
+  "elapsed_seconds": 75.42199999999139
+}

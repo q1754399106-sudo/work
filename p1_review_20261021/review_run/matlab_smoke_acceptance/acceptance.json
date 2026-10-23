@@ -1,0 +1,160 @@
+{
+  "status": "PROVISIONAL_PASS",
+  "candidate": "CombinedUncertainty",
+  "baseline": "Frozen",
+  "route": "Split",
+  "pairs": 5,
+  "equal_model_main_improvement": 0.1017799664384661,
+  "groups": [
+    {
+      "Suite": "Main",
+      "Model": "SoftLowQ",
+      "n": 5,
+      "baseline": 0.7506621740146819,
+      "candidate": 0.6742598031368416,
+      "improvement_percent": 10.17799664384661,
+      "baseline_median": 0.66656886039347,
+      "candidate_median": 0.66612926107957,
+      "baseline_p90": 0.9464579016654056,
+      "candidate_p90": 0.7357112040853164,
+      "baseline_p95": 1.0392853669048576,
+      "candidate_p95": 0.7577648747547342,
+      "baseline_worst": 1.13211283214431,
+      "candidate_worst": 0.779818545424152,
+      "baseline_failures": 1,
+      "candidate_failures": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "matched_prior_direct_present",
+      "pass_": true,
+      "detail": "CSV presence only; identical prior/Q and tuning-budget provenance must be audited separately."
+    },
+    {
+      "name": "local_scenario_coverage",
+      "pass_": true,
+      "detail": [
+        "CoherentNoiseAVO",
+        "FaultSection",
+        "PinchoutSection",
+        "SmoothAVO",
+        "WeakSection"
+      ]
+    },
+    {
+      "name": "Main/SoftLowQ/mean_noninferiority",
+      "pass_": true,
+      "detail": {
+        "Suite": "Main",
+        "Model": "SoftLowQ",
+        "n": 5,
+        "baseline": 0.7506621740146819,
+        "candidate": 0.6742598031368416,
+        "improvement_percent": 10.17799664384661,
+        "baseline_median": 0.66656886039347,
+        "candidate_median": 0.66612926107957,
+        "baseline_p90": 0.9464579016654056,
+        "candidate_p90": 0.7357112040853164,
+        "baseline_p95": 1.0392853669048576,
+        "candidate_p95": 0.7577648747547342,
+        "baseline_worst": 1.13211283214431,
+        "candidate_worst": 0.779818545424152,
+        "baseline_failures": 1,
+        "candidate_failures": 0
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/failure_count",
+      "pass_": true,
+      "detail": {
+        "baseline": 1,
+        "candidate": 0,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/EventAmplitudeError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.531686246021088,
+        "candidate": 0.5065994056008314,
+        "allowance": 0.026584312301054402,
+        "n": 5
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/WeakEventError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.430321310107534,
+        "candidate": 0.4164702956941,
+        "allowance": 0.0215160655053767,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/FaultNeighborhoodError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.669835246762995,
+        "candidate": 0.671884148242521,
+        "allowance": 0.03349176233814975,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/PinchoutTailError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.000257354985195299,
+        "candidate": 0.000158778800311809,
+        "allowance": 0.001,
+        "n": 1
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOInterceptError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.5515618689460765,
+        "candidate": 0.5246481746514551,
+        "allowance": 0.027578093447303827,
+        "n": 2
+      }
+    },
+    {
+      "name": "Main/SoftLowQ/AVOGradientError",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.630644826873719,
+        "candidate": 0.6371353433207985,
+        "allowance": 0.03153224134368595,
+        "n": 2
+      }
+    },
+    {
+      "name": "main_equal_model_improvement",
+      "pass_": true,
+      "detail": {
+        "baseline": 0.7506621740146819,
+        "candidate": 0.6742598031368416,
+        "relative_improvement": 0.1017799664384661
+      }
+    },
+    {
+      "name": "candidate_solver_quality",
+      "pass_": true,
+      "detail": "Direct and requested route included"
+    }
+  ],
+  "diagnostic_counts": {},
+  "scope": "Engineering gates on supplied paired metrics. No automatic proof of independent geology, absence of leakage or statistical significance.",
+  "unverified_requirements": [
+    "new geological holdout",
+    "repeated independent calibration",
+    "identical information/priors across routes",
+    "source/config hashes and actual execution",
+    "hierarchical uncertainty intervals"
+  ]
+}

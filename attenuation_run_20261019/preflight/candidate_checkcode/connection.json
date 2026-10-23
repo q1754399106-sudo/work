@@ -1,0 +1,57 @@
+{
+  "action": "checkcode",
+  "started_utc": "2026-10-19T04:58:53.894756+00:00",
+  "existing_session_required": "ResearchMATLAB",
+  "started_new_instance": false,
+  "original_package_modified": false,
+  "discovered_sessions": [
+    "ResearchMATLAB"
+  ],
+  "session": "ResearchMATLAB",
+  "version": "24.2.0.2923080 (R2024b) Update 6",
+  "sqrt144": 12.0,
+  "resolved_sources": {
+    "p1_compensate": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\candidate\\matlab\\p1_compensate.m",
+    "p1_run_experiment": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\candidate\\experiment\\p1_run_experiment.m",
+    "prepare_models_v2": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\baseline_snapshot\\core\\matlab_src\\prepare_models_v2.m"
+  },
+  "source_hashes": {
+    "candidate\\check_covariance_math.py": "7549a172e6a629ad3024698910d2608b35b5c5f2a2be0ff38cd10075d95449c2",
+    "candidate\\run_candidate.py": "6855fcbe8fddbfe9d9649524fb44ac689f3858afee95de53e163e19098437be9",
+    "candidate\\audit\\strict_evaluate.py": "6dc8fa65815a7b867e9e81103b1f840ba4c3026ae743550508192519fc6fda91",
+    "candidate\\audit\\test_strict_evaluate.py": "f477721e9a09e0aff4e8ee91a5d11c87d11f98f70ca78959fb539d08f391e2ce",
+    "candidate\\experiment\\experiment_spec.json": "62e2c56e1b997b6b907d5dafcfc7e204656877d8cfbf7b0aa7563421529dd193",
+    "candidate\\experiment\\freeze_experiment.py": "3f56a53c90ab5dc516e83d63c426535bace6eadeb99a1bdcad587c9eb5902de3",
+    "candidate\\experiment\\p1_model_config.m": "98bb700852d2aee1c54915c9e1e2ce0295d4fea03d4b299742a0ab4b29c5367b",
+    "candidate\\experiment\\p1_plot_example.m": "90444ca24783662e6de40130a519f89ce40be9f1c14b6863fac53033a1c09582",
+    "candidate\\experiment\\p1_run_experiment.m": "5ae38ddc0c125e8684c4dc7f2a1cd1f08a5cc0988807af087ac30cfb968c80e2",
+    "candidate\\experiment\\p1_sha256.m": "9e69eff5658d889e22052740cc88234e63b72a0bcb486235a4afcd3e92b77a4d",
+    "candidate\\experiment\\p1_synthesize.m": "cd3cbe9bbc69e4aa29cbfd2fdffc769c3451cdbdc3fb45b2f9a76db7ca11ef77",
+    "candidate\\experiment\\p1_truth_models.m": "9b212d7eeed08d184de462cd286482d5587a5012d8e97e47fcb98d62231a7be2",
+    "candidate\\matlab\\p1_block_indices.m": "074c9c5c9ac40970bc386380e2a7a78269b0cb683ea49faf9b4ee01eb739a314",
+    "candidate\\matlab\\p1_check_public.m": "49dc11c40316e7cf2e26c3028c7d1ecacf878ea88179720efe38c9d62f145178",
+    "candidate\\matlab\\p1_compensate.m": "dffb4c4d26cb197d79756f44c9ec49d5a8baa4fce45619652fa1a12363f69384",
+    "candidate\\matlab\\p1_context.m": "d076f546402d02b7dd5d0d139f505eb5442afe02e7f03d2eb2c6b4b1487d30bc",
+    "candidate\\matlab\\p1_covariance.m": "f91037bb08d8c5aee6f8888ffe469eb92af4ce84d28e2d19e8c3fc4a93061533",
+    "candidate\\matlab\\p1_forward.m": "e02ee7f694643d91fa6074272af5870b14e4c21f064d6ba24018820c8eded189",
+    "candidate\\matlab\\p1_noise_summary.m": "cd131df50ff6706c24c430acc93fa106000aabe40b32e10a7cea51de55a81c51",
+    "candidate\\matlab\\p1_options.m": "948b10d50d69244240ee0a35e273c4333e1740bf1a5984df9133711437df6bf9",
+    "candidate\\matlab\\p1_precision.m": "46aac6ace98af3d6af8fea2e6a364938dc84900c88b86ef0ba61afe1e8ceb684",
+    "candidate\\matlab\\p1_prepare_calibration.m": "9d00b60b9d4f0eba8d3ac731559f50b58ac27b65b9bdf06b6ebfa87d38fc7593",
+    "candidate\\matlab\\p1_select.m": "e03244d3fe115f5c0385ce562557fb60e6a336742d24dc5d1636d19cd6902509",
+    "candidate\\matlab\\p1_selftest.m": "3f7131ec66b9ea0cdc58b257bde3277ed1055604c53a975af2078f274575ef2f",
+    "candidate\\matlab\\p1_solve.m": "f2c07ecb551b9ae63f16039b2cb644667349c0eb054c3623a0b98eb8f7825e14",
+    "candidate\\visualization\\render_results.py": "56a06b244d3303da4b2bf043f9d086cb23f1f66b523056505b5ed35be8fed29e"
+  },
+  "status": "FAILED",
+  "error": "ValueError('MATLAB 只能返回标量结构体')",
+  "preserved": {
+    "path": true,
+    "pwd": true,
+    "rng": true,
+    "workspace": true,
+    "figures": true
+  },
+  "preservation_scope": "Path, pwd, RNG exact; base variable metadata and figure count checked; candidate functions never write base or figures.",
+  "elapsed_seconds": 1.8119999999998981
+}

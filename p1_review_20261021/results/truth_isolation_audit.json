@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "files_audited": 20,
+  "checked_files": [
+    "core_p1/p1_compensate.m",
+    "core_p1/frozen_compensate.m",
+    "core_p1/matlab_src/p1_calibrate_ensemble.m",
+    "core_p1/matlab_src/p1_noise_uncertainty.m",
+    "core_p1/matlab_src/p1_q_model_error.m",
+    "core_p1/matlab_src/p1_solve_branch.m",
+    "core_p1/matlab_src/compensate_unknown_q.m",
+    "core_p1/matlab_src/estimate_q_effective.m",
+    "core_p1/matlab_src/estimate_trace_snr.m",
+    "core_p1/matlab_src/uq_build_prior.m",
+    "core_p1/matlab_src/uq_select.m",
+    "core_p1/matlab_src/uq_public_config.m",
+    "core_p1/matlab_src/uq_inverse_config.m",
+    "core_p1/matlab_src/learn_structure_operator.m",
+    "core_p1/matlab_src/avo_projector_v2.m",
+    "core_p1/matlab_src/solve_v2.m",
+    "core_p1/matlab_src/select_v2.m",
+    "core_p1/matlab_src/context_v2.m",
+    "core_p1/matlab_src/build_structure_models.m",
+    "core_p1/matlab_src/prepare_models_v2.m"
+  ],
+  "static_violations": [],
+  "public_input_whitelist_enforced": true,
+  "poison_invariance_verified": true,
+  "truth_restricted_to": [
+    "uq_observation.m (synthesis)",
+    "score_structure.m / score_stability.m / uq_metric_row.m (post-hoc scoring)"
+  ]
+}

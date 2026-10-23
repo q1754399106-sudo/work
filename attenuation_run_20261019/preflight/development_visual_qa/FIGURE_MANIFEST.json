@@ -1,0 +1,623 @@
+{
+  "status": "RENDERED_REQUIRES_VISUAL_INSPECTION",
+  "audience": "local engineering research report; publisher requirements not specified",
+  "script": {
+    "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\candidate\\visualization\\render_results.py",
+    "sha256": "df90370b53d5fa5e0598b4e35c2b1dd526179773b545e123829bfafbe5891c4a"
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\development_v1\\matlab\\metrics.csv",
+      "sha256": "7ab4ce2395b116af17a73e2bde12c6807ebf8b2c484e042e0be115d0896f2506"
+    },
+    {
+      "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\development_v1\\matlab\\examples\\DevGradedCompact_Main_SmoothAVO_cal310101_seed410101.json",
+      "sha256": "3da9d7485110a94f7b7d8b550161f0bcaf5afadf7cb52028c911da3b3fcca230"
+    },
+    {
+      "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\development_v1\\matlab\\examples\\DevGradedCompact_LowerSNR_SmoothAVO_cal310101_seed410101.json",
+      "sha256": "29346107e598c7297da24613025db447c11f62d116887248cbb733083cbda5d3"
+    },
+    {
+      "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\development_v1\\matlab\\examples\\DevGradedCompact_Main_WeakSection_cal310101_seed410101.json",
+      "sha256": "6482d6bb55f301aa8b5a7d0291466ec222b96d5fa157f96ad428a4dbe7402f36"
+    },
+    {
+      "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\development_v1\\matlab\\examples\\DevGradedCompact_Main_PinchoutSection_cal310101_seed410101.json",
+      "sha256": "4ee34a844eed9916693e90da50a9553a04e8f8a678415d2c892bc72de4d49740"
+    },
+    {
+      "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\development_v1\\matlab\\worst_cases\\CombinedUncertainty_Split.json",
+      "sha256": "d16c216460746d90e51b999c1813fb0ffb6f3e18989a73e25ee9825d58b3dfbc"
+    }
+  ],
+  "font": {
+    "path": "C:\\Windows\\Fonts\\msyh.ttc",
+    "sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f"
+  },
+  "dependencies": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2"
+  },
+  "row_count": 384,
+  "all_rows_preserved_in_source_csv": true,
+  "figure_count": 14,
+  "pairing_keys": [
+    "Model",
+    "Suite",
+    "Scenario",
+    "Seed",
+    "CalibrationSeed",
+    "Route",
+    "SNRdB"
+  ],
+  "worst_case_selection": {
+    "Method": "CombinedUncertainty",
+    "Route": "Split",
+    "Model": "DevGradedCompact",
+    "Suite": "LowerSNR",
+    "Scenario": "PinchoutSection",
+    "Seed": 410101,
+    "CalibrationSeed": 310101,
+    "Status": "SUCCESS",
+    "RelativeError": 0.8716862280417068,
+    "FailureMessage": "",
+    "input_path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\development_v1\\matlab\\worst_cases\\CombinedUncertainty_Split.json",
+    "rule": "Largest finite RelativeError among NoiseUncertaintyOnly/QModelErrorOnly/CombinedUncertainty Split; includes finite solver-failed results; ties use declared branch order then IDs/seeds",
+    "frozen_comparison_rows": [
+      {
+        "SourceRow": 164,
+        "Model": "DevGradedCompact",
+        "Suite": "LowerSNR",
+        "Scenario": "PinchoutSection",
+        "SNRdB": 12,
+        "Seed": 410101,
+        "CalibrationSeed": 310101,
+        "Method": "Frozen",
+        "Route": "Split",
+        "Preset": "Frozen",
+        "RelativeError": 0.749656990565064,
+        "SignalWindowError": 0.747480083799578,
+        "NoiseWindowRMS": 0.0004829275195854,
+        "EventAmplitudeError": 0.717039894651404,
+        "UnidentifiableAmplitudes": 9,
+        "AVOInterceptError": null,
+        "AVOGradientError": null,
+        "WeakEventError": null,
+        "FaultNeighborhoodError": null,
+        "PinchoutTailError": 0.0037472155169028,
+        "EffectiveQ": 43.9385291298292,
+        "EstimatedFrequency": 44.8299901720472,
+        "Gamma": 10,
+        "PilotMultiplier": 4,
+        "TargetMultiplier": 1,
+        "Scale": 0.649381631576211,
+        "ScaleEndpoint": 0,
+        "TargetMismatch": 0.0022395387985374,
+        "NormalResidual": 9.52050609657985e-08,
+        "FinalFlag": 0,
+        "Solver": "PCG",
+        "HTruthRatio": 0.314623988480694,
+        "EstimatedSigmaRatio": 0.988446607370672,
+        "QBoundary": 0,
+        "FrequencyBoundary": 0,
+        "PriorHash": "5e246992ff7b3c925f7f1193971fdcf3f5fdc4b6d7f27338a7711707e9e6a47d",
+        "SharedInformationHash": "f8deccfd3865965de820d7fd9723e06d3b39fe4a5e4e38e29cd34242cd1625d3",
+        "CalibrationDataHash": "54030e8ed495deaafc5c139eb5cd77c8ffad9d7c55f7d768236316d761251f19",
+        "ObservationInputHash": "76f5d7d18009ccf3edf3b1699734dd82a0ddf79799933e06f149eece71aa94e1",
+        "CalibrationEstimateHash": "c6cc0a16e2e95922a752e4e2e71e61777d8b7ce8cd3bcbb307e0bb443989526c",
+        "Status": "SUCCESS",
+        "FailureMessage": null
+      }
+    ],
+    "candidate_metric_rows": [
+      {
+        "SourceRow": 170,
+        "Model": "DevGradedCompact",
+        "Suite": "LowerSNR",
+        "Scenario": "PinchoutSection",
+        "SNRdB": 12,
+        "Seed": 410101,
+        "CalibrationSeed": 310101,
+        "Method": "CombinedUncertainty",
+        "Route": "Split",
+        "Preset": "CombinedUncertainty",
+        "RelativeError": 0.871686228041707,
+        "SignalWindowError": 0.870850955933012,
+        "NoiseWindowRMS": 0.000320439840379,
+        "EventAmplitudeError": 0.858846757721988,
+        "UnidentifiableAmplitudes": 9,
+        "AVOInterceptError": null,
+        "AVOGradientError": null,
+        "WeakEventError": null,
+        "FaultNeighborhoodError": null,
+        "PinchoutTailError": 0.002708125941913,
+        "EffectiveQ": 43.9385291298292,
+        "EstimatedFrequency": 44.8299901720472,
+        "Gamma": 10,
+        "PilotMultiplier": 4,
+        "TargetMultiplier": 1,
+        "Scale": 0.805842187761482,
+        "ScaleEndpoint": 0,
+        "TargetMismatch": 0.0009298713382217,
+        "NormalResidual": 7.934170008557661e-09,
+        "FinalFlag": 0,
+        "Solver": "PCG_Woodbury",
+        "HTruthRatio": 0.314623988480694,
+        "EstimatedSigmaRatio": 0.988446607370672,
+        "QBoundary": 0,
+        "FrequencyBoundary": 0,
+        "PriorHash": "5e246992ff7b3c925f7f1193971fdcf3f5fdc4b6d7f27338a7711707e9e6a47d",
+        "SharedInformationHash": "f8deccfd3865965de820d7fd9723e06d3b39fe4a5e4e38e29cd34242cd1625d3",
+        "CalibrationDataHash": "54030e8ed495deaafc5c139eb5cd77c8ffad9d7c55f7d768236316d761251f19",
+        "ObservationInputHash": "76f5d7d18009ccf3edf3b1699734dd82a0ddf79799933e06f149eece71aa94e1",
+        "CalibrationEstimateHash": "c6cc0a16e2e95922a752e4e2e71e61777d8b7ce8cd3bcbb307e0bb443989526c",
+        "Status": "SUCCESS",
+        "FailureMessage": null
+      }
+    ],
+    "nonfinite_candidate_rows_not_visually_reconstructable": 0
+  },
+  "figure_selection": "First saved predesignated IDs/seeds for named suite/scenario; no score/appearance selection",
+  "missing_policy": "Numeric summaries use finite values, including solver-failed finite scores; nonfinite counts explicit. Original NaN/N/A retained. No value replaced by zero.",
+  "replicate_policy": "Descriptive observations nested within geology/calibration. No rowwise confidence intervals or significance claims.",
+  "source_data_files": [
+    {
+      "path": "source_data\\DevGradedCompact_LowerSNR_SmoothAVO_cal310101_seed410101.csv",
+      "sha256": "7c8f6f2049d8750f9af8bec2f8e110c7540dc53a55509f5bdf65fe663ce828ac"
+    },
+    {
+      "path": "source_data\\DevGradedCompact_Main_PinchoutSection_cal310101_seed410101.csv",
+      "sha256": "7a623cedd0a83a1232b4761aae32361167ab7ae6879e4c534093d5d30858c183"
+    },
+    {
+      "path": "source_data\\DevGradedCompact_Main_SmoothAVO_cal310101_seed410101.csv",
+      "sha256": "cf433323fbd116053f037ee3354ce8ab3a5ca9ab38dbd95726bcee4668422c97"
+    },
+    {
+      "path": "source_data\\DevGradedCompact_Main_WeakSection_cal310101_seed410101.csv",
+      "sha256": "342d6fa150e41b5f6b58c8e862b066c260b5b2395e2fcb86d756bb1af9001b82"
+    },
+    {
+      "path": "source_data\\distribution_summary_all_rows.csv",
+      "sha256": "5e52878c72c397a49e2c4511b5b4d79860bd80111f5b29280f43e86f37df7a2a"
+    },
+    {
+      "path": "source_data\\failure_counts_all_rows.csv",
+      "sha256": "7343d2a0b89940f3839d9a6683510b5f31f9cadc81be7ce9b14281d05ca0db55"
+    },
+    {
+      "path": "source_data\\fixed_trace_spectra.csv",
+      "sha256": "fc9a92d70c116db5976897e2394ce5ee3c305454103702fc8adfdff9178ca106"
+    },
+    {
+      "path": "source_data\\local_metrics_Direct.csv",
+      "sha256": "9a49e849bb80d968188857b00408f9585c4d9ff351b42ee9422ec9c845b1cf76"
+    },
+    {
+      "path": "source_data\\local_metrics_Split.csv",
+      "sha256": "ec3c2d4cc222697b2b80839afb53d20bbe4990af85b8afe89b52cf08ded6f67a"
+    },
+    {
+      "path": "source_data\\metrics_all_rows.csv",
+      "sha256": "c885d47f5ac7101c41941c2a498283875e1f585456922b5b2381004c2143c22d"
+    },
+    {
+      "path": "source_data\\paired_all_rows.csv",
+      "sha256": "79945a5220c482e7a6aa3aa28e6309d033c7e01d2d23691bb763cbf4694598fb"
+    },
+    {
+      "path": "source_data\\paired_model_changes.csv",
+      "sha256": "04763333aab8656eab48fdd25d8ff171cf99d2061756c7e8480f351ab15104d0"
+    },
+    {
+      "path": "source_data\\stress_paired_changes.csv",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "source_data\\worst_30_finite_rows.csv",
+      "sha256": "c65ada751af5abb95b4042c1e0628698b324cc4862dfd5538611aacdb97705d6"
+    },
+    {
+      "path": "source_data\\worst_candidate_fixed_trace_spectra.csv",
+      "sha256": "202b82d87344688ffb88bae3d840fa150b2764ec62cdb5b2e701a2608915cd3a"
+    },
+    {
+      "path": "source_data\\worst_case_CombinedUncertainty_Split.csv",
+      "sha256": "087e3394d8b39a2b2acb9bb999259249151873dd126d4168f32b7917bad926ea"
+    }
+  ],
+  "figures": [
+    {
+      "id": "01_model_errors",
+      "title": "逐模型波形误差 / Waveform error by model",
+      "alt_text": "Four panels compare every method for each model in Main and LowerSNR, separately for Direct and Split. Points are finite-row means, vertical lines span the empirical 10th–90th percentiles. Numerical failures with finite scores remain included; nonfinite counts are explicit.",
+      "transformations": [
+        "Main/LowerSNR are displayed separately",
+        "Mean and empirical p10–p90 within each model; descriptive, not a confidence interval",
+        "No success-status filter; nonfinite values counted, never converted to zero"
+      ],
+      "source_data": [
+        "source_data/metrics_all_rows.csv",
+        "source_data/distribution_summary_all_rows.csv"
+      ],
+      "files": [
+        {
+          "path": "01_model_errors.png",
+          "sha256": "d604288afedbf3210170fb095009ef61f67b080c60c972ee85db9901bc66d3fe"
+        },
+        {
+          "path": "01_model_errors.pdf",
+          "sha256": "0645daac33bde30580c28d482cb0376a4f27c6dfb9e10242e5d95d8f862de761"
+        }
+      ],
+      "size_inches": [
+        15.0,
+        9.0
+      ]
+    },
+    {
+      "id": "02_paired_changes",
+      "title": "相对Frozen的全部配对差 / All paired changes versus Frozen",
+      "alt_text": "Individual paired percentage changes are shown as faint points and each model mean as a larger symbol. Zero means equality with the same-route Frozen. Every paired finite score is included, with unresolved counts disclosed.",
+      "transformations": [
+        "Pairing uses Model/Suite/Scenario/Seed/CalibrationSeed/Route/SNRdB",
+        "100*(method error-Frozen error)/Frozen error; a zero reference denominator is unresolved",
+        "All finite paired rows retained, including failed-status rows"
+      ],
+      "source_data": [
+        "source_data/paired_all_rows.csv",
+        "source_data/paired_model_changes.csv"
+      ],
+      "files": [
+        {
+          "path": "02_paired_changes.png",
+          "sha256": "7af047b7a19f441caecad47ed30220a2c37b3bdd70646c8df62c331e856553a9"
+        },
+        {
+          "path": "02_paired_changes.pdf",
+          "sha256": "94b391b3f3ae2c694ffb800e5c5dd49e8f6ab4e030e1b3181dfc5bbe494188bc"
+        }
+      ],
+      "size_inches": [
+        15.0,
+        9.0
+      ]
+    },
+    {
+      "id": "03_local_Direct",
+      "title": "Direct局部保幅代价 / Local amplitude costs (Direct)",
+      "alt_text": "Six panels display paired absolute changes in event amplitude, weak-event, pinchout-tail, AVO intercept, AVO gradient and fault-neighborhood errors. Small circles show model means, larger method symbols show the equal-model average. Missing and inapplicable entries are counted together and retained in source data.",
+      "transformations": [
+        "Main and LowerSNR only; all finite applicable pairs",
+        "Absolute method-minus-Frozen metric difference",
+        "Small circles=model means; larger symbols=equal-model mean; no inferential intervals",
+        "NaN can mean metric inapplicable; no NaN is turned into zero"
+      ],
+      "source_data": [
+        "source_data/paired_all_rows.csv",
+        "source_data/local_metrics_Direct.csv"
+      ],
+      "files": [
+        {
+          "path": "03_local_Direct.png",
+          "sha256": "5f1b5abf89de1ab5dd016464f00e2656b2e8cddc4e18140b7ef922ba2c6c5d4f"
+        },
+        {
+          "path": "03_local_Direct.pdf",
+          "sha256": "84f5d9f9ecff934d2ce656dc079b759a01d9be2784938d13b572b863f94c389f"
+        }
+      ],
+      "size_inches": [
+        16.0,
+        9.0
+      ]
+    },
+    {
+      "id": "04_local_Split",
+      "title": "Split局部保幅代价 / Local amplitude costs (Split)",
+      "alt_text": "Six panels display paired absolute changes in event amplitude, weak-event, pinchout-tail, AVO intercept, AVO gradient and fault-neighborhood errors. Small circles show model means, larger method symbols show the equal-model average. Missing and inapplicable entries are counted together and retained in source data.",
+      "transformations": [
+        "Main and LowerSNR only; all finite applicable pairs",
+        "Absolute method-minus-Frozen metric difference",
+        "Small circles=model means; larger symbols=equal-model mean; no inferential intervals",
+        "NaN can mean metric inapplicable; no NaN is turned into zero"
+      ],
+      "source_data": [
+        "source_data/paired_all_rows.csv",
+        "source_data/local_metrics_Split.csv"
+      ],
+      "files": [
+        {
+          "path": "04_local_Split.png",
+          "sha256": "caf184c26bff7fae6a33a99a593dfe1f6b98ec5be5802f8e5a812620b7c59df1"
+        },
+        {
+          "path": "04_local_Split.pdf",
+          "sha256": "74d5d7c7c145ff3f716599c0a760ae286448f4c1cf39f6dc9d0c59fa9cb5a95c"
+        }
+      ],
+      "size_inches": [
+        16.0,
+        9.0
+      ]
+    },
+    {
+      "id": "05_failures",
+      "title": "不隐藏失败 / Failures retained in the full denominator",
+      "alt_text": "Two stacked bar charts classify every row from every suite as numerical/invalid, a valid waveform error above one, or a valid error at most one. Numbers above bars give all-row denominators; nonfinite errors remain in the invalid category.",
+      "transformations": [
+        "All suites included, with no removed rows",
+        "Numerical/invalid includes non-success Status, nonzero FinalFlag, nonfinite scores/residuals or normal residual>2e-7",
+        "Stacked fractions have a zero baseline and full all-row denominator"
+      ],
+      "source_data": [
+        "source_data/metrics_all_rows.csv",
+        "source_data/failure_counts_all_rows.csv"
+      ],
+      "files": [
+        {
+          "path": "05_failures.png",
+          "sha256": "5baa61c5347204b2f21416d7dbb0c4feac279dd781942ca6fdaf2b4fa6f0e597"
+        },
+        {
+          "path": "05_failures.pdf",
+          "sha256": "9abb4e2d944472997148ec31da7d6e8e8fef81b1a24de24020ed5b046945ca11"
+        }
+      ],
+      "size_inches": [
+        15.0,
+        6.0
+      ]
+    },
+    {
+      "id": "06_distributions",
+      "title": "全部分布及完整最差尾部 / Full distributions including the worst tail",
+      "alt_text": "Empirical cumulative curves include every finite RelativeError, regardless of solver status, across all suites. Their denominator includes nonfinite rows, so an incomplete curve can end below one. The full observed error range is shown and the error=1 threshold is marked.",
+      "transformations": [
+        "All suites and all finite scores; no status filter or tail clipping",
+        "ECDF denominator is all rows, including nonfinite",
+        "Pooled descriptive distribution; repeated noise rows are not independent geology",
+        "Mean/median/p90/p95/worst exported per model/suite/method/route"
+      ],
+      "source_data": [
+        "source_data/metrics_all_rows.csv",
+        "source_data/distribution_summary_all_rows.csv"
+      ],
+      "files": [
+        {
+          "path": "06_distributions.png",
+          "sha256": "409f4d64d079672e6f6eb90cd25309f5be1fb40af029a5a9127cd1afc8d84b37"
+        },
+        {
+          "path": "06_distributions.pdf",
+          "sha256": "07396d04d5c7564e5b7847fe089c3f738f56cc07f5c32408cba787fb6c71afd8"
+        }
+      ],
+      "size_inches": [
+        15.0,
+        6.0
+      ]
+    },
+    {
+      "id": "07_stress_worst",
+      "title": "压力情景与最差案例 / Stress suites and worst cases",
+      "alt_text": "The left heatmap contains mean paired percentage changes for Combined Split versus Frozen Split in every stress suite and model, with symmetric full-range colors and gray missing cells. The right table names the worst finite error for every method across all rows and routes. Nonfinite failures are reported separately rather than omitted from the study.",
+      "transformations": [
+        "Stress heatmap uses every paired finite stress row with no success-status filter",
+        "Heatmap limits are ±maximum absolute displayed change; missing=gray",
+        "Worst cases selected explicitly by maximum finite RelativeError, not appearance"
+      ],
+      "source_data": [
+        "source_data/stress_paired_changes.csv",
+        "source_data/worst_30_finite_rows.csv"
+      ],
+      "files": [
+        {
+          "path": "07_stress_worst.png",
+          "sha256": "0d23a17bc7344daada1d02b6edfac08b8db02cc907831f339aec8d945f37f704"
+        },
+        {
+          "path": "07_stress_worst.pdf",
+          "sha256": "8d0f09c2522a047ec4d24d3b8502ae8b832da05c56190e223878e7210fa79581"
+        }
+      ],
+      "size_inches": [
+        16.0,
+        7.0
+      ]
+    },
+    {
+      "id": "08_gather_Main",
+      "title": "指定道集 / Predesignated gather: Main / SmoothAVO",
+      "alt_text": "Five same-gather panels show truth, observation, Frozen Split and Combined Direct/Split for the predesignated first model/calibration/observation. Every panel uses the same symmetric amplitude range, set by the largest absolute value across all shown arrays, so no sample is clipped.",
+      "transformations": [
+        "Predesignated example selected by suite/scenario/model ID/seeds only",
+        "No per-panel normalization, filtering, smoothing or amplitude clipping",
+        "Shared amplitude limits ±0.111195145546; gray=nonfinite"
+      ],
+      "source_data": [
+        "source_data/DevGradedCompact_Main_SmoothAVO_cal310101_seed410101.csv"
+      ],
+      "files": [
+        {
+          "path": "08_gather_Main.png",
+          "sha256": "acc993218787949961845c426cf90cd11abd64c9537243fca349d7e8dc5e39d0"
+        },
+        {
+          "path": "08_gather_Main.pdf",
+          "sha256": "44f99e055be15a27fe755df2b1b0167269d5abd1976d14523e4735f240b8a7a7"
+        }
+      ],
+      "size_inches": [
+        17.0,
+        5.6
+      ]
+    },
+    {
+      "id": "09_gather_LowerSNR",
+      "title": "指定道集 / Predesignated gather: LowerSNR / SmoothAVO",
+      "alt_text": "Five same-gather panels show truth, observation, Frozen Split and Combined Direct/Split for the predesignated first model/calibration/observation. Every panel uses the same symmetric amplitude range, set by the largest absolute value across all shown arrays, so no sample is clipped.",
+      "transformations": [
+        "Predesignated example selected by suite/scenario/model ID/seeds only",
+        "No per-panel normalization, filtering, smoothing or amplitude clipping",
+        "Shared amplitude limits ±0.111195145546; gray=nonfinite"
+      ],
+      "source_data": [
+        "source_data/DevGradedCompact_LowerSNR_SmoothAVO_cal310101_seed410101.csv"
+      ],
+      "files": [
+        {
+          "path": "09_gather_LowerSNR.png",
+          "sha256": "e9b0d113946c567bd9708bf0fb07b4fad9fc9b1dde2da2bb4cba36d8673e7a80"
+        },
+        {
+          "path": "09_gather_LowerSNR.pdf",
+          "sha256": "334ac2464a36025112be1106d0235f1456fb9dfb5505846931587f436236f023"
+        }
+      ],
+      "size_inches": [
+        17.0,
+        5.6
+      ]
+    },
+    {
+      "id": "10_gather_SourceShape",
+      "title": "指定道集 / Predesignated gather: StressSourceShape / SmoothAVO",
+      "alt_text": "The predesignated example was not saved. This placeholder records the missing artifact without selecting an alternative result.",
+      "transformations": [
+        "No replacement by result quality"
+      ],
+      "source_data": [],
+      "files": [
+        {
+          "path": "10_gather_SourceShape.png",
+          "sha256": "d39cbdfb8bde659c30e197ae678da35aa71b4656cd0fea20bef3ca357e6c92ad"
+        },
+        {
+          "path": "10_gather_SourceShape.pdf",
+          "sha256": "9f77cf78bd8d4b46ed7ff966bcf40eeb206281c0bade708c08557d541d9eb124"
+        }
+      ],
+      "size_inches": [
+        10.0,
+        4.0
+      ]
+    },
+    {
+      "id": "11_fixed_traces_waveforms_spectra",
+      "title": "固定1/6/11道 / Fixed traces 1/6/11: waveform and spectrum",
+      "alt_text": "Three fixed traces, 1, 6 and 11, are shown with their full time waveforms and unsmoothed Fourier magnitudes over the full Nyquist range. Truth, observed data, Frozen Split and both Combined routes retain raw amplitude scaling and distinct line styles.",
+      "transformations": [
+        "Fixed traces [1,6,11], selected before results",
+        "Spectrum=abs(rfft(signal))/N; no taper, smoothing, interpolation, normalization to individual maxima or frequency truncation",
+        "Full time extent and 0–Nyquist frequency extent"
+      ],
+      "source_data": [
+        "source_data/DevGradedCompact_Main_SmoothAVO_cal310101_seed410101.csv",
+        "source_data/fixed_trace_spectra.csv"
+      ],
+      "files": [
+        {
+          "path": "11_fixed_traces_waveforms_spectra.png",
+          "sha256": "728a6b99f1629df02bb246af7bdcc70b89d0d43ee7d50e1a5afc786441eeccb4"
+        },
+        {
+          "path": "11_fixed_traces_waveforms_spectra.pdf",
+          "sha256": "49ca3860cd8ef6f8ffba336edb2d7dcbb7324db9d3e0deeb5b8e292afcfccf66"
+        }
+      ],
+      "size_inches": [
+        15.0,
+        10.0
+      ]
+    },
+    {
+      "id": "12_weak_pinchout_zoom",
+      "title": "弱反射与尖灭局部 / Predesignated weak-event and pinchout zooms",
+      "alt_text": "Two rows compare truth, Frozen Split and Combined Split for the predesignated weak-event and pinchout examples. The time window is fixed at 0.45–0.85 seconds; pinchout uses fixed tail traces 9–11. Each row shares its full absolute amplitude maximum across shown methods, with no clipping.",
+      "transformations": [
+        "Predesignated Main/WeakSection and Main/PinchoutSection examples",
+        "Fixed time window [0.45,.85] s; no result-based peak picking",
+        "Weak event all traces; pinchout tail traces [9,10,11]",
+        "Each row uses a shared unclipped symmetric range across all shown arrays"
+      ],
+      "source_data": [
+        "source_data/DevGradedCompact_Main_WeakSection_cal310101_seed410101.csv",
+        "source_data/DevGradedCompact_Main_PinchoutSection_cal310101_seed410101.csv"
+      ],
+      "files": [
+        {
+          "path": "12_weak_pinchout_zoom.png",
+          "sha256": "8bfdd084e0344bc5061021fa8eb22f1e5c792a2a64574a4751559d82a55a62ad"
+        },
+        {
+          "path": "12_weak_pinchout_zoom.pdf",
+          "sha256": "24996a03f808310dc995047f49eaa3eceef8a730f722e446e1ceb9225c75c396"
+        }
+      ],
+      "size_inches": [
+        15.0,
+        8.0
+      ]
+    },
+    {
+      "id": "13_worst_candidate_gather",
+      "title": "实际最差候选案例 / Actual worst candidate case: 道集 / gather",
+      "alt_text": "The actual largest finite RelativeError among the three declared candidate Split branches is shown beside its same-observation Frozen Split, truth and observation. Selection uses maximum error, including finite solver-failed results, with deterministic tie breaks; it does not choose an attractive example. The key, status and errors are printed. All panels share an unclipped absolute amplitude maximum.",
+      "transformations": [
+        "Largest finite RelativeError among NoiseUncertaintyOnly/QModelErrorOnly/CombinedUncertainty Split; includes finite solver-failed results; ties use declared branch order then IDs/seeds",
+        "Same observation, calibration seed and observation seed for candidate and Frozen",
+        "Shared limits ±0.0671275780856; no amplitude clipping or per-panel normalization",
+        "Nonfinite failures remain in CSV/failure counts and cannot supply a finite recovered gather"
+      ],
+      "source_data": [
+        "source_data/worst_case_CombinedUncertainty_Split.csv"
+      ],
+      "files": [
+        {
+          "path": "13_worst_candidate_gather.png",
+          "sha256": "619dc20ebfcc2c0fec0e625d9e9e4742137f22e38df6e52dd903beef62bfc127"
+        },
+        {
+          "path": "13_worst_candidate_gather.pdf",
+          "sha256": "3292b325294cc43add2b7c1889c3b40558c9c671769c0333313c17e1b71198a9"
+        }
+      ],
+      "size_inches": [
+        16.0,
+        6.2
+      ]
+    },
+    {
+      "id": "14_worst_candidate_waveforms_spectra",
+      "title": "实际最差候选案例 / Actual worst candidate case: 波形与频谱 / waveform and spectrum",
+      "alt_text": "For the same actual worst finite candidate Split case, fixed traces 1, 6 and 11 show the full-time raw waveforms and unsmoothed full-Nyquist spectra of truth, observation, the candidate and its matched Frozen Split. The case identifiers, solver status and candidate/Frozen errors are printed. Trace choice is fixed rather than selected by the appearance of failure.",
+      "transformations": [
+        "Largest finite RelativeError among NoiseUncertaintyOnly/QModelErrorOnly/CombinedUncertainty Split; includes finite solver-failed results; ties use declared branch order then IDs/seeds",
+        "Fixed traces [1,6,11]; full time and frequency extent",
+        "Spectrum=abs(rfft)/N; no smoothing, taper, frequency clipping or individual normalization"
+      ],
+      "source_data": [
+        "source_data/worst_case_CombinedUncertainty_Split.csv",
+        "source_data/worst_candidate_fixed_trace_spectra.csv"
+      ],
+      "files": [
+        {
+          "path": "14_worst_candidate_waveforms_spectra.png",
+          "sha256": "c7ad2bc82c137beb13556baef3e67d8fee07dca71d0d7315949fbd4399401722"
+        },
+        {
+          "path": "14_worst_candidate_waveforms_spectra.pdf",
+          "sha256": "cbc47274ba662684b662b8a88180e178f32dbd5a1f45a8b49efb34bb36f1471a"
+        }
+      ],
+      "size_inches": [
+        15.0,
+        10.8
+      ]
+    }
+  ]
+}

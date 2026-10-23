@@ -1,0 +1,691 @@
+{
+  "package_name": "p1_attenuation_research_handoff_20261019",
+  "file_count": 137,
+  "files": [
+    {
+      "path": "EFFECTS_ZH.md",
+      "bytes": 15975,
+      "sha256": "587bd45c777ba5729ee3c3d4d5bb102facb862f4f5afec633be76c33eacc388d"
+    },
+    {
+      "path": "METHOD_POLICY.json",
+      "bytes": 1142,
+      "sha256": "ab4eda0f07723ead37bbed12d29fac29da3c39b21959954afe6ce290e05be816"
+    },
+    {
+      "path": "NEXT_EXPERIMENT.json",
+      "bytes": 1782,
+      "sha256": "1d6a0c1ea79de2f81e40536e6ee28c78fe83d5bde08dbeb9f16e0c26d1d829ab"
+    },
+    {
+      "path": "RUN_METADATA.json",
+      "bytes": 13230,
+      "sha256": "5fa723d852cd1abdedbba9f51589b5b555a0eb2053cceae7278738cc157bac36"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 9821,
+      "sha256": "5cb47f46dd26579f817c87844e0e5159798fe6c7247a887648c880f0139ba07e"
+    },
+    {
+      "path": "core_p1/frozen_compensate.m",
+      "bytes": 1134,
+      "sha256": "8e22c81a40956c9a805b88147c3852fc7701bb85bf1f593693153ca792cb8f5d"
+    },
+    {
+      "path": "core_p1/inputs/options.json",
+      "bytes": 663,
+      "sha256": "f1f8a1aa5c7982262beb2109eb458e56c22bf6466c88016670437d6e971c9f3a"
+    },
+    {
+      "path": "core_p1/inputs/p1_experiment_spec.json",
+      "bytes": 8959,
+      "sha256": "3f2d4f4cf75144adfd332a16f8491f53459bab94c73b10096bb957ae946d24b2"
+    },
+    {
+      "path": "core_p1/inputs/stability_spec.json",
+      "bytes": 1352,
+      "sha256": "dc61a8b500090f9cde00dfff8472d5d83a2a32dc3b4b1ac34cb58eec574f1a40"
+    },
+    {
+      "path": "core_p1/inputs/uq_spec.json",
+      "bytes": 1433,
+      "sha256": "4eeb79354d2c30b7c9e6af982bc42c2daeee755ef6bd2dbab7f4a3cf51dbd35a"
+    },
+    {
+      "path": "core_p1/inputs/v2_options.json",
+      "bytes": 822,
+      "sha256": "bf9348a703e7a834b35b4b31f9cb5ad3750a3627f50e4131dac20d27bb294efc"
+    },
+    {
+      "path": "core_p1/matlab_src/attenuation_matrix.m",
+      "bytes": 488,
+      "sha256": "93d6cf4fd2f8fcb797016c02094d1b6ad8b63d1ca3cc83e0f5594bec2304c68b"
+    },
+    {
+      "path": "core_p1/matlab_src/avo_projector_v2.m",
+      "bytes": 901,
+      "sha256": "31a441af73c12f30a037dac00cf0a5240b190c5a9e721d1cb9f9273e13c6fa9e"
+    },
+    {
+      "path": "core_p1/matlab_src/build_structure_models.m",
+      "bytes": 849,
+      "sha256": "6062e968d07ec45f229a25bdb76a160266501afc0ad899332aaa726df015962c"
+    },
+    {
+      "path": "core_p1/matlab_src/compensate_unknown_q.m",
+      "bytes": 688,
+      "sha256": "2fc9f2b94e2021bc94ce4c8f5abd26027652f51da220ee68563cfb42e8aa0a74"
+    },
+    {
+      "path": "core_p1/matlab_src/config_model.m",
+      "bytes": 771,
+      "sha256": "383758437200c5d656114daa157fd7c3fcbc59911a155ef82599426f6af2c050"
+    },
+    {
+      "path": "core_p1/matlab_src/context_v2.m",
+      "bytes": 556,
+      "sha256": "5c30c38c2230a9af0b32c0b43d5da9809a4c815f13cf58ca9587ed9e08e7816f"
+    },
+    {
+      "path": "core_p1/matlab_src/discrepancy_apply.m",
+      "bytes": 596,
+      "sha256": "47c1353bd6bf9a6cdb56d0d1c30a2ec0c2741e60828ff576fabda6384d739edb"
+    },
+    {
+      "path": "core_p1/matlab_src/discrepancy_factor.m",
+      "bytes": 164,
+      "sha256": "23da2f7fde0f5db52f0a57300da346e69a1a1889e40c0a0d5dd648061f26a5dd"
+    },
+    {
+      "path": "core_p1/matlab_src/estimate_q_effective.m",
+      "bytes": 2742,
+      "sha256": "63570c7d57b7a224b2e8deff836123043ab8c14a65a6e7655811401462dfab5f"
+    },
+    {
+      "path": "core_p1/matlab_src/estimate_trace_snr.m",
+      "bytes": 2222,
+      "sha256": "f444fd0f9c53c2928af1927ec6e5b38f78bf90f5552aa09abdd998fd0e157983"
+    },
+    {
+      "path": "core_p1/matlab_src/learn_structure_operator.m",
+      "bytes": 2208,
+      "sha256": "098892432742a23b0f6bc2fa376377ac84f200cce710ab4a5cb311c9ba064649"
+    },
+    {
+      "path": "core_p1/matlab_src/make_reference.m",
+      "bytes": 654,
+      "sha256": "aff7a2523147f7ca79da475437919c4244949c2b322630d5216a420e1b1b11c7"
+    },
+    {
+      "path": "core_p1/matlab_src/make_stability_scene.m",
+      "bytes": 1120,
+      "sha256": "6ff0fd07aaa23822db58cc6a8fc7e3d80eb136d7baf7f746215cbf8c24e6a98c"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_calibrate_ensemble.m",
+      "bytes": 1235,
+      "sha256": "d60b805b713df36126ca815bfb160f546cde68c6ca9aa330d394d99b8f6a9954"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_models.m",
+      "bytes": 694,
+      "sha256": "1bfa365f9a18f7ad25f914963a15a42fb382a708a2b0d863e66f5845b1a141f6"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_noise_uncertainty.m",
+      "bytes": 1715,
+      "sha256": "5ef7deae27dcb467ec98675d5e1b15f76ed992213cbd0c7843368e86f2bfd26e"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_q_model_error.m",
+      "bytes": 2150,
+      "sha256": "4bacc63775a7e05d6f7f86812c133c7adf75bf99d20d61ec2e59054ea91ca19a"
+    },
+    {
+      "path": "core_p1/matlab_src/p1_solve_branch.m",
+      "bytes": 6294,
+      "sha256": "de21cef9cc4f1a114f71f164b491647b528c3fa6083a80359bff4a90915d91c4"
+    },
+    {
+      "path": "core_p1/matlab_src/prepare_models_v2.m",
+      "bytes": 403,
+      "sha256": "44441fc455c4fd3b9ba6087a5f30089d0fee6000b62e8debfd8a411c24606b3a"
+    },
+    {
+      "path": "core_p1/matlab_src/ray_absorption.m",
+      "bytes": 959,
+      "sha256": "c74fe81b4925d1a069e81ad2d198e4b7bdfc14248f1df520f18faf373277a175"
+    },
+    {
+      "path": "core_p1/matlab_src/ridge_operator.m",
+      "bytes": 134,
+      "sha256": "f458abdb8726c0565abb9a116ec482860e4f77e35efa4d9862ea583191cc0a52"
+    },
+    {
+      "path": "core_p1/matlab_src/score_stability.m",
+      "bytes": 337,
+      "sha256": "0b7b5e721ff5c644d23a459f74f90759d88aca84694d0c66f645a50fa901b822"
+    },
+    {
+      "path": "core_p1/matlab_src/score_structure.m",
+      "bytes": 1585,
+      "sha256": "a8878a12b2f245983bc5086b16fb40584ef71e765068606f791261b166195a94"
+    },
+    {
+      "path": "core_p1/matlab_src/select_v2.m",
+      "bytes": 1494,
+      "sha256": "76aee1128e8c5c427dc1642a42a2c180f8aafca79dded00b7ea0a904b6a67102"
+    },
+    {
+      "path": "core_p1/matlab_src/solve_v2.m",
+      "bytes": 1806,
+      "sha256": "1b450f8559b76000cbb4f13dc1bd6d05325125337322994ddc4e65f4dd22c3b1"
+    },
+    {
+      "path": "core_p1/matlab_src/stability_models.m",
+      "bytes": 537,
+      "sha256": "41a0e38587012a0ae38d5dfe479bb8e34c12ed212a6c5a6d9b6e38ddd4da3c62"
+    },
+    {
+      "path": "core_p1/matlab_src/structure_options.m",
+      "bytes": 149,
+      "sha256": "849b9803725c1ec7ed7da341bfcbf5620dfd1f30004b2a66e7d931daeff686ef"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_audit_outputs.m",
+      "bytes": 342,
+      "sha256": "e4a966409d02eacc035983cb61ada4bbdc4f88d30891c9a2a7e0eb2d490029f9"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_build_prior.m",
+      "bytes": 684,
+      "sha256": "0b8562a885116cd9ab921ee5ca96bc581fbcc03302741b2ab75acdd75a82d2b2"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_case.m",
+      "bytes": 220,
+      "sha256": "6975bf52ce605a3b001d4b75cab797ccaf069006d313561013ebd1f5736c1491"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_inverse_config.m",
+      "bytes": 1625,
+      "sha256": "d084e826fb7158dd028856bc802cd77fb8c94eb86bc230ee1d5c94b82eb24f81"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_metric_row.m",
+      "bytes": 1054,
+      "sha256": "3bbbcd84aa25ba8b5817dbaadfe840e978c4ed551cbb5cf214e6b6e5b8d4048f"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_observation.m",
+      "bytes": 628,
+      "sha256": "283999b97822d2b76833a93c1c67edbedb6e9d89aa5597e2b316377667b01f9a"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_public_config.m",
+      "bytes": 333,
+      "sha256": "03d220346379a0c7e85303d4221e818e1d63f2ed2023ebe2e609bea79946cbbc"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_select.m",
+      "bytes": 1491,
+      "sha256": "e04128ba1d0a3d83afc53fd7717f410d179dd2549e816996952af9814cd2e33b"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_spec.m",
+      "bytes": 139,
+      "sha256": "077df6ea906a6c8c14f1c2e48ff683f797d102545ae5cf9320abf3477470d671"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_templates.m",
+      "bytes": 612,
+      "sha256": "e60d7f7df87f6f02120185177ee5f955cddd4212a486239205bde5b396301db2"
+    },
+    {
+      "path": "core_p1/matlab_src/uq_writejson.m",
+      "bytes": 124,
+      "sha256": "74a3ea78143819e5710adf9aeb06f755f3ce0dc4c074a51f904a02a10f587c3c"
+    },
+    {
+      "path": "core_p1/matlab_src/v2_options.m",
+      "bytes": 145,
+      "sha256": "12371e5c756543fbe4b126e954870f832ecc82bd0fdc3addc46a53b1997fa1d0"
+    },
+    {
+      "path": "core_p1/matlab_src/validate_p1_unknown_q.m",
+      "bytes": 2349,
+      "sha256": "7a9b7b7e6c45ad76030ffd4084dfd3c12b4abde07450b96ea1ef812beae0ecf8"
+    },
+    {
+      "path": "core_p1/matlab_src/validate_unknown_q.m",
+      "bytes": 1936,
+      "sha256": "19d9c88ff8b2e8026bb7bf7288f8812ed06bf3e8747672b88af80bb65631c680"
+    },
+    {
+      "path": "core_p1/p1_compensate.m",
+      "bytes": 1854,
+      "sha256": "0bd7bd060dd8e5fbf812bacf5e5b29b75a6bbf7fb0d24d1aacff3b7dd75ba64f"
+    },
+    {
+      "path": "core_p1/run_p1_research.m",
+      "bytes": 7454,
+      "sha256": "7bb736429cdd2e6c6fc578c44bd747cf0e8d51f51bbced755ff99314b194a66b"
+    },
+    {
+      "path": "core_p1/run_research.m",
+      "bytes": 3730,
+      "sha256": "1257fb17dd294061bb02323e7d869d753d7ed7113d7a5b577757b392719c3aa8"
+    },
+    {
+      "path": "effects.html",
+      "bytes": 20733,
+      "sha256": "360e237fa77c23ea84d8a66eb9b067f1e14e80132c2c489a7d04dbe724770ccb"
+    },
+    {
+      "path": "figures/01_p1_overall_ablation.pdf",
+      "bytes": 54348,
+      "sha256": "e0808648d49f8b8466b35cf5709b9db795aa7b06f431472e8b3b384b4600ad76"
+    },
+    {
+      "path": "figures/01_p1_overall_ablation.png",
+      "bytes": 426284,
+      "sha256": "513c6d12037e4eb00e0d2824cd73fcc8393816b6391af4af370682965ecc4945"
+    },
+    {
+      "path": "figures/02_p1_all_scenes.pdf",
+      "bytes": 44800,
+      "sha256": "f63d617476f85c47a6b6eb0c18e9e19903f6c60ad23dfc669e88a390b73c0a1e"
+    },
+    {
+      "path": "figures/02_p1_all_scenes.png",
+      "bytes": 291455,
+      "sha256": "20f977991a645ed3b2c5ce1f734c5558156e9da17ffed645eb9a384cca21af2c"
+    },
+    {
+      "path": "figures/03_p1_local_amplitude_and_risks.pdf",
+      "bytes": 67579,
+      "sha256": "e9afd43f34e00a13a503d97d47eac2e407e8dd6f0741036bbea4bfc293bc469f"
+    },
+    {
+      "path": "figures/03_p1_local_amplitude_and_risks.png",
+      "bytes": 366195,
+      "sha256": "9580a7fc72aaba0e2793e89a65e2e92a89657f5b32c4a7aaa4e87daa5e01eb64"
+    },
+    {
+      "path": "figures/04_p1_paired_differences_and_tails.pdf",
+      "bytes": 60714,
+      "sha256": "9510ea0148d464084907daa26ae44c1dbe21d272b9ef85e0b5772ba475ba2067"
+    },
+    {
+      "path": "figures/04_p1_paired_differences_and_tails.png",
+      "bytes": 456330,
+      "sha256": "7a48f84709776f24fdb10f687f2cfae3e933f3f5ae08addc8ef2175d20bdd891"
+    },
+    {
+      "path": "figures/05_p1_fixed_trace_and_spectrum.pdf",
+      "bytes": 80744,
+      "sha256": "df5bbb375211a2439198d78b0d7ddbb697f5b73a5db5e6b55410958ed3b1683b"
+    },
+    {
+      "path": "figures/05_p1_fixed_trace_and_spectrum.png",
+      "bytes": 768692,
+      "sha256": "7c8363f267f0dec4d86cc4f12a639d88ae0f79ab06d39af347284dece789dd09"
+    },
+    {
+      "path": "figures/06_p1_same_gather_SoftLowQ.pdf",
+      "bytes": 228900,
+      "sha256": "77f7a1e28f0b07435438b17c9f9b85cea94262677649ab3f5e78e9c510812b62"
+    },
+    {
+      "path": "figures/06_p1_same_gather_SoftLowQ.png",
+      "bytes": 959556,
+      "sha256": "01500bebf1f5700c856bda122851ff3fc1483ba444763e57cfb74b23b3d73fa7"
+    },
+    {
+      "path": "figures/07_p1_matched_prior_and_new_geology.pdf",
+      "bytes": 59152,
+      "sha256": "190432c49ec33b5c4f05a9a2907a145c954e2bd78b60a3fff6539718e9451a01"
+    },
+    {
+      "path": "figures/07_p1_matched_prior_and_new_geology.png",
+      "bytes": 436772,
+      "sha256": "6f17850b875edabfef18fe69c0783debfaa8028745f12091a789e95988d1cd0e"
+    },
+    {
+      "path": "results/EFFECTS_ZH.md",
+      "bytes": 15975,
+      "sha256": "587bd45c777ba5729ee3c3d4d5bb102facb862f4f5afec633be76c33eacc388d"
+    },
+    {
+      "path": "results/RUN_METADATA.json",
+      "bytes": 13230,
+      "sha256": "5fa723d852cd1abdedbba9f51589b5b555a0eb2053cceae7278738cc157bac36"
+    },
+    {
+      "path": "results/acceptance.json",
+      "bytes": 17636,
+      "sha256": "499d8c82475d111ee44b77e5718ef6e458a8dbf1abc58a422ede225e3228a275"
+    },
+    {
+      "path": "results/calibration_estimates.json",
+      "bytes": 33531,
+      "sha256": "a4e2306f1e23be9e54965b50b84ad4d351115a3bb6883f2d4a03b5132cda41b5"
+    },
+    {
+      "path": "results/calibration_historical.json",
+      "bytes": 11988,
+      "sha256": "839c831d63a4c1deb02e4923b1180ee12003910351ddc152d692dee591cfdc06"
+    },
+    {
+      "path": "results/effects.html",
+      "bytes": 20733,
+      "sha256": "360e237fa77c23ea84d8a66eb9b067f1e14e80132c2c489a7d04dbe724770ccb"
+    },
+    {
+      "path": "results/engine_check/connection.json",
+      "bytes": 381,
+      "sha256": "2a12b603cfdece70fffb78be88912123b130ccac1770ec51056861267f6ba50f"
+    },
+    {
+      "path": "results/engine_check/matlab_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/engine_check/matlab_stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen/EFFECTS_ZH.md",
+      "bytes": 2365,
+      "sha256": "8adcf5b4962f2875b301bfb3852606de66f30005e981b9c576d09d22edeef031"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen/acceptance.json",
+      "bytes": 17597,
+      "sha256": "901dbc62c5806147d507637e71aa3a28bf14e0fd62a323efec0f905ce513a267"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen/effects.html",
+      "bytes": 13110,
+      "sha256": "bb0437acb65f94f76319080beb38071d4d107ee64d43f0216c8093b24db6e595"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen/paired_differences.csv",
+      "bytes": 36974,
+      "sha256": "a8dea8e51566748954a3b0dfcafa8c308eecf399eb53ced94a03edfdd951a86e"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen_all_models/EFFECTS_ZH.md",
+      "bytes": 4284,
+      "sha256": "8849dc0d060a01220a98d50c707120ed9d413c3f1f358534337041d0e4b7f455"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen_all_models/acceptance.json",
+      "bytes": 46099,
+      "sha256": "18a64ec49c25c573208802c548c1b8f38bdfc1684a393de10a2fdda1a66b45bc"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen_all_models/effects.html",
+      "bytes": 34286,
+      "sha256": "03564423c2e5d2ec89077a3885be246aad7251eca15730a3e482c2f81186ba3e"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_NoStructure_vs_Frozen_all_models/paired_differences.csv",
+      "bytes": 71920,
+      "sha256": "ab76694e171019497ff73c87214fae701a0ace0c77a5c2cddefcc9eb55372ba7"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen/EFFECTS_ZH.md",
+      "bytes": 1145,
+      "sha256": "501a3a63f9c90b4f666efe2ef4afce4d9844fb603d2ad15a12600f7306f6a38e"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen/acceptance.json",
+      "bytes": 17636,
+      "sha256": "499d8c82475d111ee44b77e5718ef6e458a8dbf1abc58a422ede225e3228a275"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen/effects.html",
+      "bytes": 13079,
+      "sha256": "fceffd75152931d0fd513a6b4ff18cb08ed70b4b1bf4bcaa06d38d54b21da9b7"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen/paired_differences.csv",
+      "bytes": 37036,
+      "sha256": "50f0cd6923151bc7b4b6fca10f17d3ea27d9fb08ec8df6dbb9cf74e3a775a8b0"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen_all_models/EFFECTS_ZH.md",
+      "bytes": 1870,
+      "sha256": "f93a4671536edff1d3863c69c7c0e9e2303bc67c0a898ad24456bbfb33ce80d0"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen_all_models/acceptance.json",
+      "bytes": 46113,
+      "sha256": "6b0132fe7f7be9f0bd68602830f44c27f161dbe52bbf10e67ddbb38b8f669861"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen_all_models/effects.html",
+      "bytes": 34230,
+      "sha256": "600954055746f4bc464cd7aecac02856ffc2f2d214844f88c3d7a16e0fa45560"
+    },
+    {
+      "path": "results/eval_CombinedUncertainty_vs_Frozen_all_models/paired_differences.csv",
+      "bytes": 71993,
+      "sha256": "c0adad7d06d16c2a6c20db2dcb7bf4853b567dcdad2e0f044943eef59c8227e0"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen/EFFECTS_ZH.md",
+      "bytes": 1222,
+      "sha256": "ee62f48af1097802f51c398bc2b5f962611d96d256c4ae5007399b31a5b0bdf4"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen/acceptance.json",
+      "bytes": 17626,
+      "sha256": "f67ce93c9c26f17e95d42e5209f70f45d8a104ace5cb25b546e6a0d85514c064"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen/effects.html",
+      "bytes": 13077,
+      "sha256": "b932c9d9252e5404c63df2f61d777e6f14d7026c96252bf83f593bf936895ac9"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen/paired_differences.csv",
+      "bytes": 37257,
+      "sha256": "591ad5240beb75c223dba4ca879f3af55f3c83c6593e2907327ce037c7ab5756"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen_all_models/EFFECTS_ZH.md",
+      "bytes": 1853,
+      "sha256": "a7258dd87e31fef8ddce84c5dfa0b66472f95e4be7f632b8d8d145f523aa2954"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen_all_models/acceptance.json",
+      "bytes": 46130,
+      "sha256": "27a71c1d10a56c35284bb2362fbdacf98753e0fb53f9b3a23c211cd28262b102"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen_all_models/effects.html",
+      "bytes": 34239,
+      "sha256": "38cdf3f8f4f817fe06d61637d8c99a0670e15db775545aad771d847632d93fe5"
+    },
+    {
+      "path": "results/eval_NoiseUncertaintyOnly_vs_Frozen_all_models/paired_differences.csv",
+      "bytes": 72430,
+      "sha256": "02f0f6468c38965e968945d1c9f9db1a40f65c259cbb3e617d6ffc736376f7ac"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen/EFFECTS_ZH.md",
+      "bytes": 1215,
+      "sha256": "d3e8c63eee6965430489d5a3601c8fe960c6916615e172cf5b3f33b967a32cb5"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen/acceptance.json",
+      "bytes": 17619,
+      "sha256": "258cf2ed1f616fcbd7ffdf2830b8aa4d5a990e384ad70b0a908713acfb6b375f"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen/effects.html",
+      "bytes": 13070,
+      "sha256": "6aa77cb73f84cfc7e333dc62ad3a8fb700fc7091ff18dcc4f091e798146605a6"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen/paired_differences.csv",
+      "bytes": 37026,
+      "sha256": "d0c038636a210e6534ac4c29d228ee8e4cfd4225a9934c2fbdeb487285a2adb8"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen_all_models/EFFECTS_ZH.md",
+      "bytes": 2007,
+      "sha256": "ea03a7baeab16070e7b75702475f2a74746f77b35cc3eaa144045f42d578821a"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen_all_models/acceptance.json",
+      "bytes": 46113,
+      "sha256": "32b671b8c5dea862d80dba8ec1aa983df58e8a2e324a8ace6bd7aead2d0f8603"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen_all_models/effects.html",
+      "bytes": 34237,
+      "sha256": "0232f2ac9842a0642f8f5475b902e0d38f26d5a0d90fb81223653c19652827b4"
+    },
+    {
+      "path": "results/eval_QModelErrorOnly_vs_Frozen_all_models/paired_differences.csv",
+      "bytes": 71981,
+      "sha256": "0a682351b54d1bc043a8491275bba9f4460f550c22db2833068a2c66278c85ef"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen/EFFECTS_ZH.md",
+      "bytes": 5363,
+      "sha256": "b1f1656ce0b4dd66e269429a8d68a8b700b08a470ccf678fad17a885ff4f09a0"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen/acceptance.json",
+      "bytes": 17640,
+      "sha256": "0206565082dab2f1ecb9bb60cc58b0c1913b8b6231b7959cc84a96cb11a86c60"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen/effects.html",
+      "bytes": 13193,
+      "sha256": "36ec3fdfbbe3c17fb37faed0cc7f4689bdd24a5b6fc11d4d9cfe4e5b3b1b7758"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen/paired_differences.csv",
+      "bytes": 36600,
+      "sha256": "31c01ab7c06a2c51cc206a0d37ba0c1c34a68ab48671a5870fdf4a1f6a266431"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen_all_models/EFFECTS_ZH.md",
+      "bytes": 14379,
+      "sha256": "9ea0c3a31d8842314abfab2850d574aa3d421e1ec02f7a668f8ebdf3174e9a81"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen_all_models/acceptance.json",
+      "bytes": 46166,
+      "sha256": "e3f94aa5ad9def1e7915bcf684474752afabaadd7bfe89ef189307c694ef119b"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen_all_models/effects.html",
+      "bytes": 34585,
+      "sha256": "52be72a0096ef635cb30b2070f89ea19135c791c22031074b3840ea98c1622f8"
+    },
+    {
+      "path": "results/eval_StrongerDamping_vs_Frozen_all_models/paired_differences.csv",
+      "bytes": 71101,
+      "sha256": "024ec89e1c143ce11b708c964bb6735ec6b383b310cd1c03a5449bbfd133fa61"
+    },
+    {
+      "path": "results/hierarchical_bootstrap_ci.json",
+      "bytes": 8066,
+      "sha256": "c7af52ac3a6c333aa57ed535b28317cf4623e252e9bb3b5f681a5461b190f95e"
+    },
+    {
+      "path": "results/matched_prior_fairness_audit.json",
+      "bytes": 649,
+      "sha256": "e759a95661a305230b2224d559bba933acb72e7d05554bf499ad7c23ee4e214a"
+    },
+    {
+      "path": "results/metrics.csv",
+      "bytes": 695606,
+      "sha256": "c7e0254b4cca8f7d88e0a936711fe862bb25f95752fc86467f95620df426fa79"
+    },
+    {
+      "path": "results/metrics_p1_all_models_multical.csv",
+      "bytes": 1370779,
+      "sha256": "f096129ef1b1d545d58cb540b51ba75e1ebd29d49c1f81bae9de82a816fc785a"
+    },
+    {
+      "path": "results/metrics_p1_historical_paired.csv",
+      "bytes": 695606,
+      "sha256": "c7e0254b4cca8f7d88e0a936711fe862bb25f95752fc86467f95620df426fa79"
+    },
+    {
+      "path": "results/metrics_p1_multical_extra.csv",
+      "bytes": 167587,
+      "sha256": "2897be2d2fff3340652733d87728bc2b963f2ca524e41f2b147bb191760913f6"
+    },
+    {
+      "path": "results/metrics_p1_stress_suites.csv",
+      "bytes": 139369,
+      "sha256": "82c227d0bfbb220fac879e2b67fe9fd8869bb1a590c834fa93705463c2afd131"
+    },
+    {
+      "path": "results/paired_differences.csv",
+      "bytes": 37036,
+      "sha256": "50f0cd6923151bc7b4b6fca10f17d3ea27d9fb08ec8df6dbb9cf74e3a775a8b0"
+    },
+    {
+      "path": "results/stored_examples_waveforms.json",
+      "bytes": 14832363,
+      "sha256": "99e336a7dff8e4a9d8b4d04042b818c07ab61c4ccf771086bd800a8d3226041d"
+    },
+    {
+      "path": "results/truth_isolation_audit.json",
+      "bytes": 1207,
+      "sha256": "9a27fe1dde709f1765ddba85161a178bfbbb09cb2c8f221abf6cfc4d6ff96196"
+    },
+    {
+      "path": "scripts/audit_truth_isolation.py",
+      "bytes": 3798,
+      "sha256": "2683bbd3227591af3e1f007317699e6880241a3699700e537211cf9aba682415"
+    },
+    {
+      "path": "scripts/build_final_reports_and_package.py",
+      "bytes": 24004,
+      "sha256": "d73c08701665bda26eb0a71444f7a726771f6b8fbadef44a0369cd8b9def04c8"
+    },
+    {
+      "path": "scripts/evaluate_candidate.py",
+      "bytes": 11130,
+      "sha256": "75b4a5ab481cc9e570f08ee937ade80ed4a6d7648b8777fc13af4d9d67935477"
+    },
+    {
+      "path": "scripts/generate_p1_reports_and_figures.py",
+      "bytes": 32328,
+      "sha256": "35b5f2c9593eaaf636f55b992a693bf8c72d8cdf27eef2204da3b3762e75909b"
+    },
+    {
+      "path": "scripts/p1_solver_core.py",
+      "bytes": 28014,
+      "sha256": "2e236ace48152fd00669eed226ef85fd83c5c085b94db48d85aa0f96b8ca8a35"
+    },
+    {
+      "path": "scripts/run_matlab_p1.py",
+      "bytes": 4021,
+      "sha256": "59e84f01674452c05f33faf3cef178ef7c58fdfd119537e4790c463a4f1580a6"
+    },
+    {
+      "path": "scripts/run_p1_scipy_evaluation.py",
+      "bytes": 20714,
+      "sha256": "92db8a31ec014d4ea2456e970eecfe8bc196cd768c86fd989f9cf1e9dc68950d"
+    },
+    {
+      "path": "scripts/verify_numpy_solver.py",
+      "bytes": 19503,
+      "sha256": "c5b0ae64b4c0099385e0db4017768069b72f87d5c82fe36a1dfe51cdfd5b3973"
+    }
+  ]
+}

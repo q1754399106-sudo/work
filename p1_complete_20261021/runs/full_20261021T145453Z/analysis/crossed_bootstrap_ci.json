@@ -1,0 +1,70 @@
+{
+  "historical": {
+    "point_gain_pct": 5.435546980542405,
+    "crossed_model_ci95_pct": [
+      2.926576142496711,
+      8.670832575033383
+    ],
+    "fixed_models_crossed_ci95_pct": [
+      5.057122146731331,
+      5.94460444804275
+    ],
+    "n_models": 3,
+    "n_calibrations": 3,
+    "n_observation_seeds": 6,
+    "fixed_scenarios": 5,
+    "n_boot": 4000,
+    "design": "model x crossed calibration x observation seed; shared seed draws across models/scenarios"
+  },
+  "development": {
+    "point_gain_pct": 4.907594718974295,
+    "crossed_model_ci95_pct": [
+      3.964040878574624,
+      5.867861441128541
+    ],
+    "fixed_models_crossed_ci95_pct": [
+      4.6046908867396485,
+      5.291909511923325
+    ],
+    "n_models": 2,
+    "n_calibrations": 3,
+    "n_observation_seeds": 6,
+    "fixed_scenarios": 5,
+    "n_boot": 4000,
+    "design": "model x crossed calibration x observation seed; shared seed draws across models/scenarios"
+  },
+  "heldout_new_geology": {
+    "point_gain_pct": 6.148482541823952,
+    "crossed_model_ci95_pct": [
+      3.577210719324233,
+      9.538883211725075
+    ],
+    "fixed_models_crossed_ci95_pct": [
+      5.696397102071239,
+      6.6559320017123325
+    ],
+    "n_models": 4,
+    "n_calibrations": 3,
+    "n_observation_seeds": 6,
+    "fixed_scenarios": 5,
+    "n_boot": 4000,
+    "design": "model x crossed calibration x observation seed; shared seed draws across models/scenarios"
+  },
+  "all": {
+    "point_gain_pct": 5.647058546228623,
+    "crossed_model_ci95_pct": [
+      3.8419831384055465,
+      7.663227273930226
+    ],
+    "fixed_models_crossed_ci95_pct": [
+      5.298566831561258,
+      6.084897418093552
+    ],
+    "n_models": 9,
+    "n_calibrations": 3,
+    "n_observation_seeds": 6,
+    "fixed_scenarios": 5,
+    "n_boot": 4000,
+    "design": "model x crossed calibration x observation seed; shared seed draws across models/scenarios"
+  }
+}

@@ -1,0 +1,11 @@
+CALIBRATION_READY Development elapsed=7.1 Q=[42.37066       50.2125      61.82446      140.3126]
+SUPPORT_START Development Moderate traces=22
+METHOD_DONE Development Moderate GlobalTSVD rank_mean=106.05 elapsed=104.4
+METHOD_DONE Development Moderate ClusterModesNoQ rank_mean=64.64 elapsed=140.0
+METHOD_DONE Development Moderate QAwareRidge rank_mean=108.14 elapsed=140.2
+METHOD_DONE Development Moderate QAwareCluster rank_mean=63.41 elapsed=174.2
+SUPPORT_START Development Strong traces=22
+METHOD_DONE Development Strong GlobalTSVD rank_mean=94.41 elapsed=243.3
+METHOD_DONE Development Strong ClusterModesNoQ rank_mean=52.64 elapsed=269.5
+METHOD_DONE Development Strong QAwareRidge rank_mean=95.73 elapsed=269.6
+METHOD_DONE Development Strong QAwareCluster rank_mean=52.50 elapsed=295.1

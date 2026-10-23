@@ -1,0 +1,2139 @@
+{
+  "stage": "frozen_candidate_confirmation_and_regression",
+  "policy": {
+    "version": "CombinedUncertaintyV2-calibration-shrinkage-development-selected",
+    "calibration_mode": "layered",
+    "selected_profile": {
+      "name": "CalShrink025Light",
+      "confidence_floor": 0.2,
+      "section_modal_blend": 0.25,
+      "section_target": 1,
+      "section_gamma": 3,
+      "section_calibration_weight": 0.25
+    },
+    "selected_on_development_run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\shrinkage_development_screen_20261022T052011Z",
+    "selection_rule": "All original engineering gates and solver quality; Main mean must improve vs original Combined; among feasible profiles minimize Main equal-model error",
+    "development_manifest_sha256": "58a820d698b2fcd90058b85522c04c6a81eb818809698361e7c8a0ee84b1c5b0",
+    "created_utc": "2026-10-22T05:29:39.957757+00:00",
+    "promotion_status": "PENDING_INDEPENDENT_CONFIRMATION",
+    "frozen_before_reserved_validation": true,
+    "section_calibration_strategy": "Geometric shrinkage of Q/f point estimates; corrected kinematics retained",
+    "offset_calibration_strategy": "Full validated layered calibration",
+    "uncertainty_scope": "Point estimates and inherited effective-Q/f regularization uncertainty; layerwise posterior coverage unverified"
+  },
+  "jobs": [
+    {
+      "model": {
+        "name": "V2Audit_LowQDeep",
+        "vp": [
+          1820,
+          2110,
+          2490,
+          3020
+        ],
+        "vs": [
+          780,
+          1020,
+          1300,
+          1670
+        ],
+        "rho": [
+          1.94,
+          2.09,
+          2.29,
+          2.49
+        ],
+        "Q": [
+          20,
+          33,
+          52,
+          70
+        ],
+        "event_t": [
+          0.32,
+          0.61,
+          0.97
+        ],
+        "fpeak": 53,
+        "nominal_frequency": 62
+      },
+      "group": "prospective_synthetic",
+      "calibration_seeds": [
+        72101,
+        72102,
+        72103
+      ],
+      "test_seeds": [
+        73101,
+        73102,
+        73103,
+        73104,
+        73105,
+        73106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": false
+    },
+    {
+      "model": {
+        "name": "V2Audit_Reversal",
+        "vp": [
+          2130,
+          2820,
+          2410,
+          3310
+        ],
+        "vs": [
+          1010,
+          1480,
+          1210,
+          1830
+        ],
+        "rho": [
+          2.05,
+          2.31,
+          2.18,
+          2.55
+        ],
+        "Q": [
+          105,
+          38,
+          92,
+          62
+        ],
+        "event_t": [
+          0.39,
+          0.74,
+          1.03
+        ],
+        "fpeak": 66,
+        "nominal_frequency": 75
+      },
+      "group": "prospective_synthetic",
+      "calibration_seeds": [
+        72101,
+        72102,
+        72103
+      ],
+      "test_seeds": [
+        73101,
+        73102,
+        73103,
+        73104,
+        73105,
+        73106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": false
+    },
+    {
+      "model": {
+        "name": "V2Audit_ThinPair",
+        "vp": [
+          2030,
+          2460,
+          2640,
+          3080
+        ],
+        "vs": [
+          920,
+          1240,
+          1420,
+          1700
+        ],
+        "rho": [
+          2.01,
+          2.19,
+          2.32,
+          2.48
+        ],
+        "Q": [
+          42,
+          72,
+          36,
+          94
+        ],
+        "event_t": [
+          0.35,
+          0.69,
+          0.712
+        ],
+        "fpeak": 78,
+        "nominal_frequency": 88
+      },
+      "group": "prospective_synthetic",
+      "calibration_seeds": [
+        72101,
+        72102,
+        72103
+      ],
+      "test_seeds": [
+        73101,
+        73102,
+        73103,
+        73104,
+        73105,
+        73106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": false
+    },
+    {
+      "model": {
+        "name": "V2Audit_MixedDeep",
+        "vp": [
+          1970,
+          2340,
+          2790,
+          3390
+        ],
+        "vs": [
+          870,
+          1170,
+          1500,
+          1880
+        ],
+        "rho": [
+          1.99,
+          2.15,
+          2.36,
+          2.59
+        ],
+        "Q": [
+          85,
+          58,
+          23,
+          42
+        ],
+        "event_t": [
+          0.3,
+          0.58,
+          1.01
+        ],
+        "fpeak": 58,
+        "nominal_frequency": 66
+      },
+      "group": "prospective_synthetic",
+      "calibration_seeds": [
+        72101,
+        72102,
+        72103
+      ],
+      "test_seeds": [
+        73101,
+        73102,
+        73103,
+        73104,
+        73105,
+        73106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": false
+    },
+    {
+      "model": {
+        "name": "SoftLowQ",
+        "vp": [
+          1850,
+          2050,
+          2300,
+          2550
+        ],
+        "vs": [
+          800,
+          980,
+          1200,
+          1400
+        ],
+        "rho": [
+          1.95,
+          2.08,
+          2.22,
+          2.35
+        ],
+        "Q": [
+          22,
+          30,
+          42,
+          60
+        ],
+        "event_t": [
+          0.34,
+          0.6,
+          0.94
+        ],
+        "fpeak": 45,
+        "nominal_frequency": 52
+      },
+      "group": "historical",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "VelocityReversal",
+        "vp": [
+          2200,
+          2700,
+          2450,
+          3200
+        ],
+        "vs": [
+          1050,
+          1450,
+          1250,
+          1750
+        ],
+        "rho": [
+          2.05,
+          2.3,
+          2.2,
+          2.52
+        ],
+        "Q": [
+          90,
+          45,
+          110,
+          65
+        ],
+        "event_t": [
+          0.42,
+          0.73,
+          1.0
+        ],
+        "fpeak": 70,
+        "nominal_frequency": 60
+      },
+      "group": "historical",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "ThinHighFrequency",
+        "vp": [
+          2000,
+          2400,
+          2550,
+          2900
+        ],
+        "vs": [
+          900,
+          1200,
+          1350,
+          1600
+        ],
+        "rho": [
+          2.0,
+          2.2,
+          2.28,
+          2.45
+        ],
+        "Q": [
+          35,
+          65,
+          40,
+          85
+        ],
+        "event_t": [
+          0.36,
+          0.7,
+          0.724
+        ],
+        "fpeak": 80,
+        "nominal_frequency": 92
+      },
+      "group": "historical",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "Dev_ModerateQ",
+        "vp": [
+          1950,
+          2200,
+          2500,
+          2850
+        ],
+        "vs": [
+          880,
+          1080,
+          1280,
+          1520
+        ],
+        "rho": [
+          1.98,
+          2.12,
+          2.25,
+          2.4
+        ],
+        "Q": [
+          32,
+          48,
+          65,
+          80
+        ],
+        "event_t": [
+          0.36,
+          0.64,
+          0.92
+        ],
+        "fpeak": 55,
+        "nominal_frequency": 62
+      },
+      "group": "development",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "Dev_DeepContrast",
+        "vp": [
+          2100,
+          2350,
+          2900,
+          3300
+        ],
+        "vs": [
+          950,
+          1180,
+          1550,
+          1800
+        ],
+        "rho": [
+          2.02,
+          2.18,
+          2.38,
+          2.55
+        ],
+        "Q": [
+          55,
+          40,
+          75,
+          95
+        ],
+        "event_t": [
+          0.4,
+          0.68,
+          0.96
+        ],
+        "fpeak": 65,
+        "nominal_frequency": 58
+      },
+      "group": "development",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "Holdout_StrongAtten",
+        "vp": [
+          1800,
+          2000,
+          2250,
+          2500
+        ],
+        "vs": [
+          780,
+          940,
+          1150,
+          1360
+        ],
+        "rho": [
+          1.92,
+          2.05,
+          2.19,
+          2.32
+        ],
+        "Q": [
+          24,
+          28,
+          38,
+          55
+        ],
+        "event_t": [
+          0.35,
+          0.62,
+          0.93
+        ],
+        "fpeak": 48,
+        "nominal_frequency": 55
+      },
+      "group": "heldout_new_geology",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "Holdout_HighContrastReversal",
+        "vp": [
+          2250,
+          2800,
+          2400,
+          3250
+        ],
+        "vs": [
+          1080,
+          1500,
+          1220,
+          1780
+        ],
+        "rho": [
+          2.08,
+          2.34,
+          2.18,
+          2.54
+        ],
+        "Q": [
+          85,
+          42,
+          105,
+          60
+        ],
+        "event_t": [
+          0.4,
+          0.71,
+          0.98
+        ],
+        "fpeak": 72,
+        "nominal_frequency": 62
+      },
+      "group": "heldout_new_geology",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "Holdout_ThinInterbed",
+        "vp": [
+          2050,
+          2420,
+          2600,
+          2950
+        ],
+        "vs": [
+          920,
+          1220,
+          1380,
+          1620
+        ],
+        "rho": [
+          2.02,
+          2.21,
+          2.3,
+          2.47
+        ],
+        "Q": [
+          38,
+          60,
+          44,
+          80
+        ],
+        "event_t": [
+          0.37,
+          0.68,
+          0.706
+        ],
+        "fpeak": 76,
+        "nominal_frequency": 88
+      },
+      "group": "heldout_new_geology",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    },
+    {
+      "model": {
+        "name": "Holdout_DeepLowQ",
+        "vp": [
+          2000,
+          2300,
+          2650,
+          3000
+        ],
+        "vs": [
+          900,
+          1120,
+          1360,
+          1600
+        ],
+        "rho": [
+          2.0,
+          2.16,
+          2.29,
+          2.44
+        ],
+        "Q": [
+          70,
+          50,
+          28,
+          45
+        ],
+        "event_t": [
+          0.38,
+          0.66,
+          0.95
+        ],
+        "fpeak": 58,
+        "nominal_frequency": 65
+      },
+      "group": "heldout_new_geology",
+      "calibration_seeds": [
+        20261030,
+        20261035,
+        20261040
+      ],
+      "test_seeds": [
+        20261101,
+        20261102,
+        20261103,
+        20261104,
+        20261105,
+        20261106
+      ],
+      "suites": [
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "Main",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "LowerSNR",
+          "kind": "normal",
+          "scenarios": [
+            "SmoothAVO",
+            "FaultSection",
+            "PinchoutSection",
+            "WeakSection",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 12
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 30.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressNonRickerPhase",
+          "kind": "phase",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.03,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityError",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.004,
+          "ar1_rho": 0.0,
+          "name": "StressResidualNMO",
+          "kind": "nmo",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 1.0,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.55,
+          "name": "StressColoredNoise",
+          "kind": "colored",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        },
+        {
+          "vp_multiplier": 0.97,
+          "h_multiplier": 1.0,
+          "phase_deg": 0.0,
+          "max_nmo_shift_s": 0.0,
+          "ar1_rho": 0.0,
+          "name": "StressVelocityMinus3",
+          "kind": "velocity",
+          "scenarios": [
+            "SmoothAVO",
+            "CoherentNoiseAVO"
+          ],
+          "snr_db": 18
+        }
+      ],
+      "reuse_original": true
+    }
+  ],
+  "methods": [
+    "Frozen",
+    "CombinedUncertainty",
+    "FrozenJointCalibration",
+    "CombinedJointCalibration",
+    "CombinedUncertaintyV2"
+  ],
+  "created_utc": "2026-10-22T05:41:43.539008+00:00",
+  "acceptance": {
+    "provisional_engineering_thresholds_not_significance_tests": true,
+    "main_equal_model_relative_error_improvement_min": 0.05,
+    "any_suite_model_mean_degradation_max": 0.02,
+    "event_and_weak_and_AVO_error_degradation_max": 0.05,
+    "local_near_zero_absolute_allowance": 0.001,
+    "pinchout_degradation_relative_max": 0.1,
+    "failure_fraction_error_gt_1_increase_max": 0,
+    "normal_residual_max": 2e-07,
+    "need_matched_prior_direct_control": true,
+    "claim_new_geology_requires_external_evidence": true
+  },
+  "reserved_design_sha256": "eac0a513329a338460cb583002e37a7238edca757c008b4fce9909cf19e66774",
+  "original_metrics_sha256": "4ff07898b58332af2fe1f51b0eaf53fa0571cb135c94ac86e68524a549f2ff08",
+  "production_and_harness_readiness": {
+    "status": "READY_FOR_FROZEN_CONFIRMATION",
+    "stages": {
+      "production_verification": {
+        "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\production_verification_20261022T052940Z",
+        "checks": {
+          "passed": true,
+          "public_fields_equal_after_poison": true,
+          "production_output_exact_poison_invariance": true,
+          "production_and_batch_exact_match": true,
+          "section_production_and_batch_exact_match": true,
+          "illegal_truth_field_rejected": true,
+          "offset_and_section_direct_split_normal_residuals": [
+            7.776339399994482e-08,
+            7.703998036709791e-08,
+            6.197100715189826e-08,
+            6.134169310846942e-08
+          ],
+          "all_scale_max_residual": 9.904935396876475e-08,
+          "compensation_applied": true,
+          "estimated_velocity_correction": 1,
+          "kinematic_correction_applied": false
+        }
+      },
+      "validation_harness_smoke": {
+        "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\validation_harness_smoke_20261022T053327Z",
+        "checks": {
+          "passed": true,
+          "development_only": true,
+          "observations": 4,
+          "new_rows": 28,
+          "original_replay_rows": 12
+        }
+      }
+    },
+    "replay": {
+      "rows": 12,
+      "exact_match": true,
+      "differences": []
+    },
+    "policy_sha256": "523e95ba3085b58945241af6121c928dfd9bfd24bff585f2ce8ae0ad4921a3f3",
+    "policy_unchanged": true,
+    "full_confirmation_started": false,
+    "goal_complete": false
+  },
+  "expected_observations": 4680,
+  "original_nine_models_are_regression": true,
+  "prospective_models_are_same_simulator_not_external_field_data": true,
+  "original_comparators_reused_only_at_identical_inputs_with_exact_scene_replay": true,
+  "expected_rows": 46800
+}

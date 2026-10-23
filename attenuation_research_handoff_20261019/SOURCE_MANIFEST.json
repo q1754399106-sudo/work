@@ -1,0 +1,642 @@
+[
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\attenuation_matrix.m",
+    "packaged": "core/matlab_src/attenuation_matrix.m",
+    "sha256": "93d6cf4fd2f8fcb797016c02094d1b6ad8b63d1ca3cc83e0f5594bec2304c68b"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\avo_projector_v2.m",
+    "packaged": "core/matlab_src/avo_projector_v2.m",
+    "sha256": "31a441af73c12f30a037dac00cf0a5240b190c5a9e721d1cb9f9273e13c6fa9e"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\build_structure_models.m",
+    "packaged": "core/matlab_src/build_structure_models.m",
+    "sha256": "6062e968d07ec45f229a25bdb76a160266501afc0ad899332aaa726df015962c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\compensate_unknown_q.m",
+    "packaged": "core/matlab_src/compensate_unknown_q.m",
+    "sha256": "2fc9f2b94e2021bc94ce4c8f5abd26027652f51da220ee68563cfb42e8aa0a74"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\config_model.m",
+    "packaged": "core/matlab_src/config_model.m",
+    "sha256": "383758437200c5d656114daa157fd7c3fcbc59911a155ef82599426f6af2c050"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\context_v2.m",
+    "packaged": "core/matlab_src/context_v2.m",
+    "sha256": "5c30c38c2230a9af0b32c0b43d5da9809a4c815f13cf58ca9587ed9e08e7816f"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\discrepancy_apply.m",
+    "packaged": "core/matlab_src/discrepancy_apply.m",
+    "sha256": "47c1353bd6bf9a6cdb56d0d1c30a2ec0c2741e60828ff576fabda6384d739edb"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\discrepancy_factor.m",
+    "packaged": "core/matlab_src/discrepancy_factor.m",
+    "sha256": "23da2f7fde0f5db52f0a57300da346e69a1a1889e40c0a0d5dd648061f26a5dd"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\estimate_q_effective.m",
+    "packaged": "core/matlab_src/estimate_q_effective.m",
+    "sha256": "63570c7d57b7a224b2e8deff836123043ab8c14a65a6e7655811401462dfab5f"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\estimate_trace_snr.m",
+    "packaged": "core/matlab_src/estimate_trace_snr.m",
+    "sha256": "f444fd0f9c53c2928af1927ec6e5b38f78bf90f5552aa09abdd998fd0e157983"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\learn_structure_operator.m",
+    "packaged": "core/matlab_src/learn_structure_operator.m",
+    "sha256": "098892432742a23b0f6bc2fa376377ac84f200cce710ab4a5cb311c9ba064649"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\make_reference.m",
+    "packaged": "core/matlab_src/make_reference.m",
+    "sha256": "aff7a2523147f7ca79da475437919c4244949c2b322630d5216a420e1b1b11c7"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\make_stability_scene.m",
+    "packaged": "core/matlab_src/make_stability_scene.m",
+    "sha256": "6ff0fd07aaa23822db58cc6a8fc7e3d80eb136d7baf7f746215cbf8c24e6a98c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\prepare_models_v2.m",
+    "packaged": "core/matlab_src/prepare_models_v2.m",
+    "sha256": "44441fc455c4fd3b9ba6087a5f30089d0fee6000b62e8debfd8a411c24606b3a"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\ray_absorption.m",
+    "packaged": "core/matlab_src/ray_absorption.m",
+    "sha256": "c74fe81b4925d1a069e81ad2d198e4b7bdfc14248f1df520f18faf373277a175"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\ridge_operator.m",
+    "packaged": "core/matlab_src/ridge_operator.m",
+    "sha256": "f458abdb8726c0565abb9a116ec482860e4f77e35efa4d9862ea583191cc0a52"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\score_stability.m",
+    "packaged": "core/matlab_src/score_stability.m",
+    "sha256": "0b7b5e721ff5c644d23a459f74f90759d88aca84694d0c66f645a50fa901b822"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\score_structure.m",
+    "packaged": "core/matlab_src/score_structure.m",
+    "sha256": "a8878a12b2f245983bc5086b16fb40584ef71e765068606f791261b166195a94"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\select_v2.m",
+    "packaged": "core/matlab_src/select_v2.m",
+    "sha256": "76aee1128e8c5c427dc1642a42a2c180f8aafca79dded00b7ea0a904b6a67102"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\solve_v2.m",
+    "packaged": "core/matlab_src/solve_v2.m",
+    "sha256": "1b450f8559b76000cbb4f13dc1bd6d05325125337322994ddc4e65f4dd22c3b1"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\stability_models.m",
+    "packaged": "core/matlab_src/stability_models.m",
+    "sha256": "41a0e38587012a0ae38d5dfe479bb8e34c12ed212a6c5a6d9b6e38ddd4da3c62"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\structure_options.m",
+    "packaged": "core/matlab_src/structure_options.m",
+    "sha256": "849b9803725c1ec7ed7da341bfcbf5620dfd1f30004b2a66e7d931daeff686ef"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_audit_outputs.m",
+    "packaged": "core/matlab_src/uq_audit_outputs.m",
+    "sha256": "e4a966409d02eacc035983cb61ada4bbdc4f88d30891c9a2a7e0eb2d490029f9"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_build_prior.m",
+    "packaged": "core/matlab_src/uq_build_prior.m",
+    "sha256": "0b8562a885116cd9ab921ee5ca96bc581fbcc03302741b2ab75acdd75a82d2b2"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_case.m",
+    "packaged": "core/matlab_src/uq_case.m",
+    "sha256": "6975bf52ce605a3b001d4b75cab797ccaf069006d313561013ebd1f5736c1491"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_inverse_config.m",
+    "packaged": "core/matlab_src/uq_inverse_config.m",
+    "sha256": "222f11e80fbb19e3935961407cae8c2656b639bde77201cbe63928c0dac854d6"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_metric_row.m",
+    "packaged": "core/matlab_src/uq_metric_row.m",
+    "sha256": "8b9bfdcdd36f97d3c539f0278266dceae86514d7f10a45793d8224c2541e59de"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_observation.m",
+    "packaged": "core/matlab_src/uq_observation.m",
+    "sha256": "283999b97822d2b76833a93c1c67edbedb6e9d89aa5597e2b316377667b01f9a"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_public_config.m",
+    "packaged": "core/matlab_src/uq_public_config.m",
+    "sha256": "03d220346379a0c7e85303d4221e818e1d63f2ed2023ebe2e609bea79946cbbc"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_select.m",
+    "packaged": "core/matlab_src/uq_select.m",
+    "sha256": "e04128ba1d0a3d83afc53fd7717f410d179dd2549e816996952af9814cd2e33b"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_spec.m",
+    "packaged": "core/matlab_src/uq_spec.m",
+    "sha256": "077df6ea906a6c8c14f1c2e48ff683f797d102545ae5cf9320abf3477470d671"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_templates.m",
+    "packaged": "core/matlab_src/uq_templates.m",
+    "sha256": "e60d7f7df87f6f02120185177ee5f955cddd4212a486239205bde5b396301db2"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\uq_writejson.m",
+    "packaged": "core/matlab_src/uq_writejson.m",
+    "sha256": "74a3ea78143819e5710adf9aeb06f755f3ce0dc4c074a51f904a02a10f587c3c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\v2_options.m",
+    "packaged": "core/matlab_src/v2_options.m",
+    "sha256": "12371e5c756543fbe4b126e954870f832ecc82bd0fdc3addc46a53b1997fa1d0"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\matlab_src\\validate_unknown_q.m",
+    "packaged": "core/matlab_src/validate_unknown_q.m",
+    "sha256": "19d9c88ff8b2e8026bb7bf7288f8812ed06bf3e8747672b88af80bb65631c680"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\inputs\\options.json",
+    "packaged": "core/inputs/options.json",
+    "sha256": "f1f8a1aa5c7982262beb2109eb458e56c22bf6466c88016670437d6e971c9f3a"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\inputs\\stability_spec.json",
+    "packaged": "core/inputs/stability_spec.json",
+    "sha256": "dc61a8b500090f9cde00dfff8472d5d83a2a32dc3b4b1ac34cb58eec574f1a40"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\inputs\\uq_spec.json",
+    "packaged": "core/inputs/uq_spec.json",
+    "sha256": "4eeb79354d2c30b7c9e6af982bc42c2daeee755ef6bd2dbab7f4a3cf51dbd35a"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\inputs\\v2_options.json",
+    "packaged": "core/inputs/v2_options.json",
+    "sha256": "bf9348a703e7a834b35b4b31f9cb5ad3750a3627f50e4131dac20d27bb294efc"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_calibrate\\estimate_SoftLowQ.json",
+    "packaged": "evidence/calibration/estimate_SoftLowQ.json",
+    "sha256": "4d5aedb387ce2160309564e6de2c3d3c1c8cef386963ffe2575aed06a4bd1db1"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_calibrate\\estimate_VelocityReversal.json",
+    "packaged": "evidence/calibration/estimate_VelocityReversal.json",
+    "sha256": "8184321eb089016be2a4d5d2e66c62f7d265225e19a71cbebebf386f423db8d5"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_calibrate\\estimate_ThinHighFrequency.json",
+    "packaged": "evidence/calibration/estimate_ThinHighFrequency.json",
+    "sha256": "ae92192139a4306c47e2b6989fdd5e29784dac78d7ad55403f29cd04672603cf"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\metrics.csv",
+    "packaged": "evidence/historical/metrics.csv",
+    "sha256": "e16f5bfb8aed43e33299507b0c348dfec22b066eae2ac3f7addba169819a624d"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\run_status.json",
+    "packaged": "evidence/historical/run_status.json",
+    "sha256": "550a10f228e99202d86db329e15c11ca6f471557545de2b5754cbb0ba99c9102"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\selected_before_test.json",
+    "packaged": "evidence/historical/selected_before_test.json",
+    "sha256": "1a666206645d7baf4f8bc1897c16b948361c494c3d7ea10e839012430c0c3a92"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_test\\spec_used.json",
+    "packaged": "evidence/historical/spec_used.json",
+    "sha256": "55eb675a8dc14418ce4e631e16df0f0689b2fdbe934a1fe611fcff664c822186"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\results\\matlab_validation\\checks.json",
+    "packaged": "evidence/historical/solver_checks.json",
+    "sha256": "23cb1ba5ed623317c920225627e92f55002efc770f42d9487ab04145cd9a7fae"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\README.md",
+    "packaged": "evidence/unknown_q_notes/README.md",
+    "sha256": "98cc9bda9008b27786c4edcdbc5334cff8d50e0896438a07054ca96220e950e1"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\THEORY_ZH.md",
+    "packaged": "evidence/unknown_q_notes/THEORY_ZH.md",
+    "sha256": "da6ef9d0c07e5ea5b4bde24b6d8f36f0358be90b02a4b32ec7d35fe50454c3ed"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\RESULTS_ZH.md",
+    "packaged": "evidence/unknown_q_notes/RESULTS_ZH.md",
+    "sha256": "b5103e815ce8070313ada6e4af00165f56b80f2c6a216eef4d25c60aed53f80c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\CONCLUSIONS_ZH.md",
+    "packaged": "evidence/unknown_q_notes/CONCLUSIONS_ZH.md",
+    "sha256": "40518e7fea2aa3b839c101d2aa087a37ed1cd650262ad8547dd3fd5509d06759"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_unknown_q_tuning_20261018\\ADDITIONAL_SEARCH_ZH.md",
+    "packaged": "evidence/unknown_q_notes/ADDITIONAL_SEARCH_ZH.md",
+    "sha256": "01f1763e5269f65d12bfc294ac3f85d5460e55d9ce03af0be2f3e307b1fbc0b0"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\ANALYSIS_CHECKS.json",
+    "packaged": "evidence/fourway/ANALYSIS_CHECKS.json",
+    "sha256": "30e137d598c9454939f335e51cfcb16f44d15700ee4ff1b12ce0f29996253ea1"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\compare_fourway.py",
+    "packaged": "evidence/fourway/compare_fourway.py",
+    "sha256": "75e824cacf61aec90f79d1b6dfc5eeb484984235f6a14ff1d3a3f4d300899f6f"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\CONCLUSIONS_ZH.md",
+    "packaged": "evidence/fourway/CONCLUSIONS_ZH.md",
+    "sha256": "3a89ee7e405e6abbf550896d36c5bbb9d4e6ec30b760f885bb948797debf70a4"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\CONTACT_SHEET.png",
+    "packaged": "evidence/fourway/CONTACT_SHEET.png",
+    "sha256": "6d76cdbf1a6ca56753a3cc5afa819da585ed71c65ab0287916b2ad8d7019984b"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\DELIVERY_CHECKS.json",
+    "packaged": "evidence/fourway/DELIVERY_CHECKS.json",
+    "sha256": "7c662daf48bfbc9d5080c3c21b0e712212c800b76cc82a7c682faef948726b85"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figure_manifest.json",
+    "packaged": "evidence/fourway/figure_manifest.json",
+    "sha256": "d49d84d4781135005745c1e12370703519567d6df6d7b9cf58c892039750b2a6"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\finalize_delivery.py",
+    "packaged": "evidence/fourway/finalize_delivery.py",
+    "sha256": "bf15ab5d0f54490ac091ffb199d59e82503d0e9bf80882505c1b737891bb5f47"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\PACKAGE_MANIFEST.json",
+    "packaged": "evidence/fourway/PACKAGE_MANIFEST.json",
+    "sha256": "ab7774c86c5c30cdc403dd9121893547bfe7ed8d7ad46c5e99182ab96faf442c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\PLAN_ZH.md",
+    "packaged": "evidence/fourway/PLAN_ZH.md",
+    "sha256": "249a97e07a6ef927b36726790dfa1f439c2b2cbef75d4393bca11f7241ed6bfd"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\README.md",
+    "packaged": "evidence/fourway/README.md",
+    "sha256": "b00fef2e12469f1bab7ec5dd6b2f2ee92f205984b3ed74c8e072a9bbcd7e4f72"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\REPORT_ZH_EN.md",
+    "packaged": "evidence/fourway/REPORT_ZH_EN.md",
+    "sha256": "bbf62227e732cdea495e1adb625289e7cb105448c5853194ef44aa34adbe51f6"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\SOURCE_MANIFEST.json",
+    "packaged": "evidence/fourway/SOURCE_MANIFEST.json",
+    "sha256": "4d3c540cd78e079d0379706b7dc8b868867a9a5de28050803b89c3ed9467b8d4"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\VISUAL_QA_ZH.md",
+    "packaged": "evidence/fourway/VISUAL_QA_ZH.md",
+    "sha256": "6f16e1b7645da13f942288bea37ebdaae17d97dbe6265f47e831c502abfe349e"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\all_pairwise_deltas.csv",
+    "packaged": "evidence/fourway/data/all_pairwise_deltas.csv",
+    "sha256": "590bfb911cdf1ff0a91b05cd0c26ba79d1e501162f43b1c13535a4d3f14f8215"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\all_rows_worst_first.csv",
+    "packaged": "evidence/fourway/data/all_rows_worst_first.csv",
+    "sha256": "df737f5c9d5ece16e9724b209f20cc7acfdb9e29a86827e5d809812ea94c56cf"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\equal_model_main_summary.csv",
+    "packaged": "evidence/fourway/data/equal_model_main_summary.csv",
+    "sha256": "c9715d50bbe84c4f6d4b8e4e4434a35119293de6e1849ff821b885bbe6d1a44e"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\four_methods_all_504_rows.csv",
+    "packaged": "evidence/fourway/data/four_methods_all_504_rows.csv",
+    "sha256": "4f6d4bec3153788f65bbd44da3b0c9f32dfea1f64058e682dcc83f8b4c7c6a4b"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\overall_summary.csv",
+    "packaged": "evidence/fourway/data/overall_summary.csv",
+    "sha256": "296a21b4d3c1f5fe429a5242de8cbaca1ae15751a210971a6d64070eb99cff95"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\pairwise_summary.csv",
+    "packaged": "evidence/fourway/data/pairwise_summary.csv",
+    "sha256": "6eb1a8244773b7f91d9865313835ee124f2d7fb1755bd217a604af53a6b74d8c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\parameter_endpoints.csv",
+    "packaged": "evidence/fourway/data/parameter_endpoints.csv",
+    "sha256": "0df814b9de95f40ee167e6747d01eb2ef505a4643493a46bc31a5f9b864d52d9"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\same_prior_route_control.csv",
+    "packaged": "evidence/fourway/data/same_prior_route_control.csv",
+    "sha256": "f3ef3d9f926cee91f294f059601912a40a850cb43d02e65715774812fa0444f9"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\scene_summary.csv",
+    "packaged": "evidence/fourway/data/scene_summary.csv",
+    "sha256": "ea88090eb5d604daf6d6f00fd30e9ef1699baa0b3c74367348bc83b29cba8c58"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\seed_means.csv",
+    "packaged": "evidence/fourway/data/seed_means.csv",
+    "sha256": "2cfee52067bb4aae6023bb08094d6d013b62978d87caab8ff2f0582496a1e640"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\six_routes_all_756_rows.csv",
+    "packaged": "evidence/fourway/data/six_routes_all_756_rows.csv",
+    "sha256": "971bb3fb41b807cd8f5457f0d274088a95e5ab3c15bd0bf902ee318227975572"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\data\\stored_waveform_metric_recheck.csv",
+    "packaged": "evidence/fourway/data/stored_waveform_metric_recheck.csv",
+    "sha256": "8faf70fb7e17878f433fbaaad669431dce09abb511507d977166f02c7a04787d"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\01_overall_four_methods.pdf",
+    "packaged": "evidence/fourway/figures/01_overall_four_methods.pdf",
+    "sha256": "933edd6b1ffcc15600f3d23bbbcc201c7842c4d2a8ff043221153b99e71e133e"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\01_overall_four_methods.png",
+    "packaged": "evidence/fourway/figures/01_overall_four_methods.png",
+    "sha256": "a38eed83aebce9b9cb3378706caa5c7f292abfbdde7ecaab9843f2f3e962b4a4"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\02_all_scenes.pdf",
+    "packaged": "evidence/fourway/figures/02_all_scenes.pdf",
+    "sha256": "4a5949c1d3d795978c0a923ba0cc965d939875006880d723abc24ed895a3a652"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\02_all_scenes.png",
+    "packaged": "evidence/fourway/figures/02_all_scenes.png",
+    "sha256": "57c25abda231be80db29563769851c70f316d721fa11b7294c947ab3f3340698"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\03_amplitude_and_local_risks.pdf",
+    "packaged": "evidence/fourway/figures/03_amplitude_and_local_risks.pdf",
+    "sha256": "99ebd763abb0764fc93dc7daff486a028045af8bbbc90a36db3283773d7bf876"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\03_amplitude_and_local_risks.png",
+    "packaged": "evidence/fourway/figures/03_amplitude_and_local_risks.png",
+    "sha256": "af750a8e9e0ecb37fa33ab2f352d05e93138aef1332b87e6694f76bfe36cdfae"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\04_all_errors_and_failures.pdf",
+    "packaged": "evidence/fourway/figures/04_all_errors_and_failures.pdf",
+    "sha256": "fa440ab5422bb0376175eb501e8f2c9c4014a7e11c74a125de6096bee1cd721f"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\04_all_errors_and_failures.png",
+    "packaged": "evidence/fourway/figures/04_all_errors_and_failures.png",
+    "sha256": "ed7332afd5a4e309a5a2bcbe982f12e6206a41b50930a1c125ef8d3e04fad356"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\05_fixed_trace_and_spectrum.pdf",
+    "packaged": "evidence/fourway/figures/05_fixed_trace_and_spectrum.pdf",
+    "sha256": "a437b475e53b5f31002763897a10962b32f017f0290849d6efe18ae30887ec0f"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\05_fixed_trace_and_spectrum.png",
+    "packaged": "evidence/fourway/figures/05_fixed_trace_and_spectrum.png",
+    "sha256": "45fd9d1446635b9005c163f784da3543ee283c5ba3d49b6b3faf779b955eb760"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\06_same_gather_SoftLowQ.pdf",
+    "packaged": "evidence/fourway/figures/06_same_gather_SoftLowQ.pdf",
+    "sha256": "b5a10a70eeeab80325494c1f51417d68ef8086053d1f644a052236bf03e715a3"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\06_same_gather_SoftLowQ.png",
+    "packaged": "evidence/fourway/figures/06_same_gather_SoftLowQ.png",
+    "sha256": "72ad2a8cf5507b3093e43c43fa45781904f162bf37657f010c70659b682bfff8"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\07_same_gather_VelocityReversal.pdf",
+    "packaged": "evidence/fourway/figures/07_same_gather_VelocityReversal.pdf",
+    "sha256": "e856ddb77581006eb3b1329137e67f9d78eaa6426166680d1c5c90eae4c21f9d"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\07_same_gather_VelocityReversal.png",
+    "packaged": "evidence/fourway/figures/07_same_gather_VelocityReversal.png",
+    "sha256": "6a6d263b624bcf039244d6012d7c632540ef8be6c2fef0730632d5360a4b7d37"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\08_same_gather_ThinHighFrequency.pdf",
+    "packaged": "evidence/fourway/figures/08_same_gather_ThinHighFrequency.pdf",
+    "sha256": "b210773a6e91da325a667b1fdae1ad205d65622aa25ba70a974d8aabf2eed78c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\08_same_gather_ThinHighFrequency.png",
+    "packaged": "evidence/fourway/figures/08_same_gather_ThinHighFrequency.png",
+    "sha256": "e362aa16df900e1303bf59209a2b9b76ebfdc4c6b1fd01495eacf615f02fa445"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\09_same_prior_direct_split.pdf",
+    "packaged": "evidence/fourway/figures/09_same_prior_direct_split.pdf",
+    "sha256": "b5e31649a6c56a373da0c55c09db128c55532ddf649ba75948548c6f6652ee4a"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\figures\\09_same_prior_direct_split.png",
+    "packaged": "evidence/fourway/figures/09_same_prior_direct_split.png",
+    "sha256": "6b2f46ff42101f3792508ffb2d14d8888822c418f899ce9f39dc8ae364654cf2"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\inputs\\stability_spec.json",
+    "packaged": "evidence/fourway/inputs/inputs/stability_spec.json",
+    "sha256": "dc61a8b500090f9cde00dfff8472d5d83a2a32dc3b4b1ac34cb58eec574f1a40"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\build_structure_models.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/build_structure_models.m",
+    "sha256": "6062e968d07ec45f229a25bdb76a160266501afc0ad899332aaa726df015962c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\context_v2.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/context_v2.m",
+    "sha256": "5c30c38c2230a9af0b32c0b43d5da9809a4c815f13cf58ca9587ed9e08e7816f"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\run_unknown_q_test.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/run_unknown_q_test.m",
+    "sha256": "3ba490bef354e52b7f0c2e555f37fbdcc18f798087d94644d8860c372686146d"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\score_stability.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/score_stability.m",
+    "sha256": "0b7b5e721ff5c644d23a459f74f90759d88aca84694d0c66f645a50fa901b822"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\score_structure.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/score_structure.m",
+    "sha256": "a8878a12b2f245983bc5086b16fb40584ef71e765068606f791261b166195a94"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\solve_v2.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/solve_v2.m",
+    "sha256": "1b450f8559b76000cbb4f13dc1bd6d05325125337322994ddc4e65f4dd22c3b1"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\uq_build_prior.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/uq_build_prior.m",
+    "sha256": "0b8562a885116cd9ab921ee5ca96bc581fbcc03302741b2ab75acdd75a82d2b2"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\matlab_src\\uq_select.m",
+    "packaged": "evidence/fourway/inputs/matlab_src/uq_select.m",
+    "sha256": "e04128ba1d0a3d83afc53fd7717f410d179dd2549e816996952af9814cd2e33b"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_calibrate\\estimate_SoftLowQ.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_calibrate/estimate_SoftLowQ.json",
+    "sha256": "4d5aedb387ce2160309564e6de2c3d3c1c8cef386963ffe2575aed06a4bd1db1"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_calibrate\\estimate_ThinHighFrequency.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_calibrate/estimate_ThinHighFrequency.json",
+    "sha256": "ae92192139a4306c47e2b6989fdd5e29784dac78d7ad55403f29cd04672603cf"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_calibrate\\estimate_VelocityReversal.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_calibrate/estimate_VelocityReversal.json",
+    "sha256": "8184321eb089016be2a4d5d2e66c62f7d265225e19a71cbebebf386f423db8d5"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_search2\\selected_presets.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_search2/selected_presets.json",
+    "sha256": "1a666206645d7baf4f8bc1897c16b948361c494c3d7ea10e839012430c0c3a92"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\connection.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/connection.json",
+    "sha256": "118f467ad6a1e6b41eebc220b76059b2c0abd01a911918b5587f0d6894fd7e09"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\example_SoftLowQ_CoherentNoiseAVO.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/example_SoftLowQ_CoherentNoiseAVO.json",
+    "sha256": "2a54bc6a5593a2646ada0a039b3a8f31c60ed37ac0b7936cfa62a31d69d9be2e"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\example_SoftLowQ_SmoothAVO.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/example_SoftLowQ_SmoothAVO.json",
+    "sha256": "d5f27355b48a18f57cee4acd130c3bf2e9b08949f2222acaf3c98103632e269d"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\example_ThinHighFrequency_CoherentNoiseAVO.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/example_ThinHighFrequency_CoherentNoiseAVO.json",
+    "sha256": "8908583c8caa619cd833820d1ad1fb898c50c055a58dcfe237c90075b898ac57"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\example_ThinHighFrequency_SmoothAVO.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/example_ThinHighFrequency_SmoothAVO.json",
+    "sha256": "817536caf2f5c88ad5804c8f2525aa6c7a6e56654cce290127b17e566a612e52"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\example_VelocityReversal_CoherentNoiseAVO.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/example_VelocityReversal_CoherentNoiseAVO.json",
+    "sha256": "85e0be2b6c260a83b00728a7e0c261e8aa5f0f901f02cc39a144a436eba8993e"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\example_VelocityReversal_SmoothAVO.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/example_VelocityReversal_SmoothAVO.json",
+    "sha256": "d74ee620b5f9623b442ea2170837b40921d17368f88dc27007e33de2509ab0db"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\metrics.csv",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/metrics.csv",
+    "sha256": "e16f5bfb8aed43e33299507b0c348dfec22b066eae2ac3f7addba169819a624d"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\run_status.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/run_status.json",
+    "sha256": "550a10f228e99202d86db329e15c11ca6f471557545de2b5754cbb0ba99c9102"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\selected_before_test.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/selected_before_test.json",
+    "sha256": "1a666206645d7baf4f8bc1897c16b948361c494c3d7ea10e839012430c0c3a92"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\selection_evidence.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/selection_evidence.json",
+    "sha256": "1b8d74c894321aa6fb68cb960b3f7460d7ddeca9f9df7539f72c90a19346062c"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_fourway_comparison_20261018\\inputs\\results\\matlab_test\\spec_used.json",
+    "packaged": "evidence/fourway/inputs/results/matlab_test/spec_used.json",
+    "sha256": "55eb675a8dc14418ce4e631e16df0f0689b2fdbe934a1fe611fcff664c822186"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_rebuild\\VALIDATION_MATLAB_20261017.md",
+    "packaged": "evidence/history/INITIAL_MATLAB_VALIDATION.md",
+    "sha256": "aa3c7959ccebb88dacc70786e7332c41a7d3e85b00a6440be56e4245a30644ea"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\outputs\\attenuation_snr_20261017\\SNR_REPORT_ZH.md",
+    "packaged": "evidence/history/SNR_REPORT.md",
+    "sha256": "9b702f27743aff853d08b6ff866a76f80ebd5732c6db496b744c02a4d9b99ad0"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\outputs\\attenuation_time_frequency_20261017\\TF_REPORT_ZH_EN.md",
+    "packaged": "evidence/history/TF_REPORT.md",
+    "sha256": "0650ebdec8583df48183c1be0d74924338ac25f8409533d64dcbbc27829a40d4"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_structure_v2_20261018\\RESULTS_ZH.md",
+    "packaged": "evidence/history/STRUCTURE_RESULTS.md",
+    "sha256": "d1651a6a1e52382bad5c9093bd4ae94ed86a9724858a52c4b6a954a3e2928c3e"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_structure_v2_20261018\\THEORY_ZH.md",
+    "packaged": "evidence/history/STRUCTURE_THEORY.md",
+    "sha256": "1b52eb591c79f3ec2b36d02b39ed15809df5ac093e540c4f7b2fd25c801de2bd"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\attenuation_model_stability_20261018\\CONCLUSIONS_ZH.md",
+    "packaged": "evidence/history/MODEL_STABILITY.md",
+    "sha256": "d9bcef349eb1ddb00b5839c94f3b3fdefbc00f9e42dc2b794708949a8e8fcad3"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\outputs\\RESEARCH_REVIEW_20261017_18_ZH.md",
+    "packaged": "evidence/history/TWO_DAY_REVIEW.md",
+    "sha256": "d136555225801ff3cc18f66b9bf8da7d71562ac9cd4ee8610a2c3cd53bc7d9b8"
+  },
+  {
+    "source": "C:\\Users\\qq175\\Documents\\Codex\\2026-10-17\\new-chat\\outputs\\LI_ZELIN_THESIS_READING_20261017.md",
+    "packaged": "evidence/history/THESIS_READING.md",
+    "sha256": "7421672c0e0926da6800127207e184447d17bbb2154815c1f9db5c8507d3c8aa"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "round": 2,
+  "motivation": "Round 1 partial development results show opposing bias/variance tradeoffs. Test one equal-weight estimator ensemble, globally, without model-specific selection.",
+  "weights": {"SourceMixture":0.5,"SourceOnly":0.5},
+  "weight_search": false,
+  "gates": "Reuse every numerical gate from universal_plan.json without modification.",
+  "selection_rule": "If round 1 fails, screen this one additional candidate on the same 60 development cases. It is an ensemble estimate, not a solution of one normal equation. Validate only after freezing the global rule. No further development candidates in this run."
+}

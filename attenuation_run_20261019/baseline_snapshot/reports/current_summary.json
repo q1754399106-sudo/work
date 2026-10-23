@@ -1,0 +1,34 @@
+{
+  "scope": "existing MATLAB results reanalysis only",
+  "rows": 756,
+  "groups": [
+    {
+      "Model": "SoftLowQ",
+      "一步 / Direct": 0.9052700875815608,
+      "常规分步 / Split": 0.9046525260728504,
+      "Frozen": 0.763758422316647,
+      "Target08": 1.0046567626000358
+    },
+    {
+      "Model": "ThinHighFrequency",
+      "一步 / Direct": 0.7356135006758132,
+      "常规分步 / Split": 0.735339073234944,
+      "Frozen": 0.7352108931736402,
+      "Target08": 0.6785834143982338
+    },
+    {
+      "Model": "VelocityReversal",
+      "一步 / Direct": 0.5611377499809753,
+      "常规分步 / Split": 0.561333504363702,
+      "Frozen": 0.5597908861163408,
+      "Target08": 0.5180342876599562
+    }
+  ],
+  "equal_model_mean": {
+    "一步 / Direct": 0.7340071127461164,
+    "常规分步 / Split": 0.7337750345571654,
+    "Frozen": 0.6862534005355426,
+    "Target08": 0.7337581548860752
+  },
+  "frozen_vs_split_relative_improvement": 0.06476322003828083
+}

@@ -1,0 +1,380 @@
+{
+  "main": {
+    "cases": 100,
+    "means": {
+      "DecoupledWeak": {
+        "RelativeError": 0.6887714138328442,
+        "EventAmplitudeError": 0.6059741103443234,
+        "WeakEventError": 1.023497736402357,
+        "AVOGradientError": 0.5509634530661577,
+        "NoiseWindowRMS": 0.000983042468670625,
+        "FaultNeighborhoodError": 0.741015238931968,
+        "PinchoutTailError": 0.0032404582987616837
+      },
+      "FixedSplit": {
+        "RelativeError": 0.8382195337392148,
+        "EventAmplitudeError": 0.6206221330685627,
+        "WeakEventError": 0.947419958770005,
+        "AVOGradientError": 0.49248712452361204,
+        "NoiseWindowRMS": 0.004288063734954683,
+        "FaultNeighborhoodError": 0.8651020545305281,
+        "PinchoutTailError": 0.00929476654583723
+      },
+      "FullCalRefit": {
+        "RelativeError": 0.1802330391531665,
+        "EventAmplitudeError": 0.06653064948816495,
+        "WeakEventError": 0.343707629735323,
+        "AVOGradientError": 0.04031128187887059,
+        "NoiseWindowRMS": 0.0001862333805872777,
+        "FaultNeighborhoodError": 0.0998537612479282,
+        "PinchoutTailError": 0.0038280666924285006
+      },
+      "PrunedFullCalRefit": {
+        "RelativeError": 0.15219770040076777,
+        "EventAmplitudeError": 0.06586287479320584,
+        "WeakEventError": 0.43572788270610363,
+        "AVOGradientError": 0.039440963101400925,
+        "NoiseWindowRMS": 1.1493973315320905e-05,
+        "FaultNeighborhoodError": 0.07706902671155999,
+        "PinchoutTailError": 0.0
+      }
+    },
+    "per_model": {
+      "Dev_ThinLowQ": {
+        "DecoupledWeak": {
+          "RelativeError": 0.7948460889910786,
+          "EventAmplitudeError": 0.708860451514558,
+          "WeakEventError": 2.00665969209428,
+          "AVOGradientError": 0.5837557462833852,
+          "NoiseWindowRMS": 0.0008878147020537408,
+          "FaultNeighborhoodError": 0.8415742710582192,
+          "PinchoutTailError": 0.003074804367903085
+        },
+        "FixedSplit": {
+          "RelativeError": 0.8734923000130939,
+          "EventAmplitudeError": 0.8056087072203822,
+          "WeakEventError": 1.8159687605486274,
+          "AVOGradientError": 0.7445859361017435,
+          "NoiseWindowRMS": 0.0016357238407308447,
+          "FaultNeighborhoodError": 0.884637734189376,
+          "PinchoutTailError": 0.0036360496769700826
+        },
+        "FullCalRefit": {
+          "RelativeError": 0.20275294619007844,
+          "EventAmplitudeError": 0.077907676992819,
+          "WeakEventError": 0.5230950970053683,
+          "AVOGradientError": 0.03863774179365075,
+          "NoiseWindowRMS": 0.00012918867540412778,
+          "FaultNeighborhoodError": 0.08759292755767435,
+          "PinchoutTailError": 0.004209341213413905
+        },
+        "PrunedFullCalRefit": {
+          "RelativeError": 0.18834886077203952,
+          "EventAmplitudeError": 0.08117070923870813,
+          "WeakEventError": 0.7059670351503785,
+          "AVOGradientError": 0.04122908514157341,
+          "NoiseWindowRMS": 6.564742524224735e-06,
+          "FaultNeighborhoodError": 0.06189829823541395,
+          "PinchoutTailError": 0.0
+        }
+      },
+      "Dev_ThinPairWideContrast": {
+        "DecoupledWeak": {
+          "RelativeError": 0.71130152789958,
+          "EventAmplitudeError": 0.636592764960637,
+          "WeakEventError": 0.7233114246922228,
+          "AVOGradientError": 0.46102763293328347,
+          "NoiseWindowRMS": 0.0007460478400140919,
+          "FaultNeighborhoodError": 0.7975371803920257,
+          "PinchoutTailError": 0.0008205052043726285
+        },
+        "FixedSplit": {
+          "RelativeError": 0.8173188590994293,
+          "EventAmplitudeError": 0.708121404994253,
+          "WeakEventError": 0.6037874143493143,
+          "AVOGradientError": 0.6004097228600318,
+          "NoiseWindowRMS": 0.002467831191119679,
+          "FaultNeighborhoodError": 0.8673025848216505,
+          "PinchoutTailError": 0.001882513561576975
+        },
+        "FullCalRefit": {
+          "RelativeError": 0.1459676626877388,
+          "EventAmplitudeError": 0.0682081297015732,
+          "WeakEventError": 0.29639016493488124,
+          "AVOGradientError": 0.02314653508839753,
+          "NoiseWindowRMS": 0.0001748808242736495,
+          "FaultNeighborhoodError": 0.12134605992637025,
+          "PinchoutTailError": 0.0009702404206188663
+        },
+        "PrunedFullCalRefit": {
+          "RelativeError": 0.11156654903752304,
+          "EventAmplitudeError": 0.06224437404537696,
+          "WeakEventError": 0.28426624548172774,
+          "AVOGradientError": 0.020318783953270258,
+          "NoiseWindowRMS": 1.451194115326302e-05,
+          "FaultNeighborhoodError": 0.0999918840185013,
+          "PinchoutTailError": 0.0
+        }
+      },
+      "OriginalReference": {
+        "DecoupledWeak": {
+          "RelativeError": 0.5353766104450974,
+          "EventAmplitudeError": 0.4188721976101272,
+          "WeakEventError": 0.5835956230867355,
+          "AVOGradientError": 0.6263859831231698,
+          "NoiseWindowRMS": 0.0017161596985011286,
+          "FaultNeighborhoodError": 0.5981843612156417,
+          "PinchoutTailError": 0.00917412590888148
+        },
+        "FixedSplit": {
+          "RelativeError": 0.8724535374585368,
+          "EventAmplitudeError": 0.40604018614481313,
+          "WeakEventError": 0.5837009625066365,
+          "AVOGradientError": 0.2892603839758375,
+          "NoiseWindowRMS": 0.01027386069101764,
+          "FaultNeighborhoodError": 0.9338926812857755,
+          "PinchoutTailError": 0.0281918309730274
+        },
+        "FullCalRefit": {
+          "RelativeError": 0.14818064302675932,
+          "EventAmplitudeError": 0.049816045002812594,
+          "WeakEventError": 0.34431632077819696,
+          "AVOGradientError": 0.07912220199296627,
+          "NoiseWindowRMS": 0.00029323639472503456,
+          "FaultNeighborhoodError": 0.09098787165172555,
+          "PinchoutTailError": 0.008412092376453482
+        },
+        "PrunedFullCalRefit": {
+          "RelativeError": 0.12213922162861386,
+          "EventAmplitudeError": 0.05360643581433888,
+          "WeakEventError": 0.5341659789022224,
+          "AVOGradientError": 0.07780454030055674,
+          "NoiseWindowRMS": 1.0214220165081886e-05,
+          "FaultNeighborhoodError": 0.05771895324356128,
+          "PinchoutTailError": 0.0
+        }
+      },
+      "UniversalHoldout_DeepContrast": {
+        "DecoupledWeak": {
+          "RelativeError": 0.6694826939060468,
+          "EventAmplitudeError": 0.5775197160283998,
+          "WeakEventError": 0.619837482924249,
+          "AVOGradientError": 0.5151916404991627,
+          "NoiseWindowRMS": 0.0010034123696238643,
+          "FaultNeighborhoodError": 0.7042086078386915,
+          "PinchoutTailError": 0.0006473311318025375
+        },
+        "FixedSplit": {
+          "RelativeError": 0.8456098624645116,
+          "EventAmplitudeError": 0.5982831017462477,
+          "WeakEventError": 0.6115076976620043,
+          "AVOGradientError": 0.4576504182459275,
+          "NoiseWindowRMS": 0.005467651848386343,
+          "FaultNeighborhoodError": 0.8828320907577135,
+          "PinchoutTailError": 0.0028945131310948876
+        },
+        "FullCalRefit": {
+          "RelativeError": 0.18551081877547831,
+          "EventAmplitudeError": 0.052658285740800746,
+          "WeakEventError": 0.201402054531901,
+          "AVOGradientError": 0.015578969354218725,
+          "NoiseWindowRMS": 0.00023092111129629594,
+          "FaultNeighborhoodError": 0.0814510165291424,
+          "PinchoutTailError": 0.0011608896251070742
+        },
+        "PrunedFullCalRefit": {
+          "RelativeError": 0.16557249210460426,
+          "EventAmplitudeError": 0.052931845107970873,
+          "WeakEventError": 0.34194045780338406,
+          "AVOGradientError": 0.017565925649797302,
+          "NoiseWindowRMS": 2.1762550901813055e-05,
+          "FaultNeighborhoodError": 0.06495054852413967,
+          "PinchoutTailError": 0.0
+        }
+      },
+      "UniversalHoldout_ThinReverse": {
+        "DecoupledWeak": {
+          "RelativeError": 0.7328501479224185,
+          "EventAmplitudeError": 0.6880254216078947,
+          "WeakEventError": 1.1840844592142976,
+          "AVOGradientError": 0.5684562624917874,
+          "NoiseWindowRMS": 0.0005617777331603001,
+          "FaultNeighborhoodError": 0.7635717741552618,
+          "PinchoutTailError": 0.0024855248808486876
+        },
+        "FixedSplit": {
+          "RelativeError": 0.7822231096605023,
+          "EventAmplitudeError": 0.5850572652371177,
+          "WeakEventError": 1.1221349587834424,
+          "AVOGradientError": 0.37052916143451986,
+          "NoiseWindowRMS": 0.0015952511035189072,
+          "FaultNeighborhoodError": 0.756845181598125,
+          "PinchoutTailError": 0.009868925386516812
+        },
+        "FullCalRefit": {
+          "RelativeError": 0.21875312508577763,
+          "EventAmplitudeError": 0.08406311000281919,
+          "WeakEventError": 0.3533345114262675,
+          "AVOGradientError": 0.04507096116511969,
+          "NoiseWindowRMS": 0.00010293989723728077,
+          "FaultNeighborhoodError": 0.11789093057472849,
+          "PinchoutTailError": 0.004387769826549175
+        },
+        "PrunedFullCalRefit": {
+          "RelativeError": 0.1733613784610582,
+          "EventAmplitudeError": 0.07936100975963437,
+          "WeakEventError": 0.3122996961928055,
+          "AVOGradientError": 0.040286480461806926,
+          "NoiseWindowRMS": 4.41641183222183e-06,
+          "FaultNeighborhoodError": 0.10078544953618378,
+          "PinchoutTailError": 0.0
+        }
+      }
+    },
+    "case_wins": 97,
+    "gates": {
+      "overall": true,
+      "each_model": true,
+      "weak": true,
+      "weak_vs_original": true,
+      "avo": true,
+      "noise": true,
+      "fault": true,
+      "pinchout": true,
+      "solver": true,
+      "all_pass": true
+    }
+  },
+  "colored": {
+    "cases": 10,
+    "means": {
+      "DecoupledWeak": {
+        "RelativeError": 0.7775240049515685,
+        "EventAmplitudeError": 0.7248732597805145,
+        "WeakEventError": 0.9072829484311491,
+        "AVOGradientError": 0.668305942545656,
+        "NoiseWindowRMS": 0.0006240290725305346,
+        "FaultNeighborhoodError": 0.80522918829859,
+        "PinchoutTailError": 0.0020099144384323796
+      },
+      "FixedSplit": {
+        "RelativeError": 0.8088787978949777,
+        "EventAmplitudeError": 0.591185794835127,
+        "WeakEventError": 0.8795460113467055,
+        "AVOGradientError": 0.42355515076977124,
+        "NoiseWindowRMS": 0.003261439095154333,
+        "FaultNeighborhoodError": 0.8064911450209911,
+        "PinchoutTailError": 0.008472928598663465
+      },
+      "FullCalRefit": {
+        "RelativeError": 0.3043035258459293,
+        "EventAmplitudeError": 0.08496431946468895,
+        "WeakEventError": 0.41226575285864697,
+        "AVOGradientError": 0.0327940873610581,
+        "NoiseWindowRMS": 0.0003134030628770929,
+        "FaultNeighborhoodError": 0.1490687979967015,
+        "PinchoutTailError": 0.006387885827285495
+      },
+      "PrunedFullCalRefit": {
+        "RelativeError": 0.22025014513145597,
+        "EventAmplitudeError": 0.0831300975755757,
+        "WeakEventError": 0.4606148150456405,
+        "AVOGradientError": 0.0471685086127489,
+        "NoiseWindowRMS": 3.464852863063243e-20,
+        "FaultNeighborhoodError": 0.08965698455576004,
+        "PinchoutTailError": 6.0509746579748e-21
+      }
+    },
+    "per_model": {
+      "UniversalHoldout_DeepContrast": {
+        "DecoupledWeak": {
+          "RelativeError": 0.7540268017039816,
+          "EventAmplitudeError": 0.683481516395185,
+          "WeakEventError": 0.667221538225378,
+          "AVOGradientError": 0.6306571758776435,
+          "NoiseWindowRMS": 0.0007540791177587224,
+          "FaultNeighborhoodError": 0.80022369622239,
+          "PinchoutTailError": 0.000909767392673469
+        },
+        "FixedSplit": {
+          "RelativeError": 0.8291244164752836,
+          "EventAmplitudeError": 0.5964615702035018,
+          "WeakEventError": 0.606521531883321,
+          "AVOGradientError": 0.45575046162841,
+          "NoiseWindowRMS": 0.0050393102831445,
+          "FaultNeighborhoodError": 0.858423125501145,
+          "PinchoutTailError": 0.00377891848137073
+        },
+        "FullCalRefit": {
+          "RelativeError": 0.2753867303800424,
+          "EventAmplitudeError": 0.06832641002577296,
+          "WeakEventError": 0.29736749679171,
+          "AVOGradientError": 0.01871490456324075,
+          "NoiseWindowRMS": 0.0004342756960986728,
+          "FaultNeighborhoodError": 0.145368575724891,
+          "PinchoutTailError": 0.00256551157955889
+        },
+        "PrunedFullCalRefit": {
+          "RelativeError": 0.22773123634923412,
+          "EventAmplitudeError": 0.07407311270443684,
+          "WeakEventError": 0.590618053750258,
+          "AVOGradientError": 0.037302990635445996,
+          "NoiseWindowRMS": 6.929705726126487e-20,
+          "FaultNeighborhoodError": 0.087692150779097,
+          "PinchoutTailError": 1.44840174329905e-91
+        }
+      },
+      "UniversalHoldout_ThinReverse": {
+        "DecoupledWeak": {
+          "RelativeError": 0.8010212081991553,
+          "EventAmplitudeError": 0.766265003165844,
+          "WeakEventError": 1.14734435863692,
+          "AVOGradientError": 0.7059547092136684,
+          "NoiseWindowRMS": 0.0004939790273023468,
+          "FaultNeighborhoodError": 0.81023468037479,
+          "PinchoutTailError": 0.00311006148419129
+        },
+        "FixedSplit": {
+          "RelativeError": 0.788633179314672,
+          "EventAmplitudeError": 0.5859100194667523,
+          "WeakEventError": 1.15257049081009,
+          "AVOGradientError": 0.3913598399111325,
+          "NoiseWindowRMS": 0.001483567907164166,
+          "FaultNeighborhoodError": 0.754559164540837,
+          "PinchoutTailError": 0.0131669387159562
+        },
+        "FullCalRefit": {
+          "RelativeError": 0.3332203213118162,
+          "EventAmplitudeError": 0.10160222890360494,
+          "WeakEventError": 0.527164008925584,
+          "AVOGradientError": 0.04687327015887545,
+          "NoiseWindowRMS": 0.0001925304296555129,
+          "FaultNeighborhoodError": 0.152769020268512,
+          "PinchoutTailError": 0.0102102600750121
+        },
+        "PrunedFullCalRefit": {
+          "RelativeError": 0.2127690539136778,
+          "EventAmplitudeError": 0.09218708244671456,
+          "WeakEventError": 0.330611576341023,
+          "AVOGradientError": 0.0570340265900518,
+          "NoiseWindowRMS": 7.578171429622498e-72,
+          "FaultNeighborhoodError": 0.0916218183324231,
+          "PinchoutTailError": 1.21019493159496e-20
+        }
+      }
+    },
+    "case_wins": 10,
+    "passes": true
+  },
+  "checks": {
+    "complete": true,
+    "cases": 110,
+    "rows": 440,
+    "max_normal": 1.0713685928036771e-14,
+    "optimization_flags": 0,
+    "elapsed_seconds": 208.233291,
+    "previous_holdouts_reclassified_as_development": true
+  },
+  "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\adaptive_joint_cv_20261022\\runs\\pruning_development_20261022T163751Z",
+  "scope": "Expanded development after round-one validation failure; none of these 110 cases is now an unseen test."
+}

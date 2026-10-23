@@ -1,0 +1,38 @@
+{
+  "Moderate": {
+    "parameters": {
+      "minimum_apparent_velocity_m_s": 400.0,
+      "slope_count": 1201,
+      "minimum_peak_semblance": 0.65,
+      "gate_onset": 0.45,
+      "maximum_components": 3,
+      "subtraction_fraction": 0.6,
+      "scan_dt_min_s": 0.004,
+      "minimum_aperture_coverage": 0.7
+    },
+    "components": [],
+    "live_traces": 97,
+    "f90_hz": 36.1328125,
+    "scan_dt_s": 0.004,
+    "removed_norm_fraction": 0.0,
+    "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+  },
+  "Strong": {
+    "parameters": {
+      "minimum_apparent_velocity_m_s": 400.0,
+      "slope_count": 1201,
+      "minimum_peak_semblance": 0.65,
+      "gate_onset": 0.45,
+      "maximum_components": 3,
+      "subtraction_fraction": 0.6,
+      "scan_dt_min_s": 0.004,
+      "minimum_aperture_coverage": 0.7
+    },
+    "components": [],
+    "live_traces": 97,
+    "f90_hz": 38.0859375,
+    "scan_dt_s": 0.004,
+    "removed_norm_fraction": 0.0,
+    "purpose": "Estimate long straight coherent packets. May remove true linear events; inspection required, no default promotion without clean-signal gate."
+  }
+}

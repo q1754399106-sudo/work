@@ -1,0 +1,16 @@
+{
+  "code": {
+    "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\optimized_seismic_method_20261023.zip",
+    "files": 153,
+    "bytes": 371784,
+    "sha256": "848cb5f28d5b2125c93a97da0b76d63712768ce69ef08737bf3d9714a6f37e29",
+    "verified": true
+  },
+  "experiments": {
+    "path": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\optimized_seismic_experiments_20261023.zip",
+    "files": 3089,
+    "bytes": 230741173,
+    "sha256": "c59d64b6ed00d38f5919b28d2e01e37a2e39266ad2b94410c0c631cfb29924eb",
+    "verified": true
+  }
+}

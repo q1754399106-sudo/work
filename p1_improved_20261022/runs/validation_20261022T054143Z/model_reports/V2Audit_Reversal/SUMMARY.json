@@ -1,0 +1,101 @@
+{
+  "model": "V2Audit_Reversal",
+  "created_utc": "2026-10-22T10:16:48.000474+00:00",
+  "coverage": {
+    "complete": true,
+    "expected": 3600,
+    "actual": 3600,
+    "missing": [],
+    "extra": [],
+    "duplicates": []
+  },
+  "all_method_solver_failures": [],
+  "source_unchanged": true,
+  "original_replay_exact": null,
+  "suites": [
+    {
+      "suite": "Main",
+      "means": {
+        "Frozen": 0.7538783028254354,
+        "CombinedUncertainty": 0.7445422474596055,
+        "CombinedUncertaintyV2": 0.6259173293794478
+      },
+      "gain_vs_original": 0.15932597308602514,
+      "gain_vs_frozen": 0.1697369097457866
+    },
+    {
+      "suite": "LowerSNR",
+      "means": {
+        "Frozen": 0.7839312623434723,
+        "CombinedUncertainty": 0.7865346621230448,
+        "CombinedUncertaintyV2": 0.721643425599048
+      },
+      "gain_vs_original": 0.08250270413873406,
+      "gain_vs_frozen": 0.0794557376857532
+    },
+    {
+      "suite": "StressNonRickerPhase",
+      "means": {
+        "Frozen": 0.835297690685861,
+        "CombinedUncertainty": 0.8202910859453607,
+        "CombinedUncertaintyV2": 0.7035437388183698
+      },
+      "gain_vs_original": 0.14232429088564713,
+      "gain_vs_frozen": 0.15773292963291718
+    },
+    {
+      "suite": "StressVelocityError",
+      "means": {
+        "Frozen": 0.8377211604852023,
+        "CombinedUncertainty": 0.8335424041718983,
+        "CombinedUncertaintyV2": 0.585395235084636
+      },
+      "gain_vs_original": 0.29770191395816237,
+      "gain_vs_frozen": 0.3012051471332309
+    },
+    {
+      "suite": "StressResidualNMO",
+      "means": {
+        "Frozen": 0.8268991841956117,
+        "CombinedUncertainty": 0.811347644977945,
+        "CombinedUncertaintyV2": 0.6799723426884744
+      },
+      "gain_vs_original": 0.16192233144775048,
+      "gain_vs_frozen": 0.17768410504608767
+    },
+    {
+      "suite": "StressColoredNoise",
+      "means": {
+        "Frozen": 0.7559359521674166,
+        "CombinedUncertainty": 0.7288458591135577,
+        "CombinedUncertaintyV2": 0.629889376908017
+      },
+      "gain_vs_original": 0.13577148167637842,
+      "gain_vs_frozen": 0.16674240046130795
+    },
+    {
+      "suite": "StressVelocityMinus3",
+      "means": {
+        "Frozen": 3.190497087244009,
+        "CombinedUncertainty": 3.5283321945175805,
+        "CombinedUncertaintyV2": 0.5853960652061673
+      },
+      "gain_vs_original": 0.8340870323617,
+      "gain_vs_frozen": 0.8165188529565969
+    }
+  ],
+  "single_model_frozen_gate_status": "FAIL",
+  "failed_gates": [
+    {
+      "name": "StressVelocityError/V2Audit_Reversal/AVOGradientError",
+      "pass_": false,
+      "detail": {
+        "baseline": 0.7418825325840824,
+        "candidate": 0.8944293791673911,
+        "allowance": 0.037094126629204124,
+        "n": 36
+      }
+    }
+  ],
+  "scope": "Descriptive completed-model report. Frozen gates vs Frozen applied to this model only; 5% Main gate is also a final cohort requirement. No final cohort acceptance or cross-model generalization claimed. No tuning on confirmation outcomes."
+}

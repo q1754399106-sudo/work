@@ -1,0 +1,39 @@
+{
+  "registered_utc": "2026-10-23T04:35:14.316326+00:00",
+  "method": "Data-only long-aperture linear coherence packet estimation and conservative subtraction",
+  "parameters": {
+    "band_edges_relative_to_observed_f90": [
+      0,
+      0.4,
+      0.8,
+      1.3,
+      2.0
+    ],
+    "trace_rms_preconditioning": "For prediction only; restore physical amplitudes before subtraction",
+    "base_parameters": {
+      "minimum_apparent_velocity_m_s": 400.0,
+      "slope_count": 1201,
+      "minimum_peak_semblance": 0.65,
+      "gate_onset": 0.45,
+      "maximum_components": 3,
+      "subtraction_fraction": 0.6,
+      "scan_dt_min_s": 0.004,
+      "minimum_aperture_coverage": 0.7
+    }
+  },
+  "source_model": "Previous frozen complex field-like 99 trace model",
+  "conditions": [
+    "Moderate",
+    "Strong"
+  ],
+  "truth_use": "Scoring only, not input to filter or compensated solvers",
+  "gates": {
+    "clean_input_relative_change_max": 0.02,
+    "per_condition_method_waveform_ratio_max": 1.02,
+    "low_energy_error_ratio_max": 1.05
+  },
+  "promotion": "Research attempt; retain failures, do not change default if any gate fails",
+  "real_data": "USGS Alaska 31-81 records 111,120,130 first 96 traces; Yilmaz wz25 entire gather. No reference truth or trusted Q calibration; denoising-only field experiment, no invented Q or recovery-error claims.",
+  "attempt": "v2 band-limited detection, preconditioned, same base thresholds",
+  "development_note": "Same synthetic observations are development; broadband version detected nothing. Both attempts retained. No held-out generalization claim; field records processed after freezing this rule."
+}

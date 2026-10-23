@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-19",
+  "delivery_status": "PACKAGED_WITH_OFFLINE_VALIDATION",
+  "algorithm_default": "Frozen_Split with mandatory matched-prior Direct comparator",
+  "source_solver": "unchanged transitive dependency snapshot of historical MATLAB-validated implementation",
+  "new_files": [
+    "retained public wrapper",
+    "fresh-output regression/replay runner",
+    "paired candidate evaluator",
+    "task book"
+  ],
+  "historical_matlab_evidence": "included, not newly executed",
+  "new_matlab_execution": false,
+  "new_matlab_entry_validation": "PENDING_EXISTING_SHARED_SESSION",
+  "engine_check": "BLOCKED_ENGINE: find_matlab returned no ResearchMATLAB",
+  "started_or_stopped_matlab": false,
+  "offline_validation": {
+    "status": "PASS",
+    "checks": {
+      "copied_source_hashes_match": true,
+      "available_original_sources_unchanged": true,
+      "python_syntax": true,
+      "stored_waveform_metrics_24": true,
+      "acceptance_positive_fixture": true,
+      "missing_direct_rejected": true,
+      "global_gain_local_harm_rejected": true,
+      "unpaired_rejected": true,
+      "duplicate_rejected": true,
+      "nonfinite_rejected": true,
+      "dashboard_links": true
+    },
+    "copied_sources": 128,
+    "available_originals_checked": 128,
+    "stored_waveform_count": 24,
+    "waveform_max_absolute_delta": 5.773159728050814e-15,
+    "scope": "Stored-waveform metrics and report logic only. No MATLAB inverse solve. Acceptance fixtures are artificial unit tests, not method evidence."
+  },
+  "future_model_error_method": "PLANNED_NOT_IMPLEMENTED",
+  "research_claim": "Frozen has conditional overall benefits and local amplitude costs; no novelty or universal superiority claim",
+  "user_original_files": "not modified",
+  "source_and_package_hashes": "SOURCE_MANIFEST.json and PACKAGE_MANIFEST.json",
+  "next_action": "Discover existing ResearchMATLAB; run check/validate/regression. Then implement P1 in a new experiment copy."
+}

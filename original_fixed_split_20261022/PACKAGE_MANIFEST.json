@@ -1,0 +1,18 @@
+{
+  "attenuation_rebuild/attenuation_matrix.m": "93d6cf4fd2f8fcb797016c02094d1b6ad8b63d1ca3cc83e0f5594bec2304c68b",
+  "attenuation_rebuild/config_model.m": "383758437200c5d656114daa157fd7c3fcbc59911a155ef82599426f6af2c050",
+  "attenuation_rebuild/discrepancy_solve.m": "f356458559679ea47e0a75dfa26c87f853a24efca6ff44f62f6ec7fa83efddae",
+  "attenuation_rebuild/event_metrics.m": "06a6ffa30913b1c5a67882edc0b5b34504a7bc5f6ce472fa27085bc3a4dcaed3",
+  "attenuation_rebuild/make_reference.m": "aff7a2523147f7ca79da475437919c4244949c2b322630d5216a420e1b1b11c7",
+  "attenuation_rebuild/ray_absorption.m": "c74fe81b4925d1a069e81ad2d198e4b7bdfc14248f1df520f18faf373277a175",
+  "attenuation_rebuild/README.md": "5d528335626f82bb88378d7c27e9758c85366a4f7f8cca721b00fb3eade83193",
+  "attenuation_rebuild/ridge_operator.m": "f458abdb8726c0565abb9a116ec482860e4f77e35efa4d9862ea583191cc0a52",
+  "attenuation_rebuild/run_rebuild.m": "2357a258191088727ecd02fe2e749c3a1915292560f2bf769f550e19530376b9",
+  "attenuation_rebuild/validate_extra.m": "cb5d80951bb97ba87f299fa4b0400caeb1c37cb6f01b4b3e64fb7625451d9276",
+  "attenuation_rebuild/VALIDATION.md": "c0f9cb79498c2a9f262ce592bf2f215ca7b112e71594ef0b1f9f1a91e0fede11",
+  "attenuation_rebuild/verification/numpy_checks.json": "da3acb809033d16b8e3684d039631c2ff7da5bfe9b3fb867f368b8b539253a71",
+  "attenuation_rebuild/verify_numpy.py": "3cb3fa813236abebe9ebe204b10b838c583155c3671161a9259da45231993106",
+  "original_archive/attenuation_rebuild_v1.zip": "5cdcc109e4dc86186a86c4befb485bd1a5288edee604c4b4f4f98685adaf4e74",
+  "PROVENANCE.json": "8850c4f782a3701f8918afb30c5d96671f3c0952e1c25f1df224b55bd87c9ece",
+  "START_HERE.md": "8f7ac9ec10899681a15b9e08c251e72a9721704e9aa7981e54f119844352e2f7"
+}

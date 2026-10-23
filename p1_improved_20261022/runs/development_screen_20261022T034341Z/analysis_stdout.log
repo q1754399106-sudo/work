@@ -1,0 +1,687 @@
+{
+  "development_only": true,
+  "rows": 672,
+  "results": {
+    "CombinedUncertainty": {
+      "status": "FAIL",
+      "passed": 104,
+      "total": 108,
+      "failed": [
+        {
+          "name": "StressVelocityPlus3/Dev_ModerateQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityPlus3",
+            "Model": "Dev_ModerateQ",
+            "n": 1,
+            "baseline": 10.9972302930992,
+            "candidate": 11.4986828986245,
+            "improvement_percent": -4.559808171335322,
+            "baseline_median": 10.9972302930992,
+            "candidate_median": 11.4986828986245,
+            "baseline_p90": 10.9972302930992,
+            "candidate_p90": 11.4986828986245,
+            "baseline_p95": 10.9972302930992,
+            "candidate_p95": 11.4986828986245,
+            "baseline_worst": 10.9972302930992,
+            "candidate_worst": 11.4986828986245,
+            "baseline_failures": 1,
+            "candidate_failures": 1
+          }
+        },
+        {
+          "name": "StressVelocityPlus3/Dev_ModerateQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 2.64212577555423,
+            "candidate": 2.80029148618854,
+            "allowance": 0.1321062887777115,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityPlus3/Dev_ModerateQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 2.33643497812194,
+            "candidate": 2.61250536654978,
+            "allowance": 0.116821748906097,
+            "n": 1
+          }
+        },
+        {
+          "name": "main_equal_model_improvement",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.7083528693454353,
+            "candidate": 0.6861502583855421,
+            "relative_improvement": 0.03134399805623689
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.03134399805623689,
+      "solver_failures": 0
+    },
+    "CombinedJointCalibration": {
+      "status": "FAIL",
+      "passed": 99,
+      "total": 108,
+      "failed": [
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ModerateQ",
+            "n": 1,
+            "baseline": 0.573489825328423,
+            "candidate": 0.602547689974169,
+            "improvement_percent": -5.066849203315038,
+            "baseline_median": 0.573489825328423,
+            "candidate_median": 0.602547689974169,
+            "baseline_p90": 0.573489825328423,
+            "candidate_p90": 0.602547689974169,
+            "baseline_p95": 0.573489825328423,
+            "candidate_p95": 0.602547689974169,
+            "baseline_worst": 0.573489825328423,
+            "candidate_worst": 0.602547689974169,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.456130081560017,
+            "candidate": 0.529648338314038,
+            "allowance": 0.02280650407800085,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.460863378464853,
+            "candidate": 0.531675206649635,
+            "allowance": 0.023043168923242652,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.559270771693208,
+            "candidate": 0.598050477392463,
+            "allowance": 0.027963538584660403,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ThinLowQ",
+            "n": 1,
+            "baseline": 0.730533402330318,
+            "candidate": 0.80827272927937,
+            "improvement_percent": -10.641447290578698,
+            "baseline_median": 0.730533402330318,
+            "candidate_median": 0.80827272927937,
+            "baseline_p90": 0.730533402330318,
+            "candidate_p90": 0.80827272927937,
+            "baseline_p95": 0.730533402330318,
+            "candidate_p95": 0.80827272927937,
+            "baseline_worst": 0.730533402330318,
+            "candidate_worst": 0.80827272927937,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.561503630670948,
+            "candidate": 0.771617112730198,
+            "allowance": 0.028075181533547402,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.554811128531479,
+            "candidate": 0.766411757074745,
+            "allowance": 0.02774055642657395,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.570926955950594,
+            "candidate": 0.774780991153852,
+            "allowance": 0.028546347797529698,
+            "n": 1
+          }
+        },
+        {
+          "name": "main_equal_model_improvement",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.7083528693454353,
+            "candidate": 0.6861502583855421,
+            "relative_improvement": 0.03134399805623689
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.03134399805623689,
+      "solver_failures": 0
+    },
+    "ConfidenceOnly": {
+      "status": "FAIL",
+      "passed": 99,
+      "total": 108,
+      "failed": [
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ModerateQ",
+            "n": 1,
+            "baseline": 0.573489825328423,
+            "candidate": 0.602547689974169,
+            "improvement_percent": -5.066849203315038,
+            "baseline_median": 0.573489825328423,
+            "candidate_median": 0.602547689974169,
+            "baseline_p90": 0.573489825328423,
+            "candidate_p90": 0.602547689974169,
+            "baseline_p95": 0.573489825328423,
+            "candidate_p95": 0.602547689974169,
+            "baseline_worst": 0.573489825328423,
+            "candidate_worst": 0.602547689974169,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.456130081560017,
+            "candidate": 0.529648338314038,
+            "allowance": 0.02280650407800085,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.460863378464853,
+            "candidate": 0.531675206649635,
+            "allowance": 0.023043168923242652,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.559270771693208,
+            "candidate": 0.598050477392463,
+            "allowance": 0.027963538584660403,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ThinLowQ",
+            "n": 1,
+            "baseline": 0.730533402330318,
+            "candidate": 0.80827272927937,
+            "improvement_percent": -10.641447290578698,
+            "baseline_median": 0.730533402330318,
+            "candidate_median": 0.80827272927937,
+            "baseline_p90": 0.730533402330318,
+            "candidate_p90": 0.80827272927937,
+            "baseline_p95": 0.730533402330318,
+            "candidate_p95": 0.80827272927937,
+            "baseline_worst": 0.730533402330318,
+            "candidate_worst": 0.80827272927937,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.561503630670948,
+            "candidate": 0.771617112730198,
+            "allowance": 0.028075181533547402,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.554811128531479,
+            "candidate": 0.766411757074745,
+            "allowance": 0.02774055642657395,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.570926955950594,
+            "candidate": 0.774780991153852,
+            "allowance": 0.028546347797529698,
+            "n": 1
+          }
+        },
+        {
+          "name": "main_equal_model_improvement",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.7083528693454353,
+            "candidate": 0.6885071369619925,
+            "relative_improvement": 0.028016731832796182
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.028016731832796182,
+      "solver_failures": 0,
+      "gain_vs_original_combined": -0.0034349306841272575,
+      "feasible_for_validation": false
+    },
+    "ConfidenceBalanced": {
+      "status": "FAIL",
+      "passed": 99,
+      "total": 108,
+      "failed": [
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ModerateQ",
+            "n": 1,
+            "baseline": 0.573489825328423,
+            "candidate": 0.602547689974169,
+            "improvement_percent": -5.066849203315038,
+            "baseline_median": 0.573489825328423,
+            "candidate_median": 0.602547689974169,
+            "baseline_p90": 0.573489825328423,
+            "candidate_p90": 0.602547689974169,
+            "baseline_p95": 0.573489825328423,
+            "candidate_p95": 0.602547689974169,
+            "baseline_worst": 0.573489825328423,
+            "candidate_worst": 0.602547689974169,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.456130081560017,
+            "candidate": 0.529648338314038,
+            "allowance": 0.02280650407800085,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.460863378464853,
+            "candidate": 0.531675206649635,
+            "allowance": 0.023043168923242652,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.559270771693208,
+            "candidate": 0.598050477392463,
+            "allowance": 0.027963538584660403,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ThinLowQ",
+            "n": 1,
+            "baseline": 0.730533402330318,
+            "candidate": 0.80827272927937,
+            "improvement_percent": -10.641447290578698,
+            "baseline_median": 0.730533402330318,
+            "candidate_median": 0.80827272927937,
+            "baseline_p90": 0.730533402330318,
+            "candidate_p90": 0.80827272927937,
+            "baseline_p95": 0.730533402330318,
+            "candidate_p95": 0.80827272927937,
+            "baseline_worst": 0.730533402330318,
+            "candidate_worst": 0.80827272927937,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.561503630670948,
+            "candidate": 0.771617112730198,
+            "allowance": 0.028075181533547402,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.554811128531479,
+            "candidate": 0.766411757074745,
+            "allowance": 0.02774055642657395,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.570926955950594,
+            "candidate": 0.774780991153852,
+            "allowance": 0.028546347797529698,
+            "n": 1
+          }
+        },
+        {
+          "name": "main_equal_model_improvement",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.7083528693454353,
+            "candidate": 0.695404181052186,
+            "relative_improvement": 0.018279996952951794
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.018279996952951794,
+      "solver_failures": 0,
+      "gain_vs_original_combined": -0.013486729114432938,
+      "feasible_for_validation": false
+    },
+    "ConfidenceLight": {
+      "status": "FAIL",
+      "passed": 99,
+      "total": 108,
+      "failed": [
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ModerateQ",
+            "n": 1,
+            "baseline": 0.573489825328423,
+            "candidate": 0.602547689974169,
+            "improvement_percent": -5.066849203315038,
+            "baseline_median": 0.573489825328423,
+            "candidate_median": 0.602547689974169,
+            "baseline_p90": 0.573489825328423,
+            "candidate_p90": 0.602547689974169,
+            "baseline_p95": 0.573489825328423,
+            "candidate_p95": 0.602547689974169,
+            "baseline_worst": 0.573489825328423,
+            "candidate_worst": 0.602547689974169,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.456130081560017,
+            "candidate": 0.529648338314038,
+            "allowance": 0.02280650407800085,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.460863378464853,
+            "candidate": 0.531675206649635,
+            "allowance": 0.023043168923242652,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.559270771693208,
+            "candidate": 0.598050477392463,
+            "allowance": 0.027963538584660403,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ThinLowQ",
+            "n": 1,
+            "baseline": 0.730533402330318,
+            "candidate": 0.80827272927937,
+            "improvement_percent": -10.641447290578698,
+            "baseline_median": 0.730533402330318,
+            "candidate_median": 0.80827272927937,
+            "baseline_p90": 0.730533402330318,
+            "candidate_p90": 0.80827272927937,
+            "baseline_p95": 0.730533402330318,
+            "candidate_p95": 0.80827272927937,
+            "baseline_worst": 0.730533402330318,
+            "candidate_worst": 0.80827272927937,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.561503630670948,
+            "candidate": 0.771617112730198,
+            "allowance": 0.028075181533547402,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.554811128531479,
+            "candidate": 0.766411757074745,
+            "allowance": 0.02774055642657395,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.570926955950594,
+            "candidate": 0.774780991153852,
+            "allowance": 0.028546347797529698,
+            "n": 1
+          }
+        },
+        {
+          "name": "main_equal_model_improvement",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.7083528693454353,
+            "candidate": 0.6937613726052771,
+            "relative_improvement": 0.020599191972839215
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.020599191972839215,
+      "solver_failures": 0,
+      "gain_vs_original_combined": -0.011092489038251552,
+      "feasible_for_validation": false
+    },
+    "ConfidenceIdentityPenalty": {
+      "status": "FAIL",
+      "passed": 99,
+      "total": 108,
+      "failed": [
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ModerateQ",
+            "n": 1,
+            "baseline": 0.573489825328423,
+            "candidate": 0.602547689974169,
+            "improvement_percent": -5.066849203315038,
+            "baseline_median": 0.573489825328423,
+            "candidate_median": 0.602547689974169,
+            "baseline_p90": 0.573489825328423,
+            "candidate_p90": 0.602547689974169,
+            "baseline_p95": 0.573489825328423,
+            "candidate_p95": 0.602547689974169,
+            "baseline_worst": 0.573489825328423,
+            "candidate_worst": 0.602547689974169,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.456130081560017,
+            "candidate": 0.529648338314038,
+            "allowance": 0.02280650407800085,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.460863378464853,
+            "candidate": 0.531675206649635,
+            "allowance": 0.023043168923242652,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ModerateQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.559270771693208,
+            "candidate": 0.598050477392463,
+            "allowance": 0.027963538584660403,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/mean_noninferiority",
+          "pass_": false,
+          "detail": {
+            "Suite": "StressVelocityMinus3",
+            "Model": "Dev_ThinLowQ",
+            "n": 1,
+            "baseline": 0.730533402330318,
+            "candidate": 0.80827272927937,
+            "improvement_percent": -10.641447290578698,
+            "baseline_median": 0.730533402330318,
+            "candidate_median": 0.80827272927937,
+            "baseline_p90": 0.730533402330318,
+            "candidate_p90": 0.80827272927937,
+            "baseline_p95": 0.730533402330318,
+            "candidate_p95": 0.80827272927937,
+            "baseline_worst": 0.730533402330318,
+            "candidate_worst": 0.80827272927937,
+            "baseline_failures": 0,
+            "candidate_failures": 0
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/EventAmplitudeError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.561503630670948,
+            "candidate": 0.771617112730198,
+            "allowance": 0.028075181533547402,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOInterceptError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.554811128531479,
+            "candidate": 0.766411757074745,
+            "allowance": 0.02774055642657395,
+            "n": 1
+          }
+        },
+        {
+          "name": "StressVelocityMinus3/Dev_ThinLowQ/AVOGradientError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.570926955950594,
+            "candidate": 0.774780991153852,
+            "allowance": 0.028546347797529698,
+            "n": 1
+          }
+        },
+        {
+          "name": "main_equal_model_improvement",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.7083528693454353,
+            "candidate": 0.6930508456834686,
+            "relative_improvement": 0.021602261138726986
+          }
+        }
+      ],
+      "gain_vs_frozen": 0.021602261138726986,
+      "solver_failures": 0,
+      "gain_vs_original_combined": -0.0100569623250788,
+      "feasible_for_validation": false
+    }
+  },
+  "selected_profile": null,
+  "selection_rule": "All original engineering gates and solver quality; Main mean must improve vs original Combined; among feasible profiles minimize Main equal-model error",
+  "source_manifest_sha256": "263e17f4a1f2064ee15b3fce07753b0e3efbd4127ddfdc942e08bc2510c040de"
+}

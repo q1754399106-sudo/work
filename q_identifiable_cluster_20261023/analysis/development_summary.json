@@ -1,0 +1,86 @@
+{
+  "stage": "development",
+  "verification": "ANALYZED",
+  "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\development_20261023T064919Z",
+  "means": {
+    "Observed": {
+      "LiveTraceError": 0.9996084288284892,
+      "LowEnergyRegionError": 0.9830957776123632,
+      "DeepLiveError": 1.0214445258876919,
+      "CorrelationLive": 0.07838102004658645,
+      "AmplitudeProjectionGain": 0.011846191377799471
+    },
+    "FullCalRefit": {
+      "LiveTraceError": 0.5853065632609831,
+      "LowEnergyRegionError": 0.832631761073924,
+      "DeepLiveError": 0.6918299684888398,
+      "CorrelationLive": 0.8142174714344064,
+      "AmplitudeProjectionGain": 0.6072598055043248
+    },
+    "PrunedFullCalRefit": {
+      "LiveTraceError": 0.6208147529683954,
+      "LowEnergyRegionError": 0.8950796666543559,
+      "DeepLiveError": 0.7401747703738604,
+      "CorrelationLive": 0.7846721985642928,
+      "AmplitudeProjectionGain": 0.5922119423506986
+    },
+    "GlobalTSVD": {
+      "LiveTraceError": 0.5905310094404141,
+      "LowEnergyRegionError": 0.8388990270625363,
+      "DeepLiveError": 0.7011676944323869,
+      "CorrelationLive": 0.8096687440257899,
+      "AmplitudeProjectionGain": 0.6085783450644846
+    },
+    "ClusterModesNoQ": {
+      "LiveTraceError": 0.6015890935047312,
+      "LowEnergyRegionError": 0.8154152066183404,
+      "DeepLiveError": 0.7090071310981485,
+      "CorrelationLive": 0.8018893434527155,
+      "AmplitudeProjectionGain": 0.5875859084302939
+    },
+    "QAwareRidge": {
+      "LiveTraceError": 0.5838531176207479,
+      "LowEnergyRegionError": 0.8349058531421554,
+      "DeepLiveError": 0.6917794759203382,
+      "CorrelationLive": 0.8150724532598908,
+      "AmplitudeProjectionGain": 0.6124369812147724
+    },
+    "QAwareCluster": {
+      "LiveTraceError": 0.605344686437316,
+      "LowEnergyRegionError": 0.8135513160612731,
+      "DeepLiveError": 0.7159213275256346,
+      "CorrelationLive": 0.7998386963042992,
+      "AmplitudeProjectionGain": 0.5785457793329338
+    }
+  },
+  "gates": {},
+  "checks": [
+    {
+      "complete": true,
+      "case": "Development",
+      "traces": 44,
+      "optimization_flags": 0,
+      "max_normal": 8.389001519379172e-15,
+      "zero_Q_covariance_limit": 0,
+      "zero_input_exact": true,
+      "elapsed_seconds": 298.1523909
+    }
+  ],
+  "provenance": [
+    {
+      "case": "Development",
+      "condition": "Moderate",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\development_20261023T064919Z\\Development\\Moderate.json",
+      "sha256": "0738dc51a1397cb312379d72fce16d95adba68291c45b24fdaeabf03ecc23109",
+      "truth_sha256": "b266306566d9427bcc2c1ccbb7aeea966d10388b6489d250a2e4cd882c1d0106"
+    },
+    {
+      "case": "Development",
+      "condition": "Strong",
+      "result": "C:\\Users\\qq175\\Documents\\ChatGPT\\\u7814\u7a76\\q_identifiable_cluster_20261023\\runs\\development_20261023T064919Z\\Development\\Strong.json",
+      "sha256": "5a4d93c5011924e8dc691d356905171919586f8b340daf8dbc603f57f07505ba",
+      "truth_sha256": "b266306566d9427bcc2c1ccbb7aeea966d10388b6489d250a2e4cd882c1d0106"
+    }
+  ],
+  "scope": "One development geology or three new same-family geological configurations; two dependent conditions per geology; descriptive equal-geology means, no significance claims."
+}

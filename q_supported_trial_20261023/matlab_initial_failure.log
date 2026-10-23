@@ -1,0 +1,7 @@
+{在不同结构体之间进行下标赋值。
+
+出错 run_trial (第 13 行)
+  results(end+1)=pack('full_path',factor,star,0,D,[],N,fixed,refit,pruned,fn,rn,pn,G,diag,dn);
+  ^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

@@ -1,0 +1,11 @@
+{
+  "status": "RUNNING",
+  "started_utc": "2026-10-19T13:03:20.884485+00:00",
+  "spec": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\freeze_v2\\frozen_experiment_spec.json",
+  "test_run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\test_v2",
+  "evaluation": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\test_v2_strict",
+  "figures": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\attenuation_run_20261019\\experiments\\test_v2_figures",
+  "thread_limit_override": null,
+  "note": "Only existing ResearchMATLAB; frozen protocol; all failed rows retained.",
+  "active_stage": "test"
+}

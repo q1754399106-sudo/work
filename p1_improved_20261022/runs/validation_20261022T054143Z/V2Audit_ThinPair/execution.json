@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "model": "V2Audit_ThinPair",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/source/core_p1');run_validation_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_ThinPair/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_ThinPair/matlab');"
+  ],
+  "started_utc": "2026-10-22T09:20:22.308480+00:00",
+  "pid": 7112
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/denoise_and_field_20261023/runs/denoise_strong_20261023T043727Z/source/core_p1');run_denoise_strong('C:/Users/qq175/Documents/ChatGPT/研究/denoise_and_field_20261023/runs/denoise_strong_20261023T043727Z/matlab');"
+  ],
+  "started_utc": "2026-10-23T04:37:27.586752+00:00",
+  "timeout_seconds": 3600.0,
+  "pid": 27716,
+  "exit_code": 0,
+  "elapsed_seconds": 324.20300000000134
+}

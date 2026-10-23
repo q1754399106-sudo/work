@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-10-23T05:52:22.325050+00:00",
+  "development_records": [
+    111,
+    112,
+    113,
+    114
+  ],
+  "held_out_records": [
+    115,
+    116,
+    117,
+    118
+  ],
+  "split_note": "Adjacent records within one survey, not independent surveys. 111 previously seen; 112-118 new this run. Held-out waveforms are not parsed until parameters and event windows frozen.",
+  "method": "Local overlap-add directional f-k, split left/right spread, soft slow-wave time gate and central-offset protection",
+  "local_window_samples": 512,
+  "local_window_traces": 24,
+  "hop_samples": 128,
+  "hop_traces": 6,
+  "noise_velocity_full_m_s": 1000.0,
+  "noise_velocity_transition_m_s": 2200.0,
+  "noise_frequency_full_relative_f90": 0.3,
+  "noise_frequency_zero_relative_f90": 0.7,
+  "protected_central_offset_m": 250.0,
+  "maximum_time_s": 3.0,
+  "candidate_strengths": [
+    0.2,
+    0.35,
+    0.5
+  ],
+  "control_maximum_relative_change": 0.02,
+  "spectral_ratio_band_hz": [
+    18,
+    55
+  ],
+  "event_search_s": [
+    0.65,
+    3.6
+  ],
+  "event_separation_s": 0.35,
+  "q_window_s": 0.192,
+  "q_minimum_r2": 0.7,
+  "q_negative_slope_fraction_minimum": 0.8,
+  "q_time_shift_relative_spread_maximum": 0.3,
+  "q_cross_shot_relative_mad_maximum": 0.35,
+  "no_physical_Q_claim": "Event matching, source/receiver effects and propagation paths remain unvalidated; apparent Q is diagnostic only.",
+  "promotion": "Do not replace production entry. Do not run field Q compensation unless event, spectral stability and propagation-calibration conditions pass."
+}

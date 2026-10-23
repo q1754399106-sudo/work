@@ -1,0 +1,328 @@
+{
+  "Model": "DevReverseWide",
+  "Suite": "LowerSNR",
+  "Scenario": "SmoothAVO",
+  "Seed": 420101,
+  "CalibrationSeed": 320101,
+  "Method": "NoiseUncertaintyOnly",
+  "FailureMessage": "",
+  "records": [
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 29,
+      "normal_residual": 6.4127520618144681E-9,
+      "data_residual": 40.874589830803544,
+      "pcg_relative_residual": 6.4127520618144681E-9,
+      "scale": 0.01,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 1670.7320938364285,
+      "negative_precision_quadratic": false
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 29,
+      "normal_residual": 9.7429207478051411E-9,
+      "data_residual": 45.098691292937708,
+      "pcg_relative_residual": 9.7429207478051411E-9,
+      "scale": 0.031622776601683791,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 2033.8919563356953,
+      "negative_precision_quadratic": false
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 33,
+      "normal_residual": 9.6036333085933512E-9,
+      "data_residual": 50.885769745819431,
+      "pcg_relative_residual": 9.6036333085933512E-9,
+      "scale": 0.1,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 2589.3615626245519,
+      "negative_precision_quadratic": false
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 38,
+      "normal_residual": 8.8939575441734909E-9,
+      "data_residual": 61.216900566839414,
+      "pcg_relative_residual": 8.8939575441734909E-9,
+      "scale": 0.31622776601683789,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 3747.508915010304,
+      "negative_precision_quadratic": false
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 43,
+      "normal_residual": 8.7074509319523025E-9,
+      "data_residual": 81.540213355161,
+      "pcg_relative_residual": 8.7074509319523025E-9,
+      "scale": 1,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 6648.8063940051761,
+      "negative_precision_quadratic": false
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 48,
+      "normal_residual": 9.1648982338557451E-9,
+      "data_residual": 117.3779724411384,
+      "pcg_relative_residual": 9.1648982338557451E-9,
+      "scale": 3.16227766016838,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 13777.588414392645,
+      "negative_precision_quadratic": false
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 53,
+      "normal_residual": 9.1199871577012153E-9,
+      "data_residual": 167.77040422129991,
+      "pcg_relative_residual": 9.1199871577012153E-9,
+      "scale": 10,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 28146.908532578367,
+      "negative_precision_quadratic": false
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "PCG_Woodbury",
+      "iterations": 5,
+      "normal_residual": 7.7419470729967655E-9,
+      "data_residual": 81.540201541959519,
+      "pcg_relative_residual": 7.7419470729967655E-9,
+      "scale": 1,
+      "preconditioner": "block",
+      "mahalanobis_quadratic": 6648.804467503378,
+      "negative_precision_quadratic": false
+    }
+  ],
+  "direct_record": {
+    "flag": 0,
+    "initial_flag": 0,
+    "solver": "PCG_Woodbury",
+    "iterations": 43,
+    "normal_residual": 8.7074509319523025E-9,
+    "data_residual": 81.540213355161,
+    "pcg_relative_residual": 8.7074509319523025E-9,
+    "scale": 1,
+    "preconditioner": "block",
+    "mahalanobis_quadratic": 6648.8063940051761,
+    "negative_precision_quadratic": false
+  },
+  "split_record": {
+    "flag": 0,
+    "initial_flag": 0,
+    "solver": "PCG_Woodbury",
+    "iterations": 5,
+    "normal_residual": 7.7419470729967655E-9,
+    "data_residual": 81.540201541959519,
+    "pcg_relative_residual": 7.7419470729967655E-9,
+    "scale": 1,
+    "preconditioner": "block",
+    "mahalanobis_quadratic": 6648.804467503378,
+    "negative_precision_quadratic": false
+  },
+  "scale": 1,
+  "scale_grid": [
+    0.01,
+    0.031622776601683791,
+    0.1,
+    0.31622776601683789,
+    1,
+    3.16227766016838,
+    10
+  ],
+  "residual_grid": [
+    40.874589830803544,
+    45.098691292937708,
+    50.885769745819431,
+    61.216900566839414,
+    81.540213355161,
+    117.3779724411384,
+    167.77040422129991
+  ],
+  "target": 81.308056181414145,
+  "endpoint": false,
+  "residual_mismatch": 0.0028552788573479315,
+  "diagnostics": {
+    "branch": "NoiseUncertaintyOnly",
+    "truth_used": false,
+    "fixed_pilot_and_covariance": true,
+    "full_gather_covariance": true,
+    "model_error_definition": "(Gdraw-Gref)*fixed_observed_pilot",
+    "mean_correction": "D-b",
+    "model_error_mean_norm": 0,
+    "model_error_ensemble_trace": 1.4206997545586269E-6,
+    "assembled_trace_Cn": 0.0018148189370105897,
+    "assembled_trace_Ce": 0,
+    "assembled_trace_Ceff": 0.0018148189370105897,
+    "covariance_low_rank_columns": 0,
+    "covariance_shrinkage": 0.1,
+    "scalar_budget_alpha": 1,
+    "noise_variance_reference": [
+      5.4845706639250726E-7,
+      6.2914074115201131E-7,
+      4.8045693306674815E-7,
+      2.9785804888429716E-7,
+      1.7830516805282239E-7,
+      7.7097566679092288E-8,
+      6.9906838089056157E-8,
+      4.4188089482012692E-8,
+      5.0618246242382438E-8,
+      4.2726516594924424E-8,
+      3.1939602702387797E-8
+    ],
+    "noise_variance_used": [
+      7.5442863495729645E-7,
+      7.7484472056368888E-7,
+      5.5770633149506658E-7,
+      3.770172887810327E-7,
+      1.8733086435210755E-7,
+      9.924035392912307E-8,
+      7.4052407133021178E-8,
+      4.9850923810420305E-8,
+      5.6333488037929079E-8,
+      5.0884829731236036E-8,
+      3.797560980573344E-8
+    ],
+    "noise_upper_variance": [
+      7.5442863495729645E-7,
+      7.7484472056368888E-7,
+      5.5770633149506658E-7,
+      3.770172887810327E-7,
+      1.8733086435210755E-7,
+      9.924035392912307E-8,
+      7.4052407133021178E-8,
+      4.9850923810420305E-8,
+      5.6333488037929079E-8,
+      5.0884829731236036E-8,
+      3.797560980573344E-8
+    ],
+    "noise_rho_used": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "noise_bootstrap_seed": 499213,
+    "noise_quantile": 0.8,
+    "noise_samples": 116,
+    "q_frequency_draws": [
+      [
+        78.347735995711872,
+        79.548314721217338
+      ],
+      [
+        79.411843124596572,
+        78.725890588620757
+      ],
+      [
+        79.918008037082828,
+        78.428374112572513
+      ],
+      [
+        80.516744132590532,
+        79.134446010018067
+      ],
+      [
+        80.434809840243418,
+        78.170227541830172
+      ],
+      [
+        79.325676636062184,
+        79.374362326325524
+      ],
+      [
+        79.350270125863062,
+        77.965740298507654
+      ],
+      [
+        79.326716146378459,
+        78.81592851218619
+      ]
+    ],
+    "q_bootstrap_seed": 490104,
+    "direct_numerical_covariance_jitter": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "split_numerical_covariance_jitter": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "split_floor_variance": [
+      5.4845706639250728E-13,
+      6.2914074115201129E-13,
+      4.8045693306674813E-13,
+      2.9785804888429717E-13,
+      1.7830516805282239E-13,
+      7.709756667909229E-14,
+      6.9906838089056152E-14,
+      4.4188089482012689E-14,
+      5.0618246242382432E-14,
+      4.2726516594924419E-14,
+      3.1939602702387793E-14
+    ],
+    "direct_target_squared": 6611,
+    "split_target_squared": 6610.9957264877257,
+    "ridge_lambda_reference_units": [
+      14482.961081147148,
+      18890.880047932806,
+      24736.914916615522,
+      26668.013092130292,
+      29773.923550758489,
+      30758.087548108528,
+      50755.1763078698,
+      35866.97707549145,
+      46848.199645370456,
+      37093.9013701245,
+      33164.2736776466
+    ],
+    "mu_reference_units": 307580.87548108527,
+    "split_forward": "M*Gref (exact full operator propagation)",
+    "direct_split_relative_difference": 2.4982950662554544E-7,
+    "bootstrap_is_confidence_interval": false,
+    "s_frequency_role": "frequency affects joint calibration only; G acts on bandlimited s"
+  }
+}

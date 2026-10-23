@@ -1,0 +1,66 @@
+{
+  "score_replay_max_absolute_difference": 4.440892098500626e-15,
+  "interpretation": "Signed gain=1 is correct coherent amplitude; 0 is missing coherent component; negative is reversed. Distortion is the orthogonal remainder. Post-hoc diagnostic, not a causal ablation.",
+  "summary": [
+    {
+      "Model": "Dev_ThinLowQ",
+      "Method": "FixedSplit",
+      "Cases": 4,
+      "MeanWeakError": 1.8159687605486299,
+      "MeanSignedGain": -0.5166666677379033,
+      "MeanLateralDistortion": 0.9987221506377567,
+      "PolarityMismatches": 28,
+      "Traces": 44
+    },
+    {
+      "Model": "Dev_ThinLowQ",
+      "Method": "DecoupledWeak",
+      "Cases": 4,
+      "MeanWeakError": 2.0066596920942783,
+      "MeanSignedGain": -0.504897080346538,
+      "MeanLateralDistortion": 1.3170241385127985,
+      "PolarityMismatches": 23,
+      "Traces": 44
+    },
+    {
+      "Model": "Dev_ThinPairWideContrast",
+      "Method": "FixedSplit",
+      "Cases": 4,
+      "MeanWeakError": 0.6037874143493144,
+      "MeanSignedGain": 0.525670764242907,
+      "MeanLateralDistortion": 0.3734165057426027,
+      "PolarityMismatches": 0,
+      "Traces": 44
+    },
+    {
+      "Model": "Dev_ThinPairWideContrast",
+      "Method": "DecoupledWeak",
+      "Cases": 4,
+      "MeanWeakError": 0.7233114246922226,
+      "MeanSignedGain": 0.485377986890902,
+      "MeanLateralDistortion": 0.4965896125179765,
+      "PolarityMismatches": 8,
+      "Traces": 44
+    },
+    {
+      "Model": "OriginalReference",
+      "Method": "FixedSplit",
+      "Cases": 4,
+      "MeanWeakError": 0.5837009625066365,
+      "MeanSignedGain": 0.5254842334705784,
+      "MeanLateralDistortion": 0.32339638321991754,
+      "PolarityMismatches": 2,
+      "Traces": 44
+    },
+    {
+      "Model": "OriginalReference",
+      "Method": "DecoupledWeak",
+      "Cases": 4,
+      "MeanWeakError": 0.5835956230867354,
+      "MeanSignedGain": 0.4906070479096638,
+      "MeanLateralDistortion": 0.2746846760857189,
+      "PolarityMismatches": 0,
+      "Traces": 44
+    }
+  ]
+}

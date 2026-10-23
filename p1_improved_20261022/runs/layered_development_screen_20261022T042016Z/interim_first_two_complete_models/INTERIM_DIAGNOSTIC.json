@@ -1,0 +1,57 @@
+{
+  "partial_only": true,
+  "not_candidate_selection": true,
+  "models": [
+    "Dev_DeepContrast",
+    "Dev_ModerateQ"
+  ],
+  "results": {
+    "CombinedJointCalibration": {
+      "status": "FAIL",
+      "main_gain_percent": 14.854962274676575,
+      "failed": [
+        {
+          "name": "Main/Dev_ModerateQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00196538838310368,
+            "candidate": 0.00308301964496815,
+            "allowance": 0.001,
+            "n": 1
+          }
+        }
+      ]
+    },
+    "ConfidenceOnly": {
+      "status": "FAIL",
+      "main_gain_percent": 13.999532733395581,
+      "failed": [
+        {
+          "name": "Main/Dev_ModerateQ/PinchoutTailError",
+          "pass_": false,
+          "detail": {
+            "baseline": 0.00196538838310368,
+            "candidate": 0.00299182676044623,
+            "allowance": 0.001,
+            "n": 1
+          }
+        }
+      ]
+    },
+    "ConfidenceBalanced": {
+      "status": "PROVISIONAL_PASS",
+      "main_gain_percent": 12.227342864717738,
+      "failed": []
+    },
+    "ConfidenceLight": {
+      "status": "PROVISIONAL_PASS",
+      "main_gain_percent": 12.752813865406075,
+      "failed": []
+    },
+    "ConfidenceIdentityPenalty": {
+      "status": "PROVISIONAL_PASS",
+      "main_gain_percent": 12.934039401237285,
+      "failed": []
+    }
+  }
+}

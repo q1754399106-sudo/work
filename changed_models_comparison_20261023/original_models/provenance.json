@@ -1,0 +1,146 @@
+{
+  "source_field": "truth",
+  "processing": "None; exact source arrays exported. Colors/gain described in figures.",
+  "sources": [
+    {
+      "model": "Changed_DeepLowQ",
+      "scene": "SmoothAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_SmoothAVO_normal_18dB_20262411.json",
+      "source_sha256": "94ac855fef7e930c323e6d54ee66a6e89fdcfd526b623e9848ef474690506df5",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_DeepLowQ",
+      "scene": "CoherentNoiseAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_CoherentNoiseAVO_normal_18dB_20262411.json",
+      "source_sha256": "616e190ec36f531b63d02223bfdb290dd0d75af01c7b59deabd0b4995171d79e",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_DeepLowQ",
+      "scene": "FaultSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_FaultSection_normal_18dB_20262411.json",
+      "source_sha256": "7709cd42c15131a6a815439879d45f4ee6da49e71dbd3fef42f078d9a8957067",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_DeepLowQ",
+      "scene": "WeakSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_WeakSection_normal_18dB_20262411.json",
+      "source_sha256": "c1beb0d30cc99ab4f516768a519127cf85359452669cda5f9477b74fc07ad4d1",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_DeepLowQ",
+      "scene": "PinchoutSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_DeepLowQ_PinchoutSection_normal_18dB_20262411.json",
+      "source_sha256": "c103cc8c7c77616267a65af33bea97dfdbed7a76058aa5267bdd4666aac1be69",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_ThinPolarity",
+      "scene": "SmoothAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_SmoothAVO_normal_18dB_20262411.json",
+      "source_sha256": "f8407e82f89ae6ac3951e5122f94167ac3a2d42eb115961fe0f6e0ef4a8b9df0",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_ThinPolarity",
+      "scene": "CoherentNoiseAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_CoherentNoiseAVO_normal_18dB_20262411.json",
+      "source_sha256": "5fb737183272740f413e521c5faf22502e94e3bae419e05bbb8ecae208146294",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_ThinPolarity",
+      "scene": "FaultSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_FaultSection_normal_18dB_20262411.json",
+      "source_sha256": "ca8940ea36f4c7bebda98e97415be8caf185956df70c6de9a2966fd446a835ca",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_ThinPolarity",
+      "scene": "WeakSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_WeakSection_normal_18dB_20262411.json",
+      "source_sha256": "d6ef79e8fadf86bd876da1c4c287c372c98c3af8bf9229ba4f9317dffc1bab3a",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_ThinPolarity",
+      "scene": "PinchoutSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_ThinPolarity_PinchoutSection_normal_18dB_20262411.json",
+      "source_sha256": "6aa36a0409100ee0e55c2c1b05a0426c03b3535eea130ed1aff17c2a0aeaf605",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_LowContrast",
+      "scene": "SmoothAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_SmoothAVO_normal_18dB_20262411.json",
+      "source_sha256": "b17ecc5bd41738bb03f4931a8d3c1fa91e3c39af951d0b1815b42a06021ba0da",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_LowContrast",
+      "scene": "CoherentNoiseAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_CoherentNoiseAVO_normal_18dB_20262411.json",
+      "source_sha256": "6ea04d4718ffa891a2174d93d73b9ba03a86b386fecc15d2ccd57da84b548a5d",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_LowContrast",
+      "scene": "FaultSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_FaultSection_normal_18dB_20262411.json",
+      "source_sha256": "699701328851319d7cf5b232d4c28dcd8445ae1704aa23f564ad75606606875a",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_LowContrast",
+      "scene": "WeakSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_WeakSection_normal_18dB_20262411.json",
+      "source_sha256": "bbc6c1f450a3a2048e0922d4045e2ce2f4eda025191f1a72ee1f9e470df1921f",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_LowContrast",
+      "scene": "PinchoutSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_LowContrast_PinchoutSection_normal_18dB_20262411.json",
+      "source_sha256": "c5283234f6a3452c2ffdce4530efbd67735965424916b0e29602022632a6733f",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_HighFreqQReverse",
+      "scene": "SmoothAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_SmoothAVO_normal_18dB_20262411.json",
+      "source_sha256": "ee682843d03bfbfc5c969f4263b6e0af3b9945e51a43f0530a2da1b8184f8539",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_HighFreqQReverse",
+      "scene": "CoherentNoiseAVO",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_CoherentNoiseAVO_normal_18dB_20262411.json",
+      "source_sha256": "2e33e31ccd1b7d09bd1b162dcb323e7758dfd4c03612eb8d2a741cc83913f960",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_HighFreqQReverse",
+      "scene": "FaultSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_FaultSection_normal_18dB_20262411.json",
+      "source_sha256": "0e713dad3ca398319f72fa93c27cb02813377d140ff0f349f766242d8c64c4c9",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_HighFreqQReverse",
+      "scene": "WeakSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_WeakSection_normal_18dB_20262411.json",
+      "source_sha256": "bd8bd10ed71ff40c2f1164888cdfed3b2f1620bae985b4e48cbc937a55b3b73e",
+      "field": "truth"
+    },
+    {
+      "model": "Changed_HighFreqQReverse",
+      "scene": "PinchoutSection",
+      "source": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\changed_models_comparison_20261023\\runs\\changed_geology_frozen_20261023T010236Z\\matlab\\cases\\Changed_HighFreqQReverse_PinchoutSection_normal_18dB_20262411.json",
+      "source_sha256": "eae966f36f6243e0f0384ff16d3ccf482d043158e919c97ad0bd4465189df545",
+      "field": "truth"
+    }
+  ]
+}

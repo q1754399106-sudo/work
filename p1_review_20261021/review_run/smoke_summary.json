@@ -1,0 +1,90 @@
+{
+  "execution": {
+    "status": "COMPLETED",
+    "version": "24.2.0.2923080 (R2024b) Update 6",
+    "rows": 70,
+    "elapsed_seconds": 178.0934404,
+    "scope": "One historical model, one calibration, one observation seed, five scenarios, seven methods, two routes; smoke only."
+  },
+  "scene_stats": [
+    {
+      "scenario": "CoherentNoiseAVO",
+      "frozen": 1.13211283214431,
+      "combined": 0.779818545424152,
+      "improvement_percent": 31.118301702568385
+    },
+    {
+      "scenario": "FaultSection",
+      "frozen": 0.66656886039347,
+      "combined": 0.669550192077063,
+      "improvement_percent": -0.4472653705774876
+    },
+    {
+      "scenario": "PinchoutSection",
+      "frozen": 0.625761323494933,
+      "combined": 0.611700685068731,
+      "improvement_percent": 2.246965080499397
+    },
+    {
+      "scenario": "SmoothAVO",
+      "frozen": 0.667975505947049,
+      "combined": 0.644100332034692,
+      "improvement_percent": 3.5742588912009654
+    },
+    {
+      "scenario": "WeakSection",
+      "frozen": 0.660892348093648,
+      "combined": 0.66612926107957,
+      "improvement_percent": -0.7924003055910678
+    }
+  ],
+  "frozen_mean": 0.7506621740146819,
+  "combined_mean": 0.6742598031368416,
+  "improvement_percent": 10.17799664384661,
+  "solver_violations": [
+    {
+      "Scenario": "FaultSection",
+      "Method": "CombinedUncertainty_NoStructure",
+      "Route": "Direct",
+      "NormalResidual": "0.000199024057261374",
+      "FinalFlag": "0"
+    },
+    {
+      "Scenario": "FaultSection",
+      "Method": "CombinedUncertainty_NoStructure",
+      "Route": "Split",
+      "NormalResidual": "0.000196954230885493",
+      "FinalFlag": "0"
+    },
+    {
+      "Scenario": "PinchoutSection",
+      "Method": "CombinedUncertainty_NoStructure",
+      "Route": "Direct",
+      "NormalResidual": "0.000225913744181763",
+      "FinalFlag": "0"
+    },
+    {
+      "Scenario": "PinchoutSection",
+      "Method": "CombinedUncertainty_NoStructure",
+      "Route": "Split",
+      "NormalResidual": "0.000224387365226831",
+      "FinalFlag": "0"
+    },
+    {
+      "Scenario": "WeakSection",
+      "Method": "CombinedUncertainty_NoStructure",
+      "Route": "Direct",
+      "NormalResidual": "7.09947161457572e-05",
+      "FinalFlag": "0"
+    },
+    {
+      "Scenario": "WeakSection",
+      "Method": "CombinedUncertainty_NoStructure",
+      "Route": "Split",
+      "NormalResidual": "6.94952735472583e-05",
+      "FinalFlag": "0"
+    }
+  ],
+  "combined_max_normal_residual": 9.56414429201186e-08,
+  "notes": "One model, one seed: descriptive smoke test only, not statistical evidence of generalization."
+}

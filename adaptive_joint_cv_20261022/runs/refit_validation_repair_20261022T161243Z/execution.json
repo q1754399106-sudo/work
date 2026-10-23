@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/refit_validation_repair_20261022T161243Z/source/core_p1');run_refit_validation('C:/Users/qq175/Documents/ChatGPT/研究/adaptive_joint_cv_20261022/runs/refit_validation_repair_20261022T161243Z/matlab');"
+  ],
+  "started_utc": "2026-10-22T16:12:45.184816+00:00",
+  "timeout_seconds": 1800.0,
+  "pid": 15588,
+  "exit_code": 0,
+  "elapsed_seconds": 620.0620000000001
+}

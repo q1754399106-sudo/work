@@ -1,0 +1,7 @@
+complex scenario 1/7 calibration_bias_-50 cases=2 flags=0 elapsed=49.3s
+complex scenario 2/7 calibration_bias_-30 cases=4 flags=0 elapsed=113.0s
+complex scenario 3/7 calibration_bias_-10 cases=6 flags=0 elapsed=185.0s
+complex scenario 4/7 calibration_bias_+0 cases=8 flags=0 elapsed=261.2s
+complex scenario 5/7 calibration_bias_+10 cases=10 flags=0 elapsed=337.5s
+complex scenario 6/7 calibration_bias_+30 cases=12 flags=0 elapsed=425.7s
+complex scenario 7/7 calibration_bias_+50 cases=14 flags=0 elapsed=522.4s

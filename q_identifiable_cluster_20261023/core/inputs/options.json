@@ -1,0 +1,20 @@
+{
+  "gammas": [0, 1, 10, 100],
+  "nominal_gamma": 10,
+  "prediction_window_samples": 101,
+  "prediction_step_samples": 50,
+  "prediction_lags": [-1, 0, 1],
+  "prediction_ridge": 0.1,
+  "prediction_coefficient_norm_cap": 2,
+  "prediction_r2_gate": 0.3,
+  "pilot_pass_hz": [10, 80],
+  "pilot_stop_hz": [5, 100],
+  "noise_window_s": [0.02, 0.25],
+  "pcg_tolerance": 1e-7,
+  "pcg_max_iterations": 300,
+  "q_scales": [0.8, 1, 1.2],
+  "snr_db": 18,
+  "seeds": [20261018, 20261019, 20261020, 20261021, 20261022, 20261023],
+  "scenarios": ["SmoothAVO", "FaultSection", "PinchoutSection", "WeakSection", "CoherentNoiseAVO"],
+  "noise_modes": ["Estimated", "KnownNoise"]
+}

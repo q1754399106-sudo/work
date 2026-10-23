@@ -1,0 +1,16 @@
+Main Shrink0.00_OriginalPrior rows=2 elapsed=10.8s normal=9.975e-08 flags=0
+Main Shrink0.00_LightPrior rows=4 elapsed=16.3s normal=9.975e-08 flags=0
+LowerSNR Shrink0.00_OriginalPrior rows=6 elapsed=22.0s normal=9.975e-08 flags=0
+LowerSNR Shrink0.00_LightPrior rows=8 elapsed=27.8s normal=9.975e-08 flags=0
+Main Shrink0.25_OriginalPrior rows=10 elapsed=34.3s normal=9.975e-08 flags=0
+Main Shrink0.25_LightPrior rows=12 elapsed=39.9s normal=9.975e-08 flags=0
+LowerSNR Shrink0.25_OriginalPrior rows=14 elapsed=46.0s normal=9.975e-08 flags=0
+LowerSNR Shrink0.25_LightPrior rows=16 elapsed=50.6s normal=9.975e-08 flags=0
+Main Shrink0.50_OriginalPrior rows=18 elapsed=56.8s normal=9.975e-08 flags=0
+Main Shrink0.50_LightPrior rows=20 elapsed=61.2s normal=9.975e-08 flags=0
+LowerSNR Shrink0.50_OriginalPrior rows=22 elapsed=66.0s normal=9.975e-08 flags=0
+LowerSNR Shrink0.50_LightPrior rows=24 elapsed=70.1s normal=9.975e-08 flags=0
+Main Shrink1.00_OriginalPrior rows=26 elapsed=76.3s normal=9.975e-08 flags=0
+Main Shrink1.00_LightPrior rows=28 elapsed=80.3s normal=9.975e-08 flags=0
+LowerSNR Shrink1.00_OriginalPrior rows=30 elapsed=86.0s normal=9.975e-08 flags=0
+LowerSNR Shrink1.00_LightPrior rows=32 elapsed=91.6s normal=9.975e-08 flags=0

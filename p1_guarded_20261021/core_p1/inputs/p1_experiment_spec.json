@@ -1,0 +1,534 @@
+{
+  "version": "2026-10-21-guard-trial-v1",
+  "priority": "P1 model-error-aware regularization",
+  "frozen_before_test": false,
+  "calibration_seeds": [
+    20261030,
+    20261035,
+    20261040
+  ],
+  "tuning_seeds": [
+    20261031,
+    20261032
+  ],
+  "test_seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105,
+    20261106
+  ],
+  "scenarios": [
+    "SmoothAVO",
+    "FaultSection",
+    "PinchoutSection",
+    "WeakSection",
+    "CoherentNoiseAVO"
+  ],
+  "stress_scenarios": [
+    "SmoothAVO",
+    "CoherentNoiseAVO"
+  ],
+  "snr_db": {
+    "Main": 18,
+    "LowerSNR": 12
+  },
+  "methods": [
+    {
+      "gamma": 0.0,
+      "name": "Baseline",
+      "pilot_multiplier": 4.0,
+      "role": "comparator",
+      "target_multiplier": 1.0,
+      "use_noise_unc": false,
+      "use_q_err": false,
+      "use_structure": false
+    },
+    {
+      "gamma": 10.0,
+      "name": "Frozen",
+      "pilot_multiplier": 4.0,
+      "role": "baseline",
+      "target_multiplier": 1.0,
+      "use_noise_unc": false,
+      "use_q_err": false,
+      "use_structure": true
+    },
+    {
+      "gamma": 10.0,
+      "name": "StrongerDamping",
+      "pilot_multiplier": 4.0,
+      "role": "control_scalar_damping",
+      "target_multiplier": 1.15,
+      "use_noise_unc": false,
+      "use_q_err": false,
+      "use_structure": true
+    },
+    {
+      "gamma": 10.0,
+      "name": "NoiseUncertaintyOnly",
+      "pilot_multiplier": 4.0,
+      "role": "candidate_branch_1",
+      "target_multiplier": null,
+      "use_noise_unc": true,
+      "use_q_err": false,
+      "use_structure": true
+    },
+    {
+      "gamma": 10.0,
+      "name": "QModelErrorOnly",
+      "pilot_multiplier": 4.0,
+      "role": "candidate_branch_2",
+      "target_multiplier": null,
+      "use_noise_unc": false,
+      "use_q_err": true,
+      "use_structure": true
+    },
+    {
+      "gamma": 10.0,
+      "name": "CombinedUncertainty",
+      "pilot_multiplier": 4.0,
+      "role": "candidate_branch_3_primary",
+      "target_multiplier": null,
+      "use_noise_unc": true,
+      "use_q_err": true,
+      "use_structure": true
+    },
+    {
+      "gamma": 0.0,
+      "name": "CombinedUncertainty_NoStructure",
+      "pilot_multiplier": 4.0,
+      "role": "control_no_structure",
+      "target_multiplier": null,
+      "use_noise_unc": true,
+      "use_q_err": true,
+      "use_structure": false
+    },
+    {
+      "gamma": null,
+      "name": "TargetMatched",
+      "pilot_multiplier": null,
+      "role": "Frozen prior with candidate discrepancy target",
+      "target_multiplier": null,
+      "use_noise_unc": null,
+      "use_q_err": null,
+      "use_structure": null
+    },
+    {
+      "gamma": null,
+      "name": "CombinedFixedTarget",
+      "pilot_multiplier": null,
+      "role": "Candidate weights with Frozen discrepancy target",
+      "target_multiplier": null,
+      "use_noise_unc": null,
+      "use_q_err": null,
+      "use_structure": null
+    },
+    {
+      "gamma": null,
+      "name": "GuardedNoise",
+      "pilot_multiplier": null,
+      "role": "guard_policy_trial",
+      "target_multiplier": null,
+      "use_noise_unc": null,
+      "use_q_err": null,
+      "use_structure": null
+    },
+    {
+      "gamma": null,
+      "name": "NoCompensation",
+      "pilot_multiplier": null,
+      "role": "guard_policy_trial",
+      "target_multiplier": null,
+      "use_noise_unc": null,
+      "use_q_err": null,
+      "use_structure": null
+    }
+  ],
+  "routes": [
+    "Direct",
+    "Split"
+  ],
+  "p1_hyperparameters": {
+    "coherent_ortho_ratio_gate": 1.25,
+    "coherent_prediction_lags": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3
+    ],
+    "coherent_prediction_ridge": 0.05,
+    "coherent_r2_gate": 0.25,
+    "coherent_r2_span": 0.5,
+    "offset_avo_ortho_weight_noise": 0.75,
+    "section_tail_power_factor": 2.2,
+    "section_tail_lateral_ratio": 0.12,
+    "section_tail_h_scale": 0.25,
+    "section_tail_diag_lambda_mult": 2.5,
+    "low_q_reference": 25.0,
+    "low_q_decay_scale": 10.0,
+    "q_sensitivity_scale": 0.16,
+    "hf_cutoff_factor_q": 1.65,
+    "hf_cutoff_factor_noise": 1.75,
+    "passband_boost_base": 0.08,
+    "passband_boost_lowq": 0.24,
+    "eta_offset_base": 0.86,
+    "eta_offset_lowq_add": 0.08,
+    "eta_section_base": 0.945,
+    "eta_section_lowq_add": 0.015,
+    "eta_noise_only_offset": 0.965,
+    "eta_noise_only_section": 0.985
+  },
+  "models": {
+    "historical": [
+      {
+        "name": "SoftLowQ",
+        "vp": [
+          1850,
+          2050,
+          2300,
+          2550
+        ],
+        "vs": [
+          800,
+          980,
+          1200,
+          1400
+        ],
+        "rho": [
+          1.95,
+          2.08,
+          2.22,
+          2.35
+        ],
+        "Q": [
+          22,
+          30,
+          42,
+          60
+        ],
+        "event_t": [
+          0.34,
+          0.6,
+          0.94
+        ],
+        "fpeak": 45,
+        "nominal_frequency": 52
+      },
+      {
+        "name": "VelocityReversal",
+        "vp": [
+          2200,
+          2700,
+          2450,
+          3200
+        ],
+        "vs": [
+          1050,
+          1450,
+          1250,
+          1750
+        ],
+        "rho": [
+          2.05,
+          2.3,
+          2.2,
+          2.52
+        ],
+        "Q": [
+          90,
+          45,
+          110,
+          65
+        ],
+        "event_t": [
+          0.42,
+          0.73,
+          1.0
+        ],
+        "fpeak": 70,
+        "nominal_frequency": 60
+      },
+      {
+        "name": "ThinHighFrequency",
+        "vp": [
+          2000,
+          2400,
+          2550,
+          2900
+        ],
+        "vs": [
+          900,
+          1200,
+          1350,
+          1600
+        ],
+        "rho": [
+          2.0,
+          2.2,
+          2.28,
+          2.45
+        ],
+        "Q": [
+          35,
+          65,
+          40,
+          85
+        ],
+        "event_t": [
+          0.36,
+          0.7,
+          0.724
+        ],
+        "fpeak": 80,
+        "nominal_frequency": 92
+      }
+    ],
+    "development": [
+      {
+        "name": "Dev_ModerateQ",
+        "vp": [
+          1950,
+          2200,
+          2500,
+          2850
+        ],
+        "vs": [
+          880,
+          1080,
+          1280,
+          1520
+        ],
+        "rho": [
+          1.98,
+          2.12,
+          2.25,
+          2.4
+        ],
+        "Q": [
+          32,
+          48,
+          65,
+          80
+        ],
+        "event_t": [
+          0.36,
+          0.64,
+          0.92
+        ],
+        "fpeak": 55,
+        "nominal_frequency": 62
+      },
+      {
+        "name": "Dev_DeepContrast",
+        "vp": [
+          2100,
+          2350,
+          2900,
+          3300
+        ],
+        "vs": [
+          950,
+          1180,
+          1550,
+          1800
+        ],
+        "rho": [
+          2.02,
+          2.18,
+          2.38,
+          2.55
+        ],
+        "Q": [
+          55,
+          40,
+          75,
+          95
+        ],
+        "event_t": [
+          0.4,
+          0.68,
+          0.96
+        ],
+        "fpeak": 65,
+        "nominal_frequency": 58
+      }
+    ],
+    "heldout_new_geology": [
+      {
+        "name": "Holdout_StrongAtten",
+        "vp": [
+          1800,
+          2000,
+          2250,
+          2500
+        ],
+        "vs": [
+          780,
+          940,
+          1150,
+          1360
+        ],
+        "rho": [
+          1.92,
+          2.05,
+          2.19,
+          2.32
+        ],
+        "Q": [
+          24,
+          28,
+          38,
+          55
+        ],
+        "event_t": [
+          0.35,
+          0.62,
+          0.93
+        ],
+        "fpeak": 48,
+        "nominal_frequency": 55
+      },
+      {
+        "name": "Holdout_HighContrastReversal",
+        "vp": [
+          2250,
+          2800,
+          2400,
+          3250
+        ],
+        "vs": [
+          1080,
+          1500,
+          1220,
+          1780
+        ],
+        "rho": [
+          2.08,
+          2.34,
+          2.18,
+          2.54
+        ],
+        "Q": [
+          85,
+          42,
+          105,
+          60
+        ],
+        "event_t": [
+          0.4,
+          0.71,
+          0.98
+        ],
+        "fpeak": 72,
+        "nominal_frequency": 62
+      },
+      {
+        "name": "Holdout_ThinInterbed",
+        "vp": [
+          2050,
+          2420,
+          2600,
+          2950
+        ],
+        "vs": [
+          920,
+          1220,
+          1380,
+          1620
+        ],
+        "rho": [
+          2.02,
+          2.21,
+          2.3,
+          2.47
+        ],
+        "Q": [
+          38,
+          60,
+          44,
+          80
+        ],
+        "event_t": [
+          0.37,
+          0.68,
+          0.706
+        ],
+        "fpeak": 76,
+        "nominal_frequency": 88
+      },
+      {
+        "name": "Holdout_DeepLowQ",
+        "vp": [
+          2000,
+          2300,
+          2650,
+          3000
+        ],
+        "vs": [
+          900,
+          1120,
+          1360,
+          1600
+        ],
+        "rho": [
+          2.0,
+          2.16,
+          2.29,
+          2.44
+        ],
+        "Q": [
+          70,
+          50,
+          28,
+          45
+        ],
+        "event_t": [
+          0.38,
+          0.66,
+          0.95
+        ],
+        "fpeak": 58,
+        "nominal_frequency": 65
+      }
+    ]
+  },
+  "stress_suites": [
+    {
+      "ar1_rho": null,
+      "description": "30-degree phase-rotated non-Ricker source wavelet",
+      "max_nmo_shift_s": null,
+      "name": "StressNonRickerPhase",
+      "phase_deg": 30.0,
+      "vp_multiplier": null
+    },
+    {
+      "ar1_rho": null,
+      "description": "+3% kinematic velocity error in public inverse config",
+      "max_nmo_shift_s": null,
+      "name": "StressVelocityError",
+      "phase_deg": null,
+      "vp_multiplier": 1.03
+    },
+    {
+      "ar1_rho": null,
+      "description": "Residual NMO moveout curvature across offsets (up to 4ms at far offset)",
+      "max_nmo_shift_s": 0.004,
+      "name": "StressResidualNMO",
+      "phase_deg": null,
+      "vp_multiplier": null
+    },
+    {
+      "ar1_rho": 0.55,
+      "description": "AR(1) colored background noise with rho1=0.55 at 18dB",
+      "max_nmo_shift_s": null,
+      "name": "StressColoredNoise",
+      "phase_deg": null,
+      "vp_multiplier": null
+    }
+  ],
+  "revision_note": "Exploratory guarded routing based on previously observed failures; no claim of blind testing."
+}

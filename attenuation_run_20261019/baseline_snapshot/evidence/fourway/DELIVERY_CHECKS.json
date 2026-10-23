@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "snapshot_only_replay": true,
+  "identical_csv_files": [
+    "all_pairwise_deltas.csv",
+    "all_rows_worst_first.csv",
+    "four_methods_all_504_rows.csv",
+    "overall_summary.csv",
+    "pairwise_summary.csv",
+    "parameter_endpoints.csv",
+    "same_prior_route_control.csv",
+    "scene_summary.csv",
+    "seed_means.csv",
+    "six_routes_all_756_rows.csv",
+    "stored_waveform_metric_recheck.csv"
+  ],
+  "source_and_snapshot_hashes_unchanged": true,
+  "all_9_png_pdf_pairs": true,
+  "manual_contact_sheet_review": true,
+  "manual_overall_figure_review": true,
+  "new_matlab_runs": 0
+}

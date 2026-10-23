@@ -1,0 +1,11 @@
+THREAD BENCHMARK threads=8 time=7.199s relative waveform delta=(0.000e+00,0.000e+00) scale equal=1 PASS=1
+THREAD BENCHMARK threads=1 time=8.441s relative waveform delta=(4.794e-14,4.722e-14) scale equal=1 PASS=1
+THREAD BENCHMARK threads=2 time=7.928s relative waveform delta=(5.075e-14,5.273e-14) scale equal=1 PASS=1
+THREAD BENCHMARK threads=4 time=7.382s relative waveform delta=(4.341e-14,4.583e-14) scale equal=1 PASS=1
+NUMERICAL EQUIVALENCE NoiseUncertaintyOnly legacy 12.263s optimized 7.690s waveform=(4.130e-14,3.556e-14) PASS=1
+NUMERICAL EQUIVALENCE QModelErrorOnly legacy 13.568s optimized 7.748s waveform=(7.517e-14,6.261e-14) PASS=1
+NUMERICAL EQUIVALENCE CombinedUncertainty legacy 13.090s optimized 7.857s waveform=(5.582e-14,4.637e-14) PASS=1
+NUMERICAL EQUIVALENCE ScalarBudgetDamping legacy 9.546s optimized 5.256s waveform=(3.736e-14,3.478e-14) PASS=1
+NUMERICAL EQUIVALENCE NoiseCovarianceOnly legacy 9.540s optimized 5.355s waveform=(5.373e-14,4.710e-14) PASS=1
+NUMERICAL EQUIVALENCE NoStructureCombined legacy 2.157s optimized 1.707s waveform=(1.001e-13,1.120e-13) PASS=1
+NUMERICAL EQUIVALENCE PASS; best measured thread count 8; original 8 restored

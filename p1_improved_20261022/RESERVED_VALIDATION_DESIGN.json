@@ -1,0 +1,168 @@
+{
+  "status": "RESERVED_NOT_EXECUTED",
+  "created_utc": "2026-10-22T04:15:04.028007+00:00",
+  "models": [
+    {
+      "name": "V2Audit_LowQDeep",
+      "vp": [
+        1820,
+        2110,
+        2490,
+        3020
+      ],
+      "vs": [
+        780,
+        1020,
+        1300,
+        1670
+      ],
+      "rho": [
+        1.94,
+        2.09,
+        2.29,
+        2.49
+      ],
+      "Q": [
+        20,
+        33,
+        52,
+        70
+      ],
+      "event_t": [
+        0.32,
+        0.61,
+        0.97
+      ],
+      "fpeak": 53,
+      "nominal_frequency": 62
+    },
+    {
+      "name": "V2Audit_Reversal",
+      "vp": [
+        2130,
+        2820,
+        2410,
+        3310
+      ],
+      "vs": [
+        1010,
+        1480,
+        1210,
+        1830
+      ],
+      "rho": [
+        2.05,
+        2.31,
+        2.18,
+        2.55
+      ],
+      "Q": [
+        105,
+        38,
+        92,
+        62
+      ],
+      "event_t": [
+        0.39,
+        0.74,
+        1.03
+      ],
+      "fpeak": 66,
+      "nominal_frequency": 75
+    },
+    {
+      "name": "V2Audit_ThinPair",
+      "vp": [
+        2030,
+        2460,
+        2640,
+        3080
+      ],
+      "vs": [
+        920,
+        1240,
+        1420,
+        1700
+      ],
+      "rho": [
+        2.01,
+        2.19,
+        2.32,
+        2.48
+      ],
+      "Q": [
+        42,
+        72,
+        36,
+        94
+      ],
+      "event_t": [
+        0.35,
+        0.69,
+        0.712
+      ],
+      "fpeak": 78,
+      "nominal_frequency": 88
+    },
+    {
+      "name": "V2Audit_MixedDeep",
+      "vp": [
+        1970,
+        2340,
+        2790,
+        3390
+      ],
+      "vs": [
+        870,
+        1170,
+        1500,
+        1880
+      ],
+      "rho": [
+        1.99,
+        2.15,
+        2.36,
+        2.59
+      ],
+      "Q": [
+        85,
+        58,
+        23,
+        42
+      ],
+      "event_t": [
+        0.3,
+        0.58,
+        1.01
+      ],
+      "fpeak": 58,
+      "nominal_frequency": 66
+    }
+  ],
+  "calibration_seeds": [
+    72101,
+    72102,
+    72103
+  ],
+  "observation_seeds": [
+    73101,
+    73102,
+    73103,
+    73104,
+    73105,
+    73106
+  ],
+  "conditions": [
+    "Main: all 5 scenes at 18dB",
+    "LowerSNR: all 5 scenes at 12dB",
+    "30degree phase mismatch: two AVO scenes",
+    "global public velocity +3percent: two AVO scenes",
+    "global public velocity -3percent: two AVO scenes",
+    "residual NMO max4ms: two AVO scenes",
+    "AR1 colored noise rho0.55: two AVO scenes"
+  ],
+  "models_previously_scored": false,
+  "parameters_selected_on_these_models": false,
+  "claim_scope": "Prospectively held-out synthetic model configurations in the same four-layer simulator; not external field geology",
+  "require_candidate_policy_frozen_before_execution": true
+}

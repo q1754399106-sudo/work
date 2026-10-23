@@ -1,0 +1,13 @@
+{
+ "origin":"Second-round fresh models registered before pruning development scoring; previous holdout models are now development data",
+ "models":[
+  {"name":"Fresh_HighQShallow","vp":[2150,2420,2780,3220],"vs":[970,1250,1480,1790],"rho":[2.02,2.20,2.39,2.55],"Q":[95,120,80,150],"event_t":[0.34,0.55,0.93],"fpeak":48,"nominal_frequency":50},
+  {"name":"Fresh_LowQGradient","vp":[1780,2180,2570,3070],"vs":[760,1050,1340,1700],"rho":[1.91,2.11,2.30,2.51],"Q":[26,42,70,115],"event_t":[0.31,0.65,0.99],"fpeak":62,"nominal_frequency":65},
+  {"name":"Fresh_ThinQReversal","vp":[1980,2330,2740,3090],"vs":[880,1170,1450,1710],"rho":[1.99,2.18,2.37,2.53],"Q":[65,28,80,42],"event_t":[0.36,0.69,0.713],"fpeak":78,"nominal_frequency":80}
+ ],
+ "scenarios":["SmoothAVO","CoherentNoiseAVO","FaultSection","WeakSection","PinchoutSection"],
+ "snr_db":[18,12],"seeds":[20262311,20262312],"calibration_seed":20262301,"calibration_snr_db":18,
+ "expected_normal_cases":60,
+ "colored_stress":{"kind":"colored","snr_db":12,"ar1_rho":0.35,"seed":20262313,"expected_cases":15},
+ "gates":"Identical numerical gates to round 1, including pinchout tail <=1.05 baseline. Colored stress must not increase mean waveform/weak-event error or solver failures. No further retuning on this validation set."
+}

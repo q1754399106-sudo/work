@@ -1,0 +1,66 @@
+{
+  "status": "PLANNED_NOT_IMPLEMENTED",
+  "priority": "P1 model-error-aware regularization",
+  "development_models_min": 2,
+  "heldout_new_geological_models_min": 4,
+  "calibration_realizations_per_model_min": 3,
+  "observation_seeds_per_calibration_min": 6,
+  "scenario_names": [
+    "SmoothAVO",
+    "FaultSection",
+    "PinchoutSection",
+    "WeakSection",
+    "CoherentNoiseAVO"
+  ],
+  "snr_db": [
+    18,
+    12
+  ],
+  "stress": [
+    "Q error",
+    "non-Ricker wavelet/phase",
+    "velocity error",
+    "residual NMO",
+    "colored noise"
+  ],
+  "candidate_branches": [
+    "NoiseUncertaintyOnly",
+    "QModelErrorOnly",
+    "CombinedUncertainty"
+  ],
+  "routes": [
+    "Direct",
+    "Split"
+  ],
+  "priors_shared_between_routes": true,
+  "freeze_before_test": [
+    "model family split",
+    "seeds",
+    "hyperparameter budget",
+    "acceptance thresholds",
+    "noise/model-error estimator"
+  ],
+  "acceptance": {
+    "provisional_engineering_thresholds_not_significance_tests": true,
+    "main_equal_model_relative_error_improvement_min": 0.05,
+    "any_suite_model_mean_degradation_max": 0.02,
+    "event_and_weak_and_AVO_error_degradation_max": 0.05,
+    "local_near_zero_absolute_allowance": 0.001,
+    "pinchout_degradation_relative_max": 0.1,
+    "failure_fraction_error_gt_1_increase_max": 0,
+    "normal_residual_max": 2e-07,
+    "need_matched_prior_direct_control": true,
+    "claim_new_geology_requires_external_evidence": true
+  },
+  "required_deliverables": [
+    "RUN_METADATA.json",
+    "paired metrics.csv",
+    "calibration estimates",
+    "solver logs",
+    "bilingual figures with legends",
+    "effects.html",
+    "EFFECTS_ZH.md",
+    "acceptance.json",
+    "source/config hashes"
+  ]
+}

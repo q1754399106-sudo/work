@@ -1,0 +1,38 @@
+[
+  {
+    "ProcessId": 37800,
+    "ParentProcessId": 27616,
+    "Name": "python.exe",
+    "CommandLine": "C:\\Users\\qq175\\AppData\\Local\\Programs\\Python\\Python310\\python.exe C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\scripts\\run_confirmation_pipeline.py"
+  },
+  {
+    "ProcessId": 15232,
+    "ParentProcessId": 37800,
+    "Name": "python.exe",
+    "CommandLine": "C:\\Users\\qq175\\AppData\\Local\\Programs\\Python\\Python310\\python.exe C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\scripts\\run_validation.py --workers 2 --run-pointer C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\FULL_CONFIRMATION_RUN.json"
+  },
+  {
+    "ProcessId": 7112,
+    "ParentProcessId": 15232,
+    "Name": "matlab.exe",
+    "CommandLine": "\"D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe\" -wait -nojvm -singleCompThread -batch addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/source/core_p1');run_validation_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_ThinPair/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_ThinPair/matlab');"
+  },
+  {
+    "ProcessId": 36996,
+    "ParentProcessId": 7112,
+    "Name": "MATLAB.exe",
+    "CommandLine": "\"D:\\Program Files (x86)\\MATLAB2024B\\bin\\win64\\MATLAB.exe\" \"-nojvm\" \"-singleCompThread\" \"-batch\" \"addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/source/core_p1');run_validation_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_ThinPair/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_ThinPair/matlab');\" "
+  },
+  {
+    "ProcessId": 45572,
+    "ParentProcessId": 15232,
+    "Name": "matlab.exe",
+    "CommandLine": "\"D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe\" -wait -nojvm -singleCompThread -batch addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/source/core_p1');run_validation_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_MixedDeep/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_MixedDeep/matlab');"
+  },
+  {
+    "ProcessId": 34716,
+    "ParentProcessId": 45572,
+    "Name": "MATLAB.exe",
+    "CommandLine": "\"D:\\Program Files (x86)\\MATLAB2024B\\bin\\win64\\MATLAB.exe\" \"-nojvm\" \"-singleCompThread\" \"-batch\" \"addpath('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/source/core_p1');run_validation_job('C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_MixedDeep/job.json','C:/Users/qq175/Documents/ChatGPT/研究/p1_improved_20261022/runs/validation_20261022T054143Z/V2Audit_MixedDeep/matlab');\" "
+  }
+]

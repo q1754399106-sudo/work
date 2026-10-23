@@ -1,0 +1,14 @@
+{
+  "status": "DEVELOPMENT_FEASIBLE_REVIEW_API",
+  "run": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\shrinkage_development_screen_20261022T052011Z",
+  "selection": "C:\\Users\\qq175\\Documents\\ChatGPT\\研究\\p1_improved_20261022\\runs\\shrinkage_development_screen_20261022T052011Z\\analysis\\development_selection.json",
+  "selected_profile": {
+    "name": "CalShrink025Light",
+    "confidence_floor": 0.2,
+    "section_modal_blend": 0.25,
+    "section_target": 1,
+    "section_gamma": 3,
+    "section_calibration_weight": 0.25
+  },
+  "goal_complete": false
+}

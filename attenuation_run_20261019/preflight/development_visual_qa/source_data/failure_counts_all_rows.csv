@@ -1,0 +1,17 @@
+Route,Method,all_rows,numerical_or_invalid,valid_error_gt_1,valid_error_le_1,nonfinite_error
+Direct,Baseline,24,0,0,24,0
+Direct,Frozen,24,0,0,24,0
+Direct,NoiseUncertaintyOnly,24,0,0,24,0
+Direct,QModelErrorOnly,24,0,0,24,0
+Direct,CombinedUncertainty,24,0,0,24,0
+Direct,ScalarBudgetDamping,24,0,0,24,0
+Direct,NoiseCovarianceOnly,24,0,0,24,0
+Direct,NoStructureCombined,24,0,0,24,0
+Split,Baseline,24,0,0,24,0
+Split,Frozen,24,0,0,24,0
+Split,NoiseUncertaintyOnly,24,0,0,24,0
+Split,QModelErrorOnly,24,0,0,24,0
+Split,CombinedUncertainty,24,0,0,24,0
+Split,ScalarBudgetDamping,24,0,0,24,0
+Split,NoiseCovarianceOnly,24,0,0,24,0
+Split,NoStructureCombined,24,0,0,24,0

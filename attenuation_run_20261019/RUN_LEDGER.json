@@ -1,0 +1,57 @@
+{
+  "user_request": "解压附件并执行其要求；用户随后已共享 ResearchMATLAB",
+  "source_package": "C:/Users/qq175/Documents/ChatGPT/研究/attenuation_research_handoff_20261019",
+  "work_directory": "C:/Users/qq175/Documents/ChatGPT/研究/attenuation_run_20261019",
+  "current_phase": "Full frozen heldout test RUNNING; pipeline continues strict audit and 14 figures automatically",
+  "source_integrity": "156 package hashes PASS; 128 source copies/originals PASS",
+  "offline_validation": "24 stored waveform metrics PASS; artificial evaluator fixtures separate",
+  "matlab_session": "ResearchMATLAB, R2024b Update 6, existing shared session only",
+  "actual_completed": [
+    "engine_shared check",
+    "validate",
+    "regression",
+    "replay 126 observations / 504 rows",
+    "Python covariance math",
+    "candidate MATLAB selftest",
+    "development_v1 384 rows / zero solver failures",
+    "optimized MATLAB selftest",
+    "development_optimized_v2 384rows0fail885s",
+    "numerical_equivalence_v2 actualPASS",
+    "pretestsource/configfreeze_v2"
+  ],
+  "active_process": "finish_pipeline.py tag test_v2; unified exec session13779; child run_candidate.py test",
+  "next": [
+    "Monitor running test_v2 pipeline (singleexistingEngine only); frozen sources must NOT change",
+    "After pipeline completes run audit_solver_logs.py --run experiments/test_v2/matlab --output experiments/test_v2_numerical_audit",
+    "Inspect all14 final PNGs; central constrained-layout top margin fix already QA tested",
+    "Write VISUAL_QA.json into finalfiguresdir, do not mutate frozen rawmetrics/meta",
+    "Run build_delivery.py --test-run experiments/test_v2/matlab --evaluation experiments/test_v2_strict --figures experiments/test_v2_figures --output delivery_v2 (supports numericalauditintegration)",
+    "Verify original extracted package156hashes, delivery links and hashmanifest",
+    "Zip finaldelivery excluding dependencies/cache; finalChinese actualoutcome +report/zip links"
+  ],
+  "candidate": "Fixed-pilot full-gather low-rank Q error covariance and conservative noise-variance bootstrap; exact M*Gref Split",
+  "test_expected": "768 paired observations / 12288 rows; 4 synthetic parameter holdouts; Main/Lower four distinct white scenes, CoherentNoiseAVO only in separate stress",
+  "constraints": [
+    "Never start/stop MATLAB",
+    "Preserve original sources and evidence",
+    "No base workspace writes or MATLAB graphics",
+    "Truth restricted to synthesis and scoring",
+    "No post-test tuning",
+    "No automatic Frozen replacement"
+  ],
+  "research_claims": "No new method effectiveness claim before actual independent evaluation. Synthetic parameter holdout does not establish real-geology generalization.",
+  "freeze_receipt": "experiments/freeze_v2/FREEZE_RECEIPT.json",
+  "frozen_spec_sha256": "e29a757383e3bb8a2c2cf0bf7094aff633bf89cff8deef5deaec57e3b5f08092",
+  "pipeline_receipt": "experiments/test_v2_PIPELINE.json",
+  "test_output": "experiments/test_v2/matlab",
+  "evaluation_output": "experiments/test_v2_strict",
+  "figures_output": "experiments/test_v2_figures",
+  "thread_benchmark": "Original8 fastest; keep8. Allpaths/RNG/threadsrestored.",
+  "numerical_equivalence": "384matcheddevrows exactscales; metricdelta<=4.685e-12; independent sixbranch waveforms<=1.13e-13. preflight/numerical_equivalence_v2/matlab/numerical_equivalence.json",
+  "last_progress": "2026-10-19T13:41Z:70/768 observations,1120/12288rows,0numericfail",
+  "reporting_limits": [
+    "CandidateCn weighting/regularizer normalization differs from Frozenrawnorm; SplitalsoMG vs inheritedXA; cannotattributeFrozen difference solelytoQcovariance",
+    "NoiseCovarianceOnly isMAD+AR1,notstrictwhitepointcontrol",
+    "Posthoc solver audit must showSplit own targetmismatch fromlogs; CSV TargetMismatch isDirect forbothroutes"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "FreshThinLowFrequency",
+  "seed": 20262901,
+  "beds": 50,
+  "spacing": [
+    14,
+    29
+  ],
+  "qbase": 45,
+  "qgradient": 0.025,
+  "frequency": 30,
+  "phase": 35,
+  "offset": 300,
+  "calibration_seed": 20262902,
+  "observation_seeds": [
+    20262911,
+    20262912
+  ]
+}

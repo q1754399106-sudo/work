@@ -1,0 +1,14 @@
+{
+  "pid": 15144,
+  "command": [
+    "D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/core');addpath('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/core/matlab_src');c=qcluster_controls();uq_writejson('C:/Users/qq175/Documents/ChatGPT/\u7814\u7a76/q_identifiable_cluster_20261023/analysis/numerical_controls.json',c);"
+  ],
+  "started_utc": "2026-10-23T06:54:42.135680+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 12.672000000005937
+}

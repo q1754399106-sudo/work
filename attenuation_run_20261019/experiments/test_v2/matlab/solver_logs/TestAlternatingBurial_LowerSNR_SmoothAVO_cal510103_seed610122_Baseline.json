@@ -1,0 +1,163 @@
+{
+  "Model": "TestAlternatingBurial",
+  "Suite": "LowerSNR",
+  "Scenario": "SmoothAVO",
+  "Seed": 610122,
+  "CalibrationSeed": 510103,
+  "Method": "Baseline",
+  "FailureMessage": "",
+  "records": [
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 9.24534661535465E-15,
+      "data_residual": 0.009190353534722754
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 8.02773653287623E-15,
+      "data_residual": 0.0097016378405815531
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 7.0519223748747494E-15,
+      "data_residual": 0.010368704131812163
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 6.5836809640996616E-15,
+      "data_residual": 0.011533715896637832
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 5.9196973654320284E-15,
+      "data_residual": 0.014028088963162478
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 5.0187462088464578E-15,
+      "data_residual": 0.019215521375758274
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 4.1389670273079822E-15,
+      "data_residual": 0.028037807407953256
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 5.3097718398792033E-15,
+      "data_residual": 0.016195365890033231
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 5.6434771398591131E-15,
+      "data_residual": 0.015015065634337823
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 5.6703164762684253E-15,
+      "data_residual": 0.014498865056472424
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 5.6056219437644381E-15,
+      "data_residual": 0.014257987923351008
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 5.8498623867829356E-15,
+      "data_residual": 0.014141690086966851
+    },
+    {
+      "flag": 0,
+      "initial_flag": 0,
+      "solver": "SVD",
+      "iterations": 0,
+      "normal_residual": 6.0527471873836932E-15,
+      "data_residual": 0.014142504766307564
+    }
+  ],
+  "direct_record": {
+    "flag": 0,
+    "initial_flag": 0,
+    "solver": "SVD",
+    "iterations": 0,
+    "normal_residual": 5.8498623867829356E-15,
+    "data_residual": 0.014141690086966851
+  },
+  "split_record": {
+    "flag": 0,
+    "initial_flag": 0,
+    "solver": "SVD",
+    "iterations": 0,
+    "normal_residual": 6.0527471873836932E-15,
+    "data_residual": 0.014142504766307564
+  },
+  "scale": 1.0366329284376981,
+  "scale_grid": [
+    0.01,
+    0.031622776601683791,
+    0.1,
+    0.31622776601683794,
+    1,
+    3.1622776601683795,
+    10,
+    1.7782794100389228,
+    1.333521432163324,
+    1.1547819846894583,
+    1.0746078283213176,
+    1.0366329284376981
+  ],
+  "residual_grid": [
+    0.009190353534722754,
+    0.0097016378405815531,
+    0.010368704131812163,
+    0.011533715896637832,
+    0.014028088963162478,
+    0.019215521375758274,
+    0.028037807407953256,
+    0.016195365890033231,
+    0.015015065634337823,
+    0.014498865056472424,
+    0.014257987923351008,
+    0.014141690086966851
+  ],
+  "target": 0.014113553752011281,
+  "endpoint": false,
+  "residual_mismatch": 0.0019935684130272247
+}

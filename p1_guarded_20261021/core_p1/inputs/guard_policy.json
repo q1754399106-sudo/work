@@ -1,0 +1,8 @@
+{
+  "version": "2026-10-21-guard-exploratory-v1",
+  "fit_deviance_max": 3.0,
+  "reliable_offset_method": "NoiseUncertaintyOnly",
+  "reliable_section_method": "Frozen",
+  "rejected_method": "NoCompensation",
+  "interpretation": "Engineering rejection rule; selected after previous exploratory results, not a calibrated statistical test or blind evaluation"
+}

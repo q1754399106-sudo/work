@@ -1,0 +1,40 @@
+C 1 Dept. of the Interior                                                       
+C 2 U.S. Geological Survey                                                      
+C 3 Central Region Energy Resources Team                                        
+C 4                                                                             
+C 5 National Petroleum Reserve in Alaska                                        
+C 6 Demultiplexed Seismic Data                                                  
+C 7                                                                             
+C 8 Seismic Line 31-81                                                          
+C 9                                                                             
+C10 Bounding Coordinates                                                        
+C11 YEAR USGSLINEID       NLAT      WLON        SLAT      ELON                  
+C12 1981 31-81            70.134322 -151.374506 70.09742  -151.213349           
+C13                                                                             
+C14 Field Parameters                                                            
+C15 YEAR USGSLINEID      FIELDCREW  SPVPRANGE            LINEMILES              
+C16 1981 31-81           1186       100-155              4.58                   
+C17                                                                             
+C18 CHANNELS FOLD GROUPINTERVAL SPREAD          GEOPHONES                       
+C19 96       12   110           5225-55-SP      18                              
+C20                                                                             
+C21 SAMPLERATE RECORDLENGTH SPVPSPACING ENERGYSOURCE FILTER                     
+C22 2          6000         440         DYNAMITE     8-128                      
+C23                                                                             
+C24                                                                             
+C25 SEG-Y Files                                                                 
+C26 FILENAME        FIRSTSPT LASTSPT FIRSTFILE LASTFILE SIZE                    
+C27 L23535.SGY      100      119     111       130      37090800                
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               
+C                                                                               

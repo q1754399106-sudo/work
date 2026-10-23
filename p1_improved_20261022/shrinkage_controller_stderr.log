@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\qq175\Documents\ChatGPT\研究\p1_improved_20261022\scripts\run_cached_shrinkage.py", line 44, in <module>
+    try:code=main()
+  File "C:\Users\qq175\Documents\ChatGPT\研究\p1_improved_20261022\scripts\run_cached_shrinkage.py", line 21, in main
+    for name in names:shutil.copy2(source/'matlab'/f'calibration_{name}_Main_{plan["calibration_seeds"][0]}.json',inputs/f'calibration_{name}.json')
+TypeError: 'float' object is not subscriptable

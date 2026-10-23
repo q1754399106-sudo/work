@@ -1,0 +1,8 @@
+Main SourceBand005Gamma0 rows=2 elapsed=25.1s maxnormal=9.028e-15 flags=0
+Main SourceBand020Gamma0 rows=4 elapsed=30.9s maxnormal=9.028e-15 flags=0
+Main SourceBand005Gamma3 rows=6 elapsed=38.5s maxnormal=8.276e-08 flags=0
+Main SourceBand020Gamma3 rows=8 elapsed=44.6s maxnormal=8.844e-08 flags=0
+LowerSNR SourceBand005Gamma0 rows=10 elapsed=49.8s maxnormal=8.844e-08 flags=0
+LowerSNR SourceBand020Gamma0 rows=12 elapsed=56.1s maxnormal=8.844e-08 flags=0
+LowerSNR SourceBand005Gamma3 rows=14 elapsed=63.6s maxnormal=8.844e-08 flags=0
+LowerSNR SourceBand020Gamma3 rows=16 elapsed=70.7s maxnormal=9.339e-08 flags=0

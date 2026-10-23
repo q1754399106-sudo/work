@@ -1,0 +1,40 @@
+C:\Users\qq175\Documents\ChatGPT\�о�\q_supported_trial_20261023\cape_spectral_trial.py:21: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  stars=[float(np.trapz(1/(vg*q),grid)) for q in curves]
+C:\Users\qq175\Documents\ChatGPT\�о�\q_supported_trial_20261023\cape_spectral_trial.py:21: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  stars=[float(np.trapz(1/(vg*q),grid)) for q in curves]
+[
+  {
+    "event": "spec_D-1OB_P_arr_20240218145151_891022",
+    "shallow_depth_m": 1258.4614340170806,
+    "deep_depth_m": 2021.2111283147276,
+    "shallow_channels": 39,
+    "deep_channels": 39,
+    "vertical_interval_tstar_s": 0.003359003115440007,
+    "tstar_Q_plus_MAD": 0.0023667467166751774,
+    "tstar_Q_minus_MAD": 0.005799112760139687,
+    "usable_bins": 73,
+    "raw_ratio_slope_per_hz": -0.0008952155916153184,
+    "corrected_ratio_slope_per_hz": 0.009657403919236241,
+    "median_nominal_gain_in_band": 3.230100589415335,
+    "max_gain_in_band": 8.252563688296393,
+    "fraction_gain_capped_in_band": 0.0,
+    "interpretation": "Conditional vertical upgoing path reweighting only. DAS directional/gauge response not independently corrected. No phase/waveform reconstruction."
+  },
+  {
+    "event": "spec_D-1OB_P_arr_20240228125612_509795",
+    "shallow_depth_m": 1882.5198637522603,
+    "deep_depth_m": 2245.5596886781577,
+    "shallow_channels": 39,
+    "deep_channels": 37,
+    "vertical_interval_tstar_s": 0.0011927993342227216,
+    "tstar_Q_plus_MAD": 0.00085078473512737,
+    "tstar_Q_minus_MAD": 0.001996225491906598,
+    "usable_bins": 0,
+    "raw_ratio_slope_per_hz": null,
+    "corrected_ratio_slope_per_hz": null,
+    "median_nominal_gain_in_band": 1.5164400475846789,
+    "max_gain_in_band": 2.1158527550620168,
+    "fraction_gain_capped_in_band": 0.0,
+    "interpretation": "Conditional vertical upgoing path reweighting only. DAS directional/gauge response not independently corrected. No phase/waveform reconstruction."
+  }
+]

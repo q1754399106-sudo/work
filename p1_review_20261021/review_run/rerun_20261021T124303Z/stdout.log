@@ -1,0 +1,38 @@
+START independent MATLAB smoke 24.2.0.2923080 (R2024b) Update 6
+PASS: P1 public-input poison invariance and solver residual checks
+SmoothAVO Baseline err=0.671413412 normal=9.201e-15/8.884e-15 elapsed=33.6s
+SmoothAVO Frozen err=0.667975506 normal=9.446e-08/9.209e-08 elapsed=37.6s
+SmoothAVO StrongerDamping err=0.707440309 normal=9.058e-08/8.951e-08 elapsed=43.1s
+SmoothAVO NoiseUncertaintyOnly err=0.654788705 normal=8.033e-08/8.017e-08 elapsed=48.3s
+SmoothAVO QModelErrorOnly err=0.643395047 normal=8.256e-08/8.297e-08 elapsed=53.7s
+SmoothAVO CombinedUncertainty err=0.644100332 normal=9.564e-08/9.551e-08 elapsed=59.1s
+SmoothAVO CombinedUncertainty_NoStructure err=0.650051691 normal=1.113e-14/1.087e-14 elapsed=62.1s
+FaultSection Baseline err=0.674534931 normal=1.500e-14/1.665e-14 elapsed=62.3s
+FaultSection Frozen err=0.666568860 normal=9.848e-08/9.803e-08 elapsed=66.2s
+FaultSection StrongerDamping err=0.711978654 normal=7.045e-08/6.992e-08 elapsed=68.8s
+FaultSection NoiseUncertaintyOnly err=0.667499216 normal=7.180e-08/6.750e-08 elapsed=73.4s
+FaultSection QModelErrorOnly err=0.669550192 normal=6.948e-08/6.736e-08 elapsed=78.7s
+FaultSection CombinedUncertainty err=0.669550192 normal=6.948e-08/6.736e-08 elapsed=83.7s
+FaultSection CombinedUncertainty_NoStructure err=0.678133823 normal=1.990e-04/1.970e-04 elapsed=85.9s
+PinchoutSection Baseline err=0.625989185 normal=1.162e-14/9.668e-15 elapsed=86.0s
+PinchoutSection Frozen err=0.625761323 normal=7.307e-08/7.260e-08 elapsed=89.8s
+PinchoutSection StrongerDamping err=0.678574345 normal=9.875e-08/9.785e-08 elapsed=93.9s
+PinchoutSection NoiseUncertaintyOnly err=0.620564258 normal=9.862e-08/9.834e-08 elapsed=100.3s
+PinchoutSection QModelErrorOnly err=0.611700685 normal=7.553e-08/7.598e-08 elapsed=106.4s
+PinchoutSection CombinedUncertainty err=0.611700685 normal=7.553e-08/7.598e-08 elapsed=112.4s
+PinchoutSection CombinedUncertainty_NoStructure err=0.614793323 normal=2.259e-04/2.244e-04 elapsed=115.2s
+WeakSection Baseline err=0.667316431 normal=2.321e-14/1.485e-14 elapsed=115.3s
+WeakSection Frozen err=0.660892348 normal=9.546e-08/9.549e-08 elapsed=119.4s
+WeakSection StrongerDamping err=0.707580410 normal=7.652e-08/7.600e-08 elapsed=123.6s
+WeakSection NoiseUncertaintyOnly err=0.659607109 normal=7.335e-08/7.483e-08 elapsed=128.1s
+WeakSection QModelErrorOnly err=0.666129261 normal=6.545e-08/6.231e-08 elapsed=131.9s
+WeakSection CombinedUncertainty err=0.666129261 normal=6.545e-08/6.231e-08 elapsed=135.9s
+WeakSection CombinedUncertainty_NoStructure err=0.671948584 normal=7.099e-05/6.950e-05 elapsed=137.6s
+CoherentNoiseAVO Baseline err=1.742847178 normal=1.412e-14/1.287e-14 elapsed=137.7s
+CoherentNoiseAVO Frozen err=1.132112832 normal=9.722e-08/9.758e-08 elapsed=145.4s
+CoherentNoiseAVO StrongerDamping err=1.035481325 normal=9.091e-08/9.091e-08 elapsed=150.9s
+CoherentNoiseAVO NoiseUncertaintyOnly err=0.767338575 normal=8.866e-08/9.779e-08 elapsed=157.3s
+CoherentNoiseAVO QModelErrorOnly err=1.142522736 normal=9.338e-08/9.235e-08 elapsed=163.9s
+CoherentNoiseAVO CombinedUncertainty err=0.779818545 normal=8.682e-08/8.519e-08 elapsed=168.5s
+CoherentNoiseAVO CombinedUncertainty_NoStructure err=1.349592609 normal=1.386e-14/1.248e-14 elapsed=170.4s
+COMPLETED 70 rows 170.4s

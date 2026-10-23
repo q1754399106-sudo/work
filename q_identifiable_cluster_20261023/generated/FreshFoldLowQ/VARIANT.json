@@ -1,0 +1,19 @@
+{
+  "name": "FreshFoldLowQ",
+  "seed": 20262701,
+  "beds": 42,
+  "spacing": [
+    18,
+    33
+  ],
+  "qbase": 28,
+  "qgradient": 0.025,
+  "frequency": 42,
+  "phase": 12,
+  "offset": 600,
+  "calibration_seed": 20262702,
+  "observation_seeds": [
+    20262711,
+    20262712
+  ]
+}

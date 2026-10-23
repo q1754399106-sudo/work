@@ -1,0 +1,10 @@
+SoftLowQ Main SmoothAVO cal=20261030 seed=20261101 observations=1 rows=14 elapsed=51.4s
+SoftLowQ Main FaultSection cal=20261030 seed=20261101 observations=2 rows=28 elapsed=67.5s
+SoftLowQ Main PinchoutSection cal=20261030 seed=20261101 observations=3 rows=42 elapsed=85.7s
+SoftLowQ Main WeakSection cal=20261030 seed=20261101 observations=4 rows=56 elapsed=101.7s
+SoftLowQ Main CoherentNoiseAVO cal=20261030 seed=20261101 observations=5 rows=70 elapsed=131.4s
+SoftLowQ StressVelocityError SmoothAVO cal=20261030 seed=20261101 observations=6 rows=84 elapsed=149.2s
+SoftLowQ StressVelocityError CoherentNoiseAVO cal=20261030 seed=20261101 observations=7 rows=98 elapsed=160.4s
+SoftLowQ StressResidualNMO SmoothAVO cal=20261030 seed=20261101 observations=8 rows=112 elapsed=178.1s
+SoftLowQ StressResidualNMO CoherentNoiseAVO cal=20261030 seed=20261101 observations=9 rows=126 elapsed=208.0s
+COMPLETED rows=126 observations=9 elapsed=208.0s

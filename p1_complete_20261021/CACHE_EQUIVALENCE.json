@@ -1,0 +1,19 @@
+{
+  "original_rows": 126,
+  "cached_rows": 126,
+  "max_abs_differences": {
+    "RelativeError": 1.3573958099755146e-05,
+    "SignalWindowError": 2.18137499885529e-06,
+    "EventAmplitudeError": 2.0985030957376694e-07,
+    "WeakEventError": 4.043704260325853e-11,
+    "AVOInterceptError": 1.3409472998660021e-07,
+    "AVOGradientError": 8.699317697313802e-07,
+    "FaultNeighborhoodError": 2.141398169897002e-11,
+    "PinchoutTailError": 3.923998712768162e-15,
+    "Scale": 0.0,
+    "EffectiveQ": 0.0,
+    "EstimatedFrequency": 0.0
+  },
+  "all_final_solver_flags_zero": true,
+  "pass_numerical_tolerance": false
+}

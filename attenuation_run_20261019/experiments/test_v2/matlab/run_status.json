@@ -1,0 +1,8 @@
+{
+  "status": "RUNNING",
+  "stage": "test",
+  "observations": 318,
+  "rows": 5088,
+  "failed_rows": 0,
+  "elapsed_seconds": 10242.8167422
+}

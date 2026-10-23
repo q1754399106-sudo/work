@@ -1,0 +1,42 @@
+{
+  "method": "FullCalRefit",
+  "ready_for_research_use": false,
+  "research_only": true,
+  "development_cases": 60,
+  "new_geology_cases": 40,
+  "colored_stress_cases": 10,
+  "gates": {
+    "development": {
+      "overall": true,
+      "each_model": true,
+      "weak": true,
+      "weak_vs_original": true,
+      "avo": true,
+      "noise": true,
+      "fault": true,
+      "pinchout": true,
+      "solver": true,
+      "all_pass": true
+    },
+    "validation": {
+      "overall": true,
+      "each_model": true,
+      "weak": true,
+      "weak_vs_original": true,
+      "avo": true,
+      "noise": true,
+      "fault": true,
+      "pinchout": false,
+      "solver": true,
+      "all_pass": false
+    },
+    "colored_stress": {
+      "overall": true,
+      "weak": true,
+      "solver": true,
+      "all_pass": true
+    }
+  },
+  "api_replay_relative_error": 0,
+  "scope": "Five synthetic geological models in the same forward simulator; zero-phase Ricker wavelet, independent known-geometry calibration, 11 traces. No field-data generalization claim."
+}

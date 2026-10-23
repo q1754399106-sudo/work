@@ -1,0 +1,54 @@
+{
+  "title": "Waveforms and results of seismic attenuation in Sumatra subduction zone, Indonesia",
+  "description": "<p>Datasets for the manuscript:</p>\n\n<p>Styawan, Y., Kuo, C.-H., Huang, B.-S., Wen, K.-L., Haridhi, H. A., Sianipar, D., Characteristics of seismic attenuation in Sumatra subduction zone, Indonesia (submitted)</p>\n\n<p>The attached files include:</p>\n\n<p>1) 0.2 Hz Highpass filtered waveforms for Z and T components.</p>\n\n<p>2) Results (&alpha;, event, station, t*, Q, corner frequency, &Omega;0, SNR, component (Z or T), category (forearc, mountain, or backarc), and Qp/Qs).</p>\n\n<p>3) Additional data (information on events and stations).</p>\n\n<p>4) site amplification factors (P and S of all stations in different &alpha;).</p>",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "files": [
+    {
+      "id": "332feda5-fc30-4b20-8ceb-543739424d47",
+      "key": "site amplification factors (f - log R - std log R).zip",
+      "size": 2549540,
+      "checksum": "md5:deb130a1fbc32debcbc44851396c5fd3",
+      "links": {
+        "self": "https://zenodo.org/api/records/6932666/files/site%20amplification%20factors%20(f%20-%20log%20R%20-%20std%20log%20R).zip/content"
+      }
+    },
+    {
+      "id": "45c83822-6ada-49ae-b48f-17496d9407ff",
+      "key": "waveforms (0.2 Hz highpass displacement data - Z and T components).zip",
+      "size": 601253620,
+      "checksum": "md5:5b76dc0be956bf301b90c2f8000daddb",
+      "links": {
+        "self": "https://zenodo.org/api/records/6932666/files/waveforms%20(0.2%20Hz%20highpass%20displacement%20data%20-%20Z%20and%20T%20components).zip/content"
+      }
+    },
+    {
+      "id": "c7e641ac-73f8-44eb-bad5-b1c75aff73ad",
+      "key": "events.csv",
+      "size": 16329,
+      "checksum": "md5:a9e82ee3240474331a600d45912bee30",
+      "links": {
+        "self": "https://zenodo.org/api/records/6932666/files/events.csv/content"
+      }
+    },
+    {
+      "id": "2898801e-fa16-4271-b706-b10c43a6aa35",
+      "key": "stat.csv",
+      "size": 2196,
+      "checksum": "md5:61f1adc70cf94049ae65b3a216ae7a32",
+      "links": {
+        "self": "https://zenodo.org/api/records/6932666/files/stat.csv/content"
+      }
+    },
+    {
+      "id": "85c1f6f6-9179-4938-8b60-52839346f875",
+      "key": "results.csv",
+      "size": 4342469,
+      "checksum": "md5:cb3968b9a4855b435df208f53db146ee",
+      "links": {
+        "self": "https://zenodo.org/api/records/6932666/files/results.csv/content"
+      }
+    }
+  ]
+}

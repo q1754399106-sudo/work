@@ -1,0 +1,17 @@
+﻿model,layer,vp_m_s,vs_m_s,rho_g_cm3,Q,top_depth_m,thickness_m
+Changed_DeepLowQ,1,1820,780,1.94,22,0.0,391.3
+Changed_DeepLowQ,2,2200,1080,2.12,32,391.3,396.00000000000006
+Changed_DeepLowQ,3,2620,1400,2.33,45,787.3000000000001,327.5
+Changed_DeepLowQ,4,3100,1730,2.54,75,1114.8000000000002,halfspace
+Changed_ThinPolarity,1,2050,920,2.05,55,0.0,338.25
+Changed_ThinPolarity,2,2400,1200,2.28,35,338.25,396.0
+Changed_ThinPolarity,3,2650,1410,1.98,90,734.25,15.900000000000015
+Changed_ThinPolarity,4,3050,1700,2.5,60,750.15,halfspace
+Changed_LowContrast,1,2100,980,2.1,85,0.0,336.0
+Changed_LowContrast,2,2180,1030,2.12,65,336.0,327.0
+Changed_LowContrast,3,2270,1090,2.14,100,663.0,385.9
+Changed_LowContrast,4,2400,1180,2.16,130,1048.9,halfspace
+Changed_HighFreqQReverse,1,1850,800,1.96,38,0.0,333.0
+Changed_HighFreqQReverse,2,2250,1110,2.16,85,333.0,382.49999999999994
+Changed_HighFreqQReverse,3,2660,1420,2.35,30,715.5,42.56000000000004
+Changed_HighFreqQReverse,4,3150,1770,2.55,100,758.0600000000001,halfspace
