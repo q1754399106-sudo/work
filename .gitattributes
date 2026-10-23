@@ -56,3 +56,4 @@ q_dense_gathers_20261023/results/complex/Q_+10.json filter=lfs diff=lfs merge=lf
 q_dense_gathers_20261023/results/complex/Q_-10.json filter=lfs diff=lfs merge=lfs -text
 q_identifiable_cluster_20261023/generated/FreshDenseQReverse/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
 denoise_and_field_20261023/field_data/alaska_120_fk.npz filter=lfs diff=lfs merge=lfs -text
+q_dense_gathers_20261023/results/complex/Q_+30.json filter=lfs diff=lfs merge=lfs -text
