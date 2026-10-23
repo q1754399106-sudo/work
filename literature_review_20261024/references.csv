@@ -1,0 +1,33 @@
+id,authors,year,title,venue,doi,topic,evidence
+1,Yanghua Wang,2002,A stable and efficient approach of inverse Q filtering,Geophysics,10.1190/1.1468627,稳定化反Q滤波,abstract
+2,Yanghua Wang,2003,Quantifying the effectiveness of stabilized inverse Q filtering,Geophysics,10.1190/1.1543219,VSP估Q与定量评价,abstract
+3,Yanghua Wang,2006,Inverse Q-filter for seismic resolution enhancement,Geophysics,10.1190/1.2192912,稳定化反Q滤波基线,abstract
+4,Margrave; Lamoureux; Henley,2011,Gabor deconvolution: Estimating reflectivity by nonstationary deconvolution of seismic data,Geophysics,10.1190/1.3560167,无需Q的非平稳反褶积基线,abstract
+5,Chai; Wang; Yuan; Zhao,2014,Sparse reflectivity inversion for nonstationary seismic data,Geophysics,10.1190/geo2013-0313.1,NSRI,abstract
+6,Chai; Tang; Wang; Gu,2018,Q-compensated acoustic impedance inversion of attenuated seismic data: Numerical and field-data experiments,Geophysics,10.1190/geo2017-0499.1,Q补偿阻抗反演,abstract
+7,Chai; Peng; Tang; Chen,2019,Some remarks on Q-compensated sparse deconvolution without knowing the quality factor Q,Geophysical Prospecting,10.1111/1365-2478.12838,多Q字典/无需Q,abstract
+8,Ali Gholami,2015,Semi-blind nonstationary deconvolution: Joint reflectivity and Q estimation,Journal of Applied Geophysics,10.1016/j.jappgeo.2015.02.030,联合估计Q与反射系数,secondary
+9,Cheng; Wang; Yuan; Zheng,2019,Structural interval-Q estimation by using semi-blind time-variant sparse deconvolution,SEG Technical Program Expanded Abstracts,10.1190/segam2019-3215626.1,稀疏度准则选Q,abstract
+10,Cheng; Yuan; Wang,2020,Joint Reflectivity and Structural Interval-Q Estimation by Using Nonstationary Sparse Inversion,IEEE Geoscience and Remote Sensing Letters,10.1109/lgrs.2020.2987395,结构层间Q联合反演,abstract
+11,Yan; Hui; Xu,2023,Concurrent estimation of seismic reflectivity and Q by using an optimal dictionary learning method,Frontiers in Earth Science,10.3389/feart.2023.1121956,残差+稀疏度选Q,abstract
+12,Pereg; Cohen; Vassiliou,2017,Sparse Seismic Time-Variant Deconvolution Using Q Attenuation Model,SEG Technical Program Expanded Abstracts,10.1190/segam2017-17680948.1,恢复误差理论界,abstract
+13,Yuan; Wang; Ma; Ji,2017,Sparse Bayesian Learning-Based Time-Variant Deconvolution,IEEE Transactions on Geoscience and Remote Sensing,10.1109/tgrs.2017.2722223,SBL自动超参数,abstract
+14,Ma; Wang; Yuan; Wang,2017,Multichannel spatially correlated reflectivity inversion using block sparse Bayesian learning,Geophysics,10.1190/geo2016-0366.1,多道bSBL,abstract
+15,Wang; Ma; Wang,2016,Seismic Multichannel Reflectivity Inversion by Block Sparse Bayesian Learing,EAGE Conference and Exhibition,10.3997/2214-4609.201601560,多道bSBL,abstract
+16,Yang; Su,2018,A novel approach for multichannel spectral sparse reflectivity inversion,SEG Technical Program Expanded Abstracts,10.1190/segam2018-2995161.1,SBL-EM多道,abstract
+17,Deng; Cao; Morozov; Fu,2023,Seismic-Q Compensation by Iterative Time-Domain Deconvolution,Remote Sensing,10.3390/rs15030648,对Q误差不敏感的补偿,abstract
+18,Ma; Huo; Li; Li,2021,Inversion-based attenuation compensation with dip constraint,Petroleum Science,10.1016/j.petsci.2021.12.001,倾角约束补偿,abstract
+19,Du; Wang; Sun; Fu,2022,Seismic attenuation compensation with spectral-shaping regularization,Earth and Planetary Physics,10.26464/epp2022024,频谱整形正则,abstract
+20,Kaipio; Somersalo,2006,Statistical inverse problems: Discretization; model reduction and inverse crimes,Journal of Computational and Applied Mathematics,10.1016/j.cam.2005.09.027,inverse crime与近似误差方法,metadata-only
+21,Nissinen; Heikkinen; Kaipio,2008,The Bayesian approximation error approach for electrical impedance tomography—experimental results,Measurement Science and Technology,10.1088/0957-0233/19/1/015501,BAE实测验证,abstract
+22,El Ghaoui; Lebret,1997,Robust Solutions to Least-Squares Problems with Uncertain Data,SIAM Journal on Matrix Analysis and Applications,10.1137/s0895479896298130,稳健最小二乘,abstract
+23,Lucka; Proksch; Brune; Bissantz,2018,Risk estimators for choosing regularization parameters in ill-posed problems - properties and limitations,Inverse Problems and Imaging,10.3934/ipi.2018047,SURE在病态问题中的局限,abstract
+24,Quan; Harris,1997,Seismic attenuation tomography using the frequency shift method,Geophysics,10.1190/1.1444197,中心频率偏移法,abstract
+25,Li; Wang; Yang; Dong,2016,An improved Q estimation approach: the weighted centroid frequency shift method,Journal of Geophysics and Engineering,10.1088/1742-2132/13/3/399,加权CFS,abstract
+26,Jin; Shi; Ma; Tian,2021,Spectral-ratio tomography for seismic attenuation estimation,Journal of Geophysics and Engineering,10.1093/jge/gxab025,去上覆层效应的Q层析,abstract
+27,Changjun Zhang,2008,Seismic absorption estimation and compensation (PhD thesis),University of British Columbia,10.14288/1.0052450,峰值频率与反射系数引导Q估计,abstract
+28,Fan; Zhao; Xie; Ge,2016,Two-dimensional time-domain finite-difference modeling for viscoelastic seismic wave propagation,Geophysical Journal International,10.1093/gji/ggw228,SLS黏弹性有限差分,abstract
+29,Gao; Yang; Yang; Gao,2025,Physics-Constrained Deep Learning for Attenuation Compensation of Nonstationary Seismic Data,IEEE Transactions on Geoscience and Remote Sensing,10.1109/tgrs.2025.3541495,物理约束深度学习,abstract
+30,Wu; Pan; Lan; Chen,2024,Unsupervised-Learning Stable Inverse Q Filtering for Seismic Resolution Enhancement,IEEE Transactions on Geoscience and Remote Sensing,10.1109/tgrs.2024.3458870,无监督反Q滤波,abstract
+31,Peng Cheng,2013,Anelastic attenuation in seismic data: modeling; measurement; and correction (PhD thesis),University of Calgary,10.11575/prism/24850,非弹性反射率法正演,abstract
+32,Mache; Pokala; Rajendran; Seelamantula,2021,DuRIN: A Deep-unfolded Sparse Seismic Reflectivity Inversion Network,arXiv,10.48550/arxiv.2104.04704,Marmousi2/Penobscot基准,abstract
