@@ -69,12 +69,12 @@ for protocol in ['primary','complex']:
         save(fig,f'{protocol}_{condition}_absolute',record,pdf=False);views[f'{protocol}_{condition}_absolute']=record
 
         # 99 true wiggle traces, one common global gain; no trace normalization.
-        outputs=[target,np.array(rr[0]['fixed']),np.array(rr[0]['optimized'])];wiggle_lim=max(float(abs(a).max()) for a in outputs);dx=float(np.median(np.diff(x)));gain=.45*dx/wiggle_lim
+        outputs=[target,np.array(rr[0]['fixed']),np.array(rr[0]['optimized'])];wiggle_lim=max(float(abs(a).max()) for a in outputs);dx=float(np.median(np.diff(x)));gain=1.5*dx/wiggle_lim
         fig,axs=plt.subplots(1,3,figsize=(16,7.4),layout='constrained',sharex=True,sharey=True)
         for ax,a,label in zip(axs,outputs,['纯净参考','最初分步法','优化剪枝法']):
             for j,xc in enumerate(x):
                 xx=xc+gain*a[:,j];ax.plot(xx,t,color='#222222',lw=.35);ax.fill_betweenx(t,xc,xx,where=xx>=xc,color='#315f78',lw=0)
-            ax.set_title(label);ax.set_xlabel('横向位置 / km');ax.set_xlim(x[0]-.55*dx,x[-1]+.55*dx)
+            ax.set_title(label);ax.set_xlabel('横向位置 / km');ax.set_xlim(x[0]-1.6*dx,x[-1]+1.6*dx)
         axs[0].set_ylim(t[-1],t[0]);axs[0].set_ylabel('时间 / s');fig.suptitle(f'{title_model} / {condition} / {qlabel} 0%：同增益波形道集',fontsize=17)
         fig.supxlabel('实际绘出 99 道，所有面板同一全局振幅显示倍数；无 AGC、无逐道归一化。',fontsize=10)
         record=dict(protocol=protocol,condition=condition,view='wiggle',Q_error_percent=0,traces=99,global_gain_km_per_unit=gain,individual_trace_gain=False)

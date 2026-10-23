@@ -125,14 +125,14 @@
     "view": "wiggle",
     "Q_error_percent": 0,
     "traces": 99,
-    "global_gain_km_per_unit": 0.011335260044739176,
+    "global_gain_km_per_unit": 0.03778420014913058,
     "individual_trace_gain": false,
     "width_pixels": 6400,
     "height_pixels": 2960,
     "file": "primary_Moderate_wiggle_0.png",
     "pdf_file": "primary_Moderate_wiggle_0.pdf",
     "dpi": 400,
-    "sha256": "cbc3931a9f51937cbf4c30f69ef8475571674c9408fe02ef77d2f1fefc8bbeca"
+    "sha256": "c11deb0d31d5dca128208e1f698e3349883b2ece37bdbd5a238548b574c46181"
   },
   {
     "protocol": "primary",
@@ -284,14 +284,14 @@
     "view": "wiggle",
     "Q_error_percent": 0,
     "traces": 99,
-    "global_gain_km_per_unit": 0.010713362546159651,
+    "global_gain_km_per_unit": 0.03571120848719883,
     "individual_trace_gain": false,
     "width_pixels": 6400,
     "height_pixels": 2960,
     "file": "primary_Strong_wiggle_0.png",
     "pdf_file": "primary_Strong_wiggle_0.pdf",
     "dpi": 400,
-    "sha256": "1e486562d56686733d7ee3a90cd9dc2e2b8886fcefe28bb566ac517103afd719"
+    "sha256": "11020c9ce08934e81942a052ea2848dafef8d7ada1ff366d47302e4c0f4248c3"
   },
   {
     "protocol": "primary",
@@ -443,14 +443,14 @@
     "view": "wiggle",
     "Q_error_percent": 0,
     "traces": 99,
-    "global_gain_km_per_unit": 0.12162658844122154,
+    "global_gain_km_per_unit": 0.4054219614707385,
     "individual_trace_gain": false,
     "width_pixels": 6400,
     "height_pixels": 2960,
     "file": "complex_Moderate_wiggle_0.png",
     "pdf_file": "complex_Moderate_wiggle_0.pdf",
     "dpi": 400,
-    "sha256": "6f530cff49398354e5051021c3e0712b4529b378eb1f02d93c434234229bbdb5"
+    "sha256": "583d77edc3e0910e2e93dd1278e7caf218b3bd5965af2d4d9a6cacbc288c06b0"
   },
   {
     "protocol": "complex",
@@ -602,14 +602,14 @@
     "view": "wiggle",
     "Q_error_percent": 0,
     "traces": 99,
-    "global_gain_km_per_unit": 0.1366944232883947,
+    "global_gain_km_per_unit": 0.4556480776279824,
     "individual_trace_gain": false,
     "width_pixels": 6400,
     "height_pixels": 2960,
     "file": "complex_Strong_wiggle_0.png",
     "pdf_file": "complex_Strong_wiggle_0.pdf",
     "dpi": 400,
-    "sha256": "99a75b77a6a7cf529ff5cbfcc072a08f703f26f68c6db0f12f8f767f262a1a69"
+    "sha256": "b2619f650daedba502a13d93e9a24f0da8d6dfb884a80e1a1dec3320b5716783"
   },
   {
     "protocol": "complex",
