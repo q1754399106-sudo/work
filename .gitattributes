@@ -80,3 +80,4 @@ q_output_trust_experiment_20261023.zip filter=lfs diff=lfs merge=lfs -text
 soft_refit_20261023/figures/complex_Strong_wiggle.png filter=lfs diff=lfs merge=lfs -text
 soft_refit_20261023/results/complex/Q_+0.json filter=lfs diff=lfs merge=lfs -text
 soft_refit_20261023/results/primary/Q_-30.json filter=lfs diff=lfs merge=lfs -text
+coherence_soft_20261023/**/*.mat filter=lfs diff=lfs merge=lfs -text

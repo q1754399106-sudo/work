@@ -1,0 +1,43 @@
+{
+  "name": "CoherenceSoftRefit",
+  "registered": "2026-10-23, before any development metric of the new rule was computed",
+  "question": "Can neighbour-trace support reduce the background noise left by SoftGroupRefit while keeping the weak reflections it recovered?",
+  "rule": "gain_jk = E_jk / (E_jk + lambda(c_jk) V_jk), lambda(c) = lambda_min + (lambda_max - lambda_min) (1 - c)^2. E, V, support, Q, wavelet, sigma and refit amplitudes are exactly those of SoftGroupRefit; only the gain changes.",
+  "coherence": {
+    "source": "Unshrunk FullCalRefit group contributions W r_g of the neighbouring traces (never the shrunk output, truth, model names or event lists).",
+    "neighbours": "half_width = 2 traces each side, whole 99-trace gather (block edges no longer matter).",
+    "alignment": "For each neighbour at distance m, lags |l| <= m * ceil(dip_periods / (f dt)) with dip_periods = 0.25; a neighbour group is a candidate when its centre lies within that bound plus half a period.",
+    "score": "max over candidate groups and lags of max(0, rho) * min(beta, 1/beta); rho = normalised correlation, beta = amplitude projection ratio (must be positive).",
+    "aggregation": "side support = mean score of that side's neighbours; c = max(left side, right side), so a reflector ending at a fault or pinch-out keeps one-sided support.",
+    "fallback": "lambda = 1 (existing soft rule) for every group of a trace that is dead or has a dead trace within +-2 traces, or has fewer than 2 neighbours. Dead = all-zero trace (data-only)."
+  },
+  "development": {
+    "data": "The 20 soft_refit_20261023 scenes (four-layer and complex model, Moderate/Strong, Q -30/-10/0/+10/+30%), reusing their cached FullCalRefit checkpoints. These are already-seen development data.",
+    "grid": [
+      {"lambda_min": 0.25, "lambda_max": 2}, {"lambda_min": 0.25, "lambda_max": 4}, {"lambda_min": 0.25, "lambda_max": 8},
+      {"lambda_min": 0.5, "lambda_max": 2}, {"lambda_min": 0.5, "lambda_max": 4}, {"lambda_min": 0.5, "lambda_max": 8},
+      {"lambda_min": 1, "lambda_max": 2}, {"lambda_min": 1, "lambda_max": 4}, {"lambda_min": 1, "lambda_max": 8}
+    ],
+    "selection": "Feasible if the mean (over the 10 four-layer scenes) of weak-amplitude-error ratio candidate/soft <= 1.02. Among feasible, minimise the equal-weight mean over all 20 scenes of overall-error ratio candidate/soft; candidates within 0.5% of the best prefer the smaller lambda_max, then the larger lambda_min. If none is feasible, report and do not freeze a winner.",
+    "frozen_ablations": "NoAlign: selected lambdas with dip_periods = 0 (lag 0 only). UniformLambda: constant lambda equal to the median lambda realised on the development set by the selected rule, applied without coherence. Both frozen with the winner."
+  },
+  "validation": {
+    "data": [
+      "V1 four-layer model, original geometry, new noise seeds 2026102401 (Moderate 14 dB) / 2026102402 (Strong 8 dB).",
+      "V2 new four-layer variant FaultPinch: new event times, amplitudes, dip, true Q, a fault (time throw) and a weak reflector that pinches out; seeds 2026102411/2026102412.",
+      "V3 new complex model (MATLAB port of the complex_fieldlike generator, new geology seed 2026102421 and changed fault, channel, wedge and lens positions), independent 18 dB calibration with the frozen layered-calibration code; noise seeds 2026102431/2026102432."
+    ],
+    "Q": "Q -30/-10/0/+10/+30% relative to true Q (V1, V2) or to the calibrated Q (V3). Support, Q, wavelet, sigma and observation are shared by every method in a scene.",
+    "methods": ["FullCalRefit", "PrunedFullCalRefit", "SoftGroupRefit", "CoherenceSoftRefit", "NoAlign", "UniformLambda"],
+    "metrics": "overall relative error; weak-amplitude error (V1, V2; Ricker-template projection at registered weak events); fault-neighbourhood error, pinch-out region error (V2, V3); low-energy region error and deep-window error (V3). Truth is used only for scoring.",
+    "acceptance": {
+      "A1_overall": "equal-weight mean over all validation scenes of overall-error ratio CoherenceSoftRefit/SoftGroupRefit <= 0.95",
+      "A2_weak": "mean weak-amplitude-error ratio vs soft over V1+V2 scenes <= 1.02",
+      "A3_fault": "mean fault-neighbourhood error ratio vs soft over V2+V3 scenes <= 1.02",
+      "A4_pinchout": "mean pinch-out region error ratio vs soft over V2+V3 scenes <= 1.02",
+      "A5_Q_under": "mean overall-error ratio vs soft over all Q -30% and -10% scenes <= 1.00",
+      "note": "Proposed targets from the user's plan; not achieved gains. Failing any gate means the rule is not promoted. Thresholds are not changed after validation data are seen."
+    }
+  },
+  "limits": "Same simulator family (quasi-1D convolution); not real data or full-wave validation. Scenes share models, so they are not independent samples; no significance claims."
+}

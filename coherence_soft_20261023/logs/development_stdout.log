@@ -1,0 +1,22 @@
+﻿Coherence gain limits, alignment, isolation, fallback and termination checks passed.
+primary Q-30 Moderate done, elapsed 7.2s
+primary Q-30 Strong done, elapsed 10.7s
+primary Q-10 Moderate done, elapsed 14.6s
+primary Q-10 Strong done, elapsed 17.4s
+primary Q+0 Moderate done, elapsed 20.8s
+primary Q+0 Strong done, elapsed 23.0s
+primary Q+10 Moderate done, elapsed 26.3s
+primary Q+10 Strong done, elapsed 28.9s
+primary Q+30 Moderate done, elapsed 32.8s
+primary Q+30 Strong done, elapsed 35.9s
+complex Q-30 Moderate done, elapsed 52.3s
+complex Q-30 Strong done, elapsed 66.7s
+complex Q-10 Moderate done, elapsed 84.2s
+complex Q-10 Strong done, elapsed 96.3s
+complex Q+0 Moderate done, elapsed 111.1s
+complex Q+0 Strong done, elapsed 122.6s
+complex Q+10 Moderate done, elapsed 135.0s
+complex Q+10 Strong done, elapsed 146.4s
+complex Q+30 Moderate done, elapsed 159.4s
+complex Q+30 Strong done, elapsed 170.7s
+Selected coh_1_8: overall ratio 0.9394, weak ratio 0.9947, uniform lambda 1.951, elapsed 193.5s

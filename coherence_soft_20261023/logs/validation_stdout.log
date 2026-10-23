@@ -1,0 +1,32 @@
+﻿Coherence gain limits, alignment, isolation, fallback and termination checks passed.
+V1 Q-30 Moderate solved, elapsed 25.4s
+V1 Q-30 Strong solved, elapsed 47.5s
+V1 Q-10 Moderate solved, elapsed 66.2s
+V1 Q-10 Strong solved, elapsed 85.6s
+V1 Q+0 Moderate solved, elapsed 103.0s
+V1 Q+0 Strong solved, elapsed 121.3s
+V1 Q+10 Moderate solved, elapsed 143.1s
+V1 Q+10 Strong solved, elapsed 162.4s
+V1 Q+30 Moderate solved, elapsed 184.1s
+V1 Q+30 Strong solved, elapsed 204.9s
+V2 Q-30 Moderate solved, elapsed 224.0s
+V2 Q-30 Strong solved, elapsed 241.0s
+V2 Q-10 Moderate solved, elapsed 257.8s
+V2 Q-10 Strong solved, elapsed 275.0s
+V2 Q+0 Moderate solved, elapsed 293.4s
+V2 Q+0 Strong solved, elapsed 309.8s
+V2 Q+10 Moderate solved, elapsed 329.1s
+V2 Q+10 Strong solved, elapsed 344.9s
+V2 Q+30 Moderate solved, elapsed 367.6s
+V2 Q+30 Strong solved, elapsed 385.9s
+V3 Q-30 Moderate solved, elapsed 700.3s
+V3 Q-30 Strong solved, elapsed 971.0s
+V3 Q-10 Moderate solved, elapsed 1371.9s
+V3 Q-10 Strong solved, elapsed 2198.4s
+V3 Q+0 Moderate solved, elapsed 3011.3s
+V3 Q+0 Strong solved, elapsed 4965.8s
+V3 Q+10 Moderate solved, elapsed 6321.0s
+V3 Q+10 Strong solved, elapsed 7064.0s
+V3 Q+30 Moderate solved, elapsed 7919.5s
+V3 Q+30 Strong solved, elapsed 8662.2s
+A1 0.9178 A2 0.9979 A3 0.9267 A4 0.9744 A5 0.9182 all_pass=1
