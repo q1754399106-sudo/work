@@ -1,0 +1,9 @@
+F1 Moderate: 35 traces, baseline diff 2.53e-08, scan diff 2.62e-08, calibration rank 0, elapsed 8.8s
+F1 Strong: 35 traces, baseline diff 2.53e-08, scan diff 2.6e-08, calibration rank 0, elapsed 17.0s
+F2 Moderate: 35 traces, baseline diff 2.52e-08, scan diff 2.4e-08, calibration rank 0, elapsed 24.2s
+F2 Strong: 35 traces, baseline diff 2.49e-08, scan diff 2.45e-08, calibration rank 0, elapsed 30.6s
+complex Moderate: 35 traces, baseline diff 2.53e-08, scan diff 2.56e-08, calibration rank 5, elapsed 58.4s
+complex Strong: 35 traces, baseline diff 2.54e-08, scan diff 2.52e-08, calibration rank 5, elapsed 84.7s
+primary Moderate: 35 traces, baseline diff 2.39e-08, scan diff 2.43e-08, calibration rank 0, elapsed 90.0s
+primary Strong: 35 traces, baseline diff 2.46e-08, scan diff 2.43e-08, calibration rank 0, elapsed 95.0s
+DONE prediction 95.3s

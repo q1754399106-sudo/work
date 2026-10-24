@@ -1,0 +1,17 @@
+{
+  "stage": "predict",
+  "started_utc": "2026-10-24T03:43:40.600353+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-singleCompThread",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/theory_predict_diagnostic_20261024/scripts');predict();"
+  ],
+  "timeout_seconds": 2700,
+  "status": "FAILED",
+  "pid": 42800,
+  "exit_code": 1,
+  "elapsed_seconds": 25.5
+}

@@ -1,0 +1,23 @@
+{
+  "sealed_utc": "2026-10-24T03:46:15.406396+00:00",
+  "historical_labels_already_known": true,
+  "truth_used_for_predictions": false,
+  "hashes": {
+    "PLAN_ZH.md": "2a4f612fc517738bbc562178fb89e98feb2fbf952d278db994c72030a3f45311",
+    "scripts/predict.m": "6515de8068a929ce6955c980044390ae37b9758578c7252a98b9874029eab0f3",
+    "scripts/export_inputs.m": "a4d06c13249f3ccf5a71def422ced9d3f00feed15bc88cd44b18f6b36cd0c5fb",
+    "scripts/score_outputs.m": "79a07556eedf8b2e075cd87697f0b44a3e579c75c22d45a7db3ce8b886d791a8",
+    "scripts/run_stage.py": "7443c04e9587344fc20b387197641a67c187dd6da88fbda05d00c93bb2e56a74",
+    "inputs/complex_Moderate.mat": "baecb8719104b7787d45c84faacc18fcec68ab090710d83163ca69d643314706",
+    "inputs/complex_Strong.mat": "dc68d6fb51c06046a2e32fd6c955fb22009383adc4560b7e23dde68c1c95dd09",
+    "inputs/F1_Moderate.mat": "44d7129fa1a087407352252ee33ba989e45d3681d01f88828f7c815ec5779563",
+    "inputs/F1_Strong.mat": "31a9a671b458f08a47feb419bb27288a000beb653f06834c26bc8dbdd886501b",
+    "inputs/F2_Moderate.mat": "73fbae78852238d62427e8df913881f6602d8b3ecad678abe6828167458ffd65",
+    "inputs/F2_Strong.mat": "e352a8f3ba37e3b7dfb72200ea58256676c04ac40ec931cc4f74df124af1ea6c",
+    "inputs/primary_Moderate.mat": "0b54eb7f8095cb8f27898b241a40f30d0cd860ed5fe463f72c1e78d485f158d7",
+    "inputs/primary_Strong.mat": "59449883fbcba5fc26e158881e9da8b789d041c658d304ebe1ec857b89def818",
+    "predictions/risk.csv": "603d9e87baf873993cc3f9f0ffde67783442575cb78b9227eb31efa66fc98cc5",
+    "analysis/derivative_checks.csv": "859eb00752e044fec65c2bfc8f71634d9fb92ca8efb262d13d2f94c500899056",
+    "analysis/numerical_audit.csv": "c601fd562a09323598bb3315c7306e640a3b867b8daede4774a5e7a14821302a"
+  }
+}

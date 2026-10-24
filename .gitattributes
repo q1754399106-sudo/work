@@ -83,3 +83,5 @@ soft_refit_20261023/results/primary/Q_-30.json filter=lfs diff=lfs merge=lfs -te
 coherence_soft_20261023/**/*.mat filter=lfs diff=lfs merge=lfs -text
 bae_q_20261024/results/**/*.mat filter=lfs diff=lfs merge=lfs -text
 coherence_soft_v2_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+theory_predict_diagnostic_20261024/** -text
+theory_predict_diagnostic_20261024/inputs/*.mat filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,9 @@
+model,condition,total_windows,valid_windows,invalid_reason
+F1,Moderate,910,910,zero observation with inherited sigma=realmin; local uncertainty invalid
+F1,Strong,910,910,zero observation with inherited sigma=realmin; local uncertainty invalid
+F2,Moderate,910,910,zero observation with inherited sigma=realmin; local uncertainty invalid
+F2,Strong,910,910,zero observation with inherited sigma=realmin; local uncertainty invalid
+complex,Moderate,910,858,zero observation with inherited sigma=realmin; local uncertainty invalid
+complex,Strong,910,858,zero observation with inherited sigma=realmin; local uncertainty invalid
+primary,Moderate,910,910,zero observation with inherited sigma=realmin; local uncertainty invalid
+primary,Strong,910,910,zero observation with inherited sigma=realmin; local uncertainty invalid

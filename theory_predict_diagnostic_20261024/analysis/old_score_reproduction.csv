@@ -1,0 +1,17 @@
+model,condition,method,absolute_difference
+F1,Moderate,FullCalRefit,9.992007221626409e-16
+F1,Moderate,QScanRefit,1.9984014443252818e-15
+F1,Strong,FullCalRefit,0.0
+F1,Strong,QScanRefit,1.9984014443252818e-15
+F2,Moderate,FullCalRefit,9.992007221626409e-16
+F2,Moderate,QScanRefit,0.0
+F2,Strong,FullCalRefit,9.992007221626409e-16
+F2,Strong,QScanRefit,9.992007221626409e-16
+complex,Moderate,FullCalRefit,9.992007221626409e-16
+complex,Moderate,QScanRefit,0.0
+complex,Strong,FullCalRefit,9.992007221626409e-16
+complex,Strong,QScanRefit,2.9976021664879227e-15
+primary,Moderate,FullCalRefit,9.992007221626409e-16
+primary,Moderate,QScanRefit,0.0
+primary,Strong,FullCalRefit,0.0
+primary,Strong,QScanRefit,0.0

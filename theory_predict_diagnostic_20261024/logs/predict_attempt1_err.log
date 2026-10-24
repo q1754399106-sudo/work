@@ -1,0 +1,9 @@
+{错误使用 maxNumCompThreads
+MATLAB 已禁用计算多线程处理。
+要启用多线程处理，请在不使用 singleCompThread 选项的情况下重新启动 MATLAB。
+
+出错 predict (第 5 行)
+maxNumCompThreads(4);rng(20261024,'twister');started=tic;
+^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
