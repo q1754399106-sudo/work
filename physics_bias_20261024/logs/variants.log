@@ -1,0 +1,20 @@
+﻿F1 M1 reproduction of archived clean: 0
+F1 M1_full            c_sel 1.280 c_opt 1.031 bias 0.217 | err(1) 0.3396 err(sel) 0.4379 err(opt) 0.3395 | 39s
+F1 M2_primaries       c_sel 1.352 c_opt 1.031 bias 0.271 | err(1) 0.3403 err(sel) 0.4691 err(opt) 0.3403 | 86s
+F1 M3_noloss          c_sel 1.352 c_opt 0.977 bias 0.325 | err(1) 0.3512 err(sel) 0.4814 err(opt) 0.3508 | 132s
+F1 M4_noloss_macroQ   c_sel 1.427 c_opt 1.031 bias 0.325 | err(1) 0.3437 err(sel) 0.5030 err(opt) 0.3433 | 184s
+F2 M1 reproduction of archived clean: 0
+F2 M1_full            c_sel 1.280 c_opt 1.031 bias 0.217 | err(1) 0.2284 err(sel) 0.3074 err(opt) 0.2280 | 233s
+F2 M2_primaries       c_sel 1.590 c_opt 1.031 bias 0.433 | err(1) 0.2388 err(sel) 0.4135 err(opt) 0.2380 | 280s
+F2 M3_noloss          c_sel 1.506 c_opt 1.031 bias 0.379 | err(1) 0.2756 err(sel) 0.4259 err(opt) 0.2737 | 331s
+F2 M4_noloss_macroQ   c_sel 1.506 c_opt 0.977 bias 0.433 | err(1) 0.2744 err(sel) 0.4310 err(opt) 0.2742 | 380s
+F3 M1 reproduction of archived clean: 0
+F3 M1_full            c_sel 1.088 c_opt 0.977 bias 0.108 | err(1) 0.4595 err(sel) 0.4794 err(opt) 0.4574 | 49s
+F3 M2_primaries       c_sel 1.088 c_opt 0.977 bias 0.108 | err(1) 0.4460 err(sel) 0.4676 err(opt) 0.4441 | 92s
+F3 M3_noloss          c_sel 1.088 c_opt 0.977 bias 0.108 | err(1) 0.4531 err(sel) 0.4778 err(opt) 0.4512 | 138s
+F3 M4_noloss_macroQ   c_sel 1.149 c_opt 0.977 bias 0.162 | err(1) 0.4385 err(sel) 0.4924 err(opt) 0.4345 | 184s
+F4 M1 reproduction of archived clean: 0
+F4 M1_full            c_sel 1.213 c_opt 1.031 bias 0.162 | err(1) 0.2291 err(sel) 0.2639 err(opt) 0.2270 | 225s
+F4 M2_primaries       c_sel 1.352 c_opt 1.031 bias 0.271 | err(1) 0.2377 err(sel) 0.3115 err(opt) 0.2358 | 265s
+F4 M3_noloss          c_sel 1.352 c_opt 1.031 bias 0.271 | err(1) 0.2393 err(sel) 0.3321 err(opt) 0.2392 | 309s
+F4 M4_noloss_macroQ   c_sel 1.352 c_opt 0.977 bias 0.325 | err(1) 0.2357 err(sel) 0.3343 err(opt) 0.2355 | 352s

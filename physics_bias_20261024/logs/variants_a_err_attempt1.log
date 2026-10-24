@@ -1,0 +1,16 @@
+{内存不足。
+
+出错 attenuation_matrix (第 8 行)
+H=exp(b*a(:)'); H(end,:)=real(H(end,:));
+      ^
+出错 refit_dictionary (第 4 行)
+[a,b]=ray_absorption(t,offset,cm);G=attenuation_matrix(a+b,cm);B=G*W;
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 prune_dictionary (第 2 行)
+d=refit_dictionary(cm,offset);d.frequency=cm.fpeak;d.dt=cm.dt;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 run_variants (第 22 行)
+   c=cm;c.Q=cm.Q*grid(g);d=prune_dictionary(c,offset);
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

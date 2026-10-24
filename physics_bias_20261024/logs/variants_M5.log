@@ -1,0 +1,4 @@
+﻿F1 M5_blocky_sparse   c_sel 1.088 c_opt 0.977 bias 0.108 | err(1) 0.0688 err(sel) 0.1267 err(opt) 0.0604 | 31s
+F2 M5_blocky_sparse   c_sel 1.149 c_opt 0.977 bias 0.162 | err(1) 0.0795 err(sel) 0.2171 err(opt) 0.0692 | 51s
+F3 M5_blocky_sparse   c_sel 1.031 c_opt 0.977 bias 0.054 | err(1) 0.0601 err(sel) 0.0715 err(opt) 0.0513 | 74s
+F4 M5_blocky_sparse   c_sel 1.149 c_opt 0.977 bias 0.162 | err(1) 0.0944 err(sel) 0.1568 err(opt) 0.0899 | 93s
