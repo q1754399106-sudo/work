@@ -19,11 +19,13 @@ function out=q_compensate(D,cm,varargin)
 %             that window contains signal)
 %
 % When to use which (see README_ZH.md): default 'standard'. Use 'qscan' only when the
-% given Q is likely wrong by roughly 20-30% or more (Q x 0.7: MSE 63-79% lower than
-% 'standard'). QScan under-compensates fine-layered (non-sparse) earths by about
-% 10-28%; when Q is already right this costs 21-90% MSE on F1/F2 (repeated-noise test,
-% combo_bias_variance_20261024) because coherence shrinkage has already taken its
-% variance gain while its amplitude bias remains.
+% given Q is likely substantially wrong (tested point: Q x 0.7, MSE 63-79% lower than
+% 'standard'; the switch-over between 0 and 30% and Q overestimation are untested).
+% QScan under-compensates fine-layered (non-sparse) earths by about 10-28%; with a
+% correct Q, 3 of 4 F1/F2 scenes at 14/8 dB lose 21-50% MSE and both 20 dB scenes lose
+% 86-90% (F2 at 8 dB gains 6.5%) in the repeated-noise test (combo_bias_variance_20261024),
+% because coherence shrinkage has already taken QScan's variance gain while its
+% amplitude bias remains.
 %
 % out.gather       compensated section (source-wavelet domain, like FullCalRefit)
 % out.unshrunk     FullCalRefit at the applied Q;  out.soft  SoftGroupRefit at the applied Q
