@@ -30,6 +30,9 @@ KEY = ["model", "condition", "Q_percent"]
 
 
 def read_csv(path):
+    local = ROOT / path
+    if local.is_file():
+        return pd.read_csv(local, encoding="utf-8-sig")
     raw = subprocess.run(["git", "show", f"HEAD:{path}"], cwd=ROOT,
                          capture_output=True, check=True).stdout
     return pd.read_csv(io.BytesIO(raw), encoding="utf-8-sig")
@@ -48,6 +51,10 @@ dev["qscan"] = bq30.QScanRefit
 # Unseen / sealed data from round 3 (F3/F4 generated after rules were frozen; V5 sealed complex model).
 f34 = read_csv("round3_20261024/analysis/guard_metrics_F3_F4.csv")
 v5 = read_csv("round3_20261024/analysis/guard_metrics_V5.csv")
+# Original FixedSplit rerun on the same round3 observations (fixed_baseline_round3_20261024).
+fx = read_csv("fixed_baseline_round3_20261024/analysis/fixed_metrics_F3_F4_V5.csv")
+f34 = pd.concat([f34, fx[fx.set.isin(["F3", "F4"])]], ignore_index=True)
+v5 = pd.concat([v5, fx[fx.set == "V5"]], ignore_index=True)
 
 DEV_METHODS = [
     ("fixed", "最初分步法（10-19 基线）", "#7f7f7f"),
@@ -58,6 +65,7 @@ DEV_METHODS = [
     ("qscan", "QScanRefit", "#ff7f0e"),
 ]
 NEW_METHODS = [
+    ("FixedSplit", "最初分步法（10-19 基线）", "#7f7f7f", "-"),
     ("FullCalRefit", "FullCalRefit", "#1f77b4", "-"),
     ("SoftGroupRefit", "软收缩", "#17becf", "-"),
     ("Standard", "相干软收缩标准版", "#2ca02c", "-"),
@@ -124,7 +132,7 @@ for ax in axes[1]:
 fig.suptitle("地震 Q 补偿：方法演进与效果对比（合成数据，误差 = ‖输出 − 无吸收目标‖ / ‖目标‖）", fontsize=14)
 fig.text(0.01, 0.005,
          "数据：soft_refit_20261023、coherence_soft_20261023（相干 v1 为开发集选参结果）、bae_q_20261024、round3_20261024。"
-         "最初分步法只在 (a)(b) 的开发场景上有结果；(c)(d) 中未运行。QScanRefit 在 (a)(b) 中来自 bae_q 的同一批场景。",
+         "(c)(d) 中的最初分步法由 fixed_baseline_round3_20261024 在相同观测上补跑。QScanRefit 在 (a)(b) 中来自 bae_q 的同一批场景。",
          fontsize=8.5, color="#444")
 fig.tight_layout(rect=(0, 0.02, 1, 0.96))
 out = HERE / "figures"
