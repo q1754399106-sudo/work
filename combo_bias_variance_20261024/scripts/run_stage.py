@@ -8,7 +8,7 @@ import datetime, json, subprocess, sys, time
 sys.stdout.reconfigure(errors="replace")   # MATLAB error logs can hold characters the console codec rejects
 ROOT = Path(__file__).resolve().parents[1]
 MATLAB = r"D:\Program Files (x86)\MATLAB2024B\bin\matlab.exe"
-STAGES = {"run_stage0", "run_reps", "summarize"}
+STAGES = {"run_stage0", "run_reps", "summarize", "diag_threads"}
 stage, args = sys.argv[1], sys.argv[2:]
 assert stage in STAGES and all(a.replace("_", "").isalnum() for a in args)
 tag = "_".join([stage, *args])

@@ -1,0 +1,10 @@
+{函数或变量 'R' 无法识别。
+
+出错 cb_setup (第 16 行)
+P.scenes=struct('id',num2cell(1:10),'model',m,'snr_db',snr,'q_scale',qs,'R',R,'seed_level',lev);
+                                                                            ^
+出错 run_stage0 (第 6 行)
+P=cb_setup();maxNumCompThreads(P.threads);A=fullfile(P.root,'analysis');if ~isfolder(A),mkdir(A);end
+  ^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

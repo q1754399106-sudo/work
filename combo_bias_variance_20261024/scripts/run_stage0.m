@@ -1,5 +1,5 @@
 function run_stage0()
-% Stage 0 (DESIGN_ZH.md), before freezing: (1) the round-3 archived F1/F2 gathers at Q0 and
+% Stage 0 (PLAN_ZH.md), before freezing: (1) the round-3 archived F1/F2 gathers at Q0 and
 % Q-30% reproduce combo_metrics.csv; (2) replicates 1-2 of S1-S4 reproduce FullCalRefit and
 % QScan of qscan_bias_variance replicates.csv, and the refit_state path equals full_refit;
 % (3) timing and MATLAB memory per replicate for every scene type.

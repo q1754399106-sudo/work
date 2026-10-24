@@ -1,0 +1,10 @@
+Moderate threads 1 Standard: 0.707445158 ref 0.707325715 reldiff 1.69e-04 coh 0.498109572
+Moderate threads 1 QScan_Standard: 0.317580184 ref 0.317596349 reldiff 5.09e-05 coh 0.498109572
+Moderate threads 4 Standard: 0.707325715 ref 0.707325715 reldiff 6.28e-16 coh 0.497817917
+Moderate threads 4 QScan_Standard: 0.317596349 ref 0.317596349 reldiff 1.57e-15 coh 0.497817917
+  1 vs 4 threads Standard rel diff 3.06e-03
+Strong threads 1 Standard: 0.820028127 ref 0.820150893 reldiff 1.50e-04 coh 0.451074532
+Strong threads 1 QScan_Standard: 0.386889161 ref 0.386795377 reldiff 2.42e-04 coh 0.451074532
+Strong threads 4 Standard: 0.820150893 ref 0.820150893 reldiff 2.57e-15 coh 0.451144527
+Strong threads 4 QScan_Standard: 0.386795377 ref 0.386795377 reldiff 1.72e-15 coh 0.451144527
+  1 vs 4 threads Standard rel diff 3.41e-03

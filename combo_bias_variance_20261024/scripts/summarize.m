@@ -1,5 +1,5 @@
 function summarize(varargin)
-% Stage 1 scoring (DESIGN_ZH.md): MSE = bias^2 + variance for every estimator, region and time
+% Stage 1 scoring (PLAN_ZH.md): MSE = bias^2 + variance for every estimator, region and time
 % window; the 2x2 factorial effects of QScan without (raw = C-A) and after coherence
 % (coh = D-B) and their interaction; amplitude gain on strong reflections; batch standard
 % errors (5 batches); J1-J5. Optional argument: scene subset (pipeline check on partial data).
