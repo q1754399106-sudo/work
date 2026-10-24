@@ -1,0 +1,17 @@
+{
+  "stage": "make_unseen",
+  "args": [],
+  "started_utc": "2026-10-24T11:48:01.205101+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/b0_world_truth_20261024/scripts');make_unseen();"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 44224,
+  "exit_code": 0,
+  "elapsed_seconds": 308.43799999999464
+}

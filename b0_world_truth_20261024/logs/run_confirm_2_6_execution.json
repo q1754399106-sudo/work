@@ -1,0 +1,20 @@
+{
+  "stage": "run_confirm",
+  "args": [
+    "2",
+    "6"
+  ],
+  "started_utc": "2026-10-24T11:53:23.276010+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/b0_world_truth_20261024/scripts');run_confirm(2,6);"
+  ],
+  "timeout_seconds": 21600,
+  "status": "FAILED",
+  "pid": 45152,
+  "exit_code": 1,
+  "elapsed_seconds": 107.51500000001397
+}

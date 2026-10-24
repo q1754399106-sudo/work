@@ -1,0 +1,11 @@
+{"stage": "run_dev", "args": ["2", "6"], "started_utc": "2026-10-24T11:05:30.743106+00:00", "command": ["D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe", "-wait", "-nojvm", "-batch", "addpath('D:/ChatGPT/\u7814\u7a76/b0_world_truth_20261024/scripts');run_dev(2,6);"], "timeout_seconds": 21600, "status": "COMPLETED", "pid": 44656, "exit_code": 0, "elapsed_seconds": 2467.735000000015}
+g002 bae F1 Moderate: c=1.2803 B0 +0.951 (sealed +0.951) B0M +0.966 B0C +0.965 |m*|/|x1| 0.959 |XC|/|x1| 0.909 (369s, total 373s)
+g008 bae F1 SNR20: c=1.2803 B0 +3.311 (sealed +3.311) B0M +4.048 B0C +3.691 |m*|/|x1| 0.973 |XC|/|x1| 0.963 (416s, total 791s)
+g018 bae F2 Strong: c=1.2803 B0 -0.195 (sealed -0.195) B0M -0.282 B0C -0.330 |m*|/|x1| 0.918 |XC|/|x1| 0.742 (248s, total 1041s)
+g024 bae F2 SNR26: c=1.2803 B0 +3.028 (sealed +3.028) B0M +3.440 B0C +3.460 |m*|/|x1| 0.993 |XC|/|x1| 0.983 (461s, total 1506s)
+g036 qc F3 Strong: c=1.1489 B0 -0.016 (sealed -0.016) B0M -0.082 B0C -0.050 |m*|/|x1| 0.885 |XC|/|x1| 0.761 (230s, total 1824s)
+g046 qc F4 Strong: c=1.1489 B0 -0.229 (sealed -0.229) B0M -0.312 B0C -0.336 |m*|/|x1| 0.730 |XC|/|x1| 0.440 (181s, total 2086s)
+g056 r3 F3 Strong: c=0.9252 B0 +0.250 (sealed +0.250) B0M +0.329 B0C +0.257 |m*|/|x1| 0.881 |XC|/|x1| 0.669 (176s, total 2262s)
+g066 r3 F4 Strong: c=1.1489 B0 -0.170 (sealed -0.170) B0M -0.228 B0C -0.213 |m*|/|x1| 0.951 |XC|/|x1| 0.792 (114s, total 2376s)
+DONE dev worker 2: 8 gathers 2376s
+

@@ -1,0 +1,81 @@
+
+--------------------------------------------------------------------------------
+             std::terminate() detected at 2026-10-24 19:54:31 +0800
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : UTF-8
+  MATLAB Architecture      : win64
+  MATLAB Root              : D:\Program Files (x86)\MATLAB2024B
+  MATLAB Version           : 24.2.0.2923080 (R2024b) Update 6
+  Operating System         : Microsoft Windows 11 家庭版 中文版
+  Process ID               : 42012
+  Processor ID             : x86 Family 25 Model 68 Stepping 1, AuthenticAMD
+  Session Key              : d900f3fe-df10-48e5-837b-c12e30963606
+  Window System            : Version 10.0 (Build 26200)
+
+Fault Count: 1
+
+
+Abnormal termination:
+std::terminate()
+
+Current Thread: 'ED 0 dispatch thread' id 28700
+
+Register State (captured):
+  RAX = 00007ffbcbb182c8  RBX = 00007ffbcbb182c8
+  RCX = 000000ea83ffb160  RDX = 00007ffbcbac1920
+  RSP = 000000ea83ffb0a0  RBP = 000000ea83ffbe30
+  RSI = 0000000000000000  RDI = 00007ffbcbb182c8
+ 
+   R8 = 0000000000000004   R9 = 000000ea83ffb018
+  R10 = 00007ffbe1cd0000  R11 = 0000000000000000
+  R12 = 000000ea83ffbd38  R13 = 000000ea83ffec90
+  R14 = 00007ffbcbb081f8  R15 = 000000ea83ffb770
+ 
+  RIP = 00007ffbcba021ca  EFL = 00000206
+ 
+   CS = 0033   FS = 0053   GS = 002b
+
+Stack Trace (captured):
+[  0] 0x00007ffbcb9fb563 D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwfl.dll+00046435 foundation::core::diag::thread_context::unspecified_bool+00000051
+[  1] 0x00007ffbcb9f9998 D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwfl.dll+00039320 foundation::core::diag::stacktrace_base::capture+00000024
+[  2] 0x00007ffbcb9fde0f D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwfl.dll+00056847 foundation::core::diag::symbols::getSymbolAddress+00009903
+[  3] 0x00007ffbcba00cb7 D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwfl.dll+00068791 foundation::core::diag::is_terminate_message_enabled+00000519
+[  4] 0x00007ffb76b85778 D:\Program Files (x86)\MATLAB2024B\bin\win64\mcr.dll+00808824 mnFullExitFcn+00042264
+[  5] 0x00007ffb76b84eed D:\Program Files (x86)\MATLAB2024B\bin\win64\mcr.dll+00806637 mnFullExitFcn+00040077
+[  6] 0x00007ffb76b809b5 D:\Program Files (x86)\MATLAB2024B\bin\win64\mcr.dll+00788917 mnFullExitFcn+00022357
+[  7] 0x00007ffb76b87458 D:\Program Files (x86)\MATLAB2024B\bin\win64\mcr.dll+00816216 mnSetSegvServiceUrl+00000184
+[  8] 0x00007ffc761f2187                   C:\WINDOWS\System32\ucrtbase.dll+00795015 terminate+00000023
+[  9] 0x00007ffc761e1eea                   C:\WINDOWS\System32\ucrtbase.dll+00728810 _C_specific_handler_noexcept+00000074
+[ 10] 0x00007ffc786e64af                      C:\WINDOWS\SYSTEM32\ntdll.dll+01467567
+[ 11] 0x00007ffc78644065                      C:\WINDOWS\SYSTEM32\ntdll.dll+00802917
+[ 12] 0x00007ffc78599f3d                      C:\WINDOWS\SYSTEM32\ntdll.dll+00106301
+[ 13] 0x00007ffc75ba408a                 C:\WINDOWS\System32\KERNELBASE.dll+00802954
+[ 14] 0x00007ffbe1cd5267 D:\Program Files (x86)\MATLAB2024B\bin\win64\VCRUNTIME140.dll+00021095
+[ 15] 0x00007ffbbea4f2df D:\Program Files (x86)\MATLAB2024B\bin\win64\tbb12.dll+00062175
+[ 16] 0x00007ffbbea4fa10 D:\Program Files (x86)\MATLAB2024B\bin\win64\tbb12.dll+00064016
+[ 17] 0x00007ffbbea4f23d D:\Program Files (x86)\MATLAB2024B\bin\win64\tbb12.dll+00062013
+[ 18] 0x00007ffbbea435af D:\Program Files (x86)\MATLAB2024B\bin\win64\tbb12.dll+00013743
+[ 19] 0x00007ffbc02b3a77 D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01391223 foundation::msg_svc::eventmgr::detail::mvmSessionCreated+00127975
+[ 20] 0x00007ffbc02a1310 D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01315600 foundation::msg_svc::eventmgr::detail::mvmSessionCreated+00052352
+[ 21] 0x00007ffbc02b7abf D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01407679 foundation::msg_svc::eventmgr::detail::mvmSessionCreated+00144431
+[ 22] 0x00007ffbc02afdef D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01375727 foundation::msg_svc::eventmgr::detail::mvmSessionCreated+00112479
+[ 23] 0x00007ffbc02afb8e D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01375118 foundation::msg_svc::eventmgr::detail::mvmSessionCreated+00111870
+[ 24] 0x00007ffbc028930f D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01217295 foundation::msg_svc::eventmgr::detail::SystemCbPack::toString+00088863
+[ 25] 0x00007ffbc0287771 D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01210225 foundation::msg_svc::eventmgr::detail::SystemCbPack::toString+00081793
+[ 26] 0x00007ffbc02bb021 D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01421345 foundation::msg_svc::eventmgr::detail::mvmSessionCreated+00158097
+[ 27] 0x00007ffbc02b376b D:\Program Files (x86)\MATLAB2024B\bin\win64\libmwms.dll+01390443 foundation::msg_svc::eventmgr::detail::mvmSessionCreated+00127195
+[ 28] 0x00007ffbdbaa8fba D:\Program Files (x86)\MATLAB2024B\bin\win64\mwboost_thread-vc143-mt-x64-1_81.dll+00036794 mwboost::detail::win32::handle_manager::swap+00000650
+[ 29] 0x00007ffc7615cd30                   C:\WINDOWS\System32\ucrtbase.dll+00183600 wcsrchr+00000336
+[ 30] 0x00007ffc770ddda7                   C:\WINDOWS\System32\KERNEL32.DLL+00187815 BaseThreadInitThunk+00000023
+[ 31] 0x00007ffc785fee4c                      C:\WINDOWS\SYSTEM32\ntdll.dll+00519756
+
+** This crash report has been saved to disk as C:\Users\qq175\AppData\Local\Temp\matlab_crash_dump.42012-1 **
+
+
+
+MATLAB is exiting because of fatal error
+ERROR: MATLAB error Exit Status: 0x00000003, abort()

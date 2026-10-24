@@ -1,0 +1,8 @@
+g003 bae F1 Moderate: c=1.2803 B0 +0.925 (sealed +0.925) B0M +0.986 B0C +0.947 |m*|/|x1| 0.955 |XC|/|x1| 0.907 (364s, total 370s)
+g009 bae F1 SNR26: c=1.2803 B0 +6.744 (sealed +6.744) B0M +9.721 B0C +7.687 |m*|/|x1| 0.981 |XC|/|x1| 0.982 (571s, total 946s)
+g019 bae F2 Strong: c=1.1489 B0 -0.193 (sealed -0.193) B0M -0.258 B0C -0.255 |m*|/|x1| 0.922 |XC|/|x1| 0.749 (230s, total 1179s)
+g029 qc F3 Moderate: c=1.2803 B0 +0.997 (sealed +0.997) B0M +1.087 B0C +1.010 |m*|/|x1| 0.923 |XC|/|x1| 0.874 (308s, total 1490s)
+g039 qc F4 Moderate: c=1.2803 B0 -0.244 (sealed -0.244) B0M -0.338 B0C -0.442 |m*|/|x1| 0.868 |XC|/|x1| 0.690 (261s, total 1752s)
+g049 r3 F3 Moderate: c=1.1489 B0 -0.009 (sealed -0.009) B0M -0.074 B0C -0.045 |m*|/|x1| 0.903 |XC|/|x1| 0.816 (238s, total 1990s)
+g059 r3 F4 Moderate: c=1.1489 B0 -0.056 (sealed -0.056) B0M -0.112 B0C -0.094 |m*|/|x1| 0.978 |XC|/|x1| 0.909 (216s, total 2206s)
+DONE dev worker 3: 7 gathers 2206s

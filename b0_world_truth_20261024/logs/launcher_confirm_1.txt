@@ -1,0 +1,4 @@
+{"stage": "run_confirm", "args": ["1", "6"], "started_utc": "2026-10-24T11:53:23.149424+00:00", "command": ["D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe", "-wait", "-nojvm", "-batch", "addpath('D:/ChatGPT/\u7814\u7a76/b0_world_truth_20261024/scripts');run_confirm(1,6);"], "timeout_seconds": 21600, "status": "FAILED", "pid": 19344, "exit_code": 3221225725, "elapsed_seconds": 82.65599999998813}
+
+ERROR: MATLAB error Exit Status: 0xc00000fd, Stack overflow
+

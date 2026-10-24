@@ -1,0 +1,25 @@
+{"stage": "run_confirm", "args": ["3", "6"], "started_utc": "2026-10-24T11:53:23.613578+00:00", "command": ["D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe", "-wait", "-nojvm", "-batch", "addpath('D:/ChatGPT/\u7814\u7a76/b0_world_truth_20261024/scripts');run_confirm(3,6);"], "timeout_seconds": 21600, "status": "FAILED", "pid": 7640, "exit_code": 1, "elapsed_seconds": 93.48500000001513}
+
+{内存不足。
+
+出错 attenuation_matrix (第 11 行)
+Z=ifft(H.*E,[],1); G=real(Z(1:c.nt,:));
+  ^^^^^^^^^^^^^^^
+出错 refit_dictionary (第 4 行)
+[a,b]=ray_absorption(t,offset,cm);G=attenuation_matrix(a+b,cm);B=G*W;
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 prune_dictionary (第 2 行)
+d=refit_dictionary(cm,offset);d.frequency=cm.fpeak;d.dt=cm.dt;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 qscan_select (第 7 行)
+ c=used;c.Q=used.Q*grid(q);d=prune_dictionary(c,offset);rhs=d.B'*D(:,live);
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 diagnose2 (第 7 行)
+t0=tic;sig=estimate_sigmas(D,cm.t);sel=qscan_select(D,sig,cm,Qused,offset);c=P.grid(sel.best);
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 run_confirm (第 13 行)
+  o=in.obs(k);[r,x1,xs]=diagnose2(P,o.D,cm,Q0,cm.solver_offset,1400000000+1000*id);x1=single(x1);xs=single(xs); %#ok<NASGU>
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+

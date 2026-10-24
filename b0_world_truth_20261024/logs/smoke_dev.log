@@ -1,0 +1,18 @@
+           qscan_factor: 1.2803
+              gate_gain: 0.0037
+                phi_hat: 0.3878
+       noise_window_end: 0.2126
+       B0_rel_delta_mse: 0.0704
+         B0_delta_bias2: 0.0711
+           B0_delta_var: -0.0615
+      B0M_rel_delta_mse: 0.0128
+        B0M_delta_bias2: 0.0701
+          B0M_delta_var: -0.0685
+      B0C_rel_delta_mse: 0.0139
+        B0C_delta_bias2: 0.0554
+          B0C_delta_var: -0.0538
+    energy_mean_over_x1: 0.9675
+     energy_coh_over_x1: 0.8989
+         mean_coherence: 0.4958
+                seconds: 91.3009
+

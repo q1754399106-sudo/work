@@ -1,0 +1,9 @@
+Caught "std::exception" Exception message is:
+Loading D:\Program Files (x86)\MATLAB2024B\bin\win64\mda_plugins\matlabdata\inmatlab_plugin\libmwmda_inmatlab_plugin.dllfailed with error: 页面文件太小，无法完成操作。
+: unknown error: unknown error
+Caught "std::exception" Exception message is:
+Loading D:\Program Files (x86)\MATLAB2024B\bin\win64\matlab_startup_plugins\supportsoftwarematlabmanagement\mw_spregistration.dllfailed with error: 页面文件太小，无法完成操作。
+: unknown error: unknown error
+{函数或变量 'addpath' 无法识别。
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

@@ -1,0 +1,17 @@
+{
+  "stage": "smoke_dev",
+  "args": [],
+  "started_utc": "2026-10-24T11:02:13.835118+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/b0_world_truth_20261024/scripts');smoke_dev();"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 21424,
+  "exit_code": 0,
+  "elapsed_seconds": 125.5
+}

@@ -1,0 +1,5 @@
+Kennett checks passed: elastic peak 0.1139 vs r 0.1139; attenuated vs dictionary model 0.020
+U1: 276 fine layers, upscaled Q [45 52.6 88.24 116.5], noise-free attenuated/elastic energy 0.368
+U2: 283 fine layers, upscaled Q [80 45.37 42.07 33.39], noise-free attenuated/elastic energy 0.638
+U3: 272 fine layers, upscaled Q [35 57.56 45.15 97.03], noise-free attenuated/elastic energy 0.312
+U4: 266 fine layers, upscaled Q [55 41.29 70.7 92.48], noise-free attenuated/elastic energy 0.552
