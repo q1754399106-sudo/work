@@ -1,0 +1,21 @@
+{
+  "stage": "run_reps",
+  "args": [
+    "7",
+    "26",
+    "50"
+  ],
+  "started_utc": "2026-10-24T16:39:35.303673+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/combo_bias_variance_20261024/scripts');run_reps(7,26,50);"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 45684,
+  "exit_code": 0,
+  "elapsed_seconds": 208.68700000000536
+}

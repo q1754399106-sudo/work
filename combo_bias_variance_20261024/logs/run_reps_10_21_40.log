@@ -1,0 +1,23 @@
+[警告: 目录已存在。] 
+[> 位置：run_reps (第 7 行)] 
+S10_F2_Q100_20dB r=21 factor 1.2803 A 0.2452 B 0.2152 C 0.3039 D 0.3005 flags 0 (15s, total 16s)
+S10_F2_Q100_20dB r=22 factor 1.2803 A 0.2502 B 0.2190 C 0.3047 D 0.3007 flags 0 (11s, total 27s)
+S10_F2_Q100_20dB r=23 factor 1.2803 A 0.2499 B 0.2191 C 0.3041 D 0.3006 flags 0 (11s, total 38s)
+S10_F2_Q100_20dB r=24 factor 1.2803 A 0.2450 B 0.2144 C 0.3025 D 0.2996 flags 0 (11s, total 49s)
+S10_F2_Q100_20dB r=25 factor 1.2803 A 0.2447 B 0.2153 C 0.3034 D 0.3003 flags 0 (11s, total 60s)
+S10_F2_Q100_20dB r=26 factor 1.2803 A 0.2469 B 0.2162 C 0.3031 D 0.2997 flags 0 (11s, total 71s)
+S10_F2_Q100_20dB r=27 factor 1.2803 A 0.2466 B 0.2167 C 0.3029 D 0.2994 flags 0 (11s, total 82s)
+S10_F2_Q100_20dB r=28 factor 1.2803 A 0.2475 B 0.2172 C 0.3050 D 0.3016 flags 0 (11s, total 93s)
+S10_F2_Q100_20dB r=29 factor 1.2803 A 0.2486 B 0.2178 C 0.3060 D 0.3019 flags 0 (11s, total 103s)
+S10_F2_Q100_20dB r=30 factor 1.2803 A 0.2491 B 0.2188 C 0.3053 D 0.3016 flags 0 (11s, total 114s)
+S10_F2_Q100_20dB r=31 factor 1.2803 A 0.2451 B 0.2162 C 0.3046 D 0.3007 flags 0 (10s, total 125s)
+S10_F2_Q100_20dB r=32 factor 1.2803 A 0.2510 B 0.2184 C 0.3063 D 0.3018 flags 0 (11s, total 136s)
+S10_F2_Q100_20dB r=33 factor 1.2803 A 0.2484 B 0.2186 C 0.3051 D 0.3017 flags 0 (11s, total 147s)
+S10_F2_Q100_20dB r=34 factor 1.2803 A 0.2482 B 0.2156 C 0.3025 D 0.2984 flags 0 (12s, total 159s)
+S10_F2_Q100_20dB r=35 factor 1.2803 A 0.2465 B 0.2171 C 0.3049 D 0.3017 flags 0 (11s, total 170s)
+S10_F2_Q100_20dB r=36 factor 1.2803 A 0.2483 B 0.2156 C 0.3024 D 0.3000 flags 0 (11s, total 181s)
+S10_F2_Q100_20dB r=37 factor 1.2803 A 0.2513 B 0.2174 C 0.3052 D 0.3008 flags 0 (11s, total 192s)
+S10_F2_Q100_20dB r=38 factor 1.2803 A 0.2446 B 0.2166 C 0.3034 D 0.3005 flags 0 (11s, total 202s)
+S10_F2_Q100_20dB r=39 factor 1.2803 A 0.2472 B 0.2170 C 0.3031 D 0.3006 flags 0 (11s, total 213s)
+S10_F2_Q100_20dB r=40 factor 1.2803 A 0.2489 B 0.2186 C 0.3056 D 0.3021 flags 0 (9s, total 222s)
+DONE S10_F2_Q100_20dB 21-40 222s
