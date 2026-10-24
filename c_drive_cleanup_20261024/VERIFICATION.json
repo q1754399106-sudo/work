@@ -1,0 +1,15 @@
+{
+  "checkedUtc": "2026-10-24T05:30:43.4032324Z",
+  "oldFileQuarantined": true,
+  "recentFilePreserved": true,
+  "unlistedExtensionPreserved": true,
+  "junctionTargetPreserved": true,
+  "expiredQuarantinePurged": true,
+  "modifiedQuarantinePreserved": true,
+  "outsideQuarantinePathRejected": true,
+  "restoreSha256Verified": true,
+  "initialMovedCount": 266,
+  "initialMovedBytes": 120059322,
+  "cFreeAfter": 1688858624,
+  "note": "One 43-byte synthetic old temporary file is included in initial moved totals. Expiry test used an artificial 31-day-old record. Validation fixtures retained."
+}
