@@ -1,0 +1,8 @@
+G2_Q100_14dB r=0 best 1.9742 flags 0 (16s, total 16s)
+G2_Q100_14dB r=1 best 1.5898 flags 0 (16s, total 32s)
+G2_Q100_14dB r=2 best 1.5898 flags 0 (20s, total 52s)
+G2_Q100_14dB r=3 best 1.5898 flags 0 (18s, total 70s)
+G2_Q100_14dB r=4 best 1.5898 flags 0 (17s, total 88s)
+G2_Q100_14dB r=5 best 1.5898 flags 0 (19s, total 106s)
+G2_Q100_14dB r=6 best 1.5898 flags 0 (18s, total 124s)
+DONE G2_Q100_14dB 0-6 124s

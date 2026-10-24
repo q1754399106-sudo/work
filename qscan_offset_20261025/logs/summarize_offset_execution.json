@@ -1,0 +1,17 @@
+{
+  "stage": "summarize_offset",
+  "args": [],
+  "started_utc": "2026-10-24T18:36:04.038721+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_offset_20261025/scripts');summarize_offset();"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 1960,
+  "exit_code": 0,
+  "elapsed_seconds": 18.937999999994645
+}

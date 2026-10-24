@@ -1,0 +1,8 @@
+G2_Q100_08dB r=0 best 2.2000 flags 0 (12s, total 12s)
+G2_Q100_08dB r=1 best 1.7716 flags 0 (16s, total 28s)
+G2_Q100_08dB r=2 best 1.5898 flags 0 (15s, total 42s)
+G2_Q100_08dB r=3 best 1.4267 flags 0 (14s, total 56s)
+G2_Q100_08dB r=4 best 1.4267 flags 0 (16s, total 72s)
+G2_Q100_08dB r=5 best 1.5898 flags 0 (16s, total 88s)
+G2_Q100_08dB r=6 best 1.4267 flags 0 (14s, total 102s)
+DONE G2_Q100_08dB 0-6 102s

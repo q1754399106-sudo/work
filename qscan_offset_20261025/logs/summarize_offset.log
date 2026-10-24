@@ -1,0 +1,72 @@
+G1_Q100_14dB: D 0.2848 S1 0.2471 S2 0.2113 B 0.1699 opt 0.1699 | q* 1.000 q_scan 1.590 offset 4 steps | noise-free q* 1.000
+G1_Q100_08dB: D 0.3352 S1 0.3105 S2 0.2916 B 0.2865 opt 0.2850 | q* 1.031 q_scan 1.427 offset 3 steps | noise-free q* 1.000
+G1_Q070_14dB: D 0.2800 S1 0.2420 S2 0.2065 B 0.5577 opt 0.1699 | q* 0.999 q_scan 1.540 offset 4 steps | noise-free q* 0.999
+G2_Q100_14dB: D 0.1151 S1 0.1115 S2 0.1133 B 0.1434 opt 0.1115 | q* 1.427 q_scan 1.590 offset 1 steps | noise-free q* 1.000
+G2_Q100_08dB: D 0.1833 S1 0.2069 S2 0.2404 B 0.3719 opt 0.1650 | q* 2.200 q_scan 1.427 offset -4 steps | noise-free q* 1.000
+G2_Q070_14dB: D 0.1141 S1 0.1116 S2 0.1145 B 0.4157 opt 0.1116 | q* 1.382 q_scan 1.540 offset 1 steps | noise-free q* 0.999
+G3_Q100_14dB: D 0.3125 S1 0.2613 S2 0.2163 B 0.1975 opt 0.1956 | q* 1.031 q_scan 1.427 offset 3 steps | noise-free q* 1.031
+G3_Q100_08dB: D 0.3413 S1 0.3126 S2 0.3072 B 0.3126 opt 0.3072 | q* 1.031 q_scan 1.280 offset 2 steps | noise-free q* 1.031
+G3_Q070_14dB: D 0.2973 S1 0.2468 S2 0.2073 B 1.1115 opt 0.1976 | q* 0.999 q_scan 1.382 offset 3 steps | noise-free q* 0.999
+G4_Q100_14dB: D 0.1101 S1 0.1419 S2 0.2075 B 0.1011 opt 0.0993 | q* 1.031 q_scan 0.925 offset -1 steps | noise-free q* 1.031
+G4_Q100_08dB: D 0.2113 S1 0.2710 S2 0.3810 B 0.1859 opt 0.1613 | q* 1.280 q_scan 0.925 offset -3 steps | noise-free q* 1.031
+G4_Q070_14dB: D 0.1012 S1 0.1195 S2 0.1646 B 0.2863 opt 0.0987 | q* 1.113 q_scan 0.999 offset -1 steps | noise-free q* 0.999
+G5_Q100_14dB: D 0.2671 S1 0.2132 S2 0.1839 B 0.1840 opt 0.1839 | q* 1.031 q_scan 1.280 offset 2 steps | noise-free q* 1.000
+G5_Q100_08dB: D 0.3166 S1 0.3091 S2 0.3558 B 0.3145 opt 0.3091 | q* 1.031 q_scan 1.149 offset 1 steps | noise-free q* 1.000
+G5_Q070_14dB: D 0.2502 S1 0.2011 S2 0.1841 B 1.1441 opt 0.1841 | q* 0.999 q_scan 1.240 offset 2 steps | noise-free q* 0.999
+G6_Q100_14dB: D 0.0872 S1 0.1151 S2 0.1595 B 0.0634 opt 0.0567 | q* 1.280 q_scan 0.830 offset -4 steps | noise-free q* 1.031
+G6_Q100_08dB: D 0.2807 S1 0.3719 S2 0.5313 B 0.1453 opt 0.1011 | q* 1.772 q_scan 0.745 offset -8 steps | noise-free q* 1.031
+G6_Q070_14dB: D 0.0940 S1 0.1263 S2 0.1790 B 0.1382 opt 0.0566 | q* 1.240 q_scan 0.804 offset -4 steps | noise-free q* 0.999
+G7_Q100_14dB: D 0.3125 S1 0.2800 S2 0.2489 B 0.2072 opt 0.2072 | q* 1.031 q_scan 1.590 offset 4 steps | noise-free q* 1.000
+G7_Q100_08dB: D 0.3710 S1 0.3496 S2 0.3316 B 0.3306 opt 0.3216 | q* 1.149 q_scan 1.590 offset 3 steps | noise-free q* 1.000
+G7_Q070_14dB: D 0.3029 S1 0.2709 S2 0.2403 B 0.5506 opt 0.2072 | q* 0.999 q_scan 1.540 offset 4 steps | noise-free q* 0.999
+G8_Q100_14dB: D 0.0856 S1 0.0684 S2 0.0617 B 0.0628 opt 0.0617 | q* 1.031 q_scan 1.280 offset 2 steps | noise-free q* 1.031
+G8_Q100_08dB: D 0.1220 S1 0.1174 S2 0.1303 B 0.1225 opt 0.1168 | q* 1.149 q_scan 1.149 offset 0 steps | noise-free q* 1.000
+G8_Q070_14dB: D 0.0797 S1 0.0650 S2 0.0629 B 0.3314 opt 0.0629 | q* 0.999 q_scan 1.240 offset 2 steps | noise-free q* 0.999
+{
+  "O1": {
+    "offset_steps": [
+      4,
+      1,
+      3,
+      -1,
+      2,
+      -4,
+      4,
+      2
+    ],
+    "modal_offset": 2,
+    "modal_count": 2,
+    "spread": 8,
+    "verdict": "offset not stable across models"
+  },
+  "O2": {
+    "S1": {
+      "n_improved": 17,
+      "n": 24,
+      "worst_rel": 0.34299934128492771,
+      "median_rel": -0.065805661983348418,
+      "verdict": "not safe"
+    },
+    "S2": {
+      "n_improved": 14,
+      "n": 24,
+      "worst_rel": 0.904427004044043,
+      "median_rel": -0.10301914387940997,
+      "verdict": "not safe"
+    }
+  },
+  "O3": {
+    "q_best_noise_free": [
+      1,
+      1,
+      1.0310134868605316,
+      1.0310134868605316,
+      1,
+      1.0310134868605316,
+      1,
+      1.0310134868605316
+    ],
+    "n_near_Q0": 8,
+    "verdict": "noise-free optimum at the upscaled Q0"
+  }
+}

@@ -1,0 +1,8 @@
+G3_Q100_14dB r=0 best 1.4267 flags 0 (30s, total 31s)
+G3_Q100_14dB r=1 best 1.4267 flags 0 (28s, total 59s)
+G3_Q100_14dB r=2 best 1.4267 flags 0 (27s, total 87s)
+G3_Q100_14dB r=3 best 1.4267 flags 0 (29s, total 116s)
+G3_Q100_14dB r=4 best 1.4267 flags 0 (28s, total 144s)
+G3_Q100_14dB r=5 best 1.4267 flags 0 (29s, total 173s)
+G3_Q100_14dB r=6 best 1.4267 flags 0 (28s, total 201s)
+DONE G3_Q100_14dB 0-6 201s

@@ -1,0 +1,8 @@
+G8_Q100_08dB r=0 best 1.2803 flags 0 (13s, total 13s)
+G8_Q100_08dB r=1 best 1.2803 flags 0 (18s, total 31s)
+G8_Q100_08dB r=2 best 1.1489 flags 0 (18s, total 49s)
+G8_Q100_08dB r=3 best 1.1489 flags 0 (18s, total 67s)
+G8_Q100_08dB r=4 best 1.2803 flags 0 (17s, total 84s)
+G8_Q100_08dB r=5 best 1.2803 flags 0 (17s, total 102s)
+G8_Q100_08dB r=6 best 1.1489 flags 0 (16s, total 118s)
+DONE G8_Q100_08dB 0-6 118s

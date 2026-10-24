@@ -1,0 +1,8 @@
+G2_Q070_14dB r=0 best 2.2000 flags 0 (18s, total 18s)
+G2_Q070_14dB r=1 best 2.2000 flags 0 (20s, total 38s)
+G2_Q070_14dB r=2 best 2.2000 flags 0 (20s, total 59s)
+G2_Q070_14dB r=3 best 2.2000 flags 0 (18s, total 77s)
+G2_Q070_14dB r=4 best 2.2000 flags 0 (22s, total 100s)
+G2_Q070_14dB r=5 best 2.2000 flags 0 (21s, total 121s)
+G2_Q070_14dB r=6 best 2.2000 flags 0 (22s, total 143s)
+DONE G2_Q070_14dB 0-6 143s

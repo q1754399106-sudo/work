@@ -1,0 +1,22 @@
+{
+  "stage": "run_offset",
+  "args": [
+    "2",
+    "1",
+    "0",
+    "6"
+  ],
+  "started_utc": "2026-10-24T18:11:01.858789+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_offset_20261025/scripts');run_offset(2,1,0,6);"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 49656,
+  "exit_code": 0,
+  "elapsed_seconds": 139.28200000000652
+}
