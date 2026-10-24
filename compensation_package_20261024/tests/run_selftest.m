@@ -2,7 +2,7 @@ function run_selftest()
 % Package checks: unit algebra, and exact reproduction of archived round-3 outputs
 % (round3_20261024/results) through the public entry.
 here=fileparts(mfilename('fullpath'));root=fileparts(here);addpath(root);addpath(fullfile(root,'core'),fullfile(root,'source'));
-maxNumCompThreads(4);data=fullfile(here,'data');
+data=fullfile(here,'data');startThreads=maxNumCompThreads;   % the entry pins 4 threads itself
 cases={'F4','Q-30','Strong',-30;'V4','Q+0','Strong',0;'F3','Q+0','Moderate',0};
 for k=1:size(cases,1)
  f=fullfile(data,[cases{k,1} '.mat']);if ~isfile(f),fprintf('skip %s (data not present)\n',cases{k,1});continue;end
@@ -14,6 +14,7 @@ for k=1:size(cases,1)
  e3=abs(b.qscan_factor-ref.scan.factor);
  fprintf('%s %s %s: standard diff %.2g, qscan+standard diff %.2g, factor diff %.2g, flags %d/%d\n',cases{k,1:3},e1,e2,e3,a.checks.optimization_flags,b.checks.optimization_flags);
  assert(e1<1e-10&&e2<1e-10&&e3==0,'Package does not reproduce the archived round-3 result.');
+ assert(maxNumCompThreads==startThreads,'q_compensate must restore the caller''s thread count.');
 end
 z=q_compensate(zeros(size(ob.D)),cm,'sigma',ones(1,size(ob.D,2)));assert(all(z.gather(:)==0),'All-dead input must give zero output.');
 fprintf('All package self-tests passed.\n');

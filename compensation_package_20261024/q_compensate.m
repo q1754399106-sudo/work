@@ -28,6 +28,9 @@ function out=q_compensate(D,cm,varargin)
 % out.applied_Q, out.qscan_factor, out.coherence, out.lambda, out.gain, out.fallback (per trace)
 % out.checks       optimisation flags, normal-equation residual, soft reproduction error
 root=fileparts(mfilename('fullpath'));addpath(fullfile(root,'core'),fullfile(root,'source'));
+% The coherence gain is sensitive to BLAS summation order (1 vs 4 threads differ by
+% ~3e-3 in output); fix 4 threads, as in the archived runs, and restore afterwards.
+previousThreads=maxNumCompThreads(4);restoreThreads=onCleanup(@()maxNumCompThreads(previousThreads)); %#ok<NASGU>
 p=inputParser;p.addParameter('mode','standard');p.addParameter('rule','standard');p.addParameter('offset',[]);p.addParameter('sigma',[]);p.parse(varargin{:});o=p.Results;
 [nt,nx]=size(D);cm.t=cm.t(:);assert(nt==numel(cm.t)&&all(isfinite(D(:))),'D must be finite, nt-by-nx with nt = numel(cm.t).');
 assert(~any(isfield(cm,{'truth','true_Q'})),'Do not pass truth fields.');
