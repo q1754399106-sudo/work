@@ -1,0 +1,17 @@
+{
+  "stage": "summarize_snr",
+  "args": [],
+  "started_utc": "2026-10-24T06:13:39.576552+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_bias_variance_20261024/scripts');summarize_snr();"
+  ],
+  "timeout_seconds": 21600,
+  "status": "FAILED",
+  "pid": 24948,
+  "exit_code": 1,
+  "elapsed_seconds": 683.8289999999979
+}

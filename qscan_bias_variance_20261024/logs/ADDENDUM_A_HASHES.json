@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-10-24T04:31:20.279307+00:00",
+  "git_head": "073b8db43bd1bc339a6e8491df462eb72c9780e8",
+  "note": "Addendum A registered while stage 2 was running and before it was summarized; no probe result existed.",
+  "hashes": {
+    "qscan_bias_variance_20261024/PLAN_ZH.md": "2c8545e1e24716f02f1ae7c86f8913f327429d66581208a200e6bf4a9a1639a5",
+    "qscan_bias_variance_20261024/scripts/run_snr_probe.m": "4a6f3362c30c0dca4446e314b1eccb879c3c6688cb93ca903d4486691a8e762a",
+    "qscan_bias_variance_20261024/scripts/summarize_snr.m": "f86559f1613abf248207ffc23be4794c9709248d956063b106690c83c1f70056",
+    "qscan_bias_variance_20261024/scripts/run_stage.py": "9b102c71e38c89a476843e9a9a2d744111dd7b9738586a8d360b360bbc204d56"
+  }
+}

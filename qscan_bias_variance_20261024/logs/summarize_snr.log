@@ -1,0 +1,5 @@
+F1 20 dB: base 0.0972 fixed1.28 0.1749 QScan 0.1749 (mse rel)
+F1 26 dB: base 0.0610 fixed1.28 0.1529 QScan 0.1529 (mse rel)
+F2 20 dB: base 0.0615 fixed1.28 0.0926 QScan 0.0919 (mse rel)
+F2 26 dB: base 0.0333 fixed1.28 0.0779 QScan 0.0779 (mse rel)
+DONE snr summary

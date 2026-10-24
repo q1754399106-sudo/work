@@ -1,0 +1,17 @@
+{
+  "stage": "check_reproduction",
+  "args": [],
+  "started_utc": "2026-10-24T04:12:36.175000+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_bias_variance_20261024/scripts');check_reproduction();"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 40828,
+  "exit_code": 0,
+  "elapsed_seconds": 65.54699999999139
+}

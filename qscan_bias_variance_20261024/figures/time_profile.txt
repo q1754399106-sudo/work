@@ -1,0 +1,1 @@
+按 100 ms 时间窗汇总全部 99 道的偏差²与方差变化（QScan 减 FullCalRefit），各窗贡献相加等于全道 ΔMSE。数据：analysis/time_profile.csv。

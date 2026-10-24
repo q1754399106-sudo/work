@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-10-24T04:20:14.632173+00:00",
+  "git_head": "073b8db43bd1bc339a6e8491df462eb72c9780e8",
+  "note": "Recorded after stage 0 and before stages 1-2; noise-free and replicate results did not exist yet.",
+  "hashes": {
+    "qscan_bias_variance_20261024/PLAN_ZH.md": "988f83ad4bfbd383730cfb8f02c665600ae3bf989341384790659166a20c4838",
+    "qscan_bias_variance_20261024/UPSTREAM_HASHES.json": "1a622d78cec2fa4e414ac0f1eff49abcc81a82c15510d8205b25d944fc12c975",
+    "qscan_bias_variance_20261024/scripts/bv_setup.m": "1e13de3c122ee705b8ceec0ce5b89a38c6c865ad1bb0bbad9b052cf6336e3ed1",
+    "qscan_bias_variance_20261024/scripts/check_reproduction.m": "9b9ab9dbf719ff9fe9317fb053e8be7f21d06d9fe861d17dc8208ff6827c0461",
+    "qscan_bias_variance_20261024/scripts/estimate_sigmas.m": "da4709a9f184a18140d00d577b15f28171c1caefa7e9fef6e718f9be1bdb9390",
+    "qscan_bias_variance_20261024/scripts/full_refit.m": "6d00bd3191101dea6c3505bf9a48b91bc3a7fceb731b73268bc9c1e5fab9f7a1",
+    "qscan_bias_variance_20261024/scripts/load_scene.m": "283df379d12b7a743f4598c8c8a41484416f33c1e2a8781d5032ed1bf03cbbda",
+    "qscan_bias_variance_20261024/scripts/noise_replica.m": "9cacf30c20e99e9f3c94bbd5e224dd3550cff52639a50d2c4a583c218822e348",
+    "qscan_bias_variance_20261024/scripts/qscan_select.m": "b52b1fd6a19df699aef2e3eaf8f6d6597f8f1b3a22c18f67ca7318d8696c32ba",
+    "qscan_bias_variance_20261024/scripts/run_clean.m": "ef4403cc016ac8d784ea8d9c9a39f307ce2760cab410b73bfd3a2b093b4dc291",
+    "qscan_bias_variance_20261024/scripts/run_replicates.m": "df370caae91bf65366feb16621f6e1f33e778375f9351787573b6c39a64802c7",
+    "qscan_bias_variance_20261024/scripts/summarize.m": "3e66f75fe0b3450648920d03f85a53c4771efdb8dd4657ee14eb273f389baeb2",
+    "qscan_bias_variance_20261024/scripts/hash_inputs.py": "7594a4d01e922e97e69d14bf47e4256037eacbbfb6a43b8056f60ac574767a8a",
+    "qscan_bias_variance_20261024/scripts/run_stage.py": "afbd9be0294b77d9d84b5fa7670d99ecebf2f2b461fd579cf9f1b98640b16dff",
+    "qscan_bias_variance_20261024/scripts/snapshot_upstream.py": "bf5838e70ce2e789ef0e1b4143df7f033d55fbafca5dbcd0679a0d9245eec041",
+    "qscan_bias_variance_20261024/analysis/reproduction_check.csv": "41b57af8483de05f56222e27dd2e4471d10753d591c76500fad899172918f092"
+  }
+}

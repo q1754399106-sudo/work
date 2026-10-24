@@ -1,0 +1,5 @@
+F1 Moderate noise 0 sigma 0 base 2.53e-08 scan 2.62e-08 split 0 obj 0 terms 3.33e-16 score 8.89e-11 factor 1.2803 ok=1 | refit 1.5s qscan 5.4s select 5.2s
+F1 Strong noise 0 sigma 0 base 2.53e-08 scan 2.6e-08 split 0 obj 0 terms 1.6e-16 score 2.39e-10 factor 1.2803 ok=1 | refit 0.7s qscan 3.6s select 3.2s
+F2 Moderate noise 0 sigma 0 base 2.52e-08 scan 2.4e-08 split 0 obj 0 terms 2.43e-16 score 2.21e-10 factor 1.2803 ok=1 | refit 0.7s qscan 4.9s select 4.2s
+F2 Strong noise 0 sigma 0 base 2.49e-08 scan 2.45e-08 split 0 obj 0 terms 1.94e-16 score 1.38e-10 factor 1.2803 ok=1 | refit 0.5s qscan 4.0s select 3.5s
+DONE stage 0

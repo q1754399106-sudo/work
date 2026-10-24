@@ -1,0 +1,22 @@
+{
+  "stage": "run_snr_probe",
+  "args": [
+    "1",
+    "26",
+    "1",
+    "40"
+  ],
+  "started_utc": "2026-10-24T05:33:44.616559+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_bias_variance_20261024/scripts');run_snr_probe(1,26,1,40);"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 46632,
+  "exit_code": 0,
+  "elapsed_seconds": 2375.1410000000033
+}

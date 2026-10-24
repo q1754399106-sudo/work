@@ -1,0 +1,21 @@
+{
+  "stage": "run_replicates",
+  "args": [
+    "1",
+    "1",
+    "100"
+  ],
+  "started_utc": "2026-10-24T04:20:25.540489+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_bias_variance_20261024/scripts');run_replicates(1,1,100);"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 37028,
+  "exit_code": 0,
+  "elapsed_seconds": 8719.890999999989
+}
