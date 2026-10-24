@@ -18,10 +18,12 @@ function out=q_compensate(D,cm,varargin)
 %   'sigma'   1-by-nx noise scale; default WindowMAD on 0.02-0.25 s (supply your own if
 %             that window contains signal)
 %
-% When to use which (see README_ZH.md): Q from a trusted independent reference ->
-% 'standard'; Q only from surface-data calibration -> 'qscan'. QScan is biased towards
-% under-compensation by about 10-28% on fine-layered (non-sparse) earth models, which
-% costs about 3% error when the given Q is already right.
+% When to use which (see README_ZH.md): default 'standard'. Use 'qscan' only when the
+% given Q is likely wrong by roughly 20-30% or more (Q x 0.7: MSE 63-79% lower than
+% 'standard'). QScan under-compensates fine-layered (non-sparse) earths by about
+% 10-28%; when Q is already right this costs 21-90% MSE on F1/F2 (repeated-noise test,
+% combo_bias_variance_20261024) because coherence shrinkage has already taken its
+% variance gain while its amplitude bias remains.
 %
 % out.gather       compensated section (source-wavelet domain, like FullCalRefit)
 % out.unshrunk     FullCalRefit at the applied Q;  out.soft  SoftGroupRefit at the applied Q
