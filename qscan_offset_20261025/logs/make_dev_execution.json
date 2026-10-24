@@ -1,0 +1,17 @@
+{
+  "stage": "make_dev",
+  "args": [],
+  "started_utc": "2026-10-24T17:56:07.231403+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_offset_20261025/scripts');make_dev();"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 7608,
+  "exit_code": 0,
+  "elapsed_seconds": 112.76499999998487
+}
