@@ -1,0 +1,9 @@
+﻿zero-phase wavelet_dictionary vs prune_dictionary: 1.01e-14
+Moderate Ricker FullCalRefit error 0.5580
+Moderate Phase24 FullCalRefit error 0.5463
+Moderate Phase24Ghost FullCalRefit error 0.5529
+Moderate phase scan J([0 8 16 24 32 40 48 56]) = [169641 169113 169097 169580 170530 171786 173136 174487] -> 16 deg
+Strong Ricker FullCalRefit error 0.6518
+Strong Phase24 FullCalRefit error 0.6424
+Strong Phase24Ghost FullCalRefit error 0.6550
+Strong phase scan J([0 8 16 24 32 40 48 56]) = [99416 99300 99330 99484 99716 100046 100454 100852] -> 8 deg
