@@ -1,0 +1,47 @@
+S01_F1_Q100_14dB: D 0.2253 fixed(cf) 0.1504 G 0.332 | q* 1.000/1.000 in-sample 1.000 qscan 1.280 noise-free 1.000 FullCal 1.031
+S02_F2_Q100_14dB: D 0.1046 fixed(cf) 0.0751 G 0.282 | q* 1.031/1.031 in-sample 1.031 qscan 1.280 noise-free 1.000 FullCal 1.149
+S05_F1_Q070_14dB: D 0.2110 fixed(cf) 0.1504 G 0.287 | q* 0.999/0.999 in-sample 0.999 qscan 1.240 noise-free 0.999 FullCal 0.999
+S06_F2_Q070_14dB: D 0.1014 fixed(cf) 0.0767 G 0.243 | q* 0.999/0.999 in-sample 0.999 qscan 1.240 noise-free 0.999 FullCal 1.113
+S03_F1_Q100_08dB: D 0.2957 fixed(cf) 0.2436 G 0.176 | q* 1.031/1.031 in-sample 1.031 qscan 1.280 noise-free 1.000 FullCal 1.149
+S04_F2_Q100_08dB: D 0.1469 fixed(cf) 0.1450 G 0.012 | q* 1.149/1.149 in-sample 1.149 qscan 1.149 noise-free 1.000 FullCal 1.427
+S07_F1_Q070_08dB: D 0.2845 fixed(cf) 0.2442 G 0.142 | q* 0.999/0.999 in-sample 0.999 qscan 1.240 noise-free 0.999 FullCal 1.113
+S08_F2_Q070_08dB: D 0.1503 fixed(cf) 0.1440 G 0.042 | q* 1.113/1.113 in-sample 1.113 qscan 1.240 noise-free 0.999 FullCal 1.540
+{
+  "K1": {
+    "G_crossfit": [
+      0.33212528802600505,
+      0.28236556551398662,
+      0.287129588569877,
+      0.24340516495826503
+    ],
+    "mean_G": 0.28625640176703343,
+    "verdict": "selection mechanism worth studying"
+  },
+  "K2": {
+    "q_best_halves": [
+      [
+        1,
+        1
+      ],
+      [
+        1.0310134868605316,
+        1.0310134868605316
+      ],
+      [
+        0.99868894856196311,
+        0.99868894856196311
+      ],
+      [
+        0.99868894856196311,
+        0.99868894856196311
+      ]
+    ],
+    "q_qscan": [
+      1.2802936303184953,
+      1.2802936303184953,
+      1.2401536117696967,
+      1.2401536117696967
+    ],
+    "verdict": "QScan systematically selects too high a Q (under-compensation)"
+  }
+}

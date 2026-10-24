@@ -1,0 +1,17 @@
+{
+  "stage": "summarize_sweep",
+  "args": [],
+  "started_utc": "2026-10-24T17:46:26.131332+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/combo_bias_variance_20261024/scripts');summarize_sweep();"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 51936,
+  "exit_code": 0,
+  "elapsed_seconds": 35.01600000000326
+}

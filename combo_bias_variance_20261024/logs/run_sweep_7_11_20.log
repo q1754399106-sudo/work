@@ -1,0 +1,11 @@
+S07_F1_Q070_08dB r=11 best 1.7716 flags 0 stage1 1 (28s, total 28s)
+S07_F1_Q070_08dB r=12 best 1.7716 flags 0 stage1 1 (25s, total 53s)
+S07_F1_Q070_08dB r=13 best 1.7716 flags 0 stage1 1 (25s, total 78s)
+S07_F1_Q070_08dB r=14 best 1.7716 flags 0 stage1 1 (22s, total 100s)
+S07_F1_Q070_08dB r=15 best 1.7716 flags 0 stage1 1 (24s, total 124s)
+S07_F1_Q070_08dB r=16 best 1.7716 flags 0 stage1 1 (25s, total 149s)
+S07_F1_Q070_08dB r=17 best 1.7716 flags 0 stage1 1 (24s, total 173s)
+S07_F1_Q070_08dB r=18 best 1.7716 flags 0 stage1 1 (24s, total 197s)
+S07_F1_Q070_08dB r=19 best 1.7716 flags 0 stage1 1 (23s, total 220s)
+S07_F1_Q070_08dB r=20 best 1.7716 flags 0 stage1 1 (23s, total 244s)
+DONE sweep S07_F1_Q070_08dB 11-20 244s

@@ -1,0 +1,12 @@
+S04_F2_Q100_08dB r=0 best 1.2803 flags 0 stage1 NaN (16s, total 16s)
+S04_F2_Q100_08dB r=1 best 1.2803 flags 0 stage1 1 (22s, total 38s)
+S04_F2_Q100_08dB r=2 best 1.1489 flags 0 stage1 1 (21s, total 59s)
+S04_F2_Q100_08dB r=3 best 1.1489 flags 0 stage1 1 (22s, total 82s)
+S04_F2_Q100_08dB r=4 best 1.1489 flags 0 stage1 1 (21s, total 103s)
+S04_F2_Q100_08dB r=5 best 1.1489 flags 0 stage1 1 (21s, total 124s)
+S04_F2_Q100_08dB r=6 best 1.1489 flags 0 stage1 1 (20s, total 144s)
+S04_F2_Q100_08dB r=7 best 1.1489 flags 0 stage1 1 (22s, total 167s)
+S04_F2_Q100_08dB r=8 best 1.1489 flags 0 stage1 1 (22s, total 189s)
+S04_F2_Q100_08dB r=9 best 1.1489 flags 0 stage1 1 (20s, total 209s)
+S04_F2_Q100_08dB r=10 best 1.1489 flags 0 stage1 1 (20s, total 229s)
+DONE sweep S04_F2_Q100_08dB 0-10 229s
