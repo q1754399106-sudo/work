@@ -95,3 +95,4 @@ fixed_baseline_round3_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
 qscan_bias_diagnostic_20261024/** -text
 qscan_layered_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
 qscan_layered_20261024/upstream/**/*.json filter=lfs diff=lfs merge=lfs -text
+round4_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,6 @@
+F3 Q-30: data global 0.5274 (c=1.59) | data layered 0.5674 (c=[0.93 2.2 2.2 2.2]) | ratio 1.076 | 65s
+F3 Q+0: data global 0.5353 (c=1.15) | data layered 0.6206 (c=[0.6 2.2 1.97 2.2]) | ratio 1.159 | 116s
+F3 Q+30: data global 0.5226 (c=0.83) | data layered 0.6075 (c=[0.6 1.43 1.15 2.2]) | ratio 1.163 | 168s
+F4 Q-30: data global 0.3201 (c=1.77) | data layered 0.3490 (c=[1.97 0.75 2.2 2.2]) | ratio 1.090 | 213s
+F4 Q+0: data global 0.3261 (c=1.28) | data layered 0.3497 (c=[1.43 0.6 1.97 1.03]) | ratio 1.072 | 255s
+F4 Q+30: data global 0.3145 (c=0.93) | data layered 0.3411 (c=[1.03 0.6 0.93 0.83]) | ratio 1.085 | 295s

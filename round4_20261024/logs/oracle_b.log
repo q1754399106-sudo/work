@@ -1,0 +1,6 @@
+F3 Q-30: nominal 1.0969 | global 0.5274 (c=1.59) | layered 0.5206 (c=[1.28 1.59 1.59 1.59]) | layered/global 0.987 | 97s
+F3 Q+0: nominal 0.5318 | global 0.5262 (c=1.03) | layered 0.5198 (c=[1.03 1.03 1.03 1.15]) | layered/global 0.988 | 190s
+F3 Q+30: nominal 0.5746 | global 0.5226 (c=0.83) | layered 0.5198 (c=[0.75 0.83 0.83 0.83]) | layered/global 0.995 | 247s
+F4 Q-30: nominal 0.7056 | global 0.3104 (c=1.59) | layered 0.2891 (c=[1.43 1.97 2.2 2.2]) | layered/global 0.931 | 414s
+F4 Q+0: nominal 0.3283 | global 0.3100 (c=1.15) | layered 0.2923 (c=[0.93 1.28 1.43 2.2]) | layered/global 0.943 | 523s
+F4 Q+30: nominal 0.3290 | global 0.3119 (c=0.83) | layered 0.2879 (c=[0.75 0.93 1.03 1.77]) | layered/global 0.923 | 627s
