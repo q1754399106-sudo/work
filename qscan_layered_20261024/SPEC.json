@@ -1,0 +1,11 @@
+{
+  "grid_min": 0.5,
+  "grid_max": 2.5,
+  "grid_points": 25,
+  "layer_range": 0.7,
+  "layer_points": 11,
+  "passes": 2,
+  "betas": [0, 1, 5, 25],
+  "errors_percent": [-50, -30, 0, 30, 50],
+  "field_start_percent": [-50, -30, 0, 40, 60]
+}
