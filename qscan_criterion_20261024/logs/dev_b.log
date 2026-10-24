@@ -1,0 +1,11 @@
+complex Q-50 Moderate flags=0 elapsed=1076.1s
+complex Q-30 Moderate flags=0 elapsed=1707.5s
+complex Q+0 Moderate flags=0 elapsed=2154.9s
+complex Q+30 Moderate flags=0 elapsed=2515.7s
+complex Q+50 Moderate flags=0 elapsed=2859.2s
+complex Q-50 Strong flags=0 elapsed=3101.9s
+complex Q-30 Strong flags=0 elapsed=3272.1s
+complex Q+0 Strong flags=0 elapsed=3391.8s
+complex Q+30 Strong flags=0 elapsed=3509.6s
+complex Q+50 Strong flags=0 elapsed=3631.7s
+DONE dev

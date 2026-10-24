@@ -1,0 +1,14 @@
+{错误使用 fileread (第 10 行)
+无法打开文件 D:\ChatGPT\研究\soft_refit_20261023\inputs\primary.json。没有这样的文件或目录。
+
+出错 load_dev (第 3 行)
+input=jsondecode(fileread(fullfile(softroot,'inputs',[which '.json'])));
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 list_scenes (第 7 行)
+  [cm,ref]=load_dev(soft,which{1});
+           ^^^^^^^^^^^^^^^^^^^^^^^
+出错 run_stats (第 9 行)
+ reproduce(root,bae);scenes=[list_scenes(bae,'dev') list_scenes(bae,'ind')];errs=spec.errors_percent;
+                             ^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

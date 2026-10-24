@@ -1,0 +1,8 @@
+{
+  "grid_min": 0.5,
+  "grid_max": 2.5,
+  "grid_points": 25,
+  "errors_percent": [-50, -30, 0, 30, 50],
+  "field_start_percent": [-50, -30, 0, 40, 60],
+  "criteria": ["A0", "A1", "A2", "A3"]
+}

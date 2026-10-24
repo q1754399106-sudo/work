@@ -90,3 +90,4 @@ field_vsp_u1320a_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
 round3_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
 qscan_bias_variance_20261024/** -text
 qscan_bias_variance_20261024/results/*.mat filter=lfs diff=lfs merge=lfs -text
+qscan_criterion_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
