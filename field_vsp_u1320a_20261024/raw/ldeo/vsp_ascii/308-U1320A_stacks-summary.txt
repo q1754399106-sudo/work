@@ -1,0 +1,49 @@
+IODP operator and logging contractor: LDEO-BRG
+Hole: U1320A
+Expedition: 308
+Location: Brazos-Trinity Basin IV (Gulf of Mexico)
+Latitude: 27° 18.0809'N
+Longitude: 94° 23.2537'W
+Logging date: June 9-10, 2005
+
+VSP STACK SUMMARY LISTING (one-way transit times)
+
+Gun and Hydrophone Coordinates:
+
+Gun Azimuth: 0.0 deg
+Gun Offset: 49.0 m
+Gun Depth (from Schlumberger Zero): 13.3 m
+Hydrophone Depth (from Schlumberger Zero): 13.3 m
+Seismic Reference Depth (from Schlumberger Zero): 11.3 m
+
+Other VSP constants:
+
+Surface Velocity: 1524 m/s
+
+Acquisition Break Time: Time between start of recording and first break
+
+Acquisition Transit Time: Time between shot firing (as recorded by blast phone) and first break. The shot is fired ~12 milliseconds after start of recording. The difference between Acquisition Break Time and Acquisition Transit Time is not constant and varies for each shot.
+
+
+    SHOTSEQUENCE         ACQUISITION_         ACQUISITION_         CABLE_LENGTH         ACQUISITION_         ACQUISITION_     
+      _NUMBER            SHOT_NUMBER           SHOT_TIME               (m)               BREAK_TIME            TRANSIT_       
+       -----                -----                -----                -----                 (s)                  TIME         
+       -----                -----                -----                -----                -----                 (s)          
+       -----                -----                -----                -----                -----                -----         
+
+                   14                 1000  11-06-2005:07:28:15          1769.999023             0.000000             0.000000
+                   15                 1001  11-06-2005:07:30:21          1769.999023             1.169167             1.156525
+                   13                 1002  11-06-2005:07:32:25          1748.497803             1.157993             1.145464
+                   12                 1003  11-06-2005:07:36:05          1746.097534             1.155833             1.143346
+                   10                 1004  11-06-2005:07:38:30          1729.897461             1.146998             1.134423
+                   11                 1005  11-06-2005:07:39:32          1729.897461             1.147083             1.134484
+                    9                 1006  11-06-2005:07:40:54          1709.999146             1.135418             1.122823
+                    8                 1007  11-06-2005:07:41:58          1689.999146             1.124164             1.111675
+                    7                 1008  11-06-2005:07:43:01          1674.799805             1.114583             1.102012
+                    6                 1009  11-06-2005:07:46:01          1659.897583             1.105448             1.092856
+                    5                 1010  11-06-2005:07:46:51          1639.897705             1.093478             1.080864
+                    4                 1011  11-06-2005:07:47:38          1624.998047             1.084375             1.071756
+                    3                 1012  11-06-2005:07:48:24          1611.998291             1.076463             1.063838
+                    2                 1013  11-06-2005:07:49:14          1589.999268             1.062616             1.049976
+                    1                 1014  11-06-2005:07:49:57          1579.999390             1.056540             1.043935
+                    0                 1015  11-06-2005:07:50:22          1564.998169             1.047466             1.034850

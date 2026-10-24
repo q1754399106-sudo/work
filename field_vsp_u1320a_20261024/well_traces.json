@@ -1,0 +1,78 @@
+[
+ {
+  "line": "3677-32",
+  "distance_km": 1.311,
+  "traces": 6076,
+  "sample_interval_s": 0.004,
+  "samples": 3750,
+  "well_trace_index_1based": 3826,
+  "well_trace_sp": 2850,
+  "sp_range": [
+   1,
+   3975
+  ],
+  "first_strong_arrival_s": 1.972,
+  "band_5_95pct_Hz": [
+   14.0,
+   52.0
+  ],
+  "peak_Hz": 38.0
+ },
+ {
+  "line": "3685-32",
+  "distance_km": 1.798,
+  "traces": 6078,
+  "sample_interval_s": 0.004,
+  "samples": 3750,
+  "well_trace_index_1based": 2236,
+  "well_trace_sp": 2850,
+  "sp_range": [
+   1,
+   3908
+  ],
+  "first_strong_arrival_s": 1.98,
+  "band_5_95pct_Hz": [
+   9.0,
+   59.0
+  ],
+  "peak_Hz": 43.0
+ },
+ {
+  "line": "4500-32",
+  "distance_km": 2.827,
+  "traces": 4980,
+  "sample_interval_s": 0.004,
+  "samples": 3750,
+  "well_trace_index_1based": 2568,
+  "well_trace_sp": 2220,
+  "sp_range": [
+   1,
+   3426
+  ],
+  "first_strong_arrival_s": 1.964,
+  "band_5_95pct_Hz": [
+   13.0,
+   59.0
+  ],
+  "peak_Hz": 36.0
+ },
+ {
+  "line": "4508-32",
+  "distance_km": 0.452,
+  "traces": 5184,
+  "sample_interval_s": 0.004,
+  "samples": 3750,
+  "well_trace_index_1based": 2566,
+  "well_trace_sp": 2220,
+  "sp_range": [
+   1,
+   3529
+  ],
+  "first_strong_arrival_s": 1.98,
+  "band_5_95pct_Hz": [
+   16.0,
+   59.0
+  ],
+  "peak_Hz": 36.0
+ }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "survey": "b-12-88-gm",
+    "line": "4508-32",
+    "distance_km": 0.452,
+    "nearest_sp": "2220",
+    "lat": 27.30295,
+    "lon": -94.38335
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3677-32",
+    "distance_km": 1.311,
+    "nearest_sp": "2850",
+    "lat": 27.28963,
+    "lon": -94.38901
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3685-32",
+    "distance_km": 1.798,
+    "nearest_sp": "2850",
+    "lat": 27.31745,
+    "lon": -94.38924
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4500-32",
+    "distance_km": 2.827,
+    "nearest_sp": "2220",
+    "lat": 27.30262,
+    "lon": -94.41614
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4516-32",
+    "distance_km": 3.586,
+    "nearest_sp": "2220",
+    "lat": 27.30323,
+    "lon": -94.35133
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3669-32",
+    "distance_km": 4.564,
+    "nearest_sp": "2850",
+    "lat": 27.26031,
+    "lon": -94.38853
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3693-32",
+    "distance_km": 5.212,
+    "nearest_sp": "2850",
+    "lat": 27.34818,
+    "lon": -94.38962
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4492-32",
+    "distance_km": 5.9,
+    "nearest_sp": "2220",
+    "lat": 27.30247,
+    "lon": -94.44726
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4524-32",
+    "distance_km": 6.684,
+    "nearest_sp": "2210",
+    "lat": 27.29901,
+    "lon": -94.31997
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3661-32",
+    "distance_km": 7.939,
+    "nearest_sp": "2860",
+    "lat": 27.23005,
+    "lon": -94.3832
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3701-32",
+    "distance_km": 8.454,
+    "nearest_sp": "2850",
+    "lat": 27.37734,
+    "lon": -94.39011
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4484-32",
+    "distance_km": 9.194,
+    "nearest_sp": "2220",
+    "lat": 27.30212,
+    "lon": -94.48061
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4532-32",
+    "distance_km": 9.849,
+    "nearest_sp": "2220",
+    "lat": 27.30394,
+    "lon": -94.28792
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3653-32",
+    "distance_km": 11.032,
+    "nearest_sp": "2850",
+    "lat": 27.20213,
+    "lon": -94.3878
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3709-32",
+    "distance_km": 11.834,
+    "nearest_sp": "2850",
+    "lat": 27.40774,
+    "lon": -94.39047
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4476-32",
+    "distance_km": 12.461,
+    "nearest_sp": "2220",
+    "lat": 27.30175,
+    "lon": -94.51367
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4540-32",
+    "distance_km": 13.129,
+    "nearest_sp": "2210",
+    "lat": 27.29985,
+    "lon": -94.2547
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3645-32",
+    "distance_km": 14.311,
+    "nearest_sp": "2850",
+    "lat": 27.17265,
+    "lon": -94.38755
+  },
+  {
+    "survey": "b-13-88-gm",
+    "line": "3717-32",
+    "distance_km": 14.912,
+    "nearest_sp": "2850",
+    "lat": 27.43543,
+    "lon": -94.39067
+  },
+  {
+    "survey": "b-12-88-gm",
+    "line": "4468-32",
+    "distance_km": 15.465,
+    "nearest_sp": "2220",
+    "lat": 27.30141,
+    "lon": -94.54407
+  }
+]
