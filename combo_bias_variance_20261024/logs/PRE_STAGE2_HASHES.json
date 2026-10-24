@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-10-24T17:03:52.363472+00:00",
+  "git_head": "15b20c9de711e322fd3d89821578a5e6aa4bc41d",
+  "note": "After the one-replicate smoke check (S01 r=1, reproduction only), before the sweep.",
+  "hashes": {
+    "PLAN_STAGE2_ZH.md": "121db2f67cbc8e615c4fb3c8ae75362e608cbc83331e48a88a4f8c7015f5b82a",
+    "PLAN_ZH.md": "901b701c81d777bed5a719141876aeb1e8caf4c5cb3d6580ea8936a8340bcb44",
+    "cache/SNAPSHOT.json": "0b896b5935261fee7887ade5b2ac3c8b3dc53d98cdfbed1cee3aa1905368e423",
+    "scripts/cb_setup.m": "a1312d9863c81d9cecab8768e0a80ea8c0c58349276818ccd7e989d0d3c8a687",
+    "scripts/combo_outputs.m": "3f17589c1f4a9aa283f028aa84c13418c6b1324f6e9d61ec78debe0ef6978123",
+    "scripts/diag_threads.m": "51f24eee8b12cab984b2d118c6e11542724be44feef30f3e67071f87ffe616da",
+    "scripts/estimate_sigmas.m": "da4709a9f184a18140d00d577b15f28171c1caefa7e9fef6e718f9be1bdb9390",
+    "scripts/full_refit.m": "6d00bd3191101dea6c3505bf9a48b91bc3a7fceb731b73268bc9c1e5fab9f7a1",
+    "scripts/hash_prerun.py": "610e84fb5bc55cf1575f000328caff5d2588fcf3273ce08f4617eef010c0acb0",
+    "scripts/hash_stage2.py": "2065324f8c21d350c72cd12253170ab968a1d3753d7b0071e00dfd7bcadfe127",
+    "scripts/load_scene.m": "7fafdc93fa2e2bab033e93010720b6c5c2c668797b89cf1b4e3119ac6c9870ac",
+    "scripts/make_figures.py": "d44fc544714fcd83f763f4c713902482492ffd526394e02b4b4e5328bc4907ba",
+    "scripts/noise_replica.m": "9cacf30c20e99e9f3c94bbd5e224dd3550cff52639a50d2c4a583c218822e348",
+    "scripts/qscan_select.m": "b52b1fd6a19df699aef2e3eaf8f6d6597f8f1b3a22c18f67ca7318d8696c32ba",
+    "scripts/run_reps.m": "8a51e7ba2f10a6b7a44d000e42a4967e46b540c9dd2cc04f3d33af103115c6b8",
+    "scripts/run_stage.py": "fd4a5cf3d9217633feff6da09c1b8a0ae6ec41821bba1f6b87d4474b4486adad",
+    "scripts/run_stage0.m": "aeb1b067e0ddb244e28c7a67373f7f3bcbee889b620c32fe460d3083492aea30",
+    "scripts/run_sweep.m": "cbb5eb21a72c587b9df87673351f0176120cf4b7c8cb4b0205b0e36ab11a98ea",
+    "scripts/snapshot_inputs.py": "f99bc315b569958f03822592aec07f01c7a7fda861e0e52b08fd461180ba3025",
+    "scripts/summarize.m": "7109ab0af2959026bdde940a9b016e9f42af8bf4bce3b47dd78c020387670aa5",
+    "scripts/summarize_sweep.m": "44ae44f558f6eb89a0a6d6a3d25dcc9829a5b25bb935eb5e268081e6f7ae9818"
+  }
+}
