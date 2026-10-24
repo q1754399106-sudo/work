@@ -1,0 +1,5 @@
+F1 Moderate c=1.2803 phi=0.766 | truth dMSE +0.376 (dBias2 +0.0894 = |dm|^2 0.0752 + 2b.dm +0.0139) | H0 +0.743 (dB2 +0.0994 dVar -0.0371) | H1 -0.771 | 38s
+F1 Strong c=1.2803 phi=0.704 | truth dMSE +0.008 (dBias2 +0.0880 = |dm|^2 0.0629 + 2b.dm +0.0242) | H0 -0.040 (dB2 +0.1014 dVar -0.1115) | H1 -0.612 | 27s
+F2 Moderate c=1.2803 phi=0.540 | truth dMSE -0.080 (dBias2 +0.0470 = |dm|^2 0.0441 + 2b.dm +0.0023) | H0 -0.049 (dB2 +0.0719 dVar -0.0802) | H1 -0.640 | 32s
+F2 Strong c=1.2803 phi=0.483 | truth dMSE -0.295 (dBias2 +0.0291 = |dm|^2 0.0263 + 2b.dm +0.0012) | H0 -0.252 (dB2 +0.1010 dVar -0.2216) | H1 -0.568 | 26s
+DONE probe

@@ -92,3 +92,4 @@ qscan_bias_variance_20261024/** -text
 qscan_bias_variance_20261024/results/*.mat filter=lfs diff=lfs merge=lfs -text
 qscan_criterion_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
 fixed_baseline_round3_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+qscan_bias_diagnostic_20261024/** -text

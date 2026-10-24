@@ -1,0 +1,14 @@
+masked_refit full mask: output diff 0, prediction vs G*S 3.22e-15
+bae F1 Moderate: obs replay 0, target 0, window end 0.209 s, phi 0.419 (full window 0.766), sigma ratio 0.910
+bae F1 Strong: obs replay 0, target 0, window end 0.209 s, phi 0.409 (full window 0.704), sigma ratio 0.910
+bae F2 Moderate: obs replay 0, target 0, window end 0.213 s, phi 0.418 (full window 0.540), sigma ratio 0.940
+bae F2 Strong: obs replay 0, target 0, window end 0.213 s, phi 0.446 (full window 0.483), sigma ratio 0.948
+qc F3 Moderate: obs replay 0, target 0, window end 0.205 s, phi 0.413 (full window 0.616), sigma ratio 0.868
+qc F3 Strong: obs replay 0, target 0, window end 0.205 s, phi 0.395 (full window 0.589), sigma ratio 0.869
+qc F4 Moderate: obs replay 0, target 0, window end 0.216 s, phi 0.409 (full window 0.422), sigma ratio 0.941
+qc F4 Strong: obs replay 0, target 0, window end 0.216 s, phi 0.414 (full window 0.428), sigma ratio 0.966
+r3 F3 Moderate: obs replay 0, target 0, window end 0.217 s, phi 0.406 (full window 0.386), sigma ratio 0.926
+r3 F3 Strong: obs replay 0, target 0, window end 0.217 s, phi 0.399 (full window 0.402), sigma ratio 0.941
+r3 F4 Moderate: obs replay 0, target 0, window end 0.205 s, phi 0.410 (full window 0.579), sigma ratio 0.878
+r3 F4 Strong: obs replay 0, target 0, window end 0.205 s, phi 0.415 (full window 0.538), sigma ratio 0.911
+DONE stage 0

@@ -1,0 +1,13 @@
+g001 F1 Moderate: sigma_hat/true 0.968 phi 0.417 (true 0.448) |x1|^2/|T|^2 0.908 | B0 +0.941 -> oracle-noise +0.870 (dB2 +0.1006 dVar -0.0315)
+g002 F1 Moderate: sigma_hat/true 0.984 phi 0.399 (true 0.442) |x1|^2/|T|^2 0.900 | B0 +0.951 -> oracle-noise +0.889 (dB2 +0.0990 dVar -0.0313)
+g003 F1 Moderate: sigma_hat/true 0.971 phi 0.418 (true 0.448) |x1|^2/|T|^2 0.901 | B0 +0.925 -> oracle-noise +0.854 (dB2 +0.0999 dVar -0.0317)
+g004 F1 Strong: sigma_hat/true 0.943 phi 0.404 (true 0.445) |x1|^2/|T|^2 0.967 | B0 +0.103 -> oracle-noise +0.045 (dB2 +0.1014 dVar -0.0915)
+g005 F1 Strong: sigma_hat/true 0.983 phi 0.403 (true 0.446) |x1|^2/|T|^2 0.963 | B0 +0.106 -> oracle-noise +0.069 (dB2 +0.1013 dVar -0.0868)
+g006 F1 Strong: sigma_hat/true 1.008 phi 0.418 (true 0.444) |x1|^2/|T|^2 0.958 | B0 +0.054 -> oracle-noise +0.056 (dB2 +0.1020 dVar -0.0900)
+g015 F2 Moderate: sigma_hat/true 0.954 phi 0.388 (true 0.446) |x1|^2/|T|^2 1.088 | B0 +0.070 -> oracle-noise -0.003 (dB2 +0.0704 dVar -0.0710)
+g016 F2 Moderate: sigma_hat/true 0.973 phi 0.420 (true 0.446) |x1|^2/|T|^2 1.088 | B0 +0.062 -> oracle-noise +0.037 (dB2 +0.0718 dVar -0.0664)
+g017 F2 Moderate: sigma_hat/true 0.944 phi 0.418 (true 0.448) |x1|^2/|T|^2 1.096 | B0 +0.080 -> oracle-noise +0.016 (dB2 +0.0721 dVar -0.0697)
+g018 F2 Strong: sigma_hat/true 0.973 phi 0.395 (true 0.445) |x1|^2/|T|^2 1.381 | B0 -0.195 -> oracle-noise -0.220 (dB2 +0.1017 dVar -0.1971)
+g019 F2 Strong: sigma_hat/true 0.988 phi 0.411 (true 0.450) |x1|^2/|T|^2 1.390 | B0 -0.193 -> oracle-noise -0.197 (dB2 +0.0449 dVar -0.1314)
+g020 F2 Strong: sigma_hat/true 0.979 phi 0.416 (true 0.447) |x1|^2/|T|^2 1.377 | B0 -0.197 -> oracle-noise -0.203 (dB2 +0.0442 dVar -0.1330)
+DONE posthoc

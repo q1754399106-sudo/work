@@ -1,0 +1,20 @@
+{
+  "stage": "run_diagnostics",
+  "args": [
+    "4",
+    "4"
+  ],
+  "started_utc": "2026-10-24T08:30:51.983823+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/qscan_bias_diagnostic_20261024/scripts');run_diagnostics(4,4);"
+  ],
+  "timeout_seconds": 21600,
+  "status": "COMPLETED",
+  "pid": 31124,
+  "exit_code": 0,
+  "elapsed_seconds": 2319.485000000015
+}
