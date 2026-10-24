@@ -1,0 +1,6 @@
+.venv/
+.tools/
+data/
+logs/
+.cache/
+*.pid
