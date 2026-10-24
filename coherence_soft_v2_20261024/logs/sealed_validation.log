@@ -1,0 +1,29 @@
+﻿V4 Q-30 Moderate done 10.2s
+V4 Q-30 Strong done 17.8s
+V4 Q-10 Moderate done 24.3s
+V4 Q-10 Strong done 30.6s
+V4 Q+0 Moderate done 35.3s
+V4 Q+0 Strong done 40.9s
+V4 Q+10 Moderate done 46.4s
+V4 Q+10 Strong done 52.5s
+V4 Q+30 Moderate done 59.2s
+V4 Q+30 Strong done 65.8s
+V5 Q-30 Moderate done 299.7s
+V5 Q-30 Strong done 512.6s
+V5 Q-10 Moderate done 770.8s
+V5 Q-10 Strong done 1004.4s
+V5 Q+0 Moderate done 1275.1s
+V5 Q+0 Strong done 1522.9s
+V5 Q+10 Moderate done 1807.7s
+V5 Q+10 Strong done 2070.2s
+V5 Q+30 Moderate done 2377.6s
+V5 Q+30 Strong done 2658.9s
+method               overall    weak   fault   pinch    lowE  Qunder    Q>=0      V4      V5   >1
+FullCalRefit          1.1390  1.0220  1.1543  1.0599  1.0905  1.1523  1.1301  1.2542  1.0238    2
+PrunedFullCalRefit    1.0363  1.5903  1.0423  1.0836  1.1570  1.0625  1.0188  1.0214  1.0512    2
+SoftGroupRefit        1.0764  0.9966  1.0834  1.0306  1.0402  1.0753  1.0771  1.1417  1.0110    2
+v1                    1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000    2
+Standard              0.9789  1.0158  0.9782  0.9894  0.9843  0.9821  0.9768  0.9624  0.9954    2
+Robust                0.9666  1.0149  0.9660  0.9818  0.9495  0.9024  1.0094  0.9534  0.9798    0
+Standard gates: {"overall":false,"weak":true,"fault":true,"pinch":true,"Q_under":true} all_pass=1
+Standard gates:  all_pass=

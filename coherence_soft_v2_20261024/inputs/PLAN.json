@@ -1,0 +1,26 @@
+{
+  "name": "CoherenceSoftRefit v2 (staged development with interim checks)",
+  "registered": "2026-10-24, before any v2 metric was computed",
+  "baseline": "CoherenceSoftRefit v1 (lambda_min=1, lambda_max=8) from coherence_soft_20261023; SoftGroupRefit and PrunedFullCalRefit reported alongside.",
+  "development_data": "50 scenes, all already seen: 20 soft_refit_20261023 scenes (four-layer and complex, Moderate/Strong, Q -30..+30%) and the 30 coherence_soft_20261023 V1-V3 scenes. Support, Q, wavelet, sigma and observations fixed per scene; only the gain changes.",
+  "metrics": "overall relative error; weak-event amplitude error (four-layer family); fault and pinch-out region errors (V2, V3); low-energy error (V3); background leakage; count of scenes with overall error > 1.",
+  "stage_gate": "A stage is kept only if, versus the current best rule on all 50 scenes: mean overall-error ratio <= 0.99, mean weak-error ratio <= 1.02, mean fault and pinch-out ratios <= 1.02. Otherwise it is dropped and the registered fallback for that stage is tried once; if that also fails, the stage is abandoned and the current best rule is carried forward unchanged.",
+  "stages": {
+    "A": {
+      "primary": "Extend lambda_max to {8, 12, 16, 32} with lambda_min in {0.5, 1}; plus hybrid deletion: gain = 0 for non-fallback groups with c < tau, tau in {0.1, 0.2}.",
+      "fallback": "If no candidate passes, keep v1 lambdas."
+    },
+    "B": {
+      "diagnosis": "Regenerate the V3 coherent interference and multiple components (same seeds) and split the v1 error into interference, ground-roll, multiple-dominated and other samples (truth-side, diagnosis only).",
+      "primary": "If interference dominates: discount c for groups whose best-match lag is consistent with one global straight line across >= 60% of the gather (slant-stack peak on the unshrunk gather).",
+      "fallback": "If multiples dominate or the primary fails: discount c for groups lying at a fixed period (0.18 s / 0.36 s searched from the data autocorrelation) below a stronger group on the same trace."
+    },
+    "C": {
+      "primary": "Q-uncertainty energy: refit each fixed support with Q x 0.8 and Q x 1.25 dictionaries, VQ_g = mean ||W r_g(alt) - W r_g||^2; gain = E / (E + lambda(c) V + kappa VQ), kappa in {0.25, 0.5, 1}.",
+      "fallback": "Gain cap: limit each group's output-to-observation energy ratio by the amplification implied by Q x 1.25; scale down groups exceeding it.",
+      "extra_check": "Mean overall ratio over Q -30/-10 scenes and the count of scenes with error > 1 are reported for every candidate."
+    }
+  },
+  "final_validation": "After all stages, freeze code and parameters, then generate sealed models never used before: V4 new four-layer variant (new events, dip, fault, pinch-out, Q), V5 new complex geology with independent calibration; new noise seeds; Q -30..+30%. Gates versus v1: overall ratio <= 0.97, weak <= 1.02, fault <= 1.02, pinch-out <= 1.02, Q-under overall <= 1.00. Thresholds fixed now.",
+  "limits": "Same simulator family; scenes share models; no significance claims."
+}

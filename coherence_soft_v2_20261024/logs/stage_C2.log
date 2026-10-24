@@ -1,0 +1,27 @@
+﻿[C] 10/50 scenes 4.2s
+[C] 20/50 scenes 5.5s
+[C] 30/50 scenes 6.8s
+[C] 40/50 scenes 8.0s
+[C] 50/50 scenes 10.7s
+label                      overall    weak   fault   pinch    lowE    leak  Qunder    cplx    >1 pass
+A_0.5_16                    1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000     2 0
+VQcoh_k0.25                 0.9970  0.9996  0.9983  0.9978  0.9929  0.9900  0.9922  0.9950     2 0
+VQcoh_k0.5                  0.9950  0.9993  0.9973  0.9965  0.9870  0.9812  0.9865  0.9921     2 0
+VQcoh_k1                    0.9921  0.9988  0.9960  0.9948  0.9776  0.9657  0.9782  0.9892     2 0
+VQcoh_k2                    0.9889  0.9984  0.9946  0.9929  0.9639  0.9398  0.9673  0.9885     2 1
+VQ_k0.25                    0.9842  0.9972  0.9936  0.9793  0.9660  0.9666  0.9145  0.9831     0 1
+SoftGroupRefit              1.1224  0.9984  1.1252  1.0348  (ratio to reference; >1 scenes 3)
+PrunedFullCalRefit          1.0507  1.4926  1.0436  1.0020  (ratio to reference; >1 scenes 4)
+[C1s] 10/50 scenes 10.6s
+[C1s] 20/50 scenes 13.5s
+[C1s] 30/50 scenes 16.4s
+[C1s] 40/50 scenes 19.2s
+[C1s] 50/50 scenes 29.5s
+label                      overall    weak   fault   pinch    lowE    leak  Qunder    cplx    >1 pass
+A_0.5_16                    1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000     2 0
+VQ1s_k0.25                  0.9914  0.9981  0.9948  0.9910  0.9850  0.9825  0.9599  0.9912     2 0
+VQ1scoh_k0.25               0.9989  0.9997  0.9993  0.9996  0.9974  0.9948  0.9974  0.9986     2 0
+VQ1s_k0.5                   0.9872  0.9967  0.9926  0.9907  0.9726  0.9664  0.9278  0.9874     2 1
+VQ1scoh_k0.5                0.9979  0.9995  0.9986  0.9992  0.9949  0.9898  0.9950  0.9975     2 0
+SoftGroupRefit              1.1224  0.9984  1.1252  1.0348  (ratio to reference; >1 scenes 3)
+PrunedFullCalRefit          1.0507  1.4926  1.0436  1.0020  (ratio to reference; >1 scenes 4)

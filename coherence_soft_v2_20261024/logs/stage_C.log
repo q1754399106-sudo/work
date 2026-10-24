@@ -1,0 +1,12 @@
+﻿[C] 10/50 scenes 22.5s
+[C] 20/50 scenes 27.2s
+[C] 30/50 scenes 32.5s
+[C] 40/50 scenes 37.4s
+[C] 50/50 scenes 56.8s
+label                      overall    weak   fault   pinch    lowE    leak  Qunder    cplx    >1 pass
+A_0.5_16                    1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000     2 0
+VQ_k0.25                    0.9842  0.9972  0.9936  0.9793  0.9660  0.9666  0.9145  0.9831     0 1
+VQ_k0.5                     0.9911  0.9965  1.0003  1.0160  0.9473  0.9413  0.8776  0.9980     0 0
+VQ_k1                       1.0278  0.9995  1.0286  1.1288  0.9258  0.9014  0.8543  1.0395     0 0
+SoftGroupRefit              1.1224  0.9984  1.1252  1.0348  (ratio to reference; >1 scenes 3)
+PrunedFullCalRefit          1.0507  1.4926  1.0436  1.0020  (ratio to reference; >1 scenes 4)
