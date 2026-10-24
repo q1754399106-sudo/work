@@ -11,5 +11,11 @@
   "initialMovedCount": 266,
   "initialMovedBytes": 120059322,
   "cFreeAfter": 1688858624,
-  "note": "One 43-byte synthetic old temporary file is included in initial moved totals. Expiry test used an artificial 31-day-old record. Validation fixtures retained."
+  "note": "One 43-byte synthetic old temporary file is included in initial moved totals. Expiry test used an artificial 31-day-old record. Validation fixtures retained.",
+  "schedulerVerified": true,
+  "schedulerLastResult": 0,
+  "schedulerLastRun": "2026-10-24T13:45:39.0000000+08:00",
+  "schedulerNextRun": "2026-10-25T09:00:00.0000000+08:00",
+  "schedulerPriority": 4,
+  "schedulerEngine": "PowerShell 7.6.5"
 }

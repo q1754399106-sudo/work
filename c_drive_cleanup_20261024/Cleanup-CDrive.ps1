@@ -55,6 +55,7 @@ try {
 
 $report = [ordered]@{
     startedUtc = $now.ToString('o'); mode = $(if ($Apply) { 'apply' } else { 'preview' })
+    powerShellVersion = $PSVersionTable.PSVersion.ToString()
     cFreeBefore = (Get-FreeBytes 'C:\'); cFreeAfter = 0
     eligibleCount = 0; eligibleBytes = [long]0; movedCount = 0; movedBytes = [long]0
     purgedCount = 0; purgedBytes = [long]0; skipped = 0
@@ -62,6 +63,7 @@ $report = [ordered]@{
     sample = [Collections.Generic.List[object]]::new()
 }
 try {
+    Save-Json @{startedUtc=$now.ToString('o'); processId=$PID; powerShellVersion=$PSVersionTable.PSVersion.ToString(); mode=$report.mode} (Join-Path $stateRoot 'started.json')
     # Only purge files created by this script, after 30 days and an unchanged SHA-256.
     foreach ($meta in @(Get-ChildItem -LiteralPath $quarantine -File -Filter '*.json' -Force)) {
         try {

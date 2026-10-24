@@ -1,6 +1,10 @@
 # C 盘自动维护
 
-每天通过当前聊天的自动任务执行。部署副本位于 `D:\ChatGPT\CDriveMaintenance\Cleanup-CDrive.ps1`，该副本是持久运行依赖，不属于研究仓库工作副本清理范围。
+由 Windows 计划任务 `Codex-CDriveSafeCleanup` 每天台北时间 09:00 执行，电脑开机且当前用户登录时运行，错过计划时间后在条件满足时补跑，不依赖 Codex 保持打开。部署副本位于 `D:\ChatGPT\CDriveMaintenance\Cleanup-CDrive.ps1`，该副本是持久运行依赖，不属于研究仓库工作副本清理范围。
+
+任务使用本机已验证的 PowerShell 7，以当前用户普通权限隐藏运行，防止同一任务重叠，最长运行 10 分钟。脚本自带独占锁。`Install-ScheduledTask.ps1` 在 PowerShell 7 中用于首次安装任务；已有同名任务时停止，避免覆盖。状态和上次运行结果可在 Windows 任务计划程序中查看，执行详情记录在下面的本地日志中。暂停可执行 `Disable-ScheduledTask -TaskName Codex-CDriveSafeCleanup`，恢复使用 `Enable-ScheduledTask -TaskName Codex-CDriveSafeCleanup`。
+
+任务使用普通进程优先级，使其在研究计算持续运行时仍能获得执行时间。
 
 只处理当前用户 `AppData\Local\Temp` 内的 `.tmp/.temp/.log/.etl/.dmp/.cache`，以及 `AppData\Local\CrashDumps` 内的 `.dmp`。创建时间和最后修改时间均须超过 7 天。跳过占用、只读、系统文件和所有重解析点。不会递归删除目录，不处理研究资料、下载、回收站、浏览器登录数据和 Windows 系统目录。
 
