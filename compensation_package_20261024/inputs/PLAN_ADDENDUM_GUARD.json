@@ -1,0 +1,14 @@
+{
+  "registered": "2026-10-24, after the interim check on V4 + F1/F2 and before generating F3/F4",
+  "interim_outcome": "QScan+Standard fails the development weak check (1.052 vs QScanRefit) and G4 on F1/F2 (Q0 1.128 vs Standard); QScan+v1 fails weak (1.032); QScan+Soft passes the development extras and G1-G3 but also fails G4. Per the registered switch rule the carried combination is QScan+Soft. G4 fails for all because QScan selects factor 1.28 at the true Q on the independent forward (known bias).",
+  "status_of_F1_F2": "Seen during the interim check; they are now development data.",
+  "new_rule": "GuardedQScan: use the QScan factor only if the relative objective gain (J(grid point nearest 1) - J(best)) / J(grid point nearest 1) > tau, else keep the calibrated/used Q. tau = 0.01, fixed now (a round value between the development Q +-10% gains and the Q +-30% gains on V4). Shrinkage after the guard: Soft (registered carry), Standard and v1 reported.",
+  "confirmation": "New F3/F4 (make_F34.m: same Kennett forward, new seeds 2026102471/2026102481 and new macro models), 7 Q errors x 2 noise levels = 28 scenes, never used before.",
+  "gates_on_F3_F4_for_GuardedQScan+Soft": {
+    "H1": "mean overall-error ratio vs QScanRefit <= 0.97",
+    "H2": "mean Q0 ratio vs FullCalRefit (nominal) <= 1.00",
+    "H3": "worst-case-over-Q ratio vs FullCalRefit <= 0.50 (robustness kept)",
+    "H4": "mean Q0 ratio vs SoftGroupRefit (nominal) <= 1.02"
+  },
+  "reported_not_gated": "Same four ratios for GuardedQScan+Standard (with Standard in place of Soft in H4) and GuardedQScan+v1; ungated QScan combinations; V5 complex results."
+}
