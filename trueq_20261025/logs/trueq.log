@@ -1,0 +1,57 @@
+﻿regenerated Moderate D difference 0
+regenerated Strong D difference 0
+Cal block 1/9 14s
+Cal block 2/9 16s
+Cal block 3/9 18s
+Cal block 4/9 19s
+Cal block 5/9 21s
+Cal block 6/9 23s
+Cal block 7/9 26s
+Cal block 8/9 28s
+Cal block 9/9 29s
+Cal     noisy_Moderate  FullCalRefit    overall 0.5580 lowE 0.6937 fault 0.5800 pinch 0.4764 deep 0.6182
+Cal     noisy_Moderate  SoftGroupRefit  overall 0.5590 lowE 0.6788 fault 0.5809 pinch 0.4743 deep 0.6190
+Cal     noisy_Moderate  Standard        overall 0.5586 lowE 0.6641 fault 0.5811 pinch 0.4726 deep 0.6186
+Cal     noisy_Strong    FullCalRefit    overall 0.6518 lowE 0.9714 fault 0.6539 pinch 0.7007 deep 0.7166
+Cal     noisy_Strong    SoftGroupRefit  overall 0.6444 lowE 0.9100 fault 0.6486 pinch 0.6786 deep 0.7065
+Cal     noisy_Strong    Standard        overall 0.6363 lowE 0.8416 fault 0.6465 pinch 0.6613 deep 0.6966
+Cal     clean_primary   FullCalRefit    overall 0.5218 lowE 0.5160 fault 0.5316 pinch 0.4187 deep 0.5781
+Cal     clean_primary   SoftGroupRefit  overall 0.5272 lowE 0.5252 fault 0.5366 pinch 0.4214 deep 0.5843
+Cal     clean_primary   Standard        overall 0.5299 lowE 0.5310 fault 0.5405 pinch 0.4244 deep 0.5876
+TrueQ block 1/9 36s
+TrueQ block 2/9 40s
+TrueQ block 3/9 44s
+TrueQ block 4/9 49s
+TrueQ block 5/9 54s
+TrueQ block 6/9 58s
+TrueQ block 7/9 63s
+TrueQ block 8/9 67s
+TrueQ block 9/9 72s
+TrueQ   noisy_Moderate  FullCalRefit    overall 0.4332 lowE 0.7466 fault 0.4206 pinch 0.3731 deep 0.4729
+TrueQ   noisy_Moderate  SoftGroupRefit  overall 0.4240 lowE 0.7139 fault 0.4112 pinch 0.3707 deep 0.4605
+TrueQ   noisy_Moderate  Standard        overall 0.4145 lowE 0.6821 fault 0.3998 pinch 0.3673 deep 0.4473
+TrueQ   noisy_Strong    FullCalRefit    overall 0.6349 lowE 1.1514 fault 0.6338 pinch 0.6671 deep 0.7064
+TrueQ   noisy_Strong    SoftGroupRefit  overall 0.6016 lowE 1.0299 fault 0.5979 pinch 0.6458 deep 0.6629
+TrueQ   noisy_Strong    Standard        overall 0.5713 lowE 0.9140 fault 0.5668 pinch 0.6290 deep 0.6234
+TrueQ   clean_primary   FullCalRefit    overall 0.3323 lowE 0.4699 fault 0.2951 pinch 0.3042 deep 0.3547
+TrueQ   clean_primary   SoftGroupRefit  overall 0.3329 lowE 0.4686 fault 0.2938 pinch 0.3056 deep 0.3547
+TrueQ   clean_primary   Standard        overall 0.3354 lowE 0.4696 fault 0.2944 pinch 0.3059 deep 0.3575
+TrueQW block 1/9 79s
+TrueQW block 2/9 83s
+TrueQW block 3/9 87s
+TrueQW block 4/9 92s
+TrueQW block 5/9 97s
+TrueQW block 6/9 101s
+TrueQW block 7/9 105s
+TrueQW block 8/9 110s
+TrueQW block 9/9 114s
+TrueQW  noisy_Moderate  FullCalRefit    overall 0.4223 lowE 0.7630 fault 0.4233 pinch 0.4673 deep 0.4602
+TrueQW  noisy_Moderate  SoftGroupRefit  overall 0.4114 lowE 0.7214 fault 0.4122 pinch 0.4639 deep 0.4457
+TrueQW  noisy_Moderate  Standard        overall 0.4012 lowE 0.6775 fault 0.4037 pinch 0.4619 deep 0.4319
+TrueQW  noisy_Strong    FullCalRefit    overall 0.6418 lowE 1.2208 fault 0.6159 pinch 0.6234 deep 0.7183
+TrueQW  noisy_Strong    SoftGroupRefit  overall 0.6046 lowE 1.0946 fault 0.5808 pinch 0.6011 deep 0.6695
+TrueQW  noisy_Strong    Standard        overall 0.5691 lowE 0.9586 fault 0.5563 pinch 0.5822 deep 0.6232
+TrueQW  clean_primary   FullCalRefit    overall 0.3124 lowE 0.4367 fault 0.2824 pinch 0.3852 deep 0.3327
+TrueQW  clean_primary   SoftGroupRefit  overall 0.3119 lowE 0.4251 fault 0.2806 pinch 0.3851 deep 0.3314
+TrueQW  clean_primary   Standard        overall 0.3143 lowE 0.4274 fault 0.2846 pinch 0.3869 deep 0.3343
+done 118s

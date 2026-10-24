@@ -1,0 +1,10 @@
+﻿calibrated Q [43.09 50.07 59.26 134.1] | true coarse Q [37.37 44.06 59.73 88.54]
+CoarseTrueQ noisy_Moderate  FullCalRefit    overall 0.4798 lowE 0.7628 deep 0.5267
+CoarseTrueQ noisy_Moderate  SoftGroupRefit  overall 0.4742 lowE 0.7294 deep 0.5200
+CoarseTrueQ noisy_Moderate  Standard        overall 0.4673 lowE 0.6938 deep 0.5118
+CoarseTrueQ noisy_Strong    FullCalRefit    overall 0.6426 lowE 1.1346 deep 0.7071
+CoarseTrueQ noisy_Strong    SoftGroupRefit  overall 0.6194 lowE 1.0382 deep 0.6782
+CoarseTrueQ noisy_Strong    Standard        overall 0.5939 lowE 0.9269 deep 0.6478
+CoarseTrueQ clean_primary   FullCalRefit    overall 0.4074 lowE 0.4915 deep 0.4489
+CoarseTrueQ clean_primary   SoftGroupRefit  overall 0.4088 lowE 0.4920 deep 0.4506
+CoarseTrueQ clean_primary   Standard        overall 0.4105 lowE 0.4919 deep 0.4527

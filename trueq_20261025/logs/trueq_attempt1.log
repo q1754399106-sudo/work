@@ -1,0 +1,63 @@
+﻿regenerated Moderate D difference 0
+regenerated Strong D difference 0
+Cal block 1/9 16s
+Cal block 2/9 18s
+Cal block 3/9 20s
+Cal block 4/9 22s
+Cal block 5/9 25s
+Cal block 6/9 27s
+Cal block 7/9 29s
+Cal block 8/9 32s
+Cal block 9/9 34s
+Cal     noisy_Moderate  FullCalRefit    overall 0.5580 lowE 0.6937 fault 0.5800 pinch 0.4764 deep 0.6182
+Cal     noisy_Moderate  SoftGroupRefit  overall 0.5590 lowE 0.6788 fault 0.5809 pinch 0.4743 deep 0.6190
+Cal     noisy_Moderate  Standard        overall 0.5586 lowE 0.6641 fault 0.5811 pinch 0.4726 deep 0.6186
+Cal     noisy_Strong    FullCalRefit    overall 0.6518 lowE 0.9714 fault 0.6539 pinch 0.7007 deep 0.7166
+Cal     noisy_Strong    SoftGroupRefit  overall 0.6444 lowE 0.9100 fault 0.6486 pinch 0.6786 deep 0.7065
+Cal     noisy_Strong    Standard        overall 0.6363 lowE 0.8416 fault 0.6465 pinch 0.6613 deep 0.6966
+Cal     clean_primary   FullCalRefit    overall 0.5218 lowE 0.5160 fault 0.5316 pinch 0.4187 deep 0.5781
+Cal     clean_primary   SoftGroupRefit  overall 0.5272 lowE 0.5252 fault 0.5366 pinch 0.4214 deep 0.5843
+Cal     clean_primary   Standard        overall 0.5299 lowE 0.5310 fault 0.5405 pinch 0.4244 deep 0.5876
+TrueQ block 1/9 42s
+TrueQ block 2/9 48s
+TrueQ block 3/9 54s
+TrueQ block 4/9 59s
+TrueQ block 5/9 65s
+TrueQ block 6/9 69s
+TrueQ block 7/9 74s
+TrueQ block 8/9 79s
+TrueQ block 9/9 86s
+TrueQ   noisy_Moderate  FullCalRefit    overall 0.4332 lowE 0.7466 fault 0.4206 pinch 0.3731 deep 0.4729
+TrueQ   noisy_Moderate  SoftGroupRefit  overall 0.4240 lowE 0.7139 fault 0.4112 pinch 0.3707 deep 0.4605
+TrueQ   noisy_Moderate  Standard        overall 0.4145 lowE 0.6821 fault 0.3998 pinch 0.3673 deep 0.4473
+TrueQ   noisy_Strong    FullCalRefit    overall 0.6349 lowE 1.1514 fault 0.6338 pinch 0.6671 deep 0.7064
+TrueQ   noisy_Strong    SoftGroupRefit  overall 0.6016 lowE 1.0299 fault 0.5979 pinch 0.6458 deep 0.6629
+TrueQ   noisy_Strong    Standard        overall 0.5713 lowE 0.9140 fault 0.5668 pinch 0.6290 deep 0.6234
+TrueQ   clean_primary   FullCalRefit    overall 0.3323 lowE 0.4699 fault 0.2951 pinch 0.3042 deep 0.3547
+TrueQ   clean_primary   SoftGroupRefit  overall 0.3329 lowE 0.4686 fault 0.2938 pinch 0.3056 deep 0.3547
+TrueQ   clean_primary   Standard        overall 0.3354 lowE 0.4696 fault 0.2944 pinch 0.3059 deep 0.3575
+TrueQW block 1/9 99s
+TrueQW block 2/9 106s
+TrueQW block 3/9 112s
+TrueQW block 4/9 117s
+TrueQW block 5/9 122s
+TrueQW block 6/9 127s
+TrueQW block 7/9 131s
+TrueQW block 8/9 136s
+TrueQW block 9/9 140s
+matlab.exe : {���ڴ����㣬����Ĵ�С�����ݡ�
+At line:1 char:840
++ ... " -f $free; & 'D:/Program Files (x86)/MATLAB2024B/bin/matlab.exe' -no ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ({���ڴ����㣬����Ĵ�С�����ݡ�:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+���� apply_gain (�� 18 ��)
+ den=e+lam.*v+extra;g=ones(size(e));pos=den>0;g(pos)=e(pos)./den(pos);
+ ^^^
+���� run_trueq (�� 35 ��)
+  [Sstd,Rstd]=apply_gain(s,cs.c,struct('lambda_min',.5,'lambda_max',16));
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

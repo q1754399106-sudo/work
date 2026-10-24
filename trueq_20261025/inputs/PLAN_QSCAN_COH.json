@@ -1,0 +1,20 @@
+{
+  "name": "QScan + coherence soft shrinkage",
+  "registered": "2026-10-24, before any combined result was computed",
+  "question": "Do the data-driven common-Q correction (QScanRefit, bae_q_20261024) and neighbour-coherence shrinkage (coherence_soft v1/v2) add up?",
+  "pipeline": "QScan: scan c in exp(linspace(log 0.6, log 2.2, 13)), minimise the gather-summed lasso objective (unchanged from qscan_refit.m), applied Q = used Q * c. Then FullCalRefit, SoftGroupRefit and the coherence gains are computed at that Q with the frozen rules: v1 (1, 8) and Standard (0.5, 16). Same observation, sigma, wavelet and blocks for every method.",
+  "methods": ["FullCalRefit", "SoftGroupRefit", "Standard", "QScanRefit", "QScan+Soft", "QScan+v1", "QScan+Standard"],
+  "data": {
+    "development": "V4 (four-layer) and V5 (complex), already seen in coherence_soft_v2; Q errors -50/-30/-10/0/+10/+30/+50%, Moderate/Strong: 28 scenes. Used for the interim check only.",
+    "confirmation": "F1/F2 from bae_q_20261024: exact 1D fine-layered viscoacoustic (Kennett) forward, offset 0, independent of the solver dictionary. Coherence rules have never been evaluated on them; QScan has. Same 7 Q errors x 2 noise levels: 28 scenes."
+  },
+  "gates_confirmation": {
+    "G1": "mean overall-error ratio QScan+Standard / QScanRefit <= 0.97",
+    "G2": "mean Q0 overall-error ratio QScan+Standard / QScanRefit <= 1.02",
+    "G3": "mean over (set, condition) of worst-case-over-Q ratio QScan+Standard / Standard (nominal Q) <= 0.95",
+    "G4": "mean Q0 ratio QScan+Standard / Standard <= 1.02"
+  },
+  "development_extra": "On V4/V5 also weak, fault and pinch-out ratios QScan+Standard / QScanRefit <= 1.02.",
+  "interim_switch": "After V4 and F1/F2 are done: if QScan+Standard fails G1 or the development extras on the finished scenes, the combination candidate is switched to QScan+v1, then QScan+Soft (already computed, no new tuning); the first that passes is carried forward and the switch is reported.",
+  "limits": "F1/F2 are 1D normal-incidence; QScan was confirmed on F1/F2 earlier, so only the coherence part is new to them. No significance claims."
+}

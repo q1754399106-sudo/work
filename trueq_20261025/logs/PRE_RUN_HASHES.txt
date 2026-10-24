@@ -1,0 +1,4 @@
+﻿480715b9abc4e2055e08f5a40f9aaf642ca6fee4b8800852a57228d1b4f8b61b .\inputs\PLAN_ZH.md
+5c7d9b03107863970d062da6e766a6dc1a274503b310e5b00c5e72c1f3a08ef7 .\run_trueq.m
+3f848fcd8adb1c4e4469e992ad1c82fcff43e6133956d6821dabf0984b9d27be .\core\gen_complex_truth.m
+b4dbe827c9fed8ae2dfe37248c686cc0eb24474444de3f96cd998f0212f49465 .\run_trueq.m  (after group-gap fix)

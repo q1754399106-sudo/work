@@ -1,0 +1,20 @@
+{
+  "frozen": "2026-10-24, after stages A-C and before generating V4/V5",
+  "rules": {
+    "v1": {"lambda_min": 1, "lambda_max": 8, "kappa": 0},
+    "Standard": {"lambda_min": 0.5, "lambda_max": 16, "kappa": 0, "note": "stage A winner; gates apply to this rule"},
+    "Robust": {"lambda_min": 0.5, "lambda_max": 16, "kappa": 0.25, "q_factors": [0.8, 1.25], "vq_coherence": false, "note": "registered stage C winner; reduces Q-underestimation error but costs up to ~6% at correct/high Q on development data; reported, not gated"}
+  },
+  "common": {"half_width": 2, "dip_periods": 0.25, "fallback": "lambda=1, no VQ near dead traces or with <2 neighbours"},
+  "stage_outcomes": {
+    "A": "lambda 0.5/16 kept (dev overall ratio 0.972 vs v1, weak 1.009).",
+    "B": "abandoned: interference + multiple dominated samples carry only 1-7% of V3 error; primary-dominated samples carry 80-97% and FullCalRefit has the same error there, so the residual is wavelet/model error, not shrinkage.",
+    "C": "trade-off: every Q-uncertainty variant tried (two-sided, one-sided, coherence-weighted) helps Q-30% and costs accuracy at correct/high Q; Robust kept as an option only. Variants after the interim check were added post hoc and are disclosed."
+  },
+  "sealed_validation": {
+    "V4": "new four-layer variant: opposite dip, faults at traces 35 (-20 ms) and 75 (+16 ms), weak reflector 4 pinching out to the left by trace 25, true Q [38 70 60 140]; noise seeds 2026102441/2026102442.",
+    "V5": "new complex geology (seed 2026102451, calibration 2026102452, observation seeds 2026102461/2026102462), faults at 1500/2550 m, channel, wedge thinning to the right-to-left tip at 1300 m, gas lens; independent calibration with the frozen code.",
+    "Q": "-30/-10/0/+10/+30% relative to true (V4) or calibrated (V5) Q.",
+    "gates_for_Standard_vs_v1": {"overall": 0.97, "weak": 1.02, "fault": 1.02, "pinch": 1.02, "Q_under_overall": 1.0}
+  }
+}
