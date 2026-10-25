@@ -6,6 +6,8 @@
 2. fd2d scores are normalised squared errors ||X-T||^2/||T||^2; convert the reported
    relative changes x to relative-error changes sqrt(1+x)-1 and list the noise-free
    penalty at Q0.
+3. Second review: F3/F4 and V5 headline table (gathers, both worst-case definitions, QScan + v1),
+   and the SC baseline split by generator.
 Usage: python check_corrections.py <repo root>  -> final_report_20261025/analysis/corrections.json
 """
 import csv, io, json, math, subprocess, sys
@@ -67,6 +69,33 @@ quoted = {'combo_stage1_Q0_combo_worse': [0.21, 0.50, -0.065], 'combo_stage1_Q07
           'combo_stage2_opt_vs_D': [-0.24, -0.33], 'qscan_offset_Q070_B_worse': [0.47, 3.57],
           'qscan_offset_shift_worst': [0.34, 0.90], 'qscan_abstain_A2_worst': [0.141], 'critcombo_A1A3_worst': [0.39, 0.62]}
 out['report_squared_to_relerr'] = {k: [dict(sq=x, relerr=rel(x)) for x in v] for k, v in quoted.items()}
+
+# 3. Second review (ERRATA items 5-10): F3/F4/V5 headline table, worst-case definitions, v1 vs Standard
+# inside the combination, and the SC baseline split by generator.
+import pandas as pd
+csv_ = lambda p: pd.read_csv(io.StringIO(show(p).lstrip('﻿')))
+g34 = csv_('round3_20261024/analysis/guard_metrics_F3_F4.csv'); combo = csv_('round3_20261024/analysis/combo_metrics.csv')
+fixed = csv_('fixed_baseline_round3_20261024/analysis/fixed_metrics_F3_F4_V5.csv')
+tables = {'F3/F4': (g34, fixed[fixed.set.isin(['F3', 'F4'])]), 'V5': (combo[combo.set == 'V5'], fixed[fixed.set == 'V5'])}
+head = {}
+for name, (m, fx) in tables.items():
+    rows = {'FixedSplit': fx}
+    rows.update({k: m[m.method == k] for k in ['FullCalRefit', 'Standard', 'QScan_v1', 'QScan_Standard']})
+    head[name] = {k: dict(n_rows=len(x), n_gathers=int(x.groupby(['set', 'condition']).ngroups), mean=x.overall.mean(),
+                          Q0=x[x.Q_percent == 0].overall.mean(), worst_reported_mean_of_gather_max=x.groupby(['set', 'condition']).overall.max().mean(),
+                          worst_true_max=x.overall.max(), noise_realisations_per_row=1) for k, x in rows.items()}
+    head[name]['QScan_v1_over_QScan_Standard'] = head[name]['QScan_v1']['mean'] / head[name]['QScan_Standard']['mean'] - 1
+out['headline_table'] = head
+cmp_ = csv_('novelty_evidence_20261025/analysis/comparison.csv').set_index('case')
+ratio = cmp_['Standard'] / cmp_['SC_a0.125_m10']
+out['sc_baseline'] = dict(per_case_Standard_over_SC=ratio.to_dict(),
+                          kennett_F3F4=dict(Standard_mean=cmp_.loc[cmp_.index.str[:2].isin(['F3', 'F4']), 'Standard'].mean(),
+                                            SC_mean=cmp_.loc[cmp_.index.str[:2].isin(['F3', 'F4']), 'SC_a0.125_m10'].mean(),
+                                            ratio_range=[ratio[ratio.index.str[:2].isin(['F3', 'F4'])].min(), ratio[ratio.index.str[:2].isin(['F3', 'F4'])].max()],
+                                            Standard_wins=int((ratio[ratio.index.str[:2].isin(['F3', 'F4'])] < 1).sum())),
+                          V4V5=dict(ratio_range=[ratio[ratio.index.str[:2].isin(['V4', 'V5'])].min(), ratio[ratio.index.str[:2].isin(['V4', 'V5'])].max()],
+                                    Standard_wins=int((ratio[ratio.index.str[:2].isin(['V4', 'V5'])] < 1).sum())),
+                          overall_mean_ratio=cmp_['Standard'].mean() / cmp_['SC_a0.125_m10'].mean())
 
 dst = root / 'final_report_20261025' / 'analysis'; dst.mkdir(exist_ok=True)
 (dst / 'corrections.json').write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding='utf-8')
