@@ -1,0 +1,4 @@
+Vm50 Q=[64.0 64.0 64.0 64.0] QScan factor 1.0310 flags 0 (21s, total 21s)
+Vp50 Q=[191.9 191.9 191.9 191.9] QScan factor 0.6000 flags 0 (18s, total 40s)
+R0 Q=[46.2 300.0  49.8 300.0] QScan factor 0.9252 flags 0 (14s, total 54s)
+DONE Vm50,Vp50,R0

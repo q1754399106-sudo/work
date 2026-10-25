@@ -1,0 +1,6 @@
+[警告: 目录已存在。] 
+[> 位置：run_field (第 6 行)] 
+V0 Q=[127.9 127.9 127.9 127.9] QScan factor 0.6000 flags 0 (21s, total 22s)
+Vm30 Q=[89.6 89.6 89.6 89.6] QScan factor 0.7451 flags 0 (17s, total 39s)
+Vp30 Q=[166.3 166.3 166.3 166.3] QScan factor 0.6000 flags 0 (15s, total 54s)
+DONE V0,Vm30,Vp30

@@ -1,0 +1,21 @@
+{
+  "stage": "run_field",
+  "args": [
+    "V0",
+    "Vm30",
+    "Vp30"
+  ],
+  "started_utc": "2026-10-25T10:08:00.052025+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/field_vsp_volve_20261025/scripts');run_field('V0','Vm30','Vp30');"
+  ],
+  "timeout_seconds": 28800,
+  "status": "COMPLETED",
+  "pid": 36600,
+  "exit_code": 0,
+  "elapsed_seconds": 75.68700000000536
+}

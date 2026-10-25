@@ -1,0 +1,47 @@
+      run       q_model     q_error_percent          method            T1       T1_shift_ms      T2       T2_shift_ms
+    ________    ________    _______________    __________________    _______    ___________    _______    ___________
+
+    {'V0'  }    {'VSP' }            0          {'Input'         }     0.1806        -14        0.19897          8    
+    {'V0'  }    {'VSP' }            0          {'FullCalRefit'  }    0.14991        -20        0.18086        -11    
+    {'V0'  }    {'VSP' }            0          {'Standard'      }    0.15714        -20        0.19653          4    
+    {'V0'  }    {'VSP' }            0          {'QScanRefit'    }    0.21173          8        0.21065         -5    
+    {'V0'  }    {'VSP' }            0          {'QScan_Standard'}    0.21096          8        0.23264         -5    
+    {'V0'  }    {'VSP' }            0          {'SoftGroupRefit'}    0.15183        -20        0.17695          3    
+    {'V0'  }    {'VSP' }            0          {'QScan_Soft'    }    0.21028          8        0.21649         -5    
+    {'Vm50'}    {'VSP' }          -50          {'Input'         }     0.1806        -14        0.19897          8    
+    {'Vm50'}    {'VSP' }          -50          {'FullCalRefit'  }    0.21637          6        0.33811         -7    
+    {'Vm50'}    {'VSP' }          -50          {'Standard'      }    0.21464          6        0.34348         -7    
+    {'Vm50'}    {'VSP' }          -50          {'QScanRefit'    }     0.1923          6        0.24158         -6    
+    {'Vm50'}    {'VSP' }          -50          {'QScan_Standard'}    0.18967          7        0.24211         -6    
+    {'Vm50'}    {'VSP' }          -50          {'SoftGroupRefit'}    0.21385          6        0.33922         -7    
+    {'Vm50'}    {'VSP' }          -50          {'QScan_Soft'    }    0.18863          7        0.23523         -6    
+    {'Vm30'}    {'VSP' }          -30          {'Input'         }     0.1806        -14        0.19897          8    
+    {'Vm30'}    {'VSP' }          -30          {'FullCalRefit'  }    0.19711          9        0.20632         -2    
+    {'Vm30'}    {'VSP' }          -30          {'Standard'      }    0.19234          9        0.22184         -2    
+    {'Vm30'}    {'VSP' }          -30          {'QScanRefit'    }    0.19375          6        0.23915         -5    
+    {'Vm30'}    {'VSP' }          -30          {'QScan_Standard'}    0.18686          7        0.22546         -5    
+    {'Vm30'}    {'VSP' }          -30          {'SoftGroupRefit'}    0.19646          9        0.20842         -2    
+    {'Vm30'}    {'VSP' }          -30          {'QScan_Soft'    }    0.18903          6        0.23024         -5    
+    {'Vp30'}    {'VSP' }           30          {'Input'         }     0.1806        -14        0.19897          8    
+    {'Vp30'}    {'VSP' }           30          {'FullCalRefit'  }    0.17822        -20        0.19329          2    
+    {'Vp30'}    {'VSP' }           30          {'Standard'      }    0.18294        -20        0.19342          2    
+    {'Vp30'}    {'VSP' }           30          {'QScanRefit'    }    0.17934         12        0.22068          0    
+    {'Vp30'}    {'VSP' }           30          {'QScan_Standard'}    0.17893         12        0.23474          1    
+    {'Vp30'}    {'VSP' }           30          {'SoftGroupRefit'}    0.18076        -20        0.19347          2    
+    {'Vp30'}    {'VSP' }           30          {'QScan_Soft'    }    0.18285         12        0.22461          0    
+    {'Vp50'}    {'VSP' }           50          {'Input'         }     0.1806        -14        0.19897          8    
+    {'Vp50'}    {'VSP' }           50          {'FullCalRefit'  }    0.18549        -20        0.19589          3    
+    {'Vp50'}    {'VSP' }           50          {'Standard'      }    0.18899        -19         0.2025          5    
+    {'Vp50'}    {'VSP' }           50          {'QScanRefit'    }    0.12809        -20        0.21374          3    
+    {'Vp50'}    {'VSP' }           50          {'QScan_Standard'}    0.13688        -20          0.218          3    
+    {'Vp50'}    {'VSP' }           50          {'SoftGroupRefit'}    0.18641        -20        0.19729          4    
+    {'Vp50'}    {'VSP' }           50          {'QScan_Soft'    }    0.13109        -20        0.20911          3    
+    {'R0'  }    {'READ'}            0          {'Input'         }     0.1806        -14        0.19897          8    
+    {'R0'  }    {'READ'}            0          {'FullCalRefit'  }    0.21013          9        0.19554         -3    
+    {'R0'  }    {'READ'}            0          {'Standard'      }    0.21133          9        0.21283         -3    
+    {'R0'  }    {'READ'}            0          {'QScanRefit'    }    0.22641          8        0.23796         -4    
+    {'R0'  }    {'READ'}            0          {'QScan_Standard'}    0.22524          8         0.2508         -4    
+    {'R0'  }    {'READ'}            0          {'SoftGroupRefit'}    0.21194          9         0.1954         -3    
+    {'R0'  }    {'READ'}            0          {'QScan_Soft'    }    0.22662          8        0.23987         -4    
+
+{"G1_pass":false,"G1b_pass":false,"delta1_T1":-0.053826183045947135,"G2_verdict_T1":"QScan better","delta2_T2":-0.0361197572278584,"G2_verdict_T2":"QScan better","G3_standard":false,"G3_qscan_standard":true,"G4_pass":false,"G4_interval_scale":[0.86067072154029656,1.2129528920585793],"qscan":[{"run":"Vm50","start_scale":0.5,"selected_factor":1.0310134868605316,"implied_scale":0.51550674343026581,"inside":false},{"run":"Vm30","start_scale":0.7,"selected_factor":0.74506899083368716,"implied_scale":0.521548293583581,"inside":false},{"run":"V0","start_scale":1,"selected_factor":0.6,"implied_scale":0.6,"inside":false},{"run":"Vp30","start_scale":1.3,"selected_factor":0.6,"implied_scale":0.78,"inside":false},{"run":"Vp50","start_scale":1.5,"selected_factor":0.6,"implied_scale":0.89999999999999991,"inside":true}],"rescue_T1":{"Vm50":-0.024971047145606357,"Vm30":-0.0054859105387123075,"Vp30":-0.0040043486339906009,"Vp50":-0.0521095919391846},"cost_without_independent_Q_T1":0.020253373794464347,"polarity_flag":false,"input_T1":0.18059738189987243,"input_T2":0.1989711509107486,"input_phase_scan_best_deg":-90,"input_phase_scan_best_T1":0.2798451925131844,"R4_curtain_T1":0.24926941420014673,"READ_standard_T1":0.21133179961508308,"READ_qscan_standard_T1":0.22524435408364302,"READ_standard_T2":0.21283398377373888,"READ_qscan_standard_T2":0.25080099404191719,"Q_VSP":[127.94171482024089,127.94171482024089,127.94171482024089,127.94171482024089],"Q_READ":[46.22496,300,49.81825,300],"fpeak":32.25}
