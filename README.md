@@ -11,7 +11,8 @@
 
 - [研究目录总览（中文名与标签）](地震衰减补偿研究/README.md)
 - [最终报告](地震衰减补偿研究/final_report_20261025/REPORT_ZH.md)
-- [推荐版本统一入口](地震衰减补偿研究/compensation_package_20261024/README_ZH.md)
+- [怎么选方法](地震衰减补偿研究/README.md#怎么选方法摘自最终报告)：Q 可信时用文献方法 SC，Q 可能有误时用 QScan＋SC
+- [本研究方法的统一入口](地震衰减补偿研究/compensation_package_20261024/README_ZH.md)（不含 SC）
 
 2026-10-26 起，研究目录从仓库根目录整体移入 `地震衰减补偿研究/`。实验目录保留原英文名，彼此的相对位置不变，脚本里按 `fileparts(root)` / `Path(__file__).parents[1]` 找同级目录的写法照常可用。旧文档里写的 `xxx_2026xxxx/` 路径都指这个文件夹下的同名目录。
 
