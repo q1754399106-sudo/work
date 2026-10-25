@@ -1,6 +1,6 @@
 # 中立数据 H1–H6 上的相干标准版对 SC 文献基线
 
-- `PLAN_ZH.md`：预登记方案（提交 18c85cb）；`PRE_RUN_HASHES.txt`：运行前的代码、方案与输入哈希。
+- `PLAN_ZH.md`：预登记方案（提交 18c85cb）；`PLAN_ADDENDUM_ZH.md`：评分前的路径补充；`PRE_RUN_HASHES.txt`：运行前的代码、方案与输入哈希。
 - `RESULTS_ZH.md`：结果与判定。
 - `scripts/`：
   - `snapshot_inputs.py`：把输入从登记的提交复制到被忽略的 `cache/inputs/`，逐字节核对与 HEAD 一致，并记录 fd2d 扫描缓存（本地，未上传）126 个文件的 SHA-256；
