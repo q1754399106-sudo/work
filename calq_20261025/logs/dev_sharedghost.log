@@ -1,0 +1,22 @@
+﻿V3 noise-free SharedGhost Q [36.93 45.38 69.25 85.92] tau 14 ms g -0.10 ln [0.08 0.0546 0.0159 -0.163] | 93s
+V3 noisy (archived) SharedGhost Q [37.1 47.61 62.94 76.55] tau 14 ms g -0.10 | current [38.34 52.71 63.22 164.2]
+V3 replicates SharedGhost ln(Q/Qtrue) mean [0.108 0.0509 0.0921 -0.899] std [0.0152 0.0267 0.109 0.745] | current mean [0.127 0.15 0.0262 0.422] | 1007s
+  Moderate current  FullCalRefit overall 0.4878 deep 0.5745 lowE 0.9451
+  Moderate current  Standard     overall 0.4869 deep 0.5721 lowE 0.8523
+  Moderate SharedGhost FullCalRefit overall 0.4647 deep 0.5562 lowE 1.0303
+  Moderate SharedGhost Standard     overall 0.4552 deep 0.5395 lowE 0.8948
+  Strong current  FullCalRefit overall 0.6006 deep 0.7293 lowE 1.4354
+  Strong current  Standard     overall 0.5824 deep 0.6999 lowE 1.1395
+  Strong SharedGhost FullCalRefit overall 0.6043 deep 0.7501 lowE 1.6230
+  Strong SharedGhost Standard     overall 0.5683 deep 0.6932 lowE 1.2617
+V5 noise-free SharedGhost Q [40.8 46.63 61.43 58.08] tau 14 ms g -0.10 ln [0.0878 0.0568 0.0281 -0.422] | 1148s
+V5 noisy (archived) SharedGhost Q [41.95 45.58 59.37 49.22] tau 14 ms g -0.10 | current [43.09 50.07 59.26 134.1]
+V5 replicates SharedGhost ln(Q/Qtrue) mean [0.101 0.0862 -0.0148 -0.705] std [0.0134 0.0271 0.0551 0.459] | current mean [0.122 0.187 -0.0271 0.456] | 2092s
+  Moderate current  FullCalRefit overall 0.5580 deep 0.6182 lowE 0.6937
+  Moderate current  Standard     overall 0.5586 deep 0.6186 lowE 0.6641
+  Moderate SharedGhost FullCalRefit overall 0.4941 deep 0.5408 lowE 0.7296
+  Moderate SharedGhost Standard     overall 0.4836 deep 0.5255 lowE 0.6797
+  Strong current  FullCalRefit overall 0.6518 deep 0.7166 lowE 0.9714
+  Strong current  Standard     overall 0.6363 deep 0.6966 lowE 0.8416
+  Strong SharedGhost FullCalRefit overall 0.6487 deep 0.7200 lowE 1.0916
+  Strong SharedGhost Standard     overall 0.6040 deep 0.6592 lowE 0.8908

@@ -1,0 +1,22 @@
+﻿V3 noise-free GhostCal Q [31.08 41.76 67.7 26.52] tau 12 ms ln [-0.0923 -0.0286 -0.00678 -1.34] | 118s
+V3 noisy (archived) GhostCal Q [31.48 46.24 52.97 24.63] tau 12 ms | current [38.34 52.71 63.22 164.2]
+V3 replicates GhostCal ln(Q/Qtrue) mean [-0.0747 -0.0367 0.0719 -1.06] std [0.027 0.0605 0.165 0.653] | current mean [0.127 0.15 0.0262 0.422] | 1005s
+  Moderate current  FullCalRefit overall 0.4878 deep 0.5745 lowE 0.9451
+  Moderate current  Standard     overall 0.4869 deep 0.5721 lowE 0.8523
+  Moderate GhostCal FullCalRefit overall 0.6382 deep 0.8094 lowE 1.5747
+  Moderate GhostCal Standard     overall 0.5920 deep 0.7311 lowE 1.2619
+  Strong current  FullCalRefit overall 0.6006 deep 0.7293 lowE 1.4354
+  Strong current  Standard     overall 0.5824 deep 0.6999 lowE 1.1395
+  Strong GhostCal FullCalRefit overall 0.8332 deep 1.0993 lowE 2.3951
+  Strong GhostCal Standard     overall 0.7133 deep 0.9094 lowE 1.7929
+V5 noise-free GhostCal Q [34.92 43.53 60.35 27.05] tau 14 ms ln [-0.068 -0.0121 0.0103 -1.19] | 1141s
+V5 noisy (archived) GhostCal Q [37.1 40.8 57.43 25.5] tau 14 ms | current [43.09 50.07 59.26 134.1]
+V5 replicates GhostCal ln(Q/Qtrue) mean [-0.0772 0.0469 -0.0576 -0.824] std [0.0316 0.0717 0.0996 0.569] | current mean [0.122 0.187 -0.0271 0.456] | 1700s
+  Moderate current  FullCalRefit overall 0.5580 deep 0.6182 lowE 0.6937
+  Moderate current  Standard     overall 0.5586 deep 0.6186 lowE 0.6641
+  Moderate GhostCal FullCalRefit overall 0.7100 deep 0.8503 lowE 0.9598
+  Moderate GhostCal Standard     overall 0.6613 deep 0.7862 lowE 0.8225
+  Strong current  FullCalRefit overall 0.6518 deep 0.7166 lowE 0.9714
+  Strong current  Standard     overall 0.6363 deep 0.6966 lowE 0.8416
+  Strong GhostCal FullCalRefit overall 0.8888 deep 1.0578 lowE 1.3935
+  Strong GhostCal Standard     overall 0.7559 deep 0.8813 lowE 1.0878

@@ -1,0 +1,10 @@
+﻿V3 rebuild vs generator noise-free calibration: 0
+V3 ghost+phase  Q [37.44 47.42 69.91 200]  ln(Q/Qtrue) [0.0937 0.0984 0.0254 0.682]
+V3 phase only   Q [34.02 42.92 68.39 94.95]  ln(Q/Qtrue) [-0.00196 -0.00115 0.00341 -0.0633]
+V3 ghost only   Q [37.97 47.03 72.42 89.35]  ln(Q/Qtrue) [0.108 0.0903 0.0606 -0.124]
+V3 neither      Q [34.09 42.97 68.79 77.5]  ln(Q/Qtrue) [7.73e-06 -0.000174 0.00928 -0.266]
+V5 rebuild vs generator noise-free calibration: 0
+V5 ghost+phase  Q [41.03 48.23 63.56 200]  ln(Q/Qtrue) [0.0935 0.0906 0.0622 0.815]
+V5 phase only   Q [37.32 44.02 59.85 82.63]  ln(Q/Qtrue) [-0.0014 -0.00074 0.00207 -0.0691]
+V5 ghost only   Q [41.23 48.08 63.78 96.46]  ln(Q/Qtrue) [0.0983 0.0874 0.0656 0.0857]
+V5 neither      Q [37.38 44.04 59.74 88.36]  ln(Q/Qtrue) [0.000202 -0.000293 0.000143 -0.00206]

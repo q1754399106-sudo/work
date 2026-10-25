@@ -1,0 +1,8 @@
+﻿V3 archived Q [38.34 52.71 63.22 164.2] | recomputed [38.34 52.71 63.22 164.2] | true coarse [34.09 42.97 68.16 101.2]
+V3 noise-free estimate [37.44 47.42 69.91 200]
+V3 replicates ln(Q/Qtrue): mean [0.127 0.15 0.0262 0.422]  std [0.0102 0.0316 0.0495 0.288]
+V3 Q4 profile: with prior min at 163.9 (range of loss 22.5), data-only min at 200.0 (range 22.1) | 486s
+V5 archived Q [43.09 50.07 59.26 134.1] | recomputed [43.09 50.07 59.26 134.1] | true coarse [37.37 44.06 59.73 88.54]
+V5 noise-free estimate [41.03 48.23 63.56 200]
+V5 replicates ln(Q/Qtrue): mean [0.122 0.187 -0.0271 0.456]  std [0.019 0.0216 0.0386 0.2]
+V5 Q4 profile: with prior min at 134.3 (range of loss 19.3), data-only min at 200.0 (range 18.9) | 942s
