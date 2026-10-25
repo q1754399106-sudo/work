@@ -15,7 +15,15 @@ import csv, json  # noqa: E402,E401
 import numpy as np  # noqa: E402
 from scipy.io import loadmat  # noqa: E402
 
-SWEEP = ROOT.parent / "fd2d_20261025" / "cache" / "sweep"
+# The repository reorganisation c625fd6 moved fd2d under 地震衰减补偿研究/ (PLAN_ADDENDUM_ZH.md);
+# every sweep file is checked against the SHA-256 recorded in cache/SNAPSHOT.json before use.
+SWEEP = ROOT.parent / "地震衰减补偿研究" / "fd2d_20261025" / "cache" / "sweep"
+_snap = json.loads((ROOT / "cache" / "SNAPSHOT.json").read_text(encoding="utf-8"))["fd2d_sweep_sha256"]
+import hashlib  # noqa: E402
+for _k, _h in _snap.items():
+    _p = SWEEP / Path(_k).relative_to("fd2d_20261025/cache/sweep")
+    assert hashlib.sha256(_p.read_bytes()).hexdigest() == _h, f"sweep file changed: {_p}"
+print(f"{len(_snap)} fd2d sweep files verified against the pre-run snapshot", flush=True)
 MODELS = [f"H{m}" for m in range(1, 7)]
 CARBONATE = {"H2", "H4", "H6"}
 SCENES = ["Q100_14dB", "Q100_08dB", "Q070_14dB"]
