@@ -1,0 +1,9 @@
+{
+  "predictor_adjoint": 2.3117204558614156e-14,
+  "gradient_relative_error": 1.1679303716028406e-10,
+  "gradient_finite_difference": -0.004802551889504514,
+  "gradient_analytic": -0.0048025518900654185,
+  "physical_coordinate_objective_difference": 0.0,
+  "all_pass": true,
+  "empty_support_outputs_zero": true
+}

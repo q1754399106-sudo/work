@@ -1,0 +1,434 @@
+{
+  "seed": 20261025,
+  "draws_per_monte_carlo_case": 50000,
+  "batch_size": 2000,
+  "scope": "Restricted numerical checks only; no literature-first claim or full-pipeline guarantee.",
+  "limitations": [
+    "Gaussian cases use externally fixed support and constant lambda.",
+    "Oracle gain uses true signal energy; Stein cases use observed energy.",
+    "An arbitrary correlated source-domain covariance is not isotropic Gaussian noise.",
+    "Same-data coherence, support selection, Q selection, and model bias are not tested here."
+  ],
+  "zero_denominator_convention": {
+    "E": 0.0,
+    "V": 0.0,
+    "lambda": 1.0,
+    "gain": 1.0,
+    "pass": true
+  },
+  "observable_quadratic_proxy": {
+    "max_stationarity": 3.552713678800501e-15,
+    "max_objective_difference": 1.7763568394002505e-15,
+    "pass": true
+  },
+  "derivative_9_over_8": {
+    "a": 1.0,
+    "z": 1.7320508075688772,
+    "finite_difference": 1.1249999999352056,
+    "expected": 1.125,
+    "pass": true,
+    "interpretation": "Gain <= 1 does not imply a nonexpansive input-output map."
+  },
+  "synthesis_interference": {
+    "synthesis_matrix": [
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "coefficients": [
+      1.0,
+      -1.0
+    ],
+    "gains": [
+      0.8,
+      0.2
+    ],
+    "before": [
+      0.0
+    ],
+    "after": [
+      0.6000000000000001
+    ],
+    "coefficient_energy_before": 2.0,
+    "coefficient_energy_after": 0.6800000000000002,
+    "waveform_energy_before": 0.0,
+    "waveform_energy_after": 0.3600000000000001,
+    "pass": true
+  },
+  "fixed_gain_risk": [
+    {
+      "signal_energy_A": 0.25,
+      "noise_energy_V": 4.0,
+      "lambda": 0.5,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.1111111111111111,
+      "dimension": 4,
+      "expected_risk": 0.24691358024691357,
+      "expected_difference_from_unshrunk": -3.753086419753086,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 0.2466958874537973,
+        "standard_error": 0.00046919362555405524
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -3.756446462891371,
+        "standard_error": 0.012511043763119099
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 0.25,
+      "noise_energy_V": 4.0,
+      "lambda": 1.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.058823529411764705,
+      "dimension": 4,
+      "expected_risk": 0.23529411764705882,
+      "expected_difference_from_unshrunk": -3.764705882352941,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 0.23485690423654898,
+        "standard_error": 0.00025066299158656055
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -3.7515576621876585,
+        "standard_error": 0.012587805774708615
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 0.25,
+      "noise_energy_V": 4.0,
+      "lambda": 2.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.030303030303030304,
+      "dimension": 4,
+      "expected_risk": 0.23875114784205695,
+      "expected_difference_from_unshrunk": -3.761248852157943,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 0.23847894773599332,
+        "standard_error": 0.00013155961203502951
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -3.756396607492477,
+        "standard_error": 0.012615993887445894
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 0.25,
+      "noise_energy_V": 4.0,
+      "lambda": 5.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.012345679012345678,
+      "dimension": 4,
+      "expected_risk": 0.24447492760249961,
+      "expected_difference_from_unshrunk": -3.7555250723975004,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 0.24445012093382865,
+        "standard_error": 5.47300641741197e-05
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -3.7595107528694167,
+        "standard_error": 0.012628985514450792
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 4.0,
+      "noise_energy_V": 4.0,
+      "lambda": 0.5,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.6666666666666666,
+      "dimension": 4,
+      "expected_risk": 2.2222222222222223,
+      "expected_difference_from_unshrunk": -1.7777777777777777,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 2.2153683792202914,
+        "standard_error": 0.006843679944532566
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -1.7718494052024896,
+        "standard_error": 0.00801766993659306
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 4.0,
+      "noise_energy_V": 4.0,
+      "lambda": 1.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.5,
+      "dimension": 4,
+      "expected_risk": 2.0,
+      "expected_difference_from_unshrunk": -2.0,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 2.0091133551047458,
+        "standard_error": 0.005536409484669494
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -2.023715744032497,
+        "standard_error": 0.010569792977337756
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 4.0,
+      "noise_energy_V": 4.0,
+      "lambda": 2.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.3333333333333333,
+      "dimension": 4,
+      "expected_risk": 2.2222222222222223,
+      "expected_difference_from_unshrunk": -1.7777777777777777,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 2.2190941444699366,
+        "standard_error": 0.004186871328786895
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -1.7406281101887182,
+        "standard_error": 0.011714616576354546
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 4.0,
+      "noise_energy_V": 4.0,
+      "lambda": 5.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.16666666666666666,
+      "dimension": 4,
+      "expected_risk": 2.8888888888888893,
+      "expected_difference_from_unshrunk": -1.1111111111111107,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 2.891041720090303,
+        "standard_error": 0.0025176407931602504
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -1.1261304649799382,
+        "standard_error": 0.012544843842523887
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 25.0,
+      "noise_energy_V": 4.0,
+      "lambda": 0.5,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.9259259259259259,
+      "dimension": 4,
+      "expected_risk": 3.5665294924554187,
+      "expected_difference_from_unshrunk": -0.4334705075445813,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 3.5778510627505096,
+        "standard_error": 0.011337291257819813
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -0.43042901956999485,
+        "standard_error": 0.0035405131099864244
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 25.0,
+      "noise_energy_V": 4.0,
+      "lambda": 1.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.8620689655172413,
+      "dimension": 4,
+      "expected_risk": 3.4482758620689653,
+      "expected_difference_from_unshrunk": -0.5517241379310347,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 3.4344025677356105,
+        "standard_error": 0.010713674981880358
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -0.5557461613399604,
+        "standard_error": 0.006180388419928071
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 25.0,
+      "noise_energy_V": 4.0,
+      "lambda": 2.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.7575757575757576,
+      "dimension": 4,
+      "expected_risk": 3.7649219467401283,
+      "expected_difference_from_unshrunk": -0.23507805325987174,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 3.755625965148974,
+        "standard_error": 0.010932148869022487
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -0.22413180120721488,
+        "standard_error": 0.009796821457497268
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": true
+    },
+    {
+      "signal_energy_A": 25.0,
+      "noise_energy_V": 4.0,
+      "lambda": 5.0,
+      "gain_kind": "true_signal_energy_oracle",
+      "gain": 0.5555555555555556,
+      "dimension": 4,
+      "expected_risk": 6.172839506172839,
+      "expected_difference_from_unshrunk": 2.1728395061728394,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 6.175559709335458,
+        "standard_error": 0.011687464067072774
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": 2.1667839117720056,
+        "standard_error": 0.013995409891858985
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": false
+    },
+    {
+      "signal_energy_A": 25.0,
+      "noise_energy_V": 4.0,
+      "lambda": null,
+      "gain_kind": "fixed_external_gain",
+      "gain": 0.05,
+      "dimension": 4,
+      "expected_risk": 22.5725,
+      "expected_difference_from_unshrunk": 18.5725,
+      "empirical_risk": {
+        "n": 50000,
+        "mean": 22.571581448845418,
+        "standard_error": 0.0021235044886406475
+      },
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": 18.577225850994758,
+        "standard_error": 0.012732916584916239
+      },
+      "agreement_pass": true,
+      "analytical_nonincrease": false
+    }
+  ],
+  "stein_observed_energy": [
+    {
+      "dimension": 1,
+      "mu_norm": 5.0,
+      "sigma": 1.0,
+      "lambda": 1.0,
+      "a": 1.0,
+      "energy_kind": "observed_squared_norm",
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": 0.11758009401970804,
+        "standard_error": 0.002077630717561686
+      },
+      "stein_risk_difference": {
+        "n": 50000,
+        "mean": 0.11884045147266077,
+        "standard_error": 0.00021817243597488926
+      },
+      "paired_minus_stein": {
+        "n": 50000,
+        "mean": -0.0012603574529527091,
+        "standard_error": 0.001860713873855594
+      },
+      "agreement_pass": true,
+      "sufficient_uniform_improvement_condition": false,
+      "observed_improvement_pass": null,
+      "scalar_high_signal_counterexample": true,
+      "counterexample_pass": true
+    },
+    {
+      "dimension": 3,
+      "mu_norm": 3.0,
+      "sigma": 1.0,
+      "lambda": 0.5,
+      "a": 1.5,
+      "energy_kind": "observed_squared_norm",
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -0.23478374939595903,
+        "standard_error": 0.003276978102119757
+      },
+      "stein_risk_difference": {
+        "n": 50000,
+        "mean": -0.23185732987764782,
+        "standard_error": 0.0014326474220640636
+      },
+      "paired_minus_stein": {
+        "n": 50000,
+        "mean": -0.0029264195183112424,
+        "standard_error": 0.004356596710724811
+      },
+      "agreement_pass": true,
+      "sufficient_uniform_improvement_condition": true,
+      "observed_improvement_pass": true,
+      "scalar_high_signal_counterexample": false,
+      "counterexample_pass": null
+    },
+    {
+      "dimension": 4,
+      "mu_norm": 3.0,
+      "sigma": 1.0,
+      "lambda": 1.0,
+      "a": 4.0,
+      "energy_kind": "observed_squared_norm",
+      "paired_risk_difference": {
+        "n": 50000,
+        "mean": -0.7146890590185452,
+        "standard_error": 0.006587905127936353
+      },
+      "stein_risk_difference": {
+        "n": 50000,
+        "mean": -0.7138700298656985,
+        "standard_error": 0.0030655057496868764
+      },
+      "paired_minus_stein": {
+        "n": 50000,
+        "mean": -0.0008190291528467658,
+        "standard_error": 0.009086648826098564
+      },
+      "agreement_pass": true,
+      "sufficient_uniform_improvement_condition": true,
+      "observed_improvement_pass": true,
+      "scalar_high_signal_counterexample": false,
+      "counterexample_pass": null
+    }
+  ],
+  "all_checks_pass": true
+}

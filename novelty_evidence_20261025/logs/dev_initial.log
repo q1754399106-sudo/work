@@ -1,0 +1,56 @@
+CASE dev F1_Moderate
+F1_Moderate SC_a0.25_m0.01 err 0.383724 KKT 0.01988 iter 300 sec 4.5
+F1_Moderate SC_a0.25_m0.1 err 0.380384 KKT 0.00981 iter 300 sec 4.6
+F1_Moderate SC_a0.25_m1 err 0.368512 KKT 0.01954 iter 475 sec 7.2
+F1_Moderate SC_a0.5_m0.01 err 0.436934 KKT 0.01681 iter 225 sec 3.5
+F1_Moderate SC_a0.5_m0.1 err 0.435696 KKT 0.00929 iter 250 sec 3.7
+F1_Moderate SC_a0.5_m1 err 0.430385 KKT 0.01409 iter 300 sec 4.3
+F1_Moderate SC_a1_m0.01 err 0.52499 KKT 0.01912 iter 150 sec 2.4
+F1_Moderate SC_a1_m0.1 err 0.524914 KKT 0.00736 iter 175 sec 2.7
+F1_Moderate SC_a1_m1 err 0.524959 KKT 0.01964 iter 200 sec 2.8
+F1_Moderate SC_a0.25_m0 err 0.384189 KKT 0.01726 iter 300 sec 1.1
+F1_Moderate SC_a0.5_m0 err 0.437085 KKT 0.01709 iter 225 sec 0.8
+F1_Moderate SC_a1_m0 err 0.524999 KKT 0.01716 iter 150 sec 0.5
+DONE F1_Moderate 45.1
+CASE dev F1_Strong
+F1_Strong SC_a0.25_m0.01 err 0.478343 KKT 0.01666 iter 225 sec 3.4
+F1_Strong SC_a0.25_m0.1 err 0.473196 KKT 0.01808 iter 225 sec 3.5
+F1_Strong SC_a0.25_m1 err 0.450944 KKT 0.01705 iter 325 sec 5.1
+F1_Strong SC_a0.5_m0.01 err 0.526192 KKT 0.01066 iter 175 sec 2.5
+F1_Strong SC_a0.5_m0.1 err 0.525224 KKT 0.0112 iter 175 sec 2.7
+F1_Strong SC_a0.5_m1 err 0.520831 KKT 0.01149 iter 250 sec 3.7
+F1_Strong SC_a1_m0.01 err 0.609071 KKT 0.00997 iter 125 sec 1.8
+F1_Strong SC_a1_m0.1 err 0.609032 KKT 0.01674 iter 125 sec 1.8
+F1_Strong SC_a1_m1 err 0.609019 KKT 0.01712 iter 175 sec 2.5
+F1_Strong SC_a0.25_m0 err 0.478988 KKT 0.01608 iter 225 sec 1.1
+F1_Strong SC_a0.5_m0 err 0.526306 KKT 0.01034 iter 175 sec 0.8
+F1_Strong SC_a1_m0 err 0.609076 KKT 0.00962 iter 125 sec 0.5
+DONE F1_Strong 36.7
+CASE dev F2_Moderate
+F2_Moderate SC_a0.25_m0.01 err 0.282818 KKT 0.0134 iter 300 sec 5.0
+F2_Moderate SC_a0.25_m0.1 err 0.276184 KKT 0.01898 iter 350 sec 4.8
+F2_Moderate SC_a0.25_m1 err 0.246385 KKT 0.01517 iter 425 sec 6.5
+F2_Moderate SC_a0.5_m0.01 err 0.255578 KKT 0.01876 iter 250 sec 4.0
+F2_Moderate SC_a0.5_m0.1 err 0.254073 KKT 0.01338 iter 250 sec 4.0
+F2_Moderate SC_a0.5_m1 err 0.245438 KKT 0.01889 iter 325 sec 5.0
+F2_Moderate SC_a1_m0.01 err 0.264274 KKT 0.01644 iter 150 sec 2.2
+F2_Moderate SC_a1_m0.1 err 0.264056 KKT 0.01436 iter 175 sec 2.5
+F2_Moderate SC_a1_m1 err 0.26237 KKT 0.01941 iter 225 sec 3.2
+F2_Moderate SC_a0.25_m0 err 0.283643 KKT 0.01342 iter 300 sec 1.4
+F2_Moderate SC_a0.5_m0 err 0.255758 KKT 0.01464 iter 300 sec 1.3
+F2_Moderate SC_a1_m0 err 0.264302 KKT 0.01649 iter 150 sec 0.7
+DONE F2_Moderate 47.8
+CASE dev F2_Strong
+F2_Strong SC_a0.25_m0.01 err 0.430108 KKT 0.01373 iter 325 sec 5.3
+F2_Strong SC_a0.25_m0.1 err 0.417551 KKT 0.01483 iter 325 sec 4.7
+F2_Strong SC_a0.25_m1 err 0.353655 KKT 0.01525 iter 425 sec 5.6
+F2_Strong SC_a0.5_m0.01 err 0.319866 KKT 0.01737 iter 175 sec 2.6
+F2_Strong SC_a0.5_m0.1 err 0.317075 KKT 0.01171 iter 200 sec 3.1
+F2_Strong SC_a0.5_m1 err 0.299981 KKT 0.01073 iter 300 sec 4.5
+F2_Strong SC_a1_m0.01 err 0.30765 KKT 0.01708 iter 175 sec 2.6
+F2_Strong SC_a1_m0.1 err 0.307457 KKT 0.0094 iter 200 sec 3.1
+F2_Strong SC_a1_m1 err 0.305646 KKT 0.01934 iter 250 sec 3.8
+F2_Strong SC_a0.25_m0 err 0.431673 KKT 0.01993 iter 300 sec 1.3
+F2_Strong SC_a0.5_m0 err 0.32019 KKT 0.01669 iter 175 sec 0.8
+F2_Strong SC_a1_m0 err 0.307681 KKT 0.01835 iter 175 sec 0.7
+DONE F2_Strong 45.5

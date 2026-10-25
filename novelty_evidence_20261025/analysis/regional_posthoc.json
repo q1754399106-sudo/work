@@ -1,0 +1,774 @@
+{
+  "scope": "Post-hoc diagnostic, not a registered gate and not a rescue of failed primary comparison.",
+  "source_metric": "round3/core/score_gather.m and score_weak.m",
+  "rows": [
+    {
+      "case": "F3_Moderate",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.4131048915510849
+    },
+    {
+      "case": "F3_Moderate",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.020158511636422027
+    },
+    {
+      "case": "F3_Moderate",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.5237701123791775
+    },
+    {
+      "case": "F3_Moderate",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.006937108222337992
+    },
+    {
+      "case": "F3_Moderate",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.5256973822143192
+    },
+    {
+      "case": "F3_Moderate",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.013019270017542594
+    },
+    {
+      "case": "F3_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.5340248114824593
+    },
+    {
+      "case": "F3_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.015751779696588624
+    },
+    {
+      "case": "F3_Strong",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.504028059364906
+    },
+    {
+      "case": "F3_Strong",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.04135701124681558
+    },
+    {
+      "case": "F3_Strong",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.6520718112811408
+    },
+    {
+      "case": "F3_Strong",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.01580042194542201
+    },
+    {
+      "case": "F3_Strong",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.7098450567625866
+    },
+    {
+      "case": "F3_Strong",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.028258782252341824
+    },
+    {
+      "case": "F3_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.7607255841701593
+    },
+    {
+      "case": "F3_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.03368085934858917
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.19427390908157086
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.0238665125808872
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.2737820736411866
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.008554333665398635
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.30189732491212345
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.017349785563746598
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.32763997070602047
+    },
+    {
+      "case": "F4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.020892724405791385
+    },
+    {
+      "case": "F4_Strong",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.288192227559103
+    },
+    {
+      "case": "F4_Strong",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.04898831017945458
+    },
+    {
+      "case": "F4_Strong",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.38351763557919805
+    },
+    {
+      "case": "F4_Strong",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.019427530043805742
+    },
+    {
+      "case": "F4_Strong",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.4945341917121489
+    },
+    {
+      "case": "F4_Strong",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.03601082939439022
+    },
+    {
+      "case": "F4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.5691977077039077
+    },
+    {
+      "case": "F4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.0433836565325015
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.14797825220092287
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.04331325594747439
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SC",
+      "metric": "fault",
+      "value": 0.3165860396773651
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SC",
+      "metric": "pinch",
+      "value": 0.13406502656091848
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SC",
+      "metric": "weak_projection_error",
+      "value": 0.27600298957392755
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SC",
+      "metric": "weak_projection_gain",
+      "value": 0.8197965355552332
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.09850438366492906
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.03291616906232784
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "StandardArchived",
+      "metric": "fault",
+      "value": 0.15786198887937736
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "StandardArchived",
+      "metric": "pinch",
+      "value": 0.0485122504329266
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "StandardArchived",
+      "metric": "weak_projection_error",
+      "value": 0.43658003954486313
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "StandardArchived",
+      "metric": "weak_projection_gain",
+      "value": 0.7542300273056243
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.13641236039080865
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.08329916662995993
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SoftArchived",
+      "metric": "fault",
+      "value": 0.22373335349575613
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SoftArchived",
+      "metric": "pinch",
+      "value": 0.05434595129103962
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SoftArchived",
+      "metric": "weak_projection_error",
+      "value": 0.4072331113430092
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "SoftArchived",
+      "metric": "weak_projection_gain",
+      "value": 0.8012328961157907
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.15870940063711955
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.10460055254857326
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "fault",
+      "value": 0.2604090188993898
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "pinch",
+      "value": 0.05748834897857104
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "weak_projection_error",
+      "value": 0.3927978580041464
+    },
+    {
+      "case": "V4_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "weak_projection_gain",
+      "value": 0.8925876234960537
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.20774420279648367
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.08767361047373341
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SC",
+      "metric": "fault",
+      "value": 0.408190280118484
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SC",
+      "metric": "pinch",
+      "value": 0.16781825703841455
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SC",
+      "metric": "weak_projection_error",
+      "value": 0.4197432148385518
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SC",
+      "metric": "weak_projection_gain",
+      "value": 0.7187108069480355
+    },
+    {
+      "case": "V4_Strong",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.20110604055466
+    },
+    {
+      "case": "V4_Strong",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.07829272408002289
+    },
+    {
+      "case": "V4_Strong",
+      "method": "StandardArchived",
+      "metric": "fault",
+      "value": 0.34544572960636954
+    },
+    {
+      "case": "V4_Strong",
+      "method": "StandardArchived",
+      "metric": "pinch",
+      "value": 0.10196997354542862
+    },
+    {
+      "case": "V4_Strong",
+      "method": "StandardArchived",
+      "metric": "weak_projection_error",
+      "value": 0.6809515133671721
+    },
+    {
+      "case": "V4_Strong",
+      "method": "StandardArchived",
+      "metric": "weak_projection_gain",
+      "value": 0.49581828753728985
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.28438829746729816
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.18074832740253016
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SoftArchived",
+      "metric": "fault",
+      "value": 0.45938262962915416
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SoftArchived",
+      "metric": "pinch",
+      "value": 0.12415013298043866
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SoftArchived",
+      "metric": "weak_projection_error",
+      "value": 0.6711273527861246
+    },
+    {
+      "case": "V4_Strong",
+      "method": "SoftArchived",
+      "metric": "weak_projection_gain",
+      "value": 0.6275744316299889
+    },
+    {
+      "case": "V4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.3309323484007741
+    },
+    {
+      "case": "V4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.22458184778043808
+    },
+    {
+      "case": "V4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "fault",
+      "value": 0.5349227418998347
+    },
+    {
+      "case": "V4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "pinch",
+      "value": 0.13768096592664986
+    },
+    {
+      "case": "V4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "weak_projection_error",
+      "value": 0.6904296817232831
+    },
+    {
+      "case": "V4_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "weak_projection_gain",
+      "value": 0.7438732735950393
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.6555703287236894
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.04185121207526854
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SC",
+      "metric": "fault",
+      "value": 0.680207557924086
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SC",
+      "metric": "pinch",
+      "value": 0.7198700010197819
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SC",
+      "metric": "low_energy",
+      "value": 0.6681367759907533
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SC",
+      "metric": "deep",
+      "value": 0.7165585417434973
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.5585560896274313
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.04406640413308584
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "StandardArchived",
+      "metric": "fault",
+      "value": 0.5810543160344198
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "StandardArchived",
+      "metric": "pinch",
+      "value": 0.4725778431695215
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "StandardArchived",
+      "metric": "low_energy",
+      "value": 0.6641234084893112
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "StandardArchived",
+      "metric": "deep",
+      "value": 0.618586489075321
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.559036920418486
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.0536880828231407
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SoftArchived",
+      "metric": "fault",
+      "value": 0.5809357671224903
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SoftArchived",
+      "metric": "pinch",
+      "value": 0.47428051139691274
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SoftArchived",
+      "metric": "low_energy",
+      "value": 0.6788200929790693
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "SoftArchived",
+      "metric": "deep",
+      "value": 0.6190160338058963
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.5580009133148162
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.06192576003241295
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "fault",
+      "value": 0.5799996782564749
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "pinch",
+      "value": 0.4763662354124151
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "low_energy",
+      "value": 0.6937399953050359
+    },
+    {
+      "case": "V5_Moderate",
+      "method": "FullCalRefitArchived",
+      "metric": "deep",
+      "value": 0.6181868522612931
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SC",
+      "metric": "overall",
+      "value": 0.7443834654800067
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SC",
+      "metric": "quiet_leak",
+      "value": 0.06355950841816255
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SC",
+      "metric": "fault",
+      "value": 0.7455798577331728
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SC",
+      "metric": "pinch",
+      "value": 0.8279839682427164
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SC",
+      "metric": "low_energy",
+      "value": 0.8143304969123614
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SC",
+      "metric": "deep",
+      "value": 0.8006239321019785
+    },
+    {
+      "case": "V5_Strong",
+      "method": "StandardArchived",
+      "metric": "overall",
+      "value": 0.6363161481117577
+    },
+    {
+      "case": "V5_Strong",
+      "method": "StandardArchived",
+      "metric": "quiet_leak",
+      "value": 0.06994229598254519
+    },
+    {
+      "case": "V5_Strong",
+      "method": "StandardArchived",
+      "metric": "fault",
+      "value": 0.6464905618449687
+    },
+    {
+      "case": "V5_Strong",
+      "method": "StandardArchived",
+      "metric": "pinch",
+      "value": 0.6612923301672803
+    },
+    {
+      "case": "V5_Strong",
+      "method": "StandardArchived",
+      "metric": "low_energy",
+      "value": 0.8416174182702318
+    },
+    {
+      "case": "V5_Strong",
+      "method": "StandardArchived",
+      "metric": "deep",
+      "value": 0.6965791274704316
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SoftArchived",
+      "metric": "overall",
+      "value": 0.6443982353422073
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SoftArchived",
+      "metric": "quiet_leak",
+      "value": 0.09097869849184598
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SoftArchived",
+      "metric": "fault",
+      "value": 0.6485608553233806
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SoftArchived",
+      "metric": "pinch",
+      "value": 0.6785978192353879
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SoftArchived",
+      "metric": "low_energy",
+      "value": 0.9100172577789999
+    },
+    {
+      "case": "V5_Strong",
+      "method": "SoftArchived",
+      "metric": "deep",
+      "value": 0.706547776737125
+    },
+    {
+      "case": "V5_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "overall",
+      "value": 0.6517613853406294
+    },
+    {
+      "case": "V5_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "quiet_leak",
+      "value": 0.10885585708991764
+    },
+    {
+      "case": "V5_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "fault",
+      "value": 0.6539222992812218
+    },
+    {
+      "case": "V5_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "pinch",
+      "value": 0.7006808411967183
+    },
+    {
+      "case": "V5_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "low_energy",
+      "value": 0.9713600531957509
+    },
+    {
+      "case": "V5_Strong",
+      "method": "FullCalRefitArchived",
+      "metric": "deep",
+      "value": 0.7165896629060631
+    }
+  ]
+}

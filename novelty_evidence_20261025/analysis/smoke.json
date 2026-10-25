@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "full_reconstruction": 8.086959012565828e-17,
+    "soft_reconstruction": 1.187871740225922e-16,
+    "standard_platform_difference": 0.0011534462011156812,
+    "predictor_adjoint_error": 2.3117204558614156e-14
+  },
+  "solver": {
+    "iterations": 250,
+    "kkt_ratio": 0.009292675235172576,
+    "converged": true,
+    "seconds": 3.952999999979511,
+    "a": 0.5,
+    "mu_relative": 0.1,
+    "mu": 0.0011471460523627436,
+    "Ldata": 6.232825457052352,
+    "Lstructure": 543.3332088982725,
+    "L": 7.198913402895466,
+    "backtracks": 0,
+    "objective": 0.2728710630908647
+  },
+  "error": 0.43569622914465467
+}

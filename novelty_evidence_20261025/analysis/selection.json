@@ -1,0 +1,130 @@
+{
+  "a": 0.125,
+  "mu_relative": 10.0,
+  "mean_error": 0.29835089771510037,
+  "all_converged": true,
+  "no_structure_a": 0.5,
+  "all_candidates": [
+    {
+      "a": 0.125,
+      "mu_relative": 0.01,
+      "mean_error": 0.437869221394879,
+      "all_converged": true
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 0.1,
+      "mean_error": 0.4194958026381096,
+      "all_converged": true
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 1.0,
+      "mean_error": 0.356099449916041,
+      "all_converged": true
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mean_error": 0.29835089771510037,
+      "all_converged": true
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 0.01,
+      "mean_error": 0.3937484806216172,
+      "all_converged": true
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 0.1,
+      "mean_error": 0.38682845711789604,
+      "all_converged": true
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 1.0,
+      "mean_error": 0.3548738968165237,
+      "all_converged": true
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 10.0,
+      "mean_error": 0.3204814409226213,
+      "all_converged": true
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 0.01,
+      "mean_error": 0.38464258663760637,
+      "all_converged": true
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 0.1,
+      "mean_error": 0.38301685748439235,
+      "all_converged": true
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 1.0,
+      "mean_error": 0.374158497079934,
+      "all_converged": true
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 10.0,
+      "mean_error": 0.36385656233227626,
+      "all_converged": true
+    },
+    {
+      "a": 1.0,
+      "mu_relative": 0.01,
+      "mean_error": 0.4264964450284635,
+      "all_converged": true
+    },
+    {
+      "a": 1.0,
+      "mu_relative": 0.1,
+      "mean_error": 0.4263646763513892,
+      "all_converged": true
+    },
+    {
+      "a": 1.0,
+      "mu_relative": 1.0,
+      "mean_error": 0.42549859188608785,
+      "all_converged": true
+    },
+    {
+      "a": 1.0,
+      "mu_relative": 10.0,
+      "mean_error": 0.4250018543047313,
+      "all_converged": true
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 0.0,
+      "mean_error": 0.4403658288859707,
+      "all_converged": true
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 0.0,
+      "mean_error": 0.39462304967796086,
+      "all_converged": true
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 0.0,
+      "mean_error": 0.3848347282869903,
+      "all_converged": true
+    },
+    {
+      "a": 1.0,
+      "mu_relative": 0.0,
+      "mean_error": 0.42651452922585464,
+      "all_converged": true
+    }
+  ],
+  "frozen_before_test": true
+}

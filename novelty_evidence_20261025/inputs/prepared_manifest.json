@@ -1,0 +1,74 @@
+{
+  "F1_Q+0_Moderate_nominal.mat": {
+    "bytes": 826892,
+    "sha256": "60404f573ba47bf2113571679c26157fa50ac3f91c1bcd81af66b4edb9510633",
+    "source": "round3_20261024\\cache\\F1_Q+0_Moderate_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "F1_Q+0_Strong_nominal.mat": {
+    "bytes": 799842,
+    "sha256": "011fe2160d3160e1aa0bb2c47bc1ded8b2846b548b1fc59115dc61872b3eec61",
+    "source": "round3_20261024\\cache\\F1_Q+0_Strong_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "F2_Q+0_Moderate_nominal.mat": {
+    "bytes": 787216,
+    "sha256": "8c360118a25e90adfb3c4057582b3b53351068221c9a57e953a79c58fda27439",
+    "source": "round3_20261024\\cache\\F2_Q+0_Moderate_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "F2_Q+0_Strong_nominal.mat": {
+    "bytes": 766037,
+    "sha256": "b01fce4da35dcb8ee7689b7d5f4f8093beaf5236e578ad74d778da5892e8be9e",
+    "source": "round3_20261024\\cache\\F2_Q+0_Strong_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "F3_Q+0_Moderate_nominal.mat": {
+    "bytes": 816437,
+    "sha256": "51c74f6c12b5ae3ae7874b226673c5576a4f7cc7942be3203c8a21c9761d0b27",
+    "source": "round3_20261024\\cache\\F3_Q+0_Moderate_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "F3_Q+0_Strong_nominal.mat": {
+    "bytes": 794354,
+    "sha256": "c532a6e63b0ea5150ecc036b1acf3be86f2d89889177f126d73d7d1af14475b1",
+    "source": "round3_20261024\\cache\\F3_Q+0_Strong_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "F4_Q+0_Moderate_nominal.mat": {
+    "bytes": 794579,
+    "sha256": "2aa9353ab6dc0b3872b5952c6a86c8b07011661876c4520a22853f50a13a6f86",
+    "source": "round3_20261024\\cache\\F4_Q+0_Moderate_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "F4_Q+0_Strong_nominal.mat": {
+    "bytes": 767895,
+    "sha256": "e5bb1a3d980c74655abf0fa8458a9313c0ccfaf30831de5212b219236fc26cb8",
+    "source": "round3_20261024\\cache\\F4_Q+0_Strong_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "V4_Q+0_Moderate_nominal.mat": {
+    "bytes": 712466,
+    "sha256": "159f18c1b5c7a88ba1d226f8590366ba0bd4d7d2d2aca93e18508be80f4e86ce",
+    "source": "round3_20261024\\cache\\V4_Q+0_Moderate_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "V4_Q+0_Strong_nominal.mat": {
+    "bytes": 718393,
+    "sha256": "d40aa96f464570467f5baf3b89925d96d71fcb33d0119a51eb13b6a023fb27e6",
+    "source": "round3_20261024\\cache\\V4_Q+0_Strong_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "V5_Q+0_Moderate_nominal.mat": {
+    "bytes": 1460538,
+    "sha256": "3dc950f5d9a2a34651361805e2690161fc236a7531fcb9988913fc573675621a",
+    "source": "round3_20261024\\cache\\V5_Q+0_Moderate_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  },
+  "V5_Q+0_Strong_nominal.mat": {
+    "bytes": 1444563,
+    "sha256": "03bd068c018aaba85cca55867dc440d930067355cd39e5c9fbc7684497a85059",
+    "source": "round3_20261024\\cache\\V5_Q+0_Strong_nominal.mat",
+    "kind": "Archived MATLAB refit state, not a new solve"
+  }
+}

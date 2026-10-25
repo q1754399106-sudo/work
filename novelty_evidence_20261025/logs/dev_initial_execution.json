@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:\\Users\\qq175\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:\\ChatGPT\\\u7814\u7a76\\novelty_evidence_20261025\\scripts\\benchmark.py",
+    "dev"
+  ],
+  "start_utc": "2026-10-25T05:35:09.822045+00:00",
+  "timeout_seconds": 1800,
+  "input_hashes": {
+    "PLAN_ZH.md": "6b90eac61308e9d1c50d803b79a962300a88b0cea38539419dbf3c754c753de3",
+    "scripts\\benchmark.py": "4304b8c35e991f0656ed63f051faf655a7eb1690cab708e700a0673ae0f8c3c5",
+    "scripts\\check_theory.py": "27cd143134b3af9abbb0805318e416daf3efe1f7ce16842059de5f67b7ca28e9",
+    "scripts\\common.py": "17a6f89faf0eddfc7469328ab80a5189e4ed3ecd4b3ad1ec58c70cd81f1ef5ab",
+    "scripts\\inspect_inputs.py": "2e1c68fb07e7291233663a00fd12e62151747a065d4caafc3275ea3fa28bab96",
+    "scripts\\run_stage.py": "7253259fcaecc9ddb773d17f7d13d90daaaac57dc1887483e86265bdcb47c720"
+  },
+  "pid": 47236,
+  "exit_code": 0,
+  "seconds": 177.84400000001187,
+  "end_utc": "2026-10-25T05:38:07.662085+00:00",
+  "source_unchanged": false
+}

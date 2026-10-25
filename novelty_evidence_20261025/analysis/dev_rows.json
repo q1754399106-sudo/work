@@ -1,0 +1,542 @@
+[
+  {
+    "case": "F1_Moderate",
+    "method": "Soft",
+    "error": 0.3917621863207516
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "v1",
+    "error": 0.3906758152589684
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "Standard",
+    "error": 0.3921262689015954
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "Uniform",
+    "error": 0.3926067411310244
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "FullCalRefit",
+    "error": 0.3965784075258498
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "StandardArchived",
+    "error": 0.39212642149507315
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "QScan_StandardArchived",
+    "error": 0.476508309260465
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.125_m0.01",
+    "error": 0.3501407420336063
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.125_m0.1",
+    "error": 0.3419455846742297
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.125_m1",
+    "error": 0.31975523672044404
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.125_m10",
+    "error": 0.3095420537334552
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.25_m0.01",
+    "error": 0.38372429322129853
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.25_m0.1",
+    "error": 0.38038378250502214
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.25_m1",
+    "error": 0.36851151555971384
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.25_m10",
+    "error": 0.3624258570731143
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.5_m0.01",
+    "error": 0.43693413601790804
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.5_m0.1",
+    "error": 0.43569622914465467
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.5_m1",
+    "error": 0.430384513189176
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.5_m10",
+    "error": 0.4282173632333694
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a1_m0.01",
+    "error": 0.5249901769111223
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a1_m0.1",
+    "error": 0.5249138801829684
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a1_m1",
+    "error": 0.5249591519462006
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a1_m10",
+    "error": 0.5282390672470649
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.125_m0",
+    "error": 0.3513242689054639
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.25_m0",
+    "error": 0.3841892176478995
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a0.5_m0",
+    "error": 0.4370847418633541
+  },
+  {
+    "case": "F1_Moderate",
+    "method": "SC_a1_m0",
+    "error": 0.5249989482537885
+  },
+  {
+    "case": "F1_Strong",
+    "method": "Soft",
+    "error": 0.516503852594006
+  },
+  {
+    "case": "F1_Strong",
+    "method": "v1",
+    "error": 0.4983164219779141
+  },
+  {
+    "case": "F1_Strong",
+    "method": "Standard",
+    "error": 0.49489260955156955
+  },
+  {
+    "case": "F1_Strong",
+    "method": "Uniform",
+    "error": 0.5074687286122127
+  },
+  {
+    "case": "F1_Strong",
+    "method": "FullCalRefit",
+    "error": 0.5410713915602777
+  },
+  {
+    "case": "F1_Strong",
+    "method": "StandardArchived",
+    "error": 0.49493073429116624
+  },
+  {
+    "case": "F1_Strong",
+    "method": "QScan_StandardArchived",
+    "error": 0.5449877372242546
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.125_m0.01",
+    "error": 0.47391586901166843
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.125_m0.1",
+    "error": 0.46056889434704207
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.125_m1",
+    "error": 0.41283766973132113
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.125_m10",
+    "error": 0.378606881224479
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.25_m0.01",
+    "error": 0.4783433146242354
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.25_m0.1",
+    "error": 0.47319570876355904
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.25_m1",
+    "error": 0.4509441402854563
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.25_m10",
+    "error": 0.4335309713051487
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.5_m0.01",
+    "error": 0.5261922039658115
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.5_m0.1",
+    "error": 0.5252238007468409
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.5_m1",
+    "error": 0.5208305209701044
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.5_m10",
+    "error": 0.5210836192054783
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a1_m0.01",
+    "error": 0.6090712566218627
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a1_m0.1",
+    "error": 0.6090322868748806
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a1_m1",
+    "error": 0.6090187510689555
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a1_m10",
+    "error": 0.6123769301032218
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.125_m0",
+    "error": 0.4756472726563765
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.25_m0",
+    "error": 0.47898778084020344
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a0.5_m0",
+    "error": 0.5263061685620363
+  },
+  {
+    "case": "F1_Strong",
+    "method": "SC_a1_m0",
+    "error": 0.6090761155275144
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "Soft",
+    "error": 0.33960114204472747
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "v1",
+    "error": 0.2917136649097694
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "Standard",
+    "error": 0.2757671128862533
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "Uniform",
+    "error": 0.31678947456431983
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "FullCalRefit",
+    "error": 0.38527882928394386
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "StandardArchived",
+    "error": 0.2757488493142663
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "QScan_StandardArchived",
+    "error": 0.33011779436819594
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.125_m0.01",
+    "error": 0.33916840483133004
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.125_m0.1",
+    "error": 0.3211859992744887
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.125_m1",
+    "error": 0.2612220097424411
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.125_m10",
+    "error": 0.2074910363068052
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.25_m0.01",
+    "error": 0.2828180773780275
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.25_m0.1",
+    "error": 0.2761837137666588
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.25_m1",
+    "error": 0.246384838396858
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.25_m10",
+    "error": 0.21584667742630534
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.5_m0.01",
+    "error": 0.2555777578284456
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.5_m0.1",
+    "error": 0.25407263345232317
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.5_m1",
+    "error": 0.24543799164081204
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.5_m10",
+    "error": 0.23477667015982845
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a1_m0.01",
+    "error": 0.26427397141093295
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a1_m0.1",
+    "error": 0.26405598464202795
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a1_m1",
+    "error": 0.26237033417190164
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a1_m10",
+    "error": 0.2586785849688925
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.125_m0",
+    "error": 0.34182916192434853
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.25_m0",
+    "error": 0.2836425598413394
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a0.5_m0",
+    "error": 0.2557583262241172
+  },
+  {
+    "case": "F2_Moderate",
+    "method": "SC_a1_m0",
+    "error": 0.26430160098136374
+  },
+  {
+    "case": "F2_Strong",
+    "method": "Soft",
+    "error": 0.5644846540298463
+  },
+  {
+    "case": "F2_Strong",
+    "method": "v1",
+    "error": 0.4419472231735529
+  },
+  {
+    "case": "F2_Strong",
+    "method": "Standard",
+    "error": 0.39532602723849525
+  },
+  {
+    "case": "F2_Strong",
+    "method": "Uniform",
+    "error": 0.5086861174671795
+  },
+  {
+    "case": "F2_Strong",
+    "method": "FullCalRefit",
+    "error": 0.6660450783502639
+  },
+  {
+    "case": "F2_Strong",
+    "method": "StandardArchived",
+    "error": 0.3952952496230693
+  },
+  {
+    "case": "F2_Strong",
+    "method": "QScan_StandardArchived",
+    "error": 0.3939596116130211
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.125_m0.01",
+    "error": 0.5882518697029113
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.125_m0.1",
+    "error": 0.5542827322566779
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.125_m1",
+    "error": 0.43058288346995766
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.125_m10",
+    "error": 0.2977636195956622
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.25_m0.01",
+    "error": 0.43010823726290753
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.25_m0.1",
+    "error": 0.4175506234363442
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.25_m1",
+    "error": 0.3536550930240666
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.25_m10",
+    "error": 0.27012225788591715
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.5_m0.01",
+    "error": 0.31986624873826025
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.5_m0.1",
+    "error": 0.31707476659375056
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.5_m1",
+    "error": 0.2999809625196434
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.5_m10",
+    "error": 0.2713485967304289
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a1_m0.01",
+    "error": 0.30765037516993604
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a1_m0.1",
+    "error": 0.3074565537056798
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a1_m1",
+    "error": 0.30564613035729343
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a1_m10",
+    "error": 0.3007128348997459
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.125_m0",
+    "error": 0.5926626120576939
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.25_m0",
+    "error": 0.43167264038240116
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a0.5_m0",
+    "error": 0.32018967649845353
+  },
+  {
+    "case": "F2_Strong",
+    "method": "SC_a1_m0",
+    "error": 0.30768145214075204
+  }
+]
