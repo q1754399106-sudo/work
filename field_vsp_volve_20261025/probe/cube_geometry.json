@@ -1,0 +1,56 @@
+{
+ "dt_us": 4000,
+ "ns": 1126,
+ "format": 1,
+ "traces": 58479,
+ "inline": [
+  9985,
+  10369
+ ],
+ "xline": [
+  1932,
+  2536
+ ],
+ "line_centre": [
+  434716.71204188484,
+  6478048.92356021
+ ],
+ "line_unit": [
+  -0.9466769207890142,
+  -0.322184431103414
+ ],
+ "receiver_along": [
+  -422.0808868928957,
+  821.8947238752477
+ ],
+ "nearest": [
+  {
+   "level": 1,
+   "twt": 2.6708,
+   "nearest_inline": 10085,
+   "nearest_xline": 2358,
+   "distance_m": 2.7
+  },
+  {
+   "level": 61,
+   "twt": 2.4825,
+   "nearest_inline": 10085,
+   "nearest_xline": 2294,
+   "distance_m": 9.8
+  },
+  {
+   "level": 121,
+   "twt": 2.0011,
+   "nearest_inline": 10113,
+   "nearest_xline": 2268,
+   "distance_m": 12.8
+  },
+  {
+   "level": 191,
+   "twt": 1.0969,
+   "nearest_inline": 10139,
+   "nearest_xline": 2276,
+   "distance_m": 14.2
+  }
+ ]
+}
