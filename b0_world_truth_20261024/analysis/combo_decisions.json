@@ -1,0 +1,47 @@
+{
+  "consistency_with_truth_csv": 0.0,
+  "scenes": 16,
+  "decisive_scenes_combo": 12,
+  "decisive_gathers_combo": 36,
+  "scenes_combo_worse": 13,
+  "scenes_same_sign_fcr_vs_combo": 13,
+  "accuracy_vs_combo_sign": {
+    "selected": {
+      "decisive": 0.75,
+      "all": 0.6875
+    },
+    "B0 (tau=0)": {
+      "decisive": 0.8888888888888888,
+      "all": 0.7916666666666666
+    },
+    "B0M (tau=0)": {
+      "decisive": 0.8333333333333334,
+      "all": 0.75
+    },
+    "B0C (tau=0)": {
+      "decisive": 0.7777777777777778,
+      "all": 0.7083333333333334
+    },
+    "V": {
+      "decisive": 0.25,
+      "all": 0.3125
+    },
+    "G": {
+      "decisive": 0.5,
+      "all": 0.5
+    },
+    "B0 (dev tau=0.163)": {
+      "decisive": 0.75,
+      "all": 0.6875
+    },
+    "B0M (dev tau=0.171)": {
+      "decisive": 0.75,
+      "all": 0.6875
+    },
+    "B0C (dev tau=0.135)": {
+      "decisive": 0.7222222222222222,
+      "all": 0.6666666666666666
+    }
+  },
+  "spearman_B0M_vs_combo": 0.9676470588235294
+}
