@@ -115,6 +115,6 @@
 地震衰减补偿研究/field_vsp_volve_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
 地震衰减补偿研究/field_vsp_volve_20261025/raw/**/*.segy filter=lfs diff=lfs merge=lfs -text
 地震衰减补偿研究/final_report_20261025/** -text
-sc_neutral_20261026/** -text
-sc_neutral_20261026/**/*.mat filter=lfs diff=lfs merge=lfs -text
-sc_neutral_20261026/**/*.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/sc_neutral_20261026/** -text
+地震衰减补偿研究/sc_neutral_20261026/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/sc_neutral_20261026/**/*.npz filter=lfs diff=lfs merge=lfs -text
