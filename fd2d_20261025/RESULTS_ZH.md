@@ -44,7 +44,10 @@
   - 一种可能的解释是 GSLS 与字典的 Kjartansson 常 Q 之间的流变差别：验证 T3 中，1 s 以后两种流变本身就差 17%。这只是推测，本轮没有检验。
 - **含噪最优**：14 dB 时 H2、H6 的最优在 1.149–1.280（宁可少补偿）。8 dB 时最优点上移：H2 1.97、H6 1.43、H4 1.15，其余在 1.00–1.03。这与 Kennett 上“噪声越强，少补偿越有用”一致。
 - **强反射振幅增益**：QScan＋标准版为 0.70–1.01，最优因子处为 0.81–1.04。
-- **断层附近的误差**：方案把它列为描述项，但冻结的 `summarize_fd.m` 没有计算这个量。本轮按“不改脚本”的规则没有补算，留作空缺。
+- **断层附近的误差**：方案把它列为描述项，但冻结的 `summarize_fd.m` 没有计算这个量。本轮按“不改脚本”的规则没有补算。
+  - 补算（2026-10-25，另写脚本，事后定义窗口，只作描述）：见 [FAULT_ZH.md](FAULT_ZH.md)。
+  - 断层两侧各 5 道内，FullCalRefit 的误差在 11/18 个模型×场景上高于所有远离断层的 10 道对照窗口；标准版只有 2/18，QScan＋标准版 0/18。
+  - 只在这个窗口内计数，E3、E4 的结果与全测线相同。
 
 ![二维模型 H4：弹性目标、无噪声衰减数据与差值（断点绕射、气砂楔形体）](figures/fd_gathers.png)
 
@@ -58,4 +61,5 @@
 - `models/H1–H6.mat`（公开配置与无噪声道集）、`truth/H1–H6_truth.mat`（弹性目标）。
 - `analysis/verification.json`（正演验证）、`analysis/fd_curves.csv`（14 个因子的误差曲线）、`analysis/fd_summary.csv`（D/S1/S2/B/A/最优、偏移、增益）、`analysis/decisions.json`（E1–E4）。
 - `figures/fd_curves.png/pdf`、`figures/fd_gathers.png`：由 `scripts/make_figure.py` 生成，只作描述；它在方案冻结后加入，不在冻结哈希之内。
+- `analysis/fault_windows.csv`、`analysis/fault_compare.csv`：断层附近误差的补算（`scripts/summarize_fault.m`、`scripts/fault_compare.py`），见 [FAULT_ZH.md](FAULT_ZH.md)。同样在冻结后加入。
 - `logs/`：各阶段日志、执行记录与两次冻结哈希。`cache/`（不上传）：每炮原始记录与每个实现的扫描输出。

@@ -15,6 +15,7 @@
 - `scripts/make_shots.m`、`scripts/assemble_models.m`：逐炮生成（可续跑），汇成公开配置、无噪声道集（`models/`）与评分目标（`truth/`）。
 - `scripts/run_fd.m`：扫描 worker，与 `qscan_offset_20261025/scripts/run_offset.m` 逐句相同。
 - `scripts/summarize_fd.m`：误差曲线、D/S1/S2/B/A/最优、偏移、无噪声最优，以及 E1–E4 判定。
+- `scripts/summarize_fault.m`、`scripts/fault_compare.py`：断层附近误差的补算（冻结后加入，只作描述），见 [FAULT_ZH.md](FAULT_ZH.md)。
 - `scripts/qscan_select.m`、`noise_replica.m`、`estimate_sigmas.m`：与 `qscan_offset_20261025/scripts` 中的文件逐字相同。
 - `scripts/snapshot_inputs.py`、`hash_prerun.py`、`run_stage.py`：输入快照、两个冻结点的哈希、带日志与超时的 MATLAB 运行器。
 - `cache/`（不上传）：输入快照、每炮原始记录（约 40 KB/炮）、每个实现的扫描输出。
