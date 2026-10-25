@@ -10,7 +10,7 @@
 - `scripts/make_models.m`：生成器，与 `qscan_offset_20261025/scripts/make_dev.m` 逐句相同。`make_models('G')` 重新生成 G1–G8 作检验，`make_models('K')` 生成 K1–K8。
 - `scripts/run_confirm.m`：每个道集的决定（不读真值），以及标准版在 f=1、b、b−2 三处的输出。
 - `scripts/seal_decisions.py`、`score.m`、`analyze.py`、`make_figure.py`。
-- `models/`、`truth/`：K1–K8 的公开配置与无噪声道集，以及评分目标。
+- `models/`、`truth/`：K1–K8 的公开配置与无噪声道集，以及评分目标。这些文件以普通 Git 文件保存（共约 5 MB），没有放进 LFS：云端容器向 GitHub LFS 上传时被代理拒绝（403）。
 - `decisions/`：封存的逐道集决定。
 - `cache/`（不上传）：输入快照与输出道集。
 
