@@ -1,0 +1,28 @@
+warning: function /home/user/work/octave_compat_20261025/sum.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    run_confirm_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/randn.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    run_confirm_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/rng.m shadows a core library function
+warning: called from
+    oct_setup at line 5 column 1
+    run_confirm_oct at line 4 column 2
+
+c002 U1 SNR08 r2: c=1.4267 B0 +0.143 B0M +0.049 B0C -0.019 gain 0.0118 (44s, total 44s)
+c006 U1 SNR11 r3: c=1.5898 B0 +0.798 B0M +0.726 B0C +0.607 gain 0.0191 (51s, total 95s)
+c010 U1 SNR17 r1: c=1.5898 B0 +2.966 B0M +3.353 B0C +2.934 gain 0.0370 (64s, total 159s)
+c014 U2 SNR08 r2: c=0.9252 B0 +0.337 B0M +0.455 B0C +0.329 gain 0.0007 (43s, total 203s)
+c018 U2 SNR11 r3: c=0.9252 B0 +0.320 B0M +0.441 B0C +0.298 gain 0.0004 (46s, total 249s)
+c022 U2 SNR17 r1: c=1.0310 B0 -0.055 B0M -0.115 B0C -0.095 gain 0.0000 (56s, total 305s)
+c026 U3 SNR08 r2: c=1.1489 B0 -0.106 B0M -0.165 B0C -0.163 gain 0.0024 (47s, total 352s)
+c030 U3 SNR11 r3: c=1.2803 B0 +0.257 B0M +0.174 B0C +0.161 gain 0.0049 (55s, total 407s)
+c034 U3 SNR17 r1: c=1.2803 B0 +1.418 B0M +1.525 B0C +1.490 gain 0.0105 (69s, total 476s)
+c038 U4 SNR08 r2: c=1.1489 B0 -0.204 B0M -0.263 B0C -0.253 gain 0.0010 (46s, total 523s)
+c042 U4 SNR11 r3: c=1.1489 B0 -0.191 B0M -0.249 B0C -0.236 gain 0.0019 (47s, total 570s)
+c046 U4 SNR17 r1: c=1.2803 B0 +0.039 B0M -0.022 B0C -0.019 gain 0.0065 (57s, total 627s)
+DONE confirm worker 2 627s

@@ -44,3 +44,7 @@ deb180ea8818a834ec896a5eb150c6d297df112145ff09a467338f523d4405f4  truth/U3_truth
 ## 恢复 B0M 确认的条件
 
 若以后仍要按原方案确认 B0M：先把失败的 `logs/run_confirm_*` 移到 `logs/failed_launch_20261024/`（`run_stage.py` 会用同名文件覆盖），在内存充足时按 `PLAN_ZH.md` 原样运行（worker 数可以减少，不影响结果），并在结果中注明本次暂停与失败的启动。U1–U4 若已被组合诊断用掉，则 B0M 需要另生成新模型。
+
+## 后续（2026-10-25）
+
+用户决定恢复，确认已按原方案完成（在 Octave 上运行），见 [RESUME_ZH.md](RESUME_ZH.md) 与 [RESULTS_ZH.md](RESULTS_ZH.md)。上面“U1–U4 保留为未见数据”一节自此失效。

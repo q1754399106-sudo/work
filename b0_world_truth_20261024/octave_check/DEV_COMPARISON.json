@@ -1,0 +1,27 @@
+{
+  "gathers": 44,
+  "max_abs_diff": {
+    "qscan_factor": 4.6629367034256575e-15,
+    "gate_gain": 1.1000315242037928e-15,
+    "phi_hat": 2.886579864025407e-15,
+    "noise_window_end": 4.996003610813204e-16,
+    "B0_rel_delta_mse": 3.3306690738754696e-14,
+    "B0_delta_bias2": 2.6922908347160046e-15,
+    "B0_delta_var": 5.10702591327572e-15,
+    "B0M_rel_delta_mse": 4.973799150320701e-14,
+    "B0M_delta_bias2": 2.1094237467877974e-15,
+    "B0M_delta_var": 7.993605777301127e-15,
+    "B0C_rel_delta_mse": 0.004260679905314646,
+    "B0C_delta_bias2": 0.0006139160498812996,
+    "B0C_delta_var": 0.0022526556843431855,
+    "energy_mean_over_x1": 1.865174681370263e-14,
+    "energy_coh_over_x1": 9.441057917536355e-05,
+    "mean_coherence": 0.00037636043947009146
+  },
+  "qscan_factor_identical": true,
+  "B0M_calls_identical_at_tau": 44,
+  "B0_calls_identical_at_0": 44,
+  "B0C_calls_identical_at_0": 44,
+  "seconds_octave_mean": 55.28479273210872,
+  "seconds_matlab_mean": 284.4603964113636
+}

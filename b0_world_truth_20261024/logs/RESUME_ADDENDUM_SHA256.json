@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-10-25T03:49:48.475973+00:00",
+  "git_head": "f276a867be7ef851bed1fb3601b4ef8742fe5ddf",
+  "note": "Before any confirmation diagnosis on U1-U4; predictions/ and cache/outputs/ do not exist.",
+  "hashes": {
+    "b0_world_truth_20261024/RESUME_ZH.md": "5677bd9f952228f863e76854ba67ac03b47611a45ed7dbf16b8c562963e2e6df",
+    "b0_world_truth_20261024/scripts_octave/analyze_confirm_fonts.py": "a52f2e1298ab3256c8412dc7e79e6e28d284fe470f4c2d821e6dcbb5fba73616",
+    "b0_world_truth_20261024/scripts_octave/compare_dev.py": "319272fdd2ce82e4d100e1686e468a7d64bcd27cf28583f5e417df2f60ed3005",
+    "b0_world_truth_20261024/scripts_octave/dev_check_oct.m": "aea86b48356aec3d502658c366f35910cd82bfedebe233f84997d7d06a640216",
+    "b0_world_truth_20261024/scripts_octave/freeze_resume.py": "ba5b7a5ac285fbff3dc45acb84f3ee0cd3587b698cc104c1d31eadd4b052c271",
+    "b0_world_truth_20261024/scripts_octave/observed_gather_oct.m": "dd2486e102b47150ffc94f8f3bacf370ab8c3590d12a4f02aab2cbf272bff5ab",
+    "b0_world_truth_20261024/scripts_octave/oct_setup.m": "2653a02777ebdc4ecee034fe6ccd4d1d8c66d6e1b45a9767ecb157abbda2874c",
+    "b0_world_truth_20261024/scripts_octave/read_csv_struct.m": "0b644a58f9edba2466224fc5825360d290b8bc6722865820415ac97a5042c5d4",
+    "b0_world_truth_20261024/scripts_octave/run_combo_truth_oct.m": "5b8d77b618964cae0f171b24ef36959ebc324618e4fc2e816968dd17e80ad212",
+    "b0_world_truth_20261024/scripts_octave/run_confirm_oct.m": "ebc9a514c3aa1fc34c9c8ff2cb76ce8d5aa99963d81d3ffea83f802ae35700f8",
+    "b0_world_truth_20261024/scripts_octave/run_truth_oct.m": "abbaa10d4b1f4b751d98433a1b4d878870d51989b92f0e072293d81a447b0870",
+    "b0_world_truth_20261024/scripts_octave/seal_octave_extra.py": "80d82e5466d6f23a0e7e26de84cc2f6b37a33b0afb1f08e452200186ddf25c56",
+    "b0_world_truth_20261024/scripts_octave/write_rows_csv.m": "e76cba7a96ec40d3f5f45523b0457193d8b99e1af3638a56e191e2c3d8614e40",
+    "octave_compat_20261025/randn.m": "c9e54a1347f46e57c19ac6a6d19733557adc4be806d67e45b0adbe51ed5d0742",
+    "octave_compat_20261025/rng.m": "63dbfb948c4e3ab7d2cb826dc926fa1a57550f6dc384d632a875873cc17e9c74",
+    "octave_compat_20261025/string.m": "8fd0dd628d7c271dfd513b5ecb498eee5b257adb109bff8b6bb0ab8e661951e5",
+    "octave_compat_20261025/sum.m": "64c887c0c090fcda7bd34099a77dbdf2ddc5d1f1fc509048801446116fe7cdd2",
+    "octave_compat_20261025/mlrandn.py": "113f579f32605d4ea37f83967469a320f869703f415c6b8ceb14fd94269ec232",
+    "octave_compat_20261025/validate_randn.py": "3400819762a6077343d29b6ea2af45155eefdf735f7e83454a1b0da46a218d6f",
+    "b0_world_truth_20261024/octave_check/dev_oct_smoke65.csv": "cedefe8090c17ff0d49572bca23b0b899e3a937c4ed2b1867ea25d22d6d4e966",
+    "b0_world_truth_20261024/octave_check/dev_oct_w1.csv": "b8f02e0c2ec4cf38670fc57e4bc10fe85399b7788bb44aa1030b9d33edb8afbf",
+    "b0_world_truth_20261024/octave_check/dev_oct_w2.csv": "c286c596448a3ceed05aa9635bf12ca1c8a9fa6eb200d14666d9171046b73186",
+    "b0_world_truth_20261024/octave_check/dev_oct_w3.csv": "e00fb0d106314e8ddd8294491eae3b5f8ef0bc2cb67ac41efbc6b3937c0eef7d",
+    "b0_world_truth_20261024/octave_check/dev_oct_w4.csv": "9a3e2b7f05f646c9adf275cb2861cc48ebf5e97f261d5561162eb814637478f1"
+  }
+}

@@ -1,0 +1,19 @@
+warning: function /home/user/work/octave_compat_20261025/sum.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    run_confirm_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/randn.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    run_confirm_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/rng.m shadows a core library function
+warning: called from
+    oct_setup at line 5 column 1
+    run_confirm_oct at line 4 column 2
+
+error: mkdir: operation failed: File exists
+error: called from
+    mkdir at line 75 column 7
+    run_confirm_oct at line 6 column 60

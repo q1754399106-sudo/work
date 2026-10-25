@@ -1,0 +1,16 @@
+warning: function /home/user/work/octave_compat_20261025/sum.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    dev_check_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/randn.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    dev_check_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/rng.m shadows a core library function
+warning: called from
+    oct_setup at line 5 column 1
+    dev_check_oct at line 4 column 2
+
+g065 r3 F4 Strong: c=1.1489 B0 -0.176904 B0M -0.233161 B0C -0.224429 (44s, total 45s)

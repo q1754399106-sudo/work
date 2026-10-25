@@ -1,0 +1,60 @@
+{
+  "selected_variant": "B0M",
+  "threshold": 0.17076479629367916,
+  "decisive_gathers": 39,
+  "boundary_gathers": 12,
+  "C1_accuracy_at_least_0_80": true,
+  "C2_not_worse_than_B0_V_G": true,
+  "accuracy": {
+    "selected": {
+      "decisive": 1.0,
+      "boundary": 1.0,
+      "all": 0.875
+    },
+    "B0 (tau=0)": {
+      "decisive": 0.9230769230769231,
+      "boundary": 0.75,
+      "all": 0.8541666666666666
+    },
+    "B0M (tau=0)": {
+      "decisive": 0.9743589743589743,
+      "boundary": 0.9166666666666666,
+      "all": 0.8958333333333334
+    },
+    "B0C (tau=0)": {
+      "decisive": 0.9743589743589743,
+      "boundary": 0.9166666666666666,
+      "all": 0.8541666666666666
+    },
+    "V": {
+      "decisive": 0.6153846153846154,
+      "boundary": 1.0,
+      "all": 0.5
+    },
+    "G": {
+      "decisive": 0.23076923076923078,
+      "boundary": 0.0,
+      "all": 0.3125
+    },
+    "B0 (dev tau=0.163)": {
+      "decisive": 1.0,
+      "boundary": 1.0,
+      "all": 0.875
+    },
+    "B0M (dev tau=0.171)": {
+      "decisive": 1.0,
+      "boundary": 1.0,
+      "all": 0.875
+    },
+    "B0C (dev tau=0.135)": {
+      "decisive": 1.0,
+      "boundary": 1.0,
+      "all": 0.8541666666666666
+    }
+  },
+  "spearman_conditions": {
+    "B0": 0.9441176470588234,
+    "B0M": 0.9529411764705882,
+    "B0C": 0.9588235294117649
+  }
+}

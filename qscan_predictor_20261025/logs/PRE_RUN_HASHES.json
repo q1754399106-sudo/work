@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-25T03:39:01.970756+00:00",
+  "git_head": "f276a867be7ef851bed1fb3601b4ef8742fe5ddf",
+  "note": "Before any feature computation.",
+  "hashes": {
+    "qscan_predictor_20261025/PLAN_ZH.md": "76402a63ba382d6a7ffbdd07d4753a8abd74b5ce0da8cac1335c071b08e9c99e",
+    "qscan_predictor_20261025/cache/SNAPSHOT.json": "a26e5c5132b45e6f705c5773d0a271d1fb2f203714aefaacfb6300a18a5493c2",
+    "qscan_predictor_20261025/scripts/analyze.py": "4b884770b62b7c2fab29cd2980be02eafc4293887df56da1d9a49716fb0eac51",
+    "qscan_predictor_20261025/scripts/estimate_sigmas.m": "da4709a9f184a18140d00d577b15f28171c1caefa7e9fef6e718f9be1bdb9390",
+    "qscan_predictor_20261025/scripts/features.m": "41d2f54b5c1902436b92eb49da7aeeb52209660c6eaeeea210b4d1bac8e38d1b",
+    "qscan_predictor_20261025/scripts/full_refit.m": "6d00bd3191101dea6c3505bf9a48b91bc3a7fceb731b73268bc9c1e5fab9f7a1",
+    "qscan_predictor_20261025/scripts/hash_prerun.py": "94087beca4a0443afa273343f4e3dd41cdb433868d466ec443140443433272c5",
+    "qscan_predictor_20261025/scripts/load_model.m": "90958ea1d8d3dfb48047cae238c008d4d555f1b2a059915df1a0987188d7b4fe",
+    "qscan_predictor_20261025/scripts/noise_replica.m": "9cacf30c20e99e9f3c94bbd5e224dd3550cff52639a50d2c4a583c218822e348",
+    "qscan_predictor_20261025/scripts/qp_setup.m": "4a8610ffc6c97c2f55d47b89fdbd7dd75f5002d4888b8532119a9c8fa4928a6b",
+    "qscan_predictor_20261025/scripts/qscan_select.m": "b52b1fd6a19df699aef2e3eaf8f6d6597f8f1b3a22c18f67ca7318d8696c32ba",
+    "qscan_predictor_20261025/scripts/snapshot_inputs.py": "cbbed7db97cd51da5f49e943843df3b0913f58e3388f3c2cac35e3a41cda28ee",
+    "octave_compat_20261025/randn.m": "c9e54a1347f46e57c19ac6a6d19733557adc4be806d67e45b0adbe51ed5d0742",
+    "octave_compat_20261025/rng.m": "63dbfb948c4e3ab7d2cb826dc926fa1a57550f6dc384d632a875873cc17e9c74",
+    "octave_compat_20261025/string.m": "8fd0dd628d7c271dfd513b5ecb498eee5b257adb109bff8b6bb0ab8e661951e5",
+    "octave_compat_20261025/sum.m": "64c887c0c090fcda7bd34099a77dbdf2ddc5d1f1fc509048801446116fe7cdd2",
+    "octave_compat_20261025/mlrandn.py": "113f579f32605d4ea37f83967469a320f869703f415c6b8ceb14fd94269ec232",
+    "octave_compat_20261025/validate_randn.py": "3400819762a6077343d29b6ea2af45155eefdf735f7e83454a1b0da46a218d6f"
+  }
+}

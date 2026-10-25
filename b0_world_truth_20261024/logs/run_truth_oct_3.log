@@ -1,0 +1,64 @@
+warning: function /home/user/work/octave_compat_20261025/sum.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    run_truth_oct at line 6 column 2
+
+warning: function /home/user/work/octave_compat_20261025/randn.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    run_truth_oct at line 6 column 2
+
+warning: function /home/user/work/octave_compat_20261025/rng.m shadows a core library function
+warning: called from
+    oct_setup at line 5 column 1
+    run_truth_oct at line 6 column 2
+
+U3 SNR08 r01 c=1.1489 base 0.3987 qscan 0.3448 dev 6.6e-16
+U3 SNR08 r02 c=1.1489 base 0.3907 qscan 0.3377 dev 3.1e-16
+U3 SNR08 r03 c=1.1489 base 0.3838 qscan 0.3353 dev 7.4e-16
+U3 SNR08 r04 c=1.1489 base 0.3980 qscan 0.3378 dev NaN
+U3 SNR08 r05 c=1.1489 base 0.3898 qscan 0.3397 dev NaN
+U3 SNR08 r06 c=1.1489 base 0.3943 qscan 0.3372 dev NaN
+U3 SNR08 r07 c=1.1489 base 0.3863 qscan 0.3338 dev NaN
+U3 SNR08 r08 c=1.1489 base 0.4010 qscan 0.3397 dev NaN
+U3 SNR08 r09 c=1.1489 base 0.3836 qscan 0.3365 dev NaN
+U3 SNR08 r10 c=1.1489 base 0.4020 qscan 0.3460 dev NaN
+U3 SNR08 r11 c=1.1489 base 0.3905 qscan 0.3359 dev NaN
+U3 SNR08 r12 c=1.1489 base 0.3983 qscan 0.3406 dev NaN
+U3 SNR11 r01 c=1.1489 base 0.2695 qscan 0.2506 dev 3.3e-16
+U3 SNR11 r02 c=1.2803 base 0.2625 qscan 0.2819 dev 5.8e-16
+U3 SNR11 r03 c=1.2803 base 0.2655 qscan 0.2848 dev 8.4e-16
+U3 SNR11 r04 c=1.1489 base 0.2672 qscan 0.2501 dev NaN
+U3 SNR11 r05 c=1.2803 base 0.2612 qscan 0.2817 dev NaN
+U3 SNR11 r06 c=1.2803 base 0.2604 qscan 0.2797 dev NaN
+U3 SNR11 r07 c=1.1489 base 0.2659 qscan 0.2544 dev NaN
+U3 SNR11 r08 c=1.1489 base 0.2656 qscan 0.2528 dev NaN
+U3 SNR11 r09 c=1.2803 base 0.2695 qscan 0.2829 dev NaN
+U3 SNR11 r10 c=1.2803 base 0.2613 qscan 0.2831 dev NaN
+U3 SNR11 r11 c=1.2803 base 0.2701 qscan 0.2843 dev NaN
+U3 SNR11 r12 c=1.1489 base 0.2591 qscan 0.2504 dev NaN
+U3 SNR14 r01 c=1.2803 base 0.1930 qscan 0.2460 dev 4.6e-16
+U3 SNR14 r02 c=1.2803 base 0.1915 qscan 0.2469 dev 5.9e-16
+U3 SNR14 r03 c=1.2803 base 0.1890 qscan 0.2438 dev 2.9e-16
+U3 SNR14 r04 c=1.2803 base 0.1931 qscan 0.2487 dev NaN
+U3 SNR14 r05 c=1.2803 base 0.1887 qscan 0.2459 dev NaN
+U3 SNR14 r06 c=1.2803 base 0.1866 qscan 0.2439 dev NaN
+U3 SNR14 r07 c=1.2803 base 0.1924 qscan 0.2459 dev NaN
+U3 SNR14 r08 c=1.2803 base 0.1931 qscan 0.2463 dev NaN
+U3 SNR14 r09 c=1.2803 base 0.1906 qscan 0.2457 dev NaN
+U3 SNR14 r10 c=1.2803 base 0.1879 qscan 0.2425 dev NaN
+U3 SNR14 r11 c=1.1489 base 0.1895 qscan 0.2013 dev NaN
+U3 SNR14 r12 c=1.2803 base 0.1879 qscan 0.2433 dev NaN
+U3 SNR17 r01 c=1.2803 base 0.1416 qscan 0.2207 dev 2.0e-16
+U3 SNR17 r02 c=1.2803 base 0.1458 qscan 0.2234 dev 2.0e-16
+U3 SNR17 r03 c=1.2803 base 0.1432 qscan 0.2192 dev 2.0e-16
+U3 SNR17 r04 c=1.2803 base 0.1441 qscan 0.2215 dev NaN
+U3 SNR17 r05 c=1.2803 base 0.1470 qscan 0.2207 dev NaN
+U3 SNR17 r06 c=1.2803 base 0.1423 qscan 0.2191 dev NaN
+U3 SNR17 r07 c=1.2803 base 0.1439 qscan 0.2177 dev NaN
+U3 SNR17 r08 c=1.2803 base 0.1428 qscan 0.2208 dev NaN
+U3 SNR17 r09 c=1.2803 base 0.1415 qscan 0.2198 dev NaN
+U3 SNR17 r10 c=1.2803 base 0.1395 qscan 0.2194 dev NaN
+U3 SNR17 r11 c=1.2803 base 0.1430 qscan 0.2174 dev NaN
+U3 SNR17 r12 c=1.2803 base 0.1426 qscan 0.2190 dev NaN
+DONE truth U3

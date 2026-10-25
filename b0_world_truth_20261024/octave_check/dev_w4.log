@@ -1,0 +1,25 @@
+warning: function /home/user/work/octave_compat_20261025/sum.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    dev_check_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/randn.m shadows a built-in function
+warning: called from
+    oct_setup at line 5 column 1
+    dev_check_oct at line 4 column 2
+
+warning: function /home/user/work/octave_compat_20261025/rng.m shadows a core library function
+warning: called from
+    oct_setup at line 5 column 1
+    dev_check_oct at line 4 column 2
+
+g004 bae F1 Strong: c=1.2803 B0 +0.102547 B0M +0.043486 B0C +0.057621 (47s, total 48s)
+g008 bae F1 SNR20: c=1.2803 B0 +3.311334 B0M +4.047856 B0C +3.691013 (76s, total 124s)
+g016 bae F2 Moderate: c=1.2803 B0 +0.062289 B0M -0.002585 B0C -0.012338 (50s, total 174s)
+g020 bae F2 Strong: c=1.1489 B0 -0.196590 B0M -0.256718 B0C -0.253985 (43s, total 217s)
+g024 bae F2 SNR26: c=1.2803 B0 +3.028277 B0M +3.439911 B0C +3.460321 (79s, total 296s)
+g034 qc F3 Strong: c=1.1489 B0 -0.019370 B0M -0.090911 B0C -0.071209 (48s, total 344s)
+g040 qc F4 Moderate: c=1.2803 B0 -0.232914 B0M -0.341654 B0C -0.415653 (53s, total 413s)
+g046 qc F4 Strong: c=1.1489 B0 -0.228507 B0M -0.311596 B0C -0.336455 (43s, total 472s)
+g054 r3 F3 Strong: c=0.9252 B0 +0.246986 B0M +0.336356 B0C +0.247565 (47s, total 519s)
+g060 r3 F4 Moderate: c=1.1489 B0 -0.065447 B0M -0.105870 B0C -0.095861 (51s, total 571s)
