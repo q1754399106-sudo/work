@@ -1,6 +1,6 @@
 # 完整组合（QScan＋相干标准版）的偏差—方差实验
 
-**状态：阶段 1、2 已完成。** 结果见 [RESULTS_ZH.md](RESULTS_ZH.md)（偏差—方差分解）与 [RESULTS_STAGE2_ZH.md](RESULTS_STAGE2_ZH.md)（选择器的改进空间）；冻结方案见 [PLAN_ZH.md](PLAN_ZH.md)、[PLAN_STAGE2_ZH.md](PLAN_STAGE2_ZH.md)。
+**状态：阶段 1、2 已完成。** 结果见 [RESULTS_ZH.md](RESULTS_ZH.md)（偏差—方差分解）与 [RESULTS_STAGE2_ZH.md](RESULTS_STAGE2_ZH.md)（选择器的改进空间）；冻结方案见 [PLAN_ZH.md](PLAN_ZH.md)、[PLAN_STAGE2_ZH.md](PLAN_STAGE2_ZH.md)。常数去偏 κ 已决定不做，见 [DECISION_KAPPA_ZH.md](DECISION_KAPPA_ZH.md)。
 
 ## 内容
 
