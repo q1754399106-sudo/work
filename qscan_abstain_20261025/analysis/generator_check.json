@@ -1,0 +1,12 @@
+{
+  "check": "Octave regeneration of G1-G8 with octave_compat_v2_20261025 versus qscan_offset_20261025/models (MATLAB)",
+  "fine_layers_identical": true,
+  "max_rel_clean_diff": 2.01e-15,
+  "max_abs_upscaled_Q_diff": 1.14e-13,
+  "randn_v2_vs_v1_max_diff": 0.0,
+  "rand_first_values_seed0": [
+    0.8147,
+    0.9058,
+    0.127
+  ]
+}
