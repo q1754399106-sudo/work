@@ -1,0 +1,36 @@
+﻿C1 current     Q [39.77 48.58 70.84 200] ln [0.121 0.0939 0.0698 0.79] f 36.97
+C1 SharedGhost Q [37.94 44.28 71.31 145.1] ln [0.0745 0.00123 0.0765 0.469] f 36.63
+C1 SharedGhost ghost tau 12 ms g -0.10 | true [-0.2 0.01] | 2873s
+  C1 Moderate current     FullCalRefit overall 0.5190 deep 0.6224 lowE 0.7734
+  C1 Moderate current     Standard     overall 0.5216 deep 0.6254 lowE 0.7295
+  C1 Moderate SharedGhost FullCalRefit overall 0.5010 deep 0.6130 lowE 0.7918
+  C1 Moderate SharedGhost Standard     overall 0.4943 deep 0.6017 lowE 0.7218
+  C1 Strong   current     FullCalRefit overall 0.6614 deep 0.8065 lowE 1.1193
+  C1 Strong   current     Standard     overall 0.6345 deep 0.7580 lowE 0.9451
+  C1 Strong   SharedGhost FullCalRefit overall 0.6723 deep 0.8346 lowE 1.1918
+  C1 Strong   SharedGhost Standard     overall 0.6299 deep 0.7625 lowE 0.9934
+C2 current     Q [45.76 56.17 73.25 134.4] ln [0.206 0.224 0.165 0.311] f 33.45
+C2 SharedGhost Q [46.94 53.15 87.17 17.71] ln [0.231 0.169 0.339 -1.72] f 33.50
+C2 SharedGhost ghost tau 18 ms g -0.05 | true [-0.12 0.016;0.03 0.032] | 3093s
+  C2 Moderate current     FullCalRefit overall 0.5973 deep 0.6403 lowE 0.7627
+  C2 Moderate current     Standard     overall 0.6039 deep 0.6463 lowE 0.7491
+  C2 Moderate SharedGhost FullCalRefit overall 0.7315 deep 0.8567 lowE 0.9739
+  C2 Moderate SharedGhost Standard     overall 0.7091 deep 0.8177 lowE 0.8717
+  C2 Strong   current     FullCalRefit overall 0.6596 deep 0.7081 lowE 0.9684
+  C2 Strong   current     Standard     overall 0.6653 deep 0.7114 lowE 0.8815
+  C2 Strong   SharedGhost FullCalRefit overall 0.7782 deep 0.9015 lowE 1.2619
+  C2 Strong   SharedGhost Standard     overall 0.7230 deep 0.8083 lowE 1.0693
+C3 current     Q [45 60.67 66.6 200] ln [0.135 0.206 -0.0214 0.664] f 35.88
+C3 SharedGhost Q [44.43 51.19 67.72 58.9] ln [0.122 0.0359 -0.00465 -0.559] f 35.75
+C3 SharedGhost ghost tau 14 ms g -0.15 | true [-0.16 0.012;0.04 0.025] | 3364s
+  C3 Moderate current     FullCalRefit overall 0.4775 deep 0.5770 lowE 0.9673
+  C3 Moderate current     Standard     overall 0.4770 deep 0.5695 lowE 0.8717
+  C3 Moderate SharedGhost FullCalRefit overall 0.4450 deep 0.5698 lowE 1.0893
+  C3 Moderate SharedGhost Standard     overall 0.4320 deep 0.5348 lowE 0.9413
+  C3 Strong   current     FullCalRefit overall 0.6004 deep 0.7629 lowE 1.5588
+  C3 Strong   current     Standard     overall 0.5822 deep 0.7112 lowE 1.2236
+  C3 Strong   SharedGhost FullCalRefit overall 0.6121 deep 0.8389 lowE 1.8481
+  C3 Strong   SharedGhost Standard     overall 0.5663 deep 0.7334 lowE 1.4047
+Standard: overall ratio mean 1.0133 (max 1.1741), deep mean 1.0566, lowE mean 1.1075
+FullCalRefit: overall ratio mean 1.0563 (max 1.2248), deep mean 1.1197, lowE mean 1.1634
+K2 0 (1.0133)  K3 0 (1.0566)  K4 0 (max 1.1741)  K1 layer-4 |ln| reduction -0.555
