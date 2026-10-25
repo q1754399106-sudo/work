@@ -1,0 +1,13 @@
+ba46cf37cf9db016a1fd5047914bdcf4af5e1ec92a540c58da0fb2a25bcc205e *PLAN_ZH.md
+38ef5e1db91c89b84d11f432045a287d16d19e68391791a7d0edb91f545b92e6 *README.md
+9a7202e9d0865d91f4f0455038c0e3324ff3655761b93f5dfc3f47781f2f0570 *scripts/snapshot_inputs.py
+7f938e64c1e6646277a10123161c4f6d251f293980cc6fc1d879bba512a5f0d8 *scripts/prep_noise.m
+8ad6ebab790594677b9c9e421e2f8a3835326ff8ad35f9b234f0fd7bd6a87df9 *scripts/dict_check.m
+33424c703ac3fe827b5cb0b39782d5fa59d2a45d9ed2bcd13399be70e210e928 *scripts/check_dictionary.py
+bdc7fcd05a4a7946a16d369e8bf52125e34bbcc4b7b01c8cc3df138275aeb065 *scripts/run_sc.py
+e9190eba2e6d46f125cc96ec0e6fa9fcd31b77555cf05429eb9f3d0c9ec352e2 *scripts/score.py
+input snapshot (cache/SNAPSHOT.json, not archived; lists 84 Git inputs and 126 fd2d sweep files):
+a0df3a99a1511c0a6487c6c14a8d2a39dbc52b908fa01ef6237ce143de375ba9 *cache/SNAPSHOT.json
+noisy gathers (cache/noisy, rebuilt by prep_noise.m, sigma checked bit for bit):
+0babdd52055751d9af1c131cc96bf5888f9af81af7e87baa5426c8fd7f9f0d27 *-
+repository HEAD: 18c85cb47ad6cd510e6ef0fe5aaa4e7d7a10048f
