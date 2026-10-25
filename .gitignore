@@ -2,7 +2,7 @@
 .figure_env/
 .venv/
 venv/
-attenuation_run_20261019/dependencies/
+地震衰减补偿研究/attenuation_run_20261019/dependencies/
 node_modules/
 
 # Rebuildable caches and operating-system metadata
@@ -24,7 +24,7 @@ desktop.ini
 
 # Rebuildable experiment caches remain local
 cache/
-q_output_trust_20261023/runs/**/*_prepared.mat
+地震衰减补偿研究/q_output_trust_20261023/runs/**/*_prepared.mat
 
 # Local complete bundle contains rebuildable caches
 /soft_refit_complete_20261023.zip

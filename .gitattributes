@@ -1,120 +1,120 @@
-denoise_and_field_20261023/baseline/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/field_data/alaska_130_fk.npz filter=lfs diff=lfs merge=lfs -text
-denoise_and_real_seismic_20261023.zip filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023.zip filter=lfs diff=lfs merge=lfs -text
-p1_guarded_20261021.zip filter=lfs diff=lfs merge=lfs -text
-q_reference_data_20261023/sumatra/site[[:space:]]amplification[[:space:]]factors[[:space:]](f[[:space:]]-[[:space:]]log[[:space:]]R[[:space:]]-[[:space:]]std[[:space:]]log[[:space:]]R).zip filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_118.npz filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/complex/Q_-30.json filter=lfs diff=lfs merge=lfs -text
-changed_models_comparison_20261023.zip filter=lfs diff=lfs merge=lfs -text
-original_fixed_split_20261022/original_archive/attenuation_rebuild_v1.zip filter=lfs diff=lfs merge=lfs -text
-q_identifiable_cluster_20261023/generated/FreshThinLowFrequency/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-complex_fieldlike_20261023/runs/complex_frozen_comparison_20261023T032139Z/matlab/Strong.json filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_114.npz filter=lfs diff=lfs merge=lfs -text
-optimized_seismic_method_20261023.zip filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/primary/Q_-10.json filter=lfs diff=lfs merge=lfs -text
-optimized_seismic_experiments_20261023.zip filter=lfs diff=lfs merge=lfs -text
-p1_complete_20261021/runs/full_20261021T145453Z/metrics.csv filter=lfs diff=lfs merge=lfs -text
-p1_complete_20261021_results_full_20261021T145453Z.zip filter=lfs diff=lfs merge=lfs -text
-p1_fixed_20261021.zip filter=lfs diff=lfs merge=lfs -text
-p1_review_20261021/results/stored_examples_waveforms.json filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_111.npz filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_113.npz filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_116.npz filter=lfs diff=lfs merge=lfs -text
-complex_fieldlike_comparison_20261023.zip filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/field_data/alaska_111_fk.npz filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/runs/denoise_strong_20261023T043727Z/matlab/Strong.json filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/complex/reference.json filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/primary/Q_+10.json filter=lfs diff=lfs merge=lfs -text
-q_reference_data_20261023.zip filter=lfs diff=lfs merge=lfs -text
-q_supported_trial_20261023.zip filter=lfs diff=lfs merge=lfs -text
-complex_fieldlike_20261023/runs/complex_frozen_comparison_20261023T032139Z/matlab/Moderate.json filter=lfs diff=lfs merge=lfs -text
-q_error_stability_20261023.zip filter=lfs diff=lfs merge=lfs -text
-joint_refactor_20261022_results.zip filter=lfs diff=lfs merge=lfs -text
-new_joint_method_complete_20261022.zip filter=lfs diff=lfs merge=lfs -text
-avo_comparison_20261023.zip filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/baseline/Moderate.json filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/field_data/L23535.SGY filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_112.npz filter=lfs diff=lfs merge=lfs -text
-original_fixed_split_method_20261022.zip filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/complex/Q_+0.json filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/primary/Q_-30.json filter=lfs diff=lfs merge=lfs -text
-q_error_gathers_20261023.zip filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/primary/Q_+30.json filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/primary/Q_+0.json filter=lfs diff=lfs merge=lfs -text
-complex_fieldlike_20261023/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-fixed_vs_new_gathers_comparison_20261022.zip filter=lfs diff=lfs merge=lfs -text
-q_identifiable_cluster_20261023/generated/FreshFoldLowQ/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/baseline/Strong.json filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/runs/denoise_moderate_20261023T043727Z/matlab/Moderate.json filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_115.npz filter=lfs diff=lfs merge=lfs -text
-field_pilot_20261023/data/record_117.npz filter=lfs diff=lfs merge=lfs -text
-original_models_20261023.zip filter=lfs diff=lfs merge=lfs -text
-q_identifiable_cluster_experiment_20261023.zip filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/inputs/complex.json filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/complex/Q_+10.json filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/complex/Q_-10.json filter=lfs diff=lfs merge=lfs -text
-q_identifiable_cluster_20261023/generated/FreshDenseQReverse/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-denoise_and_field_20261023/field_data/alaska_120_fk.npz filter=lfs diff=lfs merge=lfs -text
-q_dense_gathers_20261023/results/complex/Q_+30.json filter=lfs diff=lfs merge=lfs -text
-dense_gathers_hd_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/baseline/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/field_data/alaska_130_fk.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_real_seismic_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/p1_guarded_20261021.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_reference_data_20261023/sumatra/site[[:space:]]amplification[[:space:]]factors[[:space:]](f[[:space:]]-[[:space:]]log[[:space:]]R[[:space:]]-[[:space:]]std[[:space:]]log[[:space:]]R).zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_118.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/complex/Q_-30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/changed_models_comparison_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/original_fixed_split_20261022/original_archive/attenuation_rebuild_v1.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_identifiable_cluster_20261023/generated/FreshThinLowFrequency/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/complex_fieldlike_20261023/runs/complex_frozen_comparison_20261023T032139Z/matlab/Strong.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_114.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/optimized_seismic_method_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/primary/Q_-10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/optimized_seismic_experiments_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/p1_complete_20261021/runs/full_20261021T145453Z/metrics.csv filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/p1_complete_20261021_results_full_20261021T145453Z.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/p1_fixed_20261021.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/p1_review_20261021/results/stored_examples_waveforms.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_111.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_113.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_116.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/complex_fieldlike_comparison_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/field_data/alaska_111_fk.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/runs/denoise_strong_20261023T043727Z/matlab/Strong.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/complex/reference.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/primary/Q_+10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_reference_data_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_supported_trial_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/complex_fieldlike_20261023/runs/complex_frozen_comparison_20261023T032139Z/matlab/Moderate.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_error_stability_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/joint_refactor_20261022_results.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/new_joint_method_complete_20261022.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/avo_comparison_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/baseline/Moderate.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/field_data/L23535.SGY filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_112.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/original_fixed_split_method_20261022.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/complex/Q_+0.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/primary/Q_-30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_error_gathers_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/primary/Q_+30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/primary/Q_+0.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/complex_fieldlike_20261023/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/fixed_vs_new_gathers_comparison_20261022.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_identifiable_cluster_20261023/generated/FreshFoldLowQ/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/baseline/Strong.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/runs/denoise_moderate_20261023T043727Z/matlab/Moderate.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_115.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_pilot_20261023/data/record_117.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/original_models_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_identifiable_cluster_experiment_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/inputs/complex.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/complex/Q_+10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/complex/Q_-10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_identifiable_cluster_20261023/generated/FreshDenseQReverse/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/denoise_and_field_20261023/field_data/alaska_120_fk.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_dense_gathers_20261023/results/complex/Q_+30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/dense_gathers_hd_20261023.zip filter=lfs diff=lfs merge=lfs -text
 # Preserve exact bytes of frozen research snapshots
-soft_refit_20261023/** -text
-q_output_trust_20261023/** -text
-q_output_trust_20261023/generated/V2DenseLowQ/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-q_output_trust_20261023/generated/V2ThinQReverse/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/complex/reference.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/primary/Q_+10.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/primary/Q_-10.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/figures/complex_Moderate_wiggle.png filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/inputs/complex.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/complex/Q_+30.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/complex/Q_-10.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/complex/Q_-30.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_results_20261023.zip filter=lfs diff=lfs merge=lfs -text
-q_output_trust_20261023/generated/V2BroadContrast/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/complex/Q_+10.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/primary/Q_+0.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/primary/Q_+30.json filter=lfs diff=lfs merge=lfs -text
-q_output_trust_experiment_20261023.zip filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/figures/complex_Strong_wiggle.png filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/complex/Q_+0.json filter=lfs diff=lfs merge=lfs -text
-soft_refit_20261023/results/primary/Q_-30.json filter=lfs diff=lfs merge=lfs -text
-coherence_soft_20261023/**/*.mat filter=lfs diff=lfs merge=lfs -text
-bae_q_20261024/results/**/*.mat filter=lfs diff=lfs merge=lfs -text
-coherence_soft_v2_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-theory_predict_diagnostic_20261024/** -text
-theory_predict_diagnostic_20261024/inputs/*.mat filter=lfs diff=lfs merge=lfs -text
-field_vsp_u1320a_20261024/raw/**/*.segy filter=lfs diff=lfs merge=lfs -text
-field_vsp_u1320a_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-round3_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-qscan_bias_variance_20261024/** -text
-qscan_bias_variance_20261024/results/*.mat filter=lfs diff=lfs merge=lfs -text
-qscan_criterion_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-fixed_baseline_round3_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-qscan_bias_diagnostic_20261024/** -text
-qscan_layered_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-qscan_layered_20261024/upstream/**/*.json filter=lfs diff=lfs merge=lfs -text
-round4_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-physics_bias_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-qcriteria_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-compensation_package_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
-trueq_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
-qscan_offset_20261025/** -text
-qscan_offset_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
-fd2d_20261025/** -text
-fd2d_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
-calq_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
-critcombo_20261025/** -text
-calq_confirm_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
-field_vsp_volve_20261025/** -text
-field_vsp_volve_20261025/raw/**/*.SEGY filter=lfs diff=lfs merge=lfs -text
-field_vsp_volve_20261025/raw/**/*.DLIS filter=lfs diff=lfs merge=lfs -text
-field_vsp_volve_20261025/raw/**/*.PDF filter=lfs diff=lfs merge=lfs -text
-field_vsp_volve_20261025/raw/**/*.LAS filter=lfs diff=lfs merge=lfs -text
-field_vsp_volve_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
-field_vsp_volve_20261025/raw/**/*.segy filter=lfs diff=lfs merge=lfs -text
-final_report_20261025/** -text
+地震衰减补偿研究/soft_refit_20261023/** -text
+地震衰减补偿研究/q_output_trust_20261023/** -text
+地震衰减补偿研究/q_output_trust_20261023/generated/V2DenseLowQ/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_output_trust_20261023/generated/V2ThinQReverse/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/complex/reference.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/primary/Q_+10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/primary/Q_-10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/figures/complex_Moderate_wiggle.png filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/inputs/complex.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/complex/Q_+30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/complex/Q_-10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/complex/Q_-30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_results_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_output_trust_20261023/generated/V2BroadContrast/truth/model_truth.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/complex/Q_+10.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/primary/Q_+0.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/primary/Q_+30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/q_output_trust_experiment_20261023.zip filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/figures/complex_Strong_wiggle.png filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/complex/Q_+0.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/soft_refit_20261023/results/primary/Q_-30.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/coherence_soft_20261023/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/bae_q_20261024/results/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/coherence_soft_v2_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/theory_predict_diagnostic_20261024/** -text
+地震衰减补偿研究/theory_predict_diagnostic_20261024/inputs/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_u1320a_20261024/raw/**/*.segy filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_u1320a_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/round3_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/qscan_bias_variance_20261024/** -text
+地震衰减补偿研究/qscan_bias_variance_20261024/results/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/qscan_criterion_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/fixed_baseline_round3_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/qscan_bias_diagnostic_20261024/** -text
+地震衰减补偿研究/qscan_layered_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/qscan_layered_20261024/upstream/**/*.json filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/round4_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/physics_bias_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/qcriteria_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/compensation_package_20261024/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/trueq_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/qscan_offset_20261025/** -text
+地震衰减补偿研究/qscan_offset_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/fd2d_20261025/** -text
+地震衰减补偿研究/fd2d_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/calq_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/critcombo_20261025/** -text
+地震衰减补偿研究/calq_confirm_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_volve_20261025/** -text
+地震衰减补偿研究/field_vsp_volve_20261025/raw/**/*.SEGY filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_volve_20261025/raw/**/*.DLIS filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_volve_20261025/raw/**/*.PDF filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_volve_20261025/raw/**/*.LAS filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_volve_20261025/**/*.mat filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/field_vsp_volve_20261025/raw/**/*.segy filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/final_report_20261025/** -text
 sc_neutral_20261026/** -text
 sc_neutral_20261026/**/*.mat filter=lfs diff=lfs merge=lfs -text
 sc_neutral_20261026/**/*.npz filter=lfs diff=lfs merge=lfs -text
