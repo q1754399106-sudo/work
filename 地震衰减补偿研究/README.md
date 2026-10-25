@@ -86,7 +86,7 @@
 |---|---|---|---|---|
 | 相干软收缩 v1 | [coherence_soft_20261023](coherence_soft_20261023/) | 不如文献方法 | 5/5 预登记门槛通过（30 个新场景），比软收缩误差低 8.2%；但 Q 可信时不如文献方法 SC | 本研究唯一完整通过门槛的降噪版本；用邻道相干度决定收缩强度，保弱反射 |
 | 相干软收缩 v2（标准版 / 稳健版） | [coherence_soft_v2_20261024](coherence_soft_v2_20261024/) | 在用·未过门槛；不如文献方法 | 比 v1 再低 2.1%，没到 3% 门槛（4/5）；后续实验实际用标准版。中立数据 H1–H6 上 SC 12/12 胜过它 | 组合中换成 v1 只差 0.6–1.6%，效果基本等同 |
-| 文献方法对比：BAE-Q、QScan、SBL-TVD、Wang 反 Q 滤波 | [bae_q_20261024](bae_q_20261024/) | QScanRefit **推荐**；其余已淘汰 | QScanRefit 在验证集和独立集都通过全部门槛，开发 20 场景比最初方法低 50%，Q ±30% 内误差基本平坦。BAE-Q 在 Q 正确时误差翻倍；SBL-TVD 对 Q 误差更敏感；Wang 反 Q 在 Q 正确时精度差 | **Q 有误时不再失控**；这里还生成了独立 Kennett 细层数据 F1/F2 |
+| 文献方法对比：BAE-Q、QScan、SBL-TVD、Wang 反 Q 滤波 | [bae_q_20261024](bae_q_20261024/) | QScan 选择步骤 **推荐**（接 SC 使用）；QScanRefit 整体已被 QScan＋SC 取代；其余已淘汰 | QScanRefit 在验证集和独立集都通过全部门槛，开发 20 场景比最初方法低 50%，Q ±30% 内误差基本平坦。它不做收缩，H1–H6 上其中的 FullCalRefit（0.569）不如相干标准版（0.427）和 SC（0.351），且从未与 QScan＋SC 直接比较。BAE-Q 在 Q 正确时误差翻倍；SBL-TVD 对 Q 误差更敏感；Wang 反 Q 在 Q 正确时精度差 | **Q 有误时不再失控**；这里还生成了独立 Kennett 细层数据 F1/F2 |
 | 推荐版本统一入口 `q_compensate` | [compensation_package_20261024](compensation_package_20261024/README_ZH.md) | 工具（本研究方法的封装） | 与已归档实验逐值一致；入口里不含 SC，两种模式在 H1–H6 上分别不如 SC、QScan＋SC | 一行调用：相干标准版，或加 `'mode','qscan'`；其中的 QScan 步骤可以接到 SC 前面 |
 | 文献调研 | [literature_review_20261024](literature_review_20261024/LITERATURE_REVIEW_ZH.md) | 报告 | 本项目每个问题文献里都有成熟对应方法 | 指出 Q 进字典、SBL 自动定参等路线 |
 | 阶段进度汇总 | [progress_summary_20261024](progress_summary_20261024/SUMMARY_ZH.md) | 报告 | 截至 10-24 的方法对比图表 | 一页看全前五天 |
