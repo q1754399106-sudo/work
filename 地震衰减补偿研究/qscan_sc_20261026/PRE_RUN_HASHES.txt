@@ -1,0 +1,8 @@
+4a684e5ab58342adc588781a864317ddb100e31397b901f74149b870f8168bf1 *PLAN_ZH.md
+52ff792be7286fb80a61ed094e56b7771cc659585d9f2f02c5057530385a94cc *README.md
+8f7d58b897c4848f59eba60720d6552163d6f30144c14d1b68ed359d330ba8b4 *scripts/snapshot_inputs.py
+4ae31e60465c420e4584a25f1a4bb4365ca4fe48e2d60972fac6c5a04eb77356 *scripts/run_qsc.py
+40a6c8c471ba053190cecfacde285dc0c3cdc14d4a91f24f49f2bbfa42f6a4e3 *scripts/score.py
+input snapshot (cache/SNAPSHOT.json, not archived; 15 Git inputs, 462 local inputs):
+0efea7a528a0649cbaeb4b9420d93c5b896a2468097cc2007cae14c99d98b63e *cache/SNAPSHOT.json
+repository HEAD: 8fdea24fee0454e11bd042b48c537557d9b43b27
