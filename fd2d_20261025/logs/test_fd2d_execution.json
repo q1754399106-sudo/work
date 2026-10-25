@@ -1,0 +1,17 @@
+{
+  "stage": "test_fd2d",
+  "args": [],
+  "started_utc": "2026-10-25T04:30:52.159544+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/fd2d_20261025/scripts');test_fd2d();"
+  ],
+  "timeout_seconds": 36000,
+  "status": "COMPLETED",
+  "pid": 53104,
+  "exit_code": 0,
+  "elapsed_seconds": 293.9529999999795
+}

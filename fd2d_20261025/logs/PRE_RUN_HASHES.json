@@ -1,0 +1,29 @@
+{
+  "frozen_utc": "2026-10-25T04:47:34.922502+00:00",
+  "git_head": "f276a867be7ef851bed1fb3601b4ef8742fe5ddf",
+  "note": "After the forward verification (test geologies only), before any H1-H6 shot.",
+  "hashes": {
+    "PLAN_ZH.md": "553086001001b9fbd4e096989ced4c2e5c321b48c3cb5014f0fcb1ee31f584a9",
+    "cache/SNAPSHOT.json": "05fac86123398a93e295cea916895385fc6ff6c0bade5bf0e866349fb666c6a2",
+    "analysis/verification.json": "3872541bf31f9d22db01c4c123fe8e74776ac298cb64e7339b253449763c6b59",
+    "scripts/assemble_models.m": "b87adff285ab1297d795fe54dc5f6821f82eee6e22a9fedf9776ae190a6ffb07",
+    "scripts/bench_fd.m": "46b49bb2dc3cd432b6bf050e8eecea712c79d747e1dd8113f712e056b87b25df",
+    "scripts/diag_fd_accuracy.m": "67e09af4f5482811731caaac6eebc9f9590c596df628b03b3369ed37d44c80cd",
+    "scripts/estimate_sigmas.m": "da4709a9f184a18140d00d577b15f28171c1caefa7e9fef6e718f9be1bdb9390",
+    "scripts/fd2d_visco.m": "6ee41811cb8932a0fe8292124c8284ff4f12f648b028da1998f71567b418825e",
+    "scripts/fd_geology.m": "a965038955c3bdd574bd12dee084a7494bf26770ded175f7ff19e5a2fc30cc25",
+    "scripts/fd_setup.m": "ed134e96a2803c4b99f3cb85170e4403323d0632c956b748cb8e30b42cbc1183",
+    "scripts/fd_shot.m": "9cf418c84611643123b76dc5cfb57e5917817561adae4bc651c79324b0194c70",
+    "scripts/gsls_design.m": "8d615987a399c5b6c09bf85efe991ac39dbe940a12176fb543d20f4bd1633d10",
+    "scripts/hash_prerun.py": "7a74ae755d797d4bd1878898dd5dffe85318ca8a6ffefff534d0c3ee5338a3ba",
+    "scripts/make_shots.m": "d09b538726a93be16c5bb5dbfc8817a27923e96dda0fba84ae87cb09d97421da",
+    "scripts/noise_replica.m": "9cacf30c20e99e9f3c94bbd5e224dd3550cff52639a50d2c4a583c218822e348",
+    "scripts/process_zo.m": "e6446ab18aec71c6a734100f696556a6baf5b3ca80a54e5bd8dbc2d6b9d5906c",
+    "scripts/qscan_select.m": "b52b1fd6a19df699aef2e3eaf8f6d6597f8f1b3a22c18f67ca7318d8696c32ba",
+    "scripts/run_fd.m": "f8bc56bcfe4cdd78470c5cafba68d957c329049e94fa28172b072167bf755988",
+    "scripts/run_stage.py": "70ae219396ed61bdec1699cf0d3a2b2a7d495ec0351d26bf8af5f34903bc6763",
+    "scripts/snapshot_inputs.py": "31cae7a8934954dc2c845e2db32c86defd83f0624e58f8f1548f9f60caedef69",
+    "scripts/summarize_fd.m": "19e725446a8cd814055e0ef809e94474b2ca163b8b12810eb30a62b0c48bd2dd",
+    "scripts/test_fd2d.m": "10680eebf0cc270cafc6bcd9813ba4aa806a89dfa165ccc6b540e16eff057056"
+  }
+}

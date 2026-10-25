@@ -1,0 +1,6 @@
+T1 derivative alignment: 1.78e-15 1.78e-15
+T2 homogeneous Q=40 at 400 m: ratio err max 0.005 rms 0.002, phase max 0.27 deg | absolute elastic amp 0.000 phase 5.78 deg | isotropy 0.000
+T3 layered vs Kennett: rel err att 0.082 ela 0.070 | corr att 0.997 ela 0.998 | att/ela energy FD 0.491 Kennett 0.480 | t>=1 s rel err att 0.202 ela 0.105
+   vs 1-D GSLS response: att 0.047, t>=1 s 0.052 | 1-D GSLS vs Kjartansson, t>=1 s 0.174
+T4 boundary: +-500 vs +-1000 m rel diff 0.0009; reflection amplitude / R (15-50 Hz spectral ratio) 1.016
+T5 GSLS Q(f) max deviation on 5-100 Hz: [0.0357 0.0285 0.0352]

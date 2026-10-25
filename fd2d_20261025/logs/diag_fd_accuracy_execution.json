@@ -1,0 +1,17 @@
+{
+  "stage": "diag_fd_accuracy",
+  "args": [],
+  "started_utc": "2026-10-25T04:19:01.063758+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/fd2d_20261025/scripts');diag_fd_accuracy();"
+  ],
+  "timeout_seconds": 36000,
+  "status": "COMPLETED",
+  "pid": 35560,
+  "exit_code": 0,
+  "elapsed_seconds": 308.25
+}

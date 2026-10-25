@@ -1,0 +1,43 @@
+{
+  "T1": {
+    "forward_max_err": 1.7763568394002505E-15,
+    "backward_max_err": 1.7763568394002505E-15
+  },
+  "T2": {
+    "ratio_max_abs_err": 0.004696624890106047,
+    "ratio_rms_err": 0.0021198851721076707,
+    "ratio_max_phase_deg": 0.26545668259357053,
+    "abs_elastic_median_amp_err": 0.00025494615942195376,
+    "abs_elastic_median_phase_deg": 5.7768753836392852,
+    "isotropy_max_rel": 1.4880376076310611E-13
+  },
+  "T3": {
+    "rel_err_attenuated": 0.081893767746267845,
+    "rel_err_elastic": 0.069791989880373592,
+    "corr_attenuated": 0.99675165892160034,
+    "corr_elastic": 0.99836635435018128,
+    "energy_ratio_fd": 0.49143289332320411,
+    "energy_ratio_kennett": 0.47969172904386131,
+    "late_rel_err_attenuated": 0.20222627600071891,
+    "late_rel_err_elastic": 0.10530527165093521,
+    "rel_err_attenuated_vs_kennett_gsls": 0.047400454708578031,
+    "late_rel_err_attenuated_vs_kennett_gsls": 0.051535517063828896,
+    "late_rel_err_kennett_gsls_vs_kjartansson": 0.17377098240406039
+  },
+  "T4": {
+    "window_rel_diff": 0.00091266887040235625,
+    "amplitude_over_R_15_50Hz": 1.0158517634026887
+  },
+  "T5": {
+    "Q": [
+      18,
+      40,
+      150
+    ],
+    "max_rel_dev_5_100Hz": [
+      0.035711430059563232,
+      0.028504550993049826,
+      0.035158553217688349
+    ]
+  }
+}
