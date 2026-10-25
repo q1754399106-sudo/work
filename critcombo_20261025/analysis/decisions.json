@@ -1,0 +1,76 @@
+{
+  "W1": {
+    "A1": {
+      "mean_rel": -0.005531416847769555,
+      "worst_rel": 0.39379270794708665,
+      "n_improved": 8,
+      "n": 20,
+      "mean_abs_step_error": 2.3916666666666666,
+      "mean_rel_8dB": 0.14386710497111324,
+      "worst_rel_8dB": 1.2234391480751086,
+      "verdict": "fails W1"
+    },
+    "A2": {
+      "mean_rel": 1.5580197546175447,
+      "worst_rel": 6.2783279964807068,
+      "n_improved": 10,
+      "n": 20,
+      "mean_abs_step_error": 2.9000000000000004,
+      "mean_rel_8dB": 2.6022732935178317,
+      "worst_rel_8dB": 10.851665256774547,
+      "verdict": "fails W1"
+    },
+    "A3": {
+      "mean_rel": 0.0021496611731693649,
+      "worst_rel": 0.62067930329148369,
+      "n_improved": 14,
+      "n": 20,
+      "mean_abs_step_error": 2.2083333333333335,
+      "mean_rel_8dB": 0.19450887822334628,
+      "worst_rel_8dB": 1.3455622156102058,
+      "verdict": "fails W1"
+    },
+    "C1": {
+      "mean_rel": 2.20488459648968,
+      "worst_rel": 10.073256563037202,
+      "n_improved": 10,
+      "n": 20,
+      "mean_abs_step_error": 3.0583333333333336,
+      "mean_rel_8dB": 1.9332113851315014,
+      "worst_rel_8dB": 12.557263837398184,
+      "verdict": "fails W1"
+    },
+    "C2": {
+      "mean_rel": 7.840491901046744,
+      "worst_rel": 54.337180517734978,
+      "n_improved": 0,
+      "n": 20,
+      "mean_abs_step_error": 5.1083333333333334,
+      "mean_rel_8dB": 4.0198150823286092,
+      "worst_rel_8dB": 8.8066816047841563,
+      "verdict": "fails W1"
+    },
+    "C3": {
+      "mean_rel": 0.90488891818032025,
+      "worst_rel": 5.0239040445978773,
+      "n_improved": 6,
+      "n": 20,
+      "mean_abs_step_error": 3.3833333333333337,
+      "mean_rel_8dB": 1.5940928179151106,
+      "worst_rel_8dB": 8.470805140427407,
+      "verdict": "fails W1"
+    },
+    "C4": {
+      "mean_rel": 8.5794875608839565,
+      "worst_rel": 96.55874987551816,
+      "n_improved": 4,
+      "n": 20,
+      "mean_abs_step_error": 4.5166666666666666,
+      "mean_rel_8dB": 2.3258783254522619,
+      "worst_rel_8dB": 9.6538577112464612,
+      "verdict": "fails W1"
+    }
+  },
+  "A0_mean_abs_step_error": 2.4833333333333334,
+  "verdict": "no existing criterion beats QScan at the combination level"
+}
