@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-10-25T08:23:31.130902+00:00",
+  "git_head": "dea33ca4d69f1ab7cabdde0b66c03b7d18b11b5d",
+  "note": "Before any criterion computation.",
+  "hashes": {
+    "PLAN_ZH.md": "8f09f987e02fc211dfeeffcd96dc3e60c9effb179dcc3cae091dd3c442598f2c",
+    "cache/SNAPSHOT.json": "d7bdf64a57cbbfd9592d6a8045d1a0cf37cbef8624c33b6d19940995c48ca176",
+    "scripts/cc_setup.m": "9955f8eb7edaa4a8bff6892af2257e6cfbf3e4212b873f325140df24987a0aa5",
+    "scripts/criteria.m": "c52fff4c7d5f5e459ece79d0ebdde663590da40ae935727214bc955aafa8892b",
+    "scripts/hash_prerun.py": "2488842c90167929feeb3a7e3c39374c7145d5985312b59283f96a4e5b00551f",
+    "scripts/load_model.m": "263e0ce52edde28e9ff3dd9936fa5044a1a05443dccfc92f10f77dd73d7e6d4a",
+    "scripts/noise_replica.m": "9cacf30c20e99e9f3c94bbd5e224dd3550cff52639a50d2c4a583c218822e348",
+    "scripts/qscan_stats.m": "04238c9766d9dbbdb923025089412180519c4535a9ced36ebee3b6e65ce1a9ec",
+    "scripts/run_crit.m": "18bd19650d4b835e6ab281841395c4081fb33c8583ba93b144f2582b6b25a856",
+    "scripts/run_stage.py": "30ec0b9f557fe090470ee483c8b8c7ace3802042bb4d18a23f11b3eae3afd187",
+    "scripts/score_crit.m": "1a877fd5be2eccdda5db9ead5f82a95d5f62d028477729936a0212e67283fbdf",
+    "scripts/select_factor.m": "b5d67e7f1e7e259db188c857f9bcd35d6a053e815ccfb9c8ab39813f47ccfeb4",
+    "scripts/snapshot_inputs.py": "76eee33955954fba0298ae3ea8f1092b1c2c6abef2852f7a15e4861559e68f07",
+    "scripts/spectral_factor.m": "7871fa721e1f2af96f1e0610cc32226e7d0fe883699d7cc65b5910669a6916dd"
+  }
+}
