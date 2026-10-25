@@ -1,0 +1,8 @@
+H5_Q100_08dB r=0 best 1.0310 flags 0 (19s, total 19s)
+H5_Q100_08dB r=1 best 1.0310 flags 0 (24s, total 43s)
+H5_Q100_08dB r=2 best 1.0310 flags 0 (21s, total 64s)
+H5_Q100_08dB r=3 best 1.0310 flags 0 (23s, total 87s)
+H5_Q100_08dB r=4 best 1.0310 flags 0 (22s, total 109s)
+H5_Q100_08dB r=5 best 1.0310 flags 0 (22s, total 131s)
+H5_Q100_08dB r=6 best 1.0310 flags 0 (21s, total 153s)
+DONE H5_Q100_08dB 0-6 153s

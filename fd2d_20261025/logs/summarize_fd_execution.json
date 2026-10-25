@@ -1,0 +1,17 @@
+{
+  "stage": "summarize_fd",
+  "args": [],
+  "started_utc": "2026-10-25T12:16:14.463509+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/fd2d_20261025/scripts');summarize_fd();"
+  ],
+  "timeout_seconds": 36000,
+  "status": "COMPLETED",
+  "pid": 43360,
+  "exit_code": 0,
+  "elapsed_seconds": 43.312999999994645
+}

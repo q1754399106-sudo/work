@@ -1,0 +1,77 @@
+{
+  "E1": {
+    "offset_steps": [
+      3,
+      -1,
+      2,
+      1,
+      1,
+      0
+    ],
+    "modal_offset": 1,
+    "modal_count": 2,
+    "spread": 4,
+    "both_signs": true,
+    "verdict": "offset not stable across models"
+  },
+  "E2": {
+    "q_best_noise_free": [
+      0.92521300183654842,
+      1,
+      0.92521300183654842,
+      0.92521300183654842,
+      0.92521300183654842,
+      1
+    ],
+    "n_near_Q0": 6,
+    "verdict": "noise-free optimum at the upscaled Q0"
+  },
+  "E3": {
+    "rel_B_vs_A": [
+      -0.070377887959278684,
+      -0.613532014347625,
+      -0.063929614712826655,
+      -0.38618212495546833,
+      -0.12147405366088049,
+      -0.43322272991908584
+    ],
+    "n_standard_better": 6,
+    "verdict": "coherence shrinkage beats FullCalRefit at nominal Q"
+  },
+  "E4": {
+    "n_B_better_Q0": 4,
+    "rel_B_Q0": [
+      -0.397829242346745,
+      0.11970068963004654,
+      -0.26355280156967109,
+      -0.1077088048480459,
+      -0.034988764110005177,
+      0.015756015218199027
+    ],
+    "n_D_better_Q070": 6,
+    "rel_B_Q070": [
+      1.3050239677159494,
+      1.8909979418005025,
+      2.3100263794605129,
+      1.3570403494537886,
+      1.6309726152791422,
+      1.436158335778555
+    ],
+    "verdict_Q0": "nominal Standard better when Q is correct",
+    "verdict_Q070": "QScan + Standard better when Q is 30% low"
+  },
+  "shifts": {
+    "S1": {
+      "n_improved": 12,
+      "n": 18,
+      "worst_rel": 0.287626277428612,
+      "median_rel": -0.073102127923113269
+    },
+    "S2": {
+      "n_improved": 9,
+      "n": 18,
+      "worst_rel": 0.72768851840546955,
+      "median_rel": -0.027565576490992116
+    }
+  }
+}

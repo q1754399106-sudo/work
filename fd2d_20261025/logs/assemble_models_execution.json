@@ -1,0 +1,17 @@
+{
+  "stage": "assemble_models",
+  "args": [],
+  "started_utc": "2026-10-25T11:36:33.944202+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/fd2d_20261025/scripts');assemble_models();"
+  ],
+  "timeout_seconds": 36000,
+  "status": "COMPLETED",
+  "pid": 34616,
+  "exit_code": 0,
+  "elapsed_seconds": 25.296999999991385
+}

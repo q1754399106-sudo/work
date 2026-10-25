@@ -1,0 +1,8 @@
+H1_Q070_14dB r=0 best 1.7716 flags 0 (24s, total 25s)
+H1_Q070_14dB r=1 best 1.7716 flags 0 (24s, total 48s)
+H1_Q070_14dB r=2 best 1.7716 flags 0 (26s, total 75s)
+H1_Q070_14dB r=3 best 1.7716 flags 0 (23s, total 98s)
+H1_Q070_14dB r=4 best 1.7716 flags 0 (24s, total 122s)
+H1_Q070_14dB r=5 best 1.7716 flags 0 (23s, total 145s)
+H1_Q070_14dB r=6 best 1.7716 flags 0 (23s, total 168s)
+DONE H1_Q070_14dB 0-6 168s

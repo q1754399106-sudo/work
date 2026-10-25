@@ -1,0 +1,8 @@
+H2_Q100_08dB r=0 best 1.1489 flags 0 (15s, total 15s)
+H2_Q100_08dB r=1 best 1.0310 flags 0 (19s, total 34s)
+H2_Q100_08dB r=2 best 1.0310 flags 0 (18s, total 52s)
+H2_Q100_08dB r=3 best 1.0310 flags 0 (18s, total 71s)
+H2_Q100_08dB r=4 best 1.0310 flags 0 (16s, total 87s)
+H2_Q100_08dB r=5 best 1.0310 flags 0 (19s, total 105s)
+H2_Q100_08dB r=6 best 1.0310 flags 0 (19s, total 124s)
+DONE H2_Q100_08dB 0-6 124s

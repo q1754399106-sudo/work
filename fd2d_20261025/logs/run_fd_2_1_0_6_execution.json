@@ -1,0 +1,22 @@
+{
+  "stage": "run_fd",
+  "args": [
+    "2",
+    "1",
+    "0",
+    "6"
+  ],
+  "started_utc": "2026-10-25T11:46:21.575490+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/fd2d_20261025/scripts');run_fd(2,1,0,6);"
+  ],
+  "timeout_seconds": 36000,
+  "status": "COMPLETED",
+  "pid": 52460,
+  "exit_code": 0,
+  "elapsed_seconds": 157.46900000001187
+}

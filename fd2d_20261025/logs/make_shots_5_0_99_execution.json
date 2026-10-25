@@ -1,0 +1,21 @@
+{
+  "stage": "make_shots",
+  "args": [
+    "5",
+    "0",
+    "99"
+  ],
+  "started_utc": "2026-10-25T07:50:38.828461+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/fd2d_20261025/scripts');make_shots(5,0,99);"
+  ],
+  "timeout_seconds": 36000,
+  "status": "COMPLETED",
+  "pid": 36344,
+  "exit_code": 0,
+  "elapsed_seconds": 1498.3439999999828
+}

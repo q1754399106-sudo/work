@@ -1,6 +1,6 @@
 # 二维黏声有限差分正演下的复验
 
-**状态：方案已冻结，正在生成 H1–H6。** 冻结方案见 [PLAN_ZH.md](PLAN_ZH.md)，哈希见 `logs/PRE_RUN_HASHES.json`。
+**状态：已完成。** 结果见 [RESULTS_ZH.md](RESULTS_ZH.md)：E1 判为“偏移不稳定”，E2–E4 成立。冻结方案见 [PLAN_ZH.md](PLAN_ZH.md)，哈希见 `logs/PRE_RUN_HASHES.json`、`logs/PRE_SWEEP_HASHES.json`。
 
 上游：`qscan_offset_20261025`（QScan 偏移随模型变化；无噪声最优在上尺度 Q0）。这两条结论只在 Kennett 一维细层正演上得到。本轮换成二维黏声有限差分（GSLS 衰减、断层绕射）检验它们能否复现。不使用 U1–U4。
 

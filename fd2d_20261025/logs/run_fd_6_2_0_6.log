@@ -1,0 +1,8 @@
+H6_Q100_08dB r=0 best 1.7716 flags 0 (29s, total 29s)
+H6_Q100_08dB r=1 best 1.2803 flags 0 (28s, total 58s)
+H6_Q100_08dB r=2 best 1.1489 flags 0 (50s, total 107s)
+H6_Q100_08dB r=3 best 1.2803 flags 0 (62s, total 170s)
+H6_Q100_08dB r=4 best 1.1489 flags 0 (63s, total 234s)
+H6_Q100_08dB r=5 best 1.1489 flags 0 (47s, total 281s)
+H6_Q100_08dB r=6 best 1.1489 flags 0 (52s, total 332s)
+DONE H6_Q100_08dB 0-6 332s

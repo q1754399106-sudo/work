@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-10-25T11:37:09.428504+00:00",
+  "git_head": "d604f55924e7a5bafd2e32568287bbed8e958e26",
+  "note": "After assemble_models (H1-H6 generated), before any sweep replicate; plan-time hashes re-verified.",
+  "hashes": {
+    "models/H1.mat": "b371ba8eb6a40bcdd782be8271530195b4632ab370892ad076be5b13589a2438",
+    "models/H2.mat": "0a494547d53cba0048579e8c0d6f487b123714d2416a2d63133977a1c8d08b7e",
+    "models/H3.mat": "e06f9af8b27a17583d7a01d9d7702aa25f1c2404657a31d3c071e2e711289560",
+    "models/H4.mat": "c3811a0714d434766301ab9eddfe37a8698e3d47055dfe99cb5a10dbbe5be45a",
+    "models/H5.mat": "b127a503aab9f4ca8658fa6ca4dce34bd9e01c38438d69cdb7f97ed742e7268a",
+    "models/H6.mat": "5d0db925319e24fcced64fe1296acf3a9253e81aedb6ebaa814bd591694413d2",
+    "truth/H1_truth.mat": "4c46caf9d5f7906fb89d19dd9030443a77e148e248bb6d32266835da6f53162f",
+    "truth/H2_truth.mat": "6fdcdd64130b7dafe09df7f109dc961b29a5b08b9b9f9fb52843821f3512f1fd",
+    "truth/H3_truth.mat": "5b2047fa9db49f82e05169f042ec7cfa30754b71dee4497ee998ffbb40b4f836",
+    "truth/H4_truth.mat": "45aa0b981c3e81daa0a1664cc8c4f6852406f11f493e292efb6780614edd5355",
+    "truth/H5_truth.mat": "436de5e1e9758d7f60412041138eef8af5ae6a4b598c2081125ad575d6b66953",
+    "truth/H6_truth.mat": "456ab1f53ffe0de131ab054c4571b1f687db985dbf15ae4cda7f4e4b82cacaa0"
+  }
+}

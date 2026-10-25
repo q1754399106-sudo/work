@@ -1,0 +1,95 @@
+H1_Q100_14dB: D 0.2000 S1 0.1588 S2 0.1263 B 0.1204 A 0.1295 opt 0.1160 | q* 0.925 q_scan 1.280 offset 3 steps | noise-free q* 0.925 | FullCalRefit q* 1.000
+H1_Q100_08dB: D 0.2332 S1 0.2115 S2 0.2102 B 0.2083 A 0.2670 opt 0.2083 | q* 1.000 q_scan 1.149 offset 2 steps | noise-free q* 0.925 | FullCalRefit q* 1.031
+H1_Q070_14dB: D 0.1875 S1 0.1480 S2 0.1202 B 0.4323 A 0.5367 opt 0.1201 | q* 0.896 q_scan 1.240 offset 3 steps | noise-free q* 0.896 | FullCalRefit q* 0.999
+H2_Q100_14dB: D 0.1249 S1 0.1384 S2 0.1691 B 0.1399 A 0.3620 opt 0.1201 | q* 1.280 q_scan 1.149 offset -1 steps | noise-free q* 1.000 | FullCalRefit q* 1.974
+H2_Q100_08dB: D 0.3223 S1 0.4151 S2 0.5569 B 0.3433 A 1.2554 opt 0.1859 | q* 1.974 q_scan 1.031 offset -6 steps | noise-free q* 1.031 | FullCalRefit q* 2.200
+H2_Q070_14dB: D 0.1258 S1 0.1399 S2 0.1720 B 0.3638 A 1.2474 opt 0.1202 | q* 1.240 q_scan 1.113 offset -1 steps | noise-free q* 0.999 | FullCalRefit q* 1.540
+H3_Q100_14dB: D 0.2232 S1 0.1735 S2 0.1570 B 0.1644 A 0.1756 opt 0.1570 | q* 0.925 q_scan 1.149 offset 2 steps | noise-free q* 0.925 | FullCalRefit q* 1.000
+H3_Q100_08dB: D 0.3042 S1 0.2693 S2 0.2648 B 0.2643 A 0.3318 opt 0.2643 | q* 1.000 q_scan 1.149 offset 2 steps | noise-free q* 0.925 | FullCalRefit q* 1.031
+H3_Q070_14dB: D 0.2258 S1 0.1784 S2 0.1627 B 0.7475 A 0.9394 opt 0.1631 | q* 0.896 q_scan 1.113 offset 2 steps | noise-free q* 0.896 | FullCalRefit q* 0.999
+H4_Q100_14dB: D 0.1080 S1 0.0990 S2 0.0994 B 0.0964 A 0.1570 opt 0.0963 | q* 1.031 q_scan 1.149 offset 1 steps | noise-free q* 0.925 | FullCalRefit q* 1.149
+H4_Q100_08dB: D 0.1771 S1 0.2057 S2 0.2596 B 0.1827 A 0.4598 opt 0.1673 | q* 1.149 q_scan 1.031 offset -1 steps | noise-free q* 0.925 | FullCalRefit q* 1.772
+H4_Q070_14dB: D 0.1100 S1 0.0992 S2 0.0964 B 0.2593 A 0.4961 opt 0.0964 | q* 0.999 q_scan 1.240 offset 2 steps | noise-free q* 0.999 | FullCalRefit q* 1.240
+H5_Q100_14dB: D 0.2403 S1 0.2253 S2 0.2798 B 0.2319 A 0.2640 opt 0.2253 | q* 0.925 q_scan 1.031 offset 1 steps | noise-free q* 0.925 | FullCalRefit q* 1.000
+H5_Q100_08dB: D 0.3422 S1 0.3506 S2 0.4212 B 0.3407 A 0.4960 opt 0.3407 | q* 1.000 q_scan 1.031 offset 0 steps | noise-free q* 0.925 | FullCalRefit q* 1.149
+H5_Q070_14dB: D 0.2708 S1 0.2316 S2 0.2315 B 0.7124 A 1.0041 opt 0.2315 | q* 0.896 q_scan 1.113 offset 2 steps | noise-free q* 0.896 | FullCalRefit q* 0.999
+H6_Q100_14dB: D 0.0657 S1 0.0649 S2 0.0695 B 0.0668 A 0.1178 opt 0.0642 | q* 1.149 q_scan 1.149 offset 0 steps | noise-free q* 1.000 | FullCalRefit q* 1.427
+H6_Q100_08dB: D 0.1229 S1 0.1316 S2 0.1498 B 0.1401 A 0.3653 opt 0.1185 | q* 1.427 q_scan 1.149 offset -2 steps | noise-free q* 1.000 | FullCalRefit q* 2.200
+H6_Q070_14dB: D 0.0667 S1 0.0649 S2 0.0684 B 0.1625 A 0.3360 opt 0.0640 | q* 1.113 q_scan 1.240 offset 1 steps | noise-free q* 0.999 | FullCalRefit q* 1.382
+{
+  "E1": {
+    "offset_steps": [
+      3,
+      -1,
+      2,
+      1,
+      1,
+      0
+    ],
+    "modal_offset": 1,
+    "modal_count": 2,
+    "spread": 4,
+    "both_signs": true,
+    "verdict": "offset not stable across models"
+  },
+  "E2": {
+    "q_best_noise_free": [
+      0.92521300183654842,
+      1,
+      0.92521300183654842,
+      0.92521300183654842,
+      0.92521300183654842,
+      1
+    ],
+    "n_near_Q0": 6,
+    "verdict": "noise-free optimum at the upscaled Q0"
+  },
+  "E3": {
+    "rel_B_vs_A": [
+      -0.070377887959278684,
+      -0.613532014347625,
+      -0.063929614712826655,
+      -0.38618212495546833,
+      -0.12147405366088049,
+      -0.43322272991908584
+    ],
+    "n_standard_better": 6,
+    "verdict": "coherence shrinkage beats FullCalRefit at nominal Q"
+  },
+  "E4": {
+    "n_B_better_Q0": 4,
+    "rel_B_Q0": [
+      -0.397829242346745,
+      0.11970068963004654,
+      -0.26355280156967109,
+      -0.1077088048480459,
+      -0.034988764110005177,
+      0.015756015218199027
+    ],
+    "n_D_better_Q070": 6,
+    "rel_B_Q070": [
+      1.3050239677159494,
+      1.8909979418005025,
+      2.3100263794605129,
+      1.3570403494537886,
+      1.6309726152791422,
+      1.436158335778555
+    ],
+    "verdict_Q0": "nominal Standard better when Q is correct",
+    "verdict_Q070": "QScan + Standard better when Q is 30% low"
+  },
+  "shifts": {
+    "S1": {
+      "n_improved": 12,
+      "n": 18,
+      "worst_rel": 0.287626277428612,
+      "median_rel": -0.073102127923113269
+    },
+    "S2": {
+      "n_improved": 9,
+      "n": 18,
+      "worst_rel": 0.72768851840546955,
+      "median_rel": -0.027565576490992116
+    }
+  }
+}
