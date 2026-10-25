@@ -1,0 +1,57 @@
+{
+  "novelty_evidence_20261025/scripts/common.py": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "17a6f89faf0eddfc7469328ab80a5189e4ed3ecd4b3ad1ec58c70cd81f1ef5ab",
+    "bytes": 3247
+  },
+  "novelty_evidence_20261025/scripts/benchmark.py": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "a2f593c07ffd32547c15d9629e4232c7e6ab1de8fb388c13d31b04d825e3de75",
+    "bytes": 10632
+  },
+  "novelty_evidence_20261025/scripts/regional_diagnostic.py": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "9da46d039363bfe37e87b27e2a95d9e765daeacc31f3c1278584db9f64ea94ee",
+    "bytes": 3042
+  },
+  "round3_20261024/run_combo.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "714d63a7cc5f18264fe5b12133afb0e16be8ef06c2bd1493dbda77e23676c1d5",
+    "bytes": 4003
+  },
+  "round3_20261024/source/reflectivity_refit_prepared.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "eb1bcbb3598a5e171e0cb6792b7db223f10a88fd47dac5f53293362898c1ad74",
+    "bytes": 2085
+  },
+  "round3_20261024/source/reflectivity_soft_prepared.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "89d25bd16f189b6686740c37a001b3eee384c375fda0ae53f8231d69b0cec1b7",
+    "bytes": 2153
+  },
+  "round3_20261024/source/refit_dictionary.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "c4e87d2831b1f6d49bb858a5d6e3603ae6e47f0ebce47300e993acbad6e38413",
+    "bytes": 473
+  },
+  "round3_20261024/core/coherence_scores.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "7e8fc995e413586c9d9b715688db9be140690775c12f5b452e2119ffcd46f511",
+    "bytes": 2233
+  },
+  "round3_20261024/core/score_gather.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "c3576867d663a12001b75b6243d4106e9079bb515112d11dff1252fd05824e18",
+    "bytes": 492
+  },
+  "round3_20261024/core/score_weak.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "381fd0273346a983a9fb824ac7514b8353e06af65993e6ccc76c4c9867534488",
+    "bytes": 765
+  },
+  "qscan_predictor_20261025/scripts/full_refit.m": {
+    "commit": "ff95a69e31b9eee462d1a8843960a00b829cb47f",
+    "sha256": "6d00bd3191101dea6c3505bf9a48b91bc3a7fceb731b73268bc9c1e5fab9f7a1",
+    "bytes": 588
+  }
+}

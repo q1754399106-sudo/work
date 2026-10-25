@@ -1,0 +1,85 @@
+﻿case,method,seconds,preparation_seconds,max_kkt,timing_scope
+F1_Moderate,Standard,2.21934389998205,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F1_Moderate,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F1_Moderate,SharedPreparation,4.058038999995915,,,candidate box QP only
+F1_Moderate,SC,34.734000000025844,,0.018183320684693867,"archive solver, not rerun"
+F1_Moderate,Joint,1.6315400000021327,4.058038999995915,9.590628291533676e-11,candidate box QP only
+F1_Moderate,GOnly,1.514822200027993,4.058038999995915,9.218292795765137e-11,candidate box QP only
+F1_Moderate,NOnly,1.339607200003229,4.058038999995915,9.74636482631297e-11,candidate box QP only
+F1_Strong,Standard,1.9604134999972302,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F1_Strong,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F1_Strong,SharedPreparation,3.259901900019031,,,candidate box QP only
+F1_Strong,SC,30.53100000001723,,0.012505430288333739,"archive solver, not rerun"
+F1_Strong,Joint,1.1383721999882255,3.259901900019031,9.846068405039432e-11,candidate box QP only
+F1_Strong,GOnly,1.009734599996591,3.259901900019031,9.561607061669974e-11,candidate box QP only
+F1_Strong,NOnly,1.0343444000172894,3.259901900019031,9.452094662520949e-11,candidate box QP only
+F2_Moderate,Standard,1.62199720001081,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F2_Moderate,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F2_Moderate,SharedPreparation,2.8870690000185277,,,candidate box QP only
+F2_Moderate,SC,40.64000000001397,,0.015020399726836527,"archive solver, not rerun"
+F2_Moderate,Joint,1.0051783999952022,2.8870690000185277,9.79628600461524e-11,candidate box QP only
+F2_Moderate,GOnly,1.1254732999950647,2.8870690000185277,8.435074860813074e-11,candidate box QP only
+F2_Moderate,NOnly,1.1978631999809295,2.8870690000185277,6.213712877567446e-11,candidate box QP only
+F2_Strong,Standard,1.4259762000001501,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F2_Strong,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F2_Strong,SharedPreparation,2.4613230999966618,,,candidate box QP only
+F2_Strong,SC,47.703000000008615,,0.013660507073259179,"archive solver, not rerun"
+F2_Strong,Joint,0.9276450999896042,2.4613230999966618,9.396383671145259e-11,candidate box QP only
+F2_Strong,GOnly,0.8974815999972634,2.4613230999966618,9.676970336158774e-11,candidate box QP only
+F2_Strong,NOnly,0.8493888000084553,2.4613230999966618,8.288575381598662e-11,candidate box QP only
+F3_Moderate,Standard,2.2207498000061605,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F3_Moderate,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F3_Moderate,SharedPreparation,3.5780072000052314,,,candidate box QP only
+F3_Moderate,SC,82.10899999999674,,0.019782298826194165,"archive solver, not rerun"
+F3_Moderate,Joint,1.5008380000072066,3.5780072000052314,9.831229580425926e-11,candidate box QP only
+F3_Moderate,GOnly,1.2970836000167765,3.5780072000052314,9.808676093570057e-11,candidate box QP only
+F3_Moderate,NOnly,0.8814219000050798,3.5780072000052314,8.442646581841018e-11,candidate box QP only
+F3_Strong,Standard,1.4407039000070654,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F3_Strong,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F3_Strong,SharedPreparation,2.37859780000872,,,candidate box QP only
+F3_Strong,SC,67.625,,0.017620166672779474,"archive solver, not rerun"
+F3_Strong,Joint,1.1950569999753498,2.37859780000872,8.988010335997387e-11,candidate box QP only
+F3_Strong,GOnly,1.3030043999897316,2.37859780000872,9.896494734817907e-11,candidate box QP only
+F3_Strong,NOnly,1.0819786000065506,2.37859780000872,9.986372839776436e-11,candidate box QP only
+F4_Moderate,Standard,1.8708367999934126,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F4_Moderate,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F4_Moderate,SharedPreparation,3.143398399988655,,,candidate box QP only
+F4_Moderate,SC,40.51500000001397,,0.01608169769687705,"archive solver, not rerun"
+F4_Moderate,Joint,0.9385255000088364,3.143398399988655,9.397815858847025e-11,candidate box QP only
+F4_Moderate,GOnly,0.947297599981539,3.143398399988655,9.474410145315915e-11,candidate box QP only
+F4_Moderate,NOnly,0.9762104999972507,3.143398399988655,6.785738637660188e-11,candidate box QP only
+F4_Strong,Standard,1.38398560002679,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+F4_Strong,FullCalRefit,,,,archived state; support discovery/refit not rerun
+F4_Strong,SharedPreparation,2.4601686999958474,,,candidate box QP only
+F4_Strong,SC,45.687999999994645,,0.012008974031709415,"archive solver, not rerun"
+F4_Strong,Joint,0.783340699999826,2.4601686999958474,6.398892526959798e-11,candidate box QP only
+F4_Strong,GOnly,0.7695509999757633,2.4601686999958474,8.252765137939377e-11,candidate box QP only
+F4_Strong,NOnly,0.6555438000068534,2.4601686999958474,9.491585295506866e-11,candidate box QP only
+V4_Moderate,Standard,0.639648100011982,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+V4_Moderate,FullCalRefit,,,,archived state; support discovery/refit not rerun
+V4_Moderate,SharedPreparation,2.0869281999766827,,,candidate box QP only
+V4_Moderate,SC,32.530999999988126,,0.019270035442133994,"archive solver, not rerun"
+V4_Moderate,Joint,0.5333387000137009,2.0869281999766827,9.382372656574489e-11,candidate box QP only
+V4_Moderate,GOnly,0.40526659999159165,2.0869281999766827,9.993939009689257e-11,candidate box QP only
+V4_Moderate,NOnly,0.38590989998192526,2.0869281999766827,8.310560573043801e-11,candidate box QP only
+V4_Strong,Standard,0.6763188000186346,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+V4_Strong,FullCalRefit,,,,archived state; support discovery/refit not rerun
+V4_Strong,SharedPreparation,2.107797800010303,,,candidate box QP only
+V4_Strong,SC,28.625,,0.012122684550882869,"archive solver, not rerun"
+V4_Strong,Joint,0.46537869999883696,2.107797800010303,9.468467676576608e-11,candidate box QP only
+V4_Strong,GOnly,0.42278550000628456,2.107797800010303,9.850731341742858e-11,candidate box QP only
+V4_Strong,NOnly,0.38307059998624027,2.107797800010303,8.193584699611733e-11,candidate box QP only
+V5_Moderate,Standard,4.48787139999331,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+V5_Moderate,FullCalRefit,,,,archived state; support discovery/refit not rerun
+V5_Moderate,SharedPreparation,9.955169099994237,,,candidate box QP only
+V5_Moderate,SC,185.54699999999139,,0.019576173969773358,"archive solver, not rerun"
+V5_Moderate,Joint,3.04864130000351,9.955169099994237,9.944656209626146e-11,candidate box QP only
+V5_Moderate,GOnly,2.871677700022701,9.955169099994237,9.62331325737864e-11,candidate box QP only
+V5_Moderate,NOnly,1.7966891000105534,9.955169099994237,8.848033417052648e-11,candidate box QP only
+V5_Strong,Standard,4.013674499990884,,,"shared coherence plus four reference shrinkage rules, excludes dictionary/support discovery"
+V5_Strong,FullCalRefit,,,,archived state; support discovery/refit not rerun
+V5_Strong,SharedPreparation,8.552568599989172,,,candidate box QP only
+V5_Strong,SC,161.64100000000326,,0.01910317992561117,"archive solver, not rerun"
+V5_Strong,Joint,2.377845900016837,8.552568599989172,9.960032798517204e-11,candidate box QP only
+V5_Strong,GOnly,2.274992699996801,8.552568599989172,9.93626292355998e-11,candidate box QP only
+V5_Strong,NOnly,1.8084130999923218,8.552568599989172,9.459671934664016e-11,candidate box QP only

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scene": "F1_Moderate",
+  "reference": "dense ridge solve and explicit output noise maps",
+  "joint_sha256": "d980b4ca56190d8b98cf4785c1d665cb2b01a0d6e66d2ce34d816e6df378e133",
+  "traces": [
+    {
+      "trace": 0,
+      "groups": 34,
+      "noise_relative_difference": 5.770735883639016e-15,
+      "waveform_gram_relative_difference": 2.4684699660478906e-16
+    },
+    {
+      "trace": 49,
+      "groups": 33,
+      "noise_relative_difference": 2.7819192622063376e-15,
+      "waveform_gram_relative_difference": 4.06632145836573e-16
+    },
+    {
+      "trace": 98,
+      "groups": 33,
+      "noise_relative_difference": 3.5959713383854704e-15,
+      "waveform_gram_relative_difference": 3.8520861995144004e-16
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "scope": "Post-hoc descriptive aggregation of existing frozen checks only; no selection or new algorithm.",
+  "relative_measure": "Frobenius norm of off-diagonal matrix / Frobenius norm of full matrix per trace; medians are unweighted across nonempty traces.",
+  "cases": {
+    "F1_Moderate": {
+      "traces_with_events": 99,
+      "median_groups": 33.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.028830429630543056,
+      "G_offdiag_relative_max": 0.05064563692964365,
+      "N_offdiag_relative_median": 0.02744532697995414,
+      "N_offdiag_relative_max": 0.1751511007873588,
+      "Joint_Standard_output_relative_difference": 0.0025869705710047765
+    },
+    "F1_Strong": {
+      "traces_with_events": 99,
+      "median_groups": 31.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.0360552340464121,
+      "G_offdiag_relative_max": 0.058113242641891515,
+      "N_offdiag_relative_median": 0.031086136961344386,
+      "N_offdiag_relative_max": 0.08435390432193288,
+      "Joint_Standard_output_relative_difference": 0.0037754435151742117
+    },
+    "F2_Moderate": {
+      "traces_with_events": 99,
+      "median_groups": 28.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.0035266672404730554,
+      "G_offdiag_relative_max": 0.016668970519147164,
+      "N_offdiag_relative_median": 0.027103115498180088,
+      "N_offdiag_relative_max": 0.08880676563276926,
+      "Joint_Standard_output_relative_difference": 0.002498337752391633
+    },
+    "F2_Strong": {
+      "traces_with_events": 99,
+      "median_groups": 27.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.009905260187326377,
+      "G_offdiag_relative_max": 0.033278395567237,
+      "N_offdiag_relative_median": 0.022298429102641903,
+      "N_offdiag_relative_max": 0.08810150730703706,
+      "Joint_Standard_output_relative_difference": 0.00354333027411826
+    },
+    "F3_Moderate": {
+      "traces_with_events": 99,
+      "median_groups": 33.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.020096000310944984,
+      "G_offdiag_relative_max": 0.05643469581264081,
+      "N_offdiag_relative_median": 0.030435927714189095,
+      "N_offdiag_relative_max": 0.0763561524382206,
+      "Joint_Standard_output_relative_difference": 0.004032674325716898
+    },
+    "F3_Strong": {
+      "traces_with_events": 99,
+      "median_groups": 30.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.02857753181572064,
+      "G_offdiag_relative_max": 0.06427048406357648,
+      "N_offdiag_relative_median": 0.024937491924798882,
+      "N_offdiag_relative_max": 0.07909539378232618,
+      "Joint_Standard_output_relative_difference": 0.0052885618024862795
+    },
+    "F4_Moderate": {
+      "traces_with_events": 99,
+      "median_groups": 29.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.005430710415693858,
+      "G_offdiag_relative_max": 0.02753011788880602,
+      "N_offdiag_relative_median": 0.03881011453920089,
+      "N_offdiag_relative_max": 0.07146081781448646,
+      "Joint_Standard_output_relative_difference": 0.002443579231913217
+    },
+    "F4_Strong": {
+      "traces_with_events": 99,
+      "median_groups": 25.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.009299502304536795,
+      "G_offdiag_relative_max": 0.03264633488414366,
+      "N_offdiag_relative_median": 0.03175040677592063,
+      "N_offdiag_relative_max": 0.06968370644865118,
+      "Joint_Standard_output_relative_difference": 0.0036612024029854884
+    },
+    "V4_Moderate": {
+      "traces_with_events": 99,
+      "median_groups": 15.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.0033856910631060353,
+      "G_offdiag_relative_max": 0.019899522054949152,
+      "N_offdiag_relative_median": 0.018997691786650138,
+      "N_offdiag_relative_max": 0.1559139008580611,
+      "Joint_Standard_output_relative_difference": 0.001137779495120868
+    },
+    "V4_Strong": {
+      "traces_with_events": 99,
+      "median_groups": 16.0,
+      "fallback_traces": 0,
+      "G_offdiag_relative_median": 0.006817766853285705,
+      "G_offdiag_relative_max": 0.02607646810233034,
+      "N_offdiag_relative_median": 0.02575881462632732,
+      "N_offdiag_relative_max": 0.08626331488155187,
+      "Joint_Standard_output_relative_difference": 0.0021683267126543357
+    },
+    "V5_Moderate": {
+      "traces_with_events": 97,
+      "median_groups": 45.0,
+      "fallback_traces": 8,
+      "G_offdiag_relative_median": 0.05269980761253999,
+      "G_offdiag_relative_max": 0.2308252866939225,
+      "N_offdiag_relative_median": 0.03133116107761296,
+      "N_offdiag_relative_max": 0.07372136408291825,
+      "Joint_Standard_output_relative_difference": 0.0037631100188172135
+    },
+    "V5_Strong": {
+      "traces_with_events": 97,
+      "median_groups": 45.0,
+      "fallback_traces": 8,
+      "G_offdiag_relative_median": 0.059911236077447826,
+      "G_offdiag_relative_max": 0.23314048858286418,
+      "N_offdiag_relative_median": 0.032628874942280985,
+      "N_offdiag_relative_max": 0.08380779024888858,
+      "Joint_Standard_output_relative_difference": 0.00731773680218028
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Candidate solver excludes shared preparation; SC solver times archived, not rerun; Standard includes coherence and four reference rules.",
+  "methods": {
+    "Joint": {
+      "total_seconds": 15.545701499999268,
+      "median_seconds": 1.0717752999917138,
+      "max_seconds": 3.04864130000351,
+      "cases": 12
+    },
+    "GOnly": {
+      "total_seconds": 14.8391707999981,
+      "median_seconds": 1.0676039499958279,
+      "max_seconds": 2.871677700022701,
+      "cases": 12
+    },
+    "NOnly": {
+      "total_seconds": 12.390441099996679,
+      "median_seconds": 1.00527745000727,
+      "max_seconds": 1.8084130999923218,
+      "cases": 12
+    },
+    "Standard": {
+      "total_seconds": 23.96151970003848,
+      "median_seconds": 1.7464170000021113,
+      "max_seconds": 4.48787139999331,
+      "cases": 12
+    },
+    "SC": {
+      "total_seconds": 797.8890000000538,
+      "median_seconds": 43.16400000000431,
+      "max_seconds": 185.54699999999139,
+      "cases": 12
+    },
+    "SharedPreparation": {
+      "total_seconds": 46.928968799998984,
+      "median_seconds": 3.0152337000035914,
+      "max_seconds": 9.955169099994237,
+      "cases": 12
+    }
+  }
+}

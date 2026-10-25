@@ -1,0 +1,19 @@
+{
+  "command": [
+    "C:\\Users\\qq175\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:\\ChatGPT\\\u7814\u7a76\\joint_event_shrinkage_20261025\\scripts\\experiment.py",
+    "frozen"
+  ],
+  "cwd": "D:\\ChatGPT\\\u7814\u7a76\\joint_event_shrinkage_20261025",
+  "start_utc": "2026-10-25T06:43:42Z",
+  "source_sha256": {
+    "scripts\\bootstrap.py": "f6e0240348324f8c7a3fc5505e223c6e528685cd2b7a3cf516a2c70cd8f3565a",
+    "scripts\\common.py": "3b9e88cd78712738abe75b595fccffcce03602a7dd7859f9203d97657f4c3e8f",
+    "scripts\\experiment.py": "1690ebe8ad070c774d45b2fc39c33249c77cf0be84cc9b1f3e4a0631ff5b8ee4",
+    "scripts\\joint.py": "d980b4ca56190d8b98cf4785c1d665cb2b01a0d6e66d2ce34d816e6df378e133",
+    "scripts\\reference.py": "a2f593c07ffd32547c15d9629e4232c7e6ab1de8fb388c13d31b04d825e3de75",
+    "scripts\\run_stage.py": "01542c38a656efdfb63546443afd044b310c931c4f3b85ea4f8ca74a941fd5f4"
+  },
+  "exit_code": 0,
+  "end_utc": "2026-10-25T06:45:35Z"
+}

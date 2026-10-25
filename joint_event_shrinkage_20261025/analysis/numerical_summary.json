@@ -1,0 +1,14 @@
+{
+  "max_E_relative_error": 3.3450256089039466e-15,
+  "max_V_relative_error": 2.174485971775249e-14,
+  "max_ridge_normal_residual": 1.0549763504274028e-14,
+  "min_G_eigen_relative": 1.2025811754062527e-10,
+  "min_N_eigen_relative": 0.0003011260145614928,
+  "max_eta0_Standard_output_difference": 1.6572440645403792e-16,
+  "max_full_reconstruction": 1.5709032647351902e-16,
+  "max_soft_reconstruction": 1.86173867603915e-16,
+  "max_Standard_archived_platform_difference": 0.0025523518933101485,
+  "max_frozen_candidate_KKT": 9.993939009689257e-11,
+  "gradient_relative_error": 5.015945991893034e-12,
+  "orthogonal_negative_control": 0.0
+}

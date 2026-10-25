@@ -1,0 +1,50 @@
+{
+  "means": {
+    "dev": {
+      "Standard": 0.3895280046444784,
+      "StandardArchived": 0.38952531368089377,
+      "FullCalRefit": 0.4972434266800838,
+      "SC": 0.29835089771510037,
+      "Joint": 0.38951265587091716,
+      "GOnly": 0.38957338638522276,
+      "NOnly": 0.38946528810166414
+    },
+    "diagnostic": {
+      "Standard": 0.4159618688084755,
+      "StandardArchived": 0.4159530368549351,
+      "FullCalRefit": 0.48637401521948576,
+      "SC": 0.39440941709472094,
+      "Joint": 0.41582293378071283,
+      "GOnly": 0.4158533755478998,
+      "NOnly": 0.4159285814140321
+    }
+  },
+  "diagnostic_relative_improvement": 0.0003340090478982649,
+  "diagnostic_case_ratios": {
+    "F3_Moderate": 0.9996601215211935,
+    "F3_Strong": 1.0001257148709353,
+    "F4_Moderate": 0.9996735761539552,
+    "F4_Strong": 0.9999784577918872,
+    "V4_Moderate": 0.9991613130834174,
+    "V4_Strong": 0.9989879548657488,
+    "V5_Moderate": 0.9996123005824735,
+    "V5_Strong": 0.9993476602416301
+  },
+  "V4_weak_ratios": {
+    "V4_Moderate": 0.9991116239881794,
+    "V4_Strong": 0.9995393424537434
+  },
+  "gates": {
+    "development_improvement_ge_2pct": false,
+    "diagnostic_improvement_ge_3pct": false,
+    "worst_case_degradation_le_5pct": true,
+    "V4_weak_degradation_le_5pct": true
+  },
+  "continue_investment": false,
+  "SC_mean_ratio": 1.0542926100591794,
+  "wins_over_SC": 4,
+  "diagnostic_cases": 8,
+  "SC_archived_mean_check": true,
+  "selection_sha256": "61ff7c733966cb11afdb578acf610c364ac4721d56fce9aff262d9bb9cef2267",
+  "source_hashes_unchanged": true
+}

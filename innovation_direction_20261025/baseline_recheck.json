@@ -1,0 +1,20 @@
+{
+  "Standard": {
+    "n": 8,
+    "mean": 0.4159618688084756
+  },
+  "SC_a0.125_m10": {
+    "n": 8,
+    "mean": 0.39440941709472094
+  },
+  "FullCalRefit": {
+    "n": 8,
+    "mean": 0.48637401521948576
+  },
+  "QScan_StandardArchived": {
+    "n": 8,
+    "mean": 0.41113254762402895
+  },
+  "standard_over_sc": 1.054644870988409,
+  "standard_wins": 4
+}
