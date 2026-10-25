@@ -1,0 +1,320 @@
+{
+  "H1_Q_wrong": {
+    "verdict": "QScan_SC stably better than QScan_Standard",
+    "a_better": {
+      "mean_a": 0.36436726168350403,
+      "mean_b": 0.3953974922633161,
+      "mean_ratio": 0.92152142796306,
+      "wins": 6,
+      "n": 6,
+      "worst_ratio": 0.943222337235331,
+      "c1_mean": true,
+      "c2_wins": true,
+      "c3_worst": true,
+      "stable": true
+    },
+    "b_better": {
+      "mean_a": 0.3953974922633161,
+      "mean_b": 0.36436726168350403,
+      "mean_ratio": 1.0851619611389935,
+      "wins": 0,
+      "n": 6,
+      "worst_ratio": 1.1696027344028392,
+      "c1_mean": false,
+      "c2_wins": false,
+      "c3_worst": false,
+      "stable": false
+    }
+  },
+  "H2_Q_correct": {
+    "verdict": "no stable advantage",
+    "a_better": {
+      "mean_a": 0.3506412410351704,
+      "mean_b": 0.38632269529363233,
+      "mean_ratio": 0.9076382136148085,
+      "wins": 8,
+      "n": 12,
+      "worst_ratio": 1.0229285263407366,
+      "c1_mean": true,
+      "c2_wins": false,
+      "c3_worst": true,
+      "stable": false
+    },
+    "b_better": {
+      "mean_a": 0.38632269529363233,
+      "mean_b": 0.3506412410351704,
+      "mean_ratio": 1.1017605748631347,
+      "wins": 4,
+      "n": 12,
+      "worst_ratio": 1.4717769350966063,
+      "c1_mean": false,
+      "c2_wins": false,
+      "c3_worst": false,
+      "stable": false
+    }
+  },
+  "qsc_solves": 126,
+  "qsc_unconverged": [],
+  "sensitivity_converged_only": {
+    "H1": {
+      "verdict": "QScan_SC stably better than QScan_Standard",
+      "a_better": {
+        "mean_a": 0.36436726168350403,
+        "mean_b": 0.3953974922633161,
+        "mean_ratio": 0.92152142796306,
+        "wins": 6,
+        "n": 6,
+        "worst_ratio": 0.943222337235331,
+        "c1_mean": true,
+        "c2_wins": true,
+        "c3_worst": true,
+        "stable": true
+      },
+      "b_better": {
+        "mean_a": 0.3953974922633161,
+        "mean_b": 0.36436726168350403,
+        "mean_ratio": 1.0851619611389935,
+        "wins": 0,
+        "n": 6,
+        "worst_ratio": 1.1696027344028392,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "n_H1": 6,
+    "H2": {
+      "verdict": "no stable advantage",
+      "a_better": {
+        "mean_a": 0.3506412410351704,
+        "mean_b": 0.38632269529363233,
+        "mean_ratio": 0.9076382136148085,
+        "wins": 8,
+        "n": 12,
+        "worst_ratio": 1.0229285263407366,
+        "c1_mean": true,
+        "c2_wins": false,
+        "c3_worst": true,
+        "stable": false
+      },
+      "b_better": {
+        "mean_a": 0.38632269529363233,
+        "mean_b": 0.3506412410351704,
+        "mean_ratio": 1.1017605748631347,
+        "wins": 4,
+        "n": 12,
+        "worst_ratio": 1.4717769350966063,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "n_H2": 12
+  },
+  "descriptive": {
+    "Q070_QScanSC_vs_SC": {
+      "verdict": "QScan_SC stably better than SC",
+      "a_better": {
+        "mean_a": 0.36436726168350403,
+        "mean_b": 0.5569868743395062,
+        "mean_ratio": 0.6541756699663398,
+        "wins": 6,
+        "n": 6,
+        "worst_ratio": 0.7128542590557628,
+        "c1_mean": true,
+        "c2_wins": true,
+        "c3_worst": true,
+        "stable": true
+      },
+      "b_better": {
+        "mean_a": 0.5569868743395062,
+        "mean_b": 0.36436726168350403,
+        "mean_ratio": 1.5286413816818567,
+        "wins": 0,
+        "n": 6,
+        "worst_ratio": 1.6138709399169584,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "Q0_QScanSC_vs_QScanStandard": {
+      "verdict": "QScan_SC stably better than QScan_Standard",
+      "a_better": {
+        "mean_a": 0.38632269529363233,
+        "mean_b": 0.44218957339750736,
+        "mean_ratio": 0.8736585359201734,
+        "wins": 12,
+        "n": 12,
+        "worst_ratio": 0.9518204907926425,
+        "c1_mean": true,
+        "c2_wins": true,
+        "c3_worst": true,
+        "stable": true
+      },
+      "b_better": {
+        "mean_a": 0.44218957339750736,
+        "mean_b": 0.38632269529363233,
+        "mean_ratio": 1.144611949503542,
+        "wins": 0,
+        "n": 12,
+        "worst_ratio": 1.3034185748273077,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "Q0_14dB_SC_vs_QScanSC": {
+      "verdict": "SC stably better than QScan_SC",
+      "a_better": {
+        "mean_a": 0.3083922545802123,
+        "mean_b": 0.3580865477074533,
+        "mean_ratio": 0.8612226752292302,
+        "wins": 5,
+        "n": 6,
+        "worst_ratio": 1.0166962640938966,
+        "c1_mean": true,
+        "c2_wins": true,
+        "c3_worst": true,
+        "stable": true
+      },
+      "b_better": {
+        "mean_a": 0.3580865477074533,
+        "mean_b": 0.3083922545802123,
+        "mean_ratio": 1.1611398872351237,
+        "wins": 1,
+        "n": 6,
+        "worst_ratio": 1.4717769350966063,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "Q0_08dB_SC_vs_QScanSC": {
+      "verdict": "no stable advantage",
+      "a_better": {
+        "mean_a": 0.39289022749012864,
+        "mean_b": 0.41455884287981143,
+        "mean_ratio": 0.9477309053663947,
+        "wins": 3,
+        "n": 6,
+        "worst_ratio": 1.0229285263407366,
+        "c1_mean": true,
+        "c2_wins": false,
+        "c3_worst": true,
+        "stable": false
+      },
+      "b_better": {
+        "mean_a": 0.41455884287981143,
+        "mean_b": 0.39289022749012864,
+        "mean_ratio": 1.0551518309022516,
+        "wins": 3,
+        "n": 6,
+        "worst_ratio": 1.181279383565321,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "Q0_carbonate_SC_vs_QScanSC": {
+      "verdict": "no stable advantage",
+      "a_better": {
+        "mean_a": 0.3186169773606858,
+        "mean_b": 0.32457994324313694,
+        "mean_ratio": 0.9816286680474757,
+        "wins": 2,
+        "n": 6,
+        "worst_ratio": 1.0229285263407366,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": true,
+        "stable": false
+      },
+      "b_better": {
+        "mean_a": 0.32457994324313694,
+        "mean_b": 0.3186169773606858,
+        "mean_ratio": 1.0187151542640518,
+        "wins": 4,
+        "n": 6,
+        "worst_ratio": 1.1447037371918387,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "Q0_no_carbonate_SC_vs_QScanSC": {
+      "verdict": "SC stably better than QScan_SC",
+      "a_better": {
+        "mean_a": 0.38266550470965505,
+        "mean_b": 0.44806544734412784,
+        "mean_ratio": 0.8540393082704195,
+        "wins": 6,
+        "n": 6,
+        "worst_ratio": 0.9774945482916072,
+        "c1_mean": true,
+        "c2_wins": true,
+        "c3_worst": true,
+        "stable": true
+      },
+      "b_better": {
+        "mean_a": 0.44806544734412784,
+        "mean_b": 0.38266550470965505,
+        "mean_ratio": 1.1709062923873803,
+        "wins": 0,
+        "n": 6,
+        "worst_ratio": 1.4717769350966063,
+        "c1_mean": false,
+        "c2_wins": false,
+        "c3_worst": false,
+        "stable": false
+      }
+    },
+    "mean_rel": {
+      "Q100_14dB": {
+        "QScan_SC": 0.3580865477074533,
+        "SC": 0.3083922545802123,
+        "QScan_Standard": 0.39133938289488807,
+        "Standard": 0.3627959758928143
+      },
+      "Q100_08dB": {
+        "QScan_SC": 0.41455884287981143,
+        "SC": 0.39289022749012864,
+        "QScan_Standard": 0.49303976390012677,
+        "Standard": 0.49023621227160646
+      },
+      "Q070_14dB": {
+        "QScan_SC": 0.36436726168350403,
+        "SC": 0.5569868743395062,
+        "QScan_Standard": 0.3953974922633161,
+        "Standard": 0.646876241559523
+      }
+    },
+    "mean_rel_r0": {
+      "Q100_14dB": {
+        "QScan_SC": 0.3418017396228968,
+        "SC": 0.2742771810171121,
+        "QScan_Standard": 0.36091635191948934,
+        "Standard": 0.3091784677332257
+      },
+      "Q100_08dB": {
+        "QScan_SC": 0.3690341099298253,
+        "SC": 0.3087296611152098,
+        "QScan_Standard": 0.4085738129613647,
+        "Standard": 0.3668712769917084
+      },
+      "Q070_14dB": {
+        "QScan_SC": 0.3555535536928303,
+        "SC": 0.5041870041779852,
+        "QScan_Standard": 0.37255793984630375,
+        "Standard": 0.5412724602690124
+      }
+    }
+  }
+}
