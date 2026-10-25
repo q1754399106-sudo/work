@@ -1,0 +1,37 @@
+{
+  "A1_mean_rel_le_minus_0_05": true,
+  "A2_worst_rel_le_0_05": false,
+  "confirmed": false,
+  "primary": {
+    "mean_rel": -0.13362810390631163,
+    "worst_rel": 0.14132689334115756,
+    "n_improved": 9,
+    "n": 16,
+    "n_shifted_gathers": 58,
+    "mean_rel_forced_S2": -0.009775577097356151,
+    "worst_rel_forced_S2": 0.4666576024019524
+  },
+  "secondary": {
+    "Q100_08dB": {
+      "mean_rel": -0.030693996837316426,
+      "worst_rel": 0.0,
+      "n_shifted_gathers": 12
+    },
+    "Q100_20dB": {
+      "mean_rel": -0.10214277457173992,
+      "worst_rel": 0.5613983667374693,
+      "n_shifted_gathers": 46
+    }
+  },
+  "cluster_vs_carbonate_primary": {
+    "false": {
+      "false": 0,
+      "true": 8
+    },
+    "true": {
+      "false": 6,
+      "true": 2
+    }
+  },
+  "Q0_14dB_rule_vs_nominal_B": 0.06372607778662136
+}

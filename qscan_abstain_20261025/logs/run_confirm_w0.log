@@ -1,0 +1,76 @@
+warning: function /home/user/work/octave_compat_v2_20261025/sum.m shadows a built-in function
+warning: called from
+    as_setup at line 6 column 1
+    run_confirm at line 6 column 2
+
+warning: function /home/user/work/octave_compat_v2_20261025/randn.m shadows a built-in function
+warning: called from
+    as_setup at line 6 column 1
+    run_confirm at line 6 column 2
+
+warning: function /home/user/work/octave_compat_v2_20261025/rand.m shadows a built-in function
+warning: called from
+    as_setup at line 6 column 1
+    run_confirm at line 6 column 2
+
+warning: function /home/user/work/octave_compat_v2_20261025/rng.m shadows a core library function
+warning: called from
+    as_setup at line 6 column 1
+    run_confirm at line 6 column 2
+
+K1_Q100_14dB r1: c=1.4267 Z1 99.12 shift 1 (42s, total 42s)
+K1_Q100_14dB r2: c=1.4267 Z1 99.62 shift 1 (43s, total 86s)
+K1_Q100_14dB r3: c=1.4267 Z1 98.98 shift 1 (39s, total 125s)
+K1_Q100_14dB r4: c=1.4267 Z1 98.42 shift 1 (39s, total 164s)
+K1_Q100_14dB r5: c=1.4267 Z1 100.89 shift 1 (41s, total 205s)
+K1_Q100_14dB r6: c=1.4267 Z1 98.06 shift 1 (40s, total 245s)
+DONE K1_Q100_14dB
+K5_Q100_14dB r1: c=1.4267 Z1 89.94 shift 1 (44s, total 44s)
+K5_Q100_14dB r2: c=1.4267 Z1 89.75 shift 1 (47s, total 91s)
+K5_Q100_14dB r3: c=1.2803 Z1 89.14 shift 1 (44s, total 135s)
+K5_Q100_14dB r4: c=1.2803 Z1 87.83 shift 1 (44s, total 179s)
+K5_Q100_14dB r5: c=1.4267 Z1 91.06 shift 1 (45s, total 224s)
+K5_Q100_14dB r6: c=1.4267 Z1 90.96 shift 1 (44s, total 268s)
+DONE K5_Q100_14dB
+K1_Q070_14dB r1: c=1.9742 Z1 98.64 shift 1 (40s, total 40s)
+K1_Q070_14dB r2: c=1.9742 Z1 99.33 shift 1 (40s, total 80s)
+K1_Q070_14dB r3: c=1.9742 Z1 98.62 shift 1 (39s, total 120s)
+K1_Q070_14dB r4: c=1.9742 Z1 98.27 shift 1 (39s, total 159s)
+K1_Q070_14dB r5: c=1.9742 Z1 100.38 shift 1 (40s, total 199s)
+K1_Q070_14dB r6: c=1.9742 Z1 97.65 shift 1 (39s, total 239s)
+DONE K1_Q070_14dB
+K5_Q070_14dB r1: c=1.9742 Z1 89.55 shift 1 (44s, total 44s)
+K5_Q070_14dB r2: c=1.9742 Z1 89.24 shift 1 (45s, total 89s)
+K5_Q070_14dB r3: c=1.9742 Z1 90.11 shift 1 (44s, total 133s)
+K5_Q070_14dB r4: c=1.9742 Z1 88.93 shift 1 (44s, total 178s)
+K5_Q070_14dB r5: c=1.9742 Z1 90.61 shift 1 (51s, total 229s)
+K5_Q070_14dB r6: c=1.9742 Z1 90.98 shift 1 (46s, total 275s)
+DONE K5_Q070_14dB
+K1_Q100_08dB r1: c=1.2803 Z1 74.92 shift 1 (36s, total 36s)
+K1_Q100_08dB r2: c=1.2803 Z1 76.78 shift 1 (36s, total 72s)
+K1_Q100_08dB r3: c=1.2803 Z1 78.61 shift 1 (36s, total 109s)
+K1_Q100_08dB r4: c=1.2803 Z1 75.55 shift 1 (36s, total 144s)
+K1_Q100_08dB r5: c=1.4267 Z1 76.75 shift 1 (36s, total 181s)
+K1_Q100_08dB r6: c=1.2803 Z1 75.00 shift 1 (35s, total 216s)
+DONE K1_Q100_08dB
+K5_Q100_08dB r1: c=1.2803 Z1 65.22 shift 0 (36s, total 36s)
+K5_Q100_08dB r2: c=1.2803 Z1 64.92 shift 0 (35s, total 71s)
+K5_Q100_08dB r3: c=1.2803 Z1 64.66 shift 0 (35s, total 106s)
+K5_Q100_08dB r4: c=1.2803 Z1 66.84 shift 0 (37s, total 144s)
+K5_Q100_08dB r5: c=1.2803 Z1 64.57 shift 0 (35s, total 179s)
+K5_Q100_08dB r6: c=1.2803 Z1 65.08 shift 0 (36s, total 215s)
+DONE K5_Q100_08dB
+K1_Q100_20dB r1: c=1.4267 Z1 121.03 shift 1 (40s, total 40s)
+K1_Q100_20dB r2: c=1.4267 Z1 119.95 shift 1 (39s, total 79s)
+K1_Q100_20dB r3: c=1.4267 Z1 121.38 shift 1 (40s, total 119s)
+K1_Q100_20dB r4: c=1.4267 Z1 121.74 shift 1 (40s, total 159s)
+K1_Q100_20dB r5: c=1.4267 Z1 121.26 shift 1 (38s, total 197s)
+K1_Q100_20dB r6: c=1.4267 Z1 120.78 shift 1 (39s, total 237s)
+DONE K1_Q100_20dB
+K5_Q100_20dB r1: c=1.4267 Z1 112.71 shift 1 (44s, total 44s)
+K5_Q100_20dB r2: c=1.4267 Z1 114.33 shift 1 (43s, total 88s)
+K5_Q100_20dB r3: c=1.4267 Z1 114.19 shift 1 (43s, total 131s)
+K5_Q100_20dB r4: c=1.4267 Z1 112.94 shift 1 (44s, total 175s)
+K5_Q100_20dB r5: c=1.4267 Z1 114.04 shift 1 (45s, total 220s)
+K5_Q100_20dB r6: c=1.4267 Z1 113.72 shift 1 (46s, total 267s)
+DONE K5_Q100_20dB
