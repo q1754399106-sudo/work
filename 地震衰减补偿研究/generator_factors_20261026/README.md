@@ -1,6 +1,6 @@
 # 为什么 V 组偏向相干标准版：生成器因子实验
 
-**状态：方案已冻结，尚未运行。** 方案见 [PLAN_ZH.md](PLAN_ZH.md)，运行前哈希见 `PRE_RUN_HASHES.txt`。
+**状态：已完成，复现检查不通过。** 先读 [RESULTS_ZH.md](RESULTS_ZH.md)：24 个新模型全部是 SC 一侧更好，包括仿 V4 的格子；三个因子都不能解释 V 组的翻转。方案见 [PLAN_ZH.md](PLAN_ZH.md)，运行前哈希见 `PRE_RUN_HASHES.txt`。
 
 上游：`qscan_sc_round3_20261026`。那一轮在 Kennett 的 F3/F4 上 QScan＋SC 稳定更好，在 V4/V5 上 QScan＋相干标准版稳定更好。本轮在 24 个全新模型上，用 2×2×2 配对设计拆开三项生成器差别：A 反射系数稀疏/密集，B 横向有无构造，C 正演是 Kennett 还是求解器自身的算子。
 
