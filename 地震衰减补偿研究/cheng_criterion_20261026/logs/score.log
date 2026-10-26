@@ -1,0 +1,16 @@
+D:\ChatGPT\研究\地震衰减补偿研究\cheng_criterion_20261026\scripts\score.py:41: RuntimeWarning: divide by zero encountered in log
+  lr = np.log(spec[:, fit, 1] / spec[:, fit, 0])
+D:\ChatGPT\研究\地震衰减补偿研究\cheng_criterion_20261026\scripts\score.py:40: RuntimeWarning: invalid value encountered in divide
+  unit = lambda A: A / np.linalg.norm(A, axis=1, keepdims=True)
+D:\ChatGPT\研究\地震衰减补偿研究\cheng_criterion_20261026\scripts\score.py:40: RuntimeWarning: divide by zero encountered in divide
+  unit = lambda A: A / np.linalg.norm(A, axis=1, keepdims=True)
+QScan offsets reproduced for all 42 model-scenes
+qscan: offsets [4, 1, 3, -1, 2, -4, 4, 2, 3, -1, 2, 1, 1, 0] spread 8 modal 3/14 mean|k| 2.07 ends 0 rho 0.9999999999999998
+chengA: offsets [-5, -8, -5, -5, -4, -7, -5, -5, -4, -7, -4, -5, -4, -6] spread 4 modal 6/14 mean|k| 5.29 ends 13 rho 0.5021814129391639
+chengB: offsets [-2, 4, -4, 7, -1, 0, -3, 7, -1, 2, -2, 2, -1, 6] spread 11 modal 3/14 mean|k| 3.00 ends 4 rho -0.6872266406935147
+chengC: offsets [-5, -8, -5, -5, -4, -7, -4, -5, -4, -7, -4, -5, -3, -6] spread 5 modal 5/14 mean|k| 5.14 ends 11 rho 0.5496851064165884
+chengD: offsets [0, 4, 0, 7, 7, 5, 7, 7, 0, 5, 8, 7, -2, 6] spread 10 modal 5/14 mean|k| 4.64 ends 10 rho -0.09726648399342565
+lp0.1: offsets [1, 4, -5, -5, -5, 5, -1, -5, 2, -7, -4, 7, -4, -6] spread 14 modal 4/14 mean|k| 4.36 ends 11 rho 0.14189189189189189
+lp0.5: offsets [7, 4, 7, 7, 7, 5, 7, 7, 8, 5, 8, 7, 8, 6] spread 4 modal 7/14 mean|k| 6.64 ends 14 rho 0.5152377541422477
+lp1: offsets [7, 4, 7, 7, 7, 5, 7, 7, 8, 5, 8, 7, 8, 6] spread 4 modal 7/14 mean|k| 6.64 ends 14 rho 0.5152377541422477
+C1: degenerate under the registered conventions (modal choice at a grid end in >= 7/14 models)

@@ -1,6 +1,6 @@
 # Cheng 2025 / Ma 2018 选 Q 准则的偏移检验
 
-**状态：方案已冻结，尚未运行。** 方案见 [PLAN_ZH.md](PLAN_ZH.md)，运行前哈希见 `PRE_RUN_HASHES.txt`。
+**状态：已完成。** 结果见 [RESULTS_ZH.md](RESULTS_ZH.md)：C1 判为“Cheng 主定义在本约定下退化”（13/14 个模型选网格下端）；7 个准则变体都没有跨模型稳定的偏移（描述性）。方案见 [PLAN_ZH.md](PLAN_ZH.md)，运行前哈希见 `PRE_RUN_HASHES.txt`。
 
 把 Cheng et al. 2025 的浅深一致性准则和 Ma et al. 2018 型 lp 准则接到与 QScan 相同的 lasso 扫描上，在 G1–G8、H1–H6 上检验选 Q 偏移是否因模型而异。框架沿用 `yan_criterion_20261026`。
 
@@ -9,6 +9,7 @@
 - `scripts/snapshot_inputs.py`：与 `yan_criterion_20261026/scripts/snapshot_inputs.py` 逐字相同。把 Git 输入复制到 `cache/inputs`，并记录本地扫描缓存的 SHA-256。
 - `scripts/cheng_stats.m`：逐道集重建含噪数据（σ 须逐位一致），对 13 个因子做冻结的 lasso（核对 QScan 选择），保存补偿数据 C = W·(X/scale) 的浅深窗平均振幅谱和 lp 和。
 - `scripts/score.py`：各准则的选择、偏移、C1 判定和描述量。
+- `scripts/posthoc_truth.py`：事后诊断（未预登记），真值本身的浅深振幅一致性。
 - `cache/`（不上传）：输入快照与逐道集统计量。
 
 ## 运行
