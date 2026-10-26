@@ -1,0 +1,8 @@
+b2029863c13f6cda056f4bd2060c5cac57399319b24c5a8fcc457da5915220a1 *PLAN_ZH.md
+a66503c502bdbe77eb69b04118e28d7cb276976126a37011106153a85ccbd456 *README.md
+7fa0a243e851c774b4b421a048ccc076c101411aaad9e4542f50d8e089f6149c *scripts/snapshot_inputs.py
+910e49f78e9d8ccd0e9a765bdbb9d75f9ed8843b97ee741f190366ecf0e99a0c *scripts/yan_stats.m
+0174ca6affd8c5d2704ff1acf818df304c74874308c00b79f88b3aef08a40e52 *scripts/score.py
+input snapshot (cache/SNAPSHOT.json, not archived; 103 Git inputs, 294 local sweep files):
+dab9052d5a2ed806134fc9fe349cd49408a1032c92103e0626e403ae81e92379 *cache/SNAPSHOT.json
+repository HEAD: d203930327921e73ba1735f7d6ffd750b8027dbf
