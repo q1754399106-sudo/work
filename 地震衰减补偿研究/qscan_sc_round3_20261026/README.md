@@ -1,5 +1,7 @@
 # QScan＋SC 在一维数据 F3/F4、V4/V5 上的正交对照
 
+**状态：已完成。** 先读 [RESULTS_ZH.md](RESULTS_ZH.md)：Kennett 组 QScan＋SC 稳定更好（24/24），V 组反而是 QScan＋标准版稳定更好（24/24），结果按生成器分化。
+
 - `PLAN_ZH.md`：预登记方案；`PRE_RUN_HASHES.txt`：运行前的代码、方案与输入哈希。
 - `RESULTS_ZH.md`：结果与判定（运行后写入）。
 - `scripts/`：
