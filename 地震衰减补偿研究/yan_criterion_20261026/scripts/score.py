@@ -69,7 +69,9 @@ off_rows = []
 for m in MODELS:
     for s in SCENES:
         sm = summ[(summ.model == m) & (summ.scene == s)].iloc[0]
-        opt = gidx(sm.q_best_grid)
+        # The summaries give q_best_grid as a ratio to Q0, i.e. factor x 0.7 in the Q0x0.7 scene
+        # (PLAN_ADDENDUM_ZH.md).
+        opt = gidx(sm.q_best_grid / (0.7 if s == "Q070_14dB" else 1.0))
         rs = sel[(sel.model == m) & (sel.scene == s) & (sel.r >= 1)]
         q_mode = mode(rs.qscan.values)
         assert q_mode - opt == int(sm.offset_steps), (m, s, q_mode, opt, sm.offset_steps)
