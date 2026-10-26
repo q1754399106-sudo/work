@@ -1,0 +1,1805 @@
+[
+  {
+    "case": "Dev_DeepContrast",
+    "model": "Dev_DeepContrast",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102606,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/Dev_DeepContrast.mat",
+        "sha256": "f081949def2c517d110b60445ac0d973eed774652f16e81f0f529598d375e69f"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1050,
+      "kkt_ratio": 0.016714480260074806,
+      "converged": true,
+      "seconds": 6.297000000020489,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.011270674844265128,
+      "Ldata": 8.096780188116119,
+      "Lstructure": 7183.935567297476,
+      "L": 93.51781117274118,
+      "backtracks": 0,
+      "objective": 8.86154367552857e-05,
+      "predictor_adjoint_error": 3.703476644283988e-16
+    },
+    "input_error": 0.981107712778351,
+    "output_error": 0.4276517381701225,
+    "output_live_error": 0.4276517381701225,
+    "dead_traces": [],
+    "target_sha256": "4adf4269a466db00ae77e5480f723bc0ef93de98a936064b3fb5c5a229647ab8",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "Dev_ModerateQ",
+    "model": "Dev_ModerateQ",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102605,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/Dev_ModerateQ.mat",
+        "sha256": "c89e8e4f985e9b47d9dd7d80d8000e46703d0083a26e4bd03a6d3031207b4592"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 2900,
+      "kkt_ratio": 0.015447257993969706,
+      "converged": true,
+      "seconds": 18.25,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.011965983432199496,
+      "Ldata": 9.725700064363593,
+      "Lstructure": 8127.790013641937,
+      "L": 112.33183574339951,
+      "backtracks": 0,
+      "objective": 4.696870315626967e-05,
+      "predictor_adjoint_error": 0.0
+    },
+    "input_error": 0.9974023934916675,
+    "output_error": 0.4592875095765705,
+    "output_live_error": 0.45928750957657044,
+    "dead_traces": [],
+    "target_sha256": "a04d2f7b77db3784a34ae2fd2a91cd8afd0f792c8c415bd9b8b6b274102c9cc0",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "F1",
+    "model": "F1",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/F1.mat",
+        "sha256": "b23cf60e95b37c3dbefff2f276ccc50cc8145167545a39e9df6dc9a93b7e0f8f"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F1_Moderate_0.125_10.npz",
+        "sha256": "18d5f2e867fd82f6c52cc67d3a7c9c5aab8464069f848a26ab86b244f10e145d"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F1_Moderate_0.125_10.json",
+        "sha256": "86019e2890128f7daa66603a9d71a93b3d1b52d515a4462363c0d3975501fccd"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1325,
+      "kkt_ratio": 0.018183320684693867,
+      "converged": true,
+      "seconds": 34.734000000025844,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.11471460523627436,
+      "Ldata": 6.232825457052352,
+      "Lstructure": 543.3332088982725,
+      "L": 71.98913402895467,
+      "backtracks": 0,
+      "objective": 0.1270845333042628
+    },
+    "input_error": 0.8569529500522248,
+    "output_error": 0.3095420537334552,
+    "output_live_error": 0.30954205373345534,
+    "dead_traces": [],
+    "target_sha256": "8f6b1dcb4bbd06d83f33c631fab3c313bcff3b01f3c2044b1675b230cfffe093",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "F2",
+    "model": "F2",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/F2.mat",
+        "sha256": "41d091931cf0f354f361599813fef042e9ef2ae10801d1de9be56241f1d58758"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F2_Moderate_0.125_10.npz",
+        "sha256": "6f4d61ab7757cb8950f43e8d0f4f47d5778ba88d306a2d01bf1b7c4d21896229"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F2_Moderate_0.125_10.json",
+        "sha256": "3ed820c6aa15a67e9eb19da491a04b22645ac377437dd3c062eef11eaf4a84b6"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1725,
+      "kkt_ratio": 0.015020399726836527,
+      "converged": true,
+      "seconds": 40.64000000001397,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.05593108792484883,
+      "Ldata": 6.8629336707051625,
+      "Lstructure": 1227.0338241813686,
+      "L": 79.26688389664463,
+      "backtracks": 0,
+      "objective": 0.35964032457370343
+    },
+    "input_error": 0.7244079599334438,
+    "output_error": 0.2074910363068052,
+    "output_live_error": 0.2074910363068053,
+    "dead_traces": [],
+    "target_sha256": "fb2d4ab02f5c5daa08718b85bc0749380f03d4b74f60274aae2beccd375c7dcb",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "F3",
+    "model": "F3",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/F3.mat",
+        "sha256": "bd40f5646522a3fe7323bf3f3805d9b4f972480644c9bf6ee5fe4404988867f7"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F3_Moderate_0.125_10.npz",
+        "sha256": "d2a9e37db13f980ebdbd8e346c70cb4a85205e7fd322e9fabd6fea2992b7a191"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F3_Moderate_0.125_10.json",
+        "sha256": "1baa2c08ed716393e51a299700ecd989d390ba7e5b5dc90e02e9552c256cccfd"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 2700,
+      "kkt_ratio": 0.019782298826194165,
+      "converged": true,
+      "seconds": 82.10899999999674,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.07042816171753746,
+      "Ldata": 6.647996727867619,
+      "Lstructure": 943.9401179503151,
+      "L": 76.784362206871,
+      "backtracks": 0,
+      "objective": 0.10980528753627458
+    },
+    "input_error": 0.8481781006858395,
+    "output_error": 0.4131048915510849,
+    "output_live_error": 0.413104891551085,
+    "dead_traces": [],
+    "target_sha256": "957fd912af9b2b3e5700087e41deb9cad1ace5d1a6fe6bcd7541b3e2ee0fecc7",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "F4",
+    "model": "F4",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/F4.mat",
+        "sha256": "bbdaaa9d296dd6b2428d6d60cb9c0c631750dd70fd4bfcbdbed458d836d48970"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F4_Moderate_0.125_10.npz",
+        "sha256": "325ab280b30260a865523022b7e25c30ba1d8d6b9baa2d82c45de11f0f0aa540"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/F4_Moderate_0.125_10.json",
+        "sha256": "8b576367d2405ecb84d24d715b59782127b96b7d349059f010e73953cd370ca3"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1325,
+      "kkt_ratio": 0.01608169769687705,
+      "converged": true,
+      "seconds": 40.51500000001397,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.12372687614811946,
+      "Ldata": 6.14759261085115,
+      "Lstructure": 496.8680049346407,
+      "L": 71.00469465533078,
+      "backtracks": 0,
+      "objective": 0.4858385190695411
+    },
+    "input_error": 0.643062241498598,
+    "output_error": 0.19427390908157086,
+    "output_live_error": 0.19427390908157086,
+    "dead_traces": [],
+    "target_sha256": "e461e0fab91a6559fc272a84e591ac8631c7d9e80deba4ff262a8d08218b4e2c",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H1",
+    "model": "H1",
+    "family": "二维有限差分",
+    "method": "SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1410100001,
+    "qscan_factor": 1.0,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H1.mat",
+        "sha256": "b371ba8eb6a40bcdd782be8271530195b4632ab370892ad076be5b13589a2438"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H1_L1_r1.mat",
+        "sha256": "42ae632de0b3a8e6027696cf306445e7a9772b3c5503975a46ee1809ff84a062"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H1_Q100_14dB_r1_SC.npz",
+        "sha256": "11f66a1b3c6071eb39ae9d4bba51a350c56ab873ad163dec14760bd99e22b4f3"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H1_Q100_14dB_r1_SC.json",
+        "sha256": "487c0f0a723e4cfc39c330d0b6ea1e6fe1986095449998a3a50d9e75fa34e19d"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1750,
+      "kkt_ratio": 0.009658096978499288,
+      "converged": true,
+      "seconds": 39.562000000005355,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.13661252360685758,
+      "Ldata": 5.819745946892186,
+      "Lstructure": 426.0038386846732,
+      "L": 67.21806568660475,
+      "backtracks": 0,
+      "objective": 0.20721239855103787,
+      "model": "H1",
+      "scene": "Q100_14dB",
+      "r": 1,
+      "label": "SC",
+      "predictor_adjoint_error": 6.502445958564013e-15
+    },
+    "input_error": 0.8018728424867172,
+    "output_error": 0.28743540783179233,
+    "output_live_error": 0.28743540783179233,
+    "dead_traces": [],
+    "target_sha256": "4c46caf9d5f7906fb89d19dd9030443a77e148e248bb6d32266835da6f53162f",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H1_Qminus30",
+    "model": "H1",
+    "family": "二维有限差分",
+    "method": "QScan+SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1410100001,
+    "qscan_factor": 1.7716480168138526,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H1.mat",
+        "sha256": "b371ba8eb6a40bcdd782be8271530195b4632ab370892ad076be5b13589a2438"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H1_L1_r1.mat",
+        "sha256": "42ae632de0b3a8e6027696cf306445e7a9772b3c5503975a46ee1809ff84a062"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H1_Q070_14dB_r1_QSC.npz",
+        "sha256": "3483da54d8ca31af4e2ac2645aa299bd02fc9c083e25ac6c555e610e2fe35db7"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H1_Q070_14dB_r1_QSC.json",
+        "sha256": "7e3a8c1950a0b30fc49da8164aafa721d1c4d35f1f726d9b81d733a6ce5633c5"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 2000,
+      "kkt_ratio": 0.019685719064642823,
+      "converged": true,
+      "seconds": 33.5,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.22251716571648356,
+      "Ldata": 5.511587727391174,
+      "Lstructure": 247.6926986574002,
+      "L": 63.65883825136807,
+      "backtracks": 0,
+      "objective": 0.21149083039113425,
+      "model": "H1",
+      "scene": "Q070_14dB",
+      "r": 1,
+      "label": "QSC",
+      "qscan_best": 11,
+      "qscan_factor": 1.7716480168138526,
+      "predictor_adjoint_error": 6.502445958564013e-15
+    },
+    "input_error": 0.8018728424867172,
+    "output_error": 0.4074082773992942,
+    "output_live_error": 0.4074082773992942,
+    "dead_traces": [],
+    "target_sha256": "4c46caf9d5f7906fb89d19dd9030443a77e148e248bb6d32266835da6f53162f",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H2",
+    "model": "H2",
+    "family": "二维有限差分",
+    "method": "SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1420100001,
+    "qscan_factor": 1.0,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H2.mat",
+        "sha256": "0a494547d53cba0048579e8c0d6f487b123714d2416a2d63133977a1c8d08b7e"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H2_L1_r1.mat",
+        "sha256": "d72b10aecaa01ba7ac65a4b37ba3f4fdcc017f8abe06af5dcc6e00b6f2c20220"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H2_Q100_14dB_r1_SC.npz",
+        "sha256": "64656de5ed5e67f0b988c5c2b15f2c48a4ed18e97d1b20d5d1501c04bcf0ba60"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H2_Q100_14dB_r1_SC.json",
+        "sha256": "d03611f8a647e46c5816e201ad82506e6b0c4ab33c98388abfe81a9ac3231c7e"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 2900,
+      "kkt_ratio": 0.0180066056724176,
+      "converged": true,
+      "seconds": 56.65600000001723,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.017135427004970574,
+      "Ldata": 7.37526820739187,
+      "Lstructure": 4304.105293234002,
+      "L": 85.18434779537611,
+      "backtracks": 0,
+      "objective": 0.7992903098554498,
+      "model": "H2",
+      "scene": "Q100_14dB",
+      "r": 1,
+      "label": "SC",
+      "predictor_adjoint_error": 3.883837695894954e-13
+    },
+    "input_error": 0.4936689933737424,
+    "output_error": 0.3111628518280796,
+    "output_live_error": 0.31116285182807957,
+    "dead_traces": [],
+    "target_sha256": "6fdcdd64130b7dafe09df7f109dc961b29a5b08b9b9f9fb52843821f3512f1fd",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H2_Qminus30",
+    "model": "H2",
+    "family": "二维有限差分",
+    "method": "QScan+SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1420100001,
+    "qscan_factor": 1.589845138520332,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H2.mat",
+        "sha256": "0a494547d53cba0048579e8c0d6f487b123714d2416a2d63133977a1c8d08b7e"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H2_L1_r1.mat",
+        "sha256": "d72b10aecaa01ba7ac65a4b37ba3f4fdcc017f8abe06af5dcc6e00b6f2c20220"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H2_Q070_14dB_r1_QSC.npz",
+        "sha256": "94a9769e176556223f0ba8904919adfd7667a2a81043b8335b91ee2c07bd3095"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H2_Q070_14dB_r1_QSC.json",
+        "sha256": "9a56dbafd769b7bdfaeb48eb55b8fc9c490948b133212d25b90f2b99116ddae0"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1925,
+      "kkt_ratio": 0.019505041093402814,
+      "converged": true,
+      "seconds": 32.09400000004098,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.02496584843481699,
+      "Ldata": 6.985114867116195,
+      "Lstructure": 2797.868009714767,
+      "L": 80.67807671519206,
+      "backtracks": 0,
+      "objective": 0.8253031150263602,
+      "model": "H2",
+      "scene": "Q070_14dB",
+      "r": 1,
+      "label": "QSC",
+      "qscan_best": 10,
+      "qscan_factor": 1.589845138520332,
+      "predictor_adjoint_error": 3.883837695894954e-13
+    },
+    "input_error": 0.4936689933737424,
+    "output_error": 0.3043347143551433,
+    "output_live_error": 0.3043347143551433,
+    "dead_traces": [],
+    "target_sha256": "6fdcdd64130b7dafe09df7f109dc961b29a5b08b9b9f9fb52843821f3512f1fd",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H3",
+    "model": "H3",
+    "family": "二维有限差分",
+    "method": "SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1430100001,
+    "qscan_factor": 1.0,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H3.mat",
+        "sha256": "e06f9af8b27a17583d7a01d9d7702aa25f1c2404657a31d3c071e2e711289560"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H3_L1_r1.mat",
+        "sha256": "5fe56b8255768e986c4a328174c3261ab8ecc463ba5e59bd357e3f13353e8ba9"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H3_Q100_14dB_r1_SC.npz",
+        "sha256": "20059825a4fbd95bf77137c4344173f52a74bfce673c8dd7f8125e61ef985fa8"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H3_Q100_14dB_r1_SC.json",
+        "sha256": "fc36c4257f4ab9ef3cb4e292a8dd8381ab1fd4618d824aa4b95a8886614c9a43"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1525,
+      "kkt_ratio": 0.01992165330978655,
+      "converged": true,
+      "seconds": 34.280999999988126,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.10748135089995328,
+      "Ldata": 6.196099091766051,
+      "Lstructure": 576.4813188414014,
+      "L": 71.56494450989788,
+      "backtracks": 0,
+      "objective": 0.18091007501325412,
+      "model": "H3",
+      "scene": "Q100_14dB",
+      "r": 1,
+      "label": "SC",
+      "predictor_adjoint_error": 3.4852297466093506e-14
+    },
+    "input_error": 0.8780422717660843,
+    "output_error": 0.3474458268170147,
+    "output_live_error": 0.34744582681701475,
+    "dead_traces": [],
+    "target_sha256": "5b2047fa9db49f82e05169f042ec7cfa30754b71dee4497ee998ffbb40b4f836",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H3_Qminus30",
+    "model": "H3",
+    "family": "二维有限差分",
+    "method": "QScan+SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1430100001,
+    "qscan_factor": 1.7716480168138526,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H3.mat",
+        "sha256": "e06f9af8b27a17583d7a01d9d7702aa25f1c2404657a31d3c071e2e711289560"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H3_L1_r1.mat",
+        "sha256": "5fe56b8255768e986c4a328174c3261ab8ecc463ba5e59bd357e3f13353e8ba9"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H3_Q070_14dB_r1_QSC.npz",
+        "sha256": "f0d263a8eba3a49d3a7cd9687d30020c5022318ef0077006aa0956cd6e97f75c"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H3_Q070_14dB_r1_QSC.json",
+        "sha256": "e00ab115d24146b49ee0ce05dbadbf55af6f058209fa4aaa499cabc9cf07c6e4"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1050,
+      "kkt_ratio": 0.019219047604755533,
+      "converged": true,
+      "seconds": 17.65600000001723,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.1862846515082832,
+      "Ldata": 5.792672678466597,
+      "Lstructure": 310.95812948438345,
+      "L": 66.9053694362892,
+      "backtracks": 0,
+      "objective": 0.18552471147094163,
+      "model": "H3",
+      "scene": "Q070_14dB",
+      "r": 1,
+      "label": "QSC",
+      "qscan_best": 11,
+      "qscan_factor": 1.7716480168138526,
+      "predictor_adjoint_error": 3.4852297466093506e-14
+    },
+    "input_error": 0.8780422717660843,
+    "output_error": 0.4921108552916869,
+    "output_live_error": 0.49211085529168686,
+    "dead_traces": [],
+    "target_sha256": "5b2047fa9db49f82e05169f042ec7cfa30754b71dee4497ee998ffbb40b4f836",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H4",
+    "model": "H4",
+    "family": "二维有限差分",
+    "method": "SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1440100001,
+    "qscan_factor": 1.0,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H4.mat",
+        "sha256": "c3811a0714d434766301ab9eddfe37a8698e3d47055dfe99cb5a10dbbe5be45a"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H4_L1_r1.mat",
+        "sha256": "2778a0237b52cc06b8c3a8ea4a2db4f20bb5e5bdad61add14a59be2f3ad79666"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H4_Q100_14dB_r1_SC.npz",
+        "sha256": "5f132ad97f923bddf3f2aae0ab85a616c5acd8ac2c11f14d3ae0cb137abc9493"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H4_Q100_14dB_r1_SC.json",
+        "sha256": "97c7ccd95430acc98f367cf5d6350edc256494ad02221fa7badd6fba41a89e3d"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 2300,
+      "kkt_ratio": 0.01439171752009369,
+      "converged": true,
+      "seconds": 46.34399999998277,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.06108192401821993,
+      "Ldata": 6.275752132669779,
+      "Lstructure": 1027.4319667464642,
+      "L": 72.48493713233594,
+      "backtracks": 0,
+      "objective": 0.6547046652692748,
+      "model": "H4",
+      "scene": "Q100_14dB",
+      "r": 1,
+      "label": "SC",
+      "predictor_adjoint_error": 1.1141541932007784e-14
+    },
+    "input_error": 0.6003541928799486,
+    "output_error": 0.2683409023693803,
+    "output_live_error": 0.26834090236938035,
+    "dead_traces": [],
+    "target_sha256": "45aa0b981c3e81daa0a1664cc8c4f6852406f11f493e292efb6780614edd5355",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H4_Qminus30",
+    "model": "H4",
+    "family": "二维有限差分",
+    "method": "QScan+SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1440100001,
+    "qscan_factor": 1.7716480168138526,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H4.mat",
+        "sha256": "c3811a0714d434766301ab9eddfe37a8698e3d47055dfe99cb5a10dbbe5be45a"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H4_L1_r1.mat",
+        "sha256": "2778a0237b52cc06b8c3a8ea4a2db4f20bb5e5bdad61add14a59be2f3ad79666"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H4_Q070_14dB_r1_QSC.npz",
+        "sha256": "c41bd870eef00120d594e41ac6776f847ec42df197ea94f38b2eb4cf26d9337f"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H4_Q070_14dB_r1_QSC.json",
+        "sha256": "9ceb0b74e113b414fe6025dc269cc1f9937401e41ad6ecb5b5e9944f062130b9"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1900,
+      "kkt_ratio": 0.012707978977359766,
+      "converged": true,
+      "seconds": 32.40700000000652,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.10742418885544143,
+      "Ldata": 5.850531841516003,
+      "Lstructure": 544.6195967454728,
+      "L": 67.57364276950985,
+      "backtracks": 0,
+      "objective": 0.6906208827112448,
+      "model": "H4",
+      "scene": "Q070_14dB",
+      "r": 1,
+      "label": "QSC",
+      "qscan_best": 11,
+      "qscan_factor": 1.7716480168138526,
+      "predictor_adjoint_error": 1.1141541932007784e-14
+    },
+    "input_error": 0.6003541928799486,
+    "output_error": 0.3122993303958863,
+    "output_live_error": 0.3122993303958862,
+    "dead_traces": [],
+    "target_sha256": "45aa0b981c3e81daa0a1664cc8c4f6852406f11f493e292efb6780614edd5355",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H5",
+    "model": "H5",
+    "family": "二维有限差分",
+    "method": "SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1450100001,
+    "qscan_factor": 1.0,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H5.mat",
+        "sha256": "b127a503aab9f4ca8658fa6ca4dce34bd9e01c38438d69cdb7f97ed742e7268a"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H5_L1_r1.mat",
+        "sha256": "5edcabbc41f9dd2c8c772771b5104a983b58e534245e4e4c6baf8da168f14dae"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H5_Q100_14dB_r1_SC.npz",
+        "sha256": "833a4c7ec0249dfa86fb566faab91a0e3b83f31e57538a1dcc2e95dd181fa383"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H5_Q100_14dB_r1_SC.json",
+        "sha256": "d57f48b635831b656e70838f29895ee63068cc484bdaa7ed7a5626b094e9fcdd"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1675,
+      "kkt_ratio": 0.019897765967365862,
+      "converged": true,
+      "seconds": 38.280999999988126,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.03680329978692749,
+      "Ldata": 6.80926650390504,
+      "Lstructure": 1850.1782566583029,
+      "L": 78.64702812010322,
+      "backtracks": 0,
+      "objective": 0.09930305877003451,
+      "model": "H5",
+      "scene": "Q100_14dB",
+      "r": 1,
+      "label": "SC",
+      "predictor_adjoint_error": 6.375546419013428e-15
+    },
+    "input_error": 0.897212639339218,
+    "output_error": 0.4216229319815539,
+    "output_live_error": 0.421622931981554,
+    "dead_traces": [],
+    "target_sha256": "436de5e1e9758d7f60412041138eef8af5ae6a4b598c2081125ad575d6b66953",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H5_Qminus30",
+    "model": "H5",
+    "family": "二维有限差分",
+    "method": "QScan+SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1450100001,
+    "qscan_factor": 1.589845138520332,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H5.mat",
+        "sha256": "b127a503aab9f4ca8658fa6ca4dce34bd9e01c38438d69cdb7f97ed742e7268a"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H5_L1_r1.mat",
+        "sha256": "5edcabbc41f9dd2c8c772771b5104a983b58e534245e4e4c6baf8da168f14dae"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H5_Q070_14dB_r1_QSC.npz",
+        "sha256": "640b767ff421c76ee02bffb323f1cd3d97f845f0c81ab438dfb08a31913ccedb"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H5_Q070_14dB_r1_QSC.json",
+        "sha256": "a33d3e0a1d23ee3e73eb6ddf077f3f9ca2da87ff9d84c837e977cde2fcdfd85e"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1450,
+      "kkt_ratio": 0.01645548673185198,
+      "converged": true,
+      "seconds": 24.92200000002049,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.05095032990790242,
+      "Ldata": 6.507176587868188,
+      "Lstructure": 1277.160834803333,
+      "L": 75.15788958987758,
+      "backtracks": 0,
+      "objective": 0.10066758111117316,
+      "model": "H5",
+      "scene": "Q070_14dB",
+      "r": 1,
+      "label": "QSC",
+      "qscan_best": 10,
+      "qscan_factor": 1.589845138520332,
+      "predictor_adjoint_error": 6.375546419013428e-15
+    },
+    "input_error": 0.897212639339218,
+    "output_error": 0.48142116927621426,
+    "output_live_error": 0.4814211692762141,
+    "dead_traces": [],
+    "target_sha256": "436de5e1e9758d7f60412041138eef8af5ae6a4b598c2081125ad575d6b66953",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H6",
+    "model": "H6",
+    "family": "二维有限差分",
+    "method": "SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1460100001,
+    "qscan_factor": 1.0,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H6.mat",
+        "sha256": "5d0db925319e24fcced64fe1296acf3a9253e81aedb6ebaa814bd591694413d2"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H6_L1_r1.mat",
+        "sha256": "e57ba7beb29366b3092c5a5d46be0f4dfb39526fa73b7a0238b9ed47cfd987c5"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H6_Q100_14dB_r1_SC.npz",
+        "sha256": "a555838788c47da6b32af434978897d6900b64b14e7e8bdadd8bca3b72b873a9"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/solved/H6_Q100_14dB_r1_SC.json",
+        "sha256": "a9a8ec5eef39ba8c3f49232614597303a95e99fe7e27f23ea29c7810853212b4"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1550,
+      "kkt_ratio": 0.018631477522346108,
+      "converged": true,
+      "seconds": 27.70299999997951,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.07416792970899194,
+      "Ldata": 5.9613273790882415,
+      "Lstructure": 803.7607902065391,
+      "L": 68.85333122846919,
+      "backtracks": 0,
+      "objective": 1.271698955625673,
+      "model": "H6",
+      "scene": "Q100_14dB",
+      "r": 1,
+      "label": "SC",
+      "predictor_adjoint_error": 1.8611855149638766e-14
+    },
+    "input_error": 0.44331842857629217,
+    "output_error": 0.21842211846589632,
+    "output_live_error": 0.21842211846589638,
+    "dead_traces": [],
+    "target_sha256": "456ab1f53ffe0de131ab054c4571b1f687db985dbf15ae4cda7f4e4b82cacaa0",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "H6_Qminus30",
+    "model": "H6",
+    "family": "二维有限差分",
+    "method": "QScan+SC",
+    "noise": "14 dB, replicate 1",
+    "seed": 1460100001,
+    "qscan_factor": 1.9742405215653123,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H6.mat",
+        "sha256": "5d0db925319e24fcced64fe1296acf3a9253e81aedb6ebaa814bd591694413d2"
+      },
+      {
+        "path": "sc_neutral_20261026/cache/noisy/H6_L1_r1.mat",
+        "sha256": "e57ba7beb29366b3092c5a5d46be0f4dfb39526fa73b7a0238b9ed47cfd987c5"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H6_Q070_14dB_r1_QSC.npz",
+        "sha256": "32c6013a9ebc5e1805c8561371d89909c824e4b534eca5031975a96fb20e1a9a"
+      },
+      {
+        "path": "qscan_sc_20261026/cache/solved/H6_Q070_14dB_r1_QSC.json",
+        "sha256": "0acad7bb4c6479aa7a6d2a88f596cdb1f8e04b97d9faf269f06d398d50524e5e"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1600,
+      "kkt_ratio": 0.01995013094140934,
+      "converged": true,
+      "seconds": 26.51600000000326,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.15802584131416983,
+      "Ldata": 5.474684919836596,
+      "Lstructure": 346.44238399923603,
+      "L": 63.23261082411269,
+      "backtracks": 0,
+      "objective": 1.4275892139871105,
+      "model": "H6",
+      "scene": "Q070_14dB",
+      "r": 1,
+      "label": "QSC",
+      "qscan_best": 12,
+      "qscan_factor": 1.9742405215653123,
+      "predictor_adjoint_error": 1.8611855149638766e-14
+    },
+    "input_error": 0.44331842857629217,
+    "output_error": 0.25725017959846047,
+    "output_live_error": 0.2572501795984604,
+    "dead_traces": [],
+    "target_sha256": "456ab1f53ffe0de131ab054c4571b1f687db985dbf15ae4cda7f4e4b82cacaa0",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "Holdout_DeepLowQ",
+    "model": "Holdout_DeepLowQ",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102610,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/Holdout_DeepLowQ.mat",
+        "sha256": "139fc4011605171d4b99416e04eaab3d3efab7c1ee22e6039929743939fea597"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1575,
+      "kkt_ratio": 0.019268200467784765,
+      "converged": true,
+      "seconds": 9.84399999998277,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.005771328759329439,
+      "Ldata": 9.867323248960028,
+      "Lstructure": 17097.142894535948,
+      "L": 113.96758352548834,
+      "backtracks": 0,
+      "objective": 0.00013920615138342983,
+      "predictor_adjoint_error": 3.700810529473046e-16
+    },
+    "input_error": 0.9617882615278454,
+    "output_error": 0.2998321286409052,
+    "output_live_error": 0.29983212864090514,
+    "dead_traces": [],
+    "target_sha256": "a599045373bd16a709b78c6201e9e40c5e9ae6cdf2837409c34b57fb265f1575",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "Holdout_HighContrastReversal",
+    "model": "Holdout_HighContrastReversal",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102608,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/Holdout_HighContrastReversal.mat",
+        "sha256": "262f55da671443030aebfed1390e7fc62cf21ebeab98bdb80d0f82b003bafa4f"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1075,
+      "kkt_ratio": 0.01446504590919299,
+      "converged": true,
+      "seconds": 6.827999999979511,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.009010736398627255,
+      "Ldata": 7.162932201398682,
+      "Lstructure": 7949.330536946928,
+      "L": 82.73186692615478,
+      "backtracks": 0,
+      "objective": 0.0003117566824623551,
+      "predictor_adjoint_error": 4.2189391770958124e-16
+    },
+    "input_error": 0.9671085516604785,
+    "output_error": 0.33247501196245716,
+    "output_live_error": 0.3324750119624572,
+    "dead_traces": [],
+    "target_sha256": "4a1c8533d75428363d2c28f85bbcc48f1a02dfc8ae50376aec290496dc97db5c",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "Holdout_StrongAtten",
+    "model": "Holdout_StrongAtten",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102607,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/Holdout_StrongAtten.mat",
+        "sha256": "26a716492947b896e8fd8d698d6955ea553e1f7109e56eb8f9a8b33366ca4bd0"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 3500,
+      "kkt_ratio": 0.014115292889716914,
+      "converged": true,
+      "seconds": 19.81300000002375,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.0036520868665619534,
+      "Ldata": 13.448562000329423,
+      "Lstructure": 36824.32124893512,
+      "L": 155.33089110380484,
+      "backtracks": 0,
+      "objective": 8.317704258356107e-06,
+      "predictor_adjoint_error": 0.0
+    },
+    "input_error": 1.0100261694566812,
+    "output_error": 0.4874999362364528,
+    "output_live_error": 0.4874999362364528,
+    "dead_traces": [],
+    "target_sha256": "b3a6dbb340ffa231c8455b29514ac123c3b39e6d79c2df6439a55326ffce37fc",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "Holdout_ThinInterbed",
+    "model": "Holdout_ThinInterbed",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102609,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/Holdout_ThinInterbed.mat",
+        "sha256": "46d2ec9009eb9cacf5fd4945da567978d284b71855147e9d716577c77aeb8b3a"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1400,
+      "kkt_ratio": 0.01681764937430892,
+      "converged": true,
+      "seconds": 8.546999999962281,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.005376239201790143,
+      "Ldata": 7.892548206946189,
+      "Lstructure": 14680.426057527691,
+      "L": 91.1589317902285,
+      "backtracks": 0,
+      "objective": 1.2095663360596463e-05,
+      "predictor_adjoint_error": 1.7966630132670877e-15
+    },
+    "input_error": 0.9856324038410955,
+    "output_error": 0.4908563290687702,
+    "output_live_error": 0.49085632906877014,
+    "dead_traces": [],
+    "target_sha256": "4c05b6db9c6367de479ea866f56df92ac8e6ba300262b608c517ade7a7feb8fa",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "OriginalControl",
+    "model": "OriginalControl",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102601,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/OriginalControl.mat",
+        "sha256": "0b6f50f601440994a99a1a724af6ab45caf720e216878f8c0998cf0d243fe1c8"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1825,
+      "kkt_ratio": 0.01961692540335299,
+      "converged": true,
+      "seconds": 11.702999999979511,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.01257030467394284,
+      "Ldata": 8.634085096554967,
+      "Lstructure": 6868.636298412626,
+      "L": 99.72368286520988,
+      "backtracks": 0,
+      "objective": 0.00014848448493935755,
+      "predictor_adjoint_error": 3.6149607239424997e-16
+    },
+    "input_error": 0.9724751307474618,
+    "output_error": 0.35966646565043664,
+    "output_live_error": 0.35966646565043664,
+    "dead_traces": [],
+    "target_sha256": "8250af1eb49b30788ef56843555547e0278dbf05dd88befad6a6bbfd27703906",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "SoftLowQ",
+    "model": "SoftLowQ",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102602,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/SoftLowQ.mat",
+        "sha256": "64f2a05b181e644f129c6e4df0d4126187137e9db34603eb1eb44401dc26a2b1"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 3600,
+      "kkt_ratio": 0.019408916663969957,
+      "converged": true,
+      "seconds": 21.17200000002049,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.00531970417598304,
+      "Ldata": 13.501553621067199,
+      "Lstructure": 25380.27148581475,
+      "L": 155.94294432332615,
+      "backtracks": 0,
+      "objective": 9.831947354014556e-06,
+      "predictor_adjoint_error": 1.0230617265773863e-15
+    },
+    "input_error": 1.0125821558583608,
+    "output_error": 0.48476626480646573,
+    "output_live_error": 0.48476626480646584,
+    "dead_traces": [],
+    "target_sha256": "2857418a8cdb49a316c817827f00883286290cca4f19181ceb9990f02acca58c",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "ThinHighFrequency",
+    "model": "ThinHighFrequency",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102604,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/ThinHighFrequency.mat",
+        "sha256": "adfbb4d0df5155a7c2b8db550dc4015c25f2347134b7428811364d3744e1ccd7"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1050,
+      "kkt_ratio": 0.019280421215868697,
+      "converged": true,
+      "seconds": 6.98399999999674,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.004325887599043666,
+      "Ldata": 7.801666238553623,
+      "Lstructure": 18034.833453089155,
+      "L": 90.10924505529435,
+      "backtracks": 0,
+      "objective": 8.120675515851505e-06,
+      "predictor_adjoint_error": 3.9128527947095266e-16
+    },
+    "input_error": 0.9886656745569966,
+    "output_error": 0.5305139571719184,
+    "output_live_error": 0.5305139571719183,
+    "dead_traces": [],
+    "target_sha256": "06290bb9648e1abed5ab3d5dc144bfaa5e8881a9aa8c41e43d4a97b53617b6d4",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "U1",
+    "model": "U1",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "SNR14, replicate 1",
+    "seed": 1210300001,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/b0_world_truth_20261024/inputs/U1.mat",
+        "sha256": "4c4d861a1941bc43055e686d8d40741019aa69609657451d0a095210010d1fb4"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1000,
+      "kkt_ratio": 0.016465412506211825,
+      "converged": true,
+      "seconds": 16.81300000002375,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.13880708495087637,
+      "Ldata": 6.0815704451410255,
+      "Lstructure": 438.13112618086353,
+      "L": 70.24213864137886,
+      "backtracks": 0,
+      "objective": 0.16142152536823884,
+      "predictor_adjoint_error": 1.4967278029752422e-14
+    },
+    "input_error": 0.8228431213326316,
+    "output_error": 0.3073114466037964,
+    "output_live_error": 0.30731144660379667,
+    "dead_traces": [],
+    "target_sha256": "e09d2156292e69a8d81f0b898958cdb041b604f061a2eab070d508a94fe7e606",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "U2",
+    "model": "U2",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "SNR14, replicate 1",
+    "seed": 1220300001,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/b0_world_truth_20261024/inputs/U2.mat",
+        "sha256": "ee07dfe364fafa2a0f6d1d86cc610750b563b8973db85282114b06fa1d56130c"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 3600,
+      "kkt_ratio": 0.01998786922792443,
+      "converged": true,
+      "seconds": 60.75,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.011841157760017358,
+      "Ldata": 8.478852786925104,
+      "Lstructure": 7160.493052085369,
+      "L": 97.93074968898496,
+      "backtracks": 0,
+      "objective": 0.6435315378605218,
+      "predictor_adjoint_error": 2.331628929119848e-14
+    },
+    "input_error": 0.5348852980609812,
+    "output_error": 0.33621560607786644,
+    "output_live_error": 0.3362156060778664,
+    "dead_traces": [],
+    "target_sha256": "f67dd068a1c0efacaab27f45ee01990a8beb899440c260952e99a1a8538c4f7f",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "U3",
+    "model": "U3",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "SNR14, replicate 1",
+    "seed": 1230300001,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/b0_world_truth_20261024/inputs/U3.mat",
+        "sha256": "1351ad61dd801a1683da81f44aa3292bbcbcbd482fb36bcde18872220a149fb5"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1450,
+      "kkt_ratio": 0.019697172563968798,
+      "converged": true,
+      "seconds": 24.60899999999674,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.07065267857215102,
+      "Ldata": 6.628456022968599,
+      "Lstructure": 938.1747666083987,
+      "L": 76.55866706528732,
+      "backtracks": 0,
+      "objective": 0.08549059593061664,
+      "predictor_adjoint_error": 5.3334621686195795e-15
+    },
+    "input_error": 0.879474989275648,
+    "output_error": 0.3242216813837133,
+    "output_live_error": 0.3242216813837134,
+    "dead_traces": [],
+    "target_sha256": "deb180ea8818a834ec896a5eb150c6d297df112145ff09a467338f523d4405f4",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "U4",
+    "model": "U4",
+    "family": "Kennett 细层",
+    "method": "SC",
+    "noise": "SNR14, replicate 1",
+    "seed": 1240300001,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/b0_world_truth_20261024/inputs/U4.mat",
+        "sha256": "85f813dfd9ae94228d4a185d3ba91dadf0294e7430a97b985bb643143be1d297"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 2100,
+      "kkt_ratio": 0.019730077132669954,
+      "converged": true,
+      "seconds": 33.875,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.09730540935785656,
+      "Ldata": 6.372199363126485,
+      "Lstructure": 654.8658913392655,
+      "L": 73.59890264411091,
+      "backtracks": 0,
+      "objective": 0.5324254748572187,
+      "predictor_adjoint_error": 1.6775777662957845e-14
+    },
+    "input_error": 0.6053191856038396,
+    "output_error": 0.24944406485804665,
+    "output_live_error": 0.24944406485804665,
+    "dead_traces": [],
+    "target_sha256": "1c3becbebbc7bac22a42b525f393b65701e1ac7cc7550f8611dca7523930b9b2",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "V1",
+    "model": "V1",
+    "family": "稀疏反射模型",
+    "method": "SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/coherence_soft_20261023/inputs/validation/V1.mat",
+        "sha256": "8668520ec7eb323d9f11bda6e6fa23a31553b87f4f928ceff86ccec27c6511b7"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1225,
+      "kkt_ratio": 0.01426269990565402,
+      "converged": true,
+      "seconds": 21.10899999999674,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.13354861961411557,
+      "Ldata": 6.153817374005763,
+      "Lstructure": 460.792286119244,
+      "L": 71.07659066976656,
+      "backtracks": 0,
+      "objective": 0.01800300821993085,
+      "predictor_adjoint_error": 2.49061542894158e-14
+    },
+    "input_error": 0.8180546067489233,
+    "output_error": 0.12620048980548343,
+    "output_live_error": 0.12620048980548337,
+    "dead_traces": [],
+    "target_sha256": "e3353a7f0b40137a55eb5fabfb4c087b30ef405fea8dd1cf39b1c22356a847ea",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "V2",
+    "model": "V2",
+    "family": "稀疏反射模型",
+    "method": "SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/coherence_soft_20261023/inputs/validation/V2.mat",
+        "sha256": "64ed1d8fb2b72252c0b73bbe0eb3881cea52cdcde0a1034d64763e38c932de98"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 1225,
+      "kkt_ratio": 0.014184031082430227,
+      "converged": true,
+      "seconds": 21.40600000001723,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.14357108065842505,
+      "Ldata": 6.078390570110956,
+      "Lstructure": 423.3715134158714,
+      "L": 70.20541108478155,
+      "backtracks": 0,
+      "objective": 0.021670121962594595,
+      "predictor_adjoint_error": 1.2347656030519884e-14
+    },
+    "input_error": 0.7701230810924975,
+    "output_error": 0.15113090004640836,
+    "output_live_error": 0.15113090004640836,
+    "dead_traces": [],
+    "target_sha256": "3700e8ea0cb5bbdc8aaf4dd4dc23cd2feb0aca98c97c90746f8a2458d187cb46",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  },
+  {
+    "case": "V3",
+    "model": "V3",
+    "family": "复杂地层",
+    "method": "QScan+SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 0.9252130018365484,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/coherence_soft_20261023/inputs/validation/V3.mat",
+        "sha256": "10d0d8bea4332ac7075bce42b677a098663b04282430c97531c47d79ba9e728b"
+      },
+      {
+        "path": "compensated_gathers_20261026/cache/cases/V3_qscan.mat",
+        "sha256": "0455d3782d5e0c7552029e61280e48f3a440dd0f8808f86bff20132792e5ad29"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 3150,
+      "kkt_ratio": 0.018722957271000127,
+      "converged": true,
+      "seconds": 119.09399999998277,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.020601157869383192,
+      "Ldata": 12.688931016511551,
+      "Lstructure": 6159.329051775993,
+      "L": 146.55715324070843,
+      "backtracks": 0,
+      "objective": 0.01323932524318279,
+      "predictor_adjoint_error": 1.1116184464856024e-15
+    },
+    "input_error": 0.9976911564864646,
+    "output_error": 0.5450759252351602,
+    "output_live_error": 0.531489942242583,
+    "dead_traces": [
+      31,
+      66
+    ],
+    "target_sha256": "c148a4bc33b97cdfbd655151efd7b229aa9186e211280a026e4c5e601e29a78b",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {
+      "QScan_Standard": 0.4456419732102348
+    }
+  },
+  {
+    "case": "V4",
+    "model": "V4",
+    "family": "稀疏反射模型",
+    "method": "SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/V4.mat",
+        "sha256": "13a85a3a3dd89428d7dbb1b0c54af20707ed7194e31b3606b494a8f37e0a5dcc"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/V4_Moderate_0.125_10.npz",
+        "sha256": "d445a46499062eb17b2c806a22e06d807a02943f3a26a634f3965576a00c597a"
+      },
+      {
+        "path": "novelty_evidence_20261025/cache/solved/V4_Moderate_0.125_10.json",
+        "sha256": "73c87b3d8734c6432dacb9e5b464070902703d0928b9ae2e3df3eebd573e12b0"
+      }
+    ],
+    "reused_upstream": true,
+    "solver": {
+      "iterations": 1000,
+      "kkt_ratio": 0.019270035442133994,
+      "converged": true,
+      "seconds": 32.530999999988126,
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "mu": 0.14946871203220852,
+      "Ldata": 6.077363588741383,
+      "Lstructure": 406.59770905310216,
+      "L": 70.19354944996297,
+      "backtracks": 0,
+      "objective": 0.01834511746477659
+    },
+    "input_error": 0.8107925011993421,
+    "output_error": 0.14797825220092287,
+    "output_live_error": 0.1479782522009229,
+    "dead_traces": [],
+    "target_sha256": "2b7c56f8f5a225142f8b1ffd32d1f88912cdffce5dab0e112dcefdd9b72950ec",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {
+      "Standard": 0.09850438366492906,
+      "QScan_Standard": 0.10936615830086018,
+      "SC": 0.14797825220092287
+    }
+  },
+  {
+    "case": "V5",
+    "model": "V5",
+    "family": "复杂地层",
+    "method": "QScan+SC",
+    "noise": "Moderate, 14 dB",
+    "seed": null,
+    "qscan_factor": 0.9252130018365484,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/V5.mat",
+        "sha256": "e8f70b16229aae9a2e154b876a9c05af8f1424701a067c920d35add471836f6b"
+      },
+      {
+        "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/results/V5_Q+0_Moderate.mat",
+        "sha256": "1bb44f2e0b17b6e9de4838365df9af581fe141c9cdcba43893c84135085d59ea"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 3175,
+      "kkt_ratio": 0.014585148074844696,
+      "converged": true,
+      "seconds": 138.59399999998277,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.019068786688752618,
+      "Ldata": 12.854642274766805,
+      "Lstructure": 6741.195695659487,
+      "L": 148.4711182735566,
+      "backtracks": 0,
+      "objective": 0.00854939852745893,
+      "predictor_adjoint_error": 1.0217481485877995e-14
+    },
+    "input_error": 1.0037709675891056,
+    "output_error": 0.6050486915337445,
+    "output_live_error": 0.5942113822266555,
+    "dead_traces": [
+      18,
+      84
+    ],
+    "target_sha256": "3ed385f01252c4ad38676e14067d94cddb5719601d4dbb8f1c1db81270124e09",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {
+      "Standard": 0.5585560896274313,
+      "QScan_Standard": 0.4883925115993905,
+      "SC": 0.6555703287236894
+    }
+  },
+  {
+    "case": "VelocityReversal",
+    "model": "VelocityReversal",
+    "family": "四层模型",
+    "method": "SC",
+    "noise": "new display scene, white noise 14 dB",
+    "seed": 2026102603,
+    "qscan_factor": 1,
+    "sources": [
+      {
+        "path": "compensated_gathers_20261026/cache/cases/VelocityReversal.mat",
+        "sha256": "5e14dd007ae20f6a11f5cc5588ea353e708f87600b1cdeb50f2d6c922d69ffce"
+      }
+    ],
+    "reused_upstream": false,
+    "solver": {
+      "iterations": 750,
+      "kkt_ratio": 0.019338627010840426,
+      "converged": true,
+      "seconds": 4.342999999993481,
+      "a": 0.125,
+      "mu_relative": 10,
+      "mu": 0.013122982481664092,
+      "Ldata": 6.985996657677602,
+      "Lstructure": 5323.482422870479,
+      "L": 80.6882613961763,
+      "backtracks": 0,
+      "objective": 0.00030268992200019427,
+      "predictor_adjoint_error": 8.343001955722551e-16
+    },
+    "input_error": 0.960309344241938,
+    "output_error": 0.3384873622468789,
+    "output_live_error": 0.33848736224687886,
+    "dead_traces": [],
+    "target_sha256": "2b89ca01946ce66dc1766e3809f48d6b27a2988f61f1cc4100f9e686158532b3",
+    "snr_db": 14,
+    "parameters": {
+      "a": 0.125,
+      "mu_relative": 10,
+      "maxiter": 5000,
+      "kkt_tolerance": 0.02
+    },
+    "extra_errors": {}
+  }
+]

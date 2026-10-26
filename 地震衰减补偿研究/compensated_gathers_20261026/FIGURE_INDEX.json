@@ -1,0 +1,306 @@
+[
+  {
+    "stem": "Dev_DeepContrast",
+    "model": "Dev_DeepContrast",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.981107712778351,
+    "output_error": 0.42765173817012248
+  },
+  {
+    "stem": "Dev_ModerateQ",
+    "model": "Dev_ModerateQ",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.99740239349166748,
+    "output_error": 0.4592875095765705
+  },
+  {
+    "stem": "F1",
+    "model": "F1",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.85695295005222483,
+    "output_error": 0.30954205373345522
+  },
+  {
+    "stem": "F2",
+    "model": "F2",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.72440795993344376,
+    "output_error": 0.20749103630680521
+  },
+  {
+    "stem": "F3",
+    "model": "F3",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.84817810068583954,
+    "output_error": 0.41310489155108487
+  },
+  {
+    "stem": "F4",
+    "model": "F4",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.643062241498598,
+    "output_error": 0.19427390908157086
+  },
+  {
+    "stem": "H1",
+    "model": "H1",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.8018728424867172,
+    "output_error": 0.28743540783179233
+  },
+  {
+    "stem": "H1_Qminus30",
+    "model": "H1",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 0.8018728424867172,
+    "output_error": 0.40740827739929419
+  },
+  {
+    "stem": "H2",
+    "model": "H2",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.49366899337374243,
+    "output_error": 0.31116285182807962
+  },
+  {
+    "stem": "H2_Qminus30",
+    "model": "H2",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 0.49366899337374243,
+    "output_error": 0.30433471435514331
+  },
+  {
+    "stem": "H3",
+    "model": "H3",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.87804227176608429,
+    "output_error": 0.34744582681701469
+  },
+  {
+    "stem": "H3_Qminus30",
+    "model": "H3",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 0.87804227176608429,
+    "output_error": 0.49211085529168691
+  },
+  {
+    "stem": "H4",
+    "model": "H4",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.60035419287994862,
+    "output_error": 0.2683409023693803
+  },
+  {
+    "stem": "H4_Qminus30",
+    "model": "H4",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 0.60035419287994862,
+    "output_error": 0.31229933039588631
+  },
+  {
+    "stem": "H5",
+    "model": "H5",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.897212639339218,
+    "output_error": 0.42162293198155387
+  },
+  {
+    "stem": "H5_Qminus30",
+    "model": "H5",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 0.897212639339218,
+    "output_error": 0.48142116927621426
+  },
+  {
+    "stem": "H6",
+    "model": "H6",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.44331842857629217,
+    "output_error": 0.21842211846589632
+  },
+  {
+    "stem": "H6_Qminus30",
+    "model": "H6",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 0.44331842857629217,
+    "output_error": 0.25725017959846047
+  },
+  {
+    "stem": "Holdout_DeepLowQ",
+    "model": "Holdout_DeepLowQ",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.96178826152784536,
+    "output_error": 0.29983212864090519
+  },
+  {
+    "stem": "Holdout_HighContrastReversal",
+    "model": "Holdout_HighContrastReversal",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.96710855166047849,
+    "output_error": 0.33247501196245716
+  },
+  {
+    "stem": "Holdout_StrongAtten",
+    "model": "Holdout_StrongAtten",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 1.0100261694566812,
+    "output_error": 0.48749993623645282
+  },
+  {
+    "stem": "Holdout_ThinInterbed",
+    "model": "Holdout_ThinInterbed",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.98563240384109552,
+    "output_error": 0.49085632906877019
+  },
+  {
+    "stem": "OriginalControl",
+    "model": "OriginalControl",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.97247513074746184,
+    "output_error": 0.35966646565043664
+  },
+  {
+    "stem": "SoftLowQ",
+    "model": "SoftLowQ",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 1.0125821558583608,
+    "output_error": 0.48476626480646573
+  },
+  {
+    "stem": "ThinHighFrequency",
+    "model": "ThinHighFrequency",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.98866567455699661,
+    "output_error": 0.5305139571719184
+  },
+  {
+    "stem": "U1",
+    "model": "U1",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.8228431213326316,
+    "output_error": 0.30731144660379639
+  },
+  {
+    "stem": "U2",
+    "model": "U2",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.53488529806098117,
+    "output_error": 0.33621560607786644
+  },
+  {
+    "stem": "U3",
+    "model": "U3",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.879474989275648,
+    "output_error": 0.32422168138371332
+  },
+  {
+    "stem": "U4",
+    "model": "U4",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.60531918560383957,
+    "output_error": 0.24944406485804665
+  },
+  {
+    "stem": "V1",
+    "model": "V1",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.81805460674892327,
+    "output_error": 0.12620048980548343
+  },
+  {
+    "stem": "V2",
+    "model": "V2",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.7701230810924975,
+    "output_error": 0.15113090004640836
+  },
+  {
+    "stem": "V3",
+    "model": "V3",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 0.99769115648646456,
+    "output_error": 0.54507592523516024
+  },
+  {
+    "stem": "compare_V3",
+    "model": "V3",
+    "method": "QScan+SC",
+    "kind": "方法对照",
+    "input_error": 0.99769115648646456,
+    "output_error": 0.54507592523516024
+  },
+  {
+    "stem": "V4",
+    "model": "V4",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.8107925011993421,
+    "output_error": 0.14797825220092287
+  },
+  {
+    "stem": "compare_V4",
+    "model": "V4",
+    "method": "SC",
+    "kind": "方法对照",
+    "input_error": 0.8107925011993421,
+    "output_error": 0.14797825220092287
+  },
+  {
+    "stem": "V5",
+    "model": "V5",
+    "method": "QScan+SC",
+    "kind": "主图",
+    "input_error": 1.0037709675891056,
+    "output_error": 0.60504869153374452
+  },
+  {
+    "stem": "compare_V5",
+    "model": "V5",
+    "method": "QScan+SC",
+    "kind": "方法对照",
+    "input_error": 1.0037709675891056,
+    "output_error": 0.60504869153374452
+  },
+  {
+    "stem": "VelocityReversal",
+    "model": "VelocityReversal",
+    "method": "SC",
+    "kind": "主图",
+    "input_error": 0.960309344241938,
+    "output_error": 0.33848736224687892
+  }
+]

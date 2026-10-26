@@ -1,0 +1,44 @@
+{
+  "case": "SoftLowQ",
+  "model": "SoftLowQ",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102602,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/SoftLowQ.mat",
+      "sha256": "64f2a05b181e644f129c6e4df0d4126187137e9db34603eb1eb44401dc26a2b1"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 3600,
+    "kkt_ratio": 0.019408916663969957,
+    "converged": true,
+    "seconds": 21.17200000002049,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.00531970417598304,
+    "Ldata": 13.501553621067199,
+    "Lstructure": 25380.27148581475,
+    "L": 155.94294432332615,
+    "backtracks": 0,
+    "objective": 9.831947354014556e-06,
+    "predictor_adjoint_error": 1.0230617265773863e-15
+  },
+  "input_error": 1.0125821558583608,
+  "output_error": 0.48476626480646573,
+  "output_live_error": 0.48476626480646584,
+  "dead_traces": [],
+  "target_sha256": "2857418a8cdb49a316c817827f00883286290cca4f19181ceb9990f02acca58c",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

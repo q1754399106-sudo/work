@@ -1,0 +1,44 @@
+{
+  "case": "Dev_ModerateQ",
+  "model": "Dev_ModerateQ",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102605,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/Dev_ModerateQ.mat",
+      "sha256": "c89e8e4f985e9b47d9dd7d80d8000e46703d0083a26e4bd03a6d3031207b4592"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 2900,
+    "kkt_ratio": 0.015447257993969706,
+    "converged": true,
+    "seconds": 18.25,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.011965983432199496,
+    "Ldata": 9.725700064363593,
+    "Lstructure": 8127.790013641937,
+    "L": 112.33183574339951,
+    "backtracks": 0,
+    "objective": 4.696870315626967e-05,
+    "predictor_adjoint_error": 0.0
+  },
+  "input_error": 0.9974023934916675,
+  "output_error": 0.4592875095765705,
+  "output_live_error": 0.45928750957657044,
+  "dead_traces": [],
+  "target_sha256": "a04d2f7b77db3784a34ae2fd2a91cd8afd0f792c8c415bd9b8b6b274102c9cc0",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

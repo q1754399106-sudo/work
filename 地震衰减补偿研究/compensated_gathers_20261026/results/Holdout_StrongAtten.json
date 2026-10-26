@@ -1,0 +1,44 @@
+{
+  "case": "Holdout_StrongAtten",
+  "model": "Holdout_StrongAtten",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102607,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/Holdout_StrongAtten.mat",
+      "sha256": "26a716492947b896e8fd8d698d6955ea553e1f7109e56eb8f9a8b33366ca4bd0"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 3500,
+    "kkt_ratio": 0.014115292889716914,
+    "converged": true,
+    "seconds": 19.81300000002375,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.0036520868665619534,
+    "Ldata": 13.448562000329423,
+    "Lstructure": 36824.32124893512,
+    "L": 155.33089110380484,
+    "backtracks": 0,
+    "objective": 8.317704258356107e-06,
+    "predictor_adjoint_error": 0.0
+  },
+  "input_error": 1.0100261694566812,
+  "output_error": 0.4874999362364528,
+  "output_live_error": 0.4874999362364528,
+  "dead_traces": [],
+  "target_sha256": "b3a6dbb340ffa231c8455b29514ac123c3b39e6d79c2df6439a55326ffce37fc",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

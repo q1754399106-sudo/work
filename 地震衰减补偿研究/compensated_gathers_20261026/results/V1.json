@@ -1,0 +1,44 @@
+{
+  "case": "V1",
+  "model": "V1",
+  "family": "稀疏反射模型",
+  "method": "SC",
+  "noise": "Moderate, 14 dB",
+  "seed": null,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/inputs/coherence_soft_20261023/inputs/validation/V1.mat",
+      "sha256": "8668520ec7eb323d9f11bda6e6fa23a31553b87f4f928ceff86ccec27c6511b7"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 1225,
+    "kkt_ratio": 0.01426269990565402,
+    "converged": true,
+    "seconds": 21.10899999999674,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.13354861961411557,
+    "Ldata": 6.153817374005763,
+    "Lstructure": 460.792286119244,
+    "L": 71.07659066976656,
+    "backtracks": 0,
+    "objective": 0.01800300821993085,
+    "predictor_adjoint_error": 2.49061542894158e-14
+  },
+  "input_error": 0.8180546067489233,
+  "output_error": 0.12620048980548343,
+  "output_live_error": 0.12620048980548337,
+  "dead_traces": [],
+  "target_sha256": "e3353a7f0b40137a55eb5fabfb4c087b30ef405fea8dd1cf39b1c22356a847ea",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

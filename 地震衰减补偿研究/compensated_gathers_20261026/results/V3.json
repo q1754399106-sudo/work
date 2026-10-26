@@ -1,0 +1,53 @@
+{
+  "case": "V3",
+  "model": "V3",
+  "family": "复杂地层",
+  "method": "QScan+SC",
+  "noise": "Moderate, 14 dB",
+  "seed": null,
+  "qscan_factor": 0.9252130018365484,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/inputs/coherence_soft_20261023/inputs/validation/V3.mat",
+      "sha256": "10d0d8bea4332ac7075bce42b677a098663b04282430c97531c47d79ba9e728b"
+    },
+    {
+      "path": "compensated_gathers_20261026/cache/cases/V3_qscan.mat",
+      "sha256": "0455d3782d5e0c7552029e61280e48f3a440dd0f8808f86bff20132792e5ad29"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 3150,
+    "kkt_ratio": 0.018722957271000127,
+    "converged": true,
+    "seconds": 119.09399999998277,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.020601157869383192,
+    "Ldata": 12.688931016511551,
+    "Lstructure": 6159.329051775993,
+    "L": 146.55715324070843,
+    "backtracks": 0,
+    "objective": 0.01323932524318279,
+    "predictor_adjoint_error": 1.1116184464856024e-15
+  },
+  "input_error": 0.9976911564864646,
+  "output_error": 0.5450759252351602,
+  "output_live_error": 0.531489942242583,
+  "dead_traces": [
+    31,
+    66
+  ],
+  "target_sha256": "c148a4bc33b97cdfbd655151efd7b229aa9186e211280a026e4c5e601e29a78b",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {
+    "QScan_Standard": 0.4456419732102348
+  }
+}

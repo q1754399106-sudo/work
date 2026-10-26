@@ -1,0 +1,51 @@
+{
+  "case": "F2",
+  "model": "F2",
+  "family": "Kennett 细层",
+  "method": "SC",
+  "noise": "Moderate, 14 dB",
+  "seed": null,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/F2.mat",
+      "sha256": "41d091931cf0f354f361599813fef042e9ef2ae10801d1de9be56241f1d58758"
+    },
+    {
+      "path": "novelty_evidence_20261025/cache/solved/F2_Moderate_0.125_10.npz",
+      "sha256": "6f4d61ab7757cb8950f43e8d0f4f47d5778ba88d306a2d01bf1b7c4d21896229"
+    },
+    {
+      "path": "novelty_evidence_20261025/cache/solved/F2_Moderate_0.125_10.json",
+      "sha256": "3ed820c6aa15a67e9eb19da491a04b22645ac377437dd3c062eef11eaf4a84b6"
+    }
+  ],
+  "reused_upstream": true,
+  "solver": {
+    "iterations": 1725,
+    "kkt_ratio": 0.015020399726836527,
+    "converged": true,
+    "seconds": 40.64000000001397,
+    "a": 0.125,
+    "mu_relative": 10.0,
+    "mu": 0.05593108792484883,
+    "Ldata": 6.8629336707051625,
+    "Lstructure": 1227.0338241813686,
+    "L": 79.26688389664463,
+    "backtracks": 0,
+    "objective": 0.35964032457370343
+  },
+  "input_error": 0.7244079599334438,
+  "output_error": 0.2074910363068052,
+  "output_live_error": 0.2074910363068053,
+  "dead_traces": [],
+  "target_sha256": "fb2d4ab02f5c5daa08718b85bc0749380f03d4b74f60274aae2beccd375c7dcb",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

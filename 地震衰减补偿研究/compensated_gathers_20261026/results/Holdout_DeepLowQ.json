@@ -1,0 +1,44 @@
+{
+  "case": "Holdout_DeepLowQ",
+  "model": "Holdout_DeepLowQ",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102610,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/Holdout_DeepLowQ.mat",
+      "sha256": "139fc4011605171d4b99416e04eaab3d3efab7c1ee22e6039929743939fea597"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 1575,
+    "kkt_ratio": 0.019268200467784765,
+    "converged": true,
+    "seconds": 9.84399999998277,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.005771328759329439,
+    "Ldata": 9.867323248960028,
+    "Lstructure": 17097.142894535948,
+    "L": 113.96758352548834,
+    "backtracks": 0,
+    "objective": 0.00013920615138342983,
+    "predictor_adjoint_error": 3.700810529473046e-16
+  },
+  "input_error": 0.9617882615278454,
+  "output_error": 0.2998321286409052,
+  "output_live_error": 0.29983212864090514,
+  "dead_traces": [],
+  "target_sha256": "a599045373bd16a709b78c6201e9e40c5e9ae6cdf2837409c34b57fb265f1575",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

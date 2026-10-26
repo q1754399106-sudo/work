@@ -1,0 +1,55 @@
+{
+  "case": "V4",
+  "model": "V4",
+  "family": "稀疏反射模型",
+  "method": "SC",
+  "noise": "Moderate, 14 dB",
+  "seed": null,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/inputs/round3_20261024/dev/V4.mat",
+      "sha256": "13a85a3a3dd89428d7dbb1b0c54af20707ed7194e31b3606b494a8f37e0a5dcc"
+    },
+    {
+      "path": "novelty_evidence_20261025/cache/solved/V4_Moderate_0.125_10.npz",
+      "sha256": "d445a46499062eb17b2c806a22e06d807a02943f3a26a634f3965576a00c597a"
+    },
+    {
+      "path": "novelty_evidence_20261025/cache/solved/V4_Moderate_0.125_10.json",
+      "sha256": "73c87b3d8734c6432dacb9e5b464070902703d0928b9ae2e3df3eebd573e12b0"
+    }
+  ],
+  "reused_upstream": true,
+  "solver": {
+    "iterations": 1000,
+    "kkt_ratio": 0.019270035442133994,
+    "converged": true,
+    "seconds": 32.530999999988126,
+    "a": 0.125,
+    "mu_relative": 10.0,
+    "mu": 0.14946871203220852,
+    "Ldata": 6.077363588741383,
+    "Lstructure": 406.59770905310216,
+    "L": 70.19354944996297,
+    "backtracks": 0,
+    "objective": 0.01834511746477659
+  },
+  "input_error": 0.8107925011993421,
+  "output_error": 0.14797825220092287,
+  "output_live_error": 0.1479782522009229,
+  "dead_traces": [],
+  "target_sha256": "2b7c56f8f5a225142f8b1ffd32d1f88912cdffce5dab0e112dcefdd9b72950ec",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {
+    "Standard": 0.09850438366492906,
+    "QScan_Standard": 0.10936615830086018,
+    "SC": 0.14797825220092287
+  }
+}

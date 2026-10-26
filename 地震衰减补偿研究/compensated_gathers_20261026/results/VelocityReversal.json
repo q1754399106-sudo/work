@@ -1,0 +1,44 @@
+{
+  "case": "VelocityReversal",
+  "model": "VelocityReversal",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102603,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/VelocityReversal.mat",
+      "sha256": "5e14dd007ae20f6a11f5cc5588ea353e708f87600b1cdeb50f2d6c922d69ffce"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 750,
+    "kkt_ratio": 0.019338627010840426,
+    "converged": true,
+    "seconds": 4.342999999993481,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.013122982481664092,
+    "Ldata": 6.985996657677602,
+    "Lstructure": 5323.482422870479,
+    "L": 80.6882613961763,
+    "backtracks": 0,
+    "objective": 0.00030268992200019427,
+    "predictor_adjoint_error": 8.343001955722551e-16
+  },
+  "input_error": 0.960309344241938,
+  "output_error": 0.3384873622468789,
+  "output_live_error": 0.33848736224687886,
+  "dead_traces": [],
+  "target_sha256": "2b89ca01946ce66dc1766e3809f48d6b27a2988f61f1cc4100f9e686158532b3",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

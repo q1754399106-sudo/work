@@ -1,0 +1,62 @@
+{
+  "case": "H6_Qminus30",
+  "model": "H6",
+  "family": "二维有限差分",
+  "method": "QScan+SC",
+  "noise": "14 dB, replicate 1",
+  "seed": 1460100001,
+  "qscan_factor": 1.9742405215653123,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/inputs/fd2d_20261025/models/H6.mat",
+      "sha256": "5d0db925319e24fcced64fe1296acf3a9253e81aedb6ebaa814bd591694413d2"
+    },
+    {
+      "path": "sc_neutral_20261026/cache/noisy/H6_L1_r1.mat",
+      "sha256": "e57ba7beb29366b3092c5a5d46be0f4dfb39526fa73b7a0238b9ed47cfd987c5"
+    },
+    {
+      "path": "qscan_sc_20261026/cache/solved/H6_Q070_14dB_r1_QSC.npz",
+      "sha256": "32c6013a9ebc5e1805c8561371d89909c824e4b534eca5031975a96fb20e1a9a"
+    },
+    {
+      "path": "qscan_sc_20261026/cache/solved/H6_Q070_14dB_r1_QSC.json",
+      "sha256": "0acad7bb4c6479aa7a6d2a88f596cdb1f8e04b97d9faf269f06d398d50524e5e"
+    }
+  ],
+  "reused_upstream": true,
+  "solver": {
+    "iterations": 1600,
+    "kkt_ratio": 0.01995013094140934,
+    "converged": true,
+    "seconds": 26.51600000000326,
+    "a": 0.125,
+    "mu_relative": 10.0,
+    "mu": 0.15802584131416983,
+    "Ldata": 5.474684919836596,
+    "Lstructure": 346.44238399923603,
+    "L": 63.23261082411269,
+    "backtracks": 0,
+    "objective": 1.4275892139871105,
+    "model": "H6",
+    "scene": "Q070_14dB",
+    "r": 1,
+    "label": "QSC",
+    "qscan_best": 12,
+    "qscan_factor": 1.9742405215653123,
+    "predictor_adjoint_error": 1.8611855149638766e-14
+  },
+  "input_error": 0.44331842857629217,
+  "output_error": 0.25725017959846047,
+  "output_live_error": 0.2572501795984604,
+  "dead_traces": [],
+  "target_sha256": "456ab1f53ffe0de131ab054c4571b1f687db985dbf15ae4cda7f4e4b82cacaa0",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

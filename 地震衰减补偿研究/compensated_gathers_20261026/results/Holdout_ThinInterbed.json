@@ -1,0 +1,44 @@
+{
+  "case": "Holdout_ThinInterbed",
+  "model": "Holdout_ThinInterbed",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102609,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/Holdout_ThinInterbed.mat",
+      "sha256": "46d2ec9009eb9cacf5fd4945da567978d284b71855147e9d716577c77aeb8b3a"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 1400,
+    "kkt_ratio": 0.01681764937430892,
+    "converged": true,
+    "seconds": 8.546999999962281,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.005376239201790143,
+    "Ldata": 7.892548206946189,
+    "Lstructure": 14680.426057527691,
+    "L": 91.1589317902285,
+    "backtracks": 0,
+    "objective": 1.2095663360596463e-05,
+    "predictor_adjoint_error": 1.7966630132670877e-15
+  },
+  "input_error": 0.9856324038410955,
+  "output_error": 0.4908563290687702,
+  "output_live_error": 0.49085632906877014,
+  "dead_traces": [],
+  "target_sha256": "4c05b6db9c6367de479ea866f56df92ac8e6ba300262b608c517ade7a7feb8fa",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

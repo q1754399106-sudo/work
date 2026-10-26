@@ -1,0 +1,44 @@
+{
+  "case": "U1",
+  "model": "U1",
+  "family": "Kennett 细层",
+  "method": "SC",
+  "noise": "SNR14, replicate 1",
+  "seed": 1210300001,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/inputs/b0_world_truth_20261024/inputs/U1.mat",
+      "sha256": "4c4d861a1941bc43055e686d8d40741019aa69609657451d0a095210010d1fb4"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 1000,
+    "kkt_ratio": 0.016465412506211825,
+    "converged": true,
+    "seconds": 16.81300000002375,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.13880708495087637,
+    "Ldata": 6.0815704451410255,
+    "Lstructure": 438.13112618086353,
+    "L": 70.24213864137886,
+    "backtracks": 0,
+    "objective": 0.16142152536823884,
+    "predictor_adjoint_error": 1.4967278029752422e-14
+  },
+  "input_error": 0.8228431213326316,
+  "output_error": 0.3073114466037964,
+  "output_live_error": 0.30731144660379667,
+  "dead_traces": [],
+  "target_sha256": "e09d2156292e69a8d81f0b898958cdb041b604f061a2eab070d508a94fe7e606",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

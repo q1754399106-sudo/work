@@ -1,0 +1,44 @@
+{
+  "case": "ThinHighFrequency",
+  "model": "ThinHighFrequency",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102604,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/ThinHighFrequency.mat",
+      "sha256": "adfbb4d0df5155a7c2b8db550dc4015c25f2347134b7428811364d3744e1ccd7"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 1050,
+    "kkt_ratio": 0.019280421215868697,
+    "converged": true,
+    "seconds": 6.98399999999674,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.004325887599043666,
+    "Ldata": 7.801666238553623,
+    "Lstructure": 18034.833453089155,
+    "L": 90.10924505529435,
+    "backtracks": 0,
+    "objective": 8.120675515851505e-06,
+    "predictor_adjoint_error": 3.9128527947095266e-16
+  },
+  "input_error": 0.9886656745569966,
+  "output_error": 0.5305139571719184,
+  "output_live_error": 0.5305139571719183,
+  "dead_traces": [],
+  "target_sha256": "06290bb9648e1abed5ab3d5dc144bfaa5e8881a9aa8c41e43d4a97b53617b6d4",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

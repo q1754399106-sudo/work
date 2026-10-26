@@ -1,0 +1,44 @@
+{
+  "case": "Holdout_HighContrastReversal",
+  "model": "Holdout_HighContrastReversal",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102608,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/Holdout_HighContrastReversal.mat",
+      "sha256": "262f55da671443030aebfed1390e7fc62cf21ebeab98bdb80d0f82b003bafa4f"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 1075,
+    "kkt_ratio": 0.01446504590919299,
+    "converged": true,
+    "seconds": 6.827999999979511,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.009010736398627255,
+    "Ldata": 7.162932201398682,
+    "Lstructure": 7949.330536946928,
+    "L": 82.73186692615478,
+    "backtracks": 0,
+    "objective": 0.0003117566824623551,
+    "predictor_adjoint_error": 4.2189391770958124e-16
+  },
+  "input_error": 0.9671085516604785,
+  "output_error": 0.33247501196245716,
+  "output_live_error": 0.3324750119624572,
+  "dead_traces": [],
+  "target_sha256": "4a1c8533d75428363d2c28f85bbcc48f1a02dfc8ae50376aec290496dc97db5c",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}

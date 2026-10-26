@@ -1,0 +1,44 @@
+{
+  "case": "Dev_DeepContrast",
+  "model": "Dev_DeepContrast",
+  "family": "四层模型",
+  "method": "SC",
+  "noise": "new display scene, white noise 14 dB",
+  "seed": 2026102606,
+  "qscan_factor": 1,
+  "sources": [
+    {
+      "path": "compensated_gathers_20261026/cache/cases/Dev_DeepContrast.mat",
+      "sha256": "f081949def2c517d110b60445ac0d973eed774652f16e81f0f529598d375e69f"
+    }
+  ],
+  "reused_upstream": false,
+  "solver": {
+    "iterations": 1050,
+    "kkt_ratio": 0.016714480260074806,
+    "converged": true,
+    "seconds": 6.297000000020489,
+    "a": 0.125,
+    "mu_relative": 10,
+    "mu": 0.011270674844265128,
+    "Ldata": 8.096780188116119,
+    "Lstructure": 7183.935567297476,
+    "L": 93.51781117274118,
+    "backtracks": 0,
+    "objective": 8.86154367552857e-05,
+    "predictor_adjoint_error": 3.703476644283988e-16
+  },
+  "input_error": 0.981107712778351,
+  "output_error": 0.4276517381701225,
+  "output_live_error": 0.4276517381701225,
+  "dead_traces": [],
+  "target_sha256": "4adf4269a466db00ae77e5480f723bc0ef93de98a936064b3fb5c5a229647ab8",
+  "snr_db": 14,
+  "parameters": {
+    "a": 0.125,
+    "mu_relative": 10,
+    "maxiter": 5000,
+    "kkt_tolerance": 0.02
+  },
+  "extra_errors": {}
+}
