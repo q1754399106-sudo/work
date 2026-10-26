@@ -5,6 +5,7 @@
 - 想看结论：[最终报告](final_report_20261025/REPORT_ZH.md) 和 [勘误](final_report_20261025/ERRATA_ZH.md)。
 - 想直接用方法：见下面「怎么选方法」。本研究方法的一行调用入口在 [compensation_package_20261024](compensation_package_20261024/README_ZH.md)（不含 SC）；SC 和 QScan＋SC 的实现在 [novelty_evidence_20261025](novelty_evidence_20261025/) 和 [qscan_sc_20261026](qscan_sc_20261026/RESULTS_ZH.md)。
 - 每个目录的标签同时存在 [目录标签.csv](目录标签.csv) 里，可以用表格软件筛选。
+- 想看地下模型：[MATLAB 模型图册](model_visualization_20261026/README_ZH.md)，覆盖 29 个主要模型配置，提供 PNG / PDF / 可编辑 FIG。
 
 各目录保留原英文名。约 280 个脚本按英文名互相引用，冻结方案也记录了脚本哈希，改名会让旧脚本无法直接重跑。中文名只写在本页和 CSV 里。
 

@@ -1,0 +1,245 @@
+{
+  "revision": "9548bd0973b3d8e5915dc74444d3cc0c04c135ab",
+  "files": [
+    {
+      "source": "地震衰减补偿研究/calq_confirm_20261025/inputs/p1_experiment_spec.json",
+      "snapshot": "inputs/calq_confirm_20261025/inputs/p1_experiment_spec.json",
+      "sha256": "7df365d5f97e9782e883faef1ed5f78afdf02a66c3476b963b4d62d02a1ecba2",
+      "bytes": 8960
+    },
+    {
+      "source": "地震衰减补偿研究/calq_confirm_20261025/source/config_model.m",
+      "snapshot": "inputs/calq_confirm_20261025/source/config_model.m",
+      "sha256": "383758437200c5d656114daa157fd7c3fcbc59911a155ef82599426f6af2c050",
+      "bytes": 771
+    },
+    {
+      "source": "地震衰减补偿研究/calq_confirm_20261025/core/gen_complex_model.m",
+      "snapshot": "inputs/calq_confirm_20261025/core/gen_complex_model.m",
+      "sha256": "c48f411b67369eb07ded436d35ebb77fe33866c6f93ab01f006401dd53bcb014",
+      "bytes": 6356
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/scripts/fd_setup.m",
+      "snapshot": "inputs/fd2d_20261025/scripts/fd_setup.m",
+      "sha256": "ed134e96a2803c4b99f3cb85170e4403323d0632c956b748cb8e30b42cbc1183",
+      "bytes": 2339
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/scripts/fd_geology.m",
+      "snapshot": "inputs/fd2d_20261025/scripts/fd_geology.m",
+      "sha256": "a965038955c3bdd574bd12dee084a7494bf26770ded175f7ff19e5a2fc30cc25",
+      "bytes": 3752
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/make_F34.m",
+      "snapshot": "inputs/round3_20261024/make_F34.m",
+      "sha256": "062b5729e843028173928d3a73d5fc84034be1921334565b7a607b1baa4cc7ac",
+      "bytes": 3560
+    },
+    {
+      "source": "地震衰减补偿研究/bae_q_20261024/make_independent.m",
+      "snapshot": "inputs/bae_q_20261024/make_independent.m",
+      "sha256": "8db106706b910f827602beb0427115ab2bdd530217affac20f1de39dd0fae814",
+      "bytes": 4459
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/scripts/make_unseen.m",
+      "snapshot": "inputs/b0_world_truth_20261024/scripts/make_unseen.m",
+      "sha256": "b8e4dabad58c1e9b233db9afb7bfaf65d34c727f58f72983b91c97c61bd011c9",
+      "bytes": 4169
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F1.mat",
+      "snapshot": "inputs/round3_20261024/dev/F1.mat",
+      "sha256": "b23cf60e95b37c3dbefff2f276ccc50cc8145167545a39e9df6dc9a93b7e0f8f",
+      "bytes": 690523
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F1_truth.mat",
+      "snapshot": "inputs/round3_20261024/dev/F1_truth.mat",
+      "sha256": "8f6b1dcb4bbd06d83f33c631fab3c313bcff3b01f3c2044b1675b230cfffe093",
+      "bytes": 1041975
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F2.mat",
+      "snapshot": "inputs/round3_20261024/dev/F2.mat",
+      "sha256": "41d091931cf0f354f361599813fef042e9ef2ae10801d1de9be56241f1d58758",
+      "bytes": 690353
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F2_truth.mat",
+      "snapshot": "inputs/round3_20261024/dev/F2_truth.mat",
+      "sha256": "fb2d4ab02f5c5daa08718b85bc0749380f03d4b74f60274aae2beccd375c7dcb",
+      "bytes": 1042353
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F3.mat",
+      "snapshot": "inputs/round3_20261024/dev/F3.mat",
+      "sha256": "bd40f5646522a3fe7323bf3f3805d9b4f972480644c9bf6ee5fe4404988867f7",
+      "bytes": 690538
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F3_truth.mat",
+      "snapshot": "inputs/round3_20261024/dev/F3_truth.mat",
+      "sha256": "957fd912af9b2b3e5700087e41deb9cad1ace5d1a6fe6bcd7541b3e2ee0fecc7",
+      "bytes": 1041235
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F4.mat",
+      "snapshot": "inputs/round3_20261024/dev/F4.mat",
+      "sha256": "bbdaaa9d296dd6b2428d6d60cb9c0c631750dd70fd4bfcbdbed458d836d48970",
+      "bytes": 690434
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/F4_truth.mat",
+      "snapshot": "inputs/round3_20261024/dev/F4_truth.mat",
+      "sha256": "e461e0fab91a6559fc272a84e591ac8631c7d9e80deba4ff262a8d08218b4e2c",
+      "bytes": 1041865
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/V4.mat",
+      "snapshot": "inputs/round3_20261024/dev/V4.mat",
+      "sha256": "13a85a3a3dd89428d7dbb1b0c54af20707ed7194e31b3606b494a8f37e0a5dcc",
+      "bytes": 691007
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/V4_truth.mat",
+      "snapshot": "inputs/round3_20261024/dev/V4_truth.mat",
+      "sha256": "2b7c56f8f5a225142f8b1ffd32d1f88912cdffce5dab0e112dcefdd9b72950ec",
+      "bytes": 567443
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/V5.mat",
+      "snapshot": "inputs/round3_20261024/dev/V5.mat",
+      "sha256": "e8f70b16229aae9a2e154b876a9c05af8f1424701a067c920d35add471836f6b",
+      "bytes": 1281380
+    },
+    {
+      "source": "地震衰减补偿研究/round3_20261024/dev/V5_truth.mat",
+      "snapshot": "inputs/round3_20261024/dev/V5_truth.mat",
+      "sha256": "3ed385f01252c4ad38676e14067d94cddb5719601d4dbb8f1c1db81270124e09",
+      "bytes": 1315108
+    },
+    {
+      "source": "地震衰减补偿研究/coherence_soft_20261023/inputs/validation/V1.mat",
+      "snapshot": "inputs/coherence_soft_20261023/inputs/validation/V1.mat",
+      "sha256": "8668520ec7eb323d9f11bda6e6fa23a31553b87f4f928ceff86ccec27c6511b7",
+      "bytes": 690944
+    },
+    {
+      "source": "地震衰减补偿研究/coherence_soft_20261023/truth/V1_truth.mat",
+      "snapshot": "inputs/coherence_soft_20261023/truth/V1_truth.mat",
+      "sha256": "e3353a7f0b40137a55eb5fabfb4c087b30ef405fea8dd1cf39b1c22356a847ea",
+      "bytes": 566043
+    },
+    {
+      "source": "地震衰减补偿研究/coherence_soft_20261023/inputs/validation/V2.mat",
+      "snapshot": "inputs/coherence_soft_20261023/inputs/validation/V2.mat",
+      "sha256": "64ed1d8fb2b72252c0b73bbe0eb3881cea52cdcde0a1034d64763e38c932de98",
+      "bytes": 690915
+    },
+    {
+      "source": "地震衰减补偿研究/coherence_soft_20261023/truth/V2_truth.mat",
+      "snapshot": "inputs/coherence_soft_20261023/truth/V2_truth.mat",
+      "sha256": "3700e8ea0cb5bbdc8aaf4dd4dc23cd2feb0aca98c97c90746f8a2458d187cb46",
+      "bytes": 576671
+    },
+    {
+      "source": "地震衰减补偿研究/coherence_soft_20261023/inputs/validation/V3.mat",
+      "snapshot": "inputs/coherence_soft_20261023/inputs/validation/V3.mat",
+      "sha256": "10d0d8bea4332ac7075bce42b677a098663b04282430c97531c47d79ba9e728b",
+      "bytes": 1280830
+    },
+    {
+      "source": "地震衰减补偿研究/coherence_soft_20261023/truth/V3_truth.mat",
+      "snapshot": "inputs/coherence_soft_20261023/truth/V3_truth.mat",
+      "sha256": "c148a4bc33b97cdfbd655151efd7b229aa9186e211280a026e4c5e601e29a78b",
+      "bytes": 2276435
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/inputs/U1.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/inputs/U1.mat",
+      "sha256": "4c4d861a1941bc43055e686d8d40741019aa69609657451d0a095210010d1fb4",
+      "bytes": 4132916
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/truth/U1_truth.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/truth/U1_truth.mat",
+      "sha256": "e09d2156292e69a8d81f0b898958cdb041b604f061a2eab070d508a94fe7e606",
+      "bytes": 696521
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/inputs/U2.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/inputs/U2.mat",
+      "sha256": "ee07dfe364fafa2a0f6d1d86cc610750b563b8973db85282114b06fa1d56130c",
+      "bytes": 4131890
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/truth/U2_truth.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/truth/U2_truth.mat",
+      "sha256": "f67dd068a1c0efacaab27f45ee01990a8beb899440c260952e99a1a8538c4f7f",
+      "bytes": 697295
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/inputs/U3.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/inputs/U3.mat",
+      "sha256": "1351ad61dd801a1683da81f44aa3292bbcbcbd482fb36bcde18872220a149fb5",
+      "bytes": 4133295
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/truth/U3_truth.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/truth/U3_truth.mat",
+      "sha256": "deb180ea8818a834ec896a5eb150c6d297df112145ff09a467338f523d4405f4",
+      "bytes": 695065
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/inputs/U4.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/inputs/U4.mat",
+      "sha256": "85f813dfd9ae94228d4a185d3ba91dadf0294e7430a97b985bb643143be1d297",
+      "bytes": 4131870
+    },
+    {
+      "source": "地震衰减补偿研究/b0_world_truth_20261024/truth/U4_truth.mat",
+      "snapshot": "inputs/b0_world_truth_20261024/truth/U4_truth.mat",
+      "sha256": "1c3becbebbc7bac22a42b525f393b65701e1ac7cc7550f8611dca7523930b9b2",
+      "bytes": 697524
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/truth/H1_truth.mat",
+      "snapshot": "inputs/fd2d_20261025/truth/H1_truth.mat",
+      "sha256": "4c46caf9d5f7906fb89d19dd9030443a77e148e248bb6d32266835da6f53162f",
+      "bytes": 351440
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/truth/H2_truth.mat",
+      "snapshot": "inputs/fd2d_20261025/truth/H2_truth.mat",
+      "sha256": "6fdcdd64130b7dafe09df7f109dc961b29a5b08b9b9f9fb52843821f3512f1fd",
+      "bytes": 351719
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/truth/H3_truth.mat",
+      "snapshot": "inputs/fd2d_20261025/truth/H3_truth.mat",
+      "sha256": "5b2047fa9db49f82e05169f042ec7cfa30754b71dee4497ee998ffbb40b4f836",
+      "bytes": 352132
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/truth/H4_truth.mat",
+      "snapshot": "inputs/fd2d_20261025/truth/H4_truth.mat",
+      "sha256": "45aa0b981c3e81daa0a1664cc8c4f6852406f11f493e292efb6780614edd5355",
+      "bytes": 351916
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/truth/H5_truth.mat",
+      "snapshot": "inputs/fd2d_20261025/truth/H5_truth.mat",
+      "sha256": "436de5e1e9758d7f60412041138eef8af5ae6a4b598c2081125ad575d6b66953",
+      "bytes": 351332
+    },
+    {
+      "source": "地震衰减补偿研究/fd2d_20261025/truth/H6_truth.mat",
+      "snapshot": "inputs/fd2d_20261025/truth/H6_truth.mat",
+      "sha256": "456ab1f53ffe0de131ab054c4571b1f687db985dbf15ae4cda7f4e4b82cacaa0",
+      "bytes": 351782
+    }
+  ]
+}

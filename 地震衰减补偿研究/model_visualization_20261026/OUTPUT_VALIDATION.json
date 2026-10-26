@@ -1,0 +1,283 @@
+{
+  "figures": 26,
+  "model_configurations": 29,
+  "source_files_verified": 40,
+  "exports": [
+    {
+      "name": "01_layered_vp",
+      "width": 2907,
+      "height": 1461,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "01_layered_Q",
+      "width": 2907,
+      "height": 1460,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "02_V1_reflectivity",
+      "width": 2498,
+      "height": 1852,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "02_V2_reflectivity",
+      "width": 2498,
+      "height": 1852,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "02_V4_reflectivity",
+      "width": 2498,
+      "height": 1852,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "03_V3_complex",
+      "width": 2732,
+      "height": 1854,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "03_V5_complex",
+      "width": 2732,
+      "height": 1854,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_F1_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_F2_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_F3_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_F4_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_U1_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_U2_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_U3_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "04_U4_Kennett",
+      "width": 2732,
+      "height": 1775,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "05_Kennett_atlas_vp",
+      "width": 2933,
+      "height": 1852,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "05_Kennett_atlas_Q",
+      "width": 2933,
+      "height": 1851,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "06_H1_FD2D",
+      "width": 2732,
+      "height": 1483,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "06_H2_FD2D",
+      "width": 2732,
+      "height": 1483,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "06_H3_FD2D",
+      "width": 2732,
+      "height": 1483,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "06_H4_FD2D",
+      "width": 2732,
+      "height": 1483,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "06_H5_FD2D",
+      "width": 2732,
+      "height": 1483,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "06_H6_FD2D",
+      "width": 2732,
+      "height": 1483,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "07_FD2D_atlas_vp",
+      "width": 2941,
+      "height": 1854,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "07_FD2D_atlas_Q",
+      "width": 2941,
+      "height": 1854,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "00_research_models_overview",
+      "width": 2941,
+      "height": 1854,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "checks": {
+    "matlab": "24.2.0.2923080 (R2024b) Update 6",
+    "complex_V3_max_error": 0,
+    "H_base_match": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "H_Q_color_limits": [
+      0,
+      300
+    ]
+  }
+}

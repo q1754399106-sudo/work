@@ -1,0 +1,158 @@
+[
+  {
+    "name": "01_layered_vp",
+    "family": "四层模型",
+    "png": "figures/01_layered_vp.png",
+    "caption": "10 个配置；P 波速度 (m/s)；共同坐标范围；水平线为层界面。"
+  },
+  {
+    "name": "01_layered_Q",
+    "family": "四层模型",
+    "png": "figures/01_layered_Q.png",
+    "caption": "10 个配置；品质因子 Q（无量纲）；共同坐标范围；水平线为层界面。"
+  },
+  {
+    "name": "02_V1_reflectivity",
+    "family": "稀疏反射模型",
+    "png": "figures/02_V1_reflectivity.png",
+    "caption": "时间域反射系数及配套道集；保留原始极性和幅度。"
+  },
+  {
+    "name": "02_V2_reflectivity",
+    "family": "稀疏反射模型",
+    "png": "figures/02_V2_reflectivity.png",
+    "caption": "时间域反射系数及配套道集；保留原始极性和幅度。"
+  },
+  {
+    "name": "02_V4_reflectivity",
+    "family": "稀疏反射模型",
+    "png": "figures/02_V4_reflectivity.png",
+    "caption": "时间域反射系数及配套道集；保留原始极性和幅度。"
+  },
+  {
+    "name": "03_V3_complex",
+    "family": "复杂地质模型",
+    "png": "figures/03_V3_complex.png",
+    "caption": "速度和 Q 剖面；河道、楔状体、含气异常轮廓；目标和观测共用幅度色标。"
+  },
+  {
+    "name": "03_V5_complex",
+    "family": "复杂地质模型",
+    "png": "figures/03_V5_complex.png",
+    "caption": "速度和 Q 剖面；河道、楔状体、含气异常轮廓；目标和观测共用幅度色标。"
+  },
+  {
+    "name": "04_F1_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_F1_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "04_F2_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_F2_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "04_F3_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_F3_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "04_F4_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_F4_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "04_U1_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_U1_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "04_U2_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_U2_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "04_U3_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_U3_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "04_U4_Kennett",
+    "family": "Kennett 细层模型",
+    "png": "figures/04_U4_Kennett.png",
+    "caption": "由归档 base 日志按原 lateral 规则重建；2 m 显示采样；第 50 道测井。"
+  },
+  {
+    "name": "05_Kennett_atlas_vp",
+    "family": "模型总览",
+    "png": "figures/05_Kennett_atlas_vp.png",
+    "caption": "八个 Kennett 模型，同变量统一色标。"
+  },
+  {
+    "name": "05_Kennett_atlas_Q",
+    "family": "模型总览",
+    "png": "figures/05_Kennett_atlas_Q.png",
+    "caption": "八个 Kennett 模型，同变量统一色标。"
+  },
+  {
+    "name": "06_H1_FD2D",
+    "family": "二维有限差分模型",
+    "png": "figures/06_H1_FD2D.png",
+    "caption": "原始 fd_geology 与固定随机种子重建，base 与归档真值逐字段一致；剔除吸收边界。"
+  },
+  {
+    "name": "06_H2_FD2D",
+    "family": "二维有限差分模型",
+    "png": "figures/06_H2_FD2D.png",
+    "caption": "原始 fd_geology 与固定随机种子重建，base 与归档真值逐字段一致；剔除吸收边界。"
+  },
+  {
+    "name": "06_H3_FD2D",
+    "family": "二维有限差分模型",
+    "png": "figures/06_H3_FD2D.png",
+    "caption": "原始 fd_geology 与固定随机种子重建，base 与归档真值逐字段一致；剔除吸收边界。"
+  },
+  {
+    "name": "06_H4_FD2D",
+    "family": "二维有限差分模型",
+    "png": "figures/06_H4_FD2D.png",
+    "caption": "原始 fd_geology 与固定随机种子重建，base 与归档真值逐字段一致；剔除吸收边界。"
+  },
+  {
+    "name": "06_H5_FD2D",
+    "family": "二维有限差分模型",
+    "png": "figures/06_H5_FD2D.png",
+    "caption": "原始 fd_geology 与固定随机种子重建，base 与归档真值逐字段一致；剔除吸收边界。"
+  },
+  {
+    "name": "06_H6_FD2D",
+    "family": "二维有限差分模型",
+    "png": "figures/06_H6_FD2D.png",
+    "caption": "原始 fd_geology 与固定随机种子重建，base 与归档真值逐字段一致；剔除吸收边界。"
+  },
+  {
+    "name": "07_FD2D_atlas_vp",
+    "family": "模型总览",
+    "png": "figures/07_FD2D_atlas_vp.png",
+    "caption": "六个独立二维模型，同变量统一色标。"
+  },
+  {
+    "name": "07_FD2D_atlas_Q",
+    "family": "模型总览",
+    "png": "figures/07_FD2D_atlas_Q.png",
+    "caption": "六个独立二维模型，同变量统一色标。"
+  },
+  {
+    "name": "00_research_models_overview",
+    "family": "研究模型总览",
+    "png": "figures/00_research_models_overview.png",
+    "caption": "四个物理模型家族的代表。V1/V2/V4 为独立时间域反射模型，另有专图。"
+  }
+]

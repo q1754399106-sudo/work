@@ -1,0 +1,16 @@
+{
+  "matlab": "24.2.0.2923080 (R2024b) Update 6",
+  "complex_V3_max_error": 0,
+  "H_base_match": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "H_Q_color_limits": [
+    0,
+    300
+  ]
+}
