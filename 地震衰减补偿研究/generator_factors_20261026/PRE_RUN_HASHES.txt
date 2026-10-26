@@ -1,0 +1,12 @@
+9041ccdb7e4b772b62f4d97e2986c515cd0a568837bcfac0844af86c971360b1 *PLAN_ZH.md
+e3f39cee7a9456836f457b83dfaa29d4bf795d816e6c186777cda9713565f34b *README.md
+069e7651c74df6e841daf316a7518bf5ad36e84054621e26ac98515f8d87b4b0 *scripts/run_matlab.py
+77299a0b8f00aea52e5272a57b0d8f9a910ddd5dcfd25d3da271b6fa75694d6d *scripts/run_sc.py
+8beb1a0d7ea4d549752baf60572844859e89114251b64072c876cae3cea4217f *scripts/score.py
+09e76351804340527090907c00775e983b6808091d7ae28055af65bee5b18760 *scripts/snapshot_inputs.py
+bb760aa6732a760a3e0d0dbc155c3423f8d557714f76317f9eebeffa3b71af38 *scripts/make_models.m
+input snapshot (cache/SNAPSHOT.json, not archived; round3 runner + run_combo3.m + novelty SC code):
+359a75bcbb52950818851b102df6218c735c711ecf0e36a6eb923e9135369497 *cache/SNAPSHOT.json
+47ab46739bf6b3a2d57d4fff66d0ad3882959a4c3e11a82258d23a86a3249b1c *cache/runner/run_combo3.m
+smoke test before freezing: make_models with throwaway seed 7 and run_combo3 on its Z1_111, in the session scratch directory; checked only that the code runs (no scoring, outputs discarded).
+repository HEAD: 5979b1b50b86498e9f38bcc1ba332f7d9ceb9e15
