@@ -1,0 +1,125 @@
+{"stage": "prep_line", "args": [], "started_utc": "2026-10-27T15:10:55.326787+00:00", "command": ["D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe", "-wait", "-nojvm", "-batch", "addpath('D:/ChatGPT/\u7814\u7a76/\u5730\u9707\u8870\u51cf\u8865\u507f\u7814\u7a76/field_vsp_volve_f11_20261026/scripts');prep_line();"], "timeout_seconds": 28800, "status": "COMPLETED", "pid": 46048, "exit_code": 0, "elapsed_seconds": 48.797000000000025}
+{"arc_length_m":2161.0580255480331,"curtain_xy_first":[435182.90562416782,6.4785764201151608E+6],"curtain_xy_last":[436288.3069407937,6.4791903430464789E+6],"fpeak":80,"tstar_twoway_at_1p40":0.13821639534557195,"sigma_median":0.0013654877624632632,"score_trace_range":[11,93],"Q_VSP":[10.129044361920206,10.129044361920206,11.454607540888681,11.454607540888681],"vp":[1768.5100784139911,2172.3604314828976,3171.6291021592683,3171.6291021592683],"h":[634.43,1437.49,1240.44]}
+
+{"stage": "run_field", "args": ["V0", "Vm50", "Vm30", "Vp30", "Vp50"], "started_utc": "2026-10-27T15:11:44.585053+00:00", "command": ["D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe", "-wait", "-nojvm", "-batch", "addpath('D:/ChatGPT/\u7814\u7a76/\u5730\u9707\u8870\u51cf\u8865\u507f\u7814\u7a76/field_vsp_volve_f11_20261026/scripts');run_field('V0','Vm50','Vm30','Vp30','Vp50');"], "timeout_seconds": 28800, "status": "COMPLETED", "pid": 45680, "exit_code": 0, "elapsed_seconds": 541.4849999999999}
+V0 Q=[10.1 10.1 11.5 11.5] QScan factor 2.2000 flags 0 (134s, total 135s)
+Vm50 Q=[5.1 5.1 5.7 5.7] QScan factor 2.2000 flags 0 (60s, total 195s)
+Vm30 Q=[7.1 7.1 8.0 8.0] QScan factor 2.2000 flags 0 (97s, total 292s)
+Vp30 Q=[13.2 13.2 14.9 14.9] QScan factor 2.2000 flags 0 (113s, total 406s)
+Vp50 Q=[15.2 15.2 17.2 17.2] QScan factor 2.2000 flags 0 (94s, total 500s)
+DONE V0,Vm50,Vm30,Vp30,Vp50
+
+F11 V0 SC Q=[10.1, 10.1, 11.5, 11.5]: iter 5000 KKT 59.3273 conv False 162s (total 162s)
+F11 V0 QSC Q=[22.3, 22.3, 25.2, 25.2]: iter 5000 KKT 8.6158 conv False 178s (total 341s)
+F11 Vm50 SC Q=[5.1, 5.1, 5.7, 5.7]: iter 5000 KKT 11.1810 conv False 173s (total 515s)
+F11 Vm50 QSC Q=[11.1, 11.1, 12.6, 12.6]: iter 5000 KKT 66.7490 conv False 172s (total 688s)
+F11 Vm30 SC Q=[7.1, 7.1, 8.0, 8.0]: iter 5000 KKT 29.8167 conv False 173s (total 862s)
+F11 Vm30 QSC Q=[15.6, 15.6, 17.6, 17.6]: iter 5000 KKT 31.7551 conv False 155s (total 1017s)
+F11 Vp30 SC Q=[13.2, 13.2, 14.9, 14.9]: iter 5000 KKT 39.0535 conv False 126s (total 1144s)
+F11 Vp30 QSC Q=[29.0, 29.0, 32.8, 32.8]: iter 5000 KKT 0.5579 conv False 105s (total 1250s)
+F11 Vp50 SC Q=[15.2, 15.2, 17.2, 17.2]: iter 5000 KKT 59.4467 conv False 112s (total 1362s)
+F11 Vp50 QSC Q=[33.4, 33.4, 37.8, 37.8]: iter 5000 KKT 0.0800 conv False 92s (total 1455s)
+DONE F11
+F15A V0 SC Q=[127.9, 127.9, 127.9, 127.9]: iter 1200 KKT 0.0192 conv True 22s (total 23s)
+F15A V0 QSC Q=[76.8, 76.8, 76.8, 76.8]: iter 1525 KKT 0.0181 conv True 26s (total 49s)
+F15A Vm50 SC Q=[64.0, 64.0, 64.0, 64.0]: iter 1675 KKT 0.0123 conv True 33s (total 82s)
+F15A Vm50 QSC Q=[66.0, 66.0, 66.0, 66.0]: iter 1325 KKT 0.0188 conv True 25s (total 107s)
+F15A Vm30 SC Q=[89.6, 89.6, 89.6, 89.6]: iter 1150 KKT 0.0191 conv True 23s (total 131s)
+F15A Vm30 QSC Q=[66.7, 66.7, 66.7, 66.7]: iter 1350 KKT 0.0184 conv True 27s (total 158s)
+F15A Vp30 SC Q=[166.3, 166.3, 166.3, 166.3]: iter 1425 KKT 0.0128 conv True 28s (total 187s)
+F15A Vp30 QSC Q=[99.8, 99.8, 99.8, 99.8]: iter 1225 KKT 0.0184 conv True 25s (total 212s)
+F15A Vp50 SC Q=[191.9, 191.9, 191.9, 191.9]: iter 1950 KKT 0.0132 conv True 33s (total 245s)
+F15A Vp50 QSC Q=[115.1, 115.1, 115.1, 115.1]: iter 1300 KKT 0.0190 conv True 22s (total 267s)
+F15A R0 SC Q=[46.2, 300.0, 49.8, 300.0]: iter 1325 KKT 0.0181 conv True 22s (total 290s)
+F15A R0 QSC Q=[42.8, 277.6, 46.1, 277.6]: iter 1275 KKT 0.0199 conv True 21s (total 312s)
+DONE F15A
+{"stage": "score_field", "args": [], "started_utc": "2026-10-27T15:50:27.187853+00:00", "command": ["D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe", "-wait", "-nojvm", "-batch", "addpath('D:/ChatGPT/\u7814\u7a76/\u5730\u9707\u8870\u51cf\u8865\u507f\u7814\u7a76/field_vsp_volve_f11_20261026/scripts');score_field();"], "timeout_seconds": 28800, "status": "COMPLETED", "pid": 44732, "exit_code": 0, "elapsed_seconds": 27.922000000000025}
+      run             method             T1         T1w3         T2         T1rs  
+    ________    __________________    ________    ________    ________    ________
+
+    {'V0'  }    {'Input'         }       0.338     0.27441    0.027388    0.068766
+    {'V0'  }    {'FullCalRefit'  }    0.062325    0.090708     0.12113     0.11158
+    {'V0'  }    {'Standard'      }    0.064944    0.088855     0.11616     0.11138
+    {'V0'  }    {'QScanRefit'    }    0.099649     0.11018    0.059375    0.099653
+    {'V0'  }    {'QScan_Standard'}    0.096349     0.10983    0.068006     0.11143
+    {'V0'  }    {'SoftGroupRefit'}    0.064665    0.089339     0.11933     0.11142
+    {'V0'  }    {'QScan_Soft'    }      0.1007     0.11486     0.06197     0.10386
+    {'V0'  }    {'SC'            }      0.0758    0.077964     0.23732     0.25648
+    {'V0'  }    {'QSC'           }     0.18762     0.19756     0.13827     0.16718
+    {'Vm50'}    {'Input'         }       0.338     0.27441    0.027388    0.068766
+    {'Vm50'}    {'FullCalRefit'  }     0.23542     0.27792     0.27444    0.018784
+    {'Vm50'}    {'Standard'      }    0.084082     0.10785    0.073854    0.016933
+    {'Vm50'}    {'QScanRefit'    }    0.077577     0.12528     0.13636     0.16269
+    {'Vm50'}    {'QScan_Standard'}    0.078597     0.12704     0.13886     0.16036
+    {'Vm50'}    {'SoftGroupRefit'}    0.082683     0.10513    0.076304    0.016677
+    {'Vm50'}    {'QScan_Soft'    }    0.077675     0.12546     0.13725     0.16304
+    {'Vm50'}    {'SC'            }    0.075064     0.13441     0.11669      0.1421
+    {'Vm50'}    {'QSC'           }    0.076719    0.059233      0.2805     0.18257
+    {'Vm30'}    {'Input'         }       0.338     0.27441    0.027388    0.068766
+    {'Vm30'}    {'FullCalRefit'  }    0.059483    0.076527    0.087886    0.078886
+    {'Vm30'}    {'Standard'      }    0.058541    0.076909    0.085796    0.076622
+    {'Vm30'}    {'QScanRefit'    }     0.13765     0.19887     0.26776    0.099984
+    {'Vm30'}    {'QScan_Standard'}     0.13703     0.19874     0.27881     0.10106
+    {'Vm30'}    {'SoftGroupRefit'}    0.059263    0.076604     0.08749    0.078422
+    {'Vm30'}    {'QScan_Soft'    }     0.13726     0.19831     0.26968    0.098422
+    {'Vm30'}    {'SC'            }    0.086299    0.085986     0.29531     0.12613
+    {'Vm30'}    {'QSC'           }    0.088304     0.13565     0.24563    0.087989
+    {'Vp30'}    {'Input'         }       0.338     0.27441    0.027388    0.068766
+    {'Vp30'}    {'FullCalRefit'  }     0.16466      0.1492     0.20671     0.18652
+    {'Vp30'}    {'Standard'      }     0.16668     0.15174     0.21142     0.19223
+    {'Vp30'}    {'QScanRefit'    }    0.066969     0.11248     0.15788     0.20854
+    {'Vp30'}    {'QScan_Standard'}    0.072613     0.11689     0.15119     0.20043
+    {'Vp30'}    {'SoftGroupRefit'}     0.16424     0.14864     0.20199     0.18906
+    {'Vp30'}    {'QScan_Soft'    }    0.071622      0.1135     0.17873     0.20713
+    {'Vp30'}    {'SC'            }    0.056502     0.11592     0.22295    0.071625
+    {'Vp30'}    {'QSC'           }    0.071069     0.20982     0.23274     0.14885
+    {'Vp50'}    {'Input'         }       0.338     0.27441    0.027388    0.068766
+    {'Vp50'}    {'FullCalRefit'  }     0.10057     0.17161     0.13431     0.16455
+    {'Vp50'}    {'Standard'      }     0.10987     0.17638     0.13769      0.1554
+    {'Vp50'}    {'QScanRefit'    }     0.17358     0.23638     0.28799      0.1697
+    {'Vp50'}    {'QScan_Standard'}     0.19149      0.2542     0.18874     0.15352
+    {'Vp50'}    {'SoftGroupRefit'}     0.10155     0.17228     0.13428       0.164
+    {'Vp50'}    {'QScan_Soft'    }     0.17914     0.24592     0.24055      0.1669
+    {'Vp50'}    {'SC'            }    0.062115     0.12643      0.2243    0.097307
+    {'Vp50'}    {'QSC'           }    0.092992     0.16339     0.17098     0.14396
+
+{"G1_all_pass":false,"G1_RS":false,"G1_NI":false,"G1b_pass":false,"descriptive_only":true,"G2_delta_T1":-0.11182448800647853,"G2_verdict_T1":"QScan+SC better","G2_delta_T2":0.099043671179341763,"G2_verdict_T2":"SC better","G2b_delta_T1":0.010856443685996017,"G2b_verdict_T1":"no discernible difference","G2b_delta_T2":0.12115984175624668,"G2b_verdict_T2":"SC better","G3_SC":false,"G3_QSC":false,"G3_Standard":false,"G4_pass":false,"G4_interval_scale":[0.469145008593784,null],"qscan":[{"run":"Vm50","start_scale":0.5,"selected_factor":2.2,"implied_scale":1.1,"inside":false},{"run":"Vm30","start_scale":0.7,"selected_factor":2.2,"implied_scale":1.54,"inside":false},{"run":"V0","start_scale":1,"selected_factor":2.2,"implied_scale":2.2,"inside":false},{"run":"Vp30","start_scale":1.3,"selected_factor":2.2,"implied_scale":2.8600000000000003,"inside":false},{"run":"Vp50","start_scale":1.5,"selected_factor":2.2,"implied_scale":3.3000000000000003,"inside":false}],"G5_QSC_minus_SC_T1":[0.0016543829882419564,0.0020052030066752408,0.014566879639404846,0.030876995313462705],"G5_verdict":"no discernible difference","G5_QSC_minus_SC_T2":[0.16381027245026947,-0.049679216448195729,0.0097878351609434477,-0.053318848996004614],"polarity_flag":false,"input_T1":0.33800442801178365,"input_T2":0.027388231481939758,"input_T1_minus_T1w3":0.063596199007275866,"input_phase_scan_best_deg":-60,"input_phase_scan_best_T1":0.34140902729006178,"T1_window_s":[2.076,2.948],"T2_window_s":[2.32,2.8000000000000003],"Q_VSP":[10.129044361920206,10.129044361920206,11.454607540888681,11.454607540888681],"fpeak":80}
+
+{"stage": "score_f15a", "args": [], "started_utc": "2026-10-27T15:50:55.371162+00:00", "command": ["D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe", "-wait", "-nojvm", "-batch", "addpath('D:/ChatGPT/\u7814\u7a76/\u5730\u9707\u8870\u51cf\u8865\u507f\u7814\u7a76/field_vsp_volve_f11_20261026/scripts');score_f15a();"], "timeout_seconds": 28800, "status": "COMPLETED", "pid": 36876, "exit_code": 0, "elapsed_seconds": 22.688000000000102}
+experiment-5 scores reproduced (max diff 4.4e-16)
+      run       q_error_percent          method            T1         T2       qscan_factor
+    ________    _______________    __________________    _______    _______    ____________
+
+    {'V0'  }            0          {'Input'         }     0.1806    0.19897          0.6   
+    {'V0'  }            0          {'Standard'      }    0.15714    0.19653          0.6   
+    {'V0'  }            0          {'QScan_Standard'}    0.21096    0.23264          0.6   
+    {'V0'  }            0          {'SC'            }    0.16495    0.18846          0.6   
+    {'V0'  }            0          {'QSC'           }    0.22626    0.21736          0.6   
+    {'Vm50'}          -50          {'Input'         }     0.1806    0.19897        1.031   
+    {'Vm50'}          -50          {'Standard'      }    0.21464    0.34348        1.031   
+    {'Vm50'}          -50          {'QScan_Standard'}    0.18967    0.24211        1.031   
+    {'Vm50'}          -50          {'SC'            }    0.23668    0.26159        1.031   
+    {'Vm50'}          -50          {'QSC'           }    0.23262    0.23803        1.031   
+    {'Vm30'}          -30          {'Input'         }     0.1806    0.19897      0.74507   
+    {'Vm30'}          -30          {'Standard'      }    0.19234    0.22184      0.74507   
+    {'Vm30'}          -30          {'QScan_Standard'}    0.18686    0.22546      0.74507   
+    {'Vm30'}          -30          {'SC'            }    0.18965    0.19305      0.74507   
+    {'Vm30'}          -30          {'QSC'           }    0.23081    0.23076      0.74507   
+    {'Vp30'}           30          {'Input'         }     0.1806    0.19897          0.6   
+    {'Vp30'}           30          {'Standard'      }    0.18294    0.19342          0.6   
+    {'Vp30'}           30          {'QScan_Standard'}    0.17893    0.23474          0.6   
+    {'Vp30'}           30          {'SC'            }    0.18416    0.18181          0.6   
+    {'Vp30'}           30          {'QSC'           }    0.15802    0.21415          0.6   
+    {'Vp50'}           50          {'Input'         }     0.1806    0.19897          0.6   
+    {'Vp50'}           50          {'Standard'      }    0.18899     0.2025          0.6   
+    {'Vp50'}           50          {'QScan_Standard'}    0.13688      0.218          0.6   
+    {'Vp50'}           50          {'SC'            }    0.18662    0.18733          0.6   
+    {'Vp50'}           50          {'QSC'           }    0.14629    0.20217          0.6   
+    {'R0'  }            0          {'Input'         }     0.1806    0.19897      0.92521   
+    {'R0'  }            0          {'Standard'      }    0.21133    0.21283      0.92521   
+    {'R0'  }            0          {'QScan_Standard'}    0.22524     0.2508      0.92521   
+    {'R0'  }            0          {'SC'            }     0.2263    0.20147      0.92521   
+    {'R0'  }            0          {'QSC'           }    0.23212    0.20771      0.92521   
+
+
+CHAIN EXIT 0

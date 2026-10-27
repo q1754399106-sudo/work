@@ -1,0 +1,17 @@
+{
+  "stage": "score_field",
+  "args": [],
+  "started_utc": "2026-10-27T15:50:27.187853+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/\u5730\u9707\u8870\u51cf\u8865\u507f\u7814\u7a76/field_vsp_volve_f11_20261026/scripts');score_field();"
+  ],
+  "timeout_seconds": 28800,
+  "status": "COMPLETED",
+  "pid": 44732,
+  "exit_code": 0,
+  "elapsed_seconds": 27.922000000000025
+}

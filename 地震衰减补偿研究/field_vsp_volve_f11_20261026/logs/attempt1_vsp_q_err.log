@@ -1,0 +1,7 @@
+{数组索引必须为正整数或逻辑值。
+
+出错 vsp_q (第 15 行)
+ x=decimate_fft(N(:,cols(q)),step);[~,pk]=max(abs(x));segs(:,q)=x(pk-10:pk+89);
+                                                                ^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

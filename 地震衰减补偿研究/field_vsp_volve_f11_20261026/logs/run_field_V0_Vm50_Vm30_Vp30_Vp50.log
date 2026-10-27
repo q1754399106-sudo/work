@@ -1,0 +1,6 @@
+V0 Q=[10.1 10.1 11.5 11.5] QScan factor 2.2000 flags 0 (134s, total 135s)
+Vm50 Q=[5.1 5.1 5.7 5.7] QScan factor 2.2000 flags 0 (60s, total 195s)
+Vm30 Q=[7.1 7.1 8.0 8.0] QScan factor 2.2000 flags 0 (97s, total 292s)
+Vp30 Q=[13.2 13.2 14.9 14.9] QScan factor 2.2000 flags 0 (113s, total 406s)
+Vp50 Q=[15.2 15.2 17.2 17.2] QScan factor 2.2000 flags 0 (94s, total 500s)
+DONE V0,Vm50,Vm30,Vp30,Vp50

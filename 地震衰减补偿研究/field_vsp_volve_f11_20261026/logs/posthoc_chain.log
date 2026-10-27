@@ -1,0 +1,19 @@
+{"arc_length_m":2161.0580255480331,"curtain_xy_first":[435182.90562416782,6.4785764201151608E+6],"curtain_xy_last":[436288.3069407937,6.4791903430464789E+6],"fpeak":36.75,"tstar_twoway_at_1p40":0.017832319505748703,"sigma_median":0.0013654877624632632,"score_trace_range":[11,93],"Q_VSP":[78.509136152965084,78.509136152965084,135.17807648006433,135.17807648006433],"vp":[1768.5100784139911,2172.3604314828976,3171.6291021592683,3171.6291021592683],"h":[634.43,1437.49,1240.44]}
+V0 Q=[78.5  78.5 135.2 135.2] QScan factor 0.6686 flags 0 (43s, total 44s)
+Vm50 Q=[39.3 39.3 67.6 67.6] QScan factor 1.4267 flags 0 (29s, total 73s)
+Vm30 Q=[55.0 55.0 94.6 94.6] QScan factor 0.9252 flags 0 (25s, total 98s)
+Vp30 Q=[102.1 102.1 175.7 175.7] QScan factor 0.6000 flags 0 (20s, total 118s)
+Vp50 Q=[117.8 117.8 202.8 202.8] QScan factor 0.6000 flags 0 (23s, total 141s)
+DONE V0,Vm50,Vm30,Vp30,Vp50
+F11 V0 SC Q=[78.5, 78.5, 135.2, 135.2]: iter 1925 KKT 0.0179 conv True 47s (total 48s)
+F11 V0 QSC Q=[52.5, 52.5, 90.4, 90.4]: iter 3875 KKT 0.0196 conv True 96s (total 144s)
+F11 Vm50 SC Q=[39.3, 39.3, 67.6, 67.6]: iter 5000 KKT 0.1643 conv False 93s (total 238s)
+F11 Vm50 QSC Q=[56.0, 56.0, 96.4, 96.4]: iter 3600 KKT 0.0170 conv True 86s (total 324s)
+F11 Vm30 SC Q=[55.0, 55.0, 94.6, 94.6]: iter 4850 KKT 0.0199 conv True 89s (total 414s)
+F11 Vm30 QSC Q=[50.8, 50.8, 87.5, 87.5]: iter 3025 KKT 0.0199 conv True 58s (total 472s)
+F11 Vp30 SC Q=[102.1, 102.1, 175.7, 175.7]: iter 1675 KKT 0.0189 conv True 28s (total 500s)
+F11 Vp30 QSC Q=[61.2, 61.2, 105.4, 105.4]: iter 2325 KKT 0.0188 conv True 46s (total 547s)
+F11 Vp50 SC Q=[117.8, 117.8, 202.8, 202.8]: iter 1350 KKT 0.0188 conv True 27s (total 574s)
+F11 Vp50 QSC Q=[70.7, 70.7, 121.7, 121.7]: iter 1700 KKT 0.0187 conv True 34s (total 609s)
+DONE F11
+POSTHOC EXIT 0
