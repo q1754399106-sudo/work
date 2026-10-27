@@ -1,0 +1,32 @@
+D:\ChatGPT\研究\地震衰减补偿研究\field_application_20261028\scripts\lib.py:162: RuntimeWarning: overflow encountered in power
+  H = 1 / np.sqrt(1 + (6 / np.maximum(f, 1e-300)) ** 6) / np.sqrt(1 + (f / fhi) ** 24); H[0] = 0
+F11 {"SCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}, "QSCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}} qscan 0.770 boundary False fmax 125.0/77.1 Hz
+F15A {"SCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}, "QSCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}} qscan 0.675 boundary False fmax 118.2/81.5 Hz
+Traceback (most recent call last):
+  File "D:\ChatGPT\研究\地震衰减补偿研究\field_application_20261028\scripts\run.py", line 141, in <module>
+    {"wells": wells, "inline": inline}[sys.argv[1]]()
+  File "D:\ChatGPT\研究\地震衰减补偿研究\field_application_20261028\scripts\run.py", line 103, in wells
+    bm.writejson(AN / "scores.json", rows); bm.writejson(AN / "gates.json", gates)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\地震衰减补偿研究\field_application_20261028\cache\inputs\novelty_evidence_20261025\scripts\common.py", line 38, in writejson
+    path.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 317, in _iterencode_list
+    yield buf + _floatstr(value)
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py", line 240, in floatstr
+    raise ValueError(
+ValueError: Out of range float values are not JSON compliant: nan
+RUN EXIT 1

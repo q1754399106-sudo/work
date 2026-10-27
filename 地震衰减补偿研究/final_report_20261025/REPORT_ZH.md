@@ -18,6 +18,8 @@
 >
 > 补充（2026-10-28，预登记实验 `field_vsp_volve_f11_20261026`，实测 6）：在 Volve 第二口井 F-11 T2 上实测检验使用规则。登记的 VSP 估 Q 因剔除规则连锁误删而不可用（Q≈10，G1/G1b 不通过），全部判定只作描述；事后修正的 Q 下，不补偿的输入与走廊叠加的相关最高，两条走廊叠加之间相差 0.064（阈值 0.02），F-11 与 F-15A 上 SC 对 QScan＋SC 的方向相反。实测仍为**无法判定**，使用规则在实测上既未得到支持也未被否定。见第 7 节。
 >
+> 补充（2026-10-28，预登记实验 `field_application_20261028`，实测 7）：把 SC / QScan＋SC 适配到实测（子波从数据估计，输出频带按相邻道相干信噪比限制在 75–82 Hz 以内），用在 Volve 两口井和 inline 10141 上。补偿后频带从约 5–29 Hz 拓宽到 10–62 Hz，井震标定在分辨力内不变；事后检查显示 SC 类方法各频带信噪比不降，相干标准版则降到 1/2–1/6。登记门槛 A1（高频能量比 ≤ 10）设计错误、未通过，所以“可用于实际资料”未按登记判定成立。井上相关的自助 90% 区间宽 0.2–0.45，方法优劣在实测上仍分不出来。
+>
 > 补充（2026-10-26，预登记实验 `yan_criterion_20261026`）：把 Yan et al. 2023 的“残差＋稀疏度”选 Q 准则接到同一套 lasso 反演上，φ 取 0–1 全部 11 个值，在 G1–G8、H1–H6 上偏移都因模型而异（极差 4–9 步），而且偏得比 QScan 更多。第二条机制发现因此不是 QScan 目标函数特有的。
 >
 > 补充（2026-10-26，预登记实验 `cheng_criterion_20261026`）：按摘要把 Cheng et al. 2025 的浅深一致性准则和 Ma 2018 型 lp 准则接到同一套 lasso 反演上。Cheng 主定义退化（13/14 个模型选补偿最强的网格端点），原因是这些模型的真值本身深层振幅只有浅层的 9–58%，所以判定不作解释；7 个变体都没有跨模型稳定的偏移（描述性）。第二条机制发现的推广范围不变。见第 9 节。
@@ -312,6 +314,6 @@ F3/F4 在 round3 前冻结生成；V5 在 v2 封存验收时已用过。下表�
 - QScan 偏移：`qscan_offset_20261025/`、`qscan_predictor_20261025/`、`qscan_abstain_20261025/`、`critcombo_20261025/`、`physics_bias_20261024/`
 - 复杂模型：`trueq_20261025/`、`calq_20261025/`、`calq_confirm_20261025/`
 - 创新性：`novelty_evidence_20261025/`、`sc_neutral_20261026/`、`qscan_sc_20261026/`、`qscan_sc_round3_20261026/`、`generator_factors_20261026/`、`vfamily_20261027/`、`yan_criterion_20261026/`、`cheng_criterion_20261026/`、`innovation_direction_20261025/`、`joint_event_shrinkage_20261025/`
-- 实测：`field_vsp_u1320a_20261024/`、`field_vsp_volve_20261025/`、`field_vsp_volve_f11_20261026/`；资料检索：`q_reference_data_20261023/`、`field_stratton_20261026/`（Stratton 3D 不适用）
+- 实测：`field_vsp_u1320a_20261024/`、`field_vsp_volve_20261025/`、`field_vsp_volve_f11_20261026/`、`field_application_20261028/`（实测应用）；资料检索：`q_reference_data_20261023/`、`field_stratton_20261026/`（Stratton 3D 不适用）
 - 二维复验：`fd2d_20261025/`
 - 更正：`final_report_20261025/ERRATA_ZH.md`、`scripts/check_corrections.py`、`analysis/corrections.json`

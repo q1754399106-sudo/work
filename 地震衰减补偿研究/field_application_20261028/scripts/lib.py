@@ -181,6 +181,7 @@ def tie_boot(x, xin, ref, tw, w, lag, lag_in, nboot=2000, block=25, seed=2026102
     """Moving-block bootstrap (blocks of 100 ms) of corr(x) - corr(input) at the fixed best lags."""
     tf, rr = tw[w], ref[w]
     y = np.interp(tf + lag / 1000, tw, x); yi = np.interp(tf + lag_in / 1000, tw, xin)
+    ok = np.isfinite(rr); tf, rr, y, yi = tf[ok], rr[ok], y[ok], yi[ok]  # addendum 1: as tie(), skip NaN
     n = len(rr); rng = np.random.default_rng(seed); nb = int(np.ceil(n / block)); d = []
     for _ in range(nboot):
         st = rng.integers(0, n - block + 1, nb)

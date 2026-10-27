@@ -1,0 +1,7 @@
+D:\ChatGPT\研究\地震衰减补偿研究\field_application_20261028\scripts\lib.py:162: RuntimeWarning: overflow encountered in power
+  H = 1 / np.sqrt(1 + (6 / np.maximum(f, 1e-300)) ** 6) / np.sqrt(1 + (f / fhi) ** 24); H[0] = 0
+F11 {"SCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}, "QSCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}} qscan 0.770 boundary False fmax 125.0/77.1 Hz
+F15A {"SCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}, "QSCa": {"A1_noise": false, "A2_tie": true, "A3_broader": true, "all": false}} qscan 0.675 boundary False fmax 118.2/81.5 Hz
+{"verdict_SCa": "not shown", "verdict_QSCa": "not shown"}
+inline (451, 201) qscan 0.770 {'SCa': [3873.32, 11.95, 59.76], 'QSCa': [13036.05, 14.94, 58.76]}
+RUN EXIT 0
