@@ -1,0 +1,12 @@
+cffbf11b2793690f7a2c8dea1539196ec15def72bfb35b49e48406f195a103cc *PLAN_ZH.md
+013924849e63312b62b46175c5dbc381519afe689d638ec797da7057f258fd87 *README.md
+3591658ac8bbdec66e087d2e509957e288d295d280a078b5fc8ef7e054812131 *scripts/run_matlab.py
+2466e2ff4c5510e50e75d08144d9b73914eab23d42df750312b85a229cc9b494 *scripts/run_sc.py
+26546307ee16d36986cf4ed651403a9163cff9b096137fb0425bf85ccd61fc87 *scripts/score.py
+66a778347b0dd0694ff171788d8a0d05f92655241deb90a05b596f782b4ef626 *scripts/snapshot_inputs.py
+49cec9d7980f91a16beb74f2ffc798db7da5552777e8c6a795c7be45b5734ec9 *scripts/make_scenes.m
+input snapshot (cache/SNAPSHOT.json, not archived; round3 runner + run_combo3.m + calibration specs + primary.json + novelty SC code):
+95b3e684457951483a137d2e26e71d2c6b3d615321342cda131655f6869d5b3d *cache/SNAPSHOT.json
+47ab46739bf6b3a2d57d4fff66d0ad3882959a4c3e11a82258d23a86a3249b1c *cache/runner/run_combo3.m
+smoke tests before freezing, in the session scratch directory, outputs discarded, nothing scored: (1) make_scenes with throwaway seeds 11/81 failed in the X calibration because cache/runner/inputs/*.json were missing; snapshot_inputs.py now copies those specs (identical to coherence_soft_20261023/inputs). (2) rerun generated W1 and X1; run_combo3 ran on the throwaway W1.
+repository HEAD: 123e5a68845002d6a9fdff0a88f8630e43233866

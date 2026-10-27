@@ -1,6 +1,7 @@
 # 实验 6：Volve 15/9-F-11 T2 实测 VSP 估 Q 与 SC、QScan＋SC 检验
 
-- `PLAN_ZH.md`：预登记方案，**草案，未冻结**。冻结前没有运行任何 Q 估计、频谱、补偿或井震标定。
+- `PLAN_ZH.md`：预登记方案（2026-10-27 冻结）；`PRE_RUN_HASHES.txt`：运行前的代码与方案哈希。
+- `scripts/`：冻结代码，运行顺序见方案末尾。`snapshot_inputs.py` 把引用的冻结代码和实验 5 归档文件复制到被忽略的 `cache/inputs/` 并逐字节核对；`extract_logs.py` 读测井；`vsp_q.m`、`prep_line.m`、`run_field.m`、`score_field.m`、`score_f15a.m` 由 `run_stage.py` 调用 MATLAB 运行；`run_sc.py` 跑 SC 与 QScan＋SC。
 - `DATA_LICENCE_ZH.md`：数据来源、许可与署名；`DOWNLOAD_MANIFEST_SHA256.txt`：原始文件校验值。
 - `raw/`：Volve 原始文件（Git LFS），未作修改。`fetch_volve.sh` 按 `fetch_list.txt` 从 Databricks 卷下载。
 - `probe_vsp.py` → `probe/vsp_geometry.json`：NIVSP、RSVSP 每一级的 MD、TVDSS、坐标、入射角、承包商初至，以及对应的原始炮和水听器炮（只读道头）。

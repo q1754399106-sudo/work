@@ -1,6 +1,8 @@
-# 实验 6：Volve 15/9-F-11 T2 实测 VSP 估 Q，检验 SC、QScan＋SC 与相干标准版（预登记草案）
+# 实验 6：Volve 15/9-F-11 T2 实测 VSP 估 Q，检验 SC、QScan＋SC 与相干标准版（预登记）
 
-状态：**草案，未冻结**。登记前没有运行任何 Q 估计、频谱分析、补偿或井震标定。用户确认后提交冻结，冻结提交号和代码哈希记入 `PRE_RUN_HASHES.txt`。
+登记时间：2026-10-27。登记前没有运行任何 Q 估计、频谱分析、补偿或井震标定。冻结代码在 `scripts/`，冻结提交与代码哈希记入 `PRE_RUN_HASHES.txt`。
+
+2026-10-27 用户说“继续”，按草案附带的三项建议冻结：G1 与实验 5 完全相同，另把 Δt\* 对 Δτ 回归的 R² 作为描述性指标；主问题为 G2 与 G5；用 `dlisio` 读取测井。
 
 ## 要回答的问题
 
@@ -20,7 +22,10 @@
   - 井从斜井变为近水平，最大井斜 82.1°（MD 3217 m）；在 MD 约 2700–3800 m 的近水平段，上下行波分离困难。
   - 原始数据质量很好，有轻微套管鸣震。
   - 走廊叠加与地面地震在 Balder 组以下标定很好（地面地震下移 4 ms），Balder 以上不够清楚。
-- **没有看过任何振幅、频谱、走廊叠加的波形或井上相关。**
+- 为核对时窗，看过两份原始叠加中初至附近 ±40 ms 内的最大振幅和波谷相对字节 233 初至的位置：波谷的中位数晚 3 ms，最大振幅晚 15 ms（与报告中“以最大波谷为拾取”一致），因此沿用实验 5 的直达波时窗。
+- 看过 DLIS 的通道名和单位（DEPTH 为 MD，mm；AC 为 us/ft；DEN 为 g/cm3），没有看过曲线数值。
+- 对冻结脚本做过 MATLAB `checkcode` 静态检查，并试运行了 `snapshot_inputs.py`（只复制和核对文件）。
+- **除上述之外，没有看过任何振幅、频谱、走廊叠加的波形或井上相关。**
 - 实验 5（F-15A）的全部结果都看过。F-15A 在本实验中只用于第 4 个问题，作描述。
 
 ## 资料
@@ -40,7 +45,7 @@
   - 主用 CORR65_W1（1C 处理，5–65 Hz）；
   - CORR65_W3（3C 处理）只作敏感性对照；
   - RSVSP 的走廊叠加 `VSPRS_COMPUTED_42.ASC` 只作描述。
-- **测井**：`WLC_COMPOSITE_1.DLIS` 中的 AC（DTC，MD 2575.9–4522.4 m）和 DEN（MD 2577.0–4539.0 m）。读取 DLIS 要用 `dlisio`，装在被忽略的 `cache/deps/`，不上传。
+- **测井**：`WLC_COMPOSITE_1.DLIS` 中的 AC（DTC，MD 2575.9–4522.4 m）和 DEN（MD 2577.0–4539.0 m）。用 `dlisio` 1.0.4 读取（装在被忽略的 `cache/deps/`，不上传），脚本 `extract_logs.py` → `inputs/logs_md.csv`。
 - **地面地震**：ST0202R08 MIG_RAW，与实验 5 是同一个文件（SHA-256 22dbd614…），没有做反 Q 补偿。F-11 的全部检波点离最近面元不超过 17 m（中位数 10 m）；井位范围为 inline 10141–10217、xline 2202–2312，与 F-15A（inline 10085–10139）不重叠。
 
 ## E6-1：从 VSP 估 Q
@@ -51,7 +56,7 @@
 
 - **段 RS**：RSVSP 原始叠加中 MD ≤ 2228.8 m 的 98 级（直线入射角都 ≤ 12.5°）。
 - **段 NI**：NIVSP 的全部 152 级。
-- 剔除规则：先按原始叠加和初至时间剔除死道、明显的跳道（相邻两级初至的单程时差 < 0，或者 > 3 倍中位数）。剔除在看频谱之前完成，剔除清单写入 `analysis/`。
+- 剔除规则（在计算频谱之前，只用道的均方根和初至）：均方根为 0 的死道剔除；然后按 MD 由浅到深，与上一个保留级比较，初至单程时差 < 0 或 > 3 倍（全段相邻时差的中位数）的级剔除。剔除的道号写入 `analysis/vsp_q.json`。参照级为剔除后段内最浅的一级。
 
 ### 时窗、频谱与频带（与实验 5 相同）
 
@@ -69,23 +74,25 @@
   1. R²_k 的中位数 ≥ 0.5；
   2. 斜率的 90% 区间下限 > 0；
   3. Q_CFS/Q_seg 在 [0.5, 2] 之间，并且频带宽度合格。
+- 描述性（不进门槛）：Δt\*_k 对 Δτ_k 回归的 R²。
 
 ### 顶层 Q（以震源子波为参照）
 
 - 参照谱：段 RS 最浅一级对应各炮的近场水听器道（`VSPRS_RAW_1`）。降采样到 1 ms（抗混叠为 0.8–1.0 倍新奈奎斯特频率之间的余弦滚降），以主峰对齐，中值叠加，时窗与检波器相同。
 - 虚反射校正 |1 − exp(−i2πf·2d/v)|，d = 5.63 m（道头 C14，实测平均枪深），v = 1480 m/s。
-- 在段 RS 的频带内拟合 ln(A/S) = c − πf·t*_top，Q_top = τ_ref / t*_top。按炮重采样 2000 次。
+- 在段 RS 的频带内拟合 ln(A/S) = c − πf·t*_top，Q_top = τ_ref / t*_top，τ_ref 为参照级的初至（字节 233）。按炮重采样 2000 次（种子 20261027）。
 - **G1b**：t*_top 的 90% 区间下限 > 0，并且 R² ≥ 0.5。不通过时 Q_top 取 Q_RS，在结果中注明。
 
 ### Q 模型（4 层）
 
 | 层 | 双程时范围 | Q_VSP |
 |---|---|---|
-| 1 | 0 – T_RS（段 RS 最浅一级，MD 689.6 m，承包商垂直双程时 0.712 s） | Q_top |
-| 2 | T_RS – T_NI（NIVSP 最浅一级，2.053 s） | Q_RS |
-| 3 | T_NI – 2.823 s | Q_NI |
+| 1 | 0 – T_RS（段 RS 参照级的垂直双程时，MD 689.6 m 时约 0.712 s） | Q_top |
+| 2 | T_RS – T_NI（段 NI 参照级，MD 2228.75 m 时约 2.053 s） | Q_RS |
+| 3 | T_NI – T_bot（段 NI 最深一级，MD 4530.03 m，2.823 s） | Q_NI |
 | 4 | 2.823 s 以下 | Q_NI |
 
+- 边界时间由承包商合并时深表 `TZV_TIME_CHECKSHOT_3.ASC` 按 MD 线性插值得到（垂直双程时）；各层速度取相邻边界的 TVD 差除以单程时差，第 1 层为 TVD/单程时，第 4 层取第 3 层的值；厚度 h = vp·Δt/2。零偏移时吸收只取决于边界时间。
 - 某一段 G1 不通过时，该段仍用估计值，但所有用到 Q_VSP 的比较都只作描述（与实验 5 相同）。
 - 如果某段的斜率 ≤ 0 或不是有限值，用另一段的值代替，并注明。两段都无效时，V 系列不可执行。
 
@@ -111,7 +118,7 @@
 
 ### F-15A 补算（只作描述）
 
-在实验 5 已归档的 `inputs/curtain.mat` 和 `analysis/vsp_q.json`（Q_VSP，四层都是 128）上，加跑 SC 和 QScan＋SC（V0、V±30、V±50、R0）。评价沿用实验 5 的 `score_field.m`，不重算 Standard 和 QScan_Standard。
+在实验 5 已归档的 `inputs/curtain.mat` 和各运行的 `results/*.mat`（提交 609ddcd）上，加跑 SC 和 QScan＋SC（V0、V±30、V±50、R0）。每个运行的 Q 与 QScan 因子都取自归档结果；SC 用该 Q，QScan＋SC 用 Q × 因子。评价用 `score_f15a.m`：实验 5 归档的 `references.mat`（ref1、ref2、w1、w2）、curtain 的评价道和 6–70 Hz 滤波，与实验 5 完全相同。先用同一代码重算归档的 Input、Standard、QScan_Standard，必须与实验 5 的 `scores.csv` 一致（差 < 1e-9），否则停止。
 
 ## 评价（以井为参照）
 
@@ -121,7 +128,7 @@
   - 走廊叠加乘以 −1 后，按 4 ms 取样。
   - 时窗为走廊叠加非零区间两端各缩 20 ms，再与 [1.25, 2.95] s 取交集。
   - 允许 ±20 ms 整体时移（1 ms 步长，线性插值），取最大 Pearson 相关。
-- **T2（次指标）**：用 AC、DEN 算波阻抗和反射系数。深度转时间用承包商的合并时深表 `TZV_TIME_CHECKSHOT_3.ASC`。RC 与 Ricker(f_p) 在 1 ms 上褶积，降采样到 4 ms。时窗为测井有效区间对应的双程时两端各缩 20 ms，时移规则同 T1。
+- **T2（次指标）**：波阻抗 Z = DEN × 304800 / AC（AC 与 DEN 都有效的样点）。MD 按 `TZV_TIME_CHECKSHOT_3.ASC` 线性插值为垂直双程时；按 1 ms 分箱，箱内取 ln Z 的平均，空箱按 ln Z 线性插值；RC 为相邻两箱的 (Z₂−Z₁)/(Z₂+Z₁)。RC 与 Ricker(f_p) 在 1 ms 上褶积，线性插值到 4 ms，输出不另外滤波。时窗为有效箱的时间范围两端各缩 20 ms，再与 [1.25, 2.95] s 取交集；时移规则同 T1。
 - **T1′（敏感性）**：把 CORR65_W1 换成 CORR65_W3 计算 T1，只作描述。Input 的 |T1 − T1′| 作为“同一口井两种合理参照之间的差距”，用来衡量 0.02 阈值是否在分辨力之内。
 - **极性核对**：Input 的 T1 或 T2 为负时，标注“可能存在极性问题”，判定照常。
 
@@ -146,7 +153,24 @@
 - F-15A 补算的 SC、QScan＋SC 的 T1、T2，与 F-11 并列；
 - 2.0–3.0 s 内 60–100 Hz 与输入的能量比，以及 5%–95% 能量频带；
 - Input 的常相位扫描（−90° 到 +90°，5° 步长）：T1 的最大值及对应相位；
-- RSVSP 走廊叠加的 T1（1.25–2.0 s）。
+- RSVSP 走廊叠加 CORR80_W1（经同一 6–65 Hz 滤波、乘以 −1）在 1.25–2.0 s 的 T1。
+- 评价同时给出 Combo 的其余 4 个输出（FullCalRefit、QScanRefit、SoftGroupRefit、QScan_Soft）的分数，只作描述。
+
+## 运行顺序
+
+```
+python scripts/snapshot_inputs.py
+python scripts/extract_logs.py
+python scripts/run_stage.py vsp_q
+python scripts/run_stage.py prep_line
+python scripts/run_stage.py run_field V0 Vm50 Vm30 Vp30 Vp50
+python scripts/run_sc.py F11
+python scripts/run_sc.py F15A
+python scripts/run_stage.py score_field
+python scripts/run_stage.py score_f15a
+```
+
+MATLAB R2024B，4 线程；Python 3.12（scipy 取自 `novelty_evidence_20261025/cache/deps`）。代码错误只能按“运行前补充”的方式修正，并在结果中逐条说明。
 
 ## 边界
 
