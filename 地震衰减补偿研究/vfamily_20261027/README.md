@@ -11,6 +11,7 @@
 - `scripts/run_matlab.py`：`make_scenes`、`stage_dev`、`run_combo3`。
 - `scripts/run_sc.py`：SC、QScan＋SC。
 - `scripts/score.py` → `analysis/rows.csv`、`analysis/decisions.json`。
+- `scripts/plot_gathers.py` → `figures/`（运行后补画，2026-10-28）：`overview.png` 为 9 个场景的观测道集（Moderate 噪声）与真值目标；`W1.png`…`X3.png` 每个场景一张，上排 Q 正确（观测、真值、标准版、SC），下排 Q −30%（FullCalRefit、QScanRefit、QScan＋标准版、QScan＋SC）。除观测外共用真值目标的色标，标题中的相对误差逐项与 `rows.csv` 核对一致。需要 matplotlib（本地装在 `cache/plotdeps`，不上传）。
 
 ## 运行
 

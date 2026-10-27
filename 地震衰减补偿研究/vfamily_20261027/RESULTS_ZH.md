@@ -63,4 +63,5 @@
 
 - `models/`、`truth/`：W1–W6、X1–X3（LFS）；`logs/MODEL_HASHES.json` 记录 18 个哈希。
 - `analysis/rows.csv`（54 行）、`analysis/decisions.json`。
+- `figures/`：道集图（运行后补画）。看图后的事后观察，未预登记、未检验：W1 上 SC 把断层两侧的同相轴连得更平滑，Q 正确时 SC 在断层两侧 11 道的单道平方误差是其余道的 2.36 倍，标准版为 1.12 倍。W 类在 Q −30% 时 QScan 选出的因子 1.427 几乎正好抵消误差，所以下排的 QScan＋标准版、QScan＋SC 与上排的标准版、SC 几乎相同。
 - `logs/`：生成、方法、SC 和评分日志。
