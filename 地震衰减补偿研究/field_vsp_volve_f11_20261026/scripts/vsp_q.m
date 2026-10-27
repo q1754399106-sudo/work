@@ -12,7 +12,7 @@ NI=segment(P,fullfile(raw,'VSPNI_COMPUTED_1.SEGY'),ni,'NI');
 recs=RS.ref_level.nfh_records(:)';cols=arrayfun(@(r)find(rec==r,1),recs);assert(numel(cols)==numel(recs));
 dt=RS.dt;step=round(dt/dtn);segs=zeros(100,numel(cols));
 for q=1:numel(cols)
- x=decimate_fft(N(:,cols(q)),step);[~,pk]=max(abs(x));segs(:,q)=x(pk-10:pk+89);
+ x=[zeros(10,1);decimate_fft(N(:,cols(q)),step)];[~,pk]=max(abs(x));segs(:,q)=x(pk-10:pk+89); % addendum 1
 end
 ghost=abs(1-exp(-1i*2*pi*f*2*5.63/1480));sref=RS.sig(:,RS.ref);good=RS.good;band=f(good);
 [bt,r2top]=top_fit(segs,band,good,sref,w,nf,ghost);tstar_top=-bt(2)/pi;
