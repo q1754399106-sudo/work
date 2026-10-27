@@ -1,6 +1,6 @@
 # V 场景家族的新种子复验
 
-**状态：方案已冻结，尚未运行。** 方案见 [PLAN_ZH.md](PLAN_ZH.md)，运行前哈希见 `PRE_RUN_HASHES.txt`。
+**状态：已完成。** 结果见 [RESULTS_ZH.md](RESULTS_ZH.md)：W、X 两类都复现了翻转（标准版一侧稳定更好），支持“场景家族”解释。方案见 [PLAN_ZH.md](PLAN_ZH.md)，运行前哈希见 `PRE_RUN_HASHES.txt`。
 
 上游：`qscan_sc_round3_20261026`（V4/V5 上标准版一侧更好）、`generator_factors_20261026`（三项可分离的生成器差别都不能复现这个翻转）。本轮用 V4/V5 的原始生成代码和全新种子，生成 6 个层状模板类场景 W1–W6 和 3 个复杂地质类场景 X1–X3，检验标准版的优势会不会在同家族的新场景上重现。
 

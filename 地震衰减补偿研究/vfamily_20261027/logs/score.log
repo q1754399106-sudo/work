@@ -1,0 +1,12 @@
+W1: QScan+SC/QScan+Std 1.427  SC/Std 1.497
+W2: QScan+SC/QScan+Std 1.182  SC/Std 1.223
+W3: QScan+SC/QScan+Std 1.577  SC/Std 1.684
+W4: QScan+SC/QScan+Std 1.217  SC/Std 1.268
+W5: QScan+SC/QScan+Std 1.425  SC/Std 1.499
+W6: QScan+SC/QScan+Std 1.383  SC/Std 1.463
+X1: QScan+SC/QScan+Std 1.190  SC/Std 1.153
+X2: QScan+SC/QScan+Std 1.061  SC/Std 1.066
+X3: QScan+SC/QScan+Std 1.196  SC/Std 1.188
+W: P1 Standard side (ratio 1.310, SC side wins 1/24) | P2 Standard side (ratio 1.368, 0/12) -> reproduced the reversal
+X: P1 Standard side (ratio 1.142, SC side wins 0/12) | P2 Standard side (ratio 1.132, 0/6) -> reproduced the reversal
+overall: supports the scene-family explanation

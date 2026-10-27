@@ -1,0 +1,27 @@
+{
+  "stage": "run_combo3",
+  "args": [
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "started_utc": "2026-10-27T15:15:09.085258+00:00",
+  "command": [
+    "D:\\Program Files (x86)\\MATLAB2024B\\bin\\matlab.exe",
+    "-wait",
+    "-nojvm",
+    "-batch",
+    "addpath('D:/ChatGPT/\u7814\u7a76/\u5730\u9707\u8870\u51cf\u8865\u507f\u7814\u7a76/vfamily_20261027/cache/runner');run_combo3({'W1','W2','W3','W4','W5','W6','X1','X2','X3'});"
+  ],
+  "timeout_seconds": 28800,
+  "status": "COMPLETED",
+  "pid": 37808,
+  "exit_code": 0,
+  "elapsed_seconds": 1891.344
+}

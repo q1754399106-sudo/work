@@ -1,0 +1,13 @@
+X3 Moderate Q-30 SC factor 1.4267: iter 4325 KKT 0.0200 conv True 224s (total 226s)
+X3 Moderate Q-30 QSC factor 1.4267: iter 3250 KKT 0.0184 conv True 137s (total 365s)
+X3 Moderate Q+0 SC factor 1.0310: iter 3925 KKT 0.0182 conv True 155s (total 522s)
+X3 Moderate Q+0 QSC factor 1.0310: iter 3300 KKT 0.0197 conv True 123s (total 646s)
+X3 Moderate Q+30 SC factor 0.7451: iter 2225 KKT 0.0197 conv True 86s (total 733s)
+X3 Moderate Q+30 QSC factor 0.7451: iter 3175 KKT 0.0183 conv True 122s (total 856s)
+X3 Strong Q-30 SC factor 1.2803: iter 2975 KKT 0.0165 conv True 117s (total 975s)
+X3 Strong Q-30 QSC factor 1.2803: iter 3050 KKT 0.0199 conv True 122s (total 1098s)
+X3 Strong Q+0 SC factor 0.9252: iter 2000 KKT 0.0190 conv True 86s (total 1185s)
+X3 Strong Q+0 QSC factor 0.9252: iter 3025 KKT 0.0138 conv True 107s (total 1294s)
+X3 Strong Q+30 SC factor 0.7451: iter 2025 KKT 0.0195 conv True 72s (total 1366s)
+X3 Strong Q+30 QSC factor 0.7451: iter 2000 KKT 0.0192 conv True 70s (total 1437s)
+DONE X3
