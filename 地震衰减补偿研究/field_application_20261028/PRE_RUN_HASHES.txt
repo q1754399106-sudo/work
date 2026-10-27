@@ -1,0 +1,6 @@
+Frozen 2026-10-28 before any field run. SHA-256:
+a9fb5f4c3a00621715ad5dc6abfb7e285decb3ae8f1e694473496de6462d32e6 *PLAN_ZH.md
+d2e1f311c82790f69b5088faf28748c21435b9292f35ebacec630150344aa115 *scripts/lib.py
+ec0f059c036cffadf8d36ecc00416dd168a3df5d9a80c019b2b3e6bbddb27418 *scripts/run.py
+579c5dfd93ee568f0ca964d684e3d043675a4aef7ee456f495022c9652693de8 *scripts/snapshot_inputs.py
+27874ef17f393b0c2a931954d1205d61f8ffa9d234f8631741ba57c8f60ee5c6 *scripts/test_lib.py
