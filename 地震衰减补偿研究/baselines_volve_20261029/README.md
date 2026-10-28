@@ -15,3 +15,4 @@
 - `scripts/run12.py`：检验集 T（20 个，全新）。输出 `results/synth/`，输出道存在本地 `cache/out/`。
 - `scripts/analyze12.py`：判定，输出 `analysis/summary.json`。
 - `scripts/figures12.py`：出图，输出 `figures/`。
+- `RESULTS_ZH.md`：结果（2026-10-29）。五项判定全部不成立：调好参数的 SC-a 和稳定化反 Q 都明显胜过改进方案，"振幅、相位用不同 Q"在调好的基线上没有增益。

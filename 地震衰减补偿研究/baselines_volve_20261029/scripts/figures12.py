@@ -22,7 +22,7 @@ S = json.loads((ROOT / "analysis" / "summary.json").read_text(encoding="utf-8"))
 SEL = json.loads((ROOT / "analysis" / "dev_selection.json").read_text(encoding="utf-8"))
 STYLE = {"SRSCa_1.3+ph": ("改进方案（实验 11 冻结）", BLUE, "o"),
          "SCaK": (f"调好 a 的 SC-a＋解耦（k={SEL['SCaK']['k'] if SEL['SCaK'] else '-'}）", VIOLET, "^"),
-         "B2_SCa": (f"SC-a，调好 a（{SEL['B2']['a']:g}）", ORANGE, "s"),
+         "B2_SCa": (f"SC-a，调好 a（2^{np.log2(SEL['B2']['a']):.0f}）", ORANGE, "s"),
          "B1_IQ": (f"稳定化反 Q（{SEL['B1']['g_db']} dB）", GREEN, "D"),
          "IQd": (f"反 Q＋解耦（k={SEL['IQd']['k']}，{SEL['IQd']['g_db']} dB）", YELLOW, "v"),
          "B3_VDB": ("纯相位反 Q＋时变 Wiener", PINK, "P"),
