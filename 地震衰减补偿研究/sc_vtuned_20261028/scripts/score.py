@@ -34,8 +34,8 @@ for s in EVAL_SCENES:
                     continue
                 for label, key in (("SC", "SC_tuned"), ("QSC", "QScan_SC_tuned")):
                     f = ROOT / "cache/eval" / f"{s}_{n}_Q{e:+d}_{label}_{tag(*pars)}"
-                    info = json.loads(f.with_suffix(".json").read_text(encoding="utf-8"))
-                    X = np.load(f.with_suffix(".npz"))["out"]
+                    info = json.loads(f.with_name(f.name + ".json").read_text(encoding="utf-8"))
+                    X = np.load(f.with_name(f.name + ".npz"))["out"]
                     row[f"rel_{key}{name}"] = float(np.linalg.norm(X - T) / nT)
                     row[f"converged_{key}{name}"] = bool(info["converged"])
             for k in ("SC", "QScan_SC", "Standard", "QScan_Standard", "QScanRefit"):

@@ -77,7 +77,7 @@ def task(job):
     dicts, log = {}, []
     for label, qmult, a, m in items:
         f = ROOT / "cache" / mode / f"{scene}_{noise}_Q{e:+d}_{label}_{tag(a, m)}"
-        if f.with_suffix(".json").exists():
+        if f.with_name(f.name + ".json").exists():
             continue
         q = Q0 * (1 + e / 100) * qmult
         key = tuple(np.round(q, 12))
@@ -92,8 +92,8 @@ def task(job):
         if T is not None:
             info["rel_error"] = float(np.linalg.norm(X - T) / max(np.linalg.norm(T), 1e-30))
         f.parent.mkdir(parents=True, exist_ok=True)
-        np.savez_compressed(f.with_suffix(".npz"), out=X)
-        bm.writejson(f.with_suffix(".json"), info)
+        np.savez_compressed(f.with_name(f.name + ".npz"), out=X)
+        bm.writejson(f.with_name(f.name + ".json"), info)
         log.append(f"{scene} {noise} Q{e:+d} {label} {tag(a, m)}: it {info['iterations']} KKT {info['kkt_ratio']:.4f} "
                    f"conv {info['converged']} {info['seconds']:.0f}s"
                    + (f" err {info['rel_error']:.5f}" if T is not None else ""))
