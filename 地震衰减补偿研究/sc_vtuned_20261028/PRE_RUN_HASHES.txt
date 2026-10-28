@@ -1,0 +1,6 @@
+d2211507befd23eb17d2d34c1b21456bd4a6e19891185e6ac78ba72fd5d76037  PLAN_ZH.md
+175931a25fff076ca9a8fc79a6428cc969891e68a009224dfcb8bd46c4b618c3  scripts/choose.py
+4b82dbe1b680cdecec67ad1e8fe43b2d6e4899ee6a57560a0568c283da449a0c  scripts/run.py
+682036771c9d7558296460ae7b3a4857aef089d0fb512c013befa0237ed4b0f2  scripts/score.py
+repository HEAD: 13e2fa788d273e5c95c988579d827309f066955e
+solver: novelty_evidence_20261025/scripts/benchmark.py a2f593c0..., common.py 17a6f89f... (asserted in run.py)
