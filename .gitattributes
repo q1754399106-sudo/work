@@ -144,3 +144,6 @@
 地震衰减补偿研究/field_application_20261028/** -text
 地震衰减补偿研究/field_application_20261028/**/*.npz filter=lfs diff=lfs merge=lfs -text
 地震衰减补偿研究/field_application_20261028/**/*.png filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/semisynthetic_volve_20261028/** -text
+地震衰减补偿研究/semisynthetic_volve_20261028/**/*.npz filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/semisynthetic_volve_20261028/**/*.png filter=lfs diff=lfs merge=lfs -text
