@@ -1,6 +1,11 @@
-# 实验 9（准备中）：Volve 多井标定
+# 实验 9：Volve 多井标定
 
-目前只完成资料核查，见 `INVENTORY_ZH.md`；方案要等实验 8 的结果后再写并冻结。
+问题：在 8 组互相独立的井上，用 SR 的 Q 做常规反 Q 补偿后，井震相关是否高于不补偿。方案在 `PLAN_ZH.md`，冻结时的哈希在 `PRE_RUN_HASHES.txt`。
 
-- `fetch_volve.sh`、`fetch_list.txt`：从 Volve Data Village 下载 20 口 F 井的组合测井和全工区分层表到 `raw/`；`DATA_LICENCE_ZH.md`：来源与许可；`DOWNLOAD_MANIFEST_SHA256.txt`：校验值。
-- `scripts/inventory.py`：读声波、密度覆盖段，用分层点换算双程时间和井位，查离数据体最近道的距离；输出 `inventory/wells.csv` 和 `inventory/logs/*.csv`。
+- `INVENTORY_ZH.md`：资料核查（13e2fa7）。`fetch_volve.sh`、`fetch_list.txt`、`DATA_LICENCE_ZH.md`、`DOWNLOAD_MANIFEST_SHA256.txt`、`scripts/inventory.py`：下载、许可和核查程序。
+- `scripts/snapshot_inputs.py`：把输入从登记的提交恢复到被忽略的 `cache/inputs/`，并做校验。
+- `scripts/wq.py`：测井时深关系、Gardner 反射系数、井轨迹，以及开发阶段的 WR 估计器。
+- `scripts/synth.py`、`dev.py`、`devsum.py`：开发阶段的半合成井。结果在 `analysis/dev/`、`analysis/dev_summary.json`，日志在 `logs/dev_*.log`。
+- `scripts/tie.py`：多井标定（主检验 H1），输出 `results/tie.json`。
+- `scripts/analyze.py`：判定，输出 `analysis/summary.json`。
+- `scripts/colour.py`：只用测井的 SR 颜色偏差检查，输出 `results/colour.json`。
