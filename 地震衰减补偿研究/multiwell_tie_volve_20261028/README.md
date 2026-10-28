@@ -1,6 +1,8 @@
 # 实验 9：Volve 多井标定
 
-问题：在 8 组互相独立的井上，用 SR 的 Q 做常规反 Q 补偿后，井震相关是否高于不补偿。方案在 `PLAN_ZH.md`，冻结时的哈希在 `PRE_RUN_HASHES.txt`。
+问题：在 8 组互相独立的井上，用 SR 的 Q 做常规反 Q 补偿后，井震相关是否高于不补偿。方案在 `PLAN_ZH.md`（冻结于 a744cfe），冻结时的哈希在 `PRE_RUN_HASHES.txt`。
+
+**结果见 `RESULTS_ZH.md`**：H1 成立，8/8 组为正，平均 +0.25。但时不变滤波同样好，Q 值分不出；单井地层颜色可使 SR 偏 ±25–50%。
 
 - `INVENTORY_ZH.md`：资料核查（13e2fa7）。`fetch_volve.sh`、`fetch_list.txt`、`DATA_LICENCE_ZH.md`、`DOWNLOAD_MANIFEST_SHA256.txt`、`scripts/inventory.py`：下载、许可和核查程序。
 - `scripts/snapshot_inputs.py`：把输入从登记的提交恢复到被忽略的 `cache/inputs/`，并做校验。
@@ -9,3 +11,4 @@
 - `scripts/tie.py`：多井标定（主检验 H1），输出 `results/tie.json`。
 - `scripts/analyze.py`：判定，输出 `analysis/summary.json`。
 - `scripts/colour.py`：只用测井的 SR 颜色偏差检查，输出 `results/colour.json`。
+- `scripts/posthoc_static.py`：事后对照（时不变滤波），输出 `results/posthoc_static.json`。`scripts/figures.py`：`figures/ties.png`、`figures/traces.png`。
