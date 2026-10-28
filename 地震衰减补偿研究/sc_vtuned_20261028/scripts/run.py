@@ -58,6 +58,14 @@ def factors():
     return out
 
 
+def ineligible(a, m):
+    """True once any dev row of candidate (a, m) has failed to converge (it can no longer be selected)."""
+    for p in (ROOT / "cache/dev").glob(f"*_SC_{tag(a, m)}.json"):
+        if not json.loads(p.read_text(encoding="utf-8"))["converged"]:
+            return True
+    return False
+
+
 def task(job):
     """job = (mode, scene, noise, e, [(label, qmult, a, m), ...]); one dictionary per distinct Q."""
     mode, scene, noise, e, items = job
@@ -78,6 +86,8 @@ def task(job):
     for label, qmult, a, m in items:
         f = ROOT / "cache" / mode / f"{scene}_{noise}_Q{e:+d}_{label}_{tag(a, m)}"
         if f.with_name(f.name + ".json").exists():
+            continue
+        if mode == "dev" and ineligible(a, m):  # RUN_NOTES_ZH.md: already out under the convergence rule
             continue
         q = Q0 * (1 + e / 100) * qmult
         key = tuple(np.round(q, 12))

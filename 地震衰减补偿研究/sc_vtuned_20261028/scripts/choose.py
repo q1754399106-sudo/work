@@ -30,20 +30,24 @@ def summarise(cands):
             for e in DEV_ERRORS:
                 for n in NOISES:
                     f = ROOT / "cache/dev" / f"{s}_{n}_Q{e:+d}_SC_{tag(a, m)}.json"
-                    rows.append(json.loads(f.read_text(encoding="utf-8")))
-        assert len(rows) == 30
+                    if f.exists():  # RUN_NOTES_ZH.md: ineligible candidates were not run to completion
+                        rows.append(json.loads(f.read_text(encoding="utf-8")))
+        n_conv = sum(r["converged"] for r in rows)
+        assert len(rows) == 30 or n_conv < len(rows), (a, m, "incomplete but still eligible")
+        mean = lambda v: sum(v) / len(v) if v else None
         err = [r["rel_error"] for r in rows]
         mid = [r["rel_error"] for r in rows if r["q_error"] in (-10, 0, 10)]
         q0 = [r["rel_error"] for r in rows if r["q_error"] == 0]
-        table.append(dict(a=a, mu_relative=m, mean_error=sum(err) / 30, mean_error_q_mid=sum(mid) / len(mid),
-                          mean_error_q0=sum(q0) / len(q0), n_converged=sum(r["converged"] for r in rows),
-                          per_scene={s: sum(r["rel_error"] for r in rows if r["scene"] == s) / 10 for s in DEV_SCENES},
+        table.append(dict(a=a, mu_relative=m, n_rows=len(rows), complete=len(rows) == 30,
+                          mean_error=mean(err), mean_error_q_mid=mean(mid), mean_error_q0=mean(q0),
+                          n_converged=n_conv, eligible=len(rows) == 30 and n_conv == 30,
+                          per_scene={s: mean([r["rel_error"] for r in rows if r["scene"] == s]) for s in DEV_SCENES},
                           max_iterations=max(r["iterations"] for r in rows)))
     return table
 
 
 def pick(table, key):
-    ok = [t for t in table if t["n_converged"] == 30]
+    ok = [t for t in table if t["eligible"]]
     if not ok:  # PLAN 失败处理
         top = max(t["n_converged"] for t in table)
         ok = [t for t in table if t["n_converged"] == top]
@@ -52,12 +56,14 @@ def pick(table, key):
 
 table = summarise(cands)
 prim, sec = pick(table, "mean_error"), pick(table, "mean_error_q_mid")
-print(f"{'a':>9} {'mu':>7} {'mean30':>8} {'mid18':>8} {'Q0':>8} conv  maxit")
+print(f"{'a':>9} {'mu':>7} {'mean':>8} {'mid':>8} {'Q0':>8} rows conv  maxit")
+fmt = lambda v: f"{v:8.5f}" if v is not None else f"{'-':>8}"
 for t in sorted(table, key=lambda t: (t["a"], t["mu_relative"])):
     mark = " <- primary" if t is prim else ""
     mark += " <- secondary" if t is sec else ""
-    print(f"{t['a']:9.6g} {t['mu_relative']:7g} {t['mean_error']:8.5f} {t['mean_error_q_mid']:8.5f} "
-          f"{t['mean_error_q0']:8.5f} {t['n_converged']:4d} {t['max_iterations']:6d}{mark}")
+    print(f"{t['a']:9.6g} {t['mu_relative']:7g} {fmt(t['mean_error'])} {fmt(t['mean_error_q_mid'])} "
+          f"{fmt(t['mean_error_q0'])} {t['n_rows']:4d} {t['n_converged']:4d} {t['max_iterations']:6d}{mark}"
+          + ("" if t["eligible"] else "  (ineligible)"))
 
 if not final:
     assert not ext_file.exists(), "extension already decided"
