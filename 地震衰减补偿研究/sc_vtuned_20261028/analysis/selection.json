@@ -1,0 +1,462 @@
+{
+  "primary": {
+    "a": 0.5,
+    "mu_relative": 1.0,
+    "mean_error": 0.4405751955203259
+  },
+  "secondary": {
+    "a": 0.5,
+    "mu_relative": 0.1,
+    "mean_error_q_mid": 0.3296562542040913
+  },
+  "original": {
+    "a": 0.125,
+    "mu_relative": 10.0
+  },
+  "original_on_dev": {
+    "a": 0.125,
+    "mu_relative": 10.0,
+    "n_rows": 30,
+    "complete": true,
+    "mean_error": 0.475332152232347,
+    "mean_error_q_mid": 0.3535946835047351,
+    "mean_error_q0": 0.32982337403207357,
+    "n_converged": 30,
+    "eligible": true,
+    "per_scene": {
+      "V1": 0.3468943258790661,
+      "V2": 0.34034199640097135,
+      "V3": 0.7387601344170036
+    },
+    "max_iterations": 4000
+  },
+  "candidates": [
+    {
+      "a": 0.03125,
+      "mu_relative": 1.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.5537203199609458,
+      "mean_error_q_mid": 0.40572708246220646,
+      "mean_error_q0": 0.381330450492595,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.450901049221849,
+        "V2": 0.4527349091923768,
+        "V3": 0.7575250014686118
+      },
+      "max_iterations": 3325
+    },
+    {
+      "a": 0.03125,
+      "mu_relative": 10.0,
+      "n_rows": 6,
+      "complete": false,
+      "mean_error": 0.7876945186478993,
+      "mean_error_q_mid": 0.6327517731387651,
+      "mean_error_q0": 0.6451660471556846,
+      "n_converged": 2,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.7876945186478993
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.03125,
+      "mu_relative": 100.0,
+      "n_rows": 6,
+      "complete": false,
+      "mean_error": 0.8176923829750811,
+      "mean_error_q_mid": 0.7223591921013033,
+      "mean_error_q0": 0.7333358462166064,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8176923829750811
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.03125,
+      "mu_relative": 1000.0,
+      "n_rows": 6,
+      "complete": false,
+      "mean_error": 0.8862473129838634,
+      "mean_error_q_mid": 0.8198276974011335,
+      "mean_error_q0": 0.8260898029539459,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8862473129838634
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.0625,
+      "mu_relative": 1.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.5202824718931972,
+      "mean_error_q_mid": 0.37846136194502006,
+      "mean_error_q0": 0.354285030835902,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.4158700683894169,
+        "V2": 0.4130754372421362,
+        "V3": 0.7319019100480386
+      },
+      "max_iterations": 3200
+    },
+    {
+      "a": 0.0625,
+      "mu_relative": 10.0,
+      "n_rows": 4,
+      "complete": false,
+      "mean_error": 0.8268325964996613,
+      "mean_error_q_mid": 0.6099166717267548,
+      "mean_error_q0": null,
+      "n_converged": 3,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8268325964996613
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.0625,
+      "mu_relative": 100.0,
+      "n_rows": 4,
+      "complete": false,
+      "mean_error": 0.834919475862752,
+      "mean_error_q_mid": 0.7050004115446623,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.834919475862752
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.0625,
+      "mu_relative": 1000.0,
+      "n_rows": 4,
+      "complete": false,
+      "mean_error": 0.8955705519268917,
+      "mean_error_q_mid": 0.8088858799588805,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8955705519268917
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 1.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.4858508984872373,
+      "mean_error_q_mid": 0.35184850899416964,
+      "mean_error_q0": 0.3278055142237302,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.37762276059986194,
+        "V2": 0.37004223907939804,
+        "V3": 0.7098876957824518
+      },
+      "max_iterations": 1725
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 10.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.475332152232347,
+      "mean_error_q_mid": 0.3535946835047351,
+      "mean_error_q0": 0.32982337403207357,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.3468943258790661,
+        "V2": 0.34034199640097135,
+        "V3": 0.7387601344170036
+      },
+      "max_iterations": 4000
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 100.0,
+      "n_rows": 4,
+      "complete": false,
+      "mean_error": 0.8109182381583475,
+      "mean_error_q_mid": 0.7018776208446358,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8109182381583475
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 1000.0,
+      "n_rows": 4,
+      "complete": false,
+      "mean_error": 0.8762040235829305,
+      "mean_error_q_mid": 0.8065457401737857,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8762040235829305
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 1.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.45372681393217035,
+      "mean_error_q_mid": 0.3303726671176523,
+      "mean_error_q0": 0.3075356235243137,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.340719446960491,
+        "V2": 0.32833736141504033,
+        "V3": 0.6921236334209796
+      },
+      "max_iterations": 1600
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 10.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.4573724211933954,
+      "mean_error_q_mid": 0.3460679787818416,
+      "mean_error_q0": 0.3247661632072632,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.3260315739882775,
+        "V2": 0.3185494010555233,
+        "V3": 0.7275362885363853
+      },
+      "max_iterations": 3025
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 100.0,
+      "n_rows": 4,
+      "complete": false,
+      "mean_error": 0.7878626329322733,
+      "mean_error_q_mid": 0.7029301944428155,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.7878626329322733
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 1000.0,
+      "n_rows": 4,
+      "complete": false,
+      "mean_error": 0.8581698522854933,
+      "mean_error_q_mid": 0.8072158899964235,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8581698522854933
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 1.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.4405751955203259,
+      "mean_error_q_mid": 0.3342350492301354,
+      "mean_error_q0": 0.31678129459154875,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.3247577589320382,
+        "V2": 0.3129867812130411,
+        "V3": 0.6839810464158985
+      },
+      "max_iterations": 900
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 10.0,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.4575255622055902,
+      "mean_error_q_mid": 0.363260122041863,
+      "mean_error_q0": 0.34808850065786984,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.32682247156021205,
+        "V2": 0.32241351525493844,
+        "V3": 0.7233406998016202
+      },
+      "max_iterations": 1975
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 100.0,
+      "n_rows": 2,
+      "complete": false,
+      "mean_error": 0.8294953028455061,
+      "mean_error_q_mid": null,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8294953028455061
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 1000.0,
+      "n_rows": 2,
+      "complete": false,
+      "mean_error": 0.8753961639907009,
+      "mean_error_q_mid": null,
+      "mean_error_q0": null,
+      "n_converged": 0,
+      "eligible": false,
+      "per_scene": {
+        "V1": null,
+        "V2": null,
+        "V3": 0.8753961639907009
+      },
+      "max_iterations": 5000
+    },
+    {
+      "a": 0.03125,
+      "mu_relative": 0.1,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.6166069538106587,
+      "mean_error_q_mid": 0.4611277409091563,
+      "mean_error_q0": 0.4376599836251383,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.5319319732939937,
+        "V2": 0.5451670648962478,
+        "V3": 0.7727218232417348
+      },
+      "max_iterations": 3075
+    },
+    {
+      "a": 0.0625,
+      "mu_relative": 0.1,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.5632793388441439,
+      "mean_error_q_mid": 0.414999498092188,
+      "mean_error_q0": 0.3919424462376906,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.47521242704418254,
+        "V2": 0.48176376575916047,
+        "V3": 0.7328618237290889
+      },
+      "max_iterations": 2050
+    },
+    {
+      "a": 0.125,
+      "mu_relative": 0.1,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.5117511934996846,
+      "mean_error_q_mid": 0.37194147605847244,
+      "mean_error_q0": 0.3489477439761854,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.41696925896866255,
+        "V2": 0.4151225766394246,
+        "V3": 0.7031617448909666
+      },
+      "max_iterations": 1700
+    },
+    {
+      "a": 0.25,
+      "mu_relative": 0.1,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.46491664404957983,
+      "mean_error_q_mid": 0.33615205936180265,
+      "mean_error_q0": 0.31332155432430403,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.36188079025174835,
+        "V2": 0.35106919531479697,
+        "V3": 0.6817999465821942
+      },
+      "max_iterations": 875
+    },
+    {
+      "a": 0.5,
+      "mu_relative": 0.1,
+      "n_rows": 30,
+      "complete": true,
+      "mean_error": 0.4410167412888987,
+      "mean_error_q_mid": 0.3296562542040913,
+      "mean_error_q0": 0.3109394362157522,
+      "n_converged": 30,
+      "eligible": true,
+      "per_scene": {
+        "V1": 0.3314886192805541,
+        "V2": 0.31886452289891654,
+        "V3": 0.6726970816872251
+      },
+      "max_iterations": 625
+    }
+  ],
+  "n_candidates": 25,
+  "frozen": true
+}
