@@ -1,0 +1,417 @@
+{
+  "selection": {
+    "primary": {
+      "a": 0.5,
+      "mu_relative": 1.0,
+      "mean_error": 0.4405751955203259
+    },
+    "secondary": {
+      "a": 0.5,
+      "mu_relative": 0.1,
+      "mean_error_q_mid": 0.3296562542040913
+    }
+  },
+  "classes": {
+    "W": {
+      "P1_Q_wrong": {
+        "stable_side": "none",
+        "sc_side": {
+          "mean_a": 0.14027523851547674,
+          "mean_b": 0.1358004578041692,
+          "mean_ratio": 1.032951145995107,
+          "wins": 9,
+          "n": 24,
+          "worst_ratio": 1.3558484945556601,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.1358004578041692,
+          "mean_b": 0.14027523851547674,
+          "mean_ratio": 0.9680999957037048,
+          "wins": 15,
+          "n": 24,
+          "worst_ratio": 1.1313332314668134,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        }
+      },
+      "P2_Q_correct": {
+        "stable_side": "Standard side",
+        "sc_side": {
+          "mean_a": 0.14684702310434805,
+          "mean_b": 0.13077843470375783,
+          "mean_ratio": 1.122868792832619,
+          "wins": 0,
+          "n": 12,
+          "worst_ratio": 1.3658531150787478,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.13077843470375783,
+          "mean_b": 0.14684702310434805,
+          "mean_ratio": 0.8905760017404504,
+          "wins": 12,
+          "n": 12,
+          "worst_ratio": 0.9794595905477366,
+          "c1_mean": true,
+          "c2_wins": true,
+          "c3_worst": true,
+          "stable": true
+        }
+      },
+      "conclusion": "差距缩小但未定",
+      "P1_converged_only": {
+        "stable_side": "none",
+        "sc_side": {
+          "mean_a": 0.14027523851547674,
+          "mean_b": 0.1358004578041692,
+          "mean_ratio": 1.032951145995107,
+          "wins": 9,
+          "n": 24,
+          "worst_ratio": 1.3558484945556601,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.1358004578041692,
+          "mean_b": 0.14027523851547674,
+          "mean_ratio": 0.9680999957037048,
+          "wins": 15,
+          "n": 24,
+          "worst_ratio": 1.1313332314668134,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        }
+      },
+      "P2_converged_only": {
+        "stable_side": "Standard side",
+        "sc_side": {
+          "mean_a": 0.14684702310434805,
+          "mean_b": 0.13077843470375783,
+          "mean_ratio": 1.122868792832619,
+          "wins": 0,
+          "n": 12,
+          "worst_ratio": 1.3658531150787478,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.13077843470375783,
+          "mean_b": 0.14684702310434805,
+          "mean_ratio": 0.8905760017404504,
+          "wins": 12,
+          "n": 12,
+          "worst_ratio": 0.9794595905477366,
+          "c1_mean": true,
+          "c2_wins": true,
+          "c3_worst": true,
+          "stable": true
+        }
+      },
+      "describe": {
+        "P1_gap": {
+          "ratio_archived": 1.3099177552526158,
+          "ratio_tuned": 1.032951145995107,
+          "gap_closed": 0.8936777727747531
+        },
+        "P2_gap": {
+          "ratio_archived": 1.3683951922236655,
+          "ratio_tuned": 1.122868792832619,
+          "gap_closed": 0.6664755799581087
+        },
+        "tuned_over_archived_SC_Qcorrect": 0.81198158405968,
+        "tuned_over_archived_QSC_Qwrong": 0.7789777201945931
+      },
+      "secondary_report_only": {
+        "P1": {
+          "stable_side": "none",
+          "sc_side": {
+            "mean_a": 0.1375439341712388,
+            "mean_b": 0.1358004578041692,
+            "mean_ratio": 1.0128385161232947,
+            "wins": 11,
+            "n": 24,
+            "worst_ratio": 1.1927704172897498,
+            "c1_mean": false,
+            "c2_wins": false,
+            "c3_worst": false,
+            "stable": false
+          },
+          "standard_side": {
+            "mean_a": 0.1358004578041692,
+            "mean_b": 0.1375439341712388,
+            "mean_ratio": 0.987324222056212,
+            "wins": 13,
+            "n": 24,
+            "worst_ratio": 1.1572336946896213,
+            "c1_mean": false,
+            "c2_wins": false,
+            "c3_worst": false,
+            "stable": false
+          }
+        },
+        "P2": {
+          "stable_side": "Standard side",
+          "sc_side": {
+            "mean_a": 0.1433458769093313,
+            "mean_b": 0.13077843470375783,
+            "mean_ratio": 1.0960972061949013,
+            "wins": 0,
+            "n": 12,
+            "worst_ratio": 1.2003522157050046,
+            "c1_mean": false,
+            "c2_wins": false,
+            "c3_worst": false,
+            "stable": false
+          },
+          "standard_side": {
+            "mean_a": 0.13077843470375783,
+            "mean_b": 0.1433458769093313,
+            "mean_ratio": 0.9123278431403885,
+            "wins": 12,
+            "n": 12,
+            "worst_ratio": 0.9574867252528154,
+            "c1_mean": true,
+            "c2_wins": true,
+            "c3_worst": true,
+            "stable": true
+          }
+        }
+      }
+    },
+    "X": {
+      "P1_Q_wrong": {
+        "stable_side": "Standard side",
+        "sc_side": {
+          "mean_a": 0.5962390199911964,
+          "mean_b": 0.5537945416280886,
+          "mean_ratio": 1.076643005975332,
+          "wins": 0,
+          "n": 12,
+          "worst_ratio": 1.1355397541542198,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.5537945416280886,
+          "mean_b": 0.5962390199911964,
+          "mean_ratio": 0.9288129811367687,
+          "wins": 12,
+          "n": 12,
+          "worst_ratio": 0.978151880480527,
+          "c1_mean": true,
+          "c2_wins": true,
+          "c3_worst": true,
+          "stable": true
+        }
+      },
+      "P2_Q_correct": {
+        "stable_side": "Standard side",
+        "sc_side": {
+          "mean_a": 0.6345460354797482,
+          "mean_b": 0.5887240719431316,
+          "mean_ratio": 1.077832665114877,
+          "wins": 0,
+          "n": 6,
+          "worst_ratio": 1.1153664876095792,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.5887240719431316,
+          "mean_b": 0.6345460354797482,
+          "mean_ratio": 0.9277878026580484,
+          "wins": 6,
+          "n": 6,
+          "worst_ratio": 0.9597820959930484,
+          "c1_mean": true,
+          "c2_wins": true,
+          "c3_worst": true,
+          "stable": true
+        }
+      },
+      "conclusion": "调参后仍输",
+      "P1_converged_only": {
+        "stable_side": "Standard side",
+        "sc_side": {
+          "mean_a": 0.5962390199911964,
+          "mean_b": 0.5537945416280886,
+          "mean_ratio": 1.076643005975332,
+          "wins": 0,
+          "n": 12,
+          "worst_ratio": 1.1355397541542198,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.5537945416280886,
+          "mean_b": 0.5962390199911964,
+          "mean_ratio": 0.9288129811367687,
+          "wins": 12,
+          "n": 12,
+          "worst_ratio": 0.978151880480527,
+          "c1_mean": true,
+          "c2_wins": true,
+          "c3_worst": true,
+          "stable": true
+        }
+      },
+      "P2_converged_only": {
+        "stable_side": "Standard side",
+        "sc_side": {
+          "mean_a": 0.6345460354797482,
+          "mean_b": 0.5887240719431316,
+          "mean_ratio": 1.077832665114877,
+          "wins": 0,
+          "n": 6,
+          "worst_ratio": 1.1153664876095792,
+          "c1_mean": false,
+          "c2_wins": false,
+          "c3_worst": false,
+          "stable": false
+        },
+        "standard_side": {
+          "mean_a": 0.5887240719431316,
+          "mean_b": 0.6345460354797482,
+          "mean_ratio": 0.9277878026580484,
+          "wins": 6,
+          "n": 6,
+          "worst_ratio": 0.9597820959930484,
+          "c1_mean": true,
+          "c2_wins": true,
+          "c3_worst": true,
+          "stable": true
+        }
+      },
+      "describe": {
+        "P1_gap": {
+          "ratio_archived": 1.1419302243197544,
+          "ratio_tuned": 1.076643005975332,
+          "gap_closed": 0.4599951747933331
+        },
+        "P2_gap": {
+          "ratio_archived": 1.1318854832701053,
+          "ratio_tuned": 1.077832665114877,
+          "gap_closed": 0.4098466094598636
+        },
+        "tuned_over_archived_SC_Qcorrect": 0.9525191592726565,
+        "tuned_over_archived_QSC_Qwrong": 0.9429568830750433
+      },
+      "secondary_report_only": {
+        "P1": {
+          "stable_side": "none",
+          "sc_side": {
+            "mean_a": 0.5764324230295085,
+            "mean_b": 0.5537945416280886,
+            "mean_ratio": 1.0408777618769358,
+            "wins": 2,
+            "n": 12,
+            "worst_ratio": 1.0846576116079214,
+            "c1_mean": false,
+            "c2_wins": false,
+            "c3_worst": false,
+            "stable": false
+          },
+          "standard_side": {
+            "mean_a": 0.5537945416280886,
+            "mean_b": 0.5764324230295085,
+            "mean_ratio": 0.9607276057053769,
+            "wins": 10,
+            "n": 12,
+            "worst_ratio": 1.013395042570901,
+            "c1_mean": false,
+            "c2_wins": true,
+            "c3_worst": true,
+            "stable": false
+          }
+        },
+        "P2": {
+          "stable_side": "none",
+          "sc_side": {
+            "mean_a": 0.6143325770559221,
+            "mean_b": 0.5887240719431316,
+            "mean_ratio": 1.043498314971677,
+            "wins": 0,
+            "n": 6,
+            "worst_ratio": 1.0709572386485904,
+            "c1_mean": false,
+            "c2_wins": false,
+            "c3_worst": false,
+            "stable": false
+          },
+          "standard_side": {
+            "mean_a": 0.5887240719431316,
+            "mean_b": 0.6143325770559221,
+            "mean_ratio": 0.9583149159442029,
+            "wins": 6,
+            "n": 6,
+            "worst_ratio": 0.9869531049870949,
+            "c1_mean": false,
+            "c2_wins": true,
+            "c3_worst": true,
+            "stable": false
+          }
+        }
+      }
+    }
+  },
+  "per_scene": {
+    "W1": {
+      "QSC_tuned_over_QStd_Qwrong": 1.059110885765301,
+      "SC_tuned_over_Std_Q0": 1.1412681758289815
+    },
+    "W2": {
+      "QSC_tuned_over_QStd_Qwrong": 1.0157186301461991,
+      "SC_tuned_over_Std_Q0": 1.0855319127653902
+    },
+    "W3": {
+      "QSC_tuned_over_QStd_Qwrong": 1.0692064527024436,
+      "SC_tuned_over_Std_Q0": 1.1784988194532078
+    },
+    "W4": {
+      "QSC_tuned_over_QStd_Qwrong": 0.9698310591754126,
+      "SC_tuned_over_Std_Q0": 1.050121343697915
+    },
+    "W5": {
+      "QSC_tuned_over_QStd_Qwrong": 1.0606501553251888,
+      "SC_tuned_over_Std_Q0": 1.156965459153834
+    },
+    "W6": {
+      "QSC_tuned_over_QStd_Qwrong": 1.0212225141684756,
+      "SC_tuned_over_Std_Q0": 1.1266281478977136
+    },
+    "X1": {
+      "QSC_tuned_over_QStd_Qwrong": 1.0703145934874612,
+      "SC_tuned_over_Std_Q0": 1.0740591964852253
+    },
+    "X2": {
+      "QSC_tuned_over_QStd_Qwrong": 1.0584128950102922,
+      "SC_tuned_over_Std_Q0": 1.0561793179069003
+    },
+    "X3": {
+      "QSC_tuned_over_QStd_Qwrong": 1.104671225389895,
+      "SC_tuned_over_Std_Q0": 1.108327129494779
+    }
+  },
+  "conclusion": "部分解释"
+}
