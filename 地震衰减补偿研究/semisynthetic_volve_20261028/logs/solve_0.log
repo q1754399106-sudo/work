@@ -1,0 +1,13 @@
+P_c0.64_n0 1301s qscan 0.877 ftrue 66.9 {'Input': -0.218, 'IQ20a': 0.141, 'SCa': 0.067, 'QSCa': 0.185}
+P_c0.64_n7 1015s qscan 0.877 ftrue 69.8 {'Input': -0.207, 'IQ20a': 0.134, 'SCa': 0.086, 'QSCa': 0.184}
+P_c0.8_n4 987s qscan 0.877 ftrue 70.8 {'Input': -0.279, 'IQ20a': 0.434, 'SCa': 0.537, 'QSCa': 0.594}
+P_c1.0_n1 856s qscan 0.877 ftrue 81.1 {'Input': -0.197, 'IQ20a': 0.634, 'SCa': 0.753, 'QSCa': 0.678}
+P_c1.0_n8 790s qscan 0.877 ftrue 83.0 {'Input': -0.198, 'IQ20a': 0.635, 'SCa': 0.762, 'QSCa': 0.689}
+P_c1.58_n5 442s qscan 1.000 ftrue 84.5 {'Input': 0.248, 'IQ20a': 0.556, 'SCa': 0.575, 'QSCa': 0.575}
+G_c0.64_n2 967s qscan 0.877 ftrue 66.4 {'Input': -0.219, 'IQ20a': 0.142, 'SCa': 0.079, 'QSCa': 0.198}
+G_c0.8_n4 919s qscan 0.877 ftrue 66.9 {'Input': -0.291, 'IQ20a': 0.447, 'SCa': 0.558, 'QSCa': 0.621}
+G_c1.58_n1 504s qscan 1.000 ftrue 71.3 {'Input': 0.244, 'IQ20a': 0.568, 'SCa': 0.571, 'QSCa': 0.571}
+R1_c0.64_n3 1250s qscan 0.877 ftrue 59.6 {'Input': -0.275, 'IQ20a': 0.182, 'SCa': 0.14, 'QSCa': 0.26}
+R1_c1.0_n0 899s qscan 0.877 ftrue 82.5 {'Input': -0.2, 'IQ20a': 0.636, 'SCa': 0.724, 'QSCa': 0.655}
+R1_c1.58_n2 470s qscan 1.000 ftrue 91.3 {'Input': 0.248, 'IQ20a': 0.606, 'SCa': 0.565, 'QSCa': 0.565}
+PH_c1.0_n4 401s qscan 0.877 ftrue 82.5 {'Input': 0.06, 'IQ20a': 0.548, 'SCa': 0.632, 'QSCa': 0.429}

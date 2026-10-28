@@ -139,8 +139,8 @@
 | 实测 6：Volve 15/9-F-11 T2 | [field_vsp_volve_f11_20261026](field_vsp_volve_f11_20261026/RESULTS_ZH.md) | 无法判定 | 登记的 Q 不可用（剔除规则连锁误删，Q≈10）；事后 Q 为 79/135，但不补偿的输入在走廊叠加上最高，两条走廊叠加相差 0.064（阈值 0.02），F-11 与 F-15A 上 SC 对 QScan＋SC 的方向相反 | 同一工区第二口井；RSVSP 上段 Q≈79（69–90）是三次实测中最接近通过门槛的估计 |
 | Stratton 3D 适用性核查 | [field_stratton_20261026](field_stratton_20261026/README.md) | 数据（不适用） | 21 口井都没有声波；VSP 只有一口井的上行波，没有下行波，给不出独立 Q | 记下了不适用的原因，避免重复下载 6.6 GB 炮集 |
 | 实测 7：SC / QScan＋SC 的实测适配与应用 | [field_application_20261028](field_application_20261028/RESULTS_ZH.md) | 机制研究·实测应用 | 数据估计子波＋按信噪比限带；两口井与 inline 10141 上频带从约 5–29 Hz 拓宽到 10–62 Hz，井震标定在分辨力内不变，各频带信噪比不降（相干标准版降到 1/2–1/6）；登记门槛 A1 设计错误未过，判定“未证明可用” | 第一次给出实测补偿剖面和井上相关的自助区间（宽 0.2–0.45） |
-| 实测 8：Volve 半合成检验（真实噪声＋测井反射系数） | [semisynthetic_volve_20261028](semisynthetic_volve_20261028/PLAN_ZH.md) | 进行中 | 方案已冻结，85 个数据集运行中 | 第一次在与 Volve 信噪比和频谱衰减一致、但答案已知的数据上检验 QScan＋SC-a 与常规反 Q 滤波 |
-| 实测 9（准备中）：Volve 多井标定 | [multiwell_tie_volve_20261028](multiwell_tie_volve_20261028/INVENTORY_ZH.md) | 数据 | 已核查 20 口井：13 口有声波＋密度且在数据体内，11 口时间段 ≥ 0.19 s；方案待实验 8 后冻结 | 把井上评价从 2 口井扩到约 7 组独立井口 |
+| 实测 8：Volve 半合成检验（真实噪声＋测井反射系数） | [semisynthetic_volve_20261028](semisynthetic_volve_20261028/RESULTS_ZH.md) | 机制研究 | 补偿比不补偿明显更准（H1 成立）；QScan＋SC-a 与 30 dB 常规反 Q 大体持平；QScan 找不回 Q（H4 不成立），Q 误差是最大误差来源；井上相关只能判断方向 | 第一次在与 Volve 信噪比和频谱衰减一致、但答案已知的数据上检验 QScan＋SC-a 与常规反 Q 滤波 |
+| 实测 9（准备中）：Volve 多井标定 | [multiwell_tie_volve_20261028](multiwell_tie_volve_20261028/INVENTORY_ZH.md) | 数据 | 已核查 20 口井：13 口有声波＋密度且在数据体内，11 口时间段 ≥ 0.19 s；实验 8 显示它适合检验“补偿是否有用”、不适合选方法或 Q | 把井上评价从 2 口井扩到约 7 组独立井口 |
 
 ## 八、交付压缩包与其他文件
 

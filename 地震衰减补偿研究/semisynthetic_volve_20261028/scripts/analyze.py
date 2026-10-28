@@ -47,7 +47,7 @@ def main():
     H = {}
     for c in C_TRUE:
         rs = group(rows, "P", c); h = {"n": len(rs)}
-        h["H1_QSCa_minus_Input"] = ci(diff(rs, "QSCa", "Input")); h["H1_pass"] = h["H1_QSCa_minus_Input"][1] > 0
+        h["H1_QSCa_minus_Input"] = ci(diff(rs, "QSCa", "Input")); h["H1_pass"] = bool(h["H1_QSCa_minus_Input"][1] > 0)
         h["SCa_minus_Input"] = ci(diff(rs, "SCa", "Input"))
         h["H2_QSCa_minus_IQ20a"] = ci(diff(rs, "QSCa", "IQ20a")); h["H2_QSCa_minus_QIQa"] = ci(diff(rs, "QSCa", "QIQa"))
         h["QSCa_minus_SC"] = ci(diff(rs, "QSCa", "SC")); h["QSCa_minus_oracle"] = ci(diff(rs, "QSCa", "SCa_oracle"))
@@ -55,11 +55,11 @@ def main():
         for a, b in semi.BANDS:
             k = f"M2_{a}_{b}"; mi = float(np.mean([r["scores"]["Input"][k] for r in rs]))
             mq = float(np.mean([r["scores"]["QSCa"][k] for r in rs]))
-            bands[k] = dict(Input=mi, QSCa=mq, assessed=mi >= 0.2, ok=(mi < 0.2) or (mq >= mi - 0.05))
-        h["H3_bands"] = bands; h["H3_pass"] = all(v["ok"] for v in bands.values())
+            bands[k] = dict(Input=mi, QSCa=mq, assessed=bool(mi >= 0.2), ok=bool((mi < 0.2) or (mq >= mi - 0.05)))
+        h["H3_bands"] = bands; h["H3_pass"] = bool(all(v["ok"] for v in bands.values()))
         fac = [r["info"]["qscan"]["factor"] for r in rs]
-        within = [abs(np.log(x / c)) <= np.log(1.25) for x in fac]
-        h["H4_factors"] = fac; h["H4_within"] = int(sum(within)); h["H4_pass"] = sum(within) >= 0.8 * len(rs)
+        within = [bool(abs(np.log(x / c)) <= np.log(1.25)) for x in fac]
+        h["H4_factors"] = fac; h["H4_within"] = int(sum(within)); h["H4_pass"] = bool(sum(within) >= 0.8 * len(rs))
         h["H4_at_boundary"] = int(sum(r["info"]["qscan"]["at_boundary"] for r in rs))
         # H5 (descriptive): does the well-tie analogue see what the truth sees?
         m1 = [np.mean([r["scores"][m]["M1"] for r in rs]) for m in METHODS]
