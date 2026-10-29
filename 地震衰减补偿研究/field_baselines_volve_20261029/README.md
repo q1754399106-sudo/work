@@ -16,3 +16,6 @@
   - `a`、`b` 处理各条 inline，写 `results/lines/`，输出道存在本地 `cache/out/`。
 - `scripts/tie13.py`：井震相关，写 `results/tie.json`。
 - `scripts/analyze13.py`：判定，写 `analysis/summary.json`。
+- `scripts/figures13.py`：出图（冻结后写，只读结果），写 `figures/`。
+
+**结果**：见 `RESULTS_ZH.md`。四项判定三项支持（F1、F2、F3）、F4 无法判定，没有相反；实测方向与实验 12 半合成一致。
