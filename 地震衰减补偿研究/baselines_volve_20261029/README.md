@@ -16,3 +16,4 @@
 - `scripts/analyze12.py`：判定，输出 `analysis/summary.json`。
 - `scripts/figures12.py`：出图，输出 `figures/`。
 - `RESULTS_ZH.md`：结果（2026-10-29）。五项判定全部不成立：调好参数的 SC-a 和稳定化反 Q 都明显胜过改进方案，"振幅、相位用不同 Q"在调好的基线上没有增益。
+- `scripts/posthoc_qscan.py`：事后补跑用户的流程 QScan＋SC-a（原样、调小 a、加相位校正），结果在 `results/posthoc_qscan/`，见 `RESULTS_ZH.md` 的补充一节。
