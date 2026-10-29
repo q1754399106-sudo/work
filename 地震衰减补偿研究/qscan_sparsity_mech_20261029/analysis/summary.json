@@ -1,0 +1,152 @@
+{
+ "proto sparse QScan lam=0.5": {
+  "n": 6,
+  "slope": 0.310824086652112,
+  "bias_log": -0.07327345671939178,
+  "abs_log": 0.22956339146567248,
+  "within25": 0.5,
+  "loo_offset_abs_log": 0.25596000409103414,
+  "converged": 0.9777777777777779,
+  "boundary": 0.0
+ },
+ "proto sparse QScan lam=0.03125": {
+  "n": 6,
+  "slope": 0.46623612997816805,
+  "bias_log": 0.12307455725364136,
+  "abs_log": 0.19148355741219147,
+  "within25": 0.6666666666666666,
+  "loo_offset_abs_log": 0.22978026889462977,
+  "converged": 0.43333333333333335,
+  "boundary": 0.0
+ },
+ "proto sparse SR": {
+  "n": 6,
+  "slope": 1.2806565260221912,
+  "bias_log": 0.21497318930874454,
+  "abs_log": 0.4521960177938691,
+  "within25": 0.16666666666666666,
+  "loo_offset_abs_log": 0.542635221352643,
+  "converged": null,
+  "boundary": 0.3333333333333333
+ },
+ "proto log QScan lam=0.5": {
+  "n": 6,
+  "slope": 0.236924720816503,
+  "bias_log": -0.029640564725384417,
+  "abs_log": 0.22956339146567248,
+  "within25": 0.3333333333333333,
+  "loo_offset_abs_log": 0.2636198438686532,
+  "converged": 1.0,
+  "boundary": 0.0
+ },
+ "proto log QScan lam=0.03125": {
+  "n": 6,
+  "slope": 0.310824086652112,
+  "bias_log": 0.1230745572536414,
+  "abs_log": 0.21885306134972152,
+  "within25": 0.6666666666666666,
+  "loo_offset_abs_log": 0.24616668707105016,
+  "converged": 0.8000000000000002,
+  "boundary": 0.0
+ },
+ "proto log SR": {
+  "n": 6,
+  "slope": 1.1763916248635495,
+  "bias_log": 0.1473088216826547,
+  "abs_log": 0.1473088216826547,
+  "within25": 0.8333333333333334,
+  "loo_offset_abs_log": 0.06356531401274974,
+  "converged": null,
+  "boundary": 0.0
+ },
+ "proto gauss QScan lam=0.5": {
+  "n": 6,
+  "slope": 0.2369247208165028,
+  "bias_log": -0.16053924070740655,
+  "abs_log": 0.2731962834596799,
+  "within25": 0.6666666666666666,
+  "loo_offset_abs_log": 0.2636198438686532,
+  "converged": 1.0,
+  "boundary": 0.0
+ },
+ "proto gauss QScan lam=0.03125": {
+  "n": 6,
+  "slope": 0.23692472081650304,
+  "bias_log": 0.0358087732656267,
+  "abs_log": 0.2351164494061988,
+  "within25": 0.3333333333333333,
+  "loo_offset_abs_log": 0.2821397392874386,
+  "converged": 0.8777777777777778,
+  "boundary": 0.0
+ },
+ "proto gauss SR": {
+  "n": 6,
+  "slope": 1.0036191508023355,
+  "bias_log": 0.12585426609389447,
+  "abs_log": 0.12585426609389447,
+  "within25": 1.0,
+  "loo_offset_abs_log": 0.018989593173374886,
+  "converged": null,
+  "boundary": 0.0
+ },
+ "consistent lam=0.5": {
+  "n": 20,
+  "slope": 0.6237535215494872,
+  "bias_log": -0.5665938347248084,
+  "abs_log": 0.5665938347248084,
+  "within25": 0.0,
+  "loo_offset_abs_log": 0.22057075020862374,
+  "converged": 0.9166666666666667,
+  "boundary": 0.1
+ },
+ "consistent lam=0.125": {
+  "n": 20,
+  "slope": 0.7953657160493832,
+  "bias_log": -0.2851616813634608,
+  "abs_log": 0.2851616813634608,
+  "within25": 0.25,
+  "loo_offset_abs_log": 0.13087770729867493,
+  "converged": 0.8633333333333335,
+  "boundary": 0.0
+ },
+ "consistent lam=0.0625": {
+  "n": 20,
+  "slope": 0.9554949801167478,
+  "bias_log": -0.2131674095733486,
+  "abs_log": 0.2131674095733486,
+  "within25": 0.45,
+  "loo_offset_abs_log": 0.08283156386788534,
+  "converged": 0.8466666666666669,
+  "boundary": 0.0
+ },
+ "consistent lam=0.015625": {
+  "n": 20,
+  "slope": 1.2713119141820899,
+  "bias_log": -0.06917886599312421,
+  "abs_log": 0.13294586893512148,
+  "within25": 0.75,
+  "loo_offset_abs_log": 0.11510743463432657,
+  "converged": 0.7499999999999999,
+  "boundary": 0.0
+ },
+ "exp12 QScan lam=0.5": {
+  "n": 20,
+  "slope": 0.2880342022803795,
+  "bias_log": -0.08226873359132644,
+  "abs_log": 0.19861863809202293,
+  "within25": 0.65,
+  "loo_offset_abs_log": 0.19366483035915083,
+  "converged": null,
+  "boundary": 0.0
+ },
+ "exp12 SR": {
+  "n": 20,
+  "slope": 1.0600588454437143,
+  "bias_log": 0.10101562509487531,
+  "abs_log": 0.118337215216518,
+  "within25": 0.85,
+  "loo_offset_abs_log": 0.10007783064612094,
+  "converged": null,
+  "boundary": 0.0
+ }
+}
