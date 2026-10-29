@@ -161,3 +161,4 @@
 地震衰减补偿研究/baselines_volve_20261029/**/*.png filter=lfs diff=lfs merge=lfs -text
 地震衰减补偿研究/field_baselines_volve_20261029/** -text
 地震衰减补偿研究/field_baselines_volve_20261029/**/*.png filter=lfs diff=lfs merge=lfs -text
+地震衰减补偿研究/qscan_reg_pilot_20261029/** -text
