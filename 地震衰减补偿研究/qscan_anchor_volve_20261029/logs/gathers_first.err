@@ -1,0 +1,2 @@
+D:\ChatGPT\研究\地震衰减补偿研究\qscan_anchor_volve_20261029\scripts\gathers14.py:70: UserWarning: Glyph 8315 (\N{SUPERSCRIPT MINUS}) missing from font(s) Microsoft YaHei.
+  fig.tight_layout(); fig.savefig(path, dpi=130); plt.close(fig)
