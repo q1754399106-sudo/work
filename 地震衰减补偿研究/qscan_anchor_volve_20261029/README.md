@@ -13,6 +13,7 @@
 | `scripts/sens14.py` | 收敛敏感性、偏差迁移、按真 c 分列（描述） |
 | `scripts/fig14.py` | 汇总图 `figures/selection_T.png` |
 | `scripts/gathers14.py` | 各方法选出的 c 做 SC-a 补偿后的道集图 `figures/gathers/`（描述） |
+| `scripts/m1_14.py` | 道集图各面板的 M1 汇总 `analysis/gathers_m1.json`（描述） |
 | `scripts/env14.py` | 导入实验 7–13 的程序（实验 13 输入快照） |
 | `results/dev`、`results/test` | 每个数据集一个 JSON（选择、目标值、收敛、迭代数） |
 | `analysis/` | `calibration.json`、`summary.json`、`sensitivity.json` |
