@@ -5,6 +5,7 @@
 - 结论：QScan 选出的 1/c = (1 − κ)/c_true + κ/c_a + β。κ = a₀⟨a⟩/⟨a²⟩ 由模型 Q 和分析窗算得 0.675；锚点实验（实验 12 的 10 个剖面 × 锚点 0.7/1.0/1.4 × λ 1/2、1/16）测得 K = 0.66、0.71，A + K = 1.00、0.95，20/20 单调。现流程斜率 1 − κ ≈ 0.33（实测 0.19–0.30），权重只平移 β，所以调权重救不了压缩。
 - 锚窗检验（预测先提交 91dee11）：把估子波的窗口移到 1.8–2.2 s、2.4–2.8 s，预测 κ = 0.96、1.14，实测 K = 0.98、1.12；最深窗口下选出的 c 与真 c 反向相关，与预测一致。四条判据全部满足；A 比 1 − κ 低 0.09–0.18。
 - 补充（预测先提交 50470f2）：QScan-W 的目标函数曲率只有固定锚点的约 1/8（理论 8.0，实测中位数 9.8、6.5），与它偏差随数据漂移一致；其 1/c 斜率 1.2–1.4 的具体来源未单独证实。子波归一化的猜测在代码上被排除。
+- 噪声检验（预测先提交 26d3ee7）：120 次扫描、噪声 ×0.25–×2。κ 与噪声无关（深窗 K 1.16–1.25，默认 0.65–0.69）；深锚窗 A + K 偏低主要来自噪声（低噪声 0.96–0.98，×2 时 0.82）；但 QScan-W 斜率高于 1 **不是噪声造成的**（×0.25、×0.5 选择相同，斜率都是 1.28），预测 1 不满足，其余三条满足。事后观察：低噪声下 QScan-W 近似常数比例偏差 c_sel ≈ 0.7 c_true（log 斜率 0.94）。
 
 | 路径 | 内容 |
 |---|---|
@@ -12,6 +13,7 @@
 | `scripts/anchor.py` | 锚点实验（固定锚点估子波的 QScan） |
 | `scripts/curvature.py` | 曲率比检验（`PLAN_CURV_ZH.md`），`analysis/curvature.json` |
 | `scripts/anchor2.py`、`scripts/analyze_window.py`、`scripts/fig_window.py` | 锚窗检验（`PLAN_WINDOW_ZH.md`），`results2/`、`analysis/window.json`、`figures/window_kappa.png` |
+| `scripts/noise.py`、`scripts/analyze_noise.py` | 噪声检验（`PLAN_NOISE_ZH.md`），`results3/`、`analysis/noise.json`、`logs/` |
 | `scripts/analyze_anchor.py` | 锚点实验拟合、自助区间、单调性 |
 | `scripts/fig_theory.py` | `figures/anchor_theory.png` |
 | `scripts/env15.py` | 导入实验 7–13 的程序（同实验 14） |
