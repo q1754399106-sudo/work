@@ -1,0 +1,13 @@
+# SC-a 上限偏低的机制检查（实验 15 追查）
+
+- 预测：[PREDICTIONS_ZH.md](PREDICTIONS_ZH.md)（运行前提交 11b4b5e）
+- 结果：[RESULTS_ZH.md](RESULTS_ZH.md)
+
+探索性检查，使用实验 15 已用过的 Z 组 B、C 和开发构造 A，共 18 个数据集，全部用真值 Q。实验 15 中 SC-a 偏低有两个设置上的原因：
+
+1. 子波带宽规则遇到噪声中频峰就停，6 个数据集带宽塌到 43–63 Hz；改成允许缺口后，SC-a +0.124，VDB +0.164。
+2. 横向相干项（mu_relative = 10）在 18 个中有 17 个有害，去掉后平均 +0.069。
+
+两处都改后，SC-a 为 0.909，IQ70 为 0.888。P1、P3 成立；P2 不成立，因为相干项并非只在构造 C 上有害。
+
+运行：`scripts/bands.py` → `scripts/runc.py K N` → `scripts/analyzec.py`。

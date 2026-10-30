@@ -1,12 +1,13 @@
-"""SC-a ceiling runs (PREDICTIONS_ZH.md). usage: runc.py K N  (worker K of N over the 18 Z datasets, resumable).
+"""SC-a ceiling runs (PREDICTIONS_ZH.md). usage: runc.py K N  (worker K of N over the 18 Z datasets, resumable);
+       runc.py ids <id> ...  (the listed datasets, resumable; added to re-split the work with fewer processes).
 results/<id>.json; no output sections are kept."""
 import sys, json, time
 from libc import ROOT, IDS, META, E15, np, semi, sc11, load, score, wavelets, methods
 
 
-def main(k, n):
+def main(k, n, ids=IDS):
     out = ROOT / "results"; out.mkdir(exist_ok=True); cm = semi.curtain_cm(); Q = np.asarray(cm["Q"], float)
-    for i, did in enumerate(IDS):
+    for i, did in enumerate(ids):
         path = out / f"{did}.json"
         if i % n != k or path.exists():
             continue
@@ -23,4 +24,7 @@ def main(k, n):
 
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]), int(sys.argv[2]))
+    if sys.argv[1] == "ids":
+        main(0, 1, sys.argv[2:])
+    else:
+        main(int(sys.argv[1]), int(sys.argv[2]))
