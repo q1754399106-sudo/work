@@ -1,0 +1,346 @@
+{
+ "id": "c1.4_s9942",
+ "arm": "main",
+ "c_true": 1.4,
+ "u": 0.7142857142857143,
+ "seed": 9942,
+ "noise_mult": 0.5,
+ "lam": 0.5,
+ "window": [
+  1.2,
+  1.6,
+  1.4
+ ],
+ "level": 2.3202587723203254,
+ "history": [
+  {
+   "k": 1,
+   "v_anchor": 1.0,
+   "v_sel": 1.0427634080722314,
+   "seconds": 14.255646204999948,
+   "v_grid": 1.0,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 102775.13503168005,
+     "converged": true,
+     "iterations": 225
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 98402.01536950697,
+     "converged": true,
+     "iterations": 175
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97659.51375608638,
+     "converged": true,
+     "iterations": 175
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 100156.22398656255,
+     "converged": true,
+     "iterations": 175
+    },
+    "9": {
+     "v": 0.7696669794067008,
+     "J": 104948.60812044056,
+     "converged": true,
+     "iterations": 175
+    }
+   }
+  },
+  {
+   "k": 2,
+   "v_anchor": 1.0427634080722314,
+   "v_sel": 1.067752205072767,
+   "seconds": 9.285646659999998,
+   "v_grid": 1.0,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 101197.52174885554,
+     "converged": true,
+     "iterations": 125
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 97458.04915801292,
+     "converged": true,
+     "iterations": 75
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97397.6221728565,
+     "converged": true,
+     "iterations": 75
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 100545.7920838692,
+     "converged": true,
+     "iterations": 100
+    },
+    "9": {
+     "v": 0.7696669794067008,
+     "J": 105917.82513689817,
+     "converged": true,
+     "iterations": 75
+    }
+   }
+  },
+  {
+   "k": 3,
+   "v_anchor": 1.067752205072767,
+   "v_sel": 1.0856382817484824,
+   "seconds": 8.126318118000086,
+   "v_grid": 1.1398522810475966,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 100335.0997955857,
+     "converged": true,
+     "iterations": 75
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 96977.22578788485,
+     "converged": true,
+     "iterations": 75
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97322.8526400229,
+     "converged": true,
+     "iterations": 50
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 100851.00430732952,
+     "converged": true,
+     "iterations": 50
+    },
+    "9": {
+     "v": 0.7696669794067008,
+     "J": 106559.09366958184,
+     "converged": true,
+     "iterations": 50
+    }
+   }
+  },
+  {
+   "k": 4,
+   "v_anchor": 1.0856382817484824,
+   "v_sel": 1.0985219374735788,
+   "seconds": 9.244659909000006,
+   "v_grid": 1.1398522810475966,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "4": {
+     "v": 1.4809681479725867,
+     "J": 107034.92473203008,
+     "converged": true,
+     "iterations": 225
+    },
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 99745.64956487314,
+     "converged": true,
+     "iterations": 50
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 96666.12669966539,
+     "converged": true,
+     "iterations": 50
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97304.42423637607,
+     "converged": true,
+     "iterations": 50
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 101104.18176231836,
+     "converged": true,
+     "iterations": 50
+    }
+   }
+  },
+  {
+   "k": 5,
+   "v_anchor": 1.0985219374735788,
+   "v_sel": 1.1076339392541368,
+   "seconds": 6.456495593999989,
+   "v_grid": 1.1398522810475966,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "4": {
+     "v": 1.4809681479725867,
+     "J": 106453.03380509687,
+     "converged": true,
+     "iterations": 75
+    },
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 99335.24589840864,
+     "converged": true,
+     "iterations": 100
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 96459.12160938748,
+     "converged": true,
+     "iterations": 50
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97309.21719671407,
+     "converged": true,
+     "iterations": 50
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 101304.30105806576,
+     "converged": true,
+     "iterations": 50
+    }
+   }
+  },
+  {
+   "k": 6,
+   "v_anchor": 1.1076339392541368,
+   "v_sel": 1.1139971805611195,
+   "seconds": 3.5332989539999744,
+   "v_grid": 1.1398522810475966,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "4": {
+     "v": 1.4809681479725867,
+     "J": 106047.32691974584,
+     "converged": true,
+     "iterations": 100
+    },
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 99052.51765645796,
+     "converged": true,
+     "iterations": 100
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 96321.39214787162,
+     "converged": true,
+     "iterations": 50
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97321.7252806516,
+     "converged": true,
+     "iterations": 50
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 101455.35390097027,
+     "converged": true,
+     "iterations": 25
+    }
+   }
+  },
+  {
+   "k": 7,
+   "v_anchor": 1.1139971805611195,
+   "v_sel": 1.1184093996565883,
+   "seconds": 3.7573732119999477,
+   "v_grid": 1.1398522810475966,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "4": {
+     "v": 1.4809681479725867,
+     "J": 105766.87472067113,
+     "converged": true,
+     "iterations": 125
+    },
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 98858.77849698928,
+     "converged": true,
+     "iterations": 75
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 96229.74946370137,
+     "converged": true,
+     "iterations": 25
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97335.3030653378,
+     "converged": true,
+     "iterations": 25
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 101564.40989619792,
+     "converged": true,
+     "iterations": 50
+    }
+   }
+  },
+  {
+   "k": 8,
+   "v_anchor": 1.1184093996565883,
+   "v_sel": 1.1214456782462783,
+   "seconds": 4.033316958,
+   "v_grid": 1.1398522810475966,
+   "edge": false,
+   "neighbourhood_converged": true,
+   "points": {
+    "4": {
+     "v": 1.4809681479725867,
+     "J": 105573.8065401474,
+     "converged": true,
+     "iterations": 150
+    },
+    "5": {
+     "v": 1.2992632226094094,
+     "J": 98726.21221516172,
+     "converged": true,
+     "iterations": 75
+    },
+    "6": {
+     "v": 1.1398522810475966,
+     "J": 96167.7263297669,
+     "converged": true,
+     "iterations": 75
+    },
+    "7": {
+     "v": 1.0,
+     "J": 97346.3738740837,
+     "converged": true,
+     "iterations": 50
+    },
+    "8": {
+     "v": 0.8773066621237414,
+     "J": 101642.623898135,
+     "converged": true,
+     "iterations": 25
+    }
+   }
+  }
+ ],
+ "seconds": 59.33101964000002
+}
