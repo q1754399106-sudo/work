@@ -40,12 +40,14 @@ def summary(prof, recs):
     W = {r["id"]: r for r in recs if r["profile"] == prof and r["scan"] == "w"}
 
     def H(r):
-        J = np.array(r["J"]); jm = int(np.argmin(J)); lo_, hi_ = max(0, jm - 2), min(len(J), jm + 3)
+        if any(x is None for x in r["J"]):
+            return np.nan
+        J = np.array(r["J"], float); jm = int(np.argmin(J)); lo_, hi_ = max(0, jm - 2), min(len(J), jm + 3)
         if hi_ - lo_ < 4:
             return np.nan
         return 2 * np.polyfit(VGRID[lo_:hi_], J[lo_:hi_], 2)[0]
 
-    ratios = [H(r) / H(W[r["id"]]) for r in one if r["id"] in W]
+    ratios = [H(r) / H(W[r["id"]]) for r in one if r["id"] in W]   # addendum: QScan-W dropped, descriptive only
     wsl = float(np.polyfit([r["u"] for r in W.values()], [r["v_sel"] for r in W.values()], 1)[0]) if W else None
     return dict(n_datasets=len(ids), n_scans=len(anch), kappa_pred=KAPPA[prof], A=float(A), K=float(K), C=float(C),
                 A_plus_K=float(A + K), ci_A_K_C=[lo, hi], A_plus_K_ci=[lo[0] + lo[1], hi[0] + hi[1]],
@@ -64,8 +66,7 @@ def verdicts(S):
         V["Q2"] = bool(d["K"] < BASE_K < s["K"] and d["ci_A_K_C"][1][1] < BASE_K and s["ci_A_K_C"][0][1] > BASE_K)
         V["Q3"] = bool(abs(s["A_plus_K"] - 1) <= 0.2 and abs(d["A_plus_K"] - 1) <= 0.2)
         V["Q4"] = bool(0.5 <= d["slope_current"] <= 0.9 and -0.05 <= s["slope_current"] <= 0.30)
-    if s and d and s["curvature_ratio_median"] is not None and d["curvature_ratio_median"] is not None:
-        V["Q5"] = bool(s["curvature_ratio_median"] > 15 and d["curvature_ratio_median"] < 4)
+    # Q5 cancelled by the addendum (QScan-W scans dropped for run time)
     return V
 
 

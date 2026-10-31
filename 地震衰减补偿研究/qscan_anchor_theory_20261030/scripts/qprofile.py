@@ -23,7 +23,8 @@ VG = 1.0 / np.asarray(lib.QGRID, float)
 
 
 def jobs():
-    return [(p, f"c{c}_s{s}", c, s, sc) for p in PROFILES for s in SEEDS for c in CS for sc in SCANS]
+    # PLAN_PROFILE_ZH.md addendum (02:50): seed-major order with the two profiles interleaved; QScan-W dropped
+    return [(p, f"c{c}_s{s}", c, s, sc) for s in SEEDS for p in PROFILES for c in CS for sc in SCANS if sc != "w"]
 
 
 def context(base, prof):
@@ -33,8 +34,14 @@ def context(base, prof):
 
 def scan(D, cm, Q, pp, wave):
     sigma, K, live = pp["sigma"], pp["K"], pp["live"]; n = D.shape[0]; s2 = np.where(live, sigma ** 2, np.inf)
-    J = np.zeros(len(lib.QGRID)); C = np.zeros(J.shape, bool); prev = None
-    for j, c in enumerate(lib.QGRID):
+    J = np.full(len(lib.QGRID), np.nan); C = np.zeros(J.shape, bool); prev = None
+    # addendum (02:50): scan from small v (large c) upwards and stop 3 grid points past the running minimum;
+    # the slow, strongly compensating points far above the minimum are not evaluated (they enter neither the
+    # grid minimum nor the vertex). Records scanned before the addendum used the full grid.
+    for j in range(len(lib.QGRID) - 1, -1, -1):
+        c = lib.QGRID[j]
+        if np.isfinite(J).any() and j <= int(np.nanargmin(J)) - 3:
+            break
         cc = dict(cm); cc["Q"] = Q * c; wv = wave(cc)
         B, _, scale = lib.dictionary(cc, wv["w_in"], wv["w_out"])
         pen1 = np.sqrt(2 * np.log(n)) * sigma[None, :] * np.median(scale) / scale[:, None]
@@ -42,14 +49,14 @@ def scan(D, cm, Q, pp, wave):
         res = D - B @ X
         J[j] = float(np.sum((0.5 * np.sum(res ** 2, axis=0) + LAM * np.sum(pen1 * np.abs(X), axis=0))[live] / s2[live]))
         C[j] = bool(info["converged"])
-    jm = int(np.argmin(J)); edge = jm in (0, len(J) - 1); v = float(VG[jm])
+    jm = int(np.nanargmin(J)); edge = jm in (0, len(J) - 1); v = float(VG[jm])
     if not edge:
         idx = [jm - 1, jm, jm + 1]; a = np.polyfit(VG[idx], J[idx], 2)
         if a[0] > 0:
             v = float(np.clip(-a[1] / (2 * a[0]), VG[jm + 1], VG[jm - 1]))
     trust = bool(all(C[max(0, jm - 1):jm + 2]))
     return dict(v_grid=float(VG[jm]), v_sel=v, edge=bool(edge), neighbourhood_converged=trust,
-                J=J.tolist(), converged=C.tolist())
+                J=[None if not np.isfinite(x) else float(x) for x in J], converged=C.tolist())
 
 
 def run(prof, did, c, s, sc, base):
