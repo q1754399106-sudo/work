@@ -31,6 +31,8 @@
 | `scripts/iterate.py`、`scripts/analyze_iter.py`、`scripts/fig_iter.py` | 迭代反馈检验（`PLAN_ITER_ZH.md`），`results5/`、`analysis/iter.json`、`figures/iter.png`、`logs/iter_*` |
 | `scripts/qprofile.py`、`scripts/analyze_profile.py` | 剖面形状检验（`PLAN_PROFILE_ZH.md`），`results7/`、`analysis/profile.json`、`logs/prof_*` |
 | `scripts/dtrunc.py` | D 剖面截短分析窗（事后探索），`results8/`、`analysis/dtrunc.json` |
-| `scripts/layered.py` | 两层参数化扫描（探索；冒烟后发现深层不可辨，未正式运行） |
+| `scripts/layered.py` | 两层参数化扫描（冒烟后发现深层不可辨，未正式运行；改用 `probe_layer.py` 沿深层单轴扫描） |
 | `scripts/fig_kappa_all.py` | `figures/kappa_all.png`：全部 κ 预测与实测 |
 | `PAPER_DRAFT_ZH.md` | 论文初稿 |
+| `scripts/probe_layer.py`、`scripts/probe_active.py` | 两层参数化与非零系数加权的事后探索，`logs/probe_layer.log`、`logs/probe_active.log` |
+| `scripts/fig_schematic.py` | `figures/schematic.png`：论文图 1（吸收剖面、窗口与 κ 随子波窗深度的变化） |

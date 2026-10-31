@@ -13,9 +13,13 @@
 
 基于稀疏反演的 Q 扫描方法通常先在浅层时窗估计子波，并假设该时窗的衰减已知（常取参考 Q 或无衰减），再在一组候选 Q 上选使稀疏目标最小的那个。我们证明，这一做法使选出的 Q 系统地被压向估子波时假设的参考值。在局部平稳、对 1/Q 线性化的近似下，选出的 1/c 是真值与参考值的加权平均：1/c_sel = (1 − κ)/c_true + κ/c_a + β，其中压缩系数 κ = a₀⟨a⟩/⟨a²⟩ 只由吸收剖面和窗口几何决定（a 为累积 t*，a₀ 为子波窗口处的值），无需反演即可算出；稀疏权重只进入截距 β，因而调权重无法消除压缩。
 
-在 Volve 实测噪声与测井反射系数构成的半合成数据上，我们在运行前提交了八组定量预测。窗口几何、噪声和迭代的预测都成立：默认几何下 κ 预测 0.675，实测 0.66 与 0.71；子波窗加深后预测 0.96 与 1.14，实测 0.98 与 1.12，且最深窗口下选出的 Q 与真 Q 反向变化；截短分析窗后预测 0.804，实测 0.81；噪声从 ×0.25 变到 ×2，κ 不变；在带断层、Q 横向变化的未见数据上，预测的压缩斜率 0.33 与实测 0.36 相符；把选出的 Q 反馈为锚点迭代，增量按 0.689 的比例缩小（理论 κ = 0.675），极限与一步代数反解 (v_1 − κ)/(1 − κ) 的中位差仅 0.012。换吸收剖面时，上覆层强吸收的剖面按公式变化（预测 0.880，实测 0.856），深层强吸收的剖面不符（预测 0.294，实测 0.598），这标出了"灵敏度在分析窗内均匀"这一假设的适用边界。理论还给出去锚定的代价：每个候选 Q 重估子波时，辨识 Q 的曲率只剩约 1/8（理论 8.0，实测 6.5–9.8）；迭代反馈把稀疏偏差放大 1/(1 − κ) 倍，精度不比单步好。结论适用于所有"浅层锚定子波 + 全局 Q 扫描"类方法，并提供一个开跑前的可信度诊断。
+在 Volve 实测噪声与测井反射系数构成的半合成数据上，我们在运行前提交了八组定量预测。窗口几何、噪声的预测和迭代的收敛速度、极限都成立（迭代后斜率的预测未满足，原因见正文）：默认几何下 κ 预测 0.675，实测 0.66 与 0.71；子波窗加深后预测 0.96 与 1.14，实测 0.98 与 1.12，且最深窗口下选出的 Q 与真 Q 反向变化；截短分析窗后预测 0.804，实测 0.81；噪声从 ×0.25 变到 ×2，κ 不变；在带断层、Q 横向变化的未见数据上，预测的压缩斜率 0.33 与实测 0.36 相符；把选出的 Q 反馈为锚点迭代，增量按 0.689 的比例缩小（理论 κ = 0.675），极限与一步代数反解 (v_1 − κ)/(1 − κ) 的中位差仅 0.012。换吸收剖面时，上覆层强吸收的剖面按公式变化（预测 0.880，实测 0.856），深层强吸收的剖面不符（预测 0.294，实测 0.598），这标出了"灵敏度在分析窗内均匀"这一假设的适用边界。理论还给出去锚定的代价：每个候选 Q 重估子波时，辨识 Q 的曲率只剩约 1/8（理论 8.0，实测 6.5–9.8）；迭代反馈把稀疏偏差放大 1/(1 − κ) 倍，精度不比单步好。结论适用于所有"浅层锚定子波 + 全局 Q 扫描"类方法，并提供一个开跑前的可信度诊断。
 
 **关键词**：品质因子；Q 估计；稀疏反演；子波估计；衰减补偿；偏差分析
+
+**Abstract（英文草稿）**
+
+Scanned-Q methods estimate attenuation by inverting the data for sparse reflectivity under a set of candidate Q models and selecting the model with the smallest sparsity-regularized objective. The source wavelet is usually extracted from a shallow window under an assumed reference attenuation. We show that this anchoring compresses the selected Q toward the reference. Linearizing in 1/Q, the selected value is a weighted mean of the true and the reference value, 1/c_sel = (1 − κ)/c_true + κ/c_a + β, with a compression factor κ = a₀⟨a⟩/⟨a²⟩ that depends only on the cumulative attenuation a(t) over the analysis window and its value a₀ at the wavelet window, and can therefore be computed before any inversion. The sparsity weight enters only the offset β, which is why tuning it cannot remove the compression. On semi-synthetic data built from Volve field noise and well-log reflectivity, we registered eight quantitative predictions before running the tests. Predictions of κ for four window geometries (0.675, 0.96, 1.14, 0.804; measured 0.66–0.71, 0.98, 1.12, 0.81), its independence of the noise level, the compression slope on unseen faulted data with laterally varying Q, and the convergence rate of an alternating wavelet–Q iteration (0.675; measured 0.689) were confirmed; the selection reversed its dependence on the true Q when κ exceeded 1, as predicted. The iteration converges to (v₁ − κ)/(1 − κ), so it trades compression for a sparsity bias amplified by 1/(1 − κ) and does not improve accuracy. A profile with strong shallow attenuation followed the formula (0.880 predicted, 0.856 measured), whereas a profile with strong deep attenuation did not (0.294 predicted, 0.598 measured), which marks the limit of the uniform-sensitivity assumption. The result applies to any method that combines a shallow, reference-attenuated wavelet with a global Q scan, and κ provides a pre-inversion check of whether the scanned Q can be trusted.
 
 ---
 
@@ -130,7 +134,7 @@
 
 - 上覆层强吸收（S）：K = 0.856，预测 0.880；现流程斜率 0.14，预测 0.12。衰减集中在浅层时，扫描法几乎找不回 Q。
 - 深层强吸收（D）：K = 0.598，预测 0.294，**预测失败**。和规则 A + K = 0.98 仍成立，各数据集的 K 在 0.56–0.64 之间，是一个稳定的量。
-- 事后把 D 的分析窗截到 1.2–2.2 s，K = 0.80，均匀权重给 0.75，两者接近；再往深加窗，K 下降得远比均匀权重慢，说明 Q = 40 的深层对选择贡献很小。按 f² 信号功率、频带宽度或信噪比加权，都不能同时拟合三个剖面。
+- 事后把 D 的分析窗截到 1.2–2.2 s，K = 0.80，均匀权重给 0.75，两者接近；再往深加窗，K 下降得远比均匀权重慢，说明 Q = 40 的深层对选择贡献很小。按 f² 信号功率、频带宽度或信噪比加权，都不能同时拟合三个剖面。选择离真值很近的数据集 K 也约为 0.6，所以"偏离真值远、深层超出二阶展开"也解释不了。按每个时刻 lasso 非零系数的比例加权，方向上能解释 D（2.7–3.0 s 只有 1–3% 的系数非零，深层反射被压成零后不再提供 Q 的信息），但三个剖面的数值仍差 0.05–0.10。
 
 所以 κ = a₀⟨a⟩/⟨a²⟩ 在"Q 的灵敏度在分析窗内近似均匀"时成立；衰减集中在深层时它低估压缩，诊断结果偏乐观。φ₂ 的建模是下一步。
 
@@ -181,7 +185,7 @@
 
 | 编号 | 内容 | 现有文件 |
 |---|---|---|
-| 图 1 | 锚定示意：浅层子波估计误差 → 谱倾斜 → 选择被拉向锚点 | 待画 |
+| 图 1 | 吸收剖面、窗口与 κ 随子波窗深度的变化（含实测点） | `figures/schematic.png` |
 | 图 2 | 锚点实验：选出的 1/c 对锚点、对真值的拟合 | `figures/anchor_theory.png` |
 | 图 3 | κ 的预测与实测（三个锚窗 + 截短分析窗） | `figures/window_kappa.png`（需加截短窗点） |
 | 图 4 | 迭代轨迹、不动点与一步反解 | `figures/iter.png` |
