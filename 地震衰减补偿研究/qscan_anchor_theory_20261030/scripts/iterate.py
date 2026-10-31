@@ -27,8 +27,9 @@ VG = 1.0 / np.asarray(lib.QGRID, float)          # v on the grid (decreasing wit
 
 
 def jobs():
-    out = [(f"c{c}_s{s}", c, s, arm) for arm in ("main", "mid", "deep") for s in SEEDS for c in (0.7, 1.0, 1.4)]
-    return out + [(f"c{c}_s{s}", c, s, "main16") for s in SEEDS[:4] for c in (0.7, 1.0, 1.4)]
+    out = [(f"c{c}_s{s}", c, s, "main") for s in SEEDS for c in (0.7, 1.0, 1.4)]
+    # PLAN_ITER_ZH.md addendum (02:40): mid / deep only on seeds 9941-9942, main16 cancelled (run time)
+    return out + [(f"c{c}_s{s}", c, s, arm) for arm in ("mid", "deep") for s in SEEDS[:2] for c in (0.7, 1.0, 1.4)]
 
 
 def objective(D, cm, Q, pp, wv, j, start, lam):

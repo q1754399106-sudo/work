@@ -106,7 +106,7 @@ def verdicts(S):
         V["P5"] = bool(m["C_star_ci"][0] > 0 and 0.05 <= m["C_star"] <= 0.5)
     if ok(m) and ok(md) and d is not None:
         V["P2"] = bool(0.84 <= md["r"] <= 1.08 and 1.02 <= d["r"] <= 1.26 and m["r"] < md["r"] < d["r"]
-                       and d["monotone_away"] >= 18)
+                       and d["monotone_away"] >= round(0.75 * d["n"]))   # addendum: 5/6
     return V
 
 
