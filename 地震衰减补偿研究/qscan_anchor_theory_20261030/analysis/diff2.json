@@ -1,0 +1,306 @@
+{
+ "n_semi": 3,
+ "n_field": 4,
+ "semi": {
+  "u_sr": 0.7655003423177988,
+  "v1": 0.17523170870486668,
+  "u_pair": 0.8215517955833072
+ },
+ "field": {
+  "u_sr": 0.7670895709574203,
+  "v1": 0.11420133752463174,
+  "u_pair": 0.9198335570712118
+ },
+ "per_base": {
+  "F10305": [
+   {
+    "du": 0.0,
+    "u_true": null,
+    "u_sr": 0.9951,
+    "v1": 1.2489,
+    "kappa_d": 1.1838,
+    "u_pair": 1.75,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.3,
+    "u_true": null,
+    "u_sr": 1.2558,
+    "v1": 1.2973,
+    "kappa_d": 1.2786,
+    "u_pair": 1.8814,
+    "edges": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "du": 0.6,
+    "u_true": null,
+    "u_sr": 1.486,
+    "v1": 1.3208,
+    "kappa_d": 1.1472,
+    "u_pair": 2.2558,
+    "edges": [
+     false,
+     false,
+     true
+    ]
+   }
+  ],
+  "S9997": [
+   {
+    "du": 0.0,
+    "u_true": 1.0,
+    "u_sr": 0.7504,
+    "v1": 0.9076,
+    "kappa_d": 1.1706,
+    "u_pair": 0.8297,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.3,
+    "u_true": 1.3,
+    "u_sr": 0.9853,
+    "v1": 0.9538,
+    "kappa_d": 1.2101,
+    "u_pair": 1.1094,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.6,
+    "u_true": 1.6,
+    "u_sr": 1.207,
+    "v1": 0.9903,
+    "kappa_d": 1.2457,
+    "u_pair": 1.3372,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   }
+  ],
+  "F10141": [
+   {
+    "du": 0.0,
+    "u_true": null,
+    "u_sr": 0.9517,
+    "v1": 1.2221,
+    "kappa_d": 1.1895,
+    "u_pair": 1.6091,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.3,
+    "u_true": null,
+    "u_sr": 1.1951,
+    "v1": 1.269,
+    "kappa_d": 1.2558,
+    "u_pair": 1.7847,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.6,
+    "u_true": null,
+    "u_sr": 1.4072,
+    "v1": 1.2933,
+    "kappa_d": 1.2098,
+    "u_pair": 2.0241,
+    "edges": [
+     false,
+     false,
+     true
+    ]
+   }
+  ],
+  "F10241": [
+   {
+    "du": 0.0,
+    "u_true": null,
+    "u_sr": 0.9659,
+    "v1": 1.2759,
+    "kappa_d": 1.1927,
+    "u_pair": 1.8587,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.3,
+    "u_true": null,
+    "u_sr": 1.207,
+    "v1": 1.3202,
+    "kappa_d": 1.2222,
+    "u_pair": 2.0433,
+    "edges": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "du": 0.6,
+    "u_true": null,
+    "u_sr": 1.4283,
+    "v1": 1.3435,
+    "kappa_d": 1.0873,
+    "u_pair": 2.5352,
+    "edges": [
+     false,
+     false,
+     true
+    ]
+   }
+  ],
+  "S9995": [
+   {
+    "du": 0.0,
+    "u_true": 1.0,
+    "u_sr": 0.9659,
+    "v1": 1.3135,
+    "kappa_d": 1.1502,
+    "u_pair": 1.6201,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.3,
+    "u_true": 1.3,
+    "u_sr": 1.1951,
+    "v1": 1.3912,
+    "kappa_d": 1.2016,
+    "u_pair": 1.8909,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.6,
+    "u_true": 1.6,
+    "u_sr": 1.4212,
+    "v1": 1.4445,
+    "kappa_d": 1.2652,
+    "u_pair": 2.0748,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   }
+  ],
+  "S9996": [
+   {
+    "du": 0.0,
+    "u_true": 1.0,
+    "u_sr": 1.02,
+    "v1": 1.0792,
+    "kappa_d": 1.1706,
+    "u_pair": 1.0414,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.3,
+    "u_true": 1.3,
+    "u_sr": 1.2558,
+    "v1": 1.1404,
+    "kappa_d": 1.22,
+    "u_pair": 1.328,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.6,
+    "u_true": 1.6,
+    "u_sr": 1.486,
+    "v1": 1.1809,
+    "kappa_d": 1.2872,
+    "u_pair": 1.5579,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   }
+  ],
+  "F10193": [
+   {
+    "du": 0.0,
+    "u_true": null,
+    "u_sr": 0.9612,
+    "v1": 1.3138,
+    "kappa_d": 1.2112,
+    "u_pair": 1.8825,
+    "edges": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "du": 0.3,
+    "u_true": null,
+    "u_sr": 1.1951,
+    "v1": 1.3593,
+    "kappa_d": 1.2572,
+    "u_pair": 2.0307,
+    "edges": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "du": 0.6,
+    "u_true": null,
+    "u_sr": 1.3934,
+    "v1": 1.3771,
+    "kappa_d": 1.116,
+    "u_pair": 2.4929,
+    "edges": [
+     false,
+     false,
+     true
+    ]
+   }
+  ]
+ },
+ "verdicts": {
+  "V": false
+ }
+}
