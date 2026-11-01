@@ -1,0 +1,5 @@
+E_cur {'semi_n': 10, 'semi_slope': 0.288, 'semi_med_abs_err': 0.207, 'semi_med_err': 0.088, 'field_n': 26, 'field_c_median': 0.789, 'field_v_median': 1.267, 'field_v_range': [1.2068240448451484, 1.3555135761267998]}
+E_fix {'semi_n': 10, 'semi_slope': 0.981, 'semi_med_abs_err': 0.308, 'semi_med_err': 0.218, 'field_n': 26, 'field_c_median': 0.553, 'field_v_median': 1.81, 'field_v_range': [1.6298185554606412, 2.1169505544414884]}
+E_fix0 {'semi_n': 10, 'semi_slope': 0.837, 'semi_med_abs_err': 0.204, 'semi_med_err': -0.064, 'field_n': 26, 'field_c_median': 0.769, 'field_v_median': 1.3, 'field_v_range': [1.1163658280553712, 1.5797893465047004]}
+SR c median 1.033
+{'D1': False, 'D2': True, 'D3': False}
