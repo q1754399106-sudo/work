@@ -1,0 +1,73 @@
+3677-32__w3.00_lam0.0625_va0.5 45s all converged
+3677-32__w2.24_lam0.0625_va0.5 49s all converged
+3677-32__w2.24_lam0.0625_va2.0 48s all converged
+4508-32__w3.00_lam0.0625_va1.0 37s all converged
+4508-32__w2.24_lam0.0625_va0.5 41s all converged
+4508-32__w2.24_lam0.0625_va2.0 42s all converged
+3677-32__w3.00_lam0.25_va1.0 23s all converged
+3677-32__w2.24_lam0.25_va0.5 26s all converged
+3677-32__w2.24_lam0.25_va2.0 25s all converged
+4508-32__w3.00_lam0.25_va2.0 17s all converged
+4508-32__w2.24_lam0.25_va0.5 19s all converged
+3677-32__w3.00_lam1.0_va0.5 12s all converged
+3677-32__w3.00_lam1.0_va1.0 13s all converged
+3677-32__w2.24_lam1.0_va0.5 12s all converged
+3677-32__w2.24_lam1.0_va2.0 12s all converged
+4508-32__w3.00_lam1.0_va1.0 11s all converged
+4508-32__w2.24_lam1.0_va0.5 11s all converged
+4508-32__w2.24_lam1.0_va2.0 12s all converged
+3677-32__w3.00_lam2.0_va1.0 9s all converged
+3677-32__w2.24_lam2.0_va0.5 10s all converged
+3677-32__w2.24_lam2.0_va2.0 10s all converged
+4508-32__w3.00_lam2.0_va1.0 8s all converged
+4508-32__w2.24_lam2.0_va0.5 9s all converged
+4508-32__w2.24_lam2.0_va2.0 9s all converged
+3677-32__w3.00_lam0.0625_va1.0 41s all converged
+3677-32__w3.00_lam0.0625_va2.0 40s all converged
+3677-32__w2.24_lam0.0625_va1.0 49s all converged
+4508-32__w3.00_lam0.0625_va0.5 38s all converged
+4508-32__w3.00_lam0.0625_va2.0 33s all converged
+4508-32__w2.24_lam0.0625_va1.0 41s all converged
+3677-32__w3.00_lam0.25_va0.5 23s all converged
+3677-32__w3.00_lam0.25_va2.0 22s all converged
+3677-32__w2.24_lam0.25_va1.0 26s all converged
+4508-32__w3.00_lam0.25_va0.5 18s all converged
+4508-32__w3.00_lam0.25_va1.0 19s all converged
+4508-32__w2.24_lam0.25_va1.0 19s all converged
+4508-32__w2.24_lam0.25_va2.0 19s all converged
+3677-32__w3.00_lam1.0_va2.0 12s all converged
+3677-32__w2.24_lam1.0_va1.0 12s all converged
+4508-32__w3.00_lam1.0_va0.5 11s all converged
+4508-32__w3.00_lam1.0_va2.0 11s all converged
+4508-32__w2.24_lam1.0_va1.0 13s all converged
+3677-32__w3.00_lam2.0_va0.5 10s all converged
+3677-32__w3.00_lam2.0_va2.0 9s all converged
+3677-32__w2.24_lam2.0_va1.0 10s all converged
+4508-32__w3.00_lam2.0_va0.5 9s all converged
+4508-32__w3.00_lam2.0_va2.0 9s all converged
+4508-32__w2.24_lam2.0_va1.0 9s all converged
+3677-32|w3.00 beta range 0.16 monotone True spearman 1.0
+   lam 0.0625 beta 0.15 kappa 0.763  v {0.5: 0.78, 1.0: 1.15, 2.0: 1.92} conv True
+   lam 0.25   beta 0.16 kappa 0.783  v {0.5: 0.76, 1.0: 1.16, 2.0: 1.93} conv True
+   lam 0.5    beta 0.17 kappa 0.816  v {0.5: 0.75, 1.0: 1.17, 2.0: 1.98} conv True
+   lam 1.0    beta 0.31 kappa 0.858  v {0.5: 0.86, 1.0: 1.31, 2.0: 2.15} conv True
+   lam 2.0    beta None kappa None  v {0.5: None, 1.0: None, 2.0: None} conv True
+3677-32|w2.24 beta range 1.15 monotone False spearman 0.1
+   lam 0.0625 beta 2.16 kappa 0.227  v {0.5: 3.05, 1.0: 3.16, 2.0: 3.39} conv True
+   lam 0.25   beta 2.23 kappa 0.221  v {0.5: 3.12, 1.0: 3.23, 2.0: 3.45} conv True
+   lam 0.5    beta 2.23 kappa 0.211  v {0.5: 3.13, 1.0: 3.23, 2.0: 3.45} conv True
+   lam 1.0    beta 2.23 kappa 0.209  v {0.5: 3.13, 1.0: 3.23, 2.0: 3.44} conv True
+   lam 2.0    beta 3.31 kappa 0.423  v {0.5: 4.05, 1.0: 4.31, 2.0: 4.69} conv True
+4508-32|w3.00 beta range 3.3 monotone True spearman -0.8
+   lam 0.0625 beta 0.86 kappa 0.607  v {0.5: 1.57, 1.0: 1.86, 2.0: 2.48} conv True
+   lam 0.25   beta 1.25 kappa 0.598  v {0.5: 1.96, 1.0: 2.25, 2.0: 2.86} conv True
+   lam 0.5    beta 1.85 kappa 0.607  v {0.5: 2.55, 1.0: 2.85, 2.0: 3.47} conv True
+   lam 1.0    beta 4.16 kappa 0.468  v {0.5: 5.0, 1.0: 5.16, 2.0: 5.7} conv True
+   lam 2.0    beta None kappa None  v {0.5: None, 1.0: None, 2.0: None} conv True
+4508-32|w2.24 beta range 1.7 monotone True spearman 1.0
+   lam 0.0625 beta 1.73 kappa 0.218  v {0.5: 2.62, 1.0: 2.73, 2.0: 2.95} conv True
+   lam 0.25   beta 1.96 kappa 0.238  v {0.5: 2.85, 1.0: 2.96, 2.0: 3.2} conv True
+   lam 0.5    beta 2.32 kappa 0.255  v {0.5: 3.2, 1.0: 3.32, 2.0: 3.58} conv True
+   lam 1.0    beta 3.43 kappa 0.281  v {0.5: 4.29, 1.0: 4.43, 2.0: 4.71} conv True
+   lam 2.0    beta None kappa None  v {0.5: None, 1.0: None, 2.0: None} conv True
+{'N1': {'3677-32': False, '4508-32': True}, 'N2': None, 'N0': None}
