@@ -22,6 +22,7 @@
 - 投稿稿（2026-11-01 整理）：在线文档 https://claude.ai/artifact/8ZjzUjw9T8E1WPJ4yqWko4 （中文正文＋英文摘要，含表 1 与图表清单）；`PAPER_DRAFT_ZH.md` 为其前身的工作稿。
 
 - 2026-11-02 增强检验：换选 Q 准则（Cheng、Yan 型在有真值数据上同样被锚定，κ̂ 0.89、0.51；实测不稳定；lp 型退化）；第二个工区 U1320A（浅窗 κ̂ 0.21/0.26 对预测 0.218，深窗 0.82/0.61 对 0.884）；VSP 稳健重算（F-15A 排除 c ≈ 0.65，F-11 T2 无法判定，事后）。见 `RESULTS_CRIT_ZH.md`、`RESULTS_U1320A_ZH.md`、`RESULTS_VSP_ZH.md`。
+- 2026-11-02 从单次扫描的逐时刻目标曲率测 φ₂ 并预测 κ：预先登记的三项判据全部不满足，此路不可用；4508-32 深窗偏低原因仍未找到。见 `RESULTS_PHI2_ZH.md`。
 
 | 路径 | 内容 |
 |---|---|
@@ -51,4 +52,5 @@
 | `scripts/field_kappa2.py`、`scripts/analyze_field2.py`、`scripts/fig_field.py` | 全工区 26 条 SR 测线的 κ̂ 与 β（`PLAN_FIELD2_ZH.md`），`results11/`、`analysis/field2.json`、`figures/field.png`、`logs/field2_*` |
 | `scripts/crit_kappa.py`、`scripts/analyze_crit.py` | 换选 Q 准则（`PLAN_CRIT_ZH.md`），`results17/`、`analysis/crit.json` |
 | `scripts/u1320a_kappa.py`、`scripts/analyze_u1320a.py` | 第二个工区 U1320A（`PLAN_U1320A_ZH.md`），`results18/`、`analysis/u1320a.json` |
+| `scripts/phi2.py`、`scripts/analyze_phi2.py` | 逐时刻目标曲率测 φ₂（`PLAN_PHI2_ZH.md`），`results19/`、`analysis/phi2.json` |
 | `scripts/vsp_robust.py` | VSP Q 稳健重算（`PLAN_VSP_ZH.md`），`analysis/vsp_robust.json` |

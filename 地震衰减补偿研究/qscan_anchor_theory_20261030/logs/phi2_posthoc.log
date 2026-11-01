@@ -1,0 +1,9 @@
+B all 0.808 drop10% 0.761 drop20% 0.697 clip 0.757 drop10%+clip 0.724
+D all 0.774 drop10% 0.724 drop20% 0.662 clip 0.561 drop10%+clip 0.520
+D2 all 0.784 drop10% 0.721 drop20% 0.678 clip 0.677 drop10%+clip 0.637
+M all 0.779 drop10% 0.678 drop20% 0.620 clip 0.709 drop10%+clip 0.639
+S all 0.914 drop10% 0.899 drop20% 0.876 clip 0.903 drop10%+clip 0.891
+U_3677-32__w2.24_va1.0 all 0.568 drop10% 0.270 drop20% 0.237 clip 0.362 drop10%+clip 0.232
+U_3677-32__w3.00_va1.0 all 3.437 drop10% 1.211 drop20% 0.966 clip 1.921 drop10%+clip 0.998
+U_4508-32__w2.24_va1.0 all 0.876 drop10% 0.338 drop20% 0.258 clip 0.547 drop10%+clip 0.261
+U_4508-32__w3.00_va1.0 all 5.385 drop10% 1.565 drop20% 1.071 clip 2.432 drop10%+clip 1.021
