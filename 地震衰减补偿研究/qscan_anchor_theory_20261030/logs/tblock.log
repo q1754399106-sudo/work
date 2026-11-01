@@ -1,0 +1,33 @@
+3677-32__w2.24_va0.5 13s all converged
+3677-32__w2.24_va2.0 13s all converged
+3677-32__w3.00_va2.0 12s all converged
+4508-32__w2.24_va1.0 10s all converged
+4508-32__w3.00_va0.5 9s all converged
+4508-32__w3.00_va2.0 10s all converged
+3677-32__w2.24_va1.0 12s all converged
+3677-32__w3.00_va0.5 11s all converged
+3677-32__w3.00_va1.0 11s all converged
+4508-32__w2.24_va0.5 10s all converged
+4508-32__w2.24_va2.0 10s all converged
+4508-32__w3.00_va1.0 10s all converged
+3677-32|w2.24 line 0.211 (r18 0.211) repro 0.0000 conv True
+   traces [0, 32] kappa 0.241 beta 2.41 sigma 1.35e+07 rms 0.571
+   traces [33, 65] kappa 0.228 beta 2.26 sigma 1.46e+07 rms 0.941
+   traces [66, 98] kappa 0.204 beta 2.07 sigma 1.53e+07 rms 1.162
+   sliding [0.21, 0.25, 0.24, 0.23, 0.22, 0.24, 0.27, 0.27, 0.26, 0.24, 0.23, 0.23, 0.23, 0.2, 0.2, 0.21, 0.25]
+3677-32|w3.00 line 0.816 (r18 0.816) repro 0.0000 conv True
+   traces [0, 32] kappa 0.746 beta 0.6 sigma 1.35e+07 rms 0.571
+   traces [33, 65] kappa 0.861 beta 0.1 sigma 1.46e+07 rms 0.941
+   traces [66, 98] kappa 0.812 beta -0.18 sigma 1.53e+07 rms 1.162
+   sliding [0.73, 0.74, 0.74, 0.74, 0.85, 0.85, 0.87, 0.86, 0.8, 0.87, 0.83, 0.75, 0.79, 0.8, 0.82, 0.81, 0.84]
+4508-32|w2.24 line 0.255 (r18 0.255) repro 0.0000 conv True
+   traces [0, 32] kappa 0.263 beta 2.29 sigma 1.76e+07 rms 0.664
+   traces [33, 65] kappa 0.273 beta 2.59 sigma 1.96e+07 rms 0.637
+   traces [66, 98] kappa 0.245 beta 2.19 sigma 1.85e+07 rms 0.782
+   sliding [0.26, 0.27, 0.28, 0.29, 0.27, 0.26, 0.24, 0.28, 0.27, 0.29, 0.28, 0.29, 0.27, 0.28, 0.24, 0.25, 0.24]
+4508-32|w3.00 line 0.607 (r18 0.607) repro 0.0000 conv True
+   traces [0, 32] kappa 0.647 beta 2.01 sigma 1.76e+07 rms 0.664
+   traces [33, 65] kappa 0.575 beta 2.01 sigma 1.96e+07 rms 0.637
+   traces [66, 98] kappa 0.563 beta 1.56 sigma 1.85e+07 rms 0.782
+   sliding [0.68, 0.6, 0.57, 0.69, 0.65, 0.62, 0.57, 0.55, 0.54, 0.51, 0.56, 0.66, 0.66, 0.57, 0.58, 0.64, 0.62]
+{'C0': True, 'B1': False, 'B2': True}
