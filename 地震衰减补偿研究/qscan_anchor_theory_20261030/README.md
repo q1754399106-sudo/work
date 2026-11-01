@@ -14,6 +14,9 @@
 - 两层参数化的探索（开发种子）：深层 Q 的 lasso 目标随 v₂ 线性下降到 v₂ = 0，没有内部极小，深层 Q 总选"不衰减"。
 - 论文初稿：`PAPER_DRAFT_ZH.md`。全部事先预测与实测：`figures/kappa_all.png`。
 
+- 实测检验（2026-11-01，预测先提交 9cfb36f）：两个锚点各扫描一次即可在没有真值的数据上测 κ̂。Volve 10 条实测测线 κ̂ = 0.678（预测 0.675，测线间 0.669–0.690），深锚窗 1.19（预测 1.14），F0–F2 全部满足。κ̂ 已知后，实测上 QScan 与 SR 的差距主要来自 β（约 0.29）。
+- 两锚点诊断检验（预测先提交 d6deecf）：剖面 D2（深层较强吸收）上公式 0.489、实测 0.624，剖面 M（中部吸收）上 0.595 对 0.614；两个剖面上 1 − κ̂ 都预测了压缩斜率。G1–G3 全部满足。公式只在衰减集中于深层时失效。
+
 | 路径 | 内容 |
 |---|---|
 | `scripts/fit_existing.py` | 用实验 12、14 已有结果在 1/c 空间拟合（事后） |
@@ -37,3 +40,5 @@
 | `scripts/probe_layer.py`、`scripts/probe_active.py` | 两层参数化与非零系数加权的事后探索，`logs/probe_layer.log`、`logs/probe_active.log` |
 | `scripts/fig_schematic.py` | `figures/schematic.png`：论文图 1（吸收剖面、窗口与 κ 随子波窗深度的变化） |
 | `scripts/posthoc_iter.py` | 迭代检验 mid / deep 组只用可靠步的增量比（事后），`analysis/iter_posthoc.json` |
+| `scripts/field_kappa.py`、`scripts/analyze_field.py` | 实测测线上的两锚点 κ̂（`PLAN_FIELD_ZH.md`），`results9/`、`analysis/field.json`、`logs/field_*` |
+| `scripts/qprofile2.py`、`scripts/analyze_profile2.py` | 两锚点诊断与剖面 D2、M（`PLAN_PROFILE2_ZH.md`），`results10/`、`analysis/profile2.json`、`logs/prof2_*` |

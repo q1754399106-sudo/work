@@ -13,13 +13,13 @@
 
 基于稀疏反演的 Q 扫描方法通常先在浅层时窗估计子波，并假设该时窗的衰减已知（常取参考 Q 或无衰减），再在一组候选 Q 上选使稀疏目标最小的那个。我们证明，这一做法使选出的 Q 系统地被压向估子波时假设的参考值。在局部平稳、对 1/Q 线性化的近似下，选出的 1/c 是真值与参考值的加权平均：1/c_sel = (1 − κ)/c_true + κ/c_a + β，其中压缩系数 κ = a₀⟨a⟩/⟨a²⟩ 只由吸收剖面和窗口几何决定（a 为累积 t*，a₀ 为子波窗口处的值），无需反演即可算出；稀疏权重只进入截距 β，因而调权重无法消除压缩。
 
-在 Volve 实测噪声与测井反射系数构成的半合成数据上，我们在运行前提交了八组定量预测。窗口几何、噪声的预测和迭代的收敛速度、极限都成立（迭代后斜率的预测未满足，原因见正文）：默认几何下 κ 预测 0.675，实测 0.66 与 0.71；子波窗加深后预测 0.96 与 1.14，实测 0.98 与 1.12，且最深窗口下选出的 Q 与真 Q 反向变化；截短分析窗后预测 0.804，实测 0.81；噪声从 ×0.25 变到 ×2，κ 不变；在带断层、Q 横向变化的未见数据上，预测的压缩斜率 0.33 与实测 0.36 相符；把选出的 Q 反馈为锚点迭代，增量按 0.689 的比例缩小（理论 κ = 0.675），极限与一步代数反解 (v_1 − κ)/(1 − κ) 的中位差仅 0.012。换吸收剖面时，上覆层强吸收的剖面按公式变化（预测 0.880，实测 0.856），深层强吸收的剖面不符（预测 0.294，实测 0.598），这标出了"灵敏度在分析窗内均匀"这一假设的适用边界。理论还给出去锚定的代价：每个候选 Q 重估子波时，辨识 Q 的曲率只剩约 1/8（理论 8.0，实测 6.5–9.8）；迭代反馈把稀疏偏差放大 1/(1 − κ) 倍，精度不比单步好。结论适用于所有"浅层锚定子波 + 全局 Q 扫描"类方法，并提供一个开跑前的可信度诊断。
+在 Volve 实测噪声与测井反射系数构成的半合成数据上，我们在运行前提交了八组定量预测。窗口几何、噪声的预测和迭代的收敛速度、极限都成立（迭代后斜率的预测未满足，原因见正文）：默认几何下 κ 预测 0.675，实测 0.66 与 0.71；子波窗加深后预测 0.96 与 1.14，实测 0.98 与 1.12，且最深窗口下选出的 Q 与真 Q 反向变化；截短分析窗后预测 0.804，实测 0.81；噪声从 ×0.25 变到 ×2，κ 不变；在带断层、Q 横向变化的未见数据上，预测的压缩斜率 0.33 与实测 0.36 相符；把选出的 Q 反馈为锚点迭代，增量按 0.689 的比例缩小（理论 κ = 0.675），极限与一步代数反解 (v_1 − κ)/(1 − κ) 的中位差仅 0.012。换吸收剖面时，上覆层强吸收的剖面按公式变化（预测 0.880，实测 0.856），深层强吸收的剖面不符（预测 0.294，实测 0.598），这标出了"灵敏度在分析窗内均匀"这一假设的适用边界。由于真值和截距在不同锚点之间不变，同一数据用两个锚点各扫描一次即可直接测出 κ̂，不需要真值；在 10 条 Volve 实测测线上测得 κ̂ = 0.678（预测 0.675，测线间 0.669–0.690），深锚窗 1.19（预测 1.14）。理论还给出去锚定的代价：每个候选 Q 重估子波时，辨识 Q 的曲率只剩约 1/8（理论 8.0，实测 6.5–9.8）；迭代反馈把稀疏偏差放大 1/(1 − κ) 倍，精度不比单步好。结论适用于所有"浅层锚定子波 + 全局 Q 扫描"类方法，并提供一个开跑前的可信度诊断。
 
 **关键词**：品质因子；Q 估计；稀疏反演；子波估计；衰减补偿；偏差分析
 
 **Abstract（英文草稿）**
 
-Scanned-Q methods estimate attenuation by inverting the data for sparse reflectivity under a set of candidate Q models and selecting the model with the smallest sparsity-regularized objective. The source wavelet is usually extracted from a shallow window under an assumed reference attenuation. We show that this anchoring compresses the selected Q toward the reference. Linearizing in 1/Q, the selected value is a weighted mean of the true and the reference value, 1/c_sel = (1 − κ)/c_true + κ/c_a + β, with a compression factor κ = a₀⟨a⟩/⟨a²⟩ that depends only on the cumulative attenuation a(t) over the analysis window and its value a₀ at the wavelet window, and can therefore be computed before any inversion. The sparsity weight enters only the offset β, which is why tuning it cannot remove the compression. On semi-synthetic data built from Volve field noise and well-log reflectivity, we registered eight quantitative predictions before running the tests. Predictions of κ for four window geometries (0.675, 0.96, 1.14, 0.804; measured 0.66–0.71, 0.98, 1.12, 0.81), its independence of the noise level, the compression slope on unseen faulted data with laterally varying Q, and the convergence rate of an alternating wavelet–Q iteration (0.675; measured 0.689) were confirmed; the selection reversed its dependence on the true Q when κ exceeded 1, as predicted. The iteration converges to (v₁ − κ)/(1 − κ), so it trades compression for a sparsity bias amplified by 1/(1 − κ) and does not improve accuracy. A profile with strong shallow attenuation followed the formula (0.880 predicted, 0.856 measured), whereas a profile with strong deep attenuation did not (0.294 predicted, 0.598 measured), which marks the limit of the uniform-sensitivity assumption. The result applies to any method that combines a shallow, reference-attenuated wavelet with a global Q scan, and κ provides a pre-inversion check of whether the scanned Q can be trusted.
+Scanned-Q methods estimate attenuation by inverting the data for sparse reflectivity under a set of candidate Q models and selecting the model with the smallest sparsity-regularized objective. The source wavelet is usually extracted from a shallow window under an assumed reference attenuation. We show that this anchoring compresses the selected Q toward the reference. Linearizing in 1/Q, the selected value is a weighted mean of the true and the reference value, 1/c_sel = (1 − κ)/c_true + κ/c_a + β, with a compression factor κ = a₀⟨a⟩/⟨a²⟩ that depends only on the cumulative attenuation a(t) over the analysis window and its value a₀ at the wavelet window, and can therefore be computed before any inversion. The sparsity weight enters only the offset β, which is why tuning it cannot remove the compression. On semi-synthetic data built from Volve field noise and well-log reflectivity, we registered eight quantitative predictions before running the tests. Predictions of κ for four window geometries (0.675, 0.96, 1.14, 0.804; measured 0.66–0.71, 0.98, 1.12, 0.81), its independence of the noise level, the compression slope on unseen faulted data with laterally varying Q, and the convergence rate of an alternating wavelet–Q iteration (0.675; measured 0.689) were confirmed; the selection reversed its dependence on the true Q when κ exceeded 1, as predicted. The iteration converges to (v₁ − κ)/(1 − κ), so it trades compression for a sparsity bias amplified by 1/(1 − κ) and does not improve accuracy. A profile with strong shallow attenuation followed the formula (0.880 predicted, 0.856 measured), whereas a profile with strong deep attenuation did not (0.294 predicted, 0.598 measured), which marks the limit of the uniform-sensitivity assumption. Because the true Q and the offset do not depend on the anchor, two scans with different anchors measure κ directly from the data, without any ground truth; on ten field inlines from Volve this gave 0.678 (predicted 0.675; range 0.669–0.690 across lines) and 1.19 for the deep wavelet window (predicted 1.14). The result applies to any method that combines a shallow, reference-attenuated wavelet with a global Q scan, and κ provides a pre-inversion check of whether the scanned Q can be trusted.
 
 ---
 
@@ -72,7 +72,7 @@ Scanned-Q methods estimate attenuation by inverting the data for sparse reflecti
 
 ### 3.5 推广到逐点或分层参数化
 
-（据 Chai 等 2019 的对照推论，未完整检验）逐点参数化能把锚点误差当作常数吸收，按层差分得到的层间 Q 原则上不受锚定影响；全局单一 Q 吸收不了，表现为 κ 压缩。代价同样是只剩深浅之差可用。第 5.7 节的探索性观察显示，两层参数化时深层的曲率只有单一 Q 的约 1.3%。
+（据 Chai 等 2019 的对照推论，未完整检验）逐点参数化能把锚点误差当作常数吸收，按层差分得到的层间 Q 原则上不受锚定影响；全局单一 Q 吸收不了，表现为 κ 压缩。代价同样是只剩深浅之差可用。第 5.8 节的探索性观察显示，两层参数化时深层的曲率只有单一 Q 的约 1.3%。
 
 ## 4 数据与实验设计
 
@@ -102,6 +102,8 @@ Scanned-Q methods estimate attenuation by inverting the data for sparse reflecti
 | 迭代增量比 | 锚窗 1.8–2.2 s / 2.4–2.8 s | 0.964 / 1.14 | 预登记统计未通过（mid 不可靠步 27%，deep 合并比 0.82）；事后只用线性区内的步：0.99 / 1.17 | a7fb41e |
 | 吸收剖面 S | 上覆层强吸收，Q = 30/200/200/200 | 0.880 | 0.856 [0.848, 0.863] | 1951185 |
 | 吸收剖面 D | 深层强吸收，Q = 250/250/40/40 | 0.294 | **0.598** [0.585, 0.612]（不符） | 1951185 |
+| 吸收剖面 D2 / M | 深层较强 150/150/60/60；中部 200/45/200/200 | 0.489 / 0.595 | 0.624 / 0.614（D2 按预测高于公式） | d6deecf |
+| **实测 10 条测线** | 默认锚窗 / 深锚窗（两锚点直接测） | 0.675 / 1.14 | **0.678** [0.676, 0.684] / **1.19** [1.17, 1.21] | 9cfb36f |
 
 - 最深锚窗下（κ = 1.14），锚点 1.4 时真 c 从 0.65 增到 1.5，选出的 c 从 1.92 降到 1.30，与"反向变化"的预测一致。
 - 不吻合之处：深锚窗时 A 比 1 − κ 低 0.09–0.18（A + K = 0.84、0.89）。噪声检验表明这主要来自噪声：噪声 ×0.25、×0.5 时 A + K = 0.96、0.98。
@@ -138,7 +140,17 @@ Scanned-Q methods estimate attenuation by inverting the data for sparse reflecti
 
 所以 κ = a₀⟨a⟩/⟨a²⟩ 在"Q 的灵敏度在分析窗内近似均匀"时成立；衰减集中在深层时它低估压缩，诊断结果偏乐观。φ₂ 的建模是下一步。
 
-### 5.7 探索：两层参数化的深层 Q 不可辨
+### 5.7 实测：两锚点直接测 κ
+
+v_sel = (1 − κ)u + κv_a + β 中，u 和 β 都不随锚点变。所以同一数据用两个锚点各扫描一次，κ̂ = Δv_sel/Δv_a 就消掉了真值和截距，可以在没有真值的实测数据上使用。
+
+- **半合成上的依据**：所有剖面（包括公式失效的 D）上和规则 A + K = 0.98–1.00，逐个数据集测出的 K 很稳定（D 上 0.56–0.64），所以 1 − κ̂ 就是该数据上现流程的压缩斜率。
+- **实测**（运行前提交，Volve 实验 13 的 10 条测线）：默认锚窗 κ̂ = 0.678 [0.676, 0.684]，10 条测线全在 0.669–0.690；深锚窗 1.19 [1.17, 1.21]，10/10 大于默认锚窗；10/10 随锚点严格单调；c_a = 1 时与原流程的选择 10/10 相同。
+- **对实测 Q 的含义**：现流程在实测上选 c ≈ 0.77，谱比法给 0.98–1.17。κ̂ 已知后，若以谱比法为准，可反推截距 β 约为 0.22–0.34，而半合成上只有 0.03–0.07。所以在实测上，扫描法与谱比法的差距主要来自稀疏偏好 β，而不是压缩；β 在实测反射系数上明显更大。
+
+- **两锚点诊断的检验**（运行前提交，两个新剖面）：衰减较强地集中在深层的 D2 上，公式给 0.489，两锚点测得 0.624，与 D 同向；吸收集中在中部的 M 上，公式 0.595，实测 0.614。两个剖面上 1 − κ̂ 都预测了现流程的压缩斜率（实测斜率低 0.05–0.12）。所以公式只在衰减集中于深层时失效，两锚点测量在这种情形下照样可用。
+
+### 5.8 探索：两层参数化的深层 Q 不可辨
 
 （探索性，开发种子 9940，未预登记）把扫描模型改为 2.04 s 层界上下各一个 Q 系数，固定浅层 c₁ = c_true、锚点正确（c_a = 1），沿深层 v₂ 扫描：真 c 取 0.7、1.0、1.4 时，lasso 目标都随 v₂ 线性下降，直到 v₂ = 0（深层不衰减）出现折点，没有内部极小。理论上深层曲率 ⟨g₂²⟩ 只有单一 Q 的 1.3%，均匀稀疏偏好下截距被放大约 5.6 倍。这与 Chai 等 (2019) 报告的"分解偏向小 Q⁻¹"一致，说明锚定理论中的 β 项在曲率小时会主导选择。
 
@@ -146,11 +158,11 @@ Scanned-Q methods estimate attenuation by inverting the data for sparse reflecti
 
 ### 6.1 开跑前的诊断流程
 
-1. 由模型 Q 剖面（或 VSP / 测井给的初始 Q）算 a(t)；
-2. 由子波窗中点得 a₀，由分析窗得 ⟨a⟩、⟨a²⟩，算 κ；
-3. κ 接近 0：扫描结果可信；κ 接近 1：扫描结果主要反映假设的参考 Q，应换用谱比类方法；κ > 1：结果与真 Q 反向，不应使用。
+1. **事先估计**：由模型 Q 剖面（或 VSP / 测井给的初始 Q）算 a(t)，由子波窗中点得 a₀、由分析窗得 ⟨a⟩、⟨a²⟩，算 κ。衰减集中在深层时这一步会低估 κ。
+2. **在数据上直接测**：用两个锚点（如 c_a = 0.7、1.4）各扫描一次，κ̂ = Δv_sel/Δv_a。只多两次扫描，不需要真值，也不依赖灵敏度均匀的假设。
+3. **判断**：κ̂ 接近 0，扫描结果可信；κ̂ 接近 1，扫描结果主要反映假设的参考 Q，应换用谱比类方法；κ̂ > 1，结果与真 Q 反向，不应使用。
 
-本文数据的默认几何下 κ = 0.675，真值只占选择的约 1/3。
+Volve 实测的默认几何下 κ̂ = 0.68，真值只占选择的约 1/3。
 
 ### 6.2 对同类方法的意义
 
@@ -167,7 +179,7 @@ Scanned-Q methods estimate attenuation by inverting the data for sparse reflecti
 
 ## 7 结论
 
-（三句话版本）浅层锚定子波使全局 Q 扫描的选择被压向假设的参考值，压缩系数 κ = a₀⟨a⟩/⟨a²⟩ 由吸收剖面和窗口几何决定、可事先计算。它在窗口、噪声、迭代和上覆层强吸收的七组运行前提交的预测中得到验证，在深层强吸收时低估压缩。稀疏权重只平移选择，不能消除压缩。去锚定可以通过重估子波或迭代反馈实现，但前者辨 Q 能力只剩约 1/8，后者把稀疏偏差放大约 1/(1 − κ) 倍，所以扫描法的主要价值在补偿而不是定 Q，定 Q 宜用只依赖深浅之差的方法。
+（三句话版本）浅层锚定子波使全局 Q 扫描的选择被压向假设的参考值，压缩系数 κ = a₀⟨a⟩/⟨a²⟩ 由吸收剖面和窗口几何决定、可事先计算。它在窗口、噪声、迭代、上覆层强吸收和实测的运行前提交的预测中得到验证，在深层强吸收时低估压缩；用两个锚点可以在实测数据上直接测出 κ，Volve 实测为 0.68。稀疏权重只平移选择，不能消除压缩。去锚定可以通过重估子波或迭代反馈实现，但前者辨 Q 能力只剩约 1/8，后者把稀疏偏差放大约 1/(1 − κ) 倍，所以扫描法的主要价值在补偿而不是定 Q，定 Q 宜用只依赖深浅之差的方法。
 
 ---
 
