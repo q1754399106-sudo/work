@@ -17,6 +17,8 @@
 - 实测检验（2026-11-01，预测先提交 9cfb36f）：两个锚点各扫描一次即可在没有真值的数据上测 κ̂。Volve 10 条实测测线 κ̂ = 0.678（预测 0.675，测线间 0.669–0.690），深锚窗 1.19（预测 1.14），F0–F2 全部满足。κ̂ 已知后，实测上 QScan 与 SR 的差距主要来自 β（约 0.29）。
 - 两锚点诊断检验（预测先提交 d6deecf）：剖面 D2（深层较强吸收）上公式 0.489、实测 0.624，剖面 M（中部吸收）上 0.595 对 0.614；两个剖面上 1 − κ̂ 都预测了压缩斜率。G1–G3 全部满足。公式只在衰减集中于深层时失效。
 
+- 全工区实测（预测先提交 ca44394）：26 条 SR 测线上 κ̂ = 0.681（26/26 在 0.657–0.705），β̂ = 0.28（26/26 为正，测线间近似恒定），K1、K2、B1 全部满足；c_SR 在 0.85–1.37 之间变化时，现流程 QScan 只在 0.74–0.83 之间变化。
+
 | 路径 | 内容 |
 |---|---|
 | `scripts/fit_existing.py` | 用实验 12、14 已有结果在 1/c 空间拟合（事后） |
@@ -42,3 +44,4 @@
 | `scripts/posthoc_iter.py` | 迭代检验 mid / deep 组只用可靠步的增量比（事后），`analysis/iter_posthoc.json` |
 | `scripts/field_kappa.py`、`scripts/analyze_field.py` | 实测测线上的两锚点 κ̂（`PLAN_FIELD_ZH.md`），`results9/`、`analysis/field.json`、`logs/field_*` |
 | `scripts/qprofile2.py`、`scripts/analyze_profile2.py` | 两锚点诊断与剖面 D2、M（`PLAN_PROFILE2_ZH.md`），`results10/`、`analysis/profile2.json`、`logs/prof2_*` |
+| `scripts/field_kappa2.py`、`scripts/analyze_field2.py`、`scripts/fig_field.py` | 全工区 26 条 SR 测线的 κ̂ 与 β（`PLAN_FIELD2_ZH.md`），`results11/`、`analysis/field2.json`、`figures/field.png`、`logs/field2_*` |
