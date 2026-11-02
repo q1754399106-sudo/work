@@ -1,0 +1,23 @@
+{
+ "kind": "semi",
+ "job": "L10006",
+ "window": "w1.7",
+ "scans": {
+  "0.7": {
+   "v_sel": 1.553988825558712,
+   "edge": false,
+   "ok": true
+  },
+  "1.0": {
+   "v_sel": 1.2054196452926682,
+   "edge": false,
+   "ok": true
+  },
+  "1.4": {
+   "v_sel": 0.979646381727692,
+   "edge": false,
+   "ok": true
+  }
+ },
+ "seconds": 57.87393383400013
+}

@@ -24,7 +24,7 @@
 - 2026-11-02 增强检验：换选 Q 准则（Cheng、Yan 型在有真值数据上同样被锚定，κ̂ 0.89、0.51；实测不稳定；lp 型退化）；第二个工区 U1320A（浅窗 κ̂ 0.21/0.26 对预测 0.218，深窗 0.82/0.61 对 0.884）；VSP 稳健重算（F-15A 排除 c ≈ 0.65，F-11 T2 无法判定，事后）。见 `RESULTS_CRIT_ZH.md`、`RESULTS_U1320A_ZH.md`、`RESULTS_VSP_ZH.md`。
 - 2026-11-02 从单次扫描的逐时刻目标曲率测 φ₂ 并预测 κ：预先登记的三项判据全部不满足，此路不可用；4508-32 深窗偏低原因仍未找到。见 `RESULTS_PHI2_ZH.md`。
 - 2026-11-02 4508-32 深窗偏低：按道分块显示全线如此（0.56–0.65），用 λ 把 β 从 0.86 调到 1.85 时 κ̂ 不变（0.60–0.61），不是 β 大造成的非线性。见 `RESULTS_TBLOCK_ZH.md`、`RESULTS_LAMBDA_ZH.md`。
-- 2026-11-02 分段扰动测 φ₂：判据不满足，但 9 个情形中 7 个差 ≤ 0.10（含 D 剖面），段间耦合强，κ 的一般形式为 a₀aᵀH1/aᵀHa（`RESULTS_SEGPHI_ZH.md`）。β 按 λ 拆分：实测多出的 β 约四分之三与 λ 无关，最可能是反射系数实现的谱色差项（`RESULTS_BETALAM_ZH.md`）；频散相位、子波相位、多次波都不是来源（`RESULTS_MISFIT_ZH.md`）。SR 在单个实现上偏 ±20%（平均无偏）；以 SR 为准同口径比较，实测 β 0.278 高于 12 个现实半合成实现的最大值 0.197，收回"不需要实测特有机制"的旧说法（`RESULTS_BETASR_ZH.md`）。去锚定估计把斜率恢复到约 1，但把 β 放大约 3 倍，半合成误差不变、实测 c ≈ 0.77，不可用（`RESULTS_DEANCHOR_ZH.md`）。
+- 2026-11-02 分段扰动测 φ₂：判据不满足，但 9 个情形中 7 个差 ≤ 0.10（含 D 剖面），段间耦合强，κ 的一般形式为 a₀aᵀH1/aᵀHa（`RESULTS_SEGPHI_ZH.md`）。β 按 λ 拆分：实测多出的 β 约四分之三与 λ 无关，最可能是反射系数实现的谱色差项（`RESULTS_BETALAM_ZH.md`）；频散相位、子波相位、多次波都不是来源（`RESULTS_MISFIT_ZH.md`）。SR 在单个实现上偏 ±20%（平均无偏）；以 SR 为准同口径比较，实测 β 0.278 高于 12 个现实半合成实现的最大值 0.197，收回"不需要实测特有机制"的旧说法（`RESULTS_BETASR_ZH.md`）。子波窗移到 1.4–1.8 s 后实测与半合成的 β 差距消失（+0.23 → −0.02），实测特有的 β 来自子波窗 1.2–1.4 s 的实测结构（`RESULTS_WSHIFT_ZH.md`）。去锚定估计把斜率恢复到约 1，但把 β 放大约 3 倍，半合成误差不变、实测 c ≈ 0.77，不可用（`RESULTS_DEANCHOR_ZH.md`）。
 
 | 路径 | 内容 |
 |---|---|
@@ -59,6 +59,7 @@
 | `scripts/segphi.py`、`scripts/analyze_segphi.py` | 分段扰动测 φ₂（`PLAN_SEGPHI_ZH.md`），`results22/`、`analysis/segphi.json` |
 | `scripts/betalam.py`、`scripts/analyze_betalam.py` | β 按 λ 拆分（`PLAN_BETALAM_ZH.md`），`results23/`、`analysis/betalam.json` |
 | `scripts/misfit.py`、`scripts/analyze_misfit.py` | 失配阶梯（`PLAN_MISFIT_ZH.md`），`results24/`、`analysis/misfit.json` |
+| `scripts/wshift.py`、`scripts/analyze_wshift.py` | 移动子波窗（`PLAN_WSHIFT_ZH.md`），`results25/`、`analysis/wshift.json` |
 | `scripts/betasr.py` | 以 SR 为准的 β 同口径比较（`PLAN_BETASR_ZH.md`），`analysis/betasr.json` |
 | `scripts/analyze_deanchor.py` | 去锚定估计（`PLAN_DEANCHOR_ZH.md`），`analysis/deanchor.json` |
 | `scripts/phi2.py`、`scripts/analyze_phi2.py` | 逐时刻目标曲率测 φ₂（`PLAN_PHI2_ZH.md`），`results19/`、`analysis/phi2.json` |
