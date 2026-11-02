@@ -64,3 +64,7 @@
 | `scripts/analyze_deanchor.py` | 去锚定估计（`PLAN_DEANCHOR_ZH.md`），`analysis/deanchor.json` |
 | `scripts/phi2.py`、`scripts/analyze_phi2.py` | 逐时刻目标曲率测 φ₂（`PLAN_PHI2_ZH.md`），`results19/`、`analysis/phi2.json` |
 | `scripts/vsp_robust.py` | VSP Q 稳健重算（`PLAN_VSP_ZH.md`），`analysis/vsp_robust.json` |
+| `scripts/dev_phi2_model.py`、`scripts/dev_anchor_curve.py` | 开发：六种对角 φ₂ 模型、锚点间距检验（`PLAN_BOUND_ZH.md` 第 1 节），`analysis/dev_*.json` |
+| `scripts/bound.py`、`scripts/analyze_bound.py` | κ 公式的适用边界（`PLAN_BOUND_ZH.md`、`RESULTS_BOUND_ZH.md`），`results26/`、`analysis/bound.json` |
+| `scripts/field_decision.py` | 两锚点诊断在 VSP 井旁是否改变选择（事后，`FIELD_DECISION_ZH.md`），`analysis/field_decision.json` |
+| `LITERATURE_CHECK_ZH.md` | 文献核对：原实现可得性、震源谱与 t* 的权衡 |
