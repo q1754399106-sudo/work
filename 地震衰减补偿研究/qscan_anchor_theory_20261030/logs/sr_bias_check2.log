@@ -1,0 +1,6 @@
+reproduce exp10 H_c0.7_s9101 n0: stored 0.6763, now 0.6763
+struct 10301, exp10 noise, x1, seeds 9971/2    median 1.208 [1.07, 1.27, 1.4, 1.02, 1.17, 1.25]
+struct 10301, no noise,        seeds 9971/2    median 1.241 [1.26, 1.29, 1.37, 1.18, 1.2, 1.23]
+struct 10227, its noise, x1, exp10 seeds    median 0.943 [0.93, 1.01, 1.04, 1.08, 1.17, 1.24, 0.95, 0.88, 0.87, 0.86, 0.83, 0.88]
+struct 10227, no noise,     exp10 seeds    median 1.003 [1.1, 1.06, 1.02, 1.19, 1.2, 1.24, 0.98, 0.91, 0.86, 0.99, 0.92, 0.88]
+struct 10301, no noise,     exp10 seeds    median 1.023 [1.1, 1.06, 1.02, 1.23, 1.23, 1.28, 1.0, 0.94, 0.9, 1.03, 0.98, 0.94]
