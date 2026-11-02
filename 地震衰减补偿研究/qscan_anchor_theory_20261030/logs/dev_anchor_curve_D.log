@@ -1,0 +1,8 @@
+D 0.7 coarse 1.312 fine 1.303  67s
+D 0.8 coarse 1.207 fine 1.205  59s
+D 0.9 coarse 1.133 fine 1.130  57s
+D 1.0 coarse 1.070 fine 1.067  52s
+D 1.1 coarse 1.024 fine 1.021  53s
+D 1.25 coarse 0.966 fine 0.965  51s
+D 1.4 coarse 0.920 fine 0.919  66s
+local slopes dv_sel/dv_a: [0.548, 0.539, 0.561, 0.506, 0.522, 0.531]
