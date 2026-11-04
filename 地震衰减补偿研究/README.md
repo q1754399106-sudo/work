@@ -178,4 +178,4 @@
 
 ## EI 自监督 Q 补偿原型（2026-11-04）
 
-`ei_qcomp_20261104/`：等变成像自监督 Q 补偿探索，包含 Python 线性原型、MATLAB 网络程序、交接说明及运行日志和图表；标签：机制研究、原型验证。多种子结果见 `RESULTS_MULTISEED_ZH.md`：Q 已知、反射系数平移不变时，3 个种子上 MC+EI 比 MC 的最佳停止点高约 1.7 dB，且不依赖提前停止；f_max(t) 未见增益。Q 误差检验方案见 `PLAN_QERR_ZH.md`。
+`ei_qcomp_20261104/`：等变成像自监督 Q 补偿探索，包含 Python 线性原型、MATLAB 网络程序、交接说明及运行日志和图表；标签：机制研究、原型验证。多种子结果见 `RESULTS_MULTISEED_ZH.md`：Q 已知、反射系数平移不变时，3 个种子上 MC+EI 比 MC 的最佳停止点高约 1.7 dB，且不依赖提前停止；f_max(t) 未见增益。Q 误差检验见 `RESULTS_QERR_ZH.md`：±20% 时 MC+EI 损失 10–15 dB，比 MC 的优势缩到 +0.30 / +1.14 dB，Q 偏低时比用真值挑 μ 的 Tikhonov 低 2.1 dB。

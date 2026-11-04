@@ -1,0 +1,14 @@
+D1 Qerr +0.20: MC+EI - MC = [0.222 0.252 0.42] (mean 0.30) -> positive but below 1 dB
+D2 Qerr +0.20: MC+EI - Tikhonov = [0.912 0.888 0.937] (mean 0.91) -> positive but below 1 dB
+D3 Qerr +0.20: fmax - MC+EI = [0.0183 0.0409 -0.0496] (mean 0.00) -> no gain seen
+   loss vs Qerr 0, +0.20, Tikhonov: all [6.78 6.82 6.77] (mean 6.79), deep [7.06 7.1 7.14] (mean 7.10)
+   loss vs Qerr 0, +0.20, MC only: all [8.01 8.04 7.1] (mean 7.72), deep [7.6 7.68 6.75] (mean 7.34)
+   loss vs Qerr 0, +0.20, MC + EI: all [10.1 9.96 10.2] (mean 10.07), deep [9.97 9.92 10.2] (mean 10.04)
+   loss vs Qerr 0, +0.20, MC + EI + fmax: all [10.1 10 10.1] (mean 10.07), deep [10 9.82 10.2] (mean 10.03)
+D1 Qerr -0.20: MC+EI - MC = [1.05 1.11 1.25] (mean 1.14) -> advantage retained
+D2 Qerr -0.20: MC+EI - Tikhonov = [-2.18 -2.11 -2.01] (mean -2.10) -> harmful
+D3 Qerr -0.20: fmax - MC+EI = [0.356 0.162 0.105] (mean 0.21) -> no gain seen
+   loss vs Qerr 0, -0.20, Tikhonov: all [8.45 8.45 8.41] (mean 8.44), deep [8.72 8.71 8.79] (mean 8.74)
+   loss vs Qerr 0, -0.20, MC only: all [13.6 13.5 12.5] (mean 13.22), deep [13.4 13.3 12.3] (mean 13.02)
+   loss vs Qerr 0, -0.20, MC + EI: all [14.8 14.6 14.8] (mean 14.74), deep [14.8 14.6 14.8] (mean 14.76)
+   loss vs Qerr 0, -0.20, MC + EI + fmax: all [14.6 14.5 14.5] (mean 14.52), deep [14.4 14.3 14.7] (mean 14.48)
