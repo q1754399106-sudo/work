@@ -1,0 +1,4 @@
+C1 stability: max range of last 3 records = 0.27 dB -> holds
+C2 4000 steps: MC+EI - MC = [2.27 2.18 3.52] (mean 2.66) -> advantage holds | deep [2.63 2.56 3.93] (mean 3.04)
+C2 12000 steps: MC+EI - MC = [6.41 8.09 3.08] (mean 5.86) -> advantage holds | deep [6.29 7.99 2.63] (mean 5.64)
+C3 4000 steps: fmax - MC+EI = [0.0901 0.0756 -0.178] (mean -0.00) -> no gain seen
