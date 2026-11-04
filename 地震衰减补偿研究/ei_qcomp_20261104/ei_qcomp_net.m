@@ -9,7 +9,7 @@
 %   4) MC + EI + fmax: + physics-derived time-varying band limit f_max(t)
 %
 % Options below: Q error test (Qerr), noise level, iterations, EI weight.
-% Environment variables (read at start): EI_SEED, EI_ITERS, EI_CFG (e.g. "1 2"),
+% Environment variables (read at start): EI_SEED, EI_QERR, EI_ITERS, EI_CFG (e.g. "1 2"),
 % EI_SCHED (cosine | const), EI_SMOKE=1 for a 30-step debug run.
 % Python/numpy linear prototype: ei_qcomp_linear.py
 
@@ -38,6 +38,7 @@ if ~isempty(getenv('EI_SMOKE'))
     P.iters = 30; P.ntr = 200; P.nte = 50; P.evalEvery = 10;
 end
 P.seed  = envNum('EI_SEED', 0);
+P.Qerr  = envNum('EI_QERR', P.Qerr);
 P.iters = envNum('EI_ITERS', P.iters);
 P.cfg   = envNum('EI_CFG', [1 2 3]);           % which of the three self-supervised variants to train
 P.sched = envStr('EI_SCHED', 'cosine');
