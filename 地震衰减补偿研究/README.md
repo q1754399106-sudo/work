@@ -174,3 +174,8 @@
 | `q_identifiable_cluster_experiment_20261023.zip`、`q_output_trust_experiment_20261023.zip`、`soft_refit_results_20261023.zip` | 反射簇、信赖域、软收缩 |
 | `prepare_changed_models.py`、`prepare_soft_trial.py` | 两轮实验的输入准备脚本 |
 | `UPLOAD_MANIFEST_20261023.csv` | 10-23 研究快照的文件清单（路径相对于当时的仓库根目录，即本文件夹） |
+
+
+## EI 自监督 Q 补偿原型（2026-11-04）
+
+`ei_qcomp_20261104/`：等变成像自监督 Q 补偿探索，包含 Python 线性原型、MATLAB 网络程序、交接说明及首轮运行日志和图表；标签：机制研究、原型验证。
