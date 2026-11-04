@@ -9,9 +9,11 @@
 %   4) MC + EI + fmax: + physics-derived time-varying band limit f_max(t)
 %
 % Options below: Q error test (Qerr), noise level, iterations, EI weight.
+% Environment variables (read at start): EI_SEED, EI_ITERS, EI_CFG (e.g. "1 2"),
+% EI_SCHED (cosine | const), EI_SMOKE=1 for a 30-step debug run.
 % Python/numpy linear prototype: ei_qcomp_linear.py
 
-clear; rng(0);
+clear;
 
 %% ---------------- parameters ----------------
 P.N      = 256;      % samples per trace
@@ -24,7 +26,8 @@ P.ntr    = 4000;     % training traces (no labels used except for evaluation / b
 P.nte    = 500;      % test traces
 P.iters  = 4000;     % training iterations
 P.bs     = 64;       % batch size
-P.lr     = 1e-3;     % Adam learning rate
+P.lr     = 1e-3;     % Adam learning rate (start value)
+P.lrEnd  = 1e-5;     % final learning rate for the cosine schedule
 P.lamEI  = 1.0;      % EI weight
 P.gmax   = 80;       % max shift (samples), non-circular
 P.tdeep  = 0.6;      % "deep window" for metrics (s)
@@ -34,6 +37,12 @@ P.evalEvery = 500;   % iterations between test-set SNR records (monitoring only)
 if ~isempty(getenv('EI_SMOKE'))
     P.iters = 30; P.ntr = 200; P.nte = 50; P.evalEvery = 10;
 end
+P.seed  = envNum('EI_SEED', 0);
+P.iters = envNum('EI_ITERS', P.iters);
+P.cfg   = envNum('EI_CFG', [1 2 3]);           % which of the three self-supervised variants to train
+P.sched = envStr('EI_SCHED', 'cosine');
+P.nva   = 500;                                 % held-out traces for label-free validation losses
+rng(P.seed);
 
 t  = (0:P.N-1)' * P.dt;
 Qm = P.Q * (1 + P.Qerr);                       % Q assumed by the method
@@ -46,6 +55,7 @@ if useGPU, A_model = gpuArray(single(A_model)); else, A_model = single(A_model);
 %% ---------------- synthetic data ----------------
 [Xtr, Ytr] = makeData(P.ntr, A_true, P);
 [Xte, Yte] = makeData(P.nte, A_true, P);
+[~,   Yva] = makeData(P.nva, A_true, P);         % labels discarded: validation uses y only
 s = std(Ytr(:));                               % input scaling for the network
 deep = t > P.tdeep;
 
@@ -69,16 +79,19 @@ cfgs = struct('name', {'MC only', 'MC + EI', 'MC + EI + fmax'}, ...
               'lam',  {0, P.lamEI, P.lamEI}, ...
               'useB', {false, false, true});
 R = struct();
-for c = 1:numel(cfgs)
+for k = 1:numel(P.cfg)
+    c = P.cfg(k);
+    rng(1000 * P.seed + c);                    % each variant independent of run order and subset
     net = buildNet();
-    [net, hist] = trainEI(net, Ytr, Xte, Yte, deep, s, t, A_model, Bf, cfgs(c), P, useGPU);
+    [net, hist] = trainEI(net, Ytr, Xte, Yte, Yva, deep, s, t, A_model, Bf, cfgs(c), P, useGPU);
     Xh  = predictX(net, Yte, s, t, Bf, cfgs(c).useB, useGPU);
-    R(c).name = cfgs(c).name;
-    R(c).snr_all  = snrdb(Xte, Xh);
-    R(c).snr_deep = snrdb(Xte(deep,:), Xh(deep,:));
-    R(c).Xh = Xh;
-    R(c).hist = hist;   % [iter, test SNR all, test SNR deep, loss, MC, EI]; monitoring only
-    fprintf('%-16s: SNR all %.2f dB | deep %.2f dB\n', R(c).name, R(c).snr_all, R(c).snr_deep);
+    R(k).name = cfgs(c).name;
+    R(k).cfg  = c;
+    R(k).snr_all  = snrdb(Xte, Xh);
+    R(k).snr_deep = snrdb(Xte(deep,:), Xh(deep,:));
+    R(k).Xh = Xh;
+    R(k).hist = hist;   % see histNames below; monitoring only
+    fprintf('%-16s: SNR all %.2f dB | deep %.2f dB\n', R(k).name, R(k).snr_all, R(k).snr_deep);
 end
 
 %% ---------------- plot deep-window spectra ----------------
@@ -89,19 +102,19 @@ plot(fz, spec(Xte), 'k', 'LineWidth', 2);
 plot(fz, spec(Yte), 'Color', [.75 .75 .75]);
 plot(fz, spec(Xtik), 'Color', [.5 .5 .5]);
 cols = [0.82 0.55 0.17; 0.17 0.42 0.82; 0.16 0.62 0.44];
-for c = 1:numel(R), plot(fz, spec(R(c).Xh), 'Color', cols(c,:), 'LineWidth', 1.3); end
+for k = 1:numel(R), plot(fz, spec(R(k).Xh), 'Color', cols(R(k).cfg,:), 'LineWidth', 1.3); end
 legend([{'True','Attenuated','Tikhonov'}, {R.name}], 'Box', 'off');
 xlim([0 90]); xlabel('Frequency (Hz)'); ylabel('Mean amplitude');
 title(sprintf('Deep window (t > %.1f s), Q=%g, Q_{model}=%g, SNR=%g dB', P.tdeep, P.Q, Qm, P.snrdB));
 
 %% ---------------- save outputs ----------------
-tag = sprintf('Qerr%+.2f_snr%g_seed0_it%d', P.Qerr, P.snrdB, P.iters);
+tag = sprintf('Qerr%+.2f_snr%g_seed%d_it%d_%s', P.Qerr, P.snrdB, P.seed, P.iters, P.sched);
 outDir = fullfile(fileparts(mfilename('fullpath')), 'outputs');
 if ~isfolder(outDir), mkdir(outDir); end
 exportgraphics(gcf, fullfile(outDir, ['spectra_' tag '.png']), 'Resolution', 200);
 
 figure('Color','w'); hold on;
-for c = 1:numel(R), plot(R(c).hist(:,1), R(c).hist(:,2), 'Color', cols(c,:), 'LineWidth', 1.3); end
+for k = 1:numel(R), plot(R(k).hist(:,1), R(k).hist(:,2), 'Color', cols(R(k).cfg,:), 'LineWidth', 1.3); end
 yline(snrdb(Xte, Xtik), '--', 'Color', [.5 .5 .5]);
 legend([{R.name}, {'Tikhonov (oracle \mu)'}], 'Box', 'off', 'Location', 'best');
 xlabel('Iteration'); ylabel('Test SNR, all samples (dB)');
@@ -113,6 +126,14 @@ snrDeep = [snrdb(Xte(deep,:), Xtik(deep,:)); [R.snr_deep]'];
 writetable(table(names, snrAll, snrDeep), fullfile(outDir, ['summary_' tag '.csv']));
 hists = {R.hist}; rname = {R.name};
 save(fullfile(outDir, ['history_' tag '.mat']), 'P', 'hists', 'rname', 'mubest');
+histNames = {'iter','snrAll','snrDeep','loss','mc','ei','valMC','valEI','lr'};
+H = cell(numel(R), 1);
+for k = 1:numel(R)
+    T = array2table(R(k).hist, 'VariableNames', histNames);
+    T.config = repmat({R(k).name}, height(T), 1);
+    H{k} = T;
+end
+writetable(vertcat(H{:}), fullfile(outDir, ['history_' tag '.csv']));
 %% ======================================================================
 %%                           local functions
 %% ======================================================================
@@ -209,7 +230,7 @@ loss  = lmc + cfg.lam * lei;
 grads = dlgradient(loss, net.Learnables);
 end
 
-function [net, hist] = trainEI(net, Ytr, Xte, Yte, deep, s, t, A, Bf, cfg, P, useGPU)
+function [net, hist] = trainEI(net, Ytr, Xte, Yte, Yva, deep, s, t, A, Bf, cfg, P, useGPU)
 avg = []; avgSq = []; hist = [];
 Tch = repmat(reshape(single(t / t(end)), 1, 1, []), 1, P.bs, 1);
 Tch = dlarray(Tch, 'CBT'); if useGPU, Tch = gpuArray(Tch); end
@@ -219,17 +240,54 @@ for it = 1:P.iters
     Y = dlarray(single(Ytr(:, idx)));
     if useGPU, Y = gpuArray(Y); end
     [loss, grads, lmc, lei] = dlfeval(@modelLoss, net, Y, s, Tch, A, Bf, cfg, P.gmax);
-    [net, avg, avgSq] = adamupdate(net, grads, avg, avgSq, it, P.lr);
+    lr = lrAt(P, it);
+    [net, avg, avgSq] = adamupdate(net, grads, avg, avgSq, it, lr);
     if mod(it, P.evalEvery) == 0 || it == P.iters
-        % Test data are only monitored here: nothing below feeds back into training.
+        % Test and validation data are only monitored: nothing below feeds back into training.
         Xh = predictX(net, Yte, s, t, Bf, cfg.useB, useGPU);
         row = [it, snrdb(Xte, Xh), snrdb(Xte(deep,:), Xh(deep,:)), ...
                double(extractdata(gather(loss))), double(extractdata(gather(lmc))), double(extractdata(gather(lei)))];
+        [vm, ve] = valLosses(net, Yva, s, t, A, Bf, cfg.useB, useGPU);
+        row = [row, vm, ve, lr]; %#ok<AGROW>
         hist = [hist; row]; %#ok<AGROW>
         fprintf('  [%s] it %d  loss %.4g  MC %.4g  EI %.4g | test SNR %.2f / deep %.2f dB (%.0f s)\n', cfg.name, it, ...
             row(4), row(5), row(6), row(2), row(3), toc(t0));
     end
 end
+end
+
+function lr = lrAt(P, it)
+if strcmp(P.sched, 'cosine')
+    lr = P.lrEnd + 0.5 * (P.lr - P.lrEnd) * (1 + cos(pi * (it - 1) / max(1, P.iters - 1)));
+else
+    lr = P.lr;
+end
+end
+
+function [vm, ve] = valLosses(net, Yva, s, t, A, Bf, useB, useGPU)
+% Label-free validation: held-out MC term and EI term with fixed shifts.
+Ad = double(gather(A));
+Xh = predictX(net, Yva, s, t, Bf, useB, useGPU);
+vm = mean(sum((Ad * Xh - Yva).^2, 1));
+shifts = [-60 -20 20 60];
+ve = 0;
+for g = shifts
+    Z  = shiftNC(Xh, g);
+    Xz = predictX(net, Ad * Z, s, t, Bf, useB, useGPU);
+    ve = ve + mean(sum((Xz - Z).^2, 1)) / numel(shifts);
+end
+end
+
+function v = envNum(name, default)
+v = default;
+e = getenv(name);
+if ~isempty(e), v = str2num(e); end %#ok<ST2NM>  % allows lists such as "1 2"
+end
+
+function v = envStr(name, default)
+v = default;
+e = getenv(name);
+if ~isempty(e), v = e; end
 end
 
 function X = predictX(net, Y, s, t, Bf, useB, useGPU)
