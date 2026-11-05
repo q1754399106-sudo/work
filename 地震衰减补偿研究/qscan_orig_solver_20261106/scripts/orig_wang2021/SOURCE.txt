@@ -1,0 +1,5 @@
+Unmodified copies of files in github.com/chenyk1990/reproducible_research, path qcomp/matfun,
+commit 82b982ea213b82e36953fcbff83335476924086f (GPL v2 or later; Hang Wang, Yangkang Chen, Zhejiang University).
+Reference: Wang H., Huang G., Chen W., Chen Y., 2021. Q-compensated denoising of seismic data. IEEE TGRS 59(4), 3580-3587.
+Qcdn.m and Generate_Synth.m are kept for reference only (they need Madagascar I/O); qcdn_core.m one level up repeats
+the operator and solver lines of Qcdn.m without the I/O.
