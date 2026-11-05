@@ -11,7 +11,8 @@
 % Options below: Q error test (Qerr), noise level, iterations, EI weight.
 % Environment variables (read at start): EI_SEED, EI_QERR, EI_ITERS, EI_CFG (e.g. "1 2"),
 % EI_SCHED (cosine | const), EI_SMOKE=1 for a 30-step debug run,
-% EI_SCEN (stationary | density | amp | broad2narrow | narrow2broad) for depth-varying reflectivity.
+% EI_SCEN (stationary | density | amp | broad2narrow | narrow2broad) for depth-varying reflectivity,
+% EI_FREF (Hz) for the dispersion reference frequency of both data and operator (default Nyquist).
 % Python/numpy linear prototype: ei_qcomp_linear.py
 
 clear;
@@ -46,14 +47,16 @@ P.iters = envNum('EI_ITERS', P.iters);
 P.cfg   = envNum('EI_CFG', [1 2 3]);           % which of the three self-supervised variants to train
 P.sched = envStr('EI_SCHED', 'cosine');
 P.scen  = envStr('EI_SCEN', 'stationary');     % reflectivity statistics, see reflectivity()
+P.frefNyq = 1 / (2 * P.dt);
+P.fref  = envNum('EI_FREF', P.frefNyq);        % dispersion reference frequency (Hz)
 P.nva  = 500;                                 % held-out traces for label-free validation losses
 rng(P.seed);
 
 t  = (0:P.N-1)' * P.dt;
 Qm = P.Q * (1 + P.Qerr);                       % Q assumed by the method
 
-A_true  = attenMatrix(P.Q, P.N, P.dt);         % generates data
-A_model = attenMatrix(Qm,  P.N, P.dt);         % used inside the losses
+A_true  = attenMatrix(P.Q, P.N, P.dt, P.fref); % generates data
+A_model = attenMatrix(Qm,  P.N, P.dt, P.fref); % used inside the losses
 useGPU  = canUseGPU;
 if useGPU, A_model = gpuArray(single(A_model)); else, A_model = single(A_model); end
 
@@ -116,6 +119,7 @@ title(sprintf('Deep window (t > %.1f s), Q=%g, Q_{model}=%g, SNR=%g dB', P.tdeep
 %% ---------------- save outputs ----------------
 tag = sprintf('Qerr%+.2f_snr%g_seed%d_it%d_%s', P.Qerr, P.snrdB, P.seed, P.iters, P.sched);
 if ~strcmp(P.scen, 'stationary'), tag = [tag '_' P.scen]; end
+if P.fref ~= P.frefNyq, tag = [tag sprintf('_fref%g', P.fref)]; end
 outDir = fullfile(fileparts(mfilename('fullpath')), 'outputs');
 if ~isfolder(outDir), mkdir(outDir); end
 exportgraphics(gcf, fullfile(outDir, ['spectra_' tag '.png']), 'Resolution', 200);
@@ -166,11 +170,11 @@ writetable(vertcat(H{:}), fullfile(outDir, ['history_' tag '.csv']));
 %% ======================================================================
 %%                           local functions
 %% ======================================================================
-function A = attenMatrix(Q, N, dt)
+function A = attenMatrix(Q, N, dt, fh)
 % Kolsky constant-Q operator (amplitude + dispersion). Column j = attenuated impulse at t_j.
+% fh = dispersion reference frequency (Hz).
 M  = 2 * N;                                   % zero-pad to avoid wrap-around
 f  = (0:M/2)' / (M * dt); f(1) = 1e-6;
-fh = 1 / (2 * dt);                            % reference frequency = Nyquist
 A  = zeros(N, N);
 for j = 1:N
     tau = (j - 1) * dt;
