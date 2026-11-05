@@ -10,7 +10,8 @@
 %
 % Options below: Q error test (Qerr), noise level, iterations, EI weight.
 % Environment variables (read at start): EI_SEED, EI_QERR, EI_ITERS, EI_CFG (e.g. "1 2"),
-% EI_SCHED (cosine | const), EI_SMOKE=1 for a 30-step debug run.
+% EI_SCHED (cosine | const), EI_SMOKE=1 for a 30-step debug run,
+% EI_SCEN (stationary | density | amp | broad2narrow | narrow2broad) for depth-varying reflectivity.
 % Python/numpy linear prototype: ei_qcomp_linear.py
 
 clear;
@@ -31,6 +32,8 @@ P.lrEnd  = 1e-5;     % final learning rate for the cosine schedule
 P.lamEI  = 1.0;      % EI weight
 P.gmax   = 80;       % max shift (samples), non-circular
 P.tdeep  = 0.6;      % "deep window" for metrics (s)
+P.tshallow = 0.3;    % "shallow window" for metrics (s)
+P.hfBand = [40 70];  % band (Hz) for the descriptive high-frequency statistics
 P.evalEvery = 500;   % iterations between test-set SNR records (monitoring only)
 
 % Quick run for debugging: set environment variable EI_SMOKE=1 before starting MATLAB
@@ -42,7 +45,8 @@ P.Qerr  = envNum('EI_QERR', P.Qerr);
 P.iters = envNum('EI_ITERS', P.iters);
 P.cfg   = envNum('EI_CFG', [1 2 3]);           % which of the three self-supervised variants to train
 P.sched = envStr('EI_SCHED', 'cosine');
-P.nva   = 500;                                 % held-out traces for label-free validation losses
+P.scen  = envStr('EI_SCEN', 'stationary');     % reflectivity statistics, see reflectivity()
+P.nva  = 500;                                 % held-out traces for label-free validation losses
 rng(P.seed);
 
 t  = (0:P.N-1)' * P.dt;
@@ -59,6 +63,7 @@ if useGPU, A_model = gpuArray(single(A_model)); else, A_model = single(A_model);
 [~,   Yva] = makeData(P.nva, A_true, P);         % labels discarded: validation uses y only
 s = std(Ytr(:));                               % input scaling for the network
 deep = t > P.tdeep;
+shallow = t < P.tshallow;
 
 %% ---------------- baseline: Tikhonov (oracle-tuned mu) ----------------
 best = -inf;
@@ -110,9 +115,26 @@ title(sprintf('Deep window (t > %.1f s), Q=%g, Q_{model}=%g, SNR=%g dB', P.tdeep
 
 %% ---------------- save outputs ----------------
 tag = sprintf('Qerr%+.2f_snr%g_seed%d_it%d_%s', P.Qerr, P.snrdB, P.seed, P.iters, P.sched);
+if ~strcmp(P.scen, 'stationary'), tag = [tag '_' P.scen]; end
 outDir = fullfile(fileparts(mfilename('fullpath')), 'outputs');
 if ~isfolder(outDir), mkdir(outDir); end
 exportgraphics(gcf, fullfile(outDir, ['spectra_' tag '.png']), 'Resolution', 200);
+
+ns = nnz(shallow); fzs = (0:floor(ns/2))' / (ns * P.dt);
+specS = @(X) mean(abs(fftRows(X(shallow,:), ns)), 2);
+figure('Color','w'); hold on;
+plot(fzs, specS(Xte), 'k', 'LineWidth', 2);
+plot(fzs, specS(Yte), 'Color', [.75 .75 .75]);
+plot(fzs, specS(Xtik), 'Color', [.5 .5 .5]);
+for k = 1:numel(R), plot(fzs, specS(R(k).Xh), 'Color', cols(R(k).cfg,:), 'LineWidth', 1.3); end
+legend([{'True','Attenuated','Tikhonov'}, {R.name}], 'Box', 'off');
+xlim([0 90]); xlabel('Frequency (Hz)'); ylabel('Mean amplitude');
+title(sprintf('Shallow window (t < %.1f s), scenario %s', P.tshallow, P.scen));
+exportgraphics(gcf, fullfile(outDir, ['spectraShallow_' tag '.png']), 'Resolution', 200);
+specMeans = struct('fDeep', fz, 'fShallow', fzs, 'trueDeep', spec(Xte), 'trueShallow', specS(Xte), ...
+    'tikDeep', spec(Xtik), 'tikShallow', specS(Xtik), ...
+    'estDeep', {cellfun(spec, {R.Xh}, 'UniformOutput', false)}, ...
+    'estShallow', {cellfun(specS, {R.Xh}, 'UniformOutput', false)});
 
 figure('Color','w'); hold on;
 for k = 1:numel(R), plot(R(k).hist(:,1), R(k).hist(:,2), 'Color', cols(R(k).cfg,:), 'LineWidth', 1.3); end
@@ -124,9 +146,15 @@ exportgraphics(gcf, fullfile(outDir, ['curves_' tag '.png']), 'Resolution', 200)
 names = [{sprintf('Tikhonov(mu=%.1e)', mubest)}, {R.name}]';
 snrAll  = [snrdb(Xte, Xtik);                 [R.snr_all]'];
 snrDeep = [snrdb(Xte(deep,:), Xtik(deep,:)); [R.snr_deep]'];
-writetable(table(names, snrAll, snrDeep), fullfile(outDir, ['summary_' tag '.csv']));
+allX = [{Xtik}, {R.Xh}];
+snrShallow = cellfun(@(Z) snrdb(Xte(shallow,:), Z(shallow,:)), allX)';
+[hfRatioDeep, snrHFDeep]       = cellfun(@(Z) bandStats(Xte, Z, deep, P), allX);
+[hfRatioShallow, snrHFShallow] = cellfun(@(Z) bandStats(Xte, Z, shallow, P), allX);
+hfRatioDeep = hfRatioDeep'; snrHFDeep = snrHFDeep'; hfRatioShallow = hfRatioShallow'; snrHFShallow = snrHFShallow';
+writetable(table(names, snrAll, snrDeep, snrShallow, hfRatioDeep, snrHFDeep, hfRatioShallow, snrHFShallow), ...
+    fullfile(outDir, ['summary_' tag '.csv']));
 hists = {R.hist}; rname = {R.name};
-save(fullfile(outDir, ['history_' tag '.mat']), 'P', 'hists', 'rname', 'mubest');
+save(fullfile(outDir, ['history_' tag '.mat']), 'P', 'hists', 'rname', 'mubest', 'specMeans');
 histNames = {'iter','snrAll','snrDeep','loss','mc','ei','valMC','valEI','lr'};
 H = cell(numel(R), 1);
 for k = 1:numel(R)
@@ -156,11 +184,48 @@ end
 function [X, Y] = makeData(n, A, P)
 tw = (-40:40)' * P.dt;
 w  = (1 - 2 * (pi * P.fp * tw).^2) .* exp(-(pi * P.fp * tw).^2);
-r  = (rand(P.N, n) < 0.08) .* randn(P.N, n);
-X  = conv2(r, w, 'same');                     % stationary trace
+r  = reflectivity(n, P);
+X  = conv2(r, w, 'same');                     % trace without attenuation
 Y0 = A * X;
 sig = sqrt(mean(Y0(:).^2)) * 10^(-P.snrdB / 20);
 Y  = Y0 + sig * randn(size(Y0));
+end
+
+function r = reflectivity(n, P)
+% Reflectivity series; u runs from 0 (first sample) to 1 (last sample).
+% Non-stationary cases are rescaled to the stationary variance (0.08), so that
+% loss magnitudes stay comparable. The stationary branch keeps its original draws.
+N = P.N; u = (0:N-1)' / (N - 1);
+switch P.scen
+    case 'stationary'
+        r = (rand(N, n) < 0.08) .* randn(N, n);
+        return
+    case 'density'       % dense shallow -> sparse deep, mean density 0.08
+        r = (rand(N, n) < (0.14 - 0.12 * u)) .* randn(N, n);
+    case 'amp'           % strong shallow -> weak deep
+        r = (1.6 - 1.2 * u) .* (rand(N, n) < 0.08) .* randn(N, n);
+    case {'broad2narrow', 'narrow2broad'}
+        a = min(1, max(0, (u - 0.2) / 0.4));   % 0 above u = 0.2, 1 below u = 0.6
+        if strcmp(P.scen, 'narrow2broad'), a = 1 - a; end
+        rw = (rand(N, n) < 0.08) .* randn(N, n);   % white part
+        rc = (rand(N, n) < 0.08) .* randn(N, n);   % part low-passed by a Gaussian, sigma 2 samples
+        k  = (-6:6)'; g = exp(-k.^2 / (2 * 2^2));
+        rc = conv2(rc, g, 'same');
+        rc = rc * sqrt(0.08) / sqrt(mean(rc(:).^2));
+        r  = sqrt(1 - a) .* rw + sqrt(a) .* rc;
+    otherwise
+        error('Unknown scenario %s', P.scen);
+end
+r = r * sqrt(0.08) / sqrt(mean(r(:).^2));
+end
+
+function [ratio, snrBand] = bandStats(X, Xh, win, P)
+% Descriptive only: energy ratio and SNR inside P.hfBand within a time window.
+n = nnz(win); f = (0:floor(n/2))' / (n * P.dt);
+b = f >= P.hfBand(1) & f <= P.hfBand(2);
+F  = fftRows(X(win,:), n);  Fh = fftRows(Xh(win,:), n);
+ratio   = sum(abs(Fh(b,:)).^2, 'all') / sum(abs(F(b,:)).^2, 'all');
+snrBand = 10 * log10(sum(abs(F(b,:)).^2, 'all') / sum(abs(F(b,:) - Fh(b,:)).^2, 'all'));
 end
 
 function B = fmaxMatrix(t, dt, Q, snrdB, L)
