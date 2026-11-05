@@ -1,0 +1,39 @@
+Stationary baseline (reused): MC+EI - MC, all = [2.27 2.18 3.52] (mean 2.66); deep = [2.63 2.56 3.93] (mean 3.04); best recorded = [2.27 2.18 3.52] (mean 2.66)
+
+--- density ---
+E1 MC+EI - MC, all  = [1.6 1.32 2.83] (mean 1.92) -> advantage retained
+E2 MC+EI - MC, deep = [1.85 1.56 3.09] (mean 2.16) -> advantage retained
+E3 MC+EI - Tikhonov, all = [3.34 3.34 3.56] (mean 3.41) -> advantage retained
+   descriptive: best recorded MC+EI - MC = [1.6 1.32 2.83] (mean 1.92)
+   descriptive Tikhonov : all 20.03, deep 15.36, shallow 28.38 | HF ratio deep 0.62, shallow 0.98 | HF SNR deep 7.55, shallow 26.06
+   descriptive MC only  : all 21.53, deep 16.11, shallow 29.54 | HF ratio deep 0.89, shallow 1.00 | HF SNR deep 8.06, shallow 23.66
+   descriptive MC + EI  : all 23.45, deep 18.27, shallow 30.37 | HF ratio deep 1.04, shallow 1.00 | HF SNR deep 9.29, shallow 24.40
+
+--- amp ---
+E1 MC+EI - MC, all  = [1.58 0.827 2.8] (mean 1.74) -> advantage retained
+E2 MC+EI - MC, deep = [1.72 1.03 3.08] (mean 1.94) -> advantage retained
+E3 MC+EI - Tikhonov, all = [2.87 2.76 3.12] (mean 2.92) -> advantage retained
+   descriptive: best recorded MC+EI - MC = [1.59 0.827 2.8] (mean 1.74)
+   descriptive Tikhonov : all 20.40, deep 14.80, shallow 28.63 | HF ratio deep 0.67, shallow 0.98 | HF SNR deep 6.98, shallow 26.31
+   descriptive MC only  : all 21.58, deep 14.92, shallow 29.62 | HF ratio deep 0.84, shallow 1.00 | HF SNR deep 7.05, shallow 23.81
+   descriptive MC + EI  : all 23.32, deep 16.86, shallow 30.37 | HF ratio deep 1.06, shallow 0.99 | HF SNR deep 8.04, shallow 24.69
+
+--- broad2narrow ---
+E1 MC+EI - MC, all  = [3.37 1.44 2.09] (mean 2.30) -> advantage retained
+E2 MC+EI - MC, deep = [3.8 1.65 2.47] (mean 2.64) -> advantage retained
+E3 MC+EI - Tikhonov, all = [4.46 4.47 4.35] (mean 4.43) -> advantage retained
+   descriptive: best recorded MC+EI - MC = [3.37 1.44 2.11] (mean 2.31)
+   descriptive Tikhonov : all 21.24, deep 19.90, shallow 26.33 | HF ratio deep 0.90, shallow 0.98 | HF SNR deep 4.34, shallow 23.83
+   descriptive MC only  : all 23.36, deep 21.33, shallow 28.22 | HF ratio deep 0.88, shallow 1.00 | HF SNR deep 5.31, shallow 22.07
+   descriptive MC + EI  : all 25.67, deep 23.97, shallow 29.19 | HF ratio deep 1.22, shallow 0.99 | HF SNR deep 5.79, shallow 22.80
+
+--- narrow2broad ---
+E1 MC+EI - MC, all  = [0.0403 -1.48 -0.639] (mean -0.69) -> undecided
+E2 MC+EI - MC, deep = [0.844 -0.86 -0.00439] (mean -0.01) -> undecided
+E3 MC+EI - Tikhonov, all = [1.37 0.986 0.702] (mean 1.02) -> advantage retained
+   descriptive: best recorded MC+EI - MC = [0.0403 -1.48 -0.639] (mean -0.69)
+   descriptive Tikhonov : all 18.93, deep 15.90, shallow 27.61 | HF ratio deep 0.69, shallow 1.01 | HF SNR deep 7.81, shallow 17.08
+   descriptive MC only  : all 20.65, deep 16.47, shallow 30.28 | HF ratio deep 0.85, shallow 1.01 | HF SNR deep 7.91, shallow 16.48
+   descriptive MC + EI  : all 19.95, deep 16.46, shallow 30.33 | HF ratio deep 0.71, shallow 0.98 | HF SNR deep 6.64, shallow 15.44
+
+Overall (E1): partly sensitive, see scenarios

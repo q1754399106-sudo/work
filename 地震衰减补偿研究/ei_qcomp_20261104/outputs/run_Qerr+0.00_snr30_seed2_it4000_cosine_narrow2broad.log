@@ -1,0 +1,20 @@
+Tikhonov (mu=3.2e-03): SNR all 18.88 dB | deep 15.92 dB
+  [MC only] it 500  loss 0.169  MC 0.169  EI 0 | test SNR 15.16 / deep 11.30 dB (19 s)
+  [MC only] it 1000  loss 0.07195  MC 0.07195  EI 0 | test SNR 18.72 / deep 14.97 dB (34 s)
+  [MC only] it 1500  loss 0.08165  MC 0.08165  EI 0 | test SNR 19.73 / deep 15.91 dB (50 s)
+  [MC only] it 2000  loss 0.04613  MC 0.04613  EI 0 | test SNR 20.54 / deep 16.57 dB (65 s)
+  [MC only] it 2500  loss 0.04111  MC 0.04111  EI 0 | test SNR 20.97 / deep 16.98 dB (79 s)
+  [MC only] it 3000  loss 0.03365  MC 0.03365  EI 0 | test SNR 21.24 / deep 17.19 dB (92 s)
+  [MC only] it 3500  loss 0.03139  MC 0.03139  EI 0 | test SNR 21.32 / deep 17.26 dB (106 s)
+  [MC only] it 4000  loss 0.03003  MC 0.03003  EI 0 | test SNR 21.35 / deep 17.28 dB (120 s)
+MC only         : SNR all 21.35 dB | deep 17.28 dB
+  [MC + EI] it 500  loss 0.6611  MC 0.2997  EI 0.3614 | test SNR 12.67 / deep 9.29 dB (24 s)
+  [MC + EI] it 1000  loss 0.546  MC 0.1438  EI 0.4022 | test SNR 15.40 / deep 12.11 dB (48 s)
+  [MC + EI] it 1500  loss 0.3927  MC 0.1785  EI 0.2143 | test SNR 17.11 / deep 13.77 dB (72 s)
+  [MC + EI] it 2000  loss 0.271  MC 0.07879  EI 0.1922 | test SNR 18.29 / deep 14.90 dB (95 s)
+  [MC + EI] it 2500  loss 0.2051  MC 0.05645  EI 0.1486 | test SNR 19.09 / deep 15.69 dB (119 s)
+  [MC + EI] it 3000  loss 0.2021  MC 0.04974  EI 0.1524 | test SNR 19.55 / deep 16.13 dB (142 s)
+  [MC + EI] it 3500  loss 0.133  MC 0.04692  EI 0.08612 | test SNR 19.80 / deep 16.35 dB (166 s)
+  [MC + EI] it 4000  loss 0.1402  MC 0.0465  EI 0.0937 | test SNR 19.87 / deep 16.42 dB (190 s)
+MC + EI         : SNR all 19.87 dB | deep 16.42 dB
+elapsed 322.8 s
