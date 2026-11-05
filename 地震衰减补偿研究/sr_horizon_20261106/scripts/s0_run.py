@@ -98,8 +98,13 @@ def trend(args):
 
 def colour():
     """Slope of ln amplitude spectrum over 10-60 Hz in 0.2 s windows along each well, and its trend with time."""
-    wells = git_module("wells", "specslope_q_volve_20261028", "wells.py")
+    E9 = RES / "specslope_q_volve_20261028" / "cache" / "inputs" / "multiwell_tie_volve_20261028"
+    wells = git_module("wells", "specslope_q_volve_20261028", "wells.py"); wells.E9 = E9
     segs = wells.all_segments(); res = {}
+    wq = git_module("wq", "multiwell_tie_volve_20261028", "wq.py"); wq.E9 = E9      # Gardner RC, longer spans
+    P = wq.picks()
+    for n in ("F-12", "F-14"):
+        segs[n + " (Gardner)"] = [wq.well(n, P)["rc"]]
     f = np.fft.rfftfreq(512, 0.001); m = (f >= 10) & (f <= 60); L = 200; H = 100; tp = lib.taper(L)
 
     def slopes(rc, t0):

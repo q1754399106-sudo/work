@@ -182,4 +182,4 @@
 
 ## SR 估 Q 去颜色偏差（2026-11-06）
 
-`sr_horizon_20261106/`：SR 估 Q 去反射系数颜色偏差。查新记录见 `LITERATURE_ZH.md`（只覆盖公开渠道，WoS 和 CNKI 未查），方案草案见 `PLAN_DRAFT_ZH.md`（未冻结，未运行）；标签：进行中。
+`sr_horizon_20261106/`：SR 估 Q 去反射系数颜色偏差。查新记录见 `LITERATURE_ZH.md`（只覆盖公开渠道，WoS 和 CNKI 未查），方案草案见 `PLAN_DRAFT_ZH.md`（未冻结）；标签：已淘汰（沿层 SR）、机制研究。阶段 0 结果见 `RESULTS_STAGE0_ZH.md`：同层时差 ≥ 0.1 s 的只有 0.8%，HSR 的 log c 标准差 1.46，两条门槛都不通过，沿层 SR 停掉；SR 对颜色趋势敏感（趋势每 0.0033 /Hz/s 使 log c 移动约 0.08–0.11），但实验 15 显示换真值 Q 的 M1 收益只有 +0.015 到 +0.031。
