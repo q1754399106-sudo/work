@@ -1,0 +1,41 @@
+noise-free, no cut: relative error 10-60 Hz 0.0205 gain near 0.9971 gain far 0.9876
+
+rule peak 0
+  events_aligned  Q x1.0 ga 0.042 eg 3.162 egl 2.253 mg 0.298 cg 0.388 wave 1.937
+  thin_aligned    Q x1.0 ga 0.033 eg 1.716 egl 1.827 mg 0.129 cg 0.554 wave 3.456
+  dense_aligned   Q x1.0 ga 0.462 eg 1.285 egl 1.178 mg -0.116 cg 0.584 wave 0.891
+  dense_aligned   Q x0.8 ga 0.864 eg 1.332 egl 1.310 mg -0.175 cg 0.543 wave 0.907
+  dense_aligned   Q x1.2 ga 0.392 eg 1.378 egl 1.131 mg -0.085 cg 0.569 wave 0.910
+  dense_nmo       Q x1.0 ga 0.488 eg 1.530 egl 1.331 mg -0.090 cg 0.507 wave 0.886
+
+rule snr 1.5
+  events_aligned  Q x1.0 ga 0.058 eg 0.544 egl 0.764 mg 0.009 cg 0.878 wave 1.999
+  thin_aligned    Q x1.0 ga 0.032 eg 0.501 egl 0.506 mg -0.007 cg 0.887 wave 0.668
+  dense_aligned   Q x1.0 ga 0.061 eg 0.363 egl 0.386 mg 0.006 cg 0.937 wave 2.977
+  dense_aligned   Q x0.8 ga 0.262 eg 0.677 egl 0.671 mg -0.034 cg 0.822 wave 23.837
+  dense_aligned   Q x1.2 ga 0.176 eg 0.422 egl 0.464 mg 0.032 cg 0.925 wave 1.066
+  dense_nmo       Q x1.0 ga 0.496 eg 1.075 egl 1.064 mg 0.306 cg 0.786 wave 0.740
+
+rule snr 2.0
+  events_aligned  Q x1.0 ga 0.060 eg 0.453 egl 0.457 mg 0.007 cg 0.910 wave 0.459
+  thin_aligned    Q x1.0 ga 0.032 eg 0.453 egl 0.459 mg -0.006 cg 0.905 wave 0.560
+  dense_aligned   Q x1.0 ga 0.057 eg 0.347 egl 0.367 mg 0.005 cg 0.943 wave 0.559
+  dense_aligned   Q x0.8 ga 0.251 eg 0.633 egl 0.630 mg -0.036 cg 0.838 wave 1.734
+  dense_aligned   Q x1.2 ga 0.179 eg 0.417 egl 0.455 mg 0.030 cg 0.927 wave 0.600
+  dense_nmo       Q x1.0 ga 0.496 eg 1.071 egl 1.061 mg 0.307 cg 0.787 wave 0.598
+
+rule snr 3.0
+  events_aligned  Q x1.0 ga 0.061 eg 0.417 egl 0.422 mg 0.013 cg 0.924 wave 0.429
+  thin_aligned    Q x1.0 ga 0.034 eg 0.390 egl 0.399 mg -0.005 cg 0.927 wave 0.532
+  dense_aligned   Q x1.0 ga 0.056 eg 0.330 egl 0.343 mg -0.006 cg 0.947 wave 0.569
+  dense_aligned   Q x0.8 ga 0.232 eg 0.565 egl 0.573 mg -0.055 cg 0.859 wave 1.243
+  dense_aligned   Q x1.2 ga 0.184 eg 0.426 egl 0.449 mg 0.022 cg 0.923 wave 0.645
+  dense_nmo       Q x1.0 ga 0.495 eg 1.052 egl 1.045 mg 0.267 cg 0.780 wave 0.629
+
+rule snr 5.0
+  events_aligned  Q x1.0 ga 0.065 eg 0.364 egl 0.380 mg 0.021 cg 0.943 wave 0.470
+  thin_aligned    Q x1.0 ga 0.034 eg 0.311 egl 0.324 mg 0.003 cg 0.953 wave 0.552
+  dense_aligned   Q x1.0 ga 0.085 eg 0.449 egl 0.552 mg -0.021 cg 0.904 wave 0.658
+  dense_aligned   Q x0.8 ga 0.248 eg 0.634 egl 0.734 mg -0.073 cg 0.827 wave 1.002
+  dense_aligned   Q x1.2 ga 0.202 eg 0.543 egl 0.610 mg 0.007 cg 0.879 wave 0.719
+  dense_nmo       Q x1.0 ga 0.432 eg 1.105 egl 1.116 mg 0.146 cg 0.721 wave 0.718

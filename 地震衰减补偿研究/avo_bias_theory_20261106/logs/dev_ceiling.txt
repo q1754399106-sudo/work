@@ -1,0 +1,77 @@
+exit 0
+exit 0
+exit 0
+
+dense_aligned Q x0.8: mean over models, columns
+  sat    oracle-E_G lam 3.2e-04: eg 0.722 cg 0.787 wave 1.000 ga 0.294 egl 0.871  | oracle-wave lam 3.2e-03: wave 0.756 eg 0.845
+  discr  median lam 1.0e-03: eg 0.721 cg 0.788 wave 0.828 ga 0.275 egl 0.869
+  split  oracle-E_G lam 3.2e-04: eg 0.703 cg 0.795 wave 1.138 ga 0.277 egl 0.858  | oracle-wave lam 3.2e-03: wave 0.766 eg 0.842
+  band3  eg 0.786 cg 0.758 wave 1.379 ga 0.342 egl 0.875  max wave 2.21
+
+dense_aligned Q x1.0: mean over models, columns
+  sat    oracle-E_G lam 1.0e-03: eg 0.473 cg 0.892 wave 0.658 ga 0.097 egl 0.582  | oracle-wave lam 1.0e-03: wave 0.658 eg 0.473
+  discr  median lam 3.2e-03: eg 0.502 cg 0.884 wave 0.650 ga 0.100 egl 0.591
+  split  oracle-E_G lam 1.0e-03: eg 0.473 cg 0.892 wave 0.735 ga 0.100 egl 0.582  | oracle-wave lam 3.2e-03: wave 0.690 eg 0.533
+  band3  eg 0.466 cg 0.892 wave 0.600 ga 0.112 egl 0.542  max wave 0.84
+
+dense_aligned Q x1.2: mean over models, columns
+  sat    oracle-E_G lam 1.0e-03: eg 0.557 cg 0.872 wave 0.733 ga 0.201 egl 0.658  | oracle-wave lam 3.2e-03: wave 0.714 eg 0.580
+  discr  median lam 6.6e-03: eg 0.616 cg 0.850 wave 0.731 ga 0.194 egl 0.625
+  split  oracle-E_G lam 1.0e-03: eg 0.560 cg 0.870 wave 0.813 ga 0.205 egl 0.660  | oracle-wave lam 3.2e-03: wave 0.738 eg 0.583
+  band3  eg 0.547 cg 0.874 wave 0.672 ga 0.212 egl 0.612  max wave 0.85
+
+dense_nmo Q x0.8: mean over models, columns
+  sat    oracle-E_G lam 1.0e-03: eg 1.105 cg 0.751 wave 0.760 ga 0.475 egl 1.154  | oracle-wave lam 1.0e-03: wave 0.760 eg 1.105
+  discr  median lam 1.0e-03: eg 1.092 cg 0.753 wave 0.761 ga 0.476 egl 1.134
+  split  oracle-E_G lam 1.0e-03: eg 1.107 cg 0.752 wave 0.759 ga 0.478 egl 1.154  | oracle-wave lam 1.0e-03: wave 0.759 eg 1.107
+  band3  eg 1.300 cg 0.713 wave 0.964 ga 0.556 egl 1.264  max wave 1.33
+
+dense_nmo Q x1.0: mean over models, columns
+  sat    oracle-E_G lam 1.0e-03: eg 1.028 cg 0.792 wave 0.681 ga 0.573 egl 1.057  | oracle-wave lam 1.0e-03: wave 0.681 eg 1.028
+  discr  median lam 3.2e-03: eg 1.028 cg 0.779 wave 0.729 ga 0.518 egl 1.013
+  split  oracle-E_G lam 1.0e-03: eg 1.030 cg 0.793 wave 0.681 ga 0.576 egl 1.059  | oracle-wave lam 1.0e-03: wave 0.681 eg 1.030
+  band3  eg 1.106 cg 0.771 wave 0.661 ga 0.573 egl 1.128  max wave 0.85
+
+dense_nmo Q x1.2: mean over models, columns
+  sat    oracle-E_G lam 3.2e-03: eg 1.078 cg 0.782 wave 0.743 ga 0.613 egl 1.096  | oracle-wave lam 1.0e-03: wave 0.736 eg 1.079
+  discr  median lam 6.6e-03: eg 1.092 cg 0.774 wave 0.764 ga 0.588 egl 1.052
+  split  oracle-E_G lam 3.2e-03: eg 1.080 cg 0.782 wave 0.743 ga 0.615 egl 1.097  | oracle-wave lam 1.0e-03: wave 0.736 eg 1.081
+  band3  eg 1.128 cg 0.770 wave 0.726 ga 0.614 egl 1.185  max wave 0.88
+
+events_aligned Q x0.8: mean over models, columns
+  sat    oracle-E_G lam 3.2e-04: eg 2.227 cg 0.794 wave 1.013 ga 0.581 egl 2.320  | oracle-wave lam 3.2e-03: wave 0.749 eg 2.518
+  discr  median lam 3.2e-04: eg 2.250 cg 0.803 wave 0.938 ga 0.599 egl 2.299
+  split  oracle-E_G lam 1.0e-04: eg 2.003 cg 0.745 wave 1.676 ga 0.525 egl 2.401  | oracle-wave lam 1.0e-02: wave 0.737 eg 3.037
+  band3  eg 2.029 cg 0.784 wave 2.102 ga 0.729 egl 2.313  max wave 4.42
+
+events_aligned Q x1.0: mean over models, columns
+  sat    oracle-E_G lam 3.2e-03: eg 0.619 cg 0.895 wave 0.600 ga 0.063 egl 0.785  | oracle-wave lam 1.0e-03: wave 0.575 eg 0.631
+  discr  median lam 1.0e-03: eg 0.608 cg 0.886 wave 0.548 ga 0.069 egl 0.850
+  split  oracle-E_G lam 3.2e-03: eg 0.569 cg 0.898 wave 0.622 ga 0.071 egl 0.772  | oracle-wave lam 3.2e-03: wave 0.622 eg 0.569
+  band3  eg 0.503 cg 0.891 wave 0.491 ga 0.085 egl 0.522  max wave 0.82
+
+events_aligned Q x1.2: mean over models, columns
+  sat    oracle-E_G lam 3.2e-02: eg 0.876 cg 0.563 wave 0.804 ga 0.343 egl 0.928  | oracle-wave lam 3.2e-03: wave 0.674 eg 0.929
+  discr  median lam 3.2e-03: eg 0.922 cg 0.489 wave 0.675 ga 0.362 egl 1.099
+  split  oracle-E_G lam 3.2e-02: eg 0.899 cg 0.528 wave 0.805 ga 0.356 egl 0.947  | oracle-wave lam 3.2e-03: wave 0.706 eg 0.943
+  band3  eg 0.913 cg 0.471 wave 0.593 ga 0.378 egl 0.956  max wave 0.73
+
+thin_aligned Q x0.8: mean over models, columns
+  sat    oracle-E_G lam 3.2e-04: eg 1.948 cg 0.763 wave 1.055 ga 0.469 egl 2.273  | oracle-wave lam 3.2e-03: wave 0.764 eg 2.181
+  discr  median lam 3.2e-04: eg 1.907 cg 0.778 wave 0.903 ga 0.474 egl 2.125
+  split  oracle-E_G lam 3.2e-04: eg 1.827 cg 0.737 wave 1.257 ga 0.386 egl 2.148  | oracle-wave lam 1.0e-02: wave 0.751 eg 2.454
+  band3  eg 1.757 cg 0.758 wave 2.610 ga 0.498 egl 1.972  max wave 6.57
+
+thin_aligned Q x1.0: mean over models, columns
+  sat    oracle-E_G lam 3.2e-03: eg 0.574 cg 0.902 wave 0.628 ga 0.043 egl 0.733  | oracle-wave lam 3.2e-03: wave 0.628 eg 0.574
+  discr  median lam 2.1e-03: eg 0.613 cg 0.873 wave 0.598 ga 0.048 egl 0.864
+  split  oracle-E_G lam 3.2e-03: eg 0.545 cg 0.895 wave 0.660 ga 0.053 egl 0.728  | oracle-wave lam 3.2e-03: wave 0.660 eg 0.545
+  band3  eg 0.476 cg 0.899 wave 0.616 ga 0.053 egl 0.485  max wave 1.05
+
+thin_aligned Q x1.2: mean over models, columns
+  sat    oracle-E_G lam 3.2e-02: eg 0.812 cg 0.635 wave 0.792 ga 0.308 egl 0.874  | oracle-wave lam 3.2e-03: wave 0.692 eg 0.895
+  discr  median lam 3.2e-03: eg 0.877 cg 0.560 wave 0.687 ga 0.318 egl 1.033
+  split  oracle-E_G lam 3.2e-02: eg 0.826 cg 0.613 wave 0.794 ga 0.319 egl 0.889  | oracle-wave lam 1.0e-02: wave 0.736 eg 0.844
+  band3  eg 0.833 cg 0.573 wave 0.632 ga 0.327 egl 0.866  max wave 0.73
+
+[exited with code 0]

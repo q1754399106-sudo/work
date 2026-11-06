@@ -1,0 +1,114 @@
+dev2_M1_dense_aligned_0.8_1.0 FCR 8.1s flags 0
+dev2_M1_dense_aligned_1.0_0.8 FCR 4.1s flags 0
+dev2_M1_dense_aligned_1.0_1.2 FCR 3.0s flags 0
+dev2_M1_dense_aligned_1.2_1.0 FCR 2.5s flags 0
+dev2_M1_events_aligned_1.0_0.8 FCR 2.4s flags 0
+dev2_M1_events_aligned_1.0_1.2 FCR 2.5s flags 0
+dev2_M1_thin_aligned_1.0_0.8 FCR 2.7s flags 0
+dev2_M1_thin_aligned_1.0_1.0 FCR 2.6s flags 0
+dev2_M1_dense_aligned_0.8_1.0 Frozen models 11.3s total 47.8s endpoint 0
+dev2_M1_dense_aligned_1.0_0.8 Frozen models 6.3s total 44.9s endpoint 0
+dev2_M1_dense_aligned_1.0_1.2 Frozen models 6.6s total 43.6s endpoint 0
+dev2_M1_dense_aligned_1.2_1.0 Frozen models 6.5s total 38.1s endpoint 0
+dev2_M1_events_aligned_1.0_0.8 Frozen models 6.4s total 44.1s endpoint 0
+dev2_M1_events_aligned_1.0_1.2 Frozen models 6.7s total 43.4s endpoint 0
+dev2_M1_thin_aligned_1.0_0.8 Frozen models 7.3s total 42.6s endpoint 0
+dev2_M1_thin_aligned_1.0_1.0 Frozen models 7.0s total 39.2s endpoint 0
+dev2_M1_dense_aligned_0.8_1.0 SC 396s conv 3 of 6
+dev2_M1_dense_aligned_0.8_1.0 SC0 22s conv 6 of 6
+dev2_M1_thin_aligned_1.0_1.0 SC 188s conv 6 of 6
+dev2_M1_thin_aligned_1.0_1.0 SC0 15s conv 6 of 6
+dev2_M1_events_aligned_1.0_1.2 SC 270s conv 4 of 6
+dev2_M1_events_aligned_1.0_1.2 SC0 11s conv 6 of 6
+dev2_M1_dense_aligned_1.0_1.2 SC 327s conv 5 of 6
+dev2_M1_dense_aligned_1.0_1.2 SC0 13s conv 6 of 6
+dev2_M1_dense_aligned_1.2_1.0 SC 254s conv 6 of 6
+dev2_M1_dense_aligned_1.2_1.0 SC0 14s conv 6 of 6
+dev2_M1_events_aligned_1.0_0.8 SC 269s conv 6 of 6
+dev2_M1_events_aligned_1.0_0.8 SC0 15s conv 6 of 6
+dev2_M1_dense_aligned_1.0_0.8 SC 407s conv 3 of 6
+dev2_M1_dense_aligned_1.0_0.8 SC0 22s conv 6 of 6
+dev2_M1_thin_aligned_1.0_0.8 SC 221s conv 6 of 6
+dev2_M1_thin_aligned_1.0_0.8 SC0 16s conv 6 of 6
+
+ dense_aligned Q x 0.8 dict f x 1.0
+  sat          ga 0.255 eg 0.597 egl 0.647 mg -0.049 cg 0.849 wave 0.802
+  split        ga 0.238 eg 0.574 egl 0.628 mg -0.054 cg 0.857 wave 0.855
+  method       ga 0.300 eg 0.624 egl 0.678 mg -0.062 cg 0.835 wave 0.799
+  direct       ga 0.348 eg 0.671 egl 0.746 mg 0.083 cg 0.854 wave 0.726
+  FCR          ga 0.315 eg 0.779 egl 0.873 mg -0.101 cg 0.766 wave 1.092
+  FrozenSplit  ga 1.034 eg 1.468 egl 2.154 mg -0.413 cg 0.383 wave 0.728
+  SC           ga 0.185 eg 0.626 egl 0.644 mg -0.072 cg 0.831 wave 0.835
+  SC0          ga 0.295 eg 0.679 egl 0.902 mg -0.054 cg 0.815 wave 0.838
+
+ dense_aligned Q x 1.2 dict f x 1.0
+  sat          ga 0.175 eg 0.496 egl 0.515 mg 0.013 cg 0.898 wave 0.701
+  split        ga 0.178 eg 0.497 egl 0.517 mg 0.012 cg 0.898 wave 0.710
+  method       ga 0.143 eg 0.482 egl 0.497 mg 0.004 cg 0.902 wave 0.696
+  direct       ga 0.445 eg 0.641 egl 0.694 mg 0.072 cg 0.860 wave 0.740
+  FCR          ga 0.167 eg 0.461 egl 0.507 mg 0.010 cg 0.909 wave 0.627
+  FrozenSplit  ga 0.288 eg 0.707 egl 0.901 mg -0.143 cg 0.775 wave 0.710
+  SC           ga 0.230 eg 0.450 egl 0.477 mg 0.013 cg 0.913 wave 0.590
+  SC0          ga 0.207 eg 0.564 egl 0.658 mg -0.034 cg 0.863 wave 0.663
+
+ thin_aligned Q x 1.0 dict f x 1.0
+  sat          ga 0.033 eg 0.525 egl 0.781 mg 0.072 cg 0.898 wave 0.574
+  split        ga 0.040 eg 0.516 egl 0.780 mg 0.022 cg 0.891 wave 0.635
+  method       ga 0.083 eg 0.573 egl 0.820 mg 0.176 cg 0.907 wave 0.564
+  direct       ga 0.421 eg 1.041 egl 1.198 mg -0.609 cg 0.421 wave 0.649
+  FCR          ga 0.036 eg 0.390 egl 0.529 mg 0.018 cg 0.931 wave 0.109
+  FrozenSplit  ga 0.171 eg 0.574 egl 0.890 mg -0.024 cg 0.859 wave 0.632
+  SC           ga 0.035 eg 0.360 egl 0.488 mg 0.011 cg 0.941 wave 0.206
+  SC0          ga 0.052 eg 0.180 egl 0.182 mg -0.032 cg 0.982 wave 0.078
+
+ events_aligned Q x 1.0 dict f x 0.8
+  sat          ga 0.055 eg 0.519 egl 0.694 mg 0.143 cg 0.917 wave 0.525
+  split        ga 0.064 eg 0.497 egl 0.695 mg 0.073 cg 0.910 wave 0.567
+  method       ga 0.118 eg 0.598 egl 0.759 mg 0.253 cg 0.919 wave 0.519
+  direct       ga 0.493 eg 1.179 egl 1.335 mg -0.716 cg 0.300 wave 0.561
+  FCR          ga 0.112 eg 0.419 egl 0.469 mg -0.140 cg 0.905 wave 0.382
+  FrozenSplit  ga 0.353 eg 0.775 egl 1.206 mg 0.086 cg 0.817 wave 0.551
+  SC           ga 0.100 eg 0.358 egl 0.409 mg -0.110 cg 0.937 wave 0.355
+  SC0          ga 0.201 eg 0.476 egl 0.498 mg -0.300 cg 0.885 wave 0.409
+
+ events_aligned Q x 1.0 dict f x 1.2
+  sat          ga 0.055 eg 0.519 egl 0.694 mg 0.143 cg 0.917 wave 0.525
+  split        ga 0.064 eg 0.497 egl 0.695 mg 0.073 cg 0.910 wave 0.567
+  method       ga 0.118 eg 0.598 egl 0.759 mg 0.253 cg 0.919 wave 0.519
+  direct       ga 0.493 eg 1.179 egl 1.335 mg -0.716 cg 0.300 wave 0.561
+  FCR          ga 0.073 eg 0.407 egl 0.426 mg 0.026 cg 0.929 wave 0.238
+  FrozenSplit  ga 0.353 eg 0.775 egl 1.206 mg 0.086 cg 0.817 wave 0.551
+  SC           ga 0.096 eg 0.419 egl 0.476 mg 0.073 cg 0.935 wave 0.224
+  SC0          ga 0.102 eg 0.296 egl 0.299 mg 0.118 cg 0.970 wave 0.227
+
+ dense_aligned Q x 1.0 dict f x 0.8
+  sat          ga 0.073 eg 0.392 egl 0.423 mg -0.006 cg 0.930 wave 0.616
+  split        ga 0.071 eg 0.391 egl 0.424 mg -0.007 cg 0.930 wave 0.640
+  method       ga 0.090 eg 0.394 egl 0.427 mg -0.016 cg 0.928 wave 0.610
+  direct       ga 0.351 eg 0.524 egl 0.587 mg 0.076 cg 0.901 wave 0.644
+  FCR          ga 0.087 eg 0.471 egl 0.533 mg -0.051 cg 0.895 wave 0.601
+  FrozenSplit  ga 0.517 eg 0.876 egl 1.260 mg -0.247 cg 0.664 wave 0.613
+  SC           ga 0.173 eg 0.442 egl 0.470 mg -0.023 cg 0.907 wave 0.553
+  SC0          ga 0.213 eg 0.589 egl 0.744 mg -0.074 cg 0.845 wave 0.644
+
+ dense_aligned Q x 1.0 dict f x 1.2
+  sat          ga 0.073 eg 0.392 egl 0.423 mg -0.006 cg 0.930 wave 0.616
+  split        ga 0.071 eg 0.391 egl 0.424 mg -0.007 cg 0.930 wave 0.640
+  method       ga 0.090 eg 0.394 egl 0.427 mg -0.016 cg 0.928 wave 0.610
+  direct       ga 0.351 eg 0.524 egl 0.587 mg 0.076 cg 0.901 wave 0.644
+  FCR          ga 0.049 eg 0.406 egl 0.443 mg -0.029 cg 0.918 wave 0.832
+  FrozenSplit  ga 0.517 eg 0.876 egl 1.260 mg -0.247 cg 0.664 wave 0.613
+  SC           ga 0.097 eg 0.383 egl 0.408 mg -0.020 cg 0.926 wave 0.569
+  SC0          ga 0.182 eg 0.549 egl 0.679 mg -0.065 cg 0.863 wave 0.694
+
+ thin_aligned Q x 1.0 dict f x 0.8
+  sat          ga 0.033 eg 0.525 egl 0.781 mg 0.072 cg 0.898 wave 0.574
+  split        ga 0.040 eg 0.516 egl 0.780 mg 0.022 cg 0.891 wave 0.635
+  method       ga 0.083 eg 0.573 egl 0.820 mg 0.176 cg 0.907 wave 0.564
+  direct       ga 0.421 eg 1.041 egl 1.198 mg -0.609 cg 0.421 wave 0.649
+  FCR          ga 0.057 eg 0.420 egl 0.509 mg -0.027 cg 0.918 wave 0.494
+  FrozenSplit  ga 0.171 eg 0.574 egl 0.890 mg -0.024 cg 0.859 wave 0.632
+  SC           ga 0.054 eg 0.388 egl 0.498 mg -0.029 cg 0.928 wave 0.472
+  SC0          ga 0.102 eg 0.292 egl 0.305 mg -0.121 cg 0.957 wave 0.501
+
+[exited with code 0]
