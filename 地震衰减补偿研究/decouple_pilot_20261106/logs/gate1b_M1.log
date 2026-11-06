@@ -1,0 +1,11 @@
+M1 events_nmo 0.8 17s
+M1 events_nmo 1.0 16s
+M1 events_nmo 1.2 16s
+M1 thin_nmo 0.8 16s
+M1 thin_nmo 1.0 16s
+M1 thin_nmo 1.2 16s
+M1 dense_nmo 0.8 16s
+M1 dense_nmo 1.0 16s
+M1 dense_nmo 1.2 16s
+M1 events_aligned
+M1 dense_aligned
