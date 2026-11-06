@@ -1,4 +1,5 @@
 """Applies the rules of GATE1_ZH.md to results/gate1_M*.json and prints the descriptive tables. -> results/gate1_summary.json"""
+import gzip
 import json
 from pathlib import Path
 import numpy as np
@@ -6,7 +7,7 @@ import numpy as np
 OUT = Path(__file__).resolve().parents[1] / "results"
 rows = []
 for m in ("M1", "M2", "M3"):
-    rows += json.loads((OUT / f"gate1_{m}.json").read_text(encoding="utf-8"))
+    rows += json.loads(gzip.open(OUT / f"gate1_{m}.json.gz", "rt", encoding="utf-8").read())   # compressed after the run
 KEYS = ("wave", "mg", "ma", "mb", "cg"); METHODS = ["split", "direct", "consistent40", "consistent60", "consistent80", "direct_disc", "covsplit_disc", "observed"]
 idx = {}
 for r in rows:
