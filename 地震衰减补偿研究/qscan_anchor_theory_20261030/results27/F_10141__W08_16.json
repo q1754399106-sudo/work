@@ -1,0 +1,23 @@
+{
+ "kind": "field",
+ "inline": 10141,
+ "window": "W08_16",
+ "scans": {
+  "0.7": {
+   "v_sel": 1.623275082879487,
+   "edge": false,
+   "ok": true
+  },
+  "1.0": {
+   "v_sel": 1.2911448652859951,
+   "edge": false,
+   "ok": true
+  },
+  "1.4": {
+   "v_sel": 1.062194655277333,
+   "edge": false,
+   "ok": true
+  }
+ },
+ "seconds": 719.9369999999981
+}

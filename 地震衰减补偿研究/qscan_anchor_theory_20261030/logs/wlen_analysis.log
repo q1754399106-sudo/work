@@ -1,0 +1,8 @@
+W04_14 n 24 kappa 0.678 (th 0.675) SD_true 0.119 SD_sr 0.115 med_true 0.037 med_sr 0.070 floor 0.368 (x1.00) | field med 0.275 gap 0.205
+W04_16 n 24 kappa 0.778 (th 0.771) SD_true 0.093 SD_sr 0.086 med_true 0.115 med_sr 0.104 floor 0.417 (x1.13) | field med 0.098 gap -0.006
+W08_16 n 24 kappa 0.778 (th 0.771) SD_true 0.071 SD_sr 0.066 med_true 0.094 med_sr 0.095 floor 0.317 (x0.86) | field med 0.312 gap 0.217
+W04_18 n 24 kappa 0.881 (th 0.868) SD_true 0.109 SD_sr 0.108 med_true 0.104 med_sr 0.111 floor 0.917 (x2.49) | field med 0.065 gap -0.046
+W12_18 n 24 kappa 0.877 (th 0.868) SD_true 0.059 SD_sr 0.057 med_true 0.118 med_sr 0.113 floor 0.480 (x1.30) | field med 0.319 gap 0.206
+beta_true ratios {'R_A': 0.761, 'R_B': 0.539, 'R': 0.64, 'R_lo': 0.546, 'R_hi': 0.76, 'n_A': 24, 'n_B': 24, 'contains_0639': True, 'contains_0875': False}
+beta_sr ratios {'R_A': 0.759, 'R_B': 0.528, 'R': 0.633, 'R_lo': 0.539, 'R_hi': 0.744, 'n_A': 24, 'n_B': 24, 'contains_0639': True, 'contains_0875': False}
+{'L1': 'supported', 'L2': 'mainly sampling', 'L3_prediction_holds': {'W08_16_ge_0p9': False, 'W12_18_gt_1': True}}

@@ -1,0 +1,23 @@
+{
+ "kind": "semi",
+ "seed": 10007,
+ "window": "W04_18",
+ "scans": {
+  "0.7": {
+   "v_sel": 1.482605485174,
+   "edge": false,
+   "ok": true
+  },
+  "1.0": {
+   "v_sel": 1.1036277080987937,
+   "edge": false,
+   "ok": true
+  },
+  "1.4": {
+   "v_sel": 0.8567908925417563,
+   "edge": false,
+   "ok": true
+  }
+ },
+ "seconds": 453.3439999999973
+}
