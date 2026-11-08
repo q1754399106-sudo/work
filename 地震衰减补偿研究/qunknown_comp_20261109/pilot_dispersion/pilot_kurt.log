@@ -1,0 +1,26 @@
+10001 0.7 noisy u_true 1.429 u_sel 1.917  9s
+10001 0.7 clean u_true 1.429 u_sel 1.907  17s
+10001 1.0 noisy u_true 1.000 u_sel 1.916  25s
+10001 1.0 clean u_true 1.000 u_sel 1.937  33s
+10001 1.4 noisy u_true 0.714 u_sel 1.424  41s
+10001 1.4 clean u_true 0.714 u_sel 1.443  48s
+10002 0.7 noisy u_true 1.429 u_sel 2.000 edge 57s
+10002 0.7 clean u_true 1.429 u_sel 2.000 edge 64s
+10002 1.0 noisy u_true 1.000 u_sel 1.895  72s
+10002 1.0 clean u_true 1.000 u_sel 1.900  80s
+10002 1.4 noisy u_true 0.714 u_sel 1.461  89s
+10002 1.4 clean u_true 0.714 u_sel 1.507  97s
+10003 0.7 noisy u_true 1.429 u_sel 1.907  105s
+10003 0.7 clean u_true 1.429 u_sel 1.908  113s
+10003 1.0 noisy u_true 1.000 u_sel 1.864  122s
+10003 1.0 clean u_true 1.000 u_sel 1.861  130s
+10003 1.4 noisy u_true 0.714 u_sel 1.411  139s
+10003 1.4 clean u_true 0.714 u_sel 1.399  146s
+10004 0.7 noisy u_true 1.429 u_sel 2.000 edge 154s
+10004 0.7 clean u_true 1.429 u_sel 2.000 edge 161s
+10004 1.0 noisy u_true 1.000 u_sel 2.000 edge 169s
+10004 1.0 clean u_true 1.000 u_sel 2.000 edge 176s
+10004 1.4 noisy u_true 0.714 u_sel 1.833  185s
+10004 1.4 clean u_true 0.714 u_sel 1.764  192s
+noisy slope 0.553 intercept 1.223 |log err| median 0.645
+clean slope 0.554 intercept 1.222 |log err| median 0.651
