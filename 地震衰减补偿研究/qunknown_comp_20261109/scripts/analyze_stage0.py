@@ -33,6 +33,9 @@ dev = {d: json.loads((BASE / "mu_tune_20261031" / "results" / "dev" / f"{d}.json
 ratio = np.array([dev[d]["c_sr"] / dev[d]["c_eff_cum"] for d in DEV])
 out["sr_ratio"] = dict(median=float(np.median(ratio)), min=float(ratio.min()), max=float(ratio.max()),
                        abs_log_median=float(np.median(np.abs(np.log(ratio)))))
+# descriptive: S(m = 1, this run) minus the SR-route score of experiment 17 (environment difference ~1.5e-4)
+out["oracle_minus_sr"] = {k: ci(S[k][1.0] - np.array([dev[d]["scores"][ref]["S"] for d in DEV]))
+                          for k, ref in (("IQ70", "IQ70"), ("SCa", "SR_mu0.25"))}
 (ROOT / "analysis").mkdir(exist_ok=True)
 (ROOT / "analysis" / "stage0.json").write_text(json.dumps(out, indent=1), encoding="utf-8")
 for meth, ms in MS.items():
@@ -40,4 +43,4 @@ for meth, ms in MS.items():
 for meth in MS:
     print("loss", meth, " ".join(f"m{k}:{v[0]:+.3f}[{v[1]:+.3f},{v[2]:+.3f}]" for k, v in out["loss"][meth].items()))
 print("VDB - best", {k: round(v[0], 3) for k, v in out["vdb_minus_best"].items()})
-print("SR ratio", out["sr_ratio"]); print("rules", out["rules"])
+print("SR ratio", out["sr_ratio"]); print("oracle - SR", out["oracle_minus_sr"]); print("rules", out["rules"])
