@@ -1,0 +1,12 @@
+D:\ChatGPT\研究\地震衰减补偿研究\qunknown_comp_20261109\scripts\mmr.py:53: RuntimeWarning: overflow encountered in exp
+  a = np.exp(-2 * np.pi * f[None, :, None] * xs[:, None, :]); rho = s + a * inv[..., None]
+D:\ChatGPT\研究\地震衰减补偿研究\qunknown_comp_20261109\scripts\mmr.py:53: RuntimeWarning: overflow encountered in multiply
+  a = np.exp(-2 * np.pi * f[None, :, None] * xs[:, None, :]); rho = s + a * inv[..., None]
+D:\ChatGPT\研究\地震衰减补偿研究\qunknown_comp_20261109\scripts\mmr.py:54: RuntimeWarning: overflow encountered in add
+  return Gc, a + rho, rho / (a + rho)
+D:\ChatGPT\研究\地震衰减补偿研究\qunknown_comp_20261109\scripts\mmr.py:54: RuntimeWarning: invalid value encountered in divide
+  return Gc, a + rho, rho / (a + rho)
+D:\ChatGPT\研究\地震衰减补偿研究\qunknown_comp_20261109\scripts\mmr.py:98: RuntimeWarning: invalid value encountered in divide
+  q = pi * np.exp(eta * (R - R.max(-1, keepdims=True))); q /= q.sum(-1, keepdims=True)
+D:\ChatGPT\研究\地震衰减补偿研究\qunknown_comp_20261109\scripts\mmr.py:59: RuntimeWarning: invalid value encountered in divide
+  return (Gc * pi).sum(-1) / (den * pi).sum(-1)
