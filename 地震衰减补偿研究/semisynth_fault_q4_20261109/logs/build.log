@@ -1,0 +1,18 @@
+J: prepared lines [10261, 10249, 10265] in 2s
+  ZJ_c0.75_r0: c_eff 0.759/0.776 level 0.74 f_true 83 slope -0.0926 shadow 0.9597877615791515
+  ZJ_c0.75_r1: c_eff 0.759/0.776 level 0.86 f_true 82 slope -0.0891 shadow 0.8624352757028556
+  ZJ_c1.05_r0: c_eff 1.058/1.074 level 1.35 f_true 85 slope -0.0668 shadow 0.9125796899197323
+  ZJ_c1.05_r1: c_eff 1.058/1.074 level 1.49 f_true 84 slope -0.0635 shadow 0.8188815285941132
+J: done in 67s
+K: prepared lines [10279, 10285, 10293] in 1s
+  ZK_c0.75_r0: c_eff 0.696/0.635 level 0.50 f_true 77 slope -0.1027 shadow 1.022287159682687
+  ZK_c0.75_r1: c_eff 0.696/0.635 level 0.61 f_true 80 slope -0.0768 shadow 0.9586871441000171
+  ZK_c1.05_r0: c_eff 0.954/0.846 level 0.95 f_true 81 slope -0.0771 shadow 0.942035943819877
+  ZK_c1.05_r1: c_eff 0.954/0.846 level 1.10 f_true 82 slope -0.0499 shadow 0.885445712261914
+K: done in 78s
+L: prepared lines [10333, 10343, 10357] in 1s
+  ZL_c0.75_r0: c_eff 0.733/0.713 level 0.58 f_true 79 slope -0.1033 shadow 0.7301429061208567
+  ZL_c0.75_r1: c_eff 0.733/0.713 level 0.82 f_true 80 slope -0.1056 shadow 0.6990998598503966
+  ZL_c1.05_r0: c_eff 1.026/0.998 level 1.16 f_true 80 slope -0.0773 shadow 0.703125107077114
+  ZL_c1.05_r1: c_eff 1.026/0.998 level 1.49 f_true 82 slope -0.0797 shadow 0.6759467101154902
+L: done in 69s
