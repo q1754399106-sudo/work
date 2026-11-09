@@ -1,0 +1,18 @@
+H1 deep-window SNR (noise-free data / 14 dB noise): 5-30 Hz +7.3 dB, 30-60 Hz +6.2 dB, 60-90 Hz -10.9 dB, 90-125 Hz -13.8 dB
+   noise-free raw 0.554 IQ70 0.944 IQ30 0.986 UQ 0.923 VDB 0.940
+   14 dB      raw 0.472 IQ70 0.159 IQ30 0.537 UQ 0.634 VDB 0.774
+H2 deep-window SNR (noise-free data / 14 dB noise): 5-30 Hz -9.7 dB, 30-60 Hz -12.1 dB, 60-90 Hz -29.4 dB, 90-125 Hz -32.2 dB
+   noise-free raw 0.168 IQ70 0.953 IQ30 0.905 UQ 0.710 VDB 0.910
+   14 dB      raw 0.051 IQ70 0.006 IQ30 0.160 UQ 0.082 VDB 0.256
+H3 deep-window SNR (noise-free data / 14 dB noise): 5-30 Hz +7.3 dB, 30-60 Hz +8.3 dB, 60-90 Hz -14.1 dB, 90-125 Hz -16.3 dB
+   noise-free raw 0.401 IQ70 0.922 IQ30 0.971 UQ 0.865 VDB 0.930
+   14 dB      raw 0.340 IQ70 0.073 IQ30 0.623 UQ 0.565 VDB 0.736
+H4 deep-window SNR (noise-free data / 14 dB noise): 5-30 Hz -4.7 dB, 30-60 Hz -6.1 dB, 60-90 Hz -18.1 dB, 90-125 Hz -20.4 dB
+   noise-free raw 0.362 IQ70 0.881 IQ30 0.965 UQ 0.841 VDB 0.937
+   14 dB      raw 0.142 IQ70 0.017 IQ30 0.214 UQ 0.191 VDB 0.406
+H5 deep-window SNR (noise-free data / 14 dB noise): 5-30 Hz +2.2 dB, 30-60 Hz -0.4 dB, 60-90 Hz -21.8 dB, 90-125 Hz -23.3 dB
+   noise-free raw 0.183 IQ70 0.960 IQ30 0.918 UQ 0.747 VDB 0.890
+   14 dB      raw 0.144 IQ70 0.023 IQ30 0.463 UQ 0.283 VDB 0.531
+H6 deep-window SNR (noise-free data / 14 dB noise): 5-30 Hz -3.2 dB, 30-60 Hz -4.1 dB, 60-90 Hz -19.8 dB, 90-125 Hz -28.1 dB
+   noise-free raw 0.597 IQ70 0.772 IQ30 0.982 UQ 0.924 VDB 0.944
+   14 dB      raw 0.296 IQ70 0.034 IQ30 0.199 UQ 0.274 VDB 0.477
