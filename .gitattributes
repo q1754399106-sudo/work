@@ -180,3 +180,4 @@
 地震衰减补偿研究/idea_pilots_20261106/** -text
 地震衰减补偿研究/decouple_pilot_20261106/** -text
 地震衰减补偿研究/avo_bias_theory_20261106/** -text
+地震衰减补偿研究/fd2d_confirm_20261109/**/*.mat filter=lfs diff=lfs merge=lfs -text
