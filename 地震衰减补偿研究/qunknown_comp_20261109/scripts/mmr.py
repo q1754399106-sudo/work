@@ -48,10 +48,15 @@ def profiles(x_hat, dx_hat, family):
 
 
 def cells(xs, f, lf, s, inv):
-    """G* (n, nf, J), |G|^2 + rho, and l* for every cell and scenario."""
-    k = 2 * f * lf; Gc = np.exp((-np.pi * f - 1j * k)[None, :, None] * xs[:, None, :])
-    a = np.exp(-2 * np.pi * f[None, :, None] * xs[:, None, :]); rho = s + a * inv[..., None]
-    return Gc, a + rho, rho / (a + rho)
+    """G* (n, nf, J), |G|^2 + rho, l* and the scale of every cell, normalised by g = max_j |G_cj| (the least
+    attenuated scenario) so that nothing overflows for negative x (shallow rows, extreme Gauss-Hermite nodes):
+    G~ = G / g, rho~ = rho / g^2, H = H~ / g. Both loss terms are unchanged: |H G - 1|^2 = |H~ G~ - 1|^2,
+    rho |H|^2 = rho~ |H~|^2, so the solvers work on the normalised cells and the operator is H~ * scale."""
+    k = 2 * f * lf; xm = xs.min(-1)[:, None, None]; F = f[None, :, None]
+    Gc = np.exp((-np.pi * f - 1j * k)[None, :, None] * xs[:, None, :] + np.pi * F * xm)
+    a = np.exp(-2 * np.pi * F * (xs[:, None, :] - xm)); rho = np.exp(np.minimum(np.log(s) + 2 * np.pi * F * xm, 700)) + a * inv[..., None]
+    r = np.exp(np.minimum(np.log(s) + 2 * np.pi * F * xs[:, None, :], 700)); iv = inv[..., None]     # r = s / |G|^2
+    return Gc, a + rho, (r + iv) / (1 + iv + r), np.exp(np.pi * f[None, :] * xm[..., 0])
 
 
 def h_of(pi, Gc, den):
@@ -74,7 +79,7 @@ def solve_joint(Gc, den, lstar, its=400, tol=1e-6):
     for it in range(its):
         q = pi * np.exp(eta * (R - R.max())); q /= q.sum(); Rq, pq = ev(q)
         if pq >= phi - 1e-15:
-            pi, R, phi = q, Rq, pq; eta *= 1.5
+            pi, R, phi = q, Rq, pq; eta = min(eta * 1.5, 1e6)
         else:
             eta *= 0.3
         if R.max() - phi < tol * max(abs(phi), 1e-12) or eta < 1e-8:
@@ -97,7 +102,7 @@ def _solve_cells(Gc, den, lstar, its):
     for _ in range(its):
         q = pi * np.exp(eta * (R - R.max(-1, keepdims=True))); q /= q.sum(-1, keepdims=True)
         Rq = losses(h_of(q, Gc, den), Gc, den, lstar); pq = (q * Rq).sum(-1, keepdims=True); ok = pq >= phi - 1e-15
-        pi = np.where(ok, q, pi); R = np.where(ok, Rq, R); phi = np.where(ok, pq, phi); eta = np.where(ok, eta * 1.5, eta * 0.3)
+        pi = np.where(ok, q, pi); R = np.where(ok, Rq, R); phi = np.where(ok, pq, phi); eta = np.where(ok, np.minimum(eta * 1.5, 1e6), eta * 0.3)
     return pi, R.max(-1) - phi[..., 0], phi[..., 0]
 
 
@@ -116,23 +121,23 @@ def design(D, cm, Q, c, tw, t_anchor, rule, inv=None, g_db=G_IQ):
         inv = snr_rows(D, tw, f)
     if rule == "UQW":
         e, w = GH; xs = x_hat[:, None] + dx_hat[:, None] * (np.exp(SIG * e) - 1)[None, :]
-        Gc, den, _ = cells(xs, f, lf, s, inv); return apply_rows(h_of(w / w.sum(), Gc, den), D), {}
+        Gc, den, _, sc = cells(xs, f, lf, s, inv); return apply_rows(h_of(w / w.sum(), Gc, den) * sc, D), {}
     if rule == "RGJ2":
         xs, uu = profiles(x_hat, dx_hat, "two")
-        sub = slice(None, None, 6); Gc, den, ls = cells(xs[sub], f, lf, s, inv[sub]); pi, info = solve_joint(Gc, den, ls)
-        keep = pi > 0; Gc, den, _ = cells(xs[:, keep], f, lf, s, inv)      # zero-weight profiles drop out exactly (memory)
-        info["pi"] = pi.tolist(); info["u"] = uu.tolist(); return apply_rows(h_of(pi[keep], Gc, den), D), info
+        sub = slice(None, None, 6); Gc, den, ls, _ = cells(xs[sub], f, lf, s, inv[sub]); pi, info = solve_joint(Gc, den, ls)
+        keep = pi > 0; Gc, den, _, sc = cells(xs[:, keep], f, lf, s, inv)      # zero-weight profiles drop out exactly (memory)
+        info["pi"] = pi.tolist(); info["u"] = uu.tolist(); return apply_rows(h_of(pi[keep], Gc, den) * sc, D), info
     xs, uu = profiles(x_hat, dx_hat, "scalar")
     if rule in ("MMJ", "RGJ"):                      # the shared pi from every second row; the operator on all rows
-        Gc, den, ls = cells(xs[::2], f, lf, s, inv[::2])
+        Gc, den, ls, _ = cells(xs[::2], f, lf, s, inv[::2])
         pi, info = solve_joint(Gc, den, np.zeros_like(ls) if rule == "MMJ" else ls)
-    Gc, den, ls = cells(xs, f, lf, s, inv)
+    Gc, den, ls, sc = cells(xs, f, lf, s, inv)
     if rule == "RGC":
         pi, info = solve_cells(Gc, den, ls); info["pi_mean"] = pi.mean((0, 1)).tolist()
-        return apply_rows(h_of(pi, Gc, den), D), info
+        return apply_rows(h_of(pi, Gc, den) * sc, D), info
     elif rule not in ("MMJ", "RGJ"):
         raise ValueError(rule)
-    info["pi"] = pi.tolist(); info["u"] = uu[:, 0].tolist(); return apply_rows(h_of(pi, Gc, den), D), info
+    info["pi"] = pi.tolist(); info["u"] = uu[:, 0].tolist(); return apply_rows(h_of(pi, Gc, den) * sc, D), info
 
 
 if __name__ == "__main__" and sys.argv[1:] == ["smoke"]:
@@ -140,7 +145,7 @@ if __name__ == "__main__" and sys.argv[1:] == ["smoke"]:
     import fdcheck as fd
     cm = semi.curtain_cm(); Q = np.asarray(cm["Q"], float); arr, meta = load("ZA_c0.75_r0"); D = arr["D"]
     inv = snr_rows(D, TW, np.fft.rfftfreq(NFFT, DT))
-    for c in (1.0 * meta["c_eff_cum"], 2.0 * meta["c_eff_cum"]):
+    for c in (0.5 * meta["c_eff_cum"], 0.7 * meta["c_eff_cum"], 1.0 * meta["c_eff_cum"], 2.0 * meta["c_eff_cum"]):
         a = uqw(D, cm, Q, c, SIG, TW, 1.4, 0.0, inv_snr=inv); b, _ = design(D, cm, Q, c, TW, 1.4, "UQW", inv)
         print("semi c %.3f  Bayes-form UQW vs uqw.uqw rel %.1e" % (c, np.abs(a - b).max() / np.abs(a).max()))
     for rule in ("MMJ", "RGJ", "RGC", "RGJ2"):
