@@ -1,0 +1,54 @@
+{
+ "model": "H1",
+ "level": "14dB",
+ "r": 1,
+ "seed": 20261114001,
+ "records": [
+  {
+   "m": 0.5,
+   "SC_orig": 0.694657082324396,
+   "SC_orig_conv": true,
+   "SC_orig_s": 34.34399999998277,
+   "SC_tuned": 0.6343591898855151,
+   "SC_tuned_conv": false,
+   "SC_tuned_s": 83.17199999999139
+  },
+  {
+   "m": 0.7,
+   "SC_orig": 0.892295988747106,
+   "SC_orig_conv": true,
+   "SC_orig_s": 26.719000000011874,
+   "SC_tuned": 0.78903235097259,
+   "SC_tuned_conv": false,
+   "SC_tuned_s": 74.67199999999139
+  },
+  {
+   "m": 1.0,
+   "SC_orig": 0.9105387913374523,
+   "SC_orig_conv": true,
+   "SC_orig_s": 15.65600000001723,
+   "SC_tuned": 0.7899233442406698,
+   "SC_tuned_conv": false,
+   "SC_tuned_s": 73.21900000001187
+  },
+  {
+   "m": 1.4,
+   "SC_orig": 0.8470100550190288,
+   "SC_orig_conv": true,
+   "SC_orig_s": 15.01500000001397,
+   "SC_tuned": 0.7444293111401508,
+   "SC_tuned_conv": false,
+   "SC_tuned_s": 66.76599999997416
+  },
+  {
+   "m": 2.0,
+   "SC_orig": 0.7738945757673921,
+   "SC_orig_conv": true,
+   "SC_orig_s": 15.51500000001397,
+   "SC_tuned": 0.680023083706427,
+   "SC_tuned_conv": false,
+   "SC_tuned_s": 65.375
+  }
+ ],
+ "seconds": 473.9529999999795
+}
