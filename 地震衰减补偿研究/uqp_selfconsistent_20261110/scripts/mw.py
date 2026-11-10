@@ -58,6 +58,7 @@ def rows(f, cen, arr, tw, f_op, log=True):
 def weights_rows(q, rho_c, m):
     """w = (Gamma + rho_c I)^-1 gamma_c for every (t, f): q, rho_c (n, nf) -> (n, nf, 2 m + 1). rho_c = N / (S0 E|G|^2)."""
     k = 2 * m + 1; d = np.abs(np.arange(k)[:, None] - np.arange(k)[None, :])
+    q = np.clip(q, 0.05, 0.999); rho_c = np.clip(np.nan_to_num(rho_c, nan=1e12, posinf=1e12), 1e-9, 1e12)   # Gamma + rho_c I non-singular
     G = q[..., None, None] ** d + rho_c[..., None, None] * np.eye(k); g = q[..., None] ** np.abs(np.arange(k) - m)
     return np.linalg.solve(G, g[..., None])[..., 0]
 

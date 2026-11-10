@@ -1,0 +1,61 @@
+
+===== cal: 24 datasets
+ method      0.50   0.60   0.70   0.85   1.00   1.20   1.40   1.70   2.00    mean
+ IQ70       0.082  0.335  0.581  0.820  0.890  0.820  0.700  0.542  0.444   0.580
+ W0         0.082  0.339  0.589  0.832  0.896  0.811  0.696  0.536  0.434   0.579
+ UQW        0.269  0.554  0.756  0.877  0.845  0.735  0.628  0.498  0.404   0.618
+ MW0_K1     0.082  0.337  0.587  0.826  0.892  0.820  0.710  0.567  0.451   0.586
+ UQMW_K1    0.268  0.551  0.753  0.880  0.859  0.755  0.652  0.523  0.421   0.629
+ MW0_K5     0.090  0.362  0.632  0.888  0.943  0.850  0.734  0.583  0.462   0.616
+ UQMW_K5    0.294  0.594  0.805  0.919  0.878  0.772  0.665  0.532  0.426   0.654
+ MW0_K9     0.093  0.364  0.638  0.893  0.942  0.847  0.734  0.584  0.462   0.617
+ UQMW_K9    0.299  0.600  0.811  0.919  0.876  0.772  0.665  0.532  0.426   0.656
+ SR route: c_sr / c_true median 0.969, |log| median 0.065, max 0.300
+ SR route scores: IQ70 0.864  W0 0.870  MW0_K1 0.869  MW0_K5 0.918  MW0_K9 0.919
+ scenario mean UQMW_K9 - UQW                +0.037 [+0.033, +0.042]  positive 24/24
+ scenario mean UQMW_K5 - UQW                +0.036 [+0.032, +0.040]  positive 24/24
+ scenario mean MW0_K9 - W0                  +0.038 [+0.034, +0.042]  positive 24/24
+ scenario mean MW0_K9 - IQ70                +0.038 [+0.035, +0.041]  positive 24/24
+ scenario mean UQMW_K9 - MW0_K9             +0.038 [+0.036, +0.040]  positive 24/24
+ m = 1: MW0_K9 - W0                         +0.046 [+0.036, +0.057]  positive 24/24
+ m = 1: MW0_K9 - IQ70                       +0.052 [+0.042, +0.064]  positive 24/24
+ m = 1: MW0_K5 - MW0_K1                     +0.051 [+0.042, +0.061]  positive 24/24
+ SR route: MW0_K9 - IQ70                    +0.055 [+0.045, +0.067]  positive 24/24
+ SR route: MW0_K9 - W0                      +0.049 [+0.039, +0.060]  positive 24/24
+ SR route: MW0_K5 - IQ70                    +0.055 [+0.044, +0.066]  positive 24/24
+ SR-route MW0_K9 - scenario-mean UQMW_K9    +0.264 [+0.235, +0.292]  positive 24/24
+ steering: MW0_K9 - no steering (m = 1)     +0.033 [+0.029, +0.036]  positive 24/24
+ archived SC-a by m 0.5: 0.083  0.7: 0.610  1: 0.911  1.4: 0.728  2: 0.455   mean 0.558;  SR route 0.893
+ 5 m mean: UQMW_K9 - SC-a                   +0.058 [+0.048, +0.071]  positive 24/24
+ 5 m mean: MW0_K9 - SC-a                    +0.016 [+0.007, +0.029]  positive 19/24
+ m = 1: MW0_K9 - SC-a                       +0.031 [+0.009, +0.054]  positive 12/24
+ SR route: MW0_K9 - SC-a                    +0.026 [+0.010, +0.045]  positive 12/24
+ coherence q (10-60 Hz median): steered 0.928, not steered 0.881; |dip| median 0.51 ms/trace, p95 1.73
+
+===== nd: 24 datasets
+ method      0.50   0.60   0.70   0.85   1.00   1.20   1.40   1.70   2.00    mean
+ IQ70       0.062  0.229  0.369  0.473  0.495  0.500  0.468  0.397  0.345   0.371
+ W0         0.062  0.249  0.421  0.570  0.600  0.559  0.492  0.392  0.320   0.407
+ UQW        0.205  0.408  0.538  0.603  0.588  0.524  0.455  0.370  0.303   0.444
+ MW0_K1     0.062  0.242  0.404  0.545  0.584  0.566  0.512  0.426  0.350   0.410
+ UQMW_K1    0.197  0.382  0.502  0.569  0.582  0.544  0.486  0.403  0.335   0.444
+ MW0_K5     0.073  0.283  0.475  0.645  0.681  0.638  0.565  0.461  0.375   0.466
+ UQMW_K5    0.229  0.442  0.582  0.653  0.646  0.593  0.524  0.431  0.354   0.495
+ MW0_K9     0.074  0.286  0.481  0.652  0.686  0.641  0.567  0.462  0.375   0.469
+ UQMW_K9    0.232  0.446  0.587  0.654  0.646  0.593  0.525  0.431  0.355   0.497
+ SR route: c_sr / c_true median 0.990, |log| median 0.084, max 0.439
+ SR route scores: IQ70 0.479  W0 0.571  MW0_K1 0.561  MW0_K5 0.651  MW0_K9 0.656
+ scenario mean UQMW_K9 - UQW                +0.053 [+0.043, +0.063]  positive 23/24
+ scenario mean UQMW_K5 - UQW                +0.051 [+0.040, +0.061]  positive 23/24
+ scenario mean MW0_K9 - W0                  +0.062 [+0.049, +0.074]  positive 21/24
+ scenario mean MW0_K9 - IQ70                +0.099 [+0.087, +0.110]  positive 24/24
+ scenario mean UQMW_K9 - MW0_K9             +0.027 [+0.023, +0.031]  positive 24/24
+ m = 1: MW0_K9 - W0                         +0.086 [+0.056, +0.116]  positive 18/24
+ m = 1: MW0_K9 - IQ70                       +0.191 [+0.159, +0.223]  positive 24/24
+ m = 1: MW0_K5 - MW0_K1                     +0.097 [+0.080, +0.114]  positive 24/24
+ SR route: MW0_K9 - IQ70                    +0.177 [+0.145, +0.207]  positive 24/24
+ SR route: MW0_K9 - W0                      +0.085 [+0.058, +0.112]  positive 20/24
+ SR route: MW0_K5 - IQ70                    +0.171 [+0.141, +0.201]  positive 24/24
+ SR-route MW0_K9 - scenario-mean UQMW_K9    +0.160 [+0.133, +0.188]  positive 24/24
+ steering: MW0_K9 - no steering (m = 1)     +0.076 [+0.063, +0.090]  positive 24/24
+ coherence q (10-60 Hz median): steered 0.673, not steered 0.651; |dip| median 0.58 ms/trace, p95 2.07
