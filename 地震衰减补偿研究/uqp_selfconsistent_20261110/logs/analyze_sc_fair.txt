@@ -1,0 +1,8 @@
+R0_sel  n 16  a 2^-9 mu 2  SC 0.381  MW0_K9 0.690  W0 0.586  fs nan fd nan  conv 0  median s 286
+        MW0_K9 - SC +0.309 [+0.260, +0.358] pos 16/16    SC - W0 -0.205 [-0.267, -0.149] pos 1/16
+R1_def  n 16  a 2^-13 mu 0.25  SC 0.399  MW0_K9 0.690  W0 0.586  fs 82 fd 44  conv 0  median s 292
+        MW0_K9 - SC +0.291 [+0.251, +0.332] pos 16/16    SC - W0 -0.187 [-0.242, -0.135] pos 0/16
+R1_sel  n 16  a 2^-9 mu 2  SC 0.406  MW0_K9 0.690  W0 0.586  fs 82 fd 44  conv 0  median s 320
+        MW0_K9 - SC +0.284 [+0.242, +0.327] pos 16/16    SC - W0 -0.180 [-0.238, -0.125] pos 1/16
+R2_sel  n 16  a 2^-9 mu 2  SC 0.406  MW0_K9 0.690  W0 0.586  fs 82 fd 44  conv 0  median s 312
+        MW0_K9 - SC +0.284 [+0.240, +0.329] pos 16/16    SC - W0 -0.180 [-0.240, -0.124] pos 1/16

@@ -1,0 +1,4 @@
+{'id': 'ZB_c0.75_r1', 'variant': 'R1_sel', 'a': 0.001953125, 'mu': 2.0, 'c_sr': 1.1373799565066172, 'fmax_shallow': 92.28515625, 'fmax_target': 40.0390625, 'S': 0.16828929248379157, 'converged': False, 'seconds': 286.9679999999935}
+{'id': 'ZE_c0.75_r0', 'variant': 'R1_sel', 'a': 0.001953125, 'mu': 2.0, 'c_sr': 0.6597539553864472, 'fmax_shallow': 94.7265625, 'fmax_target': 43.45703125, 'S': 0.4748073923235347, 'converged': False, 'seconds': 322.73500000001513}
+{'id': 'ZF_c1.05_r0', 'variant': 'R1_sel', 'a': 0.001953125, 'mu': 2.0, 'c_sr': 0.961165748058081, 'fmax_shallow': 32.2265625, 'fmax_target': 45.41015625, 'S': 0.2502217616954146, 'converged': False, 'seconds': 325.43700000000536}
+{'id': 'ZC_c0.75_r1', 'variant': 'R1_def', 'a': 0.0001220703125, 'mu': 0.25, 'c_sr': 0.8326108625882979, 'fmax_shallow': 99.12109375, 'fmax_target': 44.43359375, 'S': 0.36168675287496, 'converged': False, 'seconds': 284.76599999997416}
