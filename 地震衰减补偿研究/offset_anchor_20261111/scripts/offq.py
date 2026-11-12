@@ -72,9 +72,9 @@ def wmean(v, a, b):
     k = (T >= a) & (T < b); w = np.hanning(k.sum()) ** 2; return float(w @ v[k] / w.sum())
 
 
-def estimates(r, c, snr, vscale, rng):
+def estimates(r, c, snr, vscale, rng, post=None):
     G = [gather(r, c, i) for i in range(len(OFF))]; sig = np.sqrt(np.mean(G[0] ** 2)) / 10 ** (snr / 20) if snr else 0.0
-    G = [g + sig * rng.standard_normal(g.shape) for g in G]; a0p, axp = (A0, AX) if vscale == 1 else rays(vscale); vp = vrms * vscale
+    G = [g + sig * rng.standard_normal(g.shape) for g in G]; G = G if post is None else [post(g, i) for i, g in enumerate(G)]; a0p, axp = (A0, AX) if vscale == 1 else rays(vscale); vp = vrms * vscale
     xs, ys, L0, a0m = [], [], [], []
     for a, b in WIN:
         R0, e = power(G[0], a, b); n0 = sig ** 2 * e; P0 = np.maximum(R0 - n0, 1e-12 * R0.max()); L0.append(0.5 * np.log(P0[B])); a0m.append(wmean(a0p, a, b)); tc = 0.5 * (a + b)
