@@ -1,0 +1,19 @@
+levels 191, MD 133-3995 m, TVD 131-3135 m, first break 0.547-1.335 s (missing 11)
+alignment sample 111; centroid frequency by depth (every 15th level): 30 29 29 32 27 28 29 26 33 30 28 33 34
+band 10-60 Hz: overall slope dt*/dt = -0.00356 -> Q -281
+   one-way 0.1-0.6 s (TVD 1107-1223 m, n   9): 1000/Q -53.81 (Q    -19), residual sd 0.0014 s
+   one-way 0.6-0.9 s (TVD 1237-1859 m, n  44): 1000/Q  +7.72 (Q    129), residual sd 0.0046 s
+   one-way 0.9-1.2 s (TVD 1886-2601 m, n  57): 1000/Q +10.92 (Q     92), residual sd 0.0033 s
+   one-way 1.2-1.5 s (TVD 2611-3135 m, n  70): 1000/Q -38.62 (Q    -26), residual sd 0.0036 s
+band 10-80 Hz: overall slope dt*/dt = -0.00018 -> Q -5584
+   one-way 0.1-0.6 s (TVD 1107-1223 m, n   9): 1000/Q -19.42 (Q    -52), residual sd 0.0026 s
+   one-way 0.6-0.9 s (TVD 1237-1859 m, n  44): 1000/Q -18.23 (Q    -55), residual sd 0.0034 s
+   one-way 0.9-1.2 s (TVD 1886-2601 m, n  57): 1000/Q  +2.01 (Q    497), residual sd 0.0016 s
+   one-way 1.2-1.5 s (TVD 2611-3135 m, n  70): 1000/Q -52.69 (Q    -19), residual sd 0.0023 s
+band 15-100 Hz: overall slope dt*/dt = 0.00026 -> Q 3803
+   one-way 0.1-0.6 s (TVD 1107-1223 m, n   9): 1000/Q -36.59 (Q    -27), residual sd 0.0015 s
+   one-way 0.6-0.9 s (TVD 1237-1859 m, n  44): 1000/Q  -5.31 (Q   -188), residual sd 0.0028 s
+   one-way 0.9-1.2 s (TVD 1886-2601 m, n  57): 1000/Q  -8.91 (Q   -112), residual sd 0.0018 s
+   one-way 1.2-1.5 s (TVD 2611-3135 m, n  70): 1000/Q -20.03 (Q    -50), residual sd 0.0021 s
+t* (ms, 10-80 Hz) at every 10th level:
+  131m/nans:+2.0  289m/nans:-2.4  1237m/0.60s:-4.9  1390m/0.68s:+1.1  1545m/0.75s:-1.6  1685m/0.82s:+2.9  1819m/0.88s:-0.1  1967m/0.95s:-0.5  2102m/1.01s:+1.1  2240m/1.07s:+0.1  2375m/1.12s:+1.4  2497m/1.17s:-0.2  2601m/1.20s:-3.1  2727m/1.23s:-1.6  2808m/1.25s:+1.0  2866m/1.26s:+0.5  2883m/1.26s:-4.2  2941m/1.28s:-3.2  3028m/1.30s:-5.4  3135m/1.34s:-1.2
