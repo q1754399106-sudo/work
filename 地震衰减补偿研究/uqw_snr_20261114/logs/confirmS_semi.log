@@ -4,3 +4,36 @@ S6_ZP_c1.05_r0 324 110s
 S6_ZP_c1.05_r1 324 105s
 S6_ZR_c0.75_r0 324 106s
 S6_ZR_c0.75_r1 324 106s
+S6_ZR_c1.05_r0 324 100s
+S6_ZR_c1.05_r1 324 110s
+S6_ZT_c0.75_r0 324 114s
+S6_ZT_c0.75_r1 324 110s
+S6_ZT_c1.05_r0 324 102s
+S6_ZT_c1.05_r1 324 102s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/scipy/io/matlab/_mio.py", line 43, in _open_file
+    return open(file_like, mode), True
+           ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/work/地震衰减补偿研究/fd2d_confirm3_20261114/models/H13.mat'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/work/地震衰减补偿研究/uqw_snr_20261114/scripts/confirmS.py", line 91, in <module>
+    h, lv, r = key; D0, T, cmf, tw, fp = load_fd3(h); s = fd_seed(h, lv, r); out = dict(id=name, seed=s, records=run_fd_unit(D0, T, cmf, tw, fp, LEVELS3[lv], s))
+                                         ~~~~~~~~^^^
+  File "/home/user/work/地震衰减补偿研究/uqw_snr_20261114/scripts/confirmS.py", line 54, in load_fd3
+    m = sio.loadmat(FD3 / "models" / f"{name}.mat", squeeze_me=True, struct_as_record=False)
+  File "/usr/local/lib/python3.13/site-packages/scipy/io/matlab/_mio.py", line 240, in loadmat
+    with _open_file_context(file_name, appendmat) as f:
+         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.13/site-packages/scipy/io/matlab/_mio.py", line 21, in _open_file_context
+    f, opened = _open_file(file_like, appendmat, mode)
+                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/scipy/io/matlab/_mio.py", line 51, in _open_file
+    raise OSError(
+        'Reader needs file name or open file-like object'
+    ) from e
+OSError: Reader needs file name or open file-like object
