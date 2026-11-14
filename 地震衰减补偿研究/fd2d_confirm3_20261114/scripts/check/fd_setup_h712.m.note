@@ -1,0 +1,2 @@
+check/fd_setup_h712.m = fd2d_confirm_20261109/scripts/fd_setup.m with the function renamed and P.root one level up
+(so that it reads this round's cache/inputs). Used only by check_octave.m.
