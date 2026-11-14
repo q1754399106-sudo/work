@@ -1,0 +1,17 @@
+U1        semi cal: UQWS - UQW, 9 m            +0.031  [+0.024, +0.037]  11/12  holds
+U2_res4   semi res4: UQWS - UQW, 9 m           +0.014  [+0.011, +0.017]  12/12  holds
+U2_gau4   semi gau4: UQWS - UQW, 9 m           +0.013  [+0.011, +0.015]  12/12  holds
+U3_30dB   FD 30dB: UQWS - UQW, 9 m             +0.006  [+0.001, +0.011]  5/6  holds
+U3_14dB   FD 14dB: UQWS - UQW, 9 m             +0.012  [+0.002, +0.027]  5/6  holds
+U4        semi cal, m 1.4-2.0: UQWS - UQW      +0.067  [+0.058, +0.074]  12/12  holds
+U5_semi   semi res4: UQWS - VDBin, 9 m         +0.123  [+0.074, +0.176]  12/12  holds
+U5_fd     FD 14dB: UQWS - VDBin, 9 m           +0.104  [+0.072, +0.141]  6/6  holds
+confirmed: True
+O cal   UQWS-UQW +0.031  UQWS-VDBin +0.042  UQW-VDBin +0.011  UQW-VDB +0.011  VDBin-VDB +0.000  UQWS-HWin +0.000
+O res4  UQWS-UQW +0.014  UQWS-VDBin +0.123  UQW-VDBin +0.108  UQW-VDB +0.243  VDBin-VDB +0.135  UQWS-HWin +0.069
+O gau4  UQWS-UQW +0.013  UQWS-VDBin +0.095  UQW-VDBin +0.082  UQW-VDB +0.195  VDBin-VDB +0.113  UQWS-HWin +0.038
+F cal   UQWS-UQW +0.048  UQWS-VDBin +0.047  UQW-VDBin -0.001  UQW-VDB -0.001  VDBin-VDB -0.000  UQWS-HWin +0.000
+F res4  UQWS-UQW +0.031  UQWS-VDBin +0.124  UQW-VDBin +0.092  UQW-VDB +0.264  VDBin-VDB +0.172  UQWS-HWin +0.083
+F gau4  UQWS-UQW +0.031  UQWS-VDBin +0.098  UQW-VDBin +0.068  UQW-VDB +0.220  VDBin-VDB +0.152  UQWS-HWin +0.055
+FD 30dB  UQWS-UQW +0.006  UQWS-VDBin +0.040  UQW-VDBin +0.034  UQW-VDB +0.034  VDBin-VDB +0.000  UQWS-HWin +0.000
+FD 14dB  UQWS-UQW +0.012  UQWS-VDBin +0.104  UQW-VDBin +0.091  UQW-VDB +0.091  VDBin-VDB +0.000  UQWS-HWin +0.000
