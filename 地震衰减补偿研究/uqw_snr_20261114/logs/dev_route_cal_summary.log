@@ -1,0 +1,18 @@
+SR (n 24): |log c error| median 0.065, max 0.300
+  SCa    mean 0.893
+  UQWS   mean 0.850
+  UQW    mean 0.838
+  VDBin  mean 0.857
+  UQWS-SCa     -0.044 [-0.063,-0.022] 2/24
+  UQWS-UQW     +0.012 [+0.005,+0.018] 14/24
+  UQWS-VDBin   -0.007 [-0.019,+0.004] 9/24
+  SCa-VDBin    +0.036 [+0.015,+0.052] 22/24
+QScan (n 24): |log c error| median 0.144, max 0.352
+  SCa    mean 0.859
+  UQWS   mean 0.802
+  UQW    mean 0.781
+  VDBin  mean 0.828
+  UQWS-SCa     -0.057 [-0.080,-0.032] 3/24
+  UQWS-UQW     +0.020 [+0.014,+0.027] 20/24
+  UQWS-VDBin   -0.027 [-0.043,-0.012] 11/24
+  SCa-VDBin    +0.030 [+0.010,+0.046] 21/24
