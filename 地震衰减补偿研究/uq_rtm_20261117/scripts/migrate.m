@@ -29,7 +29,7 @@ for j=jdone+1:numel(P.f)
  t0=tic;f=P.f(j);w=2*pi*f;
  A=helm_op(M.vmig,f,P);[L,U,Pp,Qq,R]=lu(A);clear A
  solve=@(b) Qq*(U\(L\(Pp*(R\b))));solveH=@(b) R\(Pp'*(L'\(U'\(Qq'*b))));
- b=sparse(isrc,1:ns,-W(j)/P.dx^2,N,ns);Us=solve(b);Us=conj(single(Us(lin,:)))*w^2;
+ b=zeros(N,ns);b(sub2ind([N ns],isrc,1:ns))=-W(j)/P.dx^2;Us=solve(b);Us=conj(single(Us(lin,:)))*w^2;
  img=struct();
  sets=[{'ref'};full(:,1);cdata];
  for d=1:numel(sets)

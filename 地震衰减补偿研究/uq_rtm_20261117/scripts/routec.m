@@ -32,7 +32,7 @@ for m=P.routeC.m
    Tc=double(F.T(rows,jm,k)+(1-wq)*F.T(rows,jm,k0)+wq*F.T(rows,jm,k0+1));
    tc=double(F.ts(rows,jm,k)+(1-wq)*F.ts(rows,jm,k0)+wq*F.ts(rows,jm,k0+1));
    Tc=cummax(Tc);[Tc,iu]=unique(Tc);xh=max(interp1(Tc,tc(iu),P.t,'linear','extrap'),0)/m;
-   u=xh/dxg;i0=min(floor(u),numel(xg)-2);ww=u-i0;i0=i0+1;
+   u=xh/dxg;i0=min(floor(u),numel(xg)-2);ww=min(u-i0,1);i0=i0+1;
    A=TA(:,i0).'.*(1-ww)+TA(:,i0+1).'.*ww;C=TC(:,i0).'.*(1-ww)+TC(:,i0+1).'.*ww;
    H=A./(1+s*C+INV);H(:,1)=real(H(:,1));H(:,end)=real(H(:,end));
    d=fft(double(X(:,r,k)),N);d=d(1:N/2+1);
