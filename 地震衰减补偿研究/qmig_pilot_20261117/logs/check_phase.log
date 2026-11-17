@@ -1,0 +1,15 @@
+two migrations 5.7 s
+phase 0.000  corr with d ln c / dz: +0.722
+phase 0.785  corr with d ln c / dz: +0.530
+phase 1.571  corr with d ln c / dz: +0.021
+phase 2.356  corr with d ln c / dz: -0.494
+phase 3.142  corr with d ln c / dz: -0.722
+phase 3.927  corr with d ln c / dz: -0.530
+phase 4.712  corr with d ln c / dz: -0.021
+phase 5.498  corr with d ln c / dz: +0.494
+kf sign +1 NONE  {'all': {'corr': 0.9378771812231081, 'E': 0.6790953629197003}, 'target': {'corr': 0.9535051077420399, 'E': 0.5938499679104277}}
+kf sign +1 PH    {'all': {'corr': 0.9462455861173147, 'E': 0.6925397301145586}, 'target': {'corr': 0.9650343062256604, 'E': 0.6072153537834295}}
+kf sign +1 WIEN  {'all': {'corr': 0.9959531058610119, 'E': 0.9913271578229351}, 'target': {'corr': 0.9970868234785868, 'E': 0.9941803585351123}}
+kf sign -1 NONE  {'all': {'corr': 0.9378771812231081, 'E': 0.6790953629197003}, 'target': {'corr': 0.9535051077420399, 'E': 0.5938499679104277}}
+kf sign -1 PH    {'all': {'corr': 0.9174843342696453, 'E': 0.6498524099456371}, 'target': {'corr': 0.920251516902442, 'E': 0.5582326355292946}}
+kf sign -1 WIEN  {'all': {'corr': 0.9573835550601992, 'E': 0.9162340222743557}, 'target': {'corr': 0.938242923260045, 'E': 0.880138624524244}}
