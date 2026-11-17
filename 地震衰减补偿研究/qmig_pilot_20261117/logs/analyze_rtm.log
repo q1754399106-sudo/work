@@ -1,0 +1,18 @@
+none LP tuning E(target): 14:0.707 18:0.886 22:0.973 26:0.995 30:0.998 36:0.998 None:0.998
+  m=0.5   no boost corr/E target 0.975/0.623 all 0.968/0.836 | Q-RTM + LP target 0.970/-2.548 all 0.913/-0.548
+  m=0.7   no boost corr/E target 0.980/0.627 all 0.968/0.836 | Q-RTM + LP target 0.994/0.701 all 0.987/0.861
+  m=1     no boost corr/E target 0.982/0.627 all 0.968/0.834 | Q-RTM + LP target 0.999/0.998 all 0.996/0.992
+  m=1.4   no boost corr/E target 0.981/0.625 all 0.967/0.833 | Q-RTM + LP target 0.997/0.935 all 0.993/0.972
+  m=2     no boost corr/E target 0.980/0.623 all 0.967/0.831 | Q-RTM + LP target 0.993/0.845 all 0.986/0.935
+30dB LP tuning E(target): 14:0.708 18:0.887 22:0.973 26:0.995 30:0.998 36:0.998 None:0.998
+  m=0.5   no boost corr/E target 0.975/0.623 all 0.968/0.836 | Q-RTM + LP target 0.970/-2.543 all 0.912/-0.557
+  m=0.7   no boost corr/E target 0.980/0.627 all 0.968/0.836 | Q-RTM + LP target 0.994/0.702 all 0.987/0.861
+  m=1     no boost corr/E target 0.982/0.627 all 0.968/0.834 | Q-RTM + LP target 0.999/0.998 all 0.996/0.992
+  m=1.4   no boost corr/E target 0.981/0.625 all 0.967/0.833 | Q-RTM + LP target 0.997/0.935 all 0.993/0.972
+  m=2     no boost corr/E target 0.980/0.623 all 0.967/0.831 | Q-RTM + LP target 0.993/0.845 all 0.986/0.935
+14dB LP tuning E(target): 14:0.710 18:0.887 22:0.972 26:0.993 30:0.996 36:0.996 None:0.996
+  m=0.5   no boost corr/E target 0.975/0.623 all 0.968/0.836 | Q-RTM + LP target 0.966/-2.586 all 0.903/-0.629
+  m=0.7   no boost corr/E target 0.980/0.627 all 0.968/0.836 | Q-RTM + LP target 0.992/0.694 all 0.986/0.860
+  m=1     no boost corr/E target 0.981/0.627 all 0.968/0.834 | Q-RTM + LP target 0.998/0.996 all 0.996/0.992
+  m=1.4   no boost corr/E target 0.981/0.625 all 0.967/0.833 | Q-RTM + LP target 0.996/0.934 all 0.993/0.972
+  m=2     no boost corr/E target 0.980/0.622 all 0.967/0.831 | Q-RTM + LP target 0.992/0.844 all 0.986/0.935
