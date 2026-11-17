@@ -27,7 +27,7 @@
 | `scripts/uq_tab.m`、`gain_s.m` | UQ 期望（对数正态 Gauss–Hermite），稳定项 s |
 | `scripts/prep_data.m` | 去直达波，加噪声，转到频率域 |
 | `scripts/routec.m` | 路线 C：叠前逐道 UQ-W |
-| `scripts/migrate.m` | 路线 A：频率域逆时偏移，成像条件中逐点施加期望算子，成像域奇偶炮信噪比 |
+| `scripts/migrate.m` | 路线 A：频率域逆时偏移，成像条件中逐点施加期望算子（第 3 轮起读 est_noise 的成像域信噪比） |
 | `scripts/est_noise.m` | 第 1 遍：频带求和的随机极性噪声估计（第 3 轮起） |
 | `scripts/score_stage1.m`、`make_figures.m` | 阶段 1 指标与图 |
 | `scripts/diag_*.m` | 诊断：信噪比估计、路线 C 滤波核对 |
@@ -38,7 +38,7 @@
 
 ## 运行
 
-需要 MATLAB R2024b，只开一个进程。
+需要 MATLAB R2024b。偏移每个进程峰值内存约 7.5 GB，本机 13.8 GB 时只开一个进程（12 线程）。
 
 ```
 matlab -batch "cd scripts; test_engine"
