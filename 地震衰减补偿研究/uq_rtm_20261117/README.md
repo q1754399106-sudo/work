@@ -1,6 +1,6 @@
 # Q 模型不确定时的稳健 Q 补偿偏移（UQ 逆时偏移）
 
-**状态：阶段 1 进行中（开发）。** 方案见 [PLAN_STAGE1_ZH.md](PLAN_STAGE1_ZH.md)，评分前提交。
+**状态：阶段 1 完成（开发，三轮）；选定路线 A。** 结果见 [RESULTS_STAGE1_ROUND3_ZH.md](RESULTS_STAGE1_ROUND3_ZH.md)（前两轮的问题见 ROUND1、ROUND2）。阶段 2 草稿见 [PLAN_STAGE2_DRAFT_ZH.md](PLAN_STAGE2_DRAFT_ZH.md)。
 
 ## 任务
 
@@ -28,7 +28,9 @@
 | `scripts/prep_data.m` | 去直达波，加噪声，转到频率域 |
 | `scripts/routec.m` | 路线 C：叠前逐道 UQ-W |
 | `scripts/migrate.m` | 路线 A：频率域逆时偏移，成像条件中逐点施加期望算子，成像域奇偶炮信噪比 |
-| `scripts/score_stage1.m` | 阶段 1 指标 |
+| `scripts/est_noise.m` | 第 1 遍：频带求和的随机极性噪声估计（第 3 轮起） |
+| `scripts/score_stage1.m`、`make_figures.m` | 阶段 1 指标与图 |
+| `scripts/diag_*.m` | 诊断：信噪比估计、路线 C 滤波核对 |
 | `scripts/test_engine.m` | 引擎检验 E1–E4 |
 | `scripts/run_stage1.m` | 阶段 1 整条链 |
 | `scripts/bench_*.m` | 测速 |
