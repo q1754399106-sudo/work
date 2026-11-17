@@ -19,7 +19,7 @@ INV=interp1(cen(:),inv,min(max(P.t,cen(1)),cen(end)));      % n x nf
 xmax=1.05*double(max(F.ts(:)))*2/min(P.routeC.m);xg=linspace(0,xmax,801);dxg=xg(2);
 TA=zeros(numel(fo),numel(xg));TC=TA;
 for j=1:numel(fo),T=uq_tab(fo(j),xg,P.sig,P.fd.fref);TA(j,:)=T.A;TC(j,:)=T.C;end
-s=gain_s(70);E2=exp(1i*2*pi*(0:n-1)'*P.dt*fo');                         % (fixed 11-17: dt was missing)cw=[1;2*ones(N/2-1,1);1]/N;
+s=gain_s(70);E2=exp(1i*2*pi*(0:n-1)'*P.dt*fo');cw=[1;2*ones(N/2-1,1);1]/N;   % (fixed 11-17: dt was missing)
 D=load(fullfile(P.cache,['data_' name '.mat']));Eh=single(exp(-1i*2*pi*P.t*P.f));
 xs=P.x(P.ixs);rows=P.in{1};
 for m=P.routeC.m
