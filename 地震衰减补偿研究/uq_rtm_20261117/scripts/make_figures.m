@@ -10,7 +10,7 @@ subplot(1,2,1);imagesc(x,z,M.v(P.in{1},P.in{2}));axis image;colorbar;title('velo
 subplot(1,2,2);imagesc(x,z,M.Q(P.in{1},P.in{2}));axis image;colorbar;title('Q');xlabel('x (m)');
 exportgraphics(f,fullfile(out,['model_' name '.png']),'Resolution',150);close(f);
 % images at m = 0.7 and 1 on m12
-ds='m12';ms=I.meta.m_full{strcmp(I.meta.m_full(:,1),ds),2};
+ds='m30';ms=I.meta.m_full{strcmp(I.meta.m_full(:,1),ds),2};
 pan={'ref','R0',NaN;ds,'R0',NaN;ds,'IQ70',.7;ds,'W0',.7;ds,'UQW0',.7;ds,'IQ70',1;ds,'W0',1;ds,'UQW0',1};
 f=figure('Visible','off','Position',[0 0 1400 700]);
 for k=1:size(pan,1)
@@ -21,7 +21,7 @@ for k=1:size(pan,1)
 end
 exportgraphics(f,fullfile(out,['images_' name '.png']),'Resolution',150);close(f);
 % S-m curves
-f=figure('Visible','off','Position',[0 0 1200 650]);ws={'deep','lens'};dss={'n00','m12'};k=0;
+f=figure('Visible','off','Position',[0 0 1200 650]);ws={'deep','lens'};dss={'m30','m40'};k=0;
 for a=1:2
  for b=1:2
   k=k+1;subplot(2,2,k);T=R.(dss{a}).(ws{b});hold on

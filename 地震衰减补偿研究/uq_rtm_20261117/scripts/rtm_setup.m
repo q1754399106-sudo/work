@@ -14,11 +14,13 @@ P.fd=struct('dt',4e-4,'nt',5000,'t0',.06,'fpeak',25,'fref',100);
 P.dt=.004;P.nt=500;P.t=(1:P.nt)'*P.dt;                    % stored records: t = 4 ms ... 2.0 s
 P.f=3:.5:55;                                                % migration frequencies (df = 1/2 s)
 P.smooth_m=30;                                              % migration velocity: Gaussian, sigma 30 m
-P.threads=4;
+P.threads=12;
 % UQ operators (as qunknown_comp_20261109: lognormal sigma 0.447, gain limits in dB)
 P.sig=.447;P.m=[.5 .6 .7 .85 1 1.2 1.4 1.7 2];
 P.snr_win=.4;P.snr_hop=.1;P.snr_min=1e-3;
-P.noise_db=[0 -12];                                         % trace-level noise levels (prep_data)
+P.noise_db=[-12 -30 -40];                                   % trace-level noise levels (prep_data; round 2)
 P.snr_box=400;                                              % image-domain SNR window (m), migrate
-P.routeC=struct('data','m12','m',[.7 1 1.4]);              % route C (data-domain UQ-W, gamma 0)
+P.routeC=struct('data','m30','m',[.7 1 1.4]);              % route C (data-domain UQ-W, gamma 0; round 2)
+P.mig_sets={'att',[.7 1 1.4];'m12',[.7 1 1.4];'m30',[.5 .6 .7 .85 1 1.2 1.4 1.7 2];'m40',[.5 .7 1 1.4 2]};
+P.flip_seed=20261118;                                       % random-polarity noise estimate (round 2)
 end

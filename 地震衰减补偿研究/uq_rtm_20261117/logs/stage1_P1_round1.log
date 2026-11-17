@@ -1,0 +1,212 @@
+P1 shot 1: 47 s
+P1 shot 2: 46 s
+P1 shot 3: 46 s
+P1 shot 4: 46 s
+P1 shot 5: 46 s
+P1 shot 6: 46 s
+P1 shot 7: 46 s
+P1 shot 8: 45 s
+P1 shot 9: 45 s
+P1 shot 10: 45 s
+P1 shot 11: 45 s
+P1 shot 12: 45 s
+P1 shot 13: 45 s
+P1 shot 14: 45 s
+P1 shot 15: 45 s
+P1 shot 16: 45 s
+P1 shot 17: 45 s
+P1 shot 18: 45 s
+P1 shot 19: 45 s
+P1 shot 20: 45 s
+P1 shot 21: 45 s
+P1 shot 22: 45 s
+P1 shot 23: 45 s
+P1 shot 24: 45 s
+P1 shot 25: 45 s
+P1 shot 26: 45 s
+P1 shot 27: 45 s
+P1 shot 28: 45 s
+P1 shot 29: 45 s
+P1 shot 30: 45 s
+P1 shot 31: 45 s
+P1 shot 32: 45 s
+P1 shot 33: 45 s
+P1 shot 34: 45 s
+P1 shot 35: 45 s
+P1 shot 36: 45 s
+P1 shot 37: 45 s
+P1 shot 38: 46 s
+P1 shot 39: 46 s
+P1 shot 40: 46 s
+P1 shot 41: 46 s
+P1 shot 42: 47 s
+P1 shot 43: 46 s
+P1 shot 44: 46 s
+P1 shot 45: 45 s
+P1 shot 46: 45 s
+P1 shot 47: 45 s
+P1 shot 48: 45 s
+P1 shot 49: 45 s
+P1 shot 50: 46 s
+P1 shot 51: 45 s
+fields P1 shot 1/51
+fields P1 shot 2/51
+fields P1 shot 3/51
+fields P1 shot 4/51
+fields P1 shot 5/51
+fields P1 shot 6/51
+fields P1 shot 7/51
+fields P1 shot 8/51
+fields P1 shot 9/51
+fields P1 shot 10/51
+fields P1 shot 11/51
+fields P1 shot 12/51
+fields P1 shot 13/51
+fields P1 shot 14/51
+fields P1 shot 15/51
+fields P1 shot 16/51
+fields P1 shot 17/51
+fields P1 shot 18/51
+fields P1 shot 19/51
+fields P1 shot 20/51
+fields P1 shot 21/51
+fields P1 shot 22/51
+fields P1 shot 23/51
+fields P1 shot 24/51
+fields P1 shot 25/51
+fields P1 shot 26/51
+fields P1 shot 27/51
+fields P1 shot 28/51
+fields P1 shot 29/51
+fields P1 shot 30/51
+fields P1 shot 31/51
+fields P1 shot 32/51
+fields P1 shot 33/51
+fields P1 shot 34/51
+fields P1 shot 35/51
+fields P1 shot 36/51
+fields P1 shot 37/51
+fields P1 shot 38/51
+fields P1 shot 39/51
+fields P1 shot 40/51
+fields P1 shot 41/51
+fields P1 shot 42/51
+fields P1 shot 43/51
+fields P1 shot 44/51
+fields P1 shot 45/51
+fields P1 shot 46/51
+fields P1 shot 47/51
+fields P1 shot 48/51
+fields P1 shot 49/51
+fields P1 shot 50/51
+fields P1 shot 51/51
+prep_data P1: signal rms (1.2-1.8 s, |o|<=600 m) 7.87e-10
+route C P1 C_m070: 175 s
+route C P1 C_m100: 171 s
+route C P1 C_m140: 168 s
+P1 f  3.0 Hz (1/105): 107 s
+P1 f  3.5 Hz (2/105): 109 s
+P1 f  4.0 Hz (3/105): 110 s
+P1 f  4.5 Hz (4/105): 112 s
+P1 f  5.0 Hz (5/105): 112 s
+P1 f  5.5 Hz (6/105): 112 s
+P1 f  6.0 Hz (7/105): 111 s
+P1 f  6.5 Hz (8/105): 108 s
+P1 f  7.0 Hz (9/105): 102 s
+P1 f  7.5 Hz (10/105): 109 s
+P1 f  8.0 Hz (11/105): 100 s
+P1 f  8.5 Hz (12/105): 100 s
+P1 f  9.0 Hz (13/105): 100 s
+P1 f  9.5 Hz (14/105): 98 s
+P1 f 10.0 Hz (15/105): 98 s
+P1 f 10.5 Hz (16/105): 98 s
+P1 f 11.0 Hz (17/105): 95 s
+P1 f 11.5 Hz (18/105): 95 s
+P1 f 12.0 Hz (19/105): 95 s
+P1 f 12.5 Hz (20/105): 104 s
+P1 f 13.0 Hz (21/105): 95 s
+P1 f 13.5 Hz (22/105): 96 s
+P1 f 14.0 Hz (23/105): 96 s
+P1 f 14.5 Hz (24/105): 96 s
+P1 f 15.0 Hz (25/105): 95 s
+P1 f 15.5 Hz (26/105): 96 s
+P1 f 16.0 Hz (27/105): 96 s
+P1 f 16.5 Hz (28/105): 97 s
+P1 f 17.0 Hz (29/105): 95 s
+P1 f 17.5 Hz (30/105): 104 s
+=== restart 2026-11-17 15:57:39 with 12 threads, from checkpoint j=30 ===
+P1 f 18.0 Hz (31/105): 78 s
+P1 f 18.5 Hz (32/105): 85 s
+P1 f 19.0 Hz (33/105): 75 s
+P1 f 19.5 Hz (34/105): 74 s
+P1 f 20.0 Hz (35/105): 74 s
+P1 f 20.5 Hz (36/105): 74 s
+P1 f 21.0 Hz (37/105): 74 s
+P1 f 21.5 Hz (38/105): 74 s
+P1 f 22.0 Hz (39/105): 71 s
+P1 f 22.5 Hz (40/105): 80 s
+P1 f 23.0 Hz (41/105): 71 s
+P1 f 23.5 Hz (42/105): 71 s
+P1 f 24.0 Hz (43/105): 72 s
+P1 f 24.5 Hz (44/105): 71 s
+P1 f 25.0 Hz (45/105): 71 s
+P1 f 25.5 Hz (46/105): 70 s
+P1 f 26.0 Hz (47/105): 70 s
+P1 f 26.5 Hz (48/105): 70 s
+P1 f 27.0 Hz (49/105): 69 s
+P1 f 27.5 Hz (50/105): 77 s
+P1 f 28.0 Hz (51/105): 71 s
+P1 f 28.5 Hz (52/105): 70 s
+P1 f 29.0 Hz (53/105): 71 s
+P1 f 29.5 Hz (54/105): 70 s
+P1 f 30.0 Hz (55/105): 69 s
+P1 f 30.5 Hz (56/105): 75 s
+P1 f 31.0 Hz (57/105): 77 s
+P1 f 31.5 Hz (58/105): 74 s
+P1 f 32.0 Hz (59/105): 70 s
+P1 f 32.5 Hz (60/105): 77 s
+P1 f 33.0 Hz (61/105): 69 s
+P1 f 33.5 Hz (62/105): 69 s
+P1 f 34.0 Hz (63/105): 70 s
+P1 f 34.5 Hz (64/105): 69 s
+P1 f 35.0 Hz (65/105): 68 s
+P1 f 35.5 Hz (66/105): 69 s
+P1 f 36.0 Hz (67/105): 69 s
+P1 f 36.5 Hz (68/105): 70 s
+P1 f 37.0 Hz (69/105): 69 s
+P1 f 37.5 Hz (70/105): 77 s
+P1 f 38.0 Hz (71/105): 70 s
+P1 f 38.5 Hz (72/105): 69 s
+P1 f 39.0 Hz (73/105): 70 s
+P1 f 39.5 Hz (74/105): 70 s
+P1 f 40.0 Hz (75/105): 69 s
+P1 f 40.5 Hz (76/105): 70 s
+P1 f 41.0 Hz (77/105): 70 s
+P1 f 41.5 Hz (78/105): 69 s
+P1 f 42.0 Hz (79/105): 69 s
+P1 f 42.5 Hz (80/105): 77 s
+P1 f 43.0 Hz (81/105): 70 s
+P1 f 43.5 Hz (82/105): 75 s
+P1 f 44.0 Hz (83/105): 69 s
+P1 f 44.5 Hz (84/105): 68 s
+P1 f 45.0 Hz (85/105): 69 s
+P1 f 45.5 Hz (86/105): 69 s
+P1 f 46.0 Hz (87/105): 69 s
+P1 f 46.5 Hz (88/105): 69 s
+P1 f 47.0 Hz (89/105): 69 s
+P1 f 47.5 Hz (90/105): 77 s
+P1 f 48.0 Hz (91/105): 71 s
+P1 f 48.5 Hz (92/105): 69 s
+P1 f 49.0 Hz (93/105): 69 s
+P1 f 49.5 Hz (94/105): 69 s
+P1 f 50.0 Hz (95/105): 70 s
+P1 f 50.5 Hz (96/105): 69 s
+P1 f 51.0 Hz (97/105): 69 s
+P1 f 51.5 Hz (98/105): 70 s
+P1 f 52.0 Hz (99/105): 69 s
+P1 f 52.5 Hz (100/105): 76 s
+P1 f 53.0 Hz (101/105): 69 s
+P1 f 53.5 Hz (102/105): 70 s
+P1 f 54.0 Hz (103/105): 69 s
+P1 f 54.5 Hz (104/105): 70 s
+P1 f 55.0 Hz (105/105): 78 s
