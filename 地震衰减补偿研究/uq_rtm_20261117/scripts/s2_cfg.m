@@ -3,6 +3,7 @@ function C=s2_cfg(name,vscale)
 if nargin<2,vscale=1;end
 C.name=name;C.vscale=vscale;
 if vscale==1,C.tag='';else,C.tag=sprintf('_v%03d',round(100*vscale));end
+if ~isempty(getenv('UQRTM_SMOKE')),C.tag=[C.tag '_smoke'];end
 mE1=[.5 .6 .7 .85 1 1.2 1.4 1.7 2];m5=[.5 .7 1 1.4 2];m3=[.7 1 1.4];
 if vscale==1
  % dataset -> rows {form, m list}

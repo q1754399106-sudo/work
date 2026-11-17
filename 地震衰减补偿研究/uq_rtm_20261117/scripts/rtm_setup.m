@@ -13,6 +13,7 @@ P.ixs=P.npml+1+(50:10:550);                                 % 51 shots, 40 m, x 
 P.fd=struct('dt',4e-4,'nt',5000,'t0',.06,'fpeak',25,'fref',100);
 P.dt=.004;P.nt=500;P.t=(1:P.nt)'*P.dt;                    % stored records: t = 4 ms ... 2.0 s
 P.f=3:.5:55;                                                % migration frequencies (df = 1/2 s)
+if ~isempty(getenv('UQRTM_SMOKE')),P.f=[10 25 40];end        % smoke test only (s2_cfg adds tag _smoke)
 P.smooth_m=30;                                              % migration velocity: Gaussian, sigma 30 m
 P.threads=12;
 % UQ operators (as qunknown_comp_20261109: lognormal sigma 0.447, gain limits in dB)

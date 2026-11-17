@@ -11,6 +11,7 @@ for n=names
   C=s2_cfg(name,v);
   if isfile(fullfile(P.cache,['images2_' name C.tag '.mat'])),continue;end
   est_noise2(C);migrate2(C);score_stage2(name,v);
+  if ~isempty(getenv('UQRTM_SMOKE')),return;end
  end
 end
 end
