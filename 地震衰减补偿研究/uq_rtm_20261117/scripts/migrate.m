@@ -5,9 +5,8 @@ function migrate(name)
 % V_s of every dataset; per-shot image contribution C_s = w^2 conj(U_s) V_s on the interior. Images
 %   I = sum_f sum_s Re[ H(x_hat(s,x), 1/snr(x,f), f) C_s(x,f) ],
 % x_hat = two-way t* of the compensation Q model (two_way.m) divided by the Q multiplier m.
-% 1/snr(x,f): image-domain, random polarity (round 2, PLAN_STAGE1B_ZH.md): the same dataset with every
-% trace multiplied by a fixed random sign is migrated too; with P = <I^2>, Pf = <I_flip^2> in a
-% P.snr_box square window (uncompensated, this frequency), 1/snr = Pf / (P - Pf).
+% 1/snr(x,f): image-domain, from est_noise.m (round 3, PLAN_STAGE1C_ZH.md): band-summed (+-5 Hz)
+% uncompensated and random-polarity images, 1/snr = <B_f^2> / (<B^2> - <B_f^2>) in a P.snr_box window.
 % Output cache/images_<name>.mat; resumable (running sums saved every 10 frequencies, cache/mig_<name>/state.mat).
 P=rtm_setup();maxNumCompThreads(P.threads);M=make_model(name,P);F=tstar_fields(M,P);
 D=load(fullfile(P.cache,['data_' name '.mat']));ns=numel(P.ixs);nz=P.nz;nx=P.nx;N=nz*nx;
@@ -21,7 +20,7 @@ W=wsrc(P);out=fullfile(P.cache,['mig_' name]);if ~isfolder(out),mkdir(out);end
 meth={'PH',0,NaN,0,NaN;'IQ20',0,1,0,20;'IQ30',0,1,0,30;'IQ40',0,1,0,40;'IQ50',0,1,0,50;'IQ70',0,1,0,70; ...
  'W0',0,0,1,70;'UQW0',P.sig,0,1,70;'UQW1',P.sig,1,1,70;'UQIQ',P.sig,1,0,70};
 full=P.mig_sets;                                            % datasets with operators, and their m
-rng(P.flip_seed,'twister');EPS=single(2*(rand(numel(P.ixr),ns)>.5)-1);
+INV=load(fullfile(P.cache,['inv_' name '.mat']));          % 1/snr(x,f) from est_noise.m (round 3)
 xmax=1.05*double(max(TS(:)))/min(P.m);xg=single(linspace(0,xmax,1201));dxg=double(xg(2));
 bw=round(P.snr_box/P.dx);
 cdata=fieldnames(D);cdata=cdata(startsWith(cdata,'C_'));
@@ -39,9 +38,7 @@ for j=jdone+1:numel(P.f)
   b=zeros(N,ns);b(irec,:)=Dd;V=-solveH(b)/P.dx^2;C=Us.*single(V(lin,:));clear V b
   img.(sets{d}).R0=real(sum(C,2));
   k=find(strcmp(full(:,1),sets{d}));if isempty(k),continue;end
-  b=zeros(N,ns);b(irec,:)=Dd.*EPS;V=-solveH(b)/P.dx^2;If=reshape(real(sum(Us.*single(V(lin,:)),2)),P.nzi,P.nxi);clear V b
-  I0=reshape(img.(sets{d}).R0,P.nzi,P.nxi);Pw=box(I0.^2,bw);Pf=box(If.^2,bw);
-  inv=Pf./max(Pw-Pf,realmin('single'));inv=single(min(inv(:),1/P.snr_min));
+  inv=INV.(sets{d})(:,j);                                   % round 3: band-summed estimate (est_noise.m)
   img.(sets{d}).inv_med=median(inv);
   T0=uq_tab(f,xg,0,P.fd.fref);T1=uq_tab(f,xg,P.sig,P.fd.fref);
   for mi=1:numel(full{k,2})

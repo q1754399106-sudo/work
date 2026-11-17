@@ -22,5 +22,6 @@ P.noise_db=[-12 -30 -40];                                   % trace-level noise 
 P.snr_box=400;                                              % image-domain SNR window (m), migrate
 P.routeC=struct('data','m30','m',[.7 1 1.4]);              % route C (data-domain UQ-W, gamma 0; round 2)
 P.mig_sets={'att',[.7 1 1.4];'m12',[.7 1 1.4];'m30',[.5 .6 .7 .85 1 1.2 1.4 1.7 2];'m40',[.5 .7 1 1.4 2]};
+P.snr_band=5;                                               % +-Hz band of the noise estimate (round 3)
 P.flip_seed=20261118;                                       % random-polarity noise estimate (round 2)
 end
