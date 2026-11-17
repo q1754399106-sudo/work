@@ -3,7 +3,9 @@ function migrate2(C)
 % For each dataset of C.sets and each (Q-error form, m) combination, images of C.methods; plus R0
 % of every dataset and of ref. Output cache/images2_<name><tag>.mat; resumable (state every 10 f).
 P=rtm_setup();maxNumCompThreads(P.threads);M=make_model(C.name,P);vmig=M.vmig*C.vscale;
-D=load(fullfile(P.cache,['data_' C.name '.mat']));INV=load(fullfile(P.cache,['inv_' C.name C.tag '.mat']));
+if ~isfield(C,'itag'),C.itag=C.tag;end
+if ~isfield(C,'fixed_methods'),C2=s2_cfg(C.name,C.vscale);C.methods=C2.methods;end   % addendum: methods read at start
+D=load(fullfile(P.cache,['data_' C.name '.mat']));INV=load(fullfile(P.cache,['inv_' C.name C.itag '.mat']));
 ns=numel(P.ixs);nz=P.nz;nx=P.nx;N=nz*nx;
 [Zi,Xi]=ndgrid(P.in{1},P.in{2});lin=sub2ind([nz nx],Zi(:),Xi(:));
 irec=sub2ind([nz nx],P.izs*ones(size(P.ixr)),P.ixr);isrc=sub2ind([nz nx],P.izs*ones(size(P.ixs)),P.ixs);
@@ -22,7 +24,7 @@ for d=1:size(C.sets,1)
 end
 for k=1:numel(keys)
  key=keys{k};form=key(1:2);mq=1;if strcmp(form,'E4'),mq=str2double(key(4:end))/100;end
- if strcmp(key,'E1'),tg=C.tag;else,tg=[C.tag '_' key];end
+ if strcmp(key,'E1'),tg=C.itag;else,tg=[C.itag '_' key];end
  F=tstar_fields(M,P,make_qc(M,P,form,mq),vmig,tg);T=zeros(numel(lin),ns,'single');
  for s=1:ns,[~,tt]=two_way(F,s,P);T(:,s)=tt(lin);end
  TS.(key)=T;clear F
@@ -57,7 +59,7 @@ for j=jdone+1:numel(P.f)
   for r=1:size(rows,1)
    u=TS.(rows{r,3})*rows{r,4}/dxg;i0=min(floor(u),numel(xg)-2);ww=u-single(i0);i0=i0+1;
    it=@(tb) tb(i0).*(1-ww)+tb(i0+1).*ww;
-   A0=it(single(T0.A));C0=it(single(T0.C));P0=it(single(T0.P));A1=it(single(T1.A));C1=it(single(T1.C));
+   A0=it(single(T0.A));C0=it(single(T0.C));P0=it(single(T0.P));A1=it(single(T1.A));C1=it(single(T1.C));P1=it(single(T1.P));
    for mm=C.methods
     switch mm{1}
      case 'PH',H=P0;
@@ -66,6 +68,8 @@ for j=jdone+1:numel(P.f)
      case 'LP',H=A0*Lf;
      case 'W0',H=A0./(1+s70*C0+iv);
      case 'UQW0',H=A1./(1+s70*C1+iv);
+     case 'W1',H=(A0+s70*P0.*C0+P0.*iv)./(1+s70*C0+iv);
+     case 'UQW1',H=(A1+s70*P1.*C1+P1.*iv)./(1+s70*C1+iv);
     end
     img.(d{1}).(mm{1})(:,r)=real(sum(H.*Cs,2));
    end

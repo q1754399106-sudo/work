@@ -13,7 +13,8 @@ if vscale==1
 else
  C.sets={'m30',{'E1',m3}};
 end
-C.methods={'PH','IQ30','IQ70','LP','W0','UQW0'};
+C.methods={'PH','IQ30','IQ70','LP','W0','UQW0','W1','UQW1'};   % W1, UQW1 (gamma 1): addendum PLAN_STAGE2_ADD1_ZH.md
+C.itag=C.tag;                                               % tag of the inv / fields files (C.tag by default)
 switch name
  case 'D1',body={[1450 1950],[980 1350]};
  case 'D2',body={[1050 1350],[850 1300]};
