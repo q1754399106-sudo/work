@@ -1,9 +1,9 @@
-function fd_shots(name,ks)
+function fd_shots(name,ks,nthreads)
 % Viscoacoustic (GSLS) and elastic (Q = Inf) shots of model name for shot indices ks; resumable.
 % Shot k: source at (P.izs, P.ixs(k)), receivers at (P.izs, P.ixr). Output cache/shots_<name>/sNNN.mat:
 % att, ela (P.nt x 300 single, t = (1:P.nt)*P.dt, low-passed below 100 Hz before decimation).
 % name 'T0' (homogeneous top layer): one shot at x = 8 m recorded at every interior column (direct wave).
-P=rtm_setup();maxNumCompThreads(P.threads);M=make_model(name,P);
+P=rtm_setup();if nargin<3,nthreads=P.threads;end;maxNumCompThreads(nthreads);M=make_model(name,P);
 out=fullfile(P.cache,['shots_' name]);if ~isfolder(out),mkdir(out);end
 q=ricker(P);opt=struct('dx',P.dx,'dt',P.fd.dt,'nt',P.fd.nt,'fref',P.fd.fref,'npml',P.npml);
 if strcmp(name,'T0'),ks=0;end

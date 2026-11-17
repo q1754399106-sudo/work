@@ -24,6 +24,17 @@ for L=P.noise_db
  tag=sprintf('n%02d',L);if L<0,tag=sprintf('m%02d',-L);end
  D.(tag)=dft(X,E);TD.(tag)=X;
 end
+if isfield(P,'gr')&&isfield(TD,P.gr.base)                  % stage 2: ground-roll-like coherent noise
+ G=zeros(P.nt,nr,ns,'single');
+ for k=1:ns
+  h=abs(P.x(P.ixr)-P.x(P.ixs(k)));amp=1./sqrt(max(h,25));
+  for v=P.gr.v
+   a=(pi*P.gr.f0*(P.t-(h/v+P.fd.t0))).^2;G(:,:,k)=G(:,:,k)+single((1-2*a).*exp(-a).*amp);
+  end
+ end
+ G=G/sqrt(mean(G(:).^2))*rms_s*10^(P.gr.db/20);X=TD.(P.gr.base)+G;
+ D.(P.gr.tag)=dft(X,E);TD.(P.gr.tag)=X;
+end
 save(fullfile(P.cache,['data_' name '.mat']),'-struct','D','-v7.3');
 save(fullfile(P.cache,['tdata_' name '.mat']),'-struct','TD','-v7.3');
 fprintf('prep_data %s: signal rms (1.2-1.8 s, |o|<=600 m) %.3g\n',name,rms_s);
