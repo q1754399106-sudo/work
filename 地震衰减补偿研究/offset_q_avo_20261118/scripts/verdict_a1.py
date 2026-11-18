@@ -2,8 +2,10 @@
 import json
 from pathlib import Path
 import numpy as np
-ROOT = Path(__file__).resolve().parents[1]; GM = ["M16", "M17", "M18", "M19"]
-R = [r for m in GM for r in json.loads((ROOT / "results" / ("a1_%s.json" % m)).read_text())]
+import sys
+ROOT = Path(__file__).resolve().parents[1]; TAG = sys.argv[1] if len(sys.argv) > 1 else "a1"
+GM = ["M16", "M17", "M18", "M19"] if TAG == "a1" else ["M20", "M21", "M22", "M23"]
+R = [r for m in GM for r in json.loads((ROOT / "results" / ("%s_%s.json" % (TAG, m))).read_text())]
 
 
 def lerr(rows):
@@ -43,5 +45,5 @@ for m in GM:
     d["by_model_" + m] = summ(lerr(sel(model=m)))
 d["nwin_median"] = float(np.median([r["nwin"] for r in sel()]))
 out["descriptive"] = d
-(ROOT / "results" / "a1_verdict.json").write_text(json.dumps(out, indent=1))
+(ROOT / "results" / ("%s_verdict.json" % TAG)).write_text(json.dumps(out, indent=1))
 print(json.dumps({k: out[k] for k in out if k not in ("cells", "descriptive")}, indent=1))

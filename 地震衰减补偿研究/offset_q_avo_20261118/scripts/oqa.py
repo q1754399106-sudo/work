@@ -14,7 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]; N = C.nt; DT = C.dt; T = C.t; OFF = 
 WIN = [(a, a + 0.25) for a in np.arange(0.35, 0.96, 0.1)]; BAND = (12.0, 90.0); NF = 1024; f = np.fft.rfftfreq(NF, DT)
 B = (f >= BAND[0]) & (f <= BAND[1]); MUTE = 1.3; FT = np.fft.rfftfreq(2 * N, DT)
 vint = np.interp(T, np.r_[0, np.cumsum(2 * C.h / C.vp[:3])], C.vp[:4]); vrms = np.sqrt(np.cumsum(vint ** 2) / np.arange(1, N + 1))
-MODELS = {"M1": [40, 50, 70, 100], "M16": [45, 60, 35, 80], "M17": [90, 35, 55, 45], "M18": [32, 50, 90, 60], "M19": [65, 85, 30, 40]}
+MODELS = {"M1": [40, 50, 70, 100], "M16": [45, 60, 35, 80], "M17": [90, 35, 55, 45], "M18": [32, 50, 90, 60], "M19": [65, 85, 30, 40],
+          "M20": [50, 30, 75, 60], "M21": [38, 95, 45, 70], "M22": [80, 55, 40, 30], "M23": [60, 40, 110, 50]}
 CS = (0.7, 1.0, 1.4); FPS = (40.0, 60.0); SEEDS = range(8); GROUPS = (10, 50, 200)
 CASES = [("avo", 24, 1.0), ("avo", 30, 1.0), ("avo", 18, 1.0), ("flat", 24, 1.0), ("avo", 24, 1.02), ("avo", 24, 0.98)]
 
@@ -49,9 +50,24 @@ def gathers(A, Bg, Q, c, fp, P):
     return out
 
 
+# Estimator options. Gate A1 (f8bb252) used EQLEN = False, SMOOTH = 9. EQLEN: the far-offset window has the zero-offset
+# window's length, centred at the moveout time of the window centre (the moveout-compressed window is shorter, its wider
+# spectral smoothing flattened the far-offset decay: the +0.08 bias of the 40 Hz wavelet, DIAG_A1_ZH.md).
+EQLEN = False; SMOOTH = 9
+# XWIN: predicted x = pi [<a0 + ax>_far window - <a0>_near window], each a Hann^2-weighted mean over the t0 samples that the
+# window actually covers (far window samples mapped to t0 through the moveout). False: pi <ax>_[a, b] (gate A1).
+XWIN = False
+
+
+def far_mean(a_tot, i, ta, tb, vp):
+    """Hann^2-weighted mean of a_tot(t0) over the far-offset window [ta, tb] (recorded time), mapped through the moveout."""
+    k = (T >= ta) & (T < tb); w = np.hanning(k.sum()) ** 2; tx = np.sqrt(T ** 2 + (OFF[i] / vp) ** 2)
+    t0 = np.interp(T[k], tx, T); return float(w @ np.interp(t0, T, a_tot) / w.sum())
+
+
 def power(y, a, b):
-    k = (T >= a) & (T < b); h = np.hanning(k.sum())
-    return np.convolve(np.mean(np.abs(np.fft.rfft(y[k] * h[:, None], NF, axis=0)) ** 2, axis=1), np.ones(9) / 9, mode="same"), np.sum(h ** 2)
+    k = (T >= a) & (T < b); h = np.hanning(k.sum()); P = np.mean(np.abs(np.fft.rfft(y[k] * h[:, None], NF, axis=0)) ** 2, axis=1)
+    return (np.convolve(P, np.ones(SMOOTH) / SMOOTH, mode="same") if SMOOTH > 1 else P), np.sum(h ** 2)
 
 
 def wmean(v, a, b):
@@ -66,16 +82,18 @@ def c_off(G, sig, a0p, axp, vp):
             ta, tm, tb = np.sqrt(np.array([a, tc, b]) ** 2 + (OFF[i] / np.interp([a, tc, b], T, vp)) ** 2)
             if tb > T[-1] - 0.1 or tm / tc > MUTE:
                 continue
+            if EQLEN:
+                ta, tb = tm - (b - a) / 2, tm + (b - a) / 2
             Rx, ex = power(G[i], ta, tb); nx = sig[i] ** 2 * ex; Px = np.maximum(Rx - nx, 1e-12 * Rx.max())
             ok = B & (R0 > 3 * n0) & (Rx > 3 * nx); ok &= f < (f[B][np.argmin(ok[B])] if not ok[B].all() else 1e9)
             if ok.sum() < 12:
                 continue
-            xs.append(np.pi * wmean(axp[:, i], a, b)); ys.append(-np.polyfit(f[ok], 0.5 * np.log(Px[ok] / P0[ok]), 1)[0])
+            xs.append(np.pi * (far_mean(a0p + axp[:, i], i, ta, tb, vp) - wmean(a0p, a, b)) if XWIN else np.pi * wmean(axp[:, i], a, b)); ys.append(-np.polyfit(f[ok], 0.5 * np.log(Px[ok] / P0[ok]), 1)[0])
     xs, ys = np.array(xs), np.array(ys)
     return (float(np.sum(xs ** 2) / np.sum(xs * ys)) if len(xs) and np.sum(xs * ys) > 0 else float("nan")), len(xs)
 
 
-def run(model, dev=False):
+def run(model, dev=False, tag="a1", seed_base=31_000_000):
     Q = np.array(MODELS[model], float); a0m, axm, P = rays(Q); rows = []; t0 = time.monotonic(); mi = list(MODELS).index(model)
     proc = {s: rays(Q, s)[:2] for s in (1.0, 1.02, 0.98)}
     seeds = range(2) if dev else SEEDS; cs = (1.0,) if dev else CS
@@ -83,7 +101,7 @@ def run(model, dev=False):
         for c in cs:
             for seed in seeds:
                 for avo in ("avo", "flat"):
-                    rng = np.random.default_rng(31_000_000 + mi * 100_000 + int(fp) * 1000 + int(c * 10) * 10 + seed)
+                    rng = np.random.default_rng(seed_base + mi * 100_000 + int(fp) * 1000 + int(c * 10) * 10 + seed)
                     A, Bg = reflectivity(rng, avo == "avo"); G0 = gathers(A, Bg, Q, c, fp, P); rms = np.array([np.sqrt(np.mean(g ** 2)) for g in G0])
                     for kind, snr, vs in CASES:
                         if kind != avo:
@@ -95,7 +113,7 @@ def run(model, dev=False):
                                 cols = slice(k * n, (k + 1) * n); ce, nw = c_off([g[:, cols] for g in G], sig, a0p, axp, vrms * vs)
                                 rows.append(dict(model=model, fp=fp, c=c, seed=seed, kind=kind, snr=snr, v=vs, n=n, group=k, c_hat=ce, nwin=nw))
                 print(model, fp, c, seed, "%.0fs" % (time.monotonic() - t0), flush=True)
-    (ROOT / "results" / ("dev_%s.json" % model if dev else "a1_%s.json" % model)).write_text(json.dumps(rows))
+    (ROOT / "results" / ("dev_%s.json" % model if dev else "%s_%s.json" % (tag, model))).write_text(json.dumps(rows))
 
 
 def smoke():
@@ -107,5 +125,7 @@ def smoke():
 if __name__ == "__main__":
     if sys.argv[1] == "smoke":
         smoke()
+    elif sys.argv[1] == "run_a1b":  # PLAN_GATE_A1B_ZH.md: frozen estimator EQLEN + no smoothing, new models, new seeds
+        EQLEN, SMOOTH, XWIN = True, 1, False; run(sys.argv[2], tag="a1b", seed_base=41_000_000)
     else:
         run(sys.argv[2], dev=len(sys.argv) > 3)
