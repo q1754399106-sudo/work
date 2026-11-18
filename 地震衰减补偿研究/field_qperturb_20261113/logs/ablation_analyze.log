@@ -1,0 +1,12 @@
+checks: tie.json max |diff| 0.00e+00, VDB rebuild tie max |diff| 0.00e+00
+VERDICT: 静态为主（解释 B） | base -0.057 [-0.102, -0.012]  r_TI 1.16  r_TId 1.31  r_TV 0.96
+reference ricker
+  mid  UQW -0.057(2)  UQW_TI +0.009(5)  UQW_TId +0.018(8)  UQW_TV -0.002(1)  PH -0.269(0)  PH_TI -0.022(4)  IQ70 -0.049(2)
+  low  UQW -0.019(2)  UQW_TI +0.023(7)  UQW_TId +0.024(7)  UQW_TV +0.007(5)  PH -0.238(0)  PH_TI -0.028(4)  IQ70 -0.050(1)
+  high UQW -0.135(1)  UQW_TI +0.007(6)  UQW_TId +0.020(8)  UQW_TV -0.001(3)  PH -0.264(0)  PH_TI -0.018(5)  IQ70 -0.112(1)
+  all  UQW -0.071(0)  UQW_TI +0.013(6)  UQW_TId +0.021(8)  UQW_TV +0.001(4)  PH -0.257(0)  PH_TI -0.023(4)  IQ70 -0.070(0)
+reference wout
+  mid  UQW -0.058(1)  UQW_TI +0.005(5)  UQW_TId +0.014(7)  UQW_TV -0.002(3)  PH -0.246(0)  PH_TI -0.029(3)  IQ70 -0.046(1)
+  low  UQW -0.016(3)  UQW_TI +0.015(7)  UQW_TId +0.017(7)  UQW_TV +0.003(6)  PH -0.216(0)  PH_TI -0.034(2)  IQ70 -0.033(1)
+  high UQW -0.137(0)  UQW_TI -0.003(5)  UQW_TId +0.013(7)  UQW_TV -0.000(4)  PH -0.248(0)  PH_TI -0.031(3)  IQ70 -0.114(1)
+  all  UQW -0.070(0)  UQW_TI +0.006(5)  UQW_TId +0.015(7)  UQW_TV +0.000(4)  PH -0.237(0)  PH_TI -0.031(3)  IQ70 -0.064(0)
