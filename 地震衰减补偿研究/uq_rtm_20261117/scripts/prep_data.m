@@ -35,6 +35,13 @@ if isfield(P,'gr')&&isfield(TD,P.gr.base)                  % stage 2: ground-rol
  G=G/sqrt(mean(G(:).^2))*rms_s*10^(P.gr.db/20);X=TD.(P.gr.base)+G;
  D.(P.gr.tag)=dft(X,E);TD.(P.gr.tag)=X;
 end
+if isfield(P,'lc')&&strncmp(name,'C',1)                   % stage 3: laterally correlated random noise
+ rng(P.lc.seed,'twister');n=randn(P.nt,nr*ns);n=real(ifft(fft(n).*band));n=reshape(n,P.nt,nr,ns);
+ h=exp(-.5*((-3*P.lc.sigma_tr:3*P.lc.sigma_tr)/P.lc.sigma_tr).^2);h=h/sum(h);
+ for k=1:ns,n(:,:,k)=conv2(1,h,n(:,:,k),'same');end           % correlation across receivers (8 m spacing)
+ n=single(n/sqrt(mean(n(:).^2))*rms_s/10^(P.lc.db/20));X=ATT+n;
+ D.(P.lc.tag)=dft(X,E);TD.(P.lc.tag)=X;
+end
 save(fullfile(P.cache,['data_' name '.mat']),'-struct','D','-v7.3');
 save(fullfile(P.cache,['tdata_' name '.mat']),'-struct','TD','-v7.3');
 fprintf('prep_data %s: signal rms (1.2-1.8 s, |o|<=600 m) %.3g\n',name,rms_s);

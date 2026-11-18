@@ -24,6 +24,7 @@ P.snr_box=400;                                              % image-domain SNR w
 P.routeC=struct('data','m30','m',[.7 1 1.4]);              % route C (data-domain UQ-W, gamma 0; round 2)
 P.mig_sets={'att',[.7 1 1.4];'m12',[.7 1 1.4];'m30',[.5 .6 .7 .85 1 1.2 1.4 1.7 2];'m40',[.5 .7 1 1.4 2]};
 P.gr=struct('base','m30','tag','g30','v',[700 900],'f0',10,'db',20);  % stage 2 coherent noise (prep_data)
+P.lc=struct('tag','l30','db',-30,'sigma_tr',5,'seed',20261119);   % stage 3: laterally correlated noise
 P.snr_band=5;                                              % +-Hz band of the noise estimate (round 3)
 P.flip_seed=20261118;                                       % random-polarity noise estimate (round 2)
 end
