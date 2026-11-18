@@ -3,6 +3,7 @@
 2026-10-19 至 2026-10-26 全部实验都在本文件夹。课题：把被地层吸收衰减的地震道集恢复成无吸收的弹性响应。
 
 - 想看结论：[最终报告](final_report_20261025/REPORT_ZH.md) 和 [勘误](final_report_20261025/ERRATA_ZH.md)。
+- 给其他 AI 审核：[审核对接文档（截至 11-18）](REVIEW_HANDOFF_20261118_ZH.md)，整理了研究规范、结论层级、四条在研路线和具体审核问题。
 - 想直接用方法：见下面「怎么选方法」。本研究方法的一行调用入口在 [compensation_package_20261024](compensation_package_20261024/README_ZH.md)（不含 SC）；SC 和 QScan＋SC 的实现在 [novelty_evidence_20261025](novelty_evidence_20261025/) 和 [qscan_sc_20261026](qscan_sc_20261026/RESULTS_ZH.md)。
 - 每个目录的标签同时存在 [目录标签.csv](目录标签.csv) 里，可以用表格软件筛选。
 - 想看地下模型：[MATLAB 在线模型图册（手机可看）](model_visualization_20261026/README.md)，覆盖 29 个主要模型配置，提供 PNG / PDF / 可编辑 FIG。
