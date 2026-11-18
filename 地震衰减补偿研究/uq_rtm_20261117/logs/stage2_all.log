@@ -283,3 +283,488 @@ mig2 D1 f 55.0 Hz (105/105): 56 s
 prep_data D2: signal rms (1.2-1.8 s, |o|<=600 m) 1.04e-09
 est D2 f  3.0 Hz (1/105): 26 s
 est D2 f  3.5 Hz (2/105): 27 s
+est D2 f  4.0 Hz (3/105): 28 s
+est D2 f  4.5 Hz (4/105): 26 s
+est D2 f  5.0 Hz (5/105): 25 s
+est D2 f  5.5 Hz (6/105): 25 s
+est D2 f  6.0 Hz (7/105): 25 s
+est D2 f  6.5 Hz (8/105): 25 s
+est D2 f  7.0 Hz (9/105): 25 s
+est D2 f  7.5 Hz (10/105): 25 s
+est D2 f  8.0 Hz (11/105): 25 s
+est D2 f  8.5 Hz (12/105): 25 s
+est D2 f  9.0 Hz (13/105): 24 s
+est D2 f  9.5 Hz (14/105): 25 s
+est D2 f 10.0 Hz (15/105): 26 s
+est D2 f 10.5 Hz (16/105): 25 s
+est D2 f 11.0 Hz (17/105): 24 s
+est D2 f 11.5 Hz (18/105): 26 s
+est D2 f 12.0 Hz (19/105): 26 s
+est D2 f 12.5 Hz (20/105): 25 s
+est D2 f 13.0 Hz (21/105): 25 s
+est D2 f 13.5 Hz (22/105): 25 s
+est D2 f 14.0 Hz (23/105): 25 s
+est D2 f 14.5 Hz (24/105): 26 s
+est D2 f 15.0 Hz (25/105): 26 s
+est D2 f 15.5 Hz (26/105): 25 s
+est D2 f 16.0 Hz (27/105): 26 s
+est D2 f 16.5 Hz (28/105): 25 s
+est D2 f 17.0 Hz (29/105): 26 s
+est D2 f 17.5 Hz (30/105): 25 s
+est D2 f 18.0 Hz (31/105): 25 s
+est D2 f 18.5 Hz (32/105): 25 s
+est D2 f 19.0 Hz (33/105): 26 s
+est D2 f 19.5 Hz (34/105): 25 s
+est D2 f 20.0 Hz (35/105): 25 s
+est D2 f 20.5 Hz (36/105): 25 s
+est D2 f 21.0 Hz (37/105): 25 s
+est D2 f 21.5 Hz (38/105): 26 s
+est D2 f 22.0 Hz (39/105): 26 s
+est D2 f 22.5 Hz (40/105): 26 s
+est D2 f 23.0 Hz (41/105): 25 s
+est D2 f 23.5 Hz (42/105): 24 s
+est D2 f 24.0 Hz (43/105): 25 s
+est D2 f 24.5 Hz (44/105): 25 s
+est D2 f 25.0 Hz (45/105): 25 s
+est D2 f 25.5 Hz (46/105): 24 s
+est D2 f 26.0 Hz (47/105): 26 s
+est D2 f 26.5 Hz (48/105): 25 s
+est D2 f 27.0 Hz (49/105): 25 s
+est D2 f 27.5 Hz (50/105): 25 s
+est D2 f 28.0 Hz (51/105): 26 s
+est D2 f 28.5 Hz (52/105): 25 s
+est D2 f 29.0 Hz (53/105): 25 s
+est D2 f 29.5 Hz (54/105): 24 s
+est D2 f 30.0 Hz (55/105): 25 s
+est D2 f 30.5 Hz (56/105): 24 s
+est D2 f 31.0 Hz (57/105): 25 s
+est D2 f 31.5 Hz (58/105): 25 s
+est D2 f 32.0 Hz (59/105): 25 s
+est D2 f 32.5 Hz (60/105): 25 s
+est D2 f 33.0 Hz (61/105): 25 s
+est D2 f 33.5 Hz (62/105): 25 s
+est D2 f 34.0 Hz (63/105): 25 s
+est D2 f 34.5 Hz (64/105): 25 s
+est D2 f 35.0 Hz (65/105): 25 s
+est D2 f 35.5 Hz (66/105): 25 s
+est D2 f 36.0 Hz (67/105): 25 s
+est D2 f 36.5 Hz (68/105): 25 s
+est D2 f 37.0 Hz (69/105): 25 s
+est D2 f 37.5 Hz (70/105): 26 s
+est D2 f 38.0 Hz (71/105): 25 s
+est D2 f 38.5 Hz (72/105): 25 s
+est D2 f 39.0 Hz (73/105): 25 s
+est D2 f 39.5 Hz (74/105): 26 s
+est D2 f 40.0 Hz (75/105): 25 s
+est D2 f 40.5 Hz (76/105): 26 s
+est D2 f 41.0 Hz (77/105): 25 s
+est D2 f 41.5 Hz (78/105): 24 s
+est D2 f 42.0 Hz (79/105): 25 s
+est D2 f 42.5 Hz (80/105): 25 s
+est D2 f 43.0 Hz (81/105): 27 s
+est D2 f 43.5 Hz (82/105): 25 s
+est D2 f 44.0 Hz (83/105): 25 s
+est D2 f 44.5 Hz (84/105): 25 s
+est D2 f 45.0 Hz (85/105): 25 s
+est D2 f 45.5 Hz (86/105): 25 s
+est D2 f 46.0 Hz (87/105): 25 s
+est D2 f 46.5 Hz (88/105): 25 s
+est D2 f 47.0 Hz (89/105): 26 s
+est D2 f 47.5 Hz (90/105): 26 s
+est D2 f 48.0 Hz (91/105): 25 s
+est D2 f 48.5 Hz (92/105): 25 s
+est D2 f 49.0 Hz (93/105): 25 s
+est D2 f 49.5 Hz (94/105): 25 s
+est D2 f 50.0 Hz (95/105): 25 s
+est D2 f 50.5 Hz (96/105): 25 s
+est D2 f 51.0 Hz (97/105): 25 s
+est D2 f 51.5 Hz (98/105): 25 s
+est D2 f 52.0 Hz (99/105): 25 s
+est D2 f 52.5 Hz (100/105): 25 s
+est D2 f 53.0 Hz (101/105): 25 s
+est D2 f 53.5 Hz (102/105): 25 s
+est D2 f 54.0 Hz (103/105): 24 s
+est D2 f 54.5 Hz (104/105): 25 s
+est D2 f 55.0 Hz (105/105): 25 s
+inv D2 m30: median 1/snr at 10/25/40 Hz: 0.137 0.304 1.11
+inv D2 m40: median 1/snr at 10/25/40 Hz: 0.813 1.36 3.8
+inv D2 g30: median 1/snr at 10/25/40 Hz: 0.161 0.305 1.11
+fields D2 shot 10/51
+fields D2 shot 20/51
+fields D2 shot 30/51
+fields D2 shot 40/51
+fields D2 shot 50/51
+fields D2_E2 shot 10/51
+fields D2_E2 shot 20/51
+fields D2_E2 shot 30/51
+fields D2_E2 shot 40/51
+fields D2_E2 shot 50/51
+fields D2_E3 shot 10/51
+fields D2_E3 shot 20/51
+fields D2_E3 shot 30/51
+fields D2_E3 shot 40/51
+fields D2_E3 shot 50/51
+fields D2_E4_070 shot 10/51
+fields D2_E4_070 shot 20/51
+fields D2_E4_070 shot 30/51
+fields D2_E4_070 shot 40/51
+fields D2_E4_070 shot 50/51
+fields D2_E4_140 shot 10/51
+fields D2_E4_140 shot 20/51
+fields D2_E4_140 shot 30/51
+fields D2_E4_140 shot 40/51
+fields D2_E4_140 shot 50/51
+LP cut-off D2 m30: 36.5 Hz
+LP cut-off D2 m40: 10.0 Hz
+LP cut-off D2 g30: 36.5 Hz
+mig2 D2 f  3.0 Hz (1/105): 49 s
+mig2 D2 f  3.5 Hz (2/105): 49 s
+mig2 D2 f  4.0 Hz (3/105): 49 s
+mig2 D2 f  4.5 Hz (4/105): 49 s
+mig2 D2 f  5.0 Hz (5/105): 49 s
+mig2 D2 f  5.5 Hz (6/105): 49 s
+mig2 D2 f  6.0 Hz (7/105): 49 s
+mig2 D2 f  6.5 Hz (8/105): 49 s
+mig2 D2 f  7.0 Hz (9/105): 50 s
+mig2 D2 f  7.5 Hz (10/105): 55 s
+mig2 D2 f  8.0 Hz (11/105): 49 s
+mig2 D2 f  8.5 Hz (12/105): 49 s
+mig2 D2 f  9.0 Hz (13/105): 49 s
+mig2 D2 f  9.5 Hz (14/105): 49 s
+mig2 D2 f 10.0 Hz (15/105): 49 s
+mig2 D2 f 10.5 Hz (16/105): 48 s
+mig2 D2 f 11.0 Hz (17/105): 49 s
+mig2 D2 f 11.5 Hz (18/105): 50 s
+mig2 D2 f 12.0 Hz (19/105): 49 s
+mig2 D2 f 12.5 Hz (20/105): 55 s
+mig2 D2 f 13.0 Hz (21/105): 49 s
+mig2 D2 f 13.5 Hz (22/105): 49 s
+mig2 D2 f 14.0 Hz (23/105): 49 s
+mig2 D2 f 14.5 Hz (24/105): 49 s
+mig2 D2 f 15.0 Hz (25/105): 49 s
+mig2 D2 f 15.5 Hz (26/105): 48 s
+mig2 D2 f 16.0 Hz (27/105): 48 s
+mig2 D2 f 16.5 Hz (28/105): 49 s
+mig2 D2 f 17.0 Hz (29/105): 49 s
+mig2 D2 f 17.5 Hz (30/105): 54 s
+mig2 D2 f 18.0 Hz (31/105): 49 s
+mig2 D2 f 18.5 Hz (32/105): 49 s
+mig2 D2 f 19.0 Hz (33/105): 49 s
+mig2 D2 f 19.5 Hz (34/105): 49 s
+mig2 D2 f 20.0 Hz (35/105): 49 s
+mig2 D2 f 20.5 Hz (36/105): 49 s
+mig2 D2 f 21.0 Hz (37/105): 49 s
+mig2 D2 f 21.5 Hz (38/105): 49 s
+mig2 D2 f 22.0 Hz (39/105): 49 s
+mig2 D2 f 22.5 Hz (40/105): 55 s
+mig2 D2 f 23.0 Hz (41/105): 49 s
+mig2 D2 f 23.5 Hz (42/105): 49 s
+mig2 D2 f 24.0 Hz (43/105): 49 s
+mig2 D2 f 24.5 Hz (44/105): 49 s
+mig2 D2 f 25.0 Hz (45/105): 49 s
+mig2 D2 f 25.5 Hz (46/105): 49 s
+mig2 D2 f 26.0 Hz (47/105): 50 s
+mig2 D2 f 26.5 Hz (48/105): 49 s
+mig2 D2 f 27.0 Hz (49/105): 49 s
+mig2 D2 f 27.5 Hz (50/105): 55 s
+mig2 D2 f 28.0 Hz (51/105): 49 s
+mig2 D2 f 28.5 Hz (52/105): 49 s
+mig2 D2 f 29.0 Hz (53/105): 49 s
+mig2 D2 f 29.5 Hz (54/105): 50 s
+mig2 D2 f 30.0 Hz (55/105): 49 s
+mig2 D2 f 30.5 Hz (56/105): 49 s
+mig2 D2 f 31.0 Hz (57/105): 49 s
+mig2 D2 f 31.5 Hz (58/105): 49 s
+mig2 D2 f 32.0 Hz (59/105): 50 s
+mig2 D2 f 32.5 Hz (60/105): 55 s
+mig2 D2 f 33.0 Hz (61/105): 49 s
+mig2 D2 f 33.5 Hz (62/105): 49 s
+mig2 D2 f 34.0 Hz (63/105): 51 s
+mig2 D2 f 34.5 Hz (64/105): 49 s
+mig2 D2 f 35.0 Hz (65/105): 50 s
+mig2 D2 f 35.5 Hz (66/105): 50 s
+mig2 D2 f 36.0 Hz (67/105): 50 s
+mig2 D2 f 36.5 Hz (68/105): 49 s
+mig2 D2 f 37.0 Hz (69/105): 50 s
+mig2 D2 f 37.5 Hz (70/105): 55 s
+mig2 D2 f 38.0 Hz (71/105): 50 s
+mig2 D2 f 38.5 Hz (72/105): 49 s
+mig2 D2 f 39.0 Hz (73/105): 50 s
+mig2 D2 f 39.5 Hz (74/105): 50 s
+mig2 D2 f 40.0 Hz (75/105): 50 s
+mig2 D2 f 40.5 Hz (76/105): 50 s
+mig2 D2 f 41.0 Hz (77/105): 50 s
+mig2 D2 f 41.5 Hz (78/105): 50 s
+mig2 D2 f 42.0 Hz (79/105): 50 s
+mig2 D2 f 42.5 Hz (80/105): 56 s
+mig2 D2 f 43.0 Hz (81/105): 50 s
+mig2 D2 f 43.5 Hz (82/105): 50 s
+mig2 D2 f 44.0 Hz (83/105): 50 s
+mig2 D2 f 44.5 Hz (84/105): 50 s
+mig2 D2 f 45.0 Hz (85/105): 49 s
+mig2 D2 f 45.5 Hz (86/105): 50 s
+mig2 D2 f 46.0 Hz (87/105): 50 s
+mig2 D2 f 46.5 Hz (88/105): 50 s
+mig2 D2 f 47.0 Hz (89/105): 50 s
+mig2 D2 f 47.5 Hz (90/105): 55 s
+mig2 D2 f 48.0 Hz (91/105): 50 s
+mig2 D2 f 48.5 Hz (92/105): 50 s
+mig2 D2 f 49.0 Hz (93/105): 50 s
+mig2 D2 f 49.5 Hz (94/105): 50 s
+mig2 D2 f 50.0 Hz (95/105): 50 s
+mig2 D2 f 50.5 Hz (96/105): 50 s
+mig2 D2 f 51.0 Hz (97/105): 50 s
+mig2 D2 f 51.5 Hz (98/105): 50 s
+mig2 D2 f 52.0 Hz (99/105): 50 s
+mig2 D2 f 52.5 Hz (100/105): 56 s
+mig2 D2 f 53.0 Hz (101/105): 50 s
+mig2 D2 f 53.5 Hz (102/105): 51 s
+mig2 D2 f 54.0 Hz (103/105): 50 s
+mig2 D2 f 54.5 Hz (104/105): 50 s
+mig2 D2 f 55.0 Hz (105/105): 55 s
+prep_data D3: signal rms (1.2-1.8 s, |o|<=600 m) 1.33e-09
+est D3 f  3.0 Hz (1/105): 27 s
+est D3 f  3.5 Hz (2/105): 26 s
+est D3 f  4.0 Hz (3/105): 27 s
+est D3 f  4.5 Hz (4/105): 28 s
+est D3 f  5.0 Hz (5/105): 29 s
+est D3 f  5.5 Hz (6/105): 28 s
+est D3 f  6.0 Hz (7/105): 27 s
+est D3 f  6.5 Hz (8/105): 25 s
+est D3 f  7.0 Hz (9/105): 25 s
+est D3 f  7.5 Hz (10/105): 25 s
+est D3 f  8.0 Hz (11/105): 25 s
+est D3 f  8.5 Hz (12/105): 25 s
+est D3 f  9.0 Hz (13/105): 25 s
+est D3 f  9.5 Hz (14/105): 25 s
+est D3 f 10.0 Hz (15/105): 25 s
+est D3 f 10.5 Hz (16/105): 25 s
+est D3 f 11.0 Hz (17/105): 25 s
+est D3 f 11.5 Hz (18/105): 25 s
+est D3 f 12.0 Hz (19/105): 25 s
+est D3 f 12.5 Hz (20/105): 25 s
+est D3 f 13.0 Hz (21/105): 24 s
+est D3 f 13.5 Hz (22/105): 25 s
+est D3 f 14.0 Hz (23/105): 25 s
+est D3 f 14.5 Hz (24/105): 25 s
+est D3 f 15.0 Hz (25/105): 27 s
+est D3 f 15.5 Hz (26/105): 25 s
+est D3 f 16.0 Hz (27/105): 26 s
+est D3 f 16.5 Hz (28/105): 25 s
+est D3 f 17.0 Hz (29/105): 26 s
+est D3 f 17.5 Hz (30/105): 25 s
+est D3 f 18.0 Hz (31/105): 25 s
+est D3 f 18.5 Hz (32/105): 25 s
+est D3 f 19.0 Hz (33/105): 25 s
+est D3 f 19.5 Hz (34/105): 25 s
+est D3 f 20.0 Hz (35/105): 25 s
+est D3 f 20.5 Hz (36/105): 25 s
+est D3 f 21.0 Hz (37/105): 25 s
+est D3 f 21.5 Hz (38/105): 25 s
+est D3 f 22.0 Hz (39/105): 25 s
+est D3 f 22.5 Hz (40/105): 26 s
+est D3 f 23.0 Hz (41/105): 25 s
+est D3 f 23.5 Hz (42/105): 25 s
+est D3 f 24.0 Hz (43/105): 25 s
+est D3 f 24.5 Hz (44/105): 26 s
+est D3 f 25.0 Hz (45/105): 24 s
+est D3 f 25.5 Hz (46/105): 24 s
+est D3 f 26.0 Hz (47/105): 25 s
+est D3 f 26.5 Hz (48/105): 26 s
+est D3 f 27.0 Hz (49/105): 25 s
+est D3 f 27.5 Hz (50/105): 25 s
+est D3 f 28.0 Hz (51/105): 25 s
+est D3 f 28.5 Hz (52/105): 25 s
+est D3 f 29.0 Hz (53/105): 25 s
+est D3 f 29.5 Hz (54/105): 25 s
+est D3 f 30.0 Hz (55/105): 25 s
+est D3 f 30.5 Hz (56/105): 25 s
+est D3 f 31.0 Hz (57/105): 25 s
+est D3 f 31.5 Hz (58/105): 25 s
+est D3 f 32.0 Hz (59/105): 25 s
+est D3 f 32.5 Hz (60/105): 25 s
+est D3 f 33.0 Hz (61/105): 25 s
+est D3 f 33.5 Hz (62/105): 26 s
+est D3 f 34.0 Hz (63/105): 25 s
+est D3 f 34.5 Hz (64/105): 25 s
+est D3 f 35.0 Hz (65/105): 26 s
+est D3 f 35.5 Hz (66/105): 25 s
+est D3 f 36.0 Hz (67/105): 24 s
+est D3 f 36.5 Hz (68/105): 25 s
+est D3 f 37.0 Hz (69/105): 25 s
+est D3 f 37.5 Hz (70/105): 24 s
+est D3 f 38.0 Hz (71/105): 24 s
+est D3 f 38.5 Hz (72/105): 24 s
+est D3 f 39.0 Hz (73/105): 25 s
+est D3 f 39.5 Hz (74/105): 26 s
+est D3 f 40.0 Hz (75/105): 25 s
+est D3 f 40.5 Hz (76/105): 25 s
+est D3 f 41.0 Hz (77/105): 25 s
+est D3 f 41.5 Hz (78/105): 26 s
+est D3 f 42.0 Hz (79/105): 25 s
+est D3 f 42.5 Hz (80/105): 25 s
+est D3 f 43.0 Hz (81/105): 25 s
+est D3 f 43.5 Hz (82/105): 25 s
+est D3 f 44.0 Hz (83/105): 25 s
+est D3 f 44.5 Hz (84/105): 25 s
+est D3 f 45.0 Hz (85/105): 25 s
+est D3 f 45.5 Hz (86/105): 25 s
+est D3 f 46.0 Hz (87/105): 26 s
+est D3 f 46.5 Hz (88/105): 26 s
+est D3 f 47.0 Hz (89/105): 25 s
+est D3 f 47.5 Hz (90/105): 25 s
+est D3 f 48.0 Hz (91/105): 26 s
+est D3 f 48.5 Hz (92/105): 25 s
+est D3 f 49.0 Hz (93/105): 25 s
+est D3 f 49.5 Hz (94/105): 25 s
+est D3 f 50.0 Hz (95/105): 25 s
+est D3 f 50.5 Hz (96/105): 25 s
+est D3 f 51.0 Hz (97/105): 25 s
+est D3 f 51.5 Hz (98/105): 25 s
+est D3 f 52.0 Hz (99/105): 26 s
+est D3 f 52.5 Hz (100/105): 26 s
+est D3 f 53.0 Hz (101/105): 26 s
+est D3 f 53.5 Hz (102/105): 25 s
+est D3 f 54.0 Hz (103/105): 26 s
+est D3 f 54.5 Hz (104/105): 25 s
+est D3 f 55.0 Hz (105/105): 25 s
+inv D3 m30: median 1/snr at 10/25/40 Hz: 0.132 0.156 1.51
+inv D3 m40: median 1/snr at 10/25/40 Hz: 1.06 0.93 5.49
+inv D3 g30: median 1/snr at 10/25/40 Hz: 0.15 0.156 1.51
+fields D3 shot 10/51
+fields D3 shot 20/51
+fields D3 shot 30/51
+fields D3 shot 40/51
+fields D3 shot 50/51
+fields D3_E2 shot 10/51
+fields D3_E2 shot 20/51
+fields D3_E2 shot 30/51
+fields D3_E2 shot 40/51
+fields D3_E2 shot 50/51
+fields D3_E3 shot 10/51
+fields D3_E3 shot 20/51
+fields D3_E3 shot 30/51
+fields D3_E3 shot 40/51
+fields D3_E3 shot 50/51
+fields D3_E4_070 shot 10/51
+fields D3_E4_070 shot 20/51
+fields D3_E4_070 shot 30/51
+fields D3_E4_070 shot 40/51
+fields D3_E4_070 shot 50/51
+fields D3_E4_140 shot 10/51
+fields D3_E4_140 shot 20/51
+fields D3_E4_140 shot 30/51
+fields D3_E4_140 shot 40/51
+fields D3_E4_140 shot 50/51
+LP cut-off D3 m30: 37.5 Hz
+LP cut-off D3 m40: 10.0 Hz
+LP cut-off D3 g30: 37.5 Hz
+mig2 D3 f  3.0 Hz (1/105): 49 s
+mig2 D3 f  3.5 Hz (2/105): 50 s
+mig2 D3 f  4.0 Hz (3/105): 50 s
+mig2 D3 f  4.5 Hz (4/105): 49 s
+mig2 D3 f  5.0 Hz (5/105): 49 s
+mig2 D3 f  5.5 Hz (6/105): 49 s
+mig2 D3 f  6.0 Hz (7/105): 49 s
+mig2 D3 f  6.5 Hz (8/105): 49 s
+mig2 D3 f  7.0 Hz (9/105): 49 s
+mig2 D3 f  7.5 Hz (10/105): 55 s
+mig2 D3 f  8.0 Hz (11/105): 49 s
+mig2 D3 f  8.5 Hz (12/105): 49 s
+mig2 D3 f  9.0 Hz (13/105): 49 s
+mig2 D3 f  9.5 Hz (14/105): 49 s
+mig2 D3 f 10.0 Hz (15/105): 48 s
+mig2 D3 f 10.5 Hz (16/105): 48 s
+mig2 D3 f 11.0 Hz (17/105): 49 s
+mig2 D3 f 11.5 Hz (18/105): 50 s
+mig2 D3 f 12.0 Hz (19/105): 50 s
+mig2 D3 f 12.5 Hz (20/105): 54 s
+mig2 D3 f 13.0 Hz (21/105): 49 s
+mig2 D3 f 13.5 Hz (22/105): 50 s
+mig2 D3 f 14.0 Hz (23/105): 50 s
+mig2 D3 f 14.5 Hz (24/105): 50 s
+mig2 D3 f 15.0 Hz (25/105): 51 s
+mig2 D3 f 15.5 Hz (26/105): 49 s
+mig2 D3 f 16.0 Hz (27/105): 49 s
+mig2 D3 f 16.5 Hz (28/105): 49 s
+mig2 D3 f 17.0 Hz (29/105): 49 s
+mig2 D3 f 17.5 Hz (30/105): 55 s
+mig2 D3 f 18.0 Hz (31/105): 49 s
+mig2 D3 f 18.5 Hz (32/105): 49 s
+mig2 D3 f 19.0 Hz (33/105): 49 s
+mig2 D3 f 19.5 Hz (34/105): 51 s
+mig2 D3 f 20.0 Hz (35/105): 49 s
+mig2 D3 f 20.5 Hz (36/105): 49 s
+mig2 D3 f 21.0 Hz (37/105): 49 s
+mig2 D3 f 21.5 Hz (38/105): 49 s
+mig2 D3 f 22.0 Hz (39/105): 49 s
+mig2 D3 f 22.5 Hz (40/105): 55 s
+mig2 D3 f 23.0 Hz (41/105): 49 s
+mig2 D3 f 23.5 Hz (42/105): 50 s
+mig2 D3 f 24.0 Hz (43/105): 50 s
+mig2 D3 f 24.5 Hz (44/105): 49 s
+mig2 D3 f 25.0 Hz (45/105): 49 s
+mig2 D3 f 25.5 Hz (46/105): 50 s
+mig2 D3 f 26.0 Hz (47/105): 49 s
+mig2 D3 f 26.5 Hz (48/105): 49 s
+mig2 D3 f 27.0 Hz (49/105): 49 s
+mig2 D3 f 27.5 Hz (50/105): 55 s
+mig2 D3 f 28.0 Hz (51/105): 50 s
+mig2 D3 f 28.5 Hz (52/105): 49 s
+mig2 D3 f 29.0 Hz (53/105): 49 s
+mig2 D3 f 29.5 Hz (54/105): 49 s
+mig2 D3 f 30.0 Hz (55/105): 49 s
+mig2 D3 f 30.5 Hz (56/105): 50 s
+mig2 D3 f 31.0 Hz (57/105): 49 s
+mig2 D3 f 31.5 Hz (58/105): 49 s
+mig2 D3 f 32.0 Hz (59/105): 49 s
+mig2 D3 f 32.5 Hz (60/105): 55 s
+mig2 D3 f 33.0 Hz (61/105): 48 s
+mig2 D3 f 33.5 Hz (62/105): 49 s
+mig2 D3 f 34.0 Hz (63/105): 49 s
+mig2 D3 f 34.5 Hz (64/105): 49 s
+mig2 D3 f 35.0 Hz (65/105): 49 s
+mig2 D3 f 35.5 Hz (66/105): 49 s
+mig2 D3 f 36.0 Hz (67/105): 49 s
+mig2 D3 f 36.5 Hz (68/105): 49 s
+mig2 D3 f 37.0 Hz (69/105): 50 s
+mig2 D3 f 37.5 Hz (70/105): 56 s
+mig2 D3 f 38.0 Hz (71/105): 50 s
+mig2 D3 f 38.5 Hz (72/105): 49 s
+mig2 D3 f 39.0 Hz (73/105): 50 s
+mig2 D3 f 39.5 Hz (74/105): 51 s
+mig2 D3 f 40.0 Hz (75/105): 50 s
+mig2 D3 f 40.5 Hz (76/105): 50 s
+mig2 D3 f 41.0 Hz (77/105): 50 s
+mig2 D3 f 41.5 Hz (78/105): 49 s
+mig2 D3 f 42.0 Hz (79/105): 50 s
+mig2 D3 f 42.5 Hz (80/105): 56 s
+mig2 D3 f 43.0 Hz (81/105): 51 s
+mig2 D3 f 43.5 Hz (82/105): 50 s
+mig2 D3 f 44.0 Hz (83/105): 50 s
+mig2 D3 f 44.5 Hz (84/105): 49 s
+mig2 D3 f 45.0 Hz (85/105): 51 s
+mig2 D3 f 45.5 Hz (86/105): 52 s
+mig2 D3 f 46.0 Hz (87/105): 51 s
+mig2 D3 f 46.5 Hz (88/105): 50 s
+mig2 D3 f 47.0 Hz (89/105): 50 s
+mig2 D3 f 47.5 Hz (90/105): 56 s
+mig2 D3 f 48.0 Hz (91/105): 50 s
+mig2 D3 f 48.5 Hz (92/105): 49 s
+mig2 D3 f 49.0 Hz (93/105): 49 s
+mig2 D3 f 49.5 Hz (94/105): 49 s
+mig2 D3 f 50.0 Hz (95/105): 50 s
+mig2 D3 f 50.5 Hz (96/105): 50 s
+mig2 D3 f 51.0 Hz (97/105): 50 s
+mig2 D3 f 51.5 Hz (98/105): 50 s
+mig2 D3 f 52.0 Hz (99/105): 50 s
+mig2 D3 f 52.5 Hz (100/105): 56 s
+mig2 D3 f 53.0 Hz (101/105): 50 s
+mig2 D3 f 53.5 Hz (102/105): 50 s
+mig2 D3 f 54.0 Hz (103/105): 51 s
+mig2 D3 f 54.5 Hz (104/105): 52 s
+mig2 D3 f 55.0 Hz (105/105): 56 s
+prep_data D4: signal rms (1.2-1.8 s, |o|<=600 m) 5.83e-10
+est D4 f  3.0 Hz (1/105): 25 s
+est D4 f  3.5 Hz (2/105): 27 s
+=== stage 2 done 2026-11-18 09:17:53 exit 0
