@@ -1,0 +1,20 @@
+M25 60.0 0.5 c_hat done 523s
+M25 60.0 0.5 events_aligned 1404s
+M25 60.0 0.5 thin_aligned 2250s
+M25 60.0 0.5 events_nmo 3047s
+M25 60.0 0.7 c_hat done 3590s
+M25 60.0 0.7 events_aligned 4288s
+M25 60.0 0.7 thin_aligned 5071s
+M25 60.0 0.7 events_nmo 5804s
+M25 60.0 1.0 c_hat done 6394s
+M25 60.0 1.0 events_aligned 7035s
+M25 60.0 1.0 thin_aligned 7719s
+M25 60.0 1.0 events_nmo 10619s
+M25 60.0 1.4 c_hat done 11203s
+M25 60.0 1.4 events_aligned 11998s
+M25 60.0 1.4 thin_aligned 12758s
+M25 60.0 1.4 events_nmo 13532s
+M25 60.0 2.0 c_hat done 14235s
+M25 60.0 2.0 events_aligned 14982s
+M25 60.0 2.0 thin_aligned 15676s
+M25 60.0 2.0 events_nmo 16165s
