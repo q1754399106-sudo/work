@@ -207,7 +207,7 @@ Q 有误时，不校准的 G/A 误差为 0.4～1.8，校准后为 0.06～0.18，
 
 **动校拉伸。**动校道集上拉伸造成的 G/A 误差约 0.5，远大于 Q 的影响。所以在常规动校道集上做 AVO，主要问题不是 Q。本文的谱比估计在未动校道集上进行，不受拉伸影响；但 AVO 分析本身最好在偏移后的角道集上进行，这超出了本文范围。
 
-**与已有方法的关系。**QVO[8]在动校后逐道调整窗长并校正拉伸，PSQI[9]转到 τ-p 域避开动校，峰值频移法[10]在未动校道集上沿反射轨迹取窗但未规定远近道窗长；张瑾等[15]测试过一维过窄时窗截断造成的正偏差，未涉及时差压缩。本文的估计器本身与这些方法同源，贡献在于指出未动校道集上远道窗随时差压缩造成的偏差机理及等长窗修正。“先由谱比求 Q、再沿路径补偿”的流程与专利 WO2002065372A1[16]和 Geophysics 91(4):S93[17]部分相近，本文的不同之处是等长窗修正和端到端的误差量化。限频反 Q[5]和广义 Tikhonov 反演[18]均有先例。
+**与已有方法的关系。**QVO[8]在动校后逐道调整窗长并校正拉伸，PSQI[9]转到 τ-p 域避开动校，峰值频移法[10]在未动校道集上沿反射轨迹取窗但未规定远近道窗长；张瑾等[15]测试过一维过窄时窗截断造成的正偏差，未涉及时差压缩。本文的估计器本身与这些方法同源，贡献在于指出未动校道集上远道窗随时差压缩造成的偏差机理及等长窗修正。Lazaratos 等[4,16]用由速度和炮检距算出的近远道相对 Q 补偿滤波（加动校拉伸补偿）均衡近远道频谱以保 AVO，Geophysics 91(4):S93[17]由 CMP 炮检距谱比求等效 Q 再做 Q 补偿偏移，二者与本文“先估 Q、再沿路径补偿”的流程部分相近；本文的不同之处是等长窗修正和端到端的误差量化。限频反 Q[5]和广义 Tikhonov 反演[18]均有先例。
 
 **稳健补偿的适用性。**叠后处理中，对 Q 不确定度取期望可以避免过补偿、提高稳健性；但到了叠前，同一思路会在 AVO 上付出代价。如果后续要做 AVO，叠前稳健补偿应慎用，或改为先缩小 Q 的不确定度。
 
@@ -223,15 +223,15 @@ Q 有误时，不校准的 G/A 误差为 0.4～1.8，校准后为 0.06～0.18，
 
 ## 参考文献
 
-（按 GB/T 7714 排；标 [待核] 的条目卷期页码或作者尚未一手核对，投稿前必须核实。）
+（按 GB/T 7714 排。2026-11-19 用网络检索核对过一轮，结果见文末“参考文献核对记录”；仍标 [待核] 的条目投稿前必须在知网、SEG Library 或专利库中一手核实。）
 
-[1] Luh P C. [待核：题名、刊名、卷期页码]，1993.
+[1] Luh P C. [待核：1993 年文献未检索到。可查到的是 Luh P C. Wavelet dispersion and bright-spot detection（AAPG 1989 年会摘要）；若无法核实 1993 年原文，建议改引 1989 年摘要或删去本条].
 
 [2] Li G, Liu Y, Zheng H, et al. Absorption decomposition and compensation via a two-step scheme[J]. Geophysics, 2015, 80(6): V145-V155.
 
-[3] 程万里, 王守东, 等. 基于 L1 范数正则化约束的叠前数据衰减补偿方法[J]. 石油地球物理勘探, 2023, 58(3): 567-579.（[待核]完整作者）
+[3] 程万里, 王守东, 等. 基于 L1 范数正则化约束的叠前数据衰减补偿方法[J]. 石油地球物理勘探, 2023, 58(3): 567-579.（[待核]：网络检索未找到该文及其 DOI，需在知网核实是否存在及完整作者）
 
-[4] Lazaratos S, Finn C. [待核：题名、出处]，2004.
+[4] Lazaratos S, Finn C. Deterministic spectral balancing for high-fidelity AVO[C]. SEG Technical Program Expanded Abstracts, 2004: 219-223.（题录取自他人文献的参考文献列表，原文待核）
 
 [5] Ratnett N, Baldock S, Masoomzadeh H. A practical data-driven method for applying amplitude inverse Q that preserves AVO[C]. SEG Technical Program Expanded Abstracts, 2019: 620-624.
 
@@ -241,25 +241,25 @@ Q 有误时，不校准的 G/A 误差为 0.4～1.8，校准后为 0.06～0.18，
 
 [8] Dasgupta R, Clark R A. Estimation of Q from surface seismic reflection data[J]. Geophysics, 1998, 63(6): 2120-2128.
 
-[9] Reine C, Clark R, van der Baan M. Robust prestack Q-determination using surface seismic data: Part 1—Method and synthetic examples[J]. Geophysics, 2012, 77(1): R45-R56.（[待核]题名全称）
+[9] Reine C, Clark R, van der Baan M. Robust prestack Q-determination using surface seismic data: Part 1—Method and synthetic examples[J]. Geophysics, 2012, 77(1): R45-R56. DOI: 10.1190/GEO2011-0073.1.（副标题待核）
 
 [10] Zhang C, Ulrych T J. Estimation of quality factors from CMP records[J]. Geophysics, 2002, 67(5): 1542-1547.
 
 [11] Kolsky H. The propagation of stress pulses in viscoelastic solids[J]. Philosophical Magazine, 1956, 1(8): 693-710.
 
-[12] Morozov V A. On the solution of functional equations by the method of regularization[J]. Soviet Mathematics Doklady, 1966, 7: 414-417.（[待核]）
+[12] Morozov V A. On the solution of functional equations by the method of regularization[J]. Doklady Akademii Nauk SSSR, 1966, 167(3): 510-512.（俄文原刊；英译本 Soviet Mathematics Doklady 的卷页未核实，故引原刊）
 
 [13] Shuey R T. A simplification of the Zoeppritz equations[J]. Geophysics, 1985, 50(4): 609-614.
 
 [14] Slepian D. Linear least-squares filtering of distorted images[J]. Journal of the Optical Society of America, 1967, 57(7): 918-922.
 
-[15] 张瑾, 等. 利用泰勒级数展开的振幅谱积分差值的 Q 值估计方法[J]. 石油地球物理勘探, 2022, 57(2): 320-330.（[待核]完整作者）
+[15] 张瑾, 等. 利用泰勒级数展开的振幅谱积分差值的 Q 值估计方法[J]. 石油地球物理勘探, 2022, 57(2): 320-330.（[待核]：网络检索未找到该文及其 DOI；同一作者在本刊有 2023, 58(6): 1423-1435 的相关论文。需在知网确认年份、题名与正文 2.1.2 节内容）
 
-[16] ExxonMobil Upstream Research Company. Method for spectral balancing offset seismic data: WO2002065372A1[P]. 2002.（[待核]申请人与公开日）
+[16] ExxonMobil Upstream Research Company（发明人 Lazaratos S K）. Method for spectral balancing offset seismic data: WO2002065372A1[P]. 2002.（同族 US6516275B2、EP1360635A1；公开日与说明书内容待核）
 
-[17] [待核：作者]. Obtaining effective Q factors at different offsets from CMP records[J]. Geophysics, 2025/2026, 91(4): S93-[待核].
+[17] [待核：网络检索未找到此文。若在 SEG Library 的 Geophysics 91(4) 目录中查不到，应删除本条及第 3 节中的相应表述]. Obtaining effective Q factors at different offsets from CMP records[J]. Geophysics, 91(4): S93.
 
-[18] 王本锋, 陈小宏, 等. 基于反演的稳定高效衰减补偿方法[J]. 地球物理学报, 2014, 57(4): 1265-1274.（[待核]完整作者）
+[18] 王本锋, 陈小宏, 李景叶, 陈增保. 基于反演的稳定高效衰减补偿方法[J]. 地球物理学报, 2014, 57(4): 1265-1274.（作者据英文版题录：Wang B F, Chen X H, Li J Y, Chen Z B. A stable and efficient attenuation compensation method based on inversion. Chinese Journal of Geophysics, 2015, DOI: 10.1002/cjg2.20181；中文版卷期页码待核）
 
 ---
 
@@ -276,10 +276,29 @@ Q 有误时，不校准的 G/A 误差为 0.4～1.8，校准后为 0.06～0.18，
 ## 投稿前待办（不属于正文）
 
 1. **图件：**~~改中文标签~~ **已做**（2026-11-19，`figures/`，英文版移到 `figures/en/`）。终稿字体（宋体 + Times New Roman）需在 Windows 上运行 `python scripts/make_figs.py zh` 重出一次；当前文件用的是度量兼容的 Liberation Serif + Noto Serif CJK SC。图题按本稿：图 1 流程，图 2 闭式 Γ 检验，图 3 误差随 σ，图 4 D 随 λ，图 5 远道窗压缩，图 6 ĉ 精度，图 7 端到端，图 8 示例道集。正文中图 7 的数字以表 2′ 给出，可二选一以控制篇幅。
-2. **参考文献：**标 [待核] 的 [1][3][4][9][12][15][16][17][18] 需一手核对；[16][17] 的原文核验同时决定第 3 节“与已有方法的关系”的措辞。WoS、CNKI 尚未检索。
+2. **参考文献：**2026-11-19 已检索核对一轮（见“参考文献核对记录”）。[4][9][12][16][18] 已补全或改引；[1][3][15][17] 网络上查不到，必须在知网 / SEG Library 一手核实，查不到就删除。
 3. **篇幅：**本刊常见篇幅 8～12 页。若超长，可把 2.4 节的 λ 实测并入一句话，把表 3 移入附录。
 4. **补充材料：**代码与预先写定的方案（各 PLAN 文件及提交号）可作为补充材料或数据可用性声明。
 5. **作者、单位、基金、通讯作者信息**待填。
+
+## 参考文献核对记录（2026-11-19，网络检索）
+
+本会话只能用检索结果摘要核对，不能打开原文页面；以下“已核”指题录信息在至少一个独立来源中出现。
+
+| 条目 | 结果 | 依据 |
+|---|---|---|
+| [1] Luh 1993 | **未找到** | 只找到 Luh 1989 AAPG 摘要 “Wavelet dispersion and bright-spot detection”；1993 年文献在他人综述中被引用，但题名、出处未见 |
+| [3] 程万里等 2023 | **未找到** | 题名与查新报告给出的 DOI 均检索不到 |
+| [4] Lazaratos & Finn 2004 | 已核（二次来源） | 2007 年 CSEG 摘要的参考文献列表：74th SEG Annual Meeting, Expanded Abstracts, 219–223 |
+| [9] Reine 等 2012 | 已核 | 卷期页码与 DOI 一致；第 2 部分副标题 “3D case study” 已见，第 1 部分副标题未见原文 |
+| [12] Morozov 1966 | 已核（改引原刊） | Math-Net.Ru 等：Doklady Akademii Nauk SSSR, 167(3): 510–512 |
+| [15] 张瑾等 2022 | **未找到** | 只找到同一作者 2023、2024 年的相关论文 |
+| [16] WO2002065372A1 | 已核（部分） | Google Patents 记录存在；ExxonMobil，发明人 Lazaratos；同族 US6516275B2、EP1360635A1；方法为近远道“相对 Q 补偿滤波”加拉伸补偿，是否由谱比估计 Q 未见 |
+| [17] Geophysics 91(4):S93 | **未找到** | 无法确认该文存在；查不到就删除 |
+| [18] 王本锋等 2014 | 已核（英文版） | Chinese Journal of Geophysics 英文版 2015，DOI 10.1002/cjg2.20181，作者 Wang, Chen, Li, Chen |
+| 其余（[2][5]–[8][10][11][13][14]） | 未在本轮复核 | [2][5][7][8][10][14] 的卷期页码与查新报告一致；[6][11][13] 为常用文献，仍建议投稿前统一用 Crossref 核对 |
+
+**风险提示：**[3][15][17] 三条来自外部查新报告，本轮检索均找不到。若在知网或 SEG Library 中确认不存在，需从正文删去相应引用与表述（引言第 1 段、2.7 节、第 3 节）。
 
 ## 数字出处
 
