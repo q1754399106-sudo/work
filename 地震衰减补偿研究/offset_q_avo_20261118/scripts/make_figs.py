@@ -208,6 +208,8 @@ def fig7():
     axs[1].set(xscale="log", yscale="log", xlabel=T["f7_x"], ylabel=T["f7_y1"])
     for i, ax in enumerate(axs):
         ax.set_xticks(cs, [str(c) for c in cs]); ax.minorticks_off(); panel(ax, i)
+    yt = (0.2, 0.3, 0.5, 1, 2, 3)   # (b) spans only ~1.2 decades (0.19-2.9): label intermediate values, not just 10^0
+    axs[1].set_yticks(yt, [f"{v:g}" for v in yt])
     axs[0].legend(fontsize=6); save(fig, "fig7_end_to_end", [p], "gate A2, aligned events + thin beds, 24/30 dB, M24-M27, 10 seeds per cell")
 
 
