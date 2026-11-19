@@ -1,0 +1,2 @@
+m 0.5  output max rel 0.256; samples with diff > 1e-6 of max: t 1.200-1.380 s; max rel diff for t >= 1.4 s 1.3e-13; in 2.30-2.80 s 1.3e-13
+m 2.0  output max rel 0.098; samples with diff > 1e-6 of max: t 1.200-1.352 s; max rel diff for t >= 1.4 s 5.2e-15; in 2.30-2.80 s 5.2e-15
