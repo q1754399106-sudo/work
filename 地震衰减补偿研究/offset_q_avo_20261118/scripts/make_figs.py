@@ -4,11 +4,11 @@ PNG 300 dpi at 174 mm (two-column) or 84 mm width. Reads only saved result files
 usage: make_figs.py [zh|en]
   zh (default): Chinese labels for Oil Geophysical Prospecting -> figures/fig*.pdf|png, figures/MANIFEST.json.
                 Fonts: Latin Times New Roman (else Liberation Serif), Chinese SimSun / Songti (else Noto Serif CJK SC),
-                maths STIX. The first installed font of each list is used, so the same script runs on Windows and Linux.
+                maths in the Latin font (STIX only for missing symbols). The first installed font of each list is used, so the same script runs on Windows and Linux.
   en          : the earlier English labels -> figures/en/ (the 2026-11-19 English set was made with the
                 scientific-visualization style preset; without it a close fallback style is used).
 """
-import sys, json, hashlib, logging
+import sys, re, json, hashlib, logging
 from pathlib import Path
 import numpy as np
 _VENDOR = Path(r"D:/ChatGPT/研究/地震衰减补偿研究/attenuation_run_20261019/dependencies")   # vendored matplotlib 3.11.2 (cp312)
@@ -69,23 +69,32 @@ ZH = dict(
     f7_y1="波形相对误差（对数坐标）\n32 个单元的中位数",
     f8=["真值", "真值 Q", "模型 Q", "校准后"], f8_t="$c$ = {}，事件 {}（$\\hat c$ = {:.2f}）", f8_y="振幅与零炮检距振幅之比")
 T = ZH if LANG == "zh" else EN
-PANEL = "abcdef"; CJK = None; SEP = "，" if LANG == "zh" else ", "
+PANEL = "abcdef"; CJK = LATIN = None; SEP = "，" if LANG == "zh" else ", "
 
 
 def panel(ax, i):
     ax.text(-0.02, 1.02, f"({PANEL[i]})", transform=ax.transAxes, ha="right", va="bottom", fontsize=7)
 
 
+CJK_RUN = re.compile("[　-鿿＀-￯]+")   # Chinese characters and full-width punctuation
+
+
 def cjk_math_fix(fig):
-    """mathtext lays out text outside $...$ with the label's own font and no glyph fallback: give mixed Chinese + maths
-    labels the Chinese font (the maths keeps the custom mathtext fonts)."""
+    """mathtext lays out text outside $...$ with the label's own font and no glyph fallback (only STIX, no Chinese).
+    So in mixed Chinese + maths labels each run of Chinese characters / full-width punctuation outside the dollars is
+    put into $\\mathsf{...}$ (mathtext.sf = the Chinese font) at save time, while the label font stays the Latin font:
+    Latin letters and digits outside the maths, and the upright maths (mathtext.rm), are then Times New Roman.
+    The label strings in ZH are not changed."""
     if LANG != "zh":
         return
     import matplotlib.text as mt
     for t in fig.findobj(mt.Text):
         s = t.get_text()
-        if "$" in s and any("　" <= ch <= "鿿" or "＀" <= ch <= "￯" for ch in s):
-            t.set_fontfamily(CJK)
+        if "$" in s and CJK_RUN.search(s):
+            parts = s.split("$")
+            for i in range(0, len(parts), 2):   # even parts are outside the dollars
+                parts[i] = CJK_RUN.sub(lambda m: "$\\mathsf{" + m.group(0) + "}$", parts[i])
+            t.set_text("$".join(parts)); t.set_fontfamily(LATIN)
             if "\n" in s:
                 t.set_linespacing(1.6)   # mathtext lines sit closer than plain text lines
 
@@ -231,11 +240,12 @@ def style():
         latin = first_font(["Times New Roman", "Liberation Serif", "DejaVu Serif"])
         cjk = first_font(["SimSun", "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", "SimHei", "Microsoft YaHei", "WenQuanYi Zen Hei"])
         assert cjk, "no Chinese font found"
-        global CJK; CJK = cjk
-        # A label that contains $...$ is laid out entirely by mathtext, whose text outside the dollars uses the mathtext
-        # upright font and has no per-glyph fallback; so the upright font is the Chinese font, italics (variables) Times.
+        global CJK, LATIN; CJK, LATIN = cjk, latin
+        # A label that contains $...$ is laid out entirely by mathtext, whose text outside the dollars uses the label's
+        # own font with no per-glyph fallback; cjk_math_fix moves the Chinese runs of such labels into \mathsf (Chinese
+        # font), so upright maths and Latin text stay Times; italics (variables) Times italic.
         base.update({"font.family": [latin, cjk], "axes.unicode_minus": True, "mathtext.fontset": "custom",
-                     "mathtext.rm": cjk, "mathtext.sf": cjk, "mathtext.it": f"{latin}:italic", "mathtext.bf": f"{latin}:bold",
+                     "mathtext.rm": latin, "mathtext.sf": cjk, "mathtext.it": f"{latin}:italic", "mathtext.bf": f"{latin}:bold",
                      "mathtext.fallback": "stix"})
         print("fonts:", latin, "+", cjk)
     return base
