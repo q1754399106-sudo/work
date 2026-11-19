@@ -1,0 +1,94 @@
+=== stage 4 start 2026-11-19 14:55:06
+t* fields 20/124
+t* fields 40/124
+t* fields 60/124
+t* fields 80/124
+t* fields 100/124
+t* fields 120/124
+LP cut-off 25.00 Hz
+fld pass 2 f  4.00 Hz (1/85): 62 s
+fld pass 2 f  4.25 Hz (2/85): 56 s
+fld pass 2 f  4.50 Hz (3/85): 54 s
+fld pass 2 f  4.75 Hz (4/85): 53 s
+fld pass 2 f  5.00 Hz (5/85): 52 s
+fld pass 2 f  5.25 Hz (6/85): 51 s
+fld pass 2 f  5.50 Hz (7/85): 51 s
+fld pass 2 f  5.75 Hz (8/85): 50 s
+fld pass 2 f  6.00 Hz (9/85): 51 s
+fld pass 2 f  6.25 Hz (10/85): 52 s
+fld pass 2 f  6.50 Hz (11/85): 50 s
+fld pass 2 f  6.75 Hz (12/85): 50 s
+fld pass 2 f  7.00 Hz (13/85): 50 s
+fld pass 2 f  7.25 Hz (14/85): 50 s
+fld pass 2 f  7.50 Hz (15/85): 51 s
+fld pass 2 f  7.75 Hz (16/85): 50 s
+fld pass 2 f  8.00 Hz (17/85): 50 s
+fld pass 2 f  8.25 Hz (18/85): 50 s
+fld pass 2 f  8.50 Hz (19/85): 50 s
+fld pass 2 f  8.75 Hz (20/85): 52 s
+fld pass 2 f  9.00 Hz (21/85): 50 s
+fld pass 2 f  9.25 Hz (22/85): 50 s
+fld pass 2 f  9.50 Hz (23/85): 50 s
+fld pass 2 f  9.75 Hz (24/85): 53 s
+fld pass 2 f 10.00 Hz (25/85): 51 s
+fld pass 2 f 10.25 Hz (26/85): 50 s
+fld pass 2 f 10.50 Hz (27/85): 50 s
+fld pass 2 f 10.75 Hz (28/85): 50 s
+fld pass 2 f 11.00 Hz (29/85): 50 s
+fld pass 2 f 11.25 Hz (30/85): 53 s
+fld pass 2 f 11.50 Hz (31/85): 50 s
+fld pass 2 f 11.75 Hz (32/85): 51 s
+fld pass 2 f 12.00 Hz (33/85): 50 s
+fld pass 2 f 12.25 Hz (34/85): 50 s
+fld pass 2 f 12.50 Hz (35/85): 51 s
+fld pass 2 f 12.75 Hz (36/85): 50 s
+fld pass 2 f 13.00 Hz (37/85): 50 s
+fld pass 2 f 13.25 Hz (38/85): 50 s
+fld pass 2 f 13.50 Hz (39/85): 51 s
+fld pass 2 f 13.75 Hz (40/85): 52 s
+fld pass 2 f 14.00 Hz (41/85): 50 s
+fld pass 2 f 14.25 Hz (42/85): 50 s
+fld pass 2 f 14.50 Hz (43/85): 50 s
+fld pass 2 f 14.75 Hz (44/85): 50 s
+fld pass 2 f 15.00 Hz (45/85): 50 s
+fld pass 2 f 15.25 Hz (46/85): 50 s
+fld pass 2 f 15.50 Hz (47/85): 50 s
+fld pass 2 f 15.75 Hz (48/85): 50 s
+fld pass 2 f 16.00 Hz (49/85): 50 s
+fld pass 2 f 16.25 Hz (50/85): 52 s
+fld pass 2 f 16.50 Hz (51/85): 51 s
+fld pass 2 f 16.75 Hz (52/85): 51 s
+fld pass 2 f 17.00 Hz (53/85): 50 s
+fld pass 2 f 17.25 Hz (54/85): 50 s
+fld pass 2 f 17.50 Hz (55/85): 51 s
+fld pass 2 f 17.75 Hz (56/85): 51 s
+fld pass 2 f 18.00 Hz (57/85): 51 s
+fld pass 2 f 18.25 Hz (58/85): 50 s
+fld pass 2 f 18.50 Hz (59/85): 50 s
+fld pass 2 f 18.75 Hz (60/85): 53 s
+fld pass 2 f 19.00 Hz (61/85): 50 s
+fld pass 2 f 19.25 Hz (62/85): 50 s
+fld pass 2 f 19.50 Hz (63/85): 50 s
+fld pass 2 f 19.75 Hz (64/85): 50 s
+fld pass 2 f 20.00 Hz (65/85): 51 s
+fld pass 2 f 20.25 Hz (66/85): 51 s
+fld pass 2 f 20.50 Hz (67/85): 51 s
+fld pass 2 f 20.75 Hz (68/85): 51 s
+fld pass 2 f 21.00 Hz (69/85): 50 s
+fld pass 2 f 21.25 Hz (70/85): 53 s
+fld pass 2 f 21.50 Hz (71/85): 51 s
+fld pass 2 f 21.75 Hz (72/85): 51 s
+fld pass 2 f 22.00 Hz (73/85): 50 s
+fld pass 2 f 22.25 Hz (74/85): 50 s
+fld pass 2 f 22.50 Hz (75/85): 51 s
+fld pass 2 f 22.75 Hz (76/85): 51 s
+fld pass 2 f 23.00 Hz (77/85): 50 s
+fld pass 2 f 23.25 Hz (78/85): 50 s
+fld pass 2 f 23.50 Hz (79/85): 51 s
+fld pass 2 f 23.75 Hz (80/85): 52 s
+fld pass 2 f 24.00 Hz (81/85): 50 s
+fld pass 2 f 24.25 Hz (82/85): 51 s
+fld pass 2 f 24.50 Hz (83/85): 50 s
+fld pass 2 f 24.75 Hz (84/85): 50 s
+fld pass 2 f 25.00 Hz (85/85): 55 s
+=== stage 4 done 2026-11-19 16:08:27 exit 0

@@ -1,0 +1,2 @@
+Databricks skills are not installed. To work with Databricks reliably, first run: databricks aitools install
+dbfs:/Volumes/equinor_asa_volve_data_village/public/volve/Seismic/ST0202/Velocities/VTI_model_2008/ST0202R08_P_WAVE_PSDM_FIELD_DEPTH.MIG_VEL.VELOCITY.3D.JS-017527.segy -> cache/volve_vel/vp_vti2008.segy
