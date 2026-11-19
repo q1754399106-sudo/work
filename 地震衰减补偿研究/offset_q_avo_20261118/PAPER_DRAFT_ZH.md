@@ -75,7 +75,7 @@ $$H=\frac{\mathrm E_u[G(f;u\,a_{\mathrm m})]^{*}}{\mathrm E_u|G(f;u\,a_{\mathrm 
 
 式中 σ 即 σ_lnQ。推广到叠前道时，以地表为锚点，事件路径 t* 的绝对不确定度正比于 a(x)，随炮检距增大。远道上 E|G|² 相对 |EG|² 增大得更快，算子的补偿量更小，Γ(x) 随炮检距下降，因此即使 Q 正确（u = 1）也会产生负的虚假梯度。记其大小为
 
-$$D=\Delta G/A\big|_{\sigma}-\Delta G/A\big|_{\sigma=0} \tag{9}$$
+$$D=(\Delta G/A)_{\sigma}-(\Delta G/A)_{\sigma=0} \tag{9}$$
 
 比较时取同一 λ、同一子波和同一事件。D 只来自 σ，与 Q 是否正确无关。
 

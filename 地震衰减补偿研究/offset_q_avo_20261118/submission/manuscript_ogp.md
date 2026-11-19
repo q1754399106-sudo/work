@@ -1,0 +1,340 @@
+# 叠前 Q 补偿的 AVO 误差预算与未动校道集炮检距谱比 Q 自校准
+
+
+作者 1，作者 2，……
+（单位，城市 邮编）
+
+---
+
+**摘要：**叠前 Q 补偿常用于提高分辨率并保持 AVO 特征，但 Q 模型误差对 AVO 梯度的影响缺少定量分析。基于局部平稳近似，推导了补偿后 AVO 振幅增益的无拟合参数闭式解，以及梯度与截距之比 G/A 对 Q 绝对水平的一阶灵敏度，据此建立 AVO 误差预算：补偿后逐事件 G/A 误差约为 k·σ~lnQ~，不能通过改进补偿算子消除；σ~lnQ~ 大于 0.2～0.45 时，一步 Tikhonov 补偿与最优的炮检距一致算子效果相当。对 Q 不确定度取期望的稳健补偿，在 Q 正确时也会产生负的虚假 AVO 梯度（信噪比 24～30 dB 时约 0.2～0.3）。为降低 σ~lnQ~，在未动校 CMP 道集上沿时距曲线计算炮检距谱比以估计 Q 模型的全局校正系数，并指出远道时窗必须与近道等长，否则时差压缩会产生随子波频带变窄而增大的正偏差。合成试验表明：修正后的估计器在信噪比 24 dB、合并 50 个 CMP 时 ln Q 的均方根误差为 0.091；Q 误差在 2 倍以内时，校准后逐事件 G/A 误差由 0.4～1.8 降至 0.06～0.18；校准后各种沿炮检距路径补偿的算子 AVO 精度相当，说明 AVO 精度的瓶颈在 Q 而不在补偿算子；代价是模型 Q 本来准确时 G/A 误差增加约 0.06。
+
+**关键词：**叠前 Q 补偿；AVO；品质因子；炮检距谱比；误差预算；稳健补偿
+
+**中图分类号：**P631　　**文献标识码：**A
+
+---
+
+## 0 引言
+
+地层吸收使地震波的高频成分随传播路径衰减。在叠前道集上，同一反射点在不同炮检距的射线路径长度不同，远道多经历的吸收叠加在 AVO 响应上。只按垂向 t* 做时间域补偿会破坏 AVO 特征，必须沿射线路径补偿，这已是共识[1-4]。围绕沿路径补偿，已有工作主要在两个方向上展开：一是改进补偿算子，如时间与炮检距两步反演[2]、沿射线路径的 L1 正则化反演[3]、限频的数据驱动反 Q 滤波[5]、τ-p 域稀疏反演[6]和谱整形正则化[7]；二是改进叠前 Q 估计，如 QVO 法[8]、PSQI 法[9]和未动校 CMP 道集上的峰值频移法[10]。
+
+这两个方向通常分别评价：比较补偿算子时假定 Q 已知，比较 Q 估计方法时不再分析估计误差传递到 AVO 上的大小。已有研究对 Q 误差的处理停留在 ±15%～20% 的数值扰动对比[2-3]，未给出 Q 误差与 AVO 梯度误差之间的定量关系。因此，对 AVO 而言，误差的主要来源是补偿算子还是 Q 本身，尚无明确结论。
+
+本文的工作包括：①推导补偿后 AVO 振幅增益的闭式解及 G/A 对 Q 绝对水平的一阶灵敏度；②由灵敏度建立 AVO 误差预算，在同一框架下比较算子改进与 Q 精度的贡献；③指出对 Q 不确定度取期望的稳健补偿会产生负的虚假 AVO 梯度；④在未动校 CMP 道集上用炮检距谱比自校准 Q，分析远道时窗被时差压缩造成的偏差并给出等长时窗修正，再用端到端试验检验校准对 AVO 的作用。全部检验基于合成数据，判定规则均在运行前确定，新模型只在一次检验中首次使用，未通过的判定一并列出（2.8 节）。
+
+## 1 方法原理
+
+### 1.1 叠前道的路径吸收与补偿
+
+层状介质中，零炮检距双程时为 t 的反射在炮检距 x 上的累积衰减为
+
+$$a(t,x)=\int_{\text{ray}}\frac{\mathrm{d}s}{v\,Q}=a_0(t)+a_x(t,x) \qquad (1)$$
+
+式中：a₀ 为垂向双程 t*；a~x~ 为炮检距射线相对垂向射线多出的部分；v 为层速度；s 为射线路径长度。采用 Kolsky 型常 Q 频散模型[11]，路径传递函数为
+
+$$G(f;a)=\exp\!\left[-\pi f a+\mathrm{i}\,2f\ln\!\left(f/f_{\mathrm r}\right)a\right] \qquad (2)$$
+
+式中参考频率 f~r~ 取 100 Hz。对每一道（动校拉平后）记 **G** 为按 a(t, x) 逐时变化的衰减矩阵，广义 Tikhonov 补偿为
+
+$$\left(\mathbf G^{\mathrm T}\mathbf G+\lambda\mathbf L^{\mathrm T}\mathbf L\right)\hat{\mathbf s}=\mathbf G^{\mathrm T}\mathbf d \qquad (3)$$
+
+式中：**d** 为观测道；ŝ 为补偿结果；λ 为正则化参数；**L** 为正则化算子。**L** = **I** 时为一步 Tikhonov 补偿；**L** 取由炮检距附加吸收构造的零相位算子（其符号为 exp[−π min(f, f~n~) a~x~]，f~n~ 由噪声放大上界确定）时，为本文用于对比的频率饱和阻尼算子，它属于广义 Tikhonov 正则化[12]的一种参数化形式。λ 按残差原则[13]选取：在 log₁₀λ = 0，−0.5，…，−6 上由大到小搜索，取第一个使残差不超过噪声能量的 λ（噪声标准差已知）。
+
+### 1.2 补偿后 AVO 增益的闭式解
+
+设事件的真实路径吸收为 a~t~，补偿使用的模型路径吸收为 a~m~。在局部平稳近似下，补偿后事件频谱乘以净传递函数
+
+$$\Phi(f,x)=\frac{G(f;a_{\mathrm t})\,G^{*}(f;a_{\mathrm m})}{|G(f;a_{\mathrm m})|^{2}+\lambda|L(f,x)|^{2}} \qquad (4)$$
+
+用子波振幅谱 S(f) 作匹配滤波读取振幅，事件在炮检距 x 上的振幅为 r(x)Γ(x)，其中 r(x) 为反射系数，
+
+$$\Gamma(x)=\frac{\int S^{2}(f)\,\mathrm{Re}\,\Phi(f,x)\,\mathrm df}{\int S^{2}(f)\,\mathrm df} \qquad (5)$$
+
+Γ(x) 不含拟合参数。将 r(x)Γ(x) 按 Shuey 两项式[14]对 sin²θ 拟合得到 A′、B′，补偿引起的 G/A 偏差为 ΔG/A = B′/A′ − B/A。
+
+### 1.3 G/A 对 Q 绝对水平的一阶灵敏度
+
+记 u = a~t~/a~m~ = Q~模型~/Q~真~（各层同比例），c = 1/u = Q~真~/Q~模型~。采用炮检距一致的补偿算子时，各道的通带传递 ψ(f) = |G|²/(|G|² + λ|L|²) 相同；Q 有误时，第 x 道只多乘因子 exp[−πf(u−1)a~x~(x)]，于是
+
+$$\ln\Gamma(x)\approx C-\pi f_{\mathrm{eff}}(u-1)\,a_x(x),\qquad f_{\mathrm{eff}}=\frac{\int W\psi f\,\mathrm df}{\int W\psi\,\mathrm df} \qquad (6)$$
+
+式中：C 为与炮检距无关的常数；W 为子波谱与带通滤波器的平方积；f~eff~ 为通带有效频率。设 a~x~ ≈ η sin²θ，并在拟合角度范围内以 sin⁴θ ≈ α + β sin²θ 线性化，代入 (A + B sin²θ)exp[−πf~eff~(u−1)η sin²θ] 并重新拟合，得
+
+$$\Delta G/A\approx -k\,(u-1),\qquad k=\pi f_{\mathrm{eff}}\,\eta\left[1+\frac{B}{A}\beta-\left(\frac{B}{A}\right)^{2}\alpha\right] \qquad (7)$$
+
+方括号中的项来自拟合 (A + B sin²θ)Γ 时多出的 B sin⁴θ 项，与反射层自身的 B/A 有关；略去该项时，预测值与数值结果的决定系数 R² 仅为 0.17。式（7）表明：Q 的绝对水平每偏 10%，逐事件 G/A 约偏移 0.1k；模型 Q 偏高（u > 1）时远道补偿不足，梯度偏负。
+
+若 ln u 的不确定度为 σ~lnQ~，则在线性范围内 |ΔG/A| 的典型值（68% 分位数）约为 k·σ~lnQ~，本文模型的 k 为 0.4～1.9。这部分误差来自远道多出的 t* 误差 (u − 1)a~x~，它与 AVO 梯度在单道上无法区分，任何不知道 u 的炮检距校正都无法消除。这就是 AVO 误差预算。
+
+### 1.4 对 Q 不确定度取期望的稳健补偿
+
+叠后 Q 补偿中，可对 Q 的不确定度取期望构造稳健算子（期望 Wiener 滤波形式，源自随机传递函数下的最小二乘滤波[15]）
+
+$$H=\frac{\mathrm E_u[G(f;u\,a_{\mathrm m})]^{*}}{\mathrm E_u|G(f;u\,a_{\mathrm m})|^{2}+\lambda},\qquad \ln u\sim N(0,\sigma^{2}) \qquad (8)$$
+
+式中 σ 即 σ~lnQ~。推广到叠前道时，以地表为锚点，事件路径 t* 的绝对不确定度正比于 a(x)，随炮检距增大。远道上 E|G|² 相对 |EG|² 增大得更快，算子的补偿量更小，Γ(x) 随炮检距下降，因此即使 Q 正确（u = 1）也会产生负的虚假梯度。记其大小为
+
+$$D=(\Delta G/A)_{\sigma}-(\Delta G/A)_{\sigma=0} \qquad (9)$$
+
+比较时取同一 λ、同一子波和同一事件。D 只来自 σ，与 Q 是否正确无关。
+
+### 1.5 未动校道集上的炮检距谱比 Q 自校准
+
+AVO 与频率无关，同一反射层在近、远道上的反射系数谱形相同，因此近、远道谱比可以消去反射系数谱的影响，只保留炮检距附加衰减，这正是叠前道集中关于 Q 绝对水平的信息。
+
+为避免动校拉伸改变谱形，在未动校 CMP 道集上沿双曲时距曲线取窗。对零炮检距时间 t₀ 处长度为 T 的时窗 [t₀ − T/2，t₀ + T/2]，近道功率谱为 P₀(f)；在第 x 道上取以 t~x~(t₀) 为中心的时窗，功率谱为 P~x~(f)。两者均减去由噪声方差估计的噪声功率，并对 N 个 CMP 平均，则
+
+$$y=-\frac{\mathrm d}{\mathrm df}\left[\tfrac12\ln\frac{P_x(f)}{P_0(f)}\right]\approx \pi\,\Delta a_{\mathrm t}(t_0,x),\qquad \Delta a_{\mathrm t}=a_x^{\mathrm m}/c \qquad (10)$$
+
+斜率在自适应频带内拟合，频带取 12～90 Hz 内近、远道功率均超过噪声功率 3 倍、且自低频端连续的频段。由模型 Q 计算 ξ = π⟨a~x~^m^⟩（时窗内 Hann² 加权平均），对所有时窗和道按最小二乘求全局校正系数
+
+$$\hat c=\frac{\sum \xi^{2}}{\sum \xi\,y} \qquad (11)$$
+
+时窗取 t₀ = 0.35～1.20 s，窗长 0.25 s，步长 0.1 s；拉伸比 t~x~/t₀ > 1.3 的道不参与计算。
+
+远道时窗必须与近道等长。若远道时窗取为时距曲线上的 [t~x~(t₀ − T/2)，t~x~(t₀ + T/2)]，由 dt_x/dt₀ = t₀/t~x~ 可知其长度约为 T·t₀/t~x~，随炮检距增大而变短。Hann 窗越短，频谱平滑越宽，远道谱的高频衰减被抹平，Δa 被低估，ĉ 偏大；子波频带越窄，这一影响越大（2.5 节）。本文的估计器将远道时窗取为以 t~x~(t₀) 为中心、与近道等长的时窗，且不对功率谱做平滑。校准后的 Q 模型为 ĉ·Q~模型~，可接任何沿路径的补偿算子（图 1）。
+
+![](../figures/fig1_workflow.png){width=17.4cm}
+
+图 1　方法流程
+
+（未动校 CMP 道集 → 沿时距曲线取窗、远道时窗与近道等长的炮检距谱比 → 由 50 个 CMP 的超道集估计校正系数 ĉ → 用 ĉ·Q~模型~ 沿射线路径补偿 → 逐事件 AVO 分析）
+
+## 2 模型试算
+
+### 2.1 模型与检验程序
+
+试算模型为 4 层介质（表 1），炮检距 0～1500 m，道间距 150 m，反射界面 t₀ 为 0.38、0.65、0.90 s，子波为主频 60 Hz 和 40 Hz 的零相位 Ricker 子波，反射系数用精确 Zoeppritz 方程计算。AVO 道集分孤立事件和薄层（每个事件后 16 ms 加一个反极性薄层）两类；拉平道集用于判定，带双曲时差并经动校（拉伸比 1.3 切除）的道集用于保护性检验。噪声为白噪声，按每道均方根振幅确定信噪比。真实 Q 为模型 Q 的 c 倍，各层同比例。谱比估计所用超道集的反射系数为 30% 稀疏序列，A ~ N(0, 1)，B = −0.8A + 0.6ε，ε ~ N(0, 1)。
+
+AVO 精度用有噪逐事件 G/A 误差衡量：将补偿结果带通滤波至 10 Hz～子波主频，逐样点拟合 A、B，在每个事件 ±3/f~p~ 的时窗内求 B/A 与真值之差，三个事件取绝对值平均（f~p~ 为子波主频）。另给出波形相对误差。结果按“组合”统计，一个组合指模型、子波、道集类型、c 与信噪比的一种取值，每个组合取若干次随机实现的平均。
+
+检验共 6 次，每次在运行前确定判定规则；用于方法开发的模型此后不再用于检验，每次检验使用未用过的模型（表 1）。各次判定结果汇总于 2.8 节。
+
+表 1　模型与检验设置
+
+| 项目 | 设置 |
+|---|---|
+| 层参数 | v~P~ 为 2100、2250、2450、2800 m/s；v~S~ 为 550、700、850、1000 m/s；ρ 为 1.8、2.1、2.3、2.4 g/cm³ |
+| 观测系统 | 单个 CMP，11 道，炮检距 0～1500 m；采样间隔 2 ms，记录长度 1.2 s |
+| Q 模型 | 每层一个 Q 值，共 20 组（M12～M31）；真实 Q = c × 模型 Q，c = 0.5～2.0 |
+| 子波与信噪比 | Ricker 子波主频 60、40 Hz；信噪比 12、18、24、30 dB |
+| 补偿算子 | 频率饱和阻尼、分步补偿、一步 Tikhonov、限频反 Q、只按垂向 t* 的 Tikhonov、期望算子（σ = 0.447） |
+| 稳健补偿代价检验 | M12～M15，u = 1，λ 为 10⁻⁴、10⁻³、10⁻² |
+| 谱比估计第一次与第二次检验 | M16～M19 与 M20～M23，c 为 0.7、1.0、1.4，24 dB，N = 50 |
+| 端到端检验 | M24～M27，c 为 0.5、0.7、1.0、1.4、2.0，24、30 dB，每个组合 10 次随机实现 |
+| 校准后补偿算子比较 | M28～M31，参数同端到端检验，每个组合 6 次随机实现 |
+
+### 2.2 闭式增益与灵敏度的检验
+
+图 2 对比了由式（5）预测的逐事件 G/A 偏差与时变算子的数值计算结果。一步 Tikhonov（σ = 0，Q 正确，72 个点）的回归斜率为 0.999，R² 为 1.000；期望算子（σ = 0.447，u 取 0.5～2，504 个点）的斜率为 0.974，R² 为 0.999。闭式解对两类算子均成立，后文的误差预算可以解析计算。
+
+![](../figures/fig2_gamma_check.png){width=8.4cm}
+
+图 2　闭式 Γ(x) 预测的逐事件 G/A 偏差与时变算子数值结果的对比
+
+（M12～M15，两种子波，3 个 λ，3 个事件；虚线为 1∶1 线）
+
+在 17 个 Q 模型、2 种子波、3 个 λ、3 个事件上，将式（7）的灵敏度与闭式 Γ 的数值斜率对比：中、深层事件（0.65、0.90 s）预测值对数值的斜率为 0.995，R² 为 0.997；浅层事件（0.38 s，sin²θ 最大 0.78）的斜率为 1.76，R² 为 0.74，推测是大角度远道 a~x~ 较大、算子的噪声饱和使远道未被完全校正（未单独验证）。在独立正演、精确 Zoeppritz 反射系数、残差原则选取 λ 的端到端数据上（2.6 节，未校准的频率饱和阻尼，192 个点），实测值对预测值的斜率为 1.23，R² 为 0.75，符号全部正确；c = 0.5 时线性公式低估约 30%。因此式（7）可作为误差预算公式，精度约 ±30%，浅层大角度和强衰减时偏低。
+
+### 2.3 AVO 误差预算
+
+图 3 为先验 ln u ~ N(0, σ²) 下 |ΔG/A| 的 68% 分位数随 σ 的变化（λ = 10^−3.5^，闭式计算）。炮检距一致算子（相当于频率饱和阻尼）在 σ = 0 时几乎无偏，误差随 σ 线性增长：40 Hz 子波 σ 为 0.1、0.2、0.3 时分别约为 0.09、0.18、0.27，与 k·σ 一致。一步 Tikhonov 在 σ = 0 时已有 0.11～0.47 的偏差，但随 σ 增长较慢。两类曲线在 σ ≈ 0.2（40 Hz）至 0.45（60 Hz）处相交，超过这一不确定度后，一步 Tikhonov 已与最优的炮检距一致算子相当。σ = 0.447 时各算子的误差为 0.27～0.57。这里不用均方根，因为 G/A 是比值，u 取极端值时截距趋于零、比值发散，均方根由尾部主导。
+
+![](../figures/fig3_avo_vs_sigma.png){width=17.4cm}
+
+图 3　先验 ln u ~ N(0, σ²) 下 |ΔG/A| 的 68% 分位数随 σ~lnQ~ 的变化
+
+（λ = 10^−3.5^，闭式计算，模型 M1、M12。(a) 60 Hz 子波；(b) 40 Hz 子波）
+
+在开发数据上还试验了两种在 Q 先验下保持 AVO 的算子（期望响应之比；零炮检距用期望算子、炮检距增量用确定性校正）。σ = 0.447 时，二者的 68% 分位数比一步 Tikhonov 最多小 0.02，40 Hz 子波时反而大 0.08～0.13（未经独立数据检验）。可见对 AVO 而言，改进算子的收益上限很低，降低误差只能靠缩小 σ~lnQ~。
+
+### 2.4 稳健补偿的 AVO 代价
+
+在 M12～M15 上（Q 正确，u = 1，72 个组合），期望算子相对同 λ 的一步 Tikhonov 产生的虚假梯度 D 的中位数为 −0.161，94.4% 的组合为负值；λ 为 10⁻⁴、10⁻³、10⁻² 时分别为 −0.299、−0.163、−0.052；40 Hz 子波（−0.204）大于 60 Hz 子波（−0.088）。Q 正确时，期望算子在一步 Tikhonov 原有偏差（0.39）之上再增加约 0.16，总偏差达 0.56。u 在 0.7～1.4 范围内时，期望算子的 AVO 误差均大于一步 Tikhonov，只在 u = 0.5 和 2 两端较小。
+
+D 强烈依赖 λ，因此需考察残差原则在各信噪比下实际选出的 λ（图 4）。信噪比每增加 6 dB，选出的 λ 约下降半个数量级。拉平道集上，D 的中位数在 30、24、18、12 dB 时分别为 0.29、0.21、0.13、0.06；动校道集选出的 λ 大半个档次，D 相应更小。12～18 dB 时一步 Tikhonov 自身的 |ΔG/A| 为 0.42～0.75，是 D 的 5～20 倍。因此，稳健补偿的 AVO 代价只在高信噪比道集（约 24 dB 以上，如超道集或偏移后道集）中显著，量级为 0.2～0.3；噪声较强时被一步 Tikhonov 自身的偏差掩盖。
+
+![](../figures/fig4_uq_cost_vs_lambda.png){width=17.4cm}
+
+图 4　Q 正确时期望算子相对同 λ 一步 Tikhonov 多产生的 G/A 偏差 D 随 λ 的变化
+
+（点线为各信噪比下残差原则选出的 λ 中位数。(a) 60 Hz 子波；(b) 40 Hz 子波）
+
+### 2.5 炮检距谱比的精度与等长时窗修正
+
+第一次检验未通过。在 M16～M19 上（24 dB，有 AVO，N = 50，768 个估计），原估计器（远道时窗随时差压缩，功率谱 9 点平滑）的 ln(ĉ/c) 均方根为 0.109，最差组合（模型、c、子波的一种取值）的平均偏差为 0.161，均超过预先设定的 0.10。失败几乎全部来自 40 Hz 子波约 +0.08 的系统偏差，该偏差在 30 dB、18 dB、无 AVO、N = 200 时几乎不变，说明来自估计器本身；60 Hz 子波基本无偏。AVO 的影响很小（无 AVO 时 0.102，有 AVO 时 0.109）。
+
+无噪声、无 AVO 时（图 5），原估计器在 30、40、60 Hz 子波下的 ln(ĉ/c) 分别为 +0.353、+0.121、+0.033；远道时窗改为等长并取消平滑后分别为 +0.052、+0.011、0.000。改变拟合频带或炮检距附加 t* 的取法均无效。逐窗实测与预测的 Δt* 之比随炮检距增大而下降（40 Hz 子波：300 m 为 1.02，750 m 为 0.92，1200 m 为 0.85），与远道时窗随炮检距变短一致。
+
+![](../figures/fig5_window_compression.png){width=17.4cm}
+
+图 5　远道时窗随时差压缩造成的估计偏差
+
+（M1，无噪声，无 AVO，c = 1。(a) ln(ĉ/c) 随子波主频的变化，点为 4 次随机实现的均值，竖线为范围；(b) 40 Hz 子波时逐窗实测与预测 Δt* 之比随炮检距的变化）
+
+修正后在新模型上重新检验。只修改估计器（远道等长时窗、不平滑），判定门槛不变，在未用过的 M20～M23 和新的随机实现上检验：ln(ĉ/c) 均方根为 0.091（平均 +0.021，标准差 0.088），最差组合平均偏差为 0.051，无失败估计，三项判定全部通过（图 6a）。此外，30 dB 时均方根为 0.076，18 dB 时为 0.108；N = 10 时为 0.20，N = 200 时为 0.051（图 6b）；速度误差 ±2% 时为 0.096、0.095；残余偏差约 +0.02，原因尚未查明。按式（7）和图 3，σ~lnQ~ ≈ 0.09 对应的逐事件 G/A 误差约为 0.05～0.13。
+
+![](../figures/fig6_chat_accuracy.png){width=17.4cm}
+
+图 6　ĉ 的估计精度
+
+（(a) 24 dB、有 AVO、N = 50 时 ln(ĉ/c) 的分布，原估计器为 M16～M19，修正估计器为 M20～M23，每箱 384 个估计，点线为 ±0.1；(b) 修正估计器的均方根误差随超道集 CMP 数 N 的变化）
+
+### 2.6 端到端试验：校准对 AVO 的作用
+
+在未用过的 M24～M27 上，c 取 0.5、0.7、1.0、1.4、2.0。每个组合用一个 50 个 CMP 的超道集估计 ĉ，再对同一 Q 模型的 AVO 道集用 ĉ·Q~模型~ 做频率饱和阻尼补偿，并与三种参照比较：真实 Q（上限）、模型 Q（未校准）和模型 Q 的一步 Tikhonov 补偿（表 2，图 7）。
+
+表 2　端到端试验结果（拉平道集，32 个组合的中位数）
+
+| c | 真实 Q | 未校准 | 未校准一步 Tikhonov | 校准后 | 波形误差（未校准/校准后） | ln(ĉ/c) 均方根 |
+|---|---|---|---|---|---|---|
+| 0.5 | 0.041 | 1.758 | 1.764 | 0.176 | 0.915/0.563 | 0.096 |
+| 0.7 | 0.023 | 0.639 | 0.713 | 0.108 | 0.703/0.432 | 0.069 |
+| 1.0 | 0.014 | 0.014 | 0.080 | 0.080 | 0.300/0.330 | 0.069 |
+| 1.4 | 0.010 | 0.398 | 0.349 | 0.065 | 1.022/0.282 | 0.087 |
+| 2.0 | 0.008 | 0.582 | 0.565 | 0.061 | 2.909/0.242 | 0.125 |
+
+注：第 2～5 列为有噪逐事件 G/A 误差。
+
+Q 有误时，未校准的 G/A 误差为 0.4～1.8，校准后为 0.06～0.18，较未校准降低 83%～90%（32 个组合比值的中位数为 0.155）；波形误差也明显降低，c = 2 时由 2.91 降至 0.24（未校准时过补偿放大了噪声）。按 5 个 c 平均，校准后 G/A 误差约 0.10，未校准约 0.68，真实 Q 为 0.019。ĉ 的估计无一失败，c = 0.5 和 2.0 时也能稳定估计。图 8 为一次随机实现的 AVO 曲线示例。
+
+![](../figures/fig7_end_to_end.png){width=17.4cm}
+
+图 7　端到端试验的有噪逐事件 |ΔG/A|（a）和波形相对误差（b）随 c 的变化
+
+（M24～M27，32 个组合的中位数，每个组合 10 次随机实现）
+
+![](../figures/fig8_example_gather.png){width=17.4cm}
+
+图 8　单次随机实现的 AVO 曲线示例
+
+（M24，60 Hz 子波，孤立事件，24 dB。(a)～(c) c = 0.5；(d)～(f) c = 2.0。各曲线除以其零炮检距振幅）
+
+模型 Q 本来正确（c = 1）时，校准使 G/A 误差由 0.014 增至 0.080，波形误差由 0.300 增至 0.330，分别超过预先设定的 0.05 和 0.02，这两项判定未通过（2.8 节）。这一代价来自 ĉ 的估计误差（c = 1 时 ln 均方根为 0.069），按灵敏度推算是估计精度决定的下限，恰与使用正确 Q 的一步 Tikhonov 相同（0.080）。
+
+在带时差并经动校的道集上，真实 Q、未校准、未校准一步 Tikhonov、校准后的 G/A 误差分别为 0.503、0.551、0.600、0.506：校准把 Q 引起的误差修正到与真实 Q 相同，但动校拉伸带来约 0.5 的误差，远大于 Q 的影响。
+
+### 2.7 校准后的补偿算子比较
+
+在未用过的 M28～M31 上（160 个组合，每个组合 6 次随机实现），所有算子都使用同一个 ĉ·Q~模型~（表 3）。沿炮检距路径补偿的三种算子 G/A 误差几乎相同：频率饱和阻尼 0.097、分步补偿 0.100、限频反 Q 0.099，配对差的中位数为 +0.0003 和 −0.0020，四分位数均在 ±0.008 以内。一步 Tikhonov 为 0.123，劣势集中在 c ≤ 0.7（0.506、0.228）。只按垂向 t* 补偿为 1.095，比沿路径补偿大一个数量级，与已有认识[2-3]一致，此处作为基准对照。波形误差以限频反 Q 最小（0.245），分步补偿最大（0.420）。
+
+表 3　校准 Q 后五种补偿算子的有噪逐事件 G/A 误差（组合中位数）
+
+| 算子 | 全部 | c = 0.5 | c = 0.7 | c = 1.0 | c = 1.4 | c = 2.0 | 波形误差 |
+|---|---|---|---|---|---|---|---|
+| 频率饱和阻尼 | 0.097 | 0.155 | 0.110 | 0.089 | 0.089 | 0.071 | 0.333 |
+| 分步补偿 | 0.100 | 0.178 | 0.122 | 0.090 | 0.086 | 0.070 | 0.420 |
+| 限频反 Q | 0.099 | 0.180 | 0.121 | 0.091 | 0.088 | 0.071 | 0.245 |
+| 一步 Tikhonov | 0.123 | 0.506 | 0.228 | 0.138 | 0.092 | 0.077 | 0.305 |
+| 只按垂向 t* | 1.095 | 1.588 | 1.314 | 1.029 | 0.796 | 0.602 | 1.288 |
+
+结合 2.3 节，Q 有误时任何算子都受 k·σ~lnQ~ 的限制；Q 校准后，沿路径补偿的各算子之间又几乎没有差别。两方面结果均表明：对 AVO 而言，决定误差的是 Q 的绝对水平是否准确以及补偿是否沿炮检距路径，而不是补偿算子的具体形式。
+
+### 2.8 判定汇总
+
+表 4 汇总了 6 次检验中 5 次的判定结果（另一次为残差原则 λ 的实测，结论见 2.4 节）。
+
+表 4　预先设定的判定及结果
+
+| 检验 | 判定内容 | 结果 | 门槛 | 结论 |
+|---|---|---|---|---|
+| 稳健补偿代价 | \|D\| 中位数；负值比例；闭式斜率 | 0.161；94.4%；0.974 | ≥ 0.092；≥ 80%；0.9～1.1 | 通过 |
+| 谱比估计，第一次 | 均方根；最差组合偏差；失败率 | 0.109；0.161；0 | ≤ 0.10；≤ 0.10；≤ 2% | 前两项未通过 |
+| 谱比估计，第二次（新模型） | 同上 | 0.091；0.051；0 | 同上 | 通过 |
+| 端到端 | 误差降低一半以上的组比例；与真实 Q 之差；c = 1 时 G/A 代价；c = 1 时波形代价；动校道集保护 | 100%；+0.070；+0.062；+0.027；92.2% | ≥ 90%；≤ 0.10；≤ 0.05\*；≤ 0.02\*；≥ 80% | 第 3、4 项未通过 |
+| 校准后算子比较 | 与分步、限频反 Q 之差；垂向/沿路径；一步 Tikhonov/沿路径 | +0.0003、−0.0020；10.7；1.35 | 绝对值 ≤ 0.02\*；≥ 5；≥ 1.2 | 通过 |
+
+注：\* 为参考开发结果设定的门槛。
+
+## 3 讨论
+
+（1）Q 本来正确时的代价。校准在 c = 1 时使 G/A 误差增加约 0.06，原因是 ĉ 的估计误差。ĉ 的离散程度随参与平均的 CMP 数增加而减小（N = 200 时均方根为 0.051），超道集更大时代价应相应减小，但本文未在端到端试验中检验。实际应用中是否校准，取决于对模型 Q 的把握程度：若模型 Q 来自可靠的 VSP 资料且误差在 10% 以内，校准的收益有限。
+
+（2）动校拉伸。动校道集上拉伸造成的 G/A 误差约 0.5，远大于 Q 的影响，因此在常规动校道集上做 AVO 分析，主要问题不在 Q。本文的谱比估计在未动校道集上进行，不受拉伸影响；AVO 分析本身宜在偏移后的角道集上进行，这超出了本文范围。
+
+（3）与已有方法的关系。QVO 法[8]在动校后逐道调整窗长并校正拉伸，PSQI 法[9]转到 τ-p 域以避开动校，峰值频移法[10]在未动校道集上沿反射轨迹取窗，但未规定远、近道窗长；张瑾等[16]的一维时窗试验表明，时窗短于子波时对数谱比法和中心频移法估计的 Q 远大于真值，但未涉及时差压缩。本文估计器与这些方法同源，贡献在于指出未动校道集上远道时窗随时差压缩造成的偏差机理，并给出等长时窗修正。Lazaratos 等[4,17]用由速度和炮检距算出的近、远道相对 Q 补偿滤波（另加动校拉伸补偿）均衡近、远道频谱以保持 AVO；Wu 等[18]面向 Q 补偿叠前时间偏移，在 CMP 道集上比较经过同一反射点的不同炮检距道，用谱比法和最小二乘法求各炮检距的等效 Q。二者与本文“先估计 Q、再沿路径补偿”的流程部分相近，本文的不同之处在于等长时窗修正和端到端的误差定量分析。限频反 Q[5]和广义 Tikhonov 反演[12]均已有先例。
+
+（4）稳健补偿的适用性。叠后处理中，对 Q 不确定度取期望可以避免过补偿、提高稳健性；但在叠前，同一思路会以 AVO 精度为代价。若后续需做 AVO 分析，叠前稳健补偿应慎用，或先缩小 Q 的不确定度。
+
+（5）局限性。本文结论均来自合成数据：模型较浅（≤ 1.2 s），时距曲线为双曲线，各层 Q 同比例偏差（未检验分层独立的形状误差），超道集内 Q 无横向变化，残差原则使用已知噪声方差，且不含多次波、各向异性和随炮检距变化的子波。这些因素在实际资料中都会增大误差，实际应用前需用 VSP 或井资料检验 ĉ。
+
+## 4 结论
+
+（1）补偿后 AVO 振幅增益有不含拟合参数的闭式解，数值验证斜率为 0.97～1.00。由此推导出 G/A 对 Q 绝对水平的一阶灵敏度 ΔG/A ≈ −k(u − 1)，k 与反射层自身的 B/A 有关，本文模型的 k 为 0.4～1.9。
+
+（2）补偿后逐事件 G/A 误差约为 k·σ~lnQ~，不能通过改进算子消除；σ~lnQ~ 大于 0.2～0.45 时，一步 Tikhonov 与最优的炮检距一致算子效果相当。
+
+（3）对 Q 不确定度取期望的叠前稳健补偿，在 Q 正确时也会产生负的虚假 AVO 梯度，信噪比 24～30 dB 时约为 0.2～0.3。
+
+（4）在未动校道集上沿时距曲线计算炮检距谱比时，远道时窗必须与近道等长，否则时差压缩会抹平谱衰减，产生随子波频带变窄而增大的正偏差。修正后在信噪比 24 dB、50 个 CMP 时 ln Q 的误差约为 0.09。
+
+（5）用炮检距谱比校准 Q 后，Q 误差在 2 倍以内时逐事件 G/A 误差降低 83%～90%；校准后沿路径补偿的各算子 AVO 精度相当。代价是模型 Q 本来准确时 G/A 误差增加约 0.06。
+
+## 参考文献
+
+[1] LUH P C. Wavelet dispersion and bright spot detection[C]//SEG Technical Program Expanded Abstracts 1988. Tulsa: Society of Exploration Geophysicists, 1988: 1217-1220.
+
+
+[2] LI G, LIU Y, ZHENG H, et al. Absorption decomposition and compensation via a two-step scheme[J]. Geophysics, 2015, 80(6): V145-V155.
+
+
+[3] 程万里, 王守东, 孟巾钰, 等. 基于L1范数正则化约束的叠前数据衰减补偿方法[J]. 石油地球物理勘探, 2023, 58(3): 567-579.
+CHENG Wanli, WANG Shoudong, MENG Jinyu, et al. [英文题名待从本刊官网补][J]. Oil Geophysical Prospecting, 2023, 58(3): 567-579.
+
+
+[4] LAZARATOS S, FINN C. Deterministic spectral balancing for high-fidelity AVO[C]//SEG Technical Program Expanded Abstracts 2004. Tulsa: Society of Exploration Geophysicists, 2004: 219-223.
+
+
+[5] RATNETT N, BALDOCK S, MASOOMZADEH H. A practical data-driven method for applying amplitude inverse Q that preserves AVO[C]//SEG Technical Program Expanded Abstracts 2019. Tulsa: Society of Exploration Geophysicists, 2019: 620-624.
+
+
+[6] AHARCHAOU M, NEUMANN E. Prestack Q compensation with sparse τ-p operators[J]. Geophysics, 2019, 84(5): V295-V305.
+
+
+[7] DU Q, WANG W, SUN W, et al. Seismic attenuation compensation with spectral-shaping regularization[J]. Earth and Planetary Physics, 2022, 6(3): 259-274.
+
+
+[8] DASGUPTA R, CLARK R A. Estimation of Q from surface seismic reflection data[J]. Geophysics, 1998, 63(6): 2120-2128.
+
+
+[9] REINE C, CLARK R, VAN DER BAAN M. Robust prestack Q-determination using surface seismic data: Part 1—Method and synthetic examples[J]. Geophysics, 2012, 77(1): R45-R56.
+
+
+[10] ZHANG C, ULRYCH T J. Estimation of quality factors from CMP records[J]. Geophysics, 2002, 67(5): 1542-1547.
+
+
+[11] KOLSKY H. The propagation of stress pulses in viscoelastic solids[J]. Philosophical Magazine, 1956, 1(8): 693-710.
+
+
+[12] 王本锋, 陈小宏, 李景叶, 等. 基于反演的稳定高效衰减补偿方法[J]. 地球物理学报, 2014, 57(4): 1265-1274.
+WANG Benfeng, CHEN Xiaohong, LI Jingye, et al. A stable and efficient attenuation compensation method based on inversion[J]. Chinese Journal of Geophysics, 2014, 57(4): 1265-1274.
+
+[13] MOROZOV V A. On the solution of functional equations by the method of regularization[J]. Doklady Akademii Nauk SSSR, 1966, 167(3): 510-512.
+
+
+[14] SHUEY R T. A simplification of the Zoeppritz equations[J]. Geophysics, 1985, 50(4): 609-614.
+
+
+[15] SLEPIAN D. Linear least-squares filtering of distorted images[J]. Journal of the Optical Society of America, 1967, 57(7): 918-922.
+
+
+[16] 张瑾, 张国书, 王彦国, 等. 利用泰勒级数展开的振幅谱积分差值的Q值估计方法[J]. 石油地球物理勘探, 2022, 57(2): 320-330.
+ZHANG Jin, ZHANG Guoshu, WANG Yanguo, et al. [英文题名待从本刊官网补][J]. Oil Geophysical Prospecting, 2022, 57(2): 320-330.
+
+
+[17] EXXONMOBIL UPSTREAM RESEARCH COMPANY. Method for spectral balancing offset seismic data: WO2002065372A1[P]. 2002.
+
+
+[18] WU J Z, SHI Y. Obtaining effective Q factors at different offsets from CMP records[J]. Geophysics, 2026, 91(4): S93-S100.
+
+
+---
+
+**AVO error budget of prestack Q compensation and Q self-calibration by offset spectral ratios on gathers without NMO correction**
+
+AUTHOR 1, AUTHOR 2, …
+(Affiliation, City Postcode, China)
+
+**Abstract:** Prestack Q compensation is often applied to improve resolution while preserving AVO, but how errors in the Q model propagate into the AVO gradient has not been quantified. Under a local stationarity approximation, a closed-form, parameter-free AVO gain after compensation is derived, together with the first-order sensitivity of the gradient-to-intercept ratio G/A to the absolute Q level. This gives an AVO error budget: the per-event G/A error after compensation is about k·σ~lnQ~ and cannot be removed by operator design; for σ~lnQ~ above about 0.2–0.45, a one-step Tikhonov compensation performs as well as the best offset-consistent operator. A robust operator that takes the expectation over Q uncertainty creates a negative spurious AVO gradient even when Q is correct (about 0.2–0.3 at signal-to-noise ratios of 24–30 dB). To reduce σ~lnQ~, a global Q correction factor is estimated from offset spectral ratios measured along the moveout curve on CMP gathers without NMO correction. The far-offset window must have the same length as the near-offset window; otherwise moveout compression smooths the spectral decay and causes a positive bias that grows as the wavelet band narrows. In synthetic tests, the corrected estimator gives an RMS error of 0.091 in ln Q at 24 dB with 50 pooled CMPs. When Q is wrong by up to a factor of two, calibration reduces the per-event G/A error from 0.4–1.8 to 0.06–0.18, and after calibration all path-consistent compensation operators give nearly the same AVO accuracy, showing that Q, not the operator, limits AVO fidelity. The cost is an increase of about 0.06 in the G/A error when the model Q is already correct.
+
+**Keywords:** prestack Q compensation; AVO; quality factor; offset spectral ratio; error budget; robust compensation
