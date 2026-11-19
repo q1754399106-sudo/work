@@ -1,0 +1,11 @@
+方案 commit: d956aa9b76d38160b4535df2485ca3fb6694230f（2026-11-19，开跑前）
+SHA-256（开跑前，任何分数之前）:
+4e109ce42c34dbc18cab07e89145d5c7b806135989346e7e3060208c674a6af0  uqw_rho_ablation_20261119/PLAN_ZH.md
+b48c38f528d79656cdabfb7e8c5172e2a494bf6015a8188c0c070a4b2beff49c  uqw_rho_ablation_20261119/scripts/ablate.py
+d4906d031d6614d5bebec40c9532bf950ca885af7a120a0b347427440e1d298c  uqw_rho_ablation_20261119/scripts/analyze.py
+4b29496acc40048f24a0f8914ec82d9c97f1d1709bdd2300e102a63436707ccf  qunknown_comp_20261109/scripts/uqw.py
+3bb43e590d20eab7e4f474e37bee1460d5d95d906eb382d44127b27b75a9df18  qunknown_comp_20261109/scripts/uqiq.py
+eb38f243a767edb02823482f5e338419e56f64148a1b40368b4b83d34fa5334b  qunknown_comp_20261109/scripts/fdcheck.py
+3b0f938d01395dfa4520a3b1ff82d7b137fcd72f0ef1b6b13f8a0c00085e4b60  qunknown_comp_20261109/scripts/stage0.py
+43cc149531043749c7d390b127c9c680d92d421dc4556a397e7c11aef6f4f40d  mu_tune_20261031/scripts/lib17.py
+Python: codex runtime 3.12.14 via .venv (--system-site-packages), numpy 2.3.5, scipy 1.16.3
