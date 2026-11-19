@@ -20,7 +20,8 @@ STRUCT = {"P": 10023, "R": 10047, "S": 10073, "T": 10123, "U": 10167, "V": 10191
 NOISE = {"P": (10009, 10035), "R": (10055, 10063), "S": (10077, 10093), "T": (10117, 10143), "U": (10155, 10163), "V": (10179, 10211)}
 GEO_SEED = {k: 15016 + i for i, k in enumerate(STRUCT)}
 RC_SEED = {(k, r): 15250 + 10 * i + r for i, k in enumerate(STRUCT) for r in (0, 1)}
-C0 = (0.75, 1.05); RS = (0, 1); K_B = 0.57; NF = 512; F5 = np.fft.rfftfreq(NF, DT); FIT = (F5 >= 10) & (F5 <= 55)
+C0 = (0.75, 1.05); RS = (0, 1); K_B = 0.808;  # 0.57 rescaled once (plan 3.3): TV check +0.446 < 0.45; x (0.67 + 0.090) / (0.446 + 0.090)
+K_B_ROUND1 = 0.57; NF = 512; F5 = np.fft.rfftfreq(NF, DT); FIT = (F5 >= 10) & (F5 <= 55)
 fq.STRUCT.update(STRUCT); fq.NOISE.update(NOISE); fq.GEO_SEED.update(GEO_SEED); fq.RC_SEED.update(RC_SEED)
 IDS = [f"Z{k}_c{c}_r{r}" for k in STRUCT for c in C0 for r in RS]
 

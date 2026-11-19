@@ -53,7 +53,7 @@ def check():
     out = {}
     for var, key in (("K0", "signal"), ("TV", "signal_TV"), ("ST", "signal_ST")):
         r = np.array([np.log(amp(D, 2.3, 2.8) / amp(D, 1.2, 1.6)) for D in
-                      (lambda a: a[key] + a["noise"] for a in (fq6.load(i)[0] for i in fq6.IDS))])
+                      (a[key] + a["noise"] for a in (fq6.load(i)[0] for i in fq6.IDS))])
         m = r.mean(0); FIT = fq6.FIT; p1 = np.polyfit(fq6.F5[FIT], m[FIT], 1)
         out[var] = dict(curvature=fq6.curvature(m), dtstar_fit=float(-p1[0] / np.pi),
                         curvature_per_set=[fq6.curvature(q) for q in r])

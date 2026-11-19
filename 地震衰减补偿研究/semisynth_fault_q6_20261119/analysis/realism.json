@@ -1,0 +1,26 @@
+{
+ "P": {
+  "inline": 10023,
+  "decay_slope_real": -0.09080026836935107
+ },
+ "R": {
+  "inline": 10047,
+  "decay_slope_real": -0.09158874837199557
+ },
+ "S": {
+  "inline": 10073,
+  "decay_slope_real": -0.08971539358438199
+ },
+ "T": {
+  "inline": 10123,
+  "decay_slope_real": -0.09616594853994705
+ },
+ "U": {
+  "inline": 10167,
+  "decay_slope_real": -0.10493852354910554
+ },
+ "V": {
+  "inline": 10191,
+  "decay_slope_real": -0.10473832752810414
+ }
+}
