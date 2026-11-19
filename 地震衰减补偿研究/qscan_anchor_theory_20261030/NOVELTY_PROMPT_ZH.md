@@ -1,5 +1,8 @@
 # 查新提示词 3：扫描 Q 选择中的子波锚定（κ 理论）与 QScan 偏差机制
 
+> **查新结果（2026-11-19 补注，提示词原文不改）：** 见 `novelty_reports_20261119/NOVELTY_RESULTS_ZH.md`。
+
+
 2026-11-19 起草。对应本目录（论文初稿 `PAPER_DRAFT_ZH.md`），以及 `physics_bias_20261024`、`qscan_offset_20261025`、`yan_criterion_20261026`、`fd2d_20261025`、`qscan_orig_solver_20261106`、`qscan_c1_factor_20261106`。已有的文献核对见本目录 `LITERATURE_CHECK_ZH.md`（Crossref 逐篇核对过题录）。这次主要补 WoS、CNKI 和全文。下面分隔线之间的内容整段粘贴给有联网检索能力的模型即可。
 
 ---

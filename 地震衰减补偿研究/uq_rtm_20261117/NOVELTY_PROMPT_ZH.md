@@ -1,5 +1,8 @@
 # 查新提示词 1：Q 不确定度下的期望补偿算子（叠后 UQ-IQ / UQ-W / CBL ＋ 叠前 UQ 逆时偏移）
 
+> **引文更正（2026-11-19 查新后补注，提示词原文不改）：** “Zhao, Mao & Ren 2018”实为 Wang, Zhou, Chen & Chen (2018), *Geophysics* 83(1), S15–S32；Eldar & Merhav (2005) 发表于 *IEEE Trans. Signal Processing* 53(4), 1335–1347（doi:10.1109/TSP.2005.843701），不是 IEEE TIT；CSEG 2009 摘要为 Changjun Zhang (2009)。期望 Wiener 形式的出处为 Slepian (1967, JOSA)。查新结果见 `novelty_reports_20261119/NOVELTY_RESULTS_ZH.md`。
+
+
 2026-11-19 起草。叠后部分对应 `qunknown_comp_20261109`，叠前部分对应本目录。已有的公开渠道预查见本目录 `LIT_PRECHECK_ZH.md` 和 `qunknown_comp_20261109/DESIGN_ZH.md` 第 2.4 节。下面分隔线之间的内容整段粘贴给有联网检索能力的模型即可。
 
 ---

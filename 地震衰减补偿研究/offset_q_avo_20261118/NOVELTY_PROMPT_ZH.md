@@ -1,5 +1,8 @@
 # 查新提示词 2：叠前 Q 补偿的 AVO 误差预算与炮检距谱比自校准
 
+> **查新结果（2026-11-19 补注，提示词原文不改）：** 见 `novelty_reports_20261119/NOVELTY_RESULTS_ZH.md`。
+
+
 2026-11-19 起草。对应本目录、`uq_avo_20261118` 和 `avo_bias_theory_20261106`（论文提纲见本目录 `PAPER_OUTLINE_ZH.md`）。已有的公开渠道初查见 `avo_bias_theory_20261106/LITERATURE_ZH.md`（Ratnett 2019 全文已读）。下面分隔线之间的内容整段粘贴给有联网检索能力的模型即可。
 
 ---
