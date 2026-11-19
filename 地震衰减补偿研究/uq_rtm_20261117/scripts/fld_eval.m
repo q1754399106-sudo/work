@@ -1,7 +1,9 @@
-function fld_eval()
+function fld_eval(imgfile,sfx)
+if nargin<1,imgfile='images.mat';end
+if nargin<2,sfx='';end
 % Stage-4 descriptive indicators (PLAN_STAGE4_ZH.md section 4) and figures. analysis/stage4_field.json,
 % figures/field_*.png.
-P=fld_setup();I=load(fullfile(P.cache,'images.mat'));S=load(fullfile(P.cache,'inv.mat'));
+P=fld_setup();I=load(fullfile(P.cache,imgfile));S=load(fullfile(P.cache,'inv.mat'));
 z=P.z(P.in{1});x=P.x(P.in{2});meth=[{'R0'} I.meta.methods];ms=I.meta.m;
 img=@(q,k) prep(I.(q)(:,min(k,size(I.(q),2))),P);
 wz=z>=2600&z<=3200;wx=x>=-2500&x<=1500;
@@ -32,7 +34,7 @@ for w={'F-5','F-14'}
 end
 % ---- 3. image-domain SNR in the reservoir window ----
 wr=wz'&wx;R.snr_med=1./median(S.iv(wr(:),:),1);R.f=P.f;R.fcut=I.meta.fcut;R.m=ms;R.methods=meth;
-out=fullfile(P.root,'analysis');fid=fopen(fullfile(out,'stage4_field.json'),'w');fprintf(fid,'%s',jsonencode(R,'PrettyPrint',true));fclose(fid);
+out=fullfile(P.root,'analysis');fid=fopen(fullfile(out,['stage4_field' sfx '.json']),'w');fprintf(fid,'%s',jsonencode(R,'PrettyPrint',true));fclose(fid);
 % ---- figures ----
 set(0,'DefaultAxesFontName','Microsoft YaHei','DefaultTextFontName','Microsoft YaHei','DefaultAxesFontSize',9);
 zz=z>=1500&z<=3400;ref=img('R0',1);
@@ -44,7 +46,7 @@ for p=1:size(pans,1)
  nexttile;imagesc(x/1000,z(zz),A(zz,:),[-c c]);colormap(gray);title(pans{p,3});hold on
  plot([-1.275 -1.118],[2570 3170],'r-','LineWidth',1.5);if mod(p,3)==1,ylabel('深度（m）');end;if p>6,xlabel('测线坐标（km，平台为 0）');end
 end
-exportgraphics(f,fullfile(P.root,'figures','field_images.png'),'Resolution',120);close(f);
+exportgraphics(f,fullfile(P.root,'figures',['field_images' sfx '.png']),'Resolution',120);close(f);
 f=figure('Visible','off','Position',[0 0 1500 450]);tiledlayout(1,3,'TileSpacing','compact','Padding','compact');
 cl=lines(8);mm={'PH','IQ30','IQ70','LP','W0','W1','UQW0','UQW1'};
 nexttile;hold on;for i=1:numel(mm),plot(ms,R.(mm{i}).cen,'-o','Color',cl(i,:),'LineWidth',1+1.5*strcmp(mm{i},'UQW1'),'DisplayName',mm{i});end
@@ -52,7 +54,7 @@ yline(R.R0.cen,'k--','R0','HandleVisibility','off');set(gca,'XScale','log');grid
 nexttile;hold on;for i=1:numel(mm),plot(ms,R.(mm{i}).tie_F5,'-o','Color',cl(i,:),'LineWidth',1+1.5*strcmp(mm{i},'UQW1'));end
 yline(R.R0.tie_F5,'k--','R0');set(gca,'XScale','log');grid on;xlabel('Q 乘子 m');ylabel('相关系数');title('F-5 井旁相关');
 nexttile;plot(P.f,10*log10(R.snr_med),'k','LineWidth',1.4);grid on;xlabel('频率（Hz）');ylabel('dB');title('储层窗成像域信噪比（估计，中位数）');
-exportgraphics(f,fullfile(P.root,'figures','field_metrics.png'),'Resolution',140);close(f);
+exportgraphics(f,fullfile(P.root,'figures',['field_metrics' sfx '.png']),'Resolution',140);close(f);
 end
 
 function [b,c]=band(k,s)
