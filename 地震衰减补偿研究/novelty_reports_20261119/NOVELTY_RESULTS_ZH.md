@@ -93,6 +93,8 @@ SHA-256：见 `SHA256SUMS.txt`。
 
 报告中以下条目只读到摘要、片段或题录，或题录信息不完整：
 
+> **2026-11-20 进展（AVO 论文部分）：**“Obtaining effective Q factors at different offsets from CMP records”已在 GeoScienceWorld 原文页面核实为 Wu J Z, Shi Y. *Geophysics*, 2026, 91(4): S93–S100，DOI 10.1190/GEO-2025-0353（只读到摘要）；程万里等 2023、张瑾等 2022 已在知网与本刊官网核实；Luh 1993 不存在单独署名的文献，论文改引 Luh 1988 SEG 扩展摘要。详见 `offset_q_avo_20261118/PAPER_DRAFT_ZH.md` 的“参考文献核对记录”。WO2002065372A1 说明书全文仍未读。
+
 **子波锚定：**
 - Cheng, L. et al. (2025). *Geophysics* 90(5), R275–R284. doi:10.1190/geo2024-0746.1（只读正文片段；需核实测子波窗位置）
 - Aghamiry, H. S., & Gholami, A. (2018). *Geophysics* 83(4), V233–V242. doi:10.1190/geo2017-0001.1（片段）
