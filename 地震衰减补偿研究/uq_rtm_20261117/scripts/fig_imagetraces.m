@@ -10,18 +10,18 @@ pan={'参照（无衰减、无噪声）',ref;'不补偿',nrm(prep(S.m30.R0,P));
  '反 Q 70 dB，m = 0.5',nrm(img('IQ70',.5));'W1（只用信噪比），m = 0.5',nrm(img('W1',.5));'UQ（本文），m = 0.5',nrm(img('UQW1',.5));
  '反 Q 70 dB，m = 1',nrm(img('IQ70',1));'W1，m = 1',nrm(img('W1',1));'UQ（本文），m = 1',nrm(img('UQW1',1))};
 set(0,'DefaultAxesFontName','Microsoft YaHei','DefaultTextFontName','Microsoft YaHei','DefaultAxesFontSize',9);
-xs=600:100:1800;[~,jx]=min(abs(x(:)-xs),[],1);sc=prctile(abs(ref(iz,jx)),99.5,'all');
+xs=600:20:1800;[~,jx]=min(abs(x(:)-xs),[],1);sc=prctile(abs(ref(iz,jx)),99.5,'all');
 f=figure('Visible','off','Position',[0 0 1900 820]);tl=tiledlayout(2,4,'TileSpacing','compact','Padding','compact');
 for p=1:8
  nexttile;hold on;A=pan{p,2};
  for j=1:numel(jx)
-  s=max(min(A(iz,jx(j))/sc*45,80),-80);x0=xs(j);zz=z(iz)';
-  fill([x0+max(s,0);x0*ones(size(s))],[zz;flipud(zz)],'k','EdgeColor','none');plot(x0+s,zz,'k','LineWidth',.4);
+  s=max(min(A(iz,jx(j))/sc*14,30),-30);x0=xs(j);zz=z(iz)';
+  fill([x0+max(s,0);x0*ones(size(s))],[zz;flipud(zz)],'k','EdgeColor','none');plot(x0+s,zz,'k','LineWidth',.3);
  end
  set(gca,'YDir','reverse');ylim([600 1550]);xlim([520 1880]);box on;grid on;title(pan{p,1});
  if mod(p,4)==1,ylabel('深度（m）');end;if p>4,xlabel('x（m）');end
 end
-title(tl,sprintf('%s 偏移成像的“道”（x = 600–1800 m，每 100 m 一道；道上 −30 dB；各图能量对齐到参照，只为显示）',name));
+title(tl,sprintf('%s 偏移成像的“道”（x = 600–1800 m，每 20 m 一道；道上 −30 dB；各图能量对齐到参照，只为显示）',name));
 exportgraphics(f,fullfile(P.root,'figures',['imagetraces_' name '.png']),'Resolution',140);close(f);
 % one trace at x = 1300 m, overlaid
 [~,j]=min(abs(x-1300));zz=z(iz);
