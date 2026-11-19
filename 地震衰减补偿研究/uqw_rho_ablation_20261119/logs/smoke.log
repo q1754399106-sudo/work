@@ -1,0 +1,19 @@
+semi c 0.352  generic GH path vs uqw.uqw rel 0.0e+00
+   V1 vs V0 at 1/snr = 0 rel 0.0e+00
+   V1 vs V0 at sig = 0 rel 1.2e-16
+   V2 nodes 256 vs 512 rel 1.7e-15
+   V3 nodes 256 vs 512 rel 3.3e-15
+   V0d nodes 1024 vs 2048 rel 2.9e-12
+   V0d vs V0 (quadrature difference, output rel) 2.6e-01
+semi c 1.407  generic GH path vs uqw.uqw rel 0.0e+00
+   V1 vs V0 at 1/snr = 0 rel 0.0e+00
+   V1 vs V0 at sig = 0 rel 1.3e-15
+   V2 nodes 256 vs 512 rel 4.9e-15
+   V3 nodes 256 vs 512 rel 4.1e-15
+   V0d nodes 1024 vs 2048 rel 1.1e-12
+   V0d vs V0 (quadrature difference, output rel) 9.8e-02
+V2 nodes u 0.500..2.000, weights sum 1.000000000000
+V3 nodes u 0.100..2.000
+FD H1 (smoke noise seed 1) m 0.5: all finite True, 160s for one c
+FD generic GH path vs uqw.uqw rel 0.0e+00
+smoke OK  1341s
