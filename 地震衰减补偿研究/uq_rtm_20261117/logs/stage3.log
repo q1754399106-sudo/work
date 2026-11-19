@@ -1,0 +1,981 @@
+=== stage 3 start 2026-11-18 23:24:56
+=== shots done 2026-11-19 01:47:53
+prep_data C1: signal rms (1.2-1.8 s, |o|<=600 m) 1.33e-09
+est C1 f  3.0 Hz (1/105): 29 s
+est C1 f  3.5 Hz (2/105): 30 s
+est C1 f  4.0 Hz (3/105): 28 s
+est C1 f  4.5 Hz (4/105): 28 s
+est C1 f  5.0 Hz (5/105): 28 s
+est C1 f  5.5 Hz (6/105): 27 s
+est C1 f  6.0 Hz (7/105): 27 s
+est C1 f  6.5 Hz (8/105): 27 s
+est C1 f  7.0 Hz (9/105): 27 s
+est C1 f  7.5 Hz (10/105): 27 s
+est C1 f  8.0 Hz (11/105): 27 s
+est C1 f  8.5 Hz (12/105): 27 s
+est C1 f  9.0 Hz (13/105): 28 s
+est C1 f  9.5 Hz (14/105): 27 s
+est C1 f 10.0 Hz (15/105): 27 s
+est C1 f 10.5 Hz (16/105): 27 s
+est C1 f 11.0 Hz (17/105): 27 s
+est C1 f 11.5 Hz (18/105): 27 s
+est C1 f 12.0 Hz (19/105): 27 s
+est C1 f 12.5 Hz (20/105): 27 s
+est C1 f 13.0 Hz (21/105): 27 s
+est C1 f 13.5 Hz (22/105): 27 s
+est C1 f 14.0 Hz (23/105): 27 s
+est C1 f 14.5 Hz (24/105): 27 s
+est C1 f 15.0 Hz (25/105): 27 s
+est C1 f 15.5 Hz (26/105): 28 s
+est C1 f 16.0 Hz (27/105): 27 s
+est C1 f 16.5 Hz (28/105): 28 s
+est C1 f 17.0 Hz (29/105): 27 s
+est C1 f 17.5 Hz (30/105): 27 s
+est C1 f 18.0 Hz (31/105): 27 s
+est C1 f 18.5 Hz (32/105): 27 s
+est C1 f 19.0 Hz (33/105): 27 s
+est C1 f 19.5 Hz (34/105): 27 s
+est C1 f 20.0 Hz (35/105): 28 s
+est C1 f 20.5 Hz (36/105): 27 s
+est C1 f 21.0 Hz (37/105): 27 s
+est C1 f 21.5 Hz (38/105): 27 s
+est C1 f 22.0 Hz (39/105): 27 s
+est C1 f 22.5 Hz (40/105): 27 s
+est C1 f 23.0 Hz (41/105): 27 s
+est C1 f 23.5 Hz (42/105): 27 s
+est C1 f 24.0 Hz (43/105): 27 s
+est C1 f 24.5 Hz (44/105): 28 s
+est C1 f 25.0 Hz (45/105): 27 s
+est C1 f 25.5 Hz (46/105): 27 s
+est C1 f 26.0 Hz (47/105): 27 s
+est C1 f 26.5 Hz (48/105): 27 s
+est C1 f 27.0 Hz (49/105): 27 s
+est C1 f 27.5 Hz (50/105): 27 s
+est C1 f 28.0 Hz (51/105): 28 s
+est C1 f 28.5 Hz (52/105): 27 s
+est C1 f 29.0 Hz (53/105): 28 s
+est C1 f 29.5 Hz (54/105): 28 s
+est C1 f 30.0 Hz (55/105): 27 s
+est C1 f 30.5 Hz (56/105): 27 s
+est C1 f 31.0 Hz (57/105): 28 s
+est C1 f 31.5 Hz (58/105): 28 s
+est C1 f 32.0 Hz (59/105): 28 s
+est C1 f 32.5 Hz (60/105): 27 s
+est C1 f 33.0 Hz (61/105): 28 s
+est C1 f 33.5 Hz (62/105): 28 s
+est C1 f 34.0 Hz (63/105): 28 s
+est C1 f 34.5 Hz (64/105): 28 s
+est C1 f 35.0 Hz (65/105): 27 s
+est C1 f 35.5 Hz (66/105): 28 s
+est C1 f 36.0 Hz (67/105): 28 s
+est C1 f 36.5 Hz (68/105): 28 s
+est C1 f 37.0 Hz (69/105): 28 s
+est C1 f 37.5 Hz (70/105): 28 s
+est C1 f 38.0 Hz (71/105): 28 s
+est C1 f 38.5 Hz (72/105): 28 s
+est C1 f 39.0 Hz (73/105): 28 s
+est C1 f 39.5 Hz (74/105): 28 s
+est C1 f 40.0 Hz (75/105): 28 s
+est C1 f 40.5 Hz (76/105): 29 s
+est C1 f 41.0 Hz (77/105): 29 s
+est C1 f 41.5 Hz (78/105): 29 s
+est C1 f 42.0 Hz (79/105): 28 s
+est C1 f 42.5 Hz (80/105): 28 s
+est C1 f 43.0 Hz (81/105): 28 s
+est C1 f 43.5 Hz (82/105): 28 s
+est C1 f 44.0 Hz (83/105): 28 s
+est C1 f 44.5 Hz (84/105): 28 s
+est C1 f 45.0 Hz (85/105): 28 s
+est C1 f 45.5 Hz (86/105): 27 s
+est C1 f 46.0 Hz (87/105): 28 s
+est C1 f 46.5 Hz (88/105): 28 s
+est C1 f 47.0 Hz (89/105): 28 s
+est C1 f 47.5 Hz (90/105): 28 s
+est C1 f 48.0 Hz (91/105): 28 s
+est C1 f 48.5 Hz (92/105): 28 s
+est C1 f 49.0 Hz (93/105): 28 s
+est C1 f 49.5 Hz (94/105): 27 s
+est C1 f 50.0 Hz (95/105): 27 s
+est C1 f 50.5 Hz (96/105): 27 s
+est C1 f 51.0 Hz (97/105): 28 s
+est C1 f 51.5 Hz (98/105): 28 s
+est C1 f 52.0 Hz (99/105): 28 s
+est C1 f 52.5 Hz (100/105): 28 s
+est C1 f 53.0 Hz (101/105): 28 s
+est C1 f 53.5 Hz (102/105): 28 s
+est C1 f 54.0 Hz (103/105): 28 s
+est C1 f 54.5 Hz (104/105): 28 s
+est C1 f 55.0 Hz (105/105): 28 s
+inv C1 m30: median 1/snr at 10/25/40 Hz: 0.0868 0.105 0.863
+inv C1 m40: median 1/snr at 10/25/40 Hz: 0.677 0.63 6.17
+inv C1 l30: median 1/snr at 10/25/40 Hz: 0.0452 0.0711 0.21
+fields C1 shot 10/51
+fields C1 shot 20/51
+fields C1 shot 30/51
+fields C1 shot 40/51
+fields C1 shot 50/51
+fields C1_E2 shot 10/51
+fields C1_E2 shot 20/51
+fields C1_E2 shot 30/51
+fields C1_E2 shot 40/51
+fields C1_E2 shot 50/51
+fields C1_E3 shot 10/51
+fields C1_E3 shot 20/51
+fields C1_E3 shot 30/51
+fields C1_E3 shot 40/51
+fields C1_E3 shot 50/51
+fields C1_E4_070 shot 10/51
+fields C1_E4_070 shot 20/51
+fields C1_E4_070 shot 30/51
+fields C1_E4_070 shot 40/51
+fields C1_E4_070 shot 50/51
+fields C1_E4_140 shot 10/51
+fields C1_E4_140 shot 20/51
+fields C1_E4_140 shot 30/51
+fields C1_E4_140 shot 40/51
+fields C1_E4_140 shot 50/51
+LP cut-off C1 m30: 38.0 Hz
+LP cut-off C1 m40: 10.0 Hz
+LP cut-off C1 l30: 55.0 Hz
+mig2 C1 f  3.0 Hz (1/105): 66 s
+mig2 C1 f  3.5 Hz (2/105): 66 s
+mig2 C1 f  4.0 Hz (3/105): 63 s
+mig2 C1 f  4.5 Hz (4/105): 64 s
+mig2 C1 f  5.0 Hz (5/105): 63 s
+mig2 C1 f  5.5 Hz (6/105): 62 s
+mig2 C1 f  6.0 Hz (7/105): 62 s
+mig2 C1 f  6.5 Hz (8/105): 62 s
+mig2 C1 f  7.0 Hz (9/105): 61 s
+mig2 C1 f  7.5 Hz (10/105): 69 s
+mig2 C1 f  8.0 Hz (11/105): 61 s
+mig2 C1 f  8.5 Hz (12/105): 61 s
+mig2 C1 f  9.0 Hz (13/105): 61 s
+mig2 C1 f  9.5 Hz (14/105): 61 s
+mig2 C1 f 10.0 Hz (15/105): 62 s
+mig2 C1 f 10.5 Hz (16/105): 61 s
+mig2 C1 f 11.0 Hz (17/105): 62 s
+mig2 C1 f 11.5 Hz (18/105): 61 s
+mig2 C1 f 12.0 Hz (19/105): 62 s
+mig2 C1 f 12.5 Hz (20/105): 69 s
+mig2 C1 f 13.0 Hz (21/105): 62 s
+mig2 C1 f 13.5 Hz (22/105): 62 s
+mig2 C1 f 14.0 Hz (23/105): 62 s
+mig2 C1 f 14.5 Hz (24/105): 62 s
+mig2 C1 f 15.0 Hz (25/105): 62 s
+mig2 C1 f 15.5 Hz (26/105): 61 s
+mig2 C1 f 16.0 Hz (27/105): 61 s
+mig2 C1 f 16.5 Hz (28/105): 62 s
+mig2 C1 f 17.0 Hz (29/105): 62 s
+mig2 C1 f 17.5 Hz (30/105): 69 s
+mig2 C1 f 18.0 Hz (31/105): 61 s
+mig2 C1 f 18.5 Hz (32/105): 62 s
+mig2 C1 f 19.0 Hz (33/105): 62 s
+mig2 C1 f 19.5 Hz (34/105): 62 s
+mig2 C1 f 20.0 Hz (35/105): 62 s
+mig2 C1 f 20.5 Hz (36/105): 63 s
+mig2 C1 f 21.0 Hz (37/105): 62 s
+mig2 C1 f 21.5 Hz (38/105): 62 s
+mig2 C1 f 22.0 Hz (39/105): 61 s
+mig2 C1 f 22.5 Hz (40/105): 70 s
+mig2 C1 f 23.0 Hz (41/105): 61 s
+mig2 C1 f 23.5 Hz (42/105): 61 s
+mig2 C1 f 24.0 Hz (43/105): 63 s
+mig2 C1 f 24.5 Hz (44/105): 62 s
+mig2 C1 f 25.0 Hz (45/105): 62 s
+mig2 C1 f 25.5 Hz (46/105): 61 s
+mig2 C1 f 26.0 Hz (47/105): 61 s
+mig2 C1 f 26.5 Hz (48/105): 62 s
+mig2 C1 f 27.0 Hz (49/105): 61 s
+mig2 C1 f 27.5 Hz (50/105): 70 s
+mig2 C1 f 28.0 Hz (51/105): 61 s
+mig2 C1 f 28.5 Hz (52/105): 61 s
+mig2 C1 f 29.0 Hz (53/105): 62 s
+mig2 C1 f 29.5 Hz (54/105): 62 s
+mig2 C1 f 30.0 Hz (55/105): 62 s
+mig2 C1 f 30.5 Hz (56/105): 62 s
+mig2 C1 f 31.0 Hz (57/105): 62 s
+mig2 C1 f 31.5 Hz (58/105): 62 s
+mig2 C1 f 32.0 Hz (59/105): 62 s
+mig2 C1 f 32.5 Hz (60/105): 69 s
+mig2 C1 f 33.0 Hz (61/105): 61 s
+mig2 C1 f 33.5 Hz (62/105): 62 s
+mig2 C1 f 34.0 Hz (63/105): 65 s
+mig2 C1 f 34.5 Hz (64/105): 63 s
+mig2 C1 f 35.0 Hz (65/105): 61 s
+mig2 C1 f 35.5 Hz (66/105): 63 s
+mig2 C1 f 36.0 Hz (67/105): 62 s
+mig2 C1 f 36.5 Hz (68/105): 61 s
+mig2 C1 f 37.0 Hz (69/105): 62 s
+mig2 C1 f 37.5 Hz (70/105): 69 s
+mig2 C1 f 38.0 Hz (71/105): 63 s
+mig2 C1 f 38.5 Hz (72/105): 61 s
+mig2 C1 f 39.0 Hz (73/105): 62 s
+mig2 C1 f 39.5 Hz (74/105): 61 s
+mig2 C1 f 40.0 Hz (75/105): 61 s
+mig2 C1 f 40.5 Hz (76/105): 62 s
+mig2 C1 f 41.0 Hz (77/105): 62 s
+mig2 C1 f 41.5 Hz (78/105): 62 s
+mig2 C1 f 42.0 Hz (79/105): 63 s
+mig2 C1 f 42.5 Hz (80/105): 69 s
+mig2 C1 f 43.0 Hz (81/105): 63 s
+mig2 C1 f 43.5 Hz (82/105): 63 s
+mig2 C1 f 44.0 Hz (83/105): 62 s
+mig2 C1 f 44.5 Hz (84/105): 62 s
+mig2 C1 f 45.0 Hz (85/105): 63 s
+mig2 C1 f 45.5 Hz (86/105): 63 s
+mig2 C1 f 46.0 Hz (87/105): 62 s
+mig2 C1 f 46.5 Hz (88/105): 62 s
+mig2 C1 f 47.0 Hz (89/105): 62 s
+mig2 C1 f 47.5 Hz (90/105): 69 s
+mig2 C1 f 48.0 Hz (91/105): 62 s
+mig2 C1 f 48.5 Hz (92/105): 62 s
+mig2 C1 f 49.0 Hz (93/105): 62 s
+mig2 C1 f 49.5 Hz (94/105): 61 s
+mig2 C1 f 50.0 Hz (95/105): 62 s
+mig2 C1 f 50.5 Hz (96/105): 63 s
+mig2 C1 f 51.0 Hz (97/105): 63 s
+mig2 C1 f 51.5 Hz (98/105): 63 s
+mig2 C1 f 52.0 Hz (99/105): 62 s
+mig2 C1 f 52.5 Hz (100/105): 71 s
+mig2 C1 f 53.0 Hz (101/105): 63 s
+mig2 C1 f 53.5 Hz (102/105): 62 s
+mig2 C1 f 54.0 Hz (103/105): 62 s
+mig2 C1 f 54.5 Hz (104/105): 62 s
+mig2 C1 f 55.0 Hz (105/105): 72 s
+prep_data C2: signal rms (1.2-1.8 s, |o|<=600 m) 1.3e-09
+est C2 f  3.0 Hz (1/105): 31 s
+est C2 f  3.5 Hz (2/105): 29 s
+est C2 f  4.0 Hz (3/105): 28 s
+est C2 f  4.5 Hz (4/105): 29 s
+est C2 f  5.0 Hz (5/105): 28 s
+est C2 f  5.5 Hz (6/105): 28 s
+est C2 f  6.0 Hz (7/105): 28 s
+est C2 f  6.5 Hz (8/105): 28 s
+est C2 f  7.0 Hz (9/105): 27 s
+est C2 f  7.5 Hz (10/105): 27 s
+est C2 f  8.0 Hz (11/105): 28 s
+est C2 f  8.5 Hz (12/105): 27 s
+est C2 f  9.0 Hz (13/105): 28 s
+est C2 f  9.5 Hz (14/105): 28 s
+est C2 f 10.0 Hz (15/105): 28 s
+est C2 f 10.5 Hz (16/105): 28 s
+est C2 f 11.0 Hz (17/105): 28 s
+est C2 f 11.5 Hz (18/105): 28 s
+est C2 f 12.0 Hz (19/105): 28 s
+est C2 f 12.5 Hz (20/105): 28 s
+est C2 f 13.0 Hz (21/105): 28 s
+est C2 f 13.5 Hz (22/105): 28 s
+est C2 f 14.0 Hz (23/105): 27 s
+est C2 f 14.5 Hz (24/105): 27 s
+est C2 f 15.0 Hz (25/105): 27 s
+est C2 f 15.5 Hz (26/105): 27 s
+est C2 f 16.0 Hz (27/105): 27 s
+est C2 f 16.5 Hz (28/105): 27 s
+est C2 f 17.0 Hz (29/105): 27 s
+est C2 f 17.5 Hz (30/105): 27 s
+est C2 f 18.0 Hz (31/105): 27 s
+est C2 f 18.5 Hz (32/105): 27 s
+est C2 f 19.0 Hz (33/105): 27 s
+est C2 f 19.5 Hz (34/105): 27 s
+est C2 f 20.0 Hz (35/105): 27 s
+est C2 f 20.5 Hz (36/105): 27 s
+est C2 f 21.0 Hz (37/105): 28 s
+est C2 f 21.5 Hz (38/105): 28 s
+est C2 f 22.0 Hz (39/105): 27 s
+est C2 f 22.5 Hz (40/105): 27 s
+est C2 f 23.0 Hz (41/105): 28 s
+est C2 f 23.5 Hz (42/105): 28 s
+est C2 f 24.0 Hz (43/105): 27 s
+est C2 f 24.5 Hz (44/105): 27 s
+est C2 f 25.0 Hz (45/105): 27 s
+est C2 f 25.5 Hz (46/105): 28 s
+est C2 f 26.0 Hz (47/105): 28 s
+est C2 f 26.5 Hz (48/105): 27 s
+est C2 f 27.0 Hz (49/105): 27 s
+est C2 f 27.5 Hz (50/105): 27 s
+est C2 f 28.0 Hz (51/105): 28 s
+est C2 f 28.5 Hz (52/105): 28 s
+est C2 f 29.0 Hz (53/105): 27 s
+est C2 f 29.5 Hz (54/105): 28 s
+est C2 f 30.0 Hz (55/105): 27 s
+est C2 f 30.5 Hz (56/105): 27 s
+est C2 f 31.0 Hz (57/105): 27 s
+est C2 f 31.5 Hz (58/105): 28 s
+est C2 f 32.0 Hz (59/105): 27 s
+est C2 f 32.5 Hz (60/105): 28 s
+est C2 f 33.0 Hz (61/105): 27 s
+est C2 f 33.5 Hz (62/105): 27 s
+est C2 f 34.0 Hz (63/105): 28 s
+est C2 f 34.5 Hz (64/105): 28 s
+est C2 f 35.0 Hz (65/105): 28 s
+est C2 f 35.5 Hz (66/105): 28 s
+est C2 f 36.0 Hz (67/105): 28 s
+est C2 f 36.5 Hz (68/105): 28 s
+est C2 f 37.0 Hz (69/105): 28 s
+est C2 f 37.5 Hz (70/105): 28 s
+est C2 f 38.0 Hz (71/105): 28 s
+est C2 f 38.5 Hz (72/105): 28 s
+est C2 f 39.0 Hz (73/105): 28 s
+est C2 f 39.5 Hz (74/105): 28 s
+est C2 f 40.0 Hz (75/105): 28 s
+est C2 f 40.5 Hz (76/105): 28 s
+est C2 f 41.0 Hz (77/105): 28 s
+est C2 f 41.5 Hz (78/105): 27 s
+est C2 f 42.0 Hz (79/105): 28 s
+est C2 f 42.5 Hz (80/105): 27 s
+est C2 f 43.0 Hz (81/105): 27 s
+est C2 f 43.5 Hz (82/105): 27 s
+est C2 f 44.0 Hz (83/105): 27 s
+est C2 f 44.5 Hz (84/105): 27 s
+est C2 f 45.0 Hz (85/105): 27 s
+est C2 f 45.5 Hz (86/105): 28 s
+est C2 f 46.0 Hz (87/105): 28 s
+est C2 f 46.5 Hz (88/105): 28 s
+est C2 f 47.0 Hz (89/105): 28 s
+est C2 f 47.5 Hz (90/105): 28 s
+est C2 f 48.0 Hz (91/105): 28 s
+est C2 f 48.5 Hz (92/105): 28 s
+est C2 f 49.0 Hz (93/105): 27 s
+est C2 f 49.5 Hz (94/105): 27 s
+est C2 f 50.0 Hz (95/105): 27 s
+est C2 f 50.5 Hz (96/105): 28 s
+est C2 f 51.0 Hz (97/105): 28 s
+est C2 f 51.5 Hz (98/105): 27 s
+est C2 f 52.0 Hz (99/105): 28 s
+est C2 f 52.5 Hz (100/105): 28 s
+est C2 f 53.0 Hz (101/105): 28 s
+est C2 f 53.5 Hz (102/105): 29 s
+est C2 f 54.0 Hz (103/105): 28 s
+est C2 f 54.5 Hz (104/105): 29 s
+est C2 f 55.0 Hz (105/105): 29 s
+inv C2 m30: median 1/snr at 10/25/40 Hz: 0.164 0.117 1.2
+inv C2 m40: median 1/snr at 10/25/40 Hz: 0.81 0.6 4.81
+inv C2 l30: median 1/snr at 10/25/40 Hz: 0.0565 0.076 0.203
+fields C2 shot 10/51
+fields C2 shot 20/51
+fields C2 shot 30/51
+fields C2 shot 40/51
+fields C2 shot 50/51
+fields C2_E2 shot 10/51
+fields C2_E2 shot 20/51
+fields C2_E2 shot 30/51
+fields C2_E2 shot 40/51
+fields C2_E2 shot 50/51
+fields C2_E3 shot 10/51
+fields C2_E3 shot 20/51
+fields C2_E3 shot 30/51
+fields C2_E3 shot 40/51
+fields C2_E3 shot 50/51
+fields C2_E4_070 shot 10/51
+fields C2_E4_070 shot 20/51
+fields C2_E4_070 shot 30/51
+fields C2_E4_070 shot 40/51
+fields C2_E4_070 shot 50/51
+fields C2_E4_140 shot 10/51
+fields C2_E4_140 shot 20/51
+fields C2_E4_140 shot 30/51
+fields C2_E4_140 shot 40/51
+fields C2_E4_140 shot 50/51
+LP cut-off C2 m30: 34.0 Hz
+LP cut-off C2 m40: 10.0 Hz
+LP cut-off C2 l30: 55.0 Hz
+mig2 C2 f  3.0 Hz (1/105): 61 s
+mig2 C2 f  3.5 Hz (2/105): 61 s
+mig2 C2 f  4.0 Hz (3/105): 62 s
+mig2 C2 f  4.5 Hz (4/105): 63 s
+mig2 C2 f  5.0 Hz (5/105): 61 s
+mig2 C2 f  5.5 Hz (6/105): 61 s
+mig2 C2 f  6.0 Hz (7/105): 61 s
+mig2 C2 f  6.5 Hz (8/105): 61 s
+mig2 C2 f  7.0 Hz (9/105): 60 s
+mig2 C2 f  7.5 Hz (10/105): 68 s
+mig2 C2 f  8.0 Hz (11/105): 61 s
+mig2 C2 f  8.5 Hz (12/105): 62 s
+mig2 C2 f  9.0 Hz (13/105): 61 s
+mig2 C2 f  9.5 Hz (14/105): 61 s
+mig2 C2 f 10.0 Hz (15/105): 62 s
+mig2 C2 f 10.5 Hz (16/105): 61 s
+mig2 C2 f 11.0 Hz (17/105): 61 s
+mig2 C2 f 11.5 Hz (18/105): 61 s
+mig2 C2 f 12.0 Hz (19/105): 61 s
+mig2 C2 f 12.5 Hz (20/105): 69 s
+mig2 C2 f 13.0 Hz (21/105): 62 s
+mig2 C2 f 13.5 Hz (22/105): 61 s
+mig2 C2 f 14.0 Hz (23/105): 61 s
+mig2 C2 f 14.5 Hz (24/105): 61 s
+mig2 C2 f 15.0 Hz (25/105): 61 s
+mig2 C2 f 15.5 Hz (26/105): 63 s
+mig2 C2 f 16.0 Hz (27/105): 61 s
+mig2 C2 f 16.5 Hz (28/105): 61 s
+mig2 C2 f 17.0 Hz (29/105): 61 s
+mig2 C2 f 17.5 Hz (30/105): 70 s
+mig2 C2 f 18.0 Hz (31/105): 66 s
+mig2 C2 f 18.5 Hz (32/105): 65 s
+mig2 C2 f 19.0 Hz (33/105): 62 s
+mig2 C2 f 19.5 Hz (34/105): 61 s
+mig2 C2 f 20.0 Hz (35/105): 61 s
+mig2 C2 f 20.5 Hz (36/105): 62 s
+mig2 C2 f 21.0 Hz (37/105): 61 s
+mig2 C2 f 21.5 Hz (38/105): 61 s
+mig2 C2 f 22.0 Hz (39/105): 61 s
+mig2 C2 f 22.5 Hz (40/105): 69 s
+mig2 C2 f 23.0 Hz (41/105): 61 s
+mig2 C2 f 23.5 Hz (42/105): 61 s
+mig2 C2 f 24.0 Hz (43/105): 62 s
+mig2 C2 f 24.5 Hz (44/105): 61 s
+mig2 C2 f 25.0 Hz (45/105): 61 s
+mig2 C2 f 25.5 Hz (46/105): 61 s
+mig2 C2 f 26.0 Hz (47/105): 61 s
+mig2 C2 f 26.5 Hz (48/105): 61 s
+mig2 C2 f 27.0 Hz (49/105): 61 s
+mig2 C2 f 27.5 Hz (50/105): 69 s
+mig2 C2 f 28.0 Hz (51/105): 61 s
+mig2 C2 f 28.5 Hz (52/105): 61 s
+mig2 C2 f 29.0 Hz (53/105): 61 s
+mig2 C2 f 29.5 Hz (54/105): 61 s
+mig2 C2 f 30.0 Hz (55/105): 62 s
+mig2 C2 f 30.5 Hz (56/105): 62 s
+mig2 C2 f 31.0 Hz (57/105): 62 s
+mig2 C2 f 31.5 Hz (58/105): 61 s
+mig2 C2 f 32.0 Hz (59/105): 61 s
+mig2 C2 f 32.5 Hz (60/105): 69 s
+mig2 C2 f 33.0 Hz (61/105): 61 s
+mig2 C2 f 33.5 Hz (62/105): 64 s
+mig2 C2 f 34.0 Hz (63/105): 62 s
+mig2 C2 f 34.5 Hz (64/105): 62 s
+mig2 C2 f 35.0 Hz (65/105): 62 s
+mig2 C2 f 35.5 Hz (66/105): 62 s
+mig2 C2 f 36.0 Hz (67/105): 62 s
+mig2 C2 f 36.5 Hz (68/105): 62 s
+mig2 C2 f 37.0 Hz (69/105): 62 s
+mig2 C2 f 37.5 Hz (70/105): 70 s
+mig2 C2 f 38.0 Hz (71/105): 62 s
+mig2 C2 f 38.5 Hz (72/105): 62 s
+mig2 C2 f 39.0 Hz (73/105): 64 s
+mig2 C2 f 39.5 Hz (74/105): 63 s
+mig2 C2 f 40.0 Hz (75/105): 62 s
+mig2 C2 f 40.5 Hz (76/105): 61 s
+mig2 C2 f 41.0 Hz (77/105): 62 s
+mig2 C2 f 41.5 Hz (78/105): 62 s
+mig2 C2 f 42.0 Hz (79/105): 62 s
+mig2 C2 f 42.5 Hz (80/105): 70 s
+mig2 C2 f 43.0 Hz (81/105): 61 s
+mig2 C2 f 43.5 Hz (82/105): 62 s
+mig2 C2 f 44.0 Hz (83/105): 62 s
+mig2 C2 f 44.5 Hz (84/105): 62 s
+mig2 C2 f 45.0 Hz (85/105): 61 s
+mig2 C2 f 45.5 Hz (86/105): 62 s
+mig2 C2 f 46.0 Hz (87/105): 61 s
+mig2 C2 f 46.5 Hz (88/105): 62 s
+mig2 C2 f 47.0 Hz (89/105): 62 s
+mig2 C2 f 47.5 Hz (90/105): 74 s
+mig2 C2 f 48.0 Hz (91/105): 63 s
+mig2 C2 f 48.5 Hz (92/105): 62 s
+mig2 C2 f 49.0 Hz (93/105): 62 s
+mig2 C2 f 49.5 Hz (94/105): 62 s
+mig2 C2 f 50.0 Hz (95/105): 62 s
+mig2 C2 f 50.5 Hz (96/105): 62 s
+mig2 C2 f 51.0 Hz (97/105): 62 s
+mig2 C2 f 51.5 Hz (98/105): 61 s
+mig2 C2 f 52.0 Hz (99/105): 61 s
+mig2 C2 f 52.5 Hz (100/105): 69 s
+mig2 C2 f 53.0 Hz (101/105): 62 s
+mig2 C2 f 53.5 Hz (102/105): 62 s
+mig2 C2 f 54.0 Hz (103/105): 62 s
+mig2 C2 f 54.5 Hz (104/105): 62 s
+mig2 C2 f 55.0 Hz (105/105): 70 s
+prep_data C3: signal rms (1.2-1.8 s, |o|<=600 m) 1.45e-09
+est C3 f  3.0 Hz (1/105): 27 s
+est C3 f  3.5 Hz (2/105): 27 s
+est C3 f  4.0 Hz (3/105): 27 s
+est C3 f  4.5 Hz (4/105): 27 s
+est C3 f  5.0 Hz (5/105): 27 s
+est C3 f  5.5 Hz (6/105): 27 s
+est C3 f  6.0 Hz (7/105): 27 s
+est C3 f  6.5 Hz (8/105): 27 s
+est C3 f  7.0 Hz (9/105): 27 s
+est C3 f  7.5 Hz (10/105): 27 s
+est C3 f  8.0 Hz (11/105): 27 s
+est C3 f  8.5 Hz (12/105): 27 s
+est C3 f  9.0 Hz (13/105): 27 s
+est C3 f  9.5 Hz (14/105): 27 s
+est C3 f 10.0 Hz (15/105): 27 s
+est C3 f 10.5 Hz (16/105): 27 s
+est C3 f 11.0 Hz (17/105): 28 s
+est C3 f 11.5 Hz (18/105): 28 s
+est C3 f 12.0 Hz (19/105): 27 s
+est C3 f 12.5 Hz (20/105): 27 s
+est C3 f 13.0 Hz (21/105): 27 s
+est C3 f 13.5 Hz (22/105): 27 s
+est C3 f 14.0 Hz (23/105): 27 s
+est C3 f 14.5 Hz (24/105): 27 s
+est C3 f 15.0 Hz (25/105): 27 s
+est C3 f 15.5 Hz (26/105): 27 s
+est C3 f 16.0 Hz (27/105): 28 s
+est C3 f 16.5 Hz (28/105): 27 s
+est C3 f 17.0 Hz (29/105): 27 s
+est C3 f 17.5 Hz (30/105): 28 s
+est C3 f 18.0 Hz (31/105): 28 s
+est C3 f 18.5 Hz (32/105): 28 s
+est C3 f 19.0 Hz (33/105): 27 s
+est C3 f 19.5 Hz (34/105): 28 s
+est C3 f 20.0 Hz (35/105): 27 s
+est C3 f 20.5 Hz (36/105): 27 s
+est C3 f 21.0 Hz (37/105): 27 s
+est C3 f 21.5 Hz (38/105): 27 s
+est C3 f 22.0 Hz (39/105): 28 s
+est C3 f 22.5 Hz (40/105): 28 s
+est C3 f 23.0 Hz (41/105): 28 s
+est C3 f 23.5 Hz (42/105): 27 s
+est C3 f 24.0 Hz (43/105): 27 s
+est C3 f 24.5 Hz (44/105): 28 s
+est C3 f 25.0 Hz (45/105): 27 s
+est C3 f 25.5 Hz (46/105): 29 s
+est C3 f 26.0 Hz (47/105): 28 s
+est C3 f 26.5 Hz (48/105): 27 s
+est C3 f 27.0 Hz (49/105): 28 s
+est C3 f 27.5 Hz (50/105): 28 s
+est C3 f 28.0 Hz (51/105): 27 s
+est C3 f 28.5 Hz (52/105): 27 s
+est C3 f 29.0 Hz (53/105): 28 s
+est C3 f 29.5 Hz (54/105): 28 s
+est C3 f 30.0 Hz (55/105): 27 s
+est C3 f 30.5 Hz (56/105): 27 s
+est C3 f 31.0 Hz (57/105): 27 s
+est C3 f 31.5 Hz (58/105): 28 s
+est C3 f 32.0 Hz (59/105): 27 s
+est C3 f 32.5 Hz (60/105): 27 s
+est C3 f 33.0 Hz (61/105): 28 s
+est C3 f 33.5 Hz (62/105): 28 s
+est C3 f 34.0 Hz (63/105): 28 s
+est C3 f 34.5 Hz (64/105): 28 s
+est C3 f 35.0 Hz (65/105): 28 s
+est C3 f 35.5 Hz (66/105): 28 s
+est C3 f 36.0 Hz (67/105): 28 s
+est C3 f 36.5 Hz (68/105): 28 s
+est C3 f 37.0 Hz (69/105): 27 s
+est C3 f 37.5 Hz (70/105): 28 s
+est C3 f 38.0 Hz (71/105): 27 s
+est C3 f 38.5 Hz (72/105): 28 s
+est C3 f 39.0 Hz (73/105): 27 s
+est C3 f 39.5 Hz (74/105): 27 s
+est C3 f 40.0 Hz (75/105): 28 s
+est C3 f 40.5 Hz (76/105): 28 s
+est C3 f 41.0 Hz (77/105): 27 s
+est C3 f 41.5 Hz (78/105): 27 s
+est C3 f 42.0 Hz (79/105): 28 s
+est C3 f 42.5 Hz (80/105): 28 s
+est C3 f 43.0 Hz (81/105): 28 s
+est C3 f 43.5 Hz (82/105): 28 s
+est C3 f 44.0 Hz (83/105): 28 s
+est C3 f 44.5 Hz (84/105): 27 s
+est C3 f 45.0 Hz (85/105): 28 s
+est C3 f 45.5 Hz (86/105): 28 s
+est C3 f 46.0 Hz (87/105): 27 s
+est C3 f 46.5 Hz (88/105): 27 s
+est C3 f 47.0 Hz (89/105): 28 s
+est C3 f 47.5 Hz (90/105): 28 s
+est C3 f 48.0 Hz (91/105): 28 s
+est C3 f 48.5 Hz (92/105): 28 s
+est C3 f 49.0 Hz (93/105): 28 s
+est C3 f 49.5 Hz (94/105): 28 s
+est C3 f 50.0 Hz (95/105): 28 s
+est C3 f 50.5 Hz (96/105): 28 s
+est C3 f 51.0 Hz (97/105): 28 s
+est C3 f 51.5 Hz (98/105): 28 s
+est C3 f 52.0 Hz (99/105): 28 s
+est C3 f 52.5 Hz (100/105): 28 s
+est C3 f 53.0 Hz (101/105): 27 s
+est C3 f 53.5 Hz (102/105): 28 s
+est C3 f 54.0 Hz (103/105): 28 s
+est C3 f 54.5 Hz (104/105): 28 s
+est C3 f 55.0 Hz (105/105): 28 s
+inv C3 m30: median 1/snr at 10/25/40 Hz: 0.101 0.102 1.23
+inv C3 m40: median 1/snr at 10/25/40 Hz: 0.929 0.651 6.82
+inv C3 l30: median 1/snr at 10/25/40 Hz: 0.047 0.0781 0.227
+fields C3 shot 10/51
+fields C3 shot 20/51
+fields C3 shot 30/51
+fields C3 shot 40/51
+fields C3 shot 50/51
+fields C3_E2 shot 10/51
+fields C3_E2 shot 20/51
+fields C3_E2 shot 30/51
+fields C3_E2 shot 40/51
+fields C3_E2 shot 50/51
+fields C3_E3 shot 10/51
+fields C3_E3 shot 20/51
+fields C3_E3 shot 30/51
+fields C3_E3 shot 40/51
+fields C3_E3 shot 50/51
+fields C3_E4_070 shot 10/51
+fields C3_E4_070 shot 20/51
+fields C3_E4_070 shot 30/51
+fields C3_E4_070 shot 40/51
+fields C3_E4_070 shot 50/51
+fields C3_E4_140 shot 10/51
+fields C3_E4_140 shot 20/51
+fields C3_E4_140 shot 30/51
+fields C3_E4_140 shot 40/51
+fields C3_E4_140 shot 50/51
+LP cut-off C3 m30: 35.5 Hz
+LP cut-off C3 m40: 10.0 Hz
+LP cut-off C3 l30: 55.0 Hz
+mig2 C3 f  3.0 Hz (1/105): 60 s
+mig2 C3 f  3.5 Hz (2/105): 62 s
+mig2 C3 f  4.0 Hz (3/105): 61 s
+mig2 C3 f  4.5 Hz (4/105): 64 s
+mig2 C3 f  5.0 Hz (5/105): 63 s
+mig2 C3 f  5.5 Hz (6/105): 61 s
+mig2 C3 f  6.0 Hz (7/105): 64 s
+mig2 C3 f  6.5 Hz (8/105): 66 s
+mig2 C3 f  7.0 Hz (9/105): 65 s
+mig2 C3 f  7.5 Hz (10/105): 70 s
+mig2 C3 f  8.0 Hz (11/105): 61 s
+mig2 C3 f  8.5 Hz (12/105): 61 s
+mig2 C3 f  9.0 Hz (13/105): 60 s
+mig2 C3 f  9.5 Hz (14/105): 61 s
+mig2 C3 f 10.0 Hz (15/105): 61 s
+mig2 C3 f 10.5 Hz (16/105): 61 s
+mig2 C3 f 11.0 Hz (17/105): 61 s
+mig2 C3 f 11.5 Hz (18/105): 61 s
+mig2 C3 f 12.0 Hz (19/105): 61 s
+mig2 C3 f 12.5 Hz (20/105): 68 s
+mig2 C3 f 13.0 Hz (21/105): 61 s
+mig2 C3 f 13.5 Hz (22/105): 61 s
+mig2 C3 f 14.0 Hz (23/105): 61 s
+mig2 C3 f 14.5 Hz (24/105): 61 s
+mig2 C3 f 15.0 Hz (25/105): 61 s
+mig2 C3 f 15.5 Hz (26/105): 61 s
+mig2 C3 f 16.0 Hz (27/105): 62 s
+mig2 C3 f 16.5 Hz (28/105): 61 s
+mig2 C3 f 17.0 Hz (29/105): 61 s
+mig2 C3 f 17.5 Hz (30/105): 69 s
+mig2 C3 f 18.0 Hz (31/105): 61 s
+mig2 C3 f 18.5 Hz (32/105): 62 s
+mig2 C3 f 19.0 Hz (33/105): 62 s
+mig2 C3 f 19.5 Hz (34/105): 61 s
+mig2 C3 f 20.0 Hz (35/105): 61 s
+mig2 C3 f 20.5 Hz (36/105): 61 s
+mig2 C3 f 21.0 Hz (37/105): 61 s
+mig2 C3 f 21.5 Hz (38/105): 61 s
+mig2 C3 f 22.0 Hz (39/105): 61 s
+mig2 C3 f 22.5 Hz (40/105): 69 s
+mig2 C3 f 23.0 Hz (41/105): 61 s
+mig2 C3 f 23.5 Hz (42/105): 61 s
+mig2 C3 f 24.0 Hz (43/105): 62 s
+mig2 C3 f 24.5 Hz (44/105): 61 s
+mig2 C3 f 25.0 Hz (45/105): 61 s
+mig2 C3 f 25.5 Hz (46/105): 62 s
+mig2 C3 f 26.0 Hz (47/105): 62 s
+mig2 C3 f 26.5 Hz (48/105): 61 s
+mig2 C3 f 27.0 Hz (49/105): 61 s
+mig2 C3 f 27.5 Hz (50/105): 69 s
+mig2 C3 f 28.0 Hz (51/105): 61 s
+mig2 C3 f 28.5 Hz (52/105): 61 s
+mig2 C3 f 29.0 Hz (53/105): 61 s
+mig2 C3 f 29.5 Hz (54/105): 61 s
+mig2 C3 f 30.0 Hz (55/105): 61 s
+mig2 C3 f 30.5 Hz (56/105): 61 s
+mig2 C3 f 31.0 Hz (57/105): 61 s
+mig2 C3 f 31.5 Hz (58/105): 61 s
+mig2 C3 f 32.0 Hz (59/105): 64 s
+mig2 C3 f 32.5 Hz (60/105): 71 s
+mig2 C3 f 33.0 Hz (61/105): 61 s
+mig2 C3 f 33.5 Hz (62/105): 61 s
+mig2 C3 f 34.0 Hz (63/105): 62 s
+mig2 C3 f 34.5 Hz (64/105): 62 s
+mig2 C3 f 35.0 Hz (65/105): 62 s
+mig2 C3 f 35.5 Hz (66/105): 88 s
+mig2 C3 f 36.0 Hz (67/105): 86 s
+mig2 C3 f 36.5 Hz (68/105): 86 s
+mig2 C3 f 37.0 Hz (69/105): 85 s
+mig2 C3 f 37.5 Hz (70/105): 97 s
+mig2 C3 f 38.0 Hz (71/105): 85 s
+mig2 C3 f 38.5 Hz (72/105): 85 s
+mig2 C3 f 39.0 Hz (73/105): 85 s
+mig2 C3 f 39.5 Hz (74/105): 86 s
+mig2 C3 f 40.0 Hz (75/105): 84 s
+mig2 C3 f 40.5 Hz (76/105): 85 s
+mig2 C3 f 41.0 Hz (77/105): 86 s
+mig2 C3 f 41.5 Hz (78/105): 85 s
+mig2 C3 f 42.0 Hz (79/105): 85 s
+mig2 C3 f 42.5 Hz (80/105): 94 s
+mig2 C3 f 43.0 Hz (81/105): 85 s
+mig2 C3 f 43.5 Hz (82/105): 85 s
+mig2 C3 f 44.0 Hz (83/105): 85 s
+mig2 C3 f 44.5 Hz (84/105): 85 s
+mig2 C3 f 45.0 Hz (85/105): 84 s
+mig2 C3 f 45.5 Hz (86/105): 85 s
+mig2 C3 f 46.0 Hz (87/105): 85 s
+mig2 C3 f 46.5 Hz (88/105): 86 s
+mig2 C3 f 47.0 Hz (89/105): 85 s
+mig2 C3 f 47.5 Hz (90/105): 87 s
+mig2 C3 f 48.0 Hz (91/105): 64 s
+mig2 C3 f 48.5 Hz (92/105): 64 s
+mig2 C3 f 49.0 Hz (93/105): 62 s
+mig2 C3 f 49.5 Hz (94/105): 62 s
+mig2 C3 f 50.0 Hz (95/105): 62 s
+mig2 C3 f 50.5 Hz (96/105): 62 s
+mig2 C3 f 51.0 Hz (97/105): 63 s
+mig2 C3 f 51.5 Hz (98/105): 66 s
+mig2 C3 f 52.0 Hz (99/105): 70 s
+mig2 C3 f 52.5 Hz (100/105): 74 s
+mig2 C3 f 53.0 Hz (101/105): 62 s
+mig2 C3 f 53.5 Hz (102/105): 59 s
+mig2 C3 f 54.0 Hz (103/105): 59 s
+mig2 C3 f 54.5 Hz (104/105): 58 s
+mig2 C3 f 55.0 Hz (105/105): 66 s
+prep_data C4: signal rms (1.2-1.8 s, |o|<=600 m) 1.17e-09
+est C4 f  3.0 Hz (1/105): 26 s
+est C4 f  3.5 Hz (2/105): 26 s
+est C4 f  4.0 Hz (3/105): 26 s
+est C4 f  4.5 Hz (4/105): 25 s
+est C4 f  5.0 Hz (5/105): 26 s
+est C4 f  5.5 Hz (6/105): 26 s
+est C4 f  6.0 Hz (7/105): 26 s
+est C4 f  6.5 Hz (8/105): 26 s
+est C4 f  7.0 Hz (9/105): 26 s
+est C4 f  7.5 Hz (10/105): 27 s
+est C4 f  8.0 Hz (11/105): 26 s
+est C4 f  8.5 Hz (12/105): 26 s
+est C4 f  9.0 Hz (13/105): 26 s
+est C4 f  9.5 Hz (14/105): 26 s
+est C4 f 10.0 Hz (15/105): 26 s
+est C4 f 10.5 Hz (16/105): 26 s
+est C4 f 11.0 Hz (17/105): 25 s
+est C4 f 11.5 Hz (18/105): 25 s
+est C4 f 12.0 Hz (19/105): 26 s
+est C4 f 12.5 Hz (20/105): 25 s
+est C4 f 13.0 Hz (21/105): 26 s
+est C4 f 13.5 Hz (22/105): 26 s
+est C4 f 14.0 Hz (23/105): 26 s
+est C4 f 14.5 Hz (24/105): 26 s
+est C4 f 15.0 Hz (25/105): 25 s
+est C4 f 15.5 Hz (26/105): 26 s
+est C4 f 16.0 Hz (27/105): 26 s
+est C4 f 16.5 Hz (28/105): 26 s
+est C4 f 17.0 Hz (29/105): 26 s
+est C4 f 17.5 Hz (30/105): 26 s
+est C4 f 18.0 Hz (31/105): 26 s
+est C4 f 18.5 Hz (32/105): 26 s
+est C4 f 19.0 Hz (33/105): 26 s
+est C4 f 19.5 Hz (34/105): 26 s
+est C4 f 20.0 Hz (35/105): 26 s
+est C4 f 20.5 Hz (36/105): 27 s
+est C4 f 21.0 Hz (37/105): 26 s
+est C4 f 21.5 Hz (38/105): 26 s
+est C4 f 22.0 Hz (39/105): 26 s
+est C4 f 22.5 Hz (40/105): 26 s
+est C4 f 23.0 Hz (41/105): 26 s
+est C4 f 23.5 Hz (42/105): 26 s
+est C4 f 24.0 Hz (43/105): 27 s
+est C4 f 24.5 Hz (44/105): 26 s
+est C4 f 25.0 Hz (45/105): 27 s
+est C4 f 25.5 Hz (46/105): 27 s
+est C4 f 26.0 Hz (47/105): 26 s
+est C4 f 26.5 Hz (48/105): 26 s
+est C4 f 27.0 Hz (49/105): 26 s
+est C4 f 27.5 Hz (50/105): 26 s
+est C4 f 28.0 Hz (51/105): 26 s
+est C4 f 28.5 Hz (52/105): 26 s
+est C4 f 29.0 Hz (53/105): 26 s
+est C4 f 29.5 Hz (54/105): 26 s
+est C4 f 30.0 Hz (55/105): 26 s
+est C4 f 30.5 Hz (56/105): 27 s
+est C4 f 31.0 Hz (57/105): 27 s
+est C4 f 31.5 Hz (58/105): 26 s
+est C4 f 32.0 Hz (59/105): 26 s
+est C4 f 32.5 Hz (60/105): 26 s
+est C4 f 33.0 Hz (61/105): 26 s
+est C4 f 33.5 Hz (62/105): 26 s
+est C4 f 34.0 Hz (63/105): 27 s
+est C4 f 34.5 Hz (64/105): 26 s
+est C4 f 35.0 Hz (65/105): 28 s
+est C4 f 35.5 Hz (66/105): 26 s
+est C4 f 36.0 Hz (67/105): 27 s
+est C4 f 36.5 Hz (68/105): 26 s
+est C4 f 37.0 Hz (69/105): 27 s
+est C4 f 37.5 Hz (70/105): 27 s
+est C4 f 38.0 Hz (71/105): 27 s
+est C4 f 38.5 Hz (72/105): 26 s
+est C4 f 39.0 Hz (73/105): 27 s
+est C4 f 39.5 Hz (74/105): 28 s
+est C4 f 40.0 Hz (75/105): 28 s
+est C4 f 40.5 Hz (76/105): 31 s
+est C4 f 41.0 Hz (77/105): 39 s
+est C4 f 41.5 Hz (78/105): 36 s
+est C4 f 42.0 Hz (79/105): 31 s
+est C4 f 42.5 Hz (80/105): 31 s
+est C4 f 43.0 Hz (81/105): 32 s
+est C4 f 43.5 Hz (82/105): 34 s
+est C4 f 44.0 Hz (83/105): 31 s
+est C4 f 44.5 Hz (84/105): 29 s
+est C4 f 45.0 Hz (85/105): 30 s
+est C4 f 45.5 Hz (86/105): 33 s
+est C4 f 46.0 Hz (87/105): 36 s
+est C4 f 46.5 Hz (88/105): 32 s
+est C4 f 47.0 Hz (89/105): 34 s
+est C4 f 47.5 Hz (90/105): 27 s
+est C4 f 48.0 Hz (91/105): 27 s
+est C4 f 48.5 Hz (92/105): 28 s
+est C4 f 49.0 Hz (93/105): 27 s
+est C4 f 49.5 Hz (94/105): 27 s
+est C4 f 50.0 Hz (95/105): 29 s
+est C4 f 50.5 Hz (96/105): 29 s
+est C4 f 51.0 Hz (97/105): 31 s
+est C4 f 51.5 Hz (98/105): 36 s
+est C4 f 52.0 Hz (99/105): 31 s
+est C4 f 52.5 Hz (100/105): 32 s
+est C4 f 53.0 Hz (101/105): 33 s
+est C4 f 53.5 Hz (102/105): 31 s
+est C4 f 54.0 Hz (103/105): 31 s
+est C4 f 54.5 Hz (104/105): 29 s
+est C4 f 55.0 Hz (105/105): 28 s
+inv C4 m30: median 1/snr at 10/25/40 Hz: 0.106 0.0545 0.213
+inv C4 m40: median 1/snr at 10/25/40 Hz: 0.664 0.277 1.78
+inv C4 l30: median 1/snr at 10/25/40 Hz: 0.0609 0.0427 0.135
+fields C4 shot 10/51
+fields C4 shot 20/51
+fields C4 shot 30/51
+fields C4 shot 40/51
+fields C4 shot 50/51
+fields C4_E2 shot 10/51
+fields C4_E2 shot 20/51
+fields C4_E2 shot 30/51
+fields C4_E2 shot 40/51
+fields C4_E2 shot 50/51
+fields C4_E3 shot 10/51
+fields C4_E3 shot 20/51
+fields C4_E3 shot 30/51
+fields C4_E3 shot 40/51
+fields C4_E3 shot 50/51
+fields C4_E4_070 shot 10/51
+fields C4_E4_070 shot 20/51
+fields C4_E4_070 shot 30/51
+fields C4_E4_070 shot 40/51
+fields C4_E4_070 shot 50/51
+fields C4_E4_140 shot 10/51
+fields C4_E4_140 shot 20/51
+fields C4_E4_140 shot 30/51
+fields C4_E4_140 shot 40/51
+fields C4_E4_140 shot 50/51
+LP cut-off C4 m30: 42.0 Hz
+LP cut-off C4 m40: 10.0 Hz
+LP cut-off C4 l30: 55.0 Hz
+mig2 C4 f  3.0 Hz (1/105): 63 s
+mig2 C4 f  3.5 Hz (2/105): 63 s
+mig2 C4 f  4.0 Hz (3/105): 73 s
+mig2 C4 f  4.5 Hz (4/105): 64 s
+mig2 C4 f  5.0 Hz (5/105): 64 s
+mig2 C4 f  5.5 Hz (6/105): 65 s
+mig2 C4 f  6.0 Hz (7/105): 64 s
+mig2 C4 f  6.5 Hz (8/105): 62 s
+mig2 C4 f  7.0 Hz (9/105): 62 s
+mig2 C4 f  7.5 Hz (10/105): 68 s
+mig2 C4 f  8.0 Hz (11/105): 60 s
+mig2 C4 f  8.5 Hz (12/105): 60 s
+mig2 C4 f  9.0 Hz (13/105): 60 s
+mig2 C4 f  9.5 Hz (14/105): 60 s
+mig2 C4 f 10.0 Hz (15/105): 60 s
+mig2 C4 f 10.5 Hz (16/105): 61 s
+mig2 C4 f 11.0 Hz (17/105): 60 s
+mig2 C4 f 11.5 Hz (18/105): 61 s
+mig2 C4 f 12.0 Hz (19/105): 60 s
+mig2 C4 f 12.5 Hz (20/105): 67 s
+mig2 C4 f 13.0 Hz (21/105): 59 s
+mig2 C4 f 13.5 Hz (22/105): 60 s
+mig2 C4 f 14.0 Hz (23/105): 60 s
+mig2 C4 f 14.5 Hz (24/105): 61 s
+mig2 C4 f 15.0 Hz (25/105): 60 s
+mig2 C4 f 15.5 Hz (26/105): 60 s
+mig2 C4 f 16.0 Hz (27/105): 60 s
+mig2 C4 f 16.5 Hz (28/105): 60 s
+mig2 C4 f 17.0 Hz (29/105): 60 s
+mig2 C4 f 17.5 Hz (30/105): 68 s
+mig2 C4 f 18.0 Hz (31/105): 61 s
+mig2 C4 f 18.5 Hz (32/105): 60 s
+mig2 C4 f 19.0 Hz (33/105): 62 s
+mig2 C4 f 19.5 Hz (34/105): 61 s
+mig2 C4 f 20.0 Hz (35/105): 60 s
+mig2 C4 f 20.5 Hz (36/105): 60 s
+mig2 C4 f 21.0 Hz (37/105): 61 s
+mig2 C4 f 21.5 Hz (38/105): 60 s
+mig2 C4 f 22.0 Hz (39/105): 60 s
+mig2 C4 f 22.5 Hz (40/105): 68 s
+mig2 C4 f 23.0 Hz (41/105): 61 s
+mig2 C4 f 23.5 Hz (42/105): 61 s
+mig2 C4 f 24.0 Hz (43/105): 61 s
+mig2 C4 f 24.5 Hz (44/105): 60 s
+mig2 C4 f 25.0 Hz (45/105): 61 s
+mig2 C4 f 25.5 Hz (46/105): 60 s
+mig2 C4 f 26.0 Hz (47/105): 60 s
+mig2 C4 f 26.5 Hz (48/105): 61 s
+mig2 C4 f 27.0 Hz (49/105): 60 s
+mig2 C4 f 27.5 Hz (50/105): 68 s
+mig2 C4 f 28.0 Hz (51/105): 60 s
+mig2 C4 f 28.5 Hz (52/105): 61 s
+mig2 C4 f 29.0 Hz (53/105): 60 s
+mig2 C4 f 29.5 Hz (54/105): 60 s
+mig2 C4 f 30.0 Hz (55/105): 60 s
+mig2 C4 f 30.5 Hz (56/105): 61 s
+mig2 C4 f 31.0 Hz (57/105): 62 s
+mig2 C4 f 31.5 Hz (58/105): 62 s
+mig2 C4 f 32.0 Hz (59/105): 62 s
+mig2 C4 f 32.5 Hz (60/105): 70 s
+mig2 C4 f 33.0 Hz (61/105): 60 s
+mig2 C4 f 33.5 Hz (62/105): 61 s
+mig2 C4 f 34.0 Hz (63/105): 60 s
+mig2 C4 f 34.5 Hz (64/105): 60 s
+mig2 C4 f 35.0 Hz (65/105): 61 s
+mig2 C4 f 35.5 Hz (66/105): 60 s
+mig2 C4 f 36.0 Hz (67/105): 61 s
+mig2 C4 f 36.5 Hz (68/105): 61 s
+mig2 C4 f 37.0 Hz (69/105): 60 s
+mig2 C4 f 37.5 Hz (70/105): 68 s
+mig2 C4 f 38.0 Hz (71/105): 61 s
+mig2 C4 f 38.5 Hz (72/105): 62 s
+mig2 C4 f 39.0 Hz (73/105): 61 s
+mig2 C4 f 39.5 Hz (74/105): 60 s
+mig2 C4 f 40.0 Hz (75/105): 60 s
+mig2 C4 f 40.5 Hz (76/105): 60 s
+mig2 C4 f 41.0 Hz (77/105): 60 s
+mig2 C4 f 41.5 Hz (78/105): 60 s
+mig2 C4 f 42.0 Hz (79/105): 61 s
+mig2 C4 f 42.5 Hz (80/105): 68 s
+mig2 C4 f 43.0 Hz (81/105): 61 s
+mig2 C4 f 43.5 Hz (82/105): 60 s
+mig2 C4 f 44.0 Hz (83/105): 61 s
+mig2 C4 f 44.5 Hz (84/105): 61 s
+mig2 C4 f 45.0 Hz (85/105): 60 s
+mig2 C4 f 45.5 Hz (86/105): 61 s
+mig2 C4 f 46.0 Hz (87/105): 61 s
+mig2 C4 f 46.5 Hz (88/105): 61 s
+mig2 C4 f 47.0 Hz (89/105): 60 s
+mig2 C4 f 47.5 Hz (90/105): 68 s
+mig2 C4 f 48.0 Hz (91/105): 61 s
+mig2 C4 f 48.5 Hz (92/105): 62 s
+mig2 C4 f 49.0 Hz (93/105): 61 s
+mig2 C4 f 49.5 Hz (94/105): 61 s
+mig2 C4 f 50.0 Hz (95/105): 61 s
+mig2 C4 f 50.5 Hz (96/105): 61 s
+mig2 C4 f 51.0 Hz (97/105): 61 s
+mig2 C4 f 51.5 Hz (98/105): 61 s
+mig2 C4 f 52.0 Hz (99/105): 62 s
+mig2 C4 f 52.5 Hz (100/105): 69 s
+mig2 C4 f 53.0 Hz (101/105): 62 s
+mig2 C4 f 53.5 Hz (102/105): 61 s
+mig2 C4 f 54.0 Hz (103/105): 61 s
+mig2 C4 f 54.5 Hz (104/105): 61 s
+mig2 C4 f 55.0 Hz (105/105): 68 s
+=== migration done 2026-11-19 12:37:54 exit 0
+C1/m30   M1 +0.086 M2 -0.007 M3 -0.025 M4 +0.067
+C1/m40   M1 +0.123 M2 +0.007 M3 -0.037 M4 +0.053
+C2/m30   M1 +0.067 M2 -0.009 M3 -0.021 M4 +0.035
+C2/m40   M1 +0.146 M2 +0.007 M3 -0.052 M4 +0.075
+C3/m30   M1 +0.093 M2 -0.026 M3 -0.033 M4 +0.082
+C3/m40   M1 +0.121 M2 +0.023 M3 -0.014 M4 +0.092
+C4/m30   M1 +0.058 M2 -0.012 M3 -0.014 M4 +0.052
+C4/m40   M1 +0.093 M2 +0.000 M3 -0.014 M4 +0.044
+M1 mean +0.099, units >= 0.03: 8/8 | C1 True C2 True C3 True C4 True -> confirmed
+=== stage 3 done 2026-11-19 12:37:55

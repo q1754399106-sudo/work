@@ -1,6 +1,6 @@
 # Q 模型不确定时的稳健 Q 补偿偏移（UQ 逆时偏移）
 
-**状态：阶段 1 完成（开发，三轮）；选定路线 A。** 结果见 [RESULTS_STAGE1_ROUND3_ZH.md](RESULTS_STAGE1_ROUND3_ZH.md)（前两轮的问题见 ROUND1、ROUND2）。阶段 2 草稿见 [PLAN_STAGE2_DRAFT_ZH.md](PLAN_STAGE2_DRAFT_ZH.md)。
+**状态：阶段 3 确认通过（合成数据）。** 结果见 [RESULTS_STAGE3_ZH.md](RESULTS_STAGE3_ZH.md)；开发过程见 RESULTS_STAGE1_ROUND1/2/3、RESULTS_STAGE2。阶段 4 数据见 [DATA_VOLVE_PRESTACK_ZH.md](DATA_VOLVE_PRESTACK_ZH.md)。
 
 ## 任务
 

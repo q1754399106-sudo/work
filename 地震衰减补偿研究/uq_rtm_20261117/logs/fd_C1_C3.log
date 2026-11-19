@@ -1,0 +1,152 @@
+C1 shot 1: 100 s
+C1 shot 2: 96 s
+C1 shot 3: 94 s
+C1 shot 4: 98 s
+C1 shot 5: 102 s
+C1 shot 6: 95 s
+C1 shot 7: 94 s
+C1 shot 8: 93 s
+C1 shot 9: 93 s
+C1 shot 10: 95 s
+C1 shot 11: 92 s
+C1 shot 12: 93 s
+C1 shot 13: 94 s
+C1 shot 14: 98 s
+C1 shot 15: 97 s
+C1 shot 16: 98 s
+C1 shot 17: 92 s
+C1 shot 18: 92 s
+C1 shot 19: 96 s
+C1 shot 20: 96 s
+C1 shot 21: 94 s
+C1 shot 22: 96 s
+C1 shot 23: 93 s
+C1 shot 24: 94 s
+C1 shot 25: 94 s
+C1 shot 26: 95 s
+C1 shot 27: 96 s
+C1 shot 28: 95 s
+C1 shot 29: 92 s
+C1 shot 30: 89 s
+C1 shot 31: 96 s
+C1 shot 32: 93 s
+C1 shot 33: 93 s
+C1 shot 34: 99 s
+C1 shot 35: 99 s
+C1 shot 36: 95 s
+C1 shot 37: 98 s
+C1 shot 38: 98 s
+C1 shot 39: 94 s
+C1 shot 40: 94 s
+C1 shot 41: 95 s
+C1 shot 42: 97 s
+C1 shot 43: 102 s
+C1 shot 44: 100 s
+C1 shot 45: 99 s
+C1 shot 46: 100 s
+C1 shot 47: 97 s
+C1 shot 48: 97 s
+C1 shot 49: 98 s
+
+------------------------------------------------------------------------
+          Access violation detected at Thu Nov 19 00:43:13 2026
+------------------------------------------------------------------------
+Architecture     : win64
+Processor ID     : AMD Ryzen 9 6900HX with Radeon Graphics
+Host Name        : pu55y
+Locale           : zh_CN
+
+
+Abnormal termination:
+Access violation
+
+Current Thread: '' id 45112
+
+Register State (from fault):
+  RAX = 0000000000007265  RBX = 000000819a8fe0f8
+  RCX = 0000000000000000  RDX = 000000819a8fe0f8
+  RSP = 000000819a8fe070  RBP = 000000819a8fe220
+  RSI = 0000000000000000  RDI = 0000022a2d4d7640
+ 
+   R8 = 000000819a8fe150   R9 = 0000000000000004
+  R10 = 0000022a2d340000  R11 = 000000819a8fdfe0
+  R12 = 000000819a8fe150  R13 = 0000000000000000
+  R14 = 00000000ffffffff  R15 = 000000819a8ff220
+ 
+  RIP = 00007ffccd6ca128  EFL = 00010246
+ 
+   CS = 0033   FS = 0053   GS = 002b
+
+Stack Trace (from fault):
+[  0] 0x00007ffccd6ca128 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\libmwagentdirectoryclient.dll+00106792 agent::directory::DirectoryServiceClient::queryDirectoryForServiceUUIDsAsync+00000024
+[  1] 0x00007ffccd6ca0b3 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\libmwagentdirectoryclient.dll+00106675 agent::directory::DirectoryServiceClient::queryDirectoryForServiceUUIDs+00000019
+[  2] 0x00007ffd2c197b8d C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\serviceproviders\agent\webwindowservice\libmwagentwebwindowservice.dll+00293773
+[  3] 0x00007ffd2c179faf C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\serviceproviders\agent\webwindowservice\libmwagentwebwindowservice.dll+00171951
+[  4] 0x00007ffd2c1a2885 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\serviceproviders\agent\webwindowservice\libmwagentwebwindowservice.dll+00338053
+[  5] 0x00007ffccb208677 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+01148535
+[  6] 0x00007ffccb1aff5e C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+00786270
+[  7] 0x00007ffccb1ba535 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+00828725
+[  8] 0x00007ffccb1c5223 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+00872995
+[  9] 0x00007ffccb1c562d C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+00874029
+[ 10] 0x00007ffccb1bd6f4 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+00841460
+[ 11] 0x00007ffccb1c778b C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+00882571
+[ 12] 0x00007ffccb133241 C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\v2026.11.0.3\bin\win64\spf\framework\agent\spf\framework\libmwagentspfframework.dll+00275009
+[ 13] 0x00007ffddac1cd30                   C:\WINDOWS\System32\ucrtbase.dll+00183600 wcsrchr+00000336
+[ 14] 0x00007ffddb95dda7                   C:\WINDOWS\System32\KERNEL32.DLL+00187815 BaseThreadInitThunk+00000023
+[ 15] 0x00007ffddd219c5c                      C:\WINDOWS\SYSTEM32\ntdll.dll+00826460 RtlUserThreadStart+00000044
+
+
+** This crash report has been written to C:\Users\qq175\AppData\Local\MathWorks\ServiceHost\logs\MathWorksServiceHost_crash_28208.log **
+C1 shot 50: 97 s
+C1 shot 51: 95 s
+C3 shot 1: 92 s
+C3 shot 2: 96 s
+C3 shot 3: 90 s
+C3 shot 4: 90 s
+C3 shot 5: 90 s
+C3 shot 6: 86 s
+C3 shot 7: 90 s
+C3 shot 8: 90 s
+C3 shot 9: 85 s
+C3 shot 10: 83 s
+C3 shot 11: 81 s
+C3 shot 12: 75 s
+C3 shot 13: 76 s
+C3 shot 14: 76 s
+C3 shot 15: 76 s
+C3 shot 16: 76 s
+C3 shot 17: 76 s
+C3 shot 18: 74 s
+C3 shot 19: 68 s
+C3 shot 20: 69 s
+C3 shot 21: 68 s
+C3 shot 22: 69 s
+C3 shot 23: 69 s
+C3 shot 24: 69 s
+C3 shot 25: 68 s
+C3 shot 26: 63 s
+C3 shot 27: 63 s
+C3 shot 28: 64 s
+C3 shot 29: 63 s
+C3 shot 30: 63 s
+C3 shot 31: 63 s
+C3 shot 32: 62 s
+C3 shot 33: 62 s
+C3 shot 34: 63 s
+C3 shot 35: 61 s
+C3 shot 36: 61 s
+C3 shot 37: 61 s
+C3 shot 38: 61 s
+C3 shot 39: 61 s
+C3 shot 40: 61 s
+C3 shot 41: 61 s
+C3 shot 42: 60 s
+C3 shot 43: 61 s
+C3 shot 44: 61 s
+C3 shot 45: 61 s
+C3 shot 46: 61 s
+C3 shot 47: 60 s
+C3 shot 48: 61 s
+C3 shot 49: 61 s
+C3 shot 50: 62 s
+C3 shot 51: 63 s
