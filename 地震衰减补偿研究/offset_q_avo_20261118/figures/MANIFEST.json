@@ -1,86 +1,89 @@
 {
- "fig1_workflow": {
-  "sources": [],
-  "sha256": {},
-  "note": "schematic"
- },
- "fig2_gamma_check": {
-  "sources": [
-   "uq_avo_20261118\\results\\gate1.json"
-  ],
-  "sha256": {
-   "gate1.json": "27fba3c70d0980b3"
+ "lang": "zh",
+ "figures": {
+  "fig1_workflow": {
+   "sources": [],
+   "sha256": {},
+   "note": "schematic"
   },
-  "note": "M12-M15, both wavelets, 3 lambdas, 3 events, u grid where numeric exists"
- },
- "fig3_avo_vs_sigma": {
-  "sources": [
-   "uq_avo_20261118\\results\\fig_sigma.json"
-  ],
-  "sha256": {
-   "fig_sigma.json": "506d2051c988b423"
+  "fig2_gamma_check": {
+   "sources": [
+    "uq_avo_20261118/results/gate1.json"
+   ],
+   "sha256": {
+    "gate1.json": "27fba3c70d0980b3"
+   },
+   "note": "M12-M15, both wavelets, 3 lambdas, 3 events, u grid where numeric exists"
   },
-  "note": "closed form, lambda 10^-3.5, models used in development; prior truncated at +-3 sigma; q68 because the RMS of the ratio G/A is tail-dominated"
- },
- "fig4_uq_cost_vs_lambda": {
-  "sources": [
-   "uq_avo_20261118\\results\\lam_scan.json",
-   "uq_avo_20261118\\results\\lam_hi_verdict.json"
-  ],
-  "sha256": {
-   "lam_scan.json": "2b1e9961f58e8bfa",
-   "lam_hi_verdict.json": "065ffe8203c7ea42"
+  "fig3_avo_vs_sigma": {
+   "sources": [
+    "uq_avo_20261118/results/fig_sigma.json"
+   ],
+   "sha256": {
+    "fig_sigma.json": "506d2051c988b423"
+   },
+   "note": "closed form, lambda 10^-3.5, models used in development; prior truncated at +-3 sigma; q68 because the RMS of the ratio G/A is tail-dominated"
   },
-  "note": "closed-form D (P1 validated); dotted lines = median residual-principle lambda of one-step Tikhonov per SNR (aligned, M12-M15)"
- },
- "fig5_window_compression": {
-  "sources": [
-   "offset_q_avo_20261118\\results\\fig_window.json"
-  ],
-  "sha256": {
-   "fig_window.json": "e74ef5e68260b16e"
+  "fig4_uq_cost_vs_lambda": {
+   "sources": [
+    "uq_avo_20261118/results/lam_scan.json",
+    "uq_avo_20261118/results/lam_hi_verdict.json"
+   ],
+   "sha256": {
+    "lam_scan.json": "2b1e9961f58e8bfa",
+    "lam_hi_verdict.json": "065ffe8203c7ea42"
+   },
+   "note": "closed-form D (P1 validated); dotted lines = median residual-principle lambda of one-step Tikhonov per SNR (aligned, M12-M15)"
   },
-  "note": "used model M1, noise-free, no AVO, c=1"
- },
- "fig6_chat_accuracy": {
-  "sources": [
-   "offset_q_avo_20261118\\results\\a1_M16.json",
-   "offset_q_avo_20261118\\results\\a1_M17.json",
-   "offset_q_avo_20261118\\results\\a1_M18.json",
-   "offset_q_avo_20261118\\results\\a1_M19.json",
-   "offset_q_avo_20261118\\results\\a1b_M20.json",
-   "offset_q_avo_20261118\\results\\a1b_M21.json",
-   "offset_q_avo_20261118\\results\\a1b_M22.json",
-   "offset_q_avo_20261118\\results\\a1b_M23.json"
-  ],
-  "sha256": {
-   "a1_M16.json": "7915c53ba707b37e",
-   "a1_M17.json": "c23f0255e5bde5b3",
-   "a1_M18.json": "496bc33f42d8c09a",
-   "a1_M19.json": "c534184cbfed9e25",
-   "a1b_M20.json": "fd2270d67c0dfbb6",
-   "a1b_M21.json": "686cbb22c9211eb0",
-   "a1b_M22.json": "26e2e2a23247026a",
-   "a1b_M23.json": "c9580ddfc207d6b1"
+  "fig5_window_compression": {
+   "sources": [
+    "offset_q_avo_20261118/results/fig_window.json"
+   ],
+   "sha256": {
+    "fig_window.json": "e74ef5e68260b16e"
+   },
+   "note": "used model M1, noise-free, no AVO, c=1"
   },
-  "note": "gate A1 (first attempt) and A1b (second attempt, new models)"
- },
- "fig7_end_to_end": {
-  "sources": [
-   "offset_q_avo_20261118\\results\\a2_verdict.json"
-  ],
-  "sha256": {
-   "a2_verdict.json": "f176212b040d9c3b"
+  "fig6_chat_accuracy": {
+   "sources": [
+    "offset_q_avo_20261118/results/a1_M16.json",
+    "offset_q_avo_20261118/results/a1_M17.json",
+    "offset_q_avo_20261118/results/a1_M18.json",
+    "offset_q_avo_20261118/results/a1_M19.json",
+    "offset_q_avo_20261118/results/a1b_M20.json",
+    "offset_q_avo_20261118/results/a1b_M21.json",
+    "offset_q_avo_20261118/results/a1b_M22.json",
+    "offset_q_avo_20261118/results/a1b_M23.json"
+   ],
+   "sha256": {
+    "a1_M16.json": "7915c53ba707b37e",
+    "a1_M17.json": "c23f0255e5bde5b3",
+    "a1_M18.json": "496bc33f42d8c09a",
+    "a1_M19.json": "c534184cbfed9e25",
+    "a1b_M20.json": "fd2270d67c0dfbb6",
+    "a1b_M21.json": "686cbb22c9211eb0",
+    "a1b_M22.json": "26e2e2a23247026a",
+    "a1b_M23.json": "c9580ddfc207d6b1"
+   },
+   "note": "gate A1 (first attempt) and A1b (second attempt, new models)"
   },
-  "note": "gate A2, aligned events + thin beds, 24/30 dB, M24-M27, 10 seeds per cell"
- },
- "fig8_example_gather": {
-  "sources": [
-   "offset_q_avo_20261118\\results\\fig_example.json"
-  ],
-  "sha256": {
-   "fig_example.json": "6a13ef73a90a6919"
+  "fig7_end_to_end": {
+   "sources": [
+    "offset_q_avo_20261118/results/a2_verdict.json"
+   ],
+   "sha256": {
+    "a2_verdict.json": "f176212b040d9c3b"
+   },
+   "note": "gate A2, aligned events + thin beds, 24/30 dB, M24-M27, 10 seeds per cell"
   },
-  "note": "M24, 60 Hz, events_aligned, seed 0, 24 dB; one realisation, illustrative; each curve divided by its own zero-offset value (shows the AVO shape; absolute level differs because strong attenuation limits the recoverable band)"
+  "fig8_example_gather": {
+   "sources": [
+    "offset_q_avo_20261118/results/fig_example.json"
+   ],
+   "sha256": {
+    "fig_example.json": "6a13ef73a90a6919"
+   },
+   "note": "M24, 60 Hz, events_aligned, seed 0, 24 dB; one realisation, illustrative; each curve divided by its own zero-offset value (shows the AVO shape; absolute level differs because strong attenuation limits the recoverable band)"
+  }
  }
 }

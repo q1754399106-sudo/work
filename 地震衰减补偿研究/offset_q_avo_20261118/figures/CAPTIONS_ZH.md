@@ -1,6 +1,6 @@
-# 图注草稿（2026-11-19；期刊未定，通用格式：174 mm 双栏或 84 mm 单栏，PDF 字体 Type 42，PNG 300 dpi）
+# 图注草稿（2026-11-19；《石油地球物理勘探》，174 mm 双栏或 84 mm 单栏，PDF 字体 Type 42 嵌入，PNG 300 dpi）
 
-生成脚本 `scripts/make_figs.py`，数据来源和文件哈希见 `MANIFEST.json`。图上文字为英文；换中文只需改字体和标签。全部是合成数据。
+生成脚本 `scripts/make_figs.py`（`python make_figs.py zh`），数据来源和文件哈希见 `MANIFEST.json`。**本目录下的图为中文标签**：拉丁字母与数字用 Times New Roman（无此字体时用度量兼容的 Liberation Serif），汉字用宋体（无宋体时用 Noto Serif CJK SC），公式变量用 Times 斜体；多子图加 (a)(b)… 标号。当前文件在 Linux 上生成，用的是 Liberation Serif + Noto Serif CJK SC；在装有宋体和 Times New Roman 的 Windows 上重跑即得终稿字体，数据不变。英文版保存在 `en/`（`python make_figs.py en` 重出）。全部是合成数据。
 
 - **图 1 流程**：未动校道集 → 沿时距曲线、远道等长窗的炮检距谱比 → 由 50 个 CMP 的超道集估出 ĉ = Q_真/Q_模型 → 用 ĉ·Q_模型 做沿路径的补偿 → 逐事件 AVO。示意图，无数据。
 - **图 2 闭式 Γ 的检验**：逐事件 G/A 偏差，闭式（由 Γ(x)）对时变算子数值结果。Tikhonov（σ = 0，Q 正确，72 点）与 UQ（σ = 0.447，u 网格，504 点），M12–M15、两种子波、三个 λ、三个事件。虚线 1:1。
