@@ -1,0 +1,4 @@
+ZA_c0.75_r0 ZB_c0.75_r0 ZC_c0.75_r0 ZD_c0.75_r0 ZE_c0.75_r0 ZF_c0.75_r0
+ZA_c0.75_r1 ZB_c0.75_r1 ZC_c0.75_r1 ZD_c0.75_r1 ZE_c0.75_r1 ZF_c0.75_r1
+ZA_c1.05_r0 ZB_c1.05_r0 ZC_c1.05_r0 ZD_c1.05_r0 ZE_c1.05_r0 ZF_c1.05_r0
+ZA_c1.05_r1 ZB_c1.05_r1 ZC_c1.05_r1 ZD_c1.05_r1 ZE_c1.05_r1 ZF_c1.05_r1
