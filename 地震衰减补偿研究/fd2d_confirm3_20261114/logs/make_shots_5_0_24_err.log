@@ -1,0 +1,9 @@
+warning: function /home/user/work/地震衰减补偿研究/octave_compat_v2_20261025/sum.m shadows a built-in function
+warning: function /home/user/work/地震衰减补偿研究/octave_compat_v2_20261025/randn.m shadows a built-in function
+warning: function /home/user/work/地震衰减补偿研究/octave_compat_v2_20261025/rand.m shadows a built-in function
+warning: function /home/user/work/地震衰减补偿研究/octave_compat_v2_20261025/rng.m shadows a core library function
+warning: maxNumCompThreads: setting number of threads has no effect
+warning: called from
+    maxNumCompThreads at line 51 column 7
+    make_shots at line 6 column 14
+
