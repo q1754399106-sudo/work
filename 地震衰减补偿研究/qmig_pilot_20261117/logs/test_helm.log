@@ -1,0 +1,9 @@
+f=10.0 kappa=+1 | r= 640 amp 1.000 dph +0.000 | r=1200 amp 1.000 dph +0.000 | r=1076 amp 1.000 dph +0.000 | r=1584 amp 1.000 dph +0.000
+f=10.0 kappa=+0 | r= 640 amp 1.000 dph +0.000 | r=1200 amp 1.000 dph +0.000 | r=1076 amp 1.000 dph +0.000 | r=1584 amp 1.000 dph +0.000
+f=10.0 kappa=-1 | r= 640 amp 1.000 dph +0.000 | r=1200 amp 1.000 dph +0.000 | r=1076 amp 1.000 dph -0.000 | r=1584 amp 1.000 dph +0.001
+f=25.0 kappa=+1 | r= 640 amp 1.000 dph +0.012 | r=1200 amp 0.999 dph +0.022 | r=1076 amp 1.001 dph +0.005 | r=1584 amp 1.001 dph +0.007
+f=25.0 kappa=+0 | r= 640 amp 1.001 dph +0.012 | r=1200 amp 1.001 dph +0.022 | r=1076 amp 1.001 dph +0.005 | r=1584 amp 1.001 dph +0.007
+f=25.0 kappa=-1 | r= 640 amp 1.002 dph +0.012 | r=1200 amp 1.002 dph +0.022 | r=1076 amp 1.002 dph +0.005 | r=1584 amp 1.003 dph +0.006
+f=42.5 kappa=+1 | r= 640 amp 0.993 dph +0.159 | r=1200 amp 0.981 dph +0.298 | r=1076 amp 1.004 dph +0.070 | r=1584 amp 1.002 dph +0.100
+f=42.5 kappa=+0 | r= 640 amp 1.006 dph +0.159 | r=1200 amp 1.006 dph +0.298 | r=1076 amp 1.010 dph +0.070 | r=1584 amp 1.011 dph +0.100
+f=42.5 kappa=-1 | r= 640 amp 1.019 dph +0.157 | r=1200 amp 1.032 dph +0.299 | r=1076 amp 1.014 dph +0.068 | r=1584 amp 1.018 dph +0.103
