@@ -1,0 +1,15 @@
+prepare 4s, w_out len 201, w peak at 37.6 Hz
+(1) J=1: 1 - |cos(H, Wiener)| max 2.2e-16, alternation its 2, regret max 4.2e-16
+(2) alpha=1 h-step vs Bayes form rel 7.6e-16
+(3) SIU objective: start 0.331788 -> 0.300557 after 30, max increase 5.6e-17, its to 1e-9: 9
+    alpha quantiles over rows (5/50/95%) at u = [0.11 1.   9.37]: [[0.101, 0.879, 0.0], [0.12, 0.897, 0.0], [0.15, 0.918, 0.001]]
+(4) original form at eps 1e+00: 0.475784
+(4) original form at eps 1e-01: 0.183837
+(4) original form at eps 1e-02: 0.180918
+(4) original form at eps 1e-04: 0.180888
+(5) semi SIU 5s finite True {'alt_its_max': 11}
+(5) semi SIR 2169s finite True {'gap': 0.0013845366496090528, 'value': 0.20349814158268814, 'its': 300, 'inner': 31369, 'pi': [0.432, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.004, 0.001, 0.0, 0.0, 0.563], 'alt_its_max': 200}
+    semi SIR m 0.5 328s gap 9.3e-05 its 300 inner 4396 pi [0.228, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.157, 0.123, 0.053, 0.067, 0.088, 0.047, 0.017, 0.018, 0.201]
+    semi SIR m 2.0 176s gap 3.4e-08 its 202 inner 2150 pi [0.507, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.493]
+FD rows 451 fp 32.0
+(5) FD H1 SIU 4s finite True {'alt_its_max': 12}
