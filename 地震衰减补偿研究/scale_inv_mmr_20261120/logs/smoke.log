@@ -13,3 +13,5 @@ prepare 4s, w_out len 201, w peak at 37.6 Hz
     semi SIR m 2.0 176s gap 3.4e-08 its 202 inner 2150 pi [0.507, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.493]
 FD rows 451 fp 32.0
 (5) FD H1 SIU 4s finite True {'alt_its_max': 12}
+(5) FD H1 SIR 3511s finite True {'gap': 0.0006238411008352984, 'value': 0.2624850665942432, 'its': 300, 'inner': 40920, 'pi': [0.488, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.512], 'alt_its_max': 200}
+total 6201s
