@@ -1,0 +1,26 @@
+curtain Delta a (1.4 -> 2.55 s) 0.0119 s
+  line 9999 (1/105) c2 +1.18e-03
+  line 10029 (16/105) c2 +1.21e-03
+  line 10059 (31/105) c2 +1.27e-03
+  line 10089 (46/105) c2 +1.15e-03
+  line 10119 (61/105) c2 +1.21e-03
+  line 10161 (76/105) c2 +1.44e-03
+  line 10191 (91/105) c2 +1.61e-03
+
+Z2a: lines 105, quadratic c2 (10-55 Hz) median +1.32e-03, IQR [+1.21e-03, +1.46e-03], fraction c2>0 1.000 -> REJECT (eta_hat<0)
+     mean-ratio c2 +1.35e-03 (curvature over 10-55 Hz +0.68)
+Z2b: SID fit 10-72 Hz: D 0.0000 s (u_hat 0.00), eta 3.99, fc 25.0 Hz, rms 0.164 (straight line 0.332, D_line 0.0144) -> REJECT (u_hat<0.5)
+     high-frequency (36-72 Hz) slope D_HF 0.0065 s (u 0.55); field drop 10->35 Hz 2.10, excess E_field 1.59
+     ln ratio (re 10 Hz) at 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72
+     +0.17 -0.10 -0.28 -0.68 -0.82 -1.26 -2.00 -2.13 -2.11 -2.04 -2.19 -2.39 -2.58 -2.67 -2.66 -2.63 -2.52
+Z2c: F-12 path 1.401-2.550 s (1150 layers, sum R^2 1.395): two-way ln|T| drop 10->35 Hz 0.330, 35->72 Hz 0.157, at 10/35/72 Hz -0.266/-0.596/-0.752; E_well/E_field 0.207
+Z2c: F-14 path 1.401-2.550 s (1150 layers, sum R^2 1.059): two-way ln|T| drop 10->35 Hz -0.077, 35->72 Hz 0.306, at 10/35/72 Hz -0.083/-0.006/-0.312; E_well/E_field -0.048
+     Z2c -> REJECT (log-predicted scattering < 0.25 of field excess)
+D3: 9 wells with >=0.3 s in 2.3-2.8 s; residual correlation (10-72 Hz) field ratio vs deep-window log reflectivity colour 0.07
+     log-RC ln amp minus line at 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72
+     -0.01 +0.06 -0.31 +0.10 +0.19 -0.07 +0.13 +0.30 -0.20 -0.07 -0.20 +0.03 -0.40 +0.16 -0.02 +0.06 +0.25
+D4: median adjacent-trace coherent SNR, deep / shallow window, at 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72
+     deep    67.9 45.3 26.4 19.6 14.5 12.2 8.1 6.2 5.1 4.3 3.8 2.5 2.5 1.6 1.6 1.3 1.6
+     shallow 8.7 11.8 5.5 5.5 3.6 5.6 7.8 5.8 3.4 2.1 1.3 1.3 1.3 1.3 1.1 0.9 0.9
+
+STOP RULE (Z1 and any of Z2a/b/c): True
