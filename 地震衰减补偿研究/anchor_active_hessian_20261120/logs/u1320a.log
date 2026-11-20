@@ -1,0 +1,4 @@
+3677-32 w2.24 khat 0.211 F 0.201 fix 0.217 med 0.28310502283105055 U 0.217 t_med 2.87 {'tt': np.float64(0.82), 'tm': np.float64(-0.81), 'mm': np.float64(0.99)} {'tt': np.float64(0.217), 'tm': np.float64(0.316), 'mm': np.float64(0.282)} 42s
+3677-32 w3.00 khat 0.816 F 0.839 fix 1.082 med 1.1506849315068495 U 0.884 t_med 2.87 {'tt': np.float64(1.02), 'tm': np.float64(-1.27), 'mm': np.float64(1.25)} {'tt': np.float64(1.082), 'tm': np.float64(1.329), 'mm': np.float64(1.138)} 17s
+4508-32 w2.24 khat 0.255 F 0.258 fix 0.036 med 0.2798165137614682 U 0.214 t_med 2.87 {'tt': np.float64(-0.32), 'tm': np.float64(0.25), 'mm': np.float64(1.06)} {'tt': np.float64(0.036), 'tm': np.float64(-0.105), 'mm': np.float64(0.279)} 13s
+4508-32 w3.00 khat 0.607 F 0.626 fix 6.254 med 1.151376146788991 U 0.882 t_med 2.87 {'tt': np.float64(0.09), 'tm': np.float64(-0.63), 'mm': np.float64(1.54)} {'tt': np.float64(6.254), 'tm': np.float64(2.702), 'mm': np.float64(1.142)} 14s
