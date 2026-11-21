@@ -1,0 +1,15 @@
+line-mean ratio c2 +1.345e-03
+deep only k=  1  c2 +1.423e-03  drop -0.06
+deep only k=  2  c2 +1.385e-03  drop -0.03
+deep only k=  3  c2 +1.339e-03  drop +0.00
+deep only k=  5  c2 +1.209e-03  drop +0.10
+deep only k= 10  c2 +3.717e-04  drop +0.72
+deep only k= 20  c2 +1.819e-03  drop -0.35
+deep only k= 50  c2 +2.657e-03  drop -0.98
+both      k=  1  c2 +1.423e-03  drop -0.06
+both      k=  2  c2 +1.539e-03  drop -0.14
+both      k=  3  c2 +1.733e-03  drop -0.29
+both      k=  5  c2 +2.368e-03  drop -0.76
+both      k= 10  c2 +4.688e-04  drop +0.65
+both      k= 20  c2 +1.090e-03  drop +0.19
+both      k= 50  c2 +1.917e-03  drop -0.42

@@ -1,0 +1,19 @@
+lines 105, 42 s
+original c2: median +1.322e-03 IQR [+1.212e-03, +1.464e-03], c2>0 105/105
+N1: debiased c2 median +1.398e-03 IQR [+1.283e-03, +1.533e-03], c2>0 105/105, drop R = -0.057
+    dc2 deep term median +3.308e-05, shallow term median -1.085e-04, total -7.106e-05; median(pred)/m0 -0.054; across-line R2(obs~pred) 0.008 (r -0.09)
+    clipped fraction (10-55 Hz) median: shallow 0.000 deep 0.000; lines with >20% clipped: shallow 0 deep 0
+N2: debiased c2 median +1.374e-03 IQR [+1.259e-03, +1.504e-03], c2>0 105/105, drop R = -0.039
+    dc2 deep term median +1.882e-05, shallow term median -6.410e-05, total -4.211e-05; median(pred)/m0 -0.032; across-line R2(obs~pred) 0.002 (r +0.05)
+    clipped fraction (10-55 Hz) median: shallow 0.000 deep 0.000; lines with >20% clipped: shallow 0 deep 0
+
+VERDICT (M1, R >= 0.50): fails R = -0.057
+sh  f:     8    12    16    20    24    28    32    36    40    44    48    52    56    60    64    68    72
+  snr_M1       18.25 24.60 12.95 13.62 10.43 19.36 29.44 19.05  9.67  5.37  3.63  3.83  4.08  3.79  3.29  2.38  2.26
+  snr_M2       43.39 59.58 30.02 38.53 30.60 62.60 85.03 51.53 24.32 12.70  8.08  8.11  8.11  7.04  6.06  4.20  4.15
+  tail_over_N1  0.01  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.01
+dp  f:     8    12    16    20    24    28    32    36    40    44    48    52    56    60    64    68    72
+  snr_M1       283.82 206.51 150.87 114.38 82.72 74.29 31.95 23.13 20.24 16.48 11.75  9.07  7.26  4.47  4.06  2.83  2.82
+  snr_M2       1607.95 1467.56 1014.90 638.94 441.03 380.44 130.96 79.95 61.70 48.40 29.57 22.10 15.46  9.23  7.84  5.39  5.49
+  tail_over_N1  0.02  0.01  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.01  0.01  0.01  0.06  0.51
+median |tau| (samples): shallow 0.19 deep 0.28
