@@ -1,0 +1,4 @@
+Ricker -10 dB roots x = 0.365, 1.834, ratio 5.03 (band ratio 3.67)
+ricker  : rho0 = 0.981; max relative gain +0.019; on R0 = 0.626: +0.012
+gauss   : rho0 = 0.957; max relative gain +0.045; on R0 = 0.626: +0.028
+falling : rho0 = 0.950; max relative gain +0.053; on R0 = 0.626: +0.033

@@ -1,0 +1,30 @@
+--- v 2300: far-lag / zero-lag (band-summed): {'S': 0.001, 'm': 0.988, 'l': 0.981, 'mv8': 0.261, 'mv9': 0.046}
+    m    q 0.3: B1 +0.01  B300 +0.19  H -0.02
+    m    q 1: B1 +0.01  B300 +0.09  H -0.03
+    m    q 3: B1 +0.00  B300 +0.06  H -0.07
+    l    q 0.3: B1 -2.78  B300 +0.19  H -0.03
+    l    q 1: B1 -3.38  B300 +0.09  H -0.05
+    l    q 3: B1 -4.32  B300 +0.06  H -0.10
+    mv8  q 0.3: B1 -5.74  B300 -1.09  H -2.34
+    mv8  q 1: B1 -6.86  B300 -1.93  H -2.87
+    mv8  q 3: B1 -8.00  B300 -2.90  H -3.76
+    mv9  q 0.3: B1 -6.43  B300 -2.05  H -4.56
+    mv9  q 1: B1 -7.65  B300 -3.18  H -5.67
+    mv9  q 3: B1 -8.97  B300 -4.35  H -6.87
+    artefact (full): B1 phi -0.19 / called noise 0.55  B300 phi +0.25 / called noise 0.40  H phi +0.76 / called noise 0.30
+    artefact (gap): B1 phi -0.03 / called noise 0.52  B300 phi +0.10 / called noise 0.47  H phi +0.41 / called noise 0.39
+--- v 2700: far-lag / zero-lag (band-summed): {'S': 0.001, 'm': 0.983, 'l': 0.971, 'mv8': 0.2, 'mv9': 0.038}
+    m    q 0.3: B1 +0.01  B300 +0.20  H -0.03
+    m    q 1: B1 +0.01  B300 +0.09  H -0.04
+    m    q 3: B1 +0.00  B300 +0.06  H -0.09
+    l    q 0.3: B1 -3.00  B300 +0.20  H -0.04
+    l    q 1: B1 -3.62  B300 +0.09  H -0.08
+    l    q 3: B1 -4.57  B300 +0.06  H -0.16
+    mv8  q 0.3: B1 -6.01  B300 -1.24  H -2.95
+    mv8  q 1: B1 -7.15  B300 -2.14  H -3.49
+    mv8  q 3: B1 -8.33  B300 -3.14  H -4.41
+    mv9  q 0.3: B1 -6.65  B300 -2.14  H -5.11
+    mv9  q 1: B1 -7.94  B300 -3.33  H -6.08
+    mv9  q 3: B1 -9.23  B300 -4.55  H -7.35
+    artefact (full): B1 phi +0.85 / called noise 0.26  B300 phi +0.85 / called noise 0.28  H phi +0.92 / called noise 0.26
+    artefact (gap): B1 phi +0.84 / called noise 0.23  B300 phi +0.77 / called noise 0.21  H phi +0.80 / called noise 0.21
