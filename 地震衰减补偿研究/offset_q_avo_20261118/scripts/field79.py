@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MAIN = Path("D:/ChatGPT/研究/地震衰减补偿研究/uq_rtm_20261117/cache")
 SEGY = MAIN / "volve_seq079" / "seq079_dline5081.segy"; VP = MAIN / "fld" / "vp.bin"; META = MAIN / "fld" / "meta.json"
 DT = 0.004; NT = 800; T = np.arange(NT) * DT; NF = 512; F = np.fft.rfftfreq(NF, DT)
-CENT = np.round(np.arange(0.6, 2.21, 0.2), 3)   # amendment: <= 2.2 s (2.4 s windows reached below layer B); WL = 0.4; REF = 350.0; OFFS = np.arange(500, 3901, 200); HW = 100.0
+CENT = np.round(np.arange(0.6, 2.21, 0.2), 3); WL = 0.4; REF = 350.0; OFFS = np.arange(500, 3901, 200); HW = 100.0   # amendment: centres <= 2.2 s (2.4 s windows reached below layer B)
 CMP_LIM = 1000.0; NBLK = 8; BAND = (8.0, 60.0); FLOOR = 0.02; MINBW = 10.0; STRETCH = 1.3
 MUTE = lambda x: -0.13 + np.abs(x) / 1216.0; MUTE_PAD = 0.1; TB = (1.02, 2.40); ZS = 6.0
 
