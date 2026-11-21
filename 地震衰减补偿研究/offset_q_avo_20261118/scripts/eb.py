@@ -53,7 +53,14 @@ def z_job(args):
 def run(model, fp):
     Qm = np.array(NEW[model], float); mnum = int(model[1:]); rows = []; t0 = time.monotonic(); est = {}
     s.g.RIC = s.spec(fp); s.th.S2 = s.g.RIC ** 2; out = ROOT / "results" / ("a2eb_%s_f%d.json" % (model, int(fp)))
+    done = set()
+    if out.exists():   # resume (added 11-21 after out-of-memory kills): keep only c with all scenes done; seeds depend on c only
+        old = json.loads(out.read_text())
+        done = {c for c in CS if {r["scene"] for r in old if r["c"] == c} == set(E.SCENES)}
+        rows = [r for r in old if r["c"] in done]; print(model, fp, "resume, done c:", sorted(done), flush=True)
     for c in CS:
+        if c in done:
+            continue
         for seed in range(SEEDS):
             for snr in E.SNRS:
                 ce, se = c_hat_jk(Qm, BASE_NEW + mnum * 100_000 + int(fp) * 1000 + int(round(c * 100)) * 10 + seed, c, fp, snr)

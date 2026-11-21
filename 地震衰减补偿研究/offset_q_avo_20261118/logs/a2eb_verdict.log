@@ -1,0 +1,36 @@
+{
+ "cal_eb": {
+  "E1_frac": 1.0,
+  "E1_pass": true,
+  "E2_median": 0.08002191575514639,
+  "E2_pass": true,
+  "E3_median": 0.018460754201180603,
+  "E3_pass": true,
+  "E4_median": 0.005595273063666001,
+  "E4_pass": true,
+  "E5_frac": 0.90625,
+  "E5_pass": true,
+  "E6_median": 0.012099918624193944,
+  "E6_pass": true
+ },
+ "cal": {
+  "E1_frac": 1.0,
+  "E1_pass": true,
+  "E2_median": 0.08394332574499505,
+  "E2_pass": true,
+  "E3_median": 0.07432401040417376,
+  "E3_pass": false,
+  "E4_median": 0.03896079476907949,
+  "E4_pass": false,
+  "E5_frac": 0.90625,
+  "E5_pass": true
+ },
+ "all_pass": true
+}
+c 0.50  oracle 0.034  uncal 1.583  tik_uncal 1.620  cal 0.169  cal_eb 0.183  ln rms hard 0.088 eb 0.094  ->1 0.00
+c 0.70  oracle 0.019  uncal 0.594  tik_uncal 0.669  cal 0.126  cal_eb 0.141  ln rms hard 0.081 eb 0.099  ->1 0.00
+c 0.85  oracle 0.013  uncal 0.242  tik_uncal 0.306  cal 0.096  cal_eb 0.120  ln rms hard 0.076 eb 0.093  ->1 0.14
+c 1.00  oracle 0.011  uncal 0.011  tik_uncal 0.060  cal 0.086  cal_eb 0.034  ln rms hard 0.084 eb 0.054  ->1 0.70
+c 1.20  oracle 0.010  uncal 0.238  tik_uncal 0.177  cal 0.071  cal_eb 0.091  ln rms hard 0.088 eb 0.088  ->1 0.05
+c 1.40  oracle 0.009  uncal 0.401  tik_uncal 0.354  cal 0.079  cal_eb 0.083  ln rms hard 0.100 eb 0.101  ->1 0.00
+c 2.00  oracle 0.008  uncal 0.588  tik_uncal 0.565  cal 0.070  cal_eb 0.069  ln rms hard 0.133 eb 0.131  ->1 0.00

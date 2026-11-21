@@ -1,0 +1,52 @@
+M34 40.0 0.5 c_hat done 367s
+M34 40.0 0.5 events_aligned 2685s
+M34 40.0 0.5 thin_aligned 5158s
+M34 40.0 0.5 events_nmo 7418s
+M34 40.0 0.7 c_hat done 8371s
+M34 40.0 0.7 events_aligned 10615s
+M34 40.0 0.7 thin_aligned 12821s
+M34 40.0 0.7 events_nmo 14750s
+M34 40.0 0.85 c_hat done 15823s
+M34 40.0 0.85 events_aligned 17453s
+M34 40.0 0.85 thin_aligned 19078s
+M34 40.0 0.85 events_nmo 20470s
+M34 40.0 1.0 c_hat done 21256s
+M34 40.0 1.0 events_aligned 22828s
+M34 40.0 1.0 thin_aligned 24076s
+M34 40.0 1.0 events_nmo 25289s
+M34 40.0 1.2 c_hat done 26253s
+M34 40.0 1.2 events_aligned 27706s
+M34 40.0 1.2 thin_aligned 29112s
+M34 40.0 1.2 events_nmo 30591s
+M34 40.0 1.4 c_hat done 31384s
+M34 40.0 1.4 events_aligned 32819s
+M34 40.0 1.4 thin_aligned 34198s
+M34 40.0 1.4 events_nmo 35668s
+M34 40.0 2.0 c_hat done 36479s
+M34 40.0 2.0 events_aligned 37478s
+M34 40.0 2.0 thin_aligned 38277s
+Traceback (most recent call last):
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\eb.py", line 103, in <module>
+    run(sys.argv[2], float(sys.argv[3]))
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\eb.py", line 74, in run
+    a, b, l = E.solve(D[:, :, k:k + 1], Cl[:, :, k:k + 1], sig[:, k:k + 1], keep, ce * Qm, "sat")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\e2e.py", line 54, in solve
+    L = s.sd.Lmat(ax[:, i], s.sd.fb_floor(np.full(n, s.sd.FF[-1]), ax[:, i], wn[:, i])); O[:, i, :] = np.linalg.solve(GtG[i] + lam * (L.T @ L), GtR[i])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\legacy2b\satdamp.py", line 17, in Lmat
+    H = np.exp(-np.pi * np.minimum(FF[:, None], fb[None, :]) * ax[None, :]); return np.fft.irfft(H * E, N, axis=0)[:n]
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\fft\_pocketfft.py", line 525, in irfft
+    output = _raw_fft(a, n, axis, True, False, norm, out=out)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\fft\_pocketfft.py", line 95, in _raw_fft
+    out = empty_like(a, shape=a.shape[:axis] + (n_out,) + a.shape[axis + 1:],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 18.8 MiB for an array with shape (4096, 601) and data type float64
+=== resume 2026-11-21 14:13:10 ===
+M34 40.0 resume, done c: [0.5, 0.7, 0.85, 1.0, 1.2, 1.4]
+M34 40.0 2.0 c_hat done 418s
+M34 40.0 2.0 events_aligned 1575s
+M34 40.0 2.0 thin_aligned 2597s
+M34 40.0 2.0 events_nmo 3491s
