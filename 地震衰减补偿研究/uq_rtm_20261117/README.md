@@ -2,6 +2,8 @@
 
 **状态：阶段 3 确认通过（合成数据）；阶段 4 实测未过（Volve F-5 上所有补偿方法都低于不补偿，UQW1 在补偿方法中领先，见 [RESULTS_STAGE4_ZH.md](RESULTS_STAGE4_ZH.md)、[RESULTS_STAGE4_POSTHOC_ZH.md](RESULTS_STAGE4_POSTHOC_ZH.md)）。标签：方法候选。** 正式查新（阶段 5）已完成：创新点 2、3、5 为 A 级，但成像域随机极性噪声估计只适用于各道独立的随机噪声，见 `../novelty_reports_20261119/NOVELTY_RESULTS_ZH.md` 第 3 节。叠后 UQ-W 线已封盘，其理论部分并入本线论文。 结果见 [RESULTS_STAGE3_ZH.md](RESULTS_STAGE3_ZH.md)；开发过程见 RESULTS_STAGE1_ROUND1/2/3、RESULTS_STAGE2。阶段 4 数据见 [DATA_VOLVE_PRESTACK_ZH.md](DATA_VOLVE_PRESTACK_ZH.md)。
 
+**分块随机极性估噪（开发，D1–D4，[PLAN_BLOCKFLIP_ZH.md](PLAN_BLOCKFLIP_ZH.md)）：**2026-11-21 第一步（估计精度）通过，B\* = 300（每炮一个符号），l30 的 |e| 从逐道翻转的 3.6–4.8 降到 0.10–0.71，A1、A2 都过，与事先预测 B\* = 300 一致，见 [RESULTS_BLOCKFLIP_ZH.md](RESULTS_BLOCKFLIP_ZH.md)。第二步（成像）待定。
+
 ## 任务
 
 把叠后已确认的 UQ-W 期望算子（`qunknown_comp_20261109`，确认 K1–K6 通过）推广到叠前两程（逆时）偏移。整体分五个阶段：
