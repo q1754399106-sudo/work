@@ -1,8 +1,9 @@
-function R=score_stage2(name,vscale)
+function R=score_stage2(name,vscale,C)
 % Scores of PLAN_STAGE2_ZH.md section 6 for one model (and velocity variant). Writes
 % analysis/stage2_<name><tag>.json.
 if nargin<2,vscale=1;end
-P=rtm_setup();C=s2_cfg(name,vscale);I=load(fullfile(P.cache,['images2_' name C.tag '.mat']));
+if nargin<3,C=s2_cfg(name,vscale);end                       % block-flip step 2 passes its own C
+P=rtm_setup();I=load(fullfile(P.cache,['images2_' name C.tag '.mat']));
 g1=fullfile(P.cache,['images2_' name C.tag '_g1.mat']);           % addendum: gamma-1 re-run of D1, D2
 if isfile(g1),G=load(g1);for d=C.sets(:,1)',for q=fieldnames(G.(d{1}))',if ~strcmp(q{1},'R0'),I.(d{1}).(q{1})=G.(d{1}).(q{1});end,end,end,end
 C.methods=C.methods(cellfun(@(q) isfield(I.(C.sets{1,1}),q),C.methods));

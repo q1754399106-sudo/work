@@ -5,7 +5,10 @@ function migrate2(C)
 P=rtm_setup();maxNumCompThreads(P.threads);M=make_model(C.name,P);vmig=M.vmig*C.vscale;
 if ~isfield(C,'itag'),C.itag=C.tag;end
 if ~isfield(C,'fixed_methods'),C2=s2_cfg(C.name,C.vscale);C.methods=C2.methods;end   % addendum: methods read at start
-D=load(fullfile(P.cache,['data_' C.name '.mat']));INV=load(fullfile(P.cache,['inv_' C.name C.itag '.mat']));
+if ~isfield(C,'dfiles'),C.dfiles={['data_' C.name '.mat']};end            % block-flip step 2: extra data files (l30)
+if ~isfield(C,'invfile'),C.invfile=['inv_' C.name C.itag '.mat'];end         % block-flip step 2: inverse snr of a given B
+D=struct();for k=1:numel(C.dfiles),S=load(fullfile(P.cache,C.dfiles{k}));for q=fieldnames(S)',D.(q{1})=S.(q{1});end,end,clear S
+INV=load(fullfile(P.cache,C.invfile));
 ns=numel(P.ixs);nz=P.nz;nx=P.nx;N=nz*nx;
 [Zi,Xi]=ndgrid(P.in{1},P.in{2});lin=sub2ind([nz nx],Zi(:),Xi(:));
 irec=sub2ind([nz nx],P.izs*ones(size(P.ixr)),P.ixr);isrc=sub2ind([nz nx],P.izs*ones(size(P.ixs)),P.ixs);
