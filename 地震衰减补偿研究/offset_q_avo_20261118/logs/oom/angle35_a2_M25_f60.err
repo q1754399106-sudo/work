@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\angle35.py", line 124, in <module>
+    run_a2(sys.argv[2], float(sys.argv[3]))
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\angle35.py", line 84, in run_a2
+    ce = ok_c(ch[(snr, seed)][vi]); a, b, l = e2e.solve(D[:, :, k:k + 1], Cl[:, :, k:k + 1], sig[:, k:k + 1], keep, ce * Qm, "sat")
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\e2e.py", line 54, in solve
+    L = s.sd.Lmat(ax[:, i], s.sd.fb_floor(np.full(n, s.sd.FF[-1]), ax[:, i], wn[:, i])); O[:, i, :] = np.linalg.solve(GtG[i] + lam * (L.T @ L), GtR[i])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\legacy2b\satdamp.py", line 17, in Lmat
+    H = np.exp(-np.pi * np.minimum(FF[:, None], fb[None, :]) * ax[None, :]); return np.fft.irfft(H * E, N, axis=0)[:n]
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 9.40 MiB for an array with shape (2049, 601) and data type float64

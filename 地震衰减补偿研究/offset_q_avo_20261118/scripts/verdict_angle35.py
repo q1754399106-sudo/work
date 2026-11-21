@@ -105,5 +105,5 @@ def judge_all(b2, n2, b3=None, n3=None):
 
 out["judge_A"] = judge_all(out["a2_full"], out["a2_A35"], out["a3_full"], out["a3_A35"])
 out["judge_B"] = judge_all(out["a2_full"], out["a2_B35"])
-(RES / "angle35_verdict.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
+(RES / "angle35_verdict.json").write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
 print(json.dumps({k: out[k] for k in ("repro_a2", "repro_a3", "judge_A", "judge_B")}, indent=1, ensure_ascii=False))

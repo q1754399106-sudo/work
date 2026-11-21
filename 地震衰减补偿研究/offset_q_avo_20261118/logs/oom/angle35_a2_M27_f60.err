@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\angle35.py", line 124, in <module>
+    run_a2(sys.argv[2], float(sys.argv[3]))
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\angle35.py", line 84, in run_a2
+    ce = ok_c(ch[(snr, seed)][vi]); a, b, l = e2e.solve(D[:, :, k:k + 1], Cl[:, :, k:k + 1], sig[:, k:k + 1], keep, ce * Qm, "sat")
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\e2e.py", line 46, in solve
+    Gd = [s.atten(a0 + ax[:, i]) for i in range(s.NX)]; GtG = [G.T @ G for G in Gd]; GtR = [Gd[i].T @ RH[:, i, :] for i in range(s.NX)]
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\legacy2b\core.py", line 42, in atten
+    return np.fft.irfft(H * E, N, axis=0)[:C.nt]
+                        ~~^~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 18.8 MiB for an array with shape (2049, 601) and data type complex128

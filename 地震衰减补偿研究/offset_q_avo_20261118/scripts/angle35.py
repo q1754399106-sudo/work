@@ -63,17 +63,28 @@ def c_hat_both(Qm, mnum, c, fp, snr, seed):
     return ca, cb, nb
 
 
+def done_parts(out):
+    """Resume (run control only): rows already written and the (c, scene) pairs they complete. Every (c, scene) has its own seeds."""
+    if not out.exists():
+        return [], set()
+    rows = json.loads(out.read_text()); return rows, {(r["c"], r["scene"]) for r in rows}
+
+
 def ok_c(ce):
     return ce if (ce == ce and ce > 0) else 1.0
 
 
 def run_a2(M, fp):
     Qm = np.array(e2e.MODELS[M], float); mnum = int(M[1:]); rows = []; t0 = time.monotonic()
-    s.g.RIC = s.spec(fp); s.th.S2 = s.g.RIC ** 2; out = ROOT / "results" / ("angle35_a2_%s_f%d.json" % (M, int(fp)))
+    s.g.RIC = s.spec(fp); s.th.S2 = s.g.RIC ** 2; out = ROOT / "results" / ("angle35_a2_%s_f%d.json" % (M, int(fp))); rows, done = done_parts(out)
     for c in e2e.CS:
+        if all((c, sc) in done for sc in e2e.SCENES):
+            continue
         ch = {(snr, seed): c_hat_both(Qm, mnum, c, fp, snr, seed) for seed in SEEDS2 for snr in e2e.SNRS}
         print(M, fp, c, "c_hat done %.0fs" % (time.monotonic() - t0), flush=True)
         for scene in e2e.SCENES:
+            if (c, scene) in done:
+                continue
             D, Cl, Tr, sig, meta, keep = e2e.columns(c * Qm, mnum, scene, fp, SEEDS2); res = {}
             for name, Qop, meth in (("oracle", c * Qm, "sat"), ("uncal", Qm, "sat"), ("tik_uncal", Qm, "direct")):
                 res[name] = e2e.solve(D, Cl, sig, keep, Qop, meth)
@@ -96,11 +107,15 @@ def run_a2(M, fp):
 def run_a3(M, fp):
     import a3  # sets e2e.EST_BASE = 61 000 000 on import, as in the original gate A3 run
     import bandlim
-    Qm = np.array(a3.MODELS[M], float); mnum = int(M[1:]); rows = []; t0 = time.monotonic(); out = ROOT / "results" / ("angle35_a3_%s_f%d.json" % (M, int(fp)))
+    Qm = np.array(a3.MODELS[M], float); mnum = int(M[1:]); rows = []; t0 = time.monotonic(); out = ROOT / "results" / ("angle35_a3_%s_f%d.json" % (M, int(fp))); rows, done = done_parts(out)
     s.g.RIC = s.spec(fp); s.th.S2 = s.g.RIC ** 2
     for c in e2e.CS:
+        if all((c, sc) in done for sc in a3.SCENES):
+            continue
         ch = {(snr, seed): e2e.c_hat(Qm, mnum, c, fp, snr, seed) for seed in a3.SEEDS for snr in e2e.SNRS}
         for scene in a3.SCENES:
+            if (c, scene) in done:
+                continue
             D, Cl, Tr, sig, meta, keep = e2e.columns(c * Qm, mnum, scene, fp, a3.SEEDS)
             outs = {m: (np.zeros_like(D), np.zeros_like(D)) for m in ("sat", "direct", "split", "tik0", "band3")}
             for k, (snr, seed) in enumerate(meta):
@@ -122,5 +137,11 @@ if __name__ == "__main__":
         print("variant B: offsets with theta <= 35 at window centres", [int(np.sum(np.interp(0.5 * (a + b), o.T, THX[:, i]) <= THMAX for i in range(1, o.NX))) for a, b in o.WIN])
     elif sys.argv[1] == "a2":
         run_a2(sys.argv[2], float(sys.argv[3]))
-    else:
+    else:  # run control only (two runners share the a3 jobs): skip a job another runner has locked
+        import os
+        lock = ROOT / "logs" / ("angle35_a3_%s_f%d.lock" % (sys.argv[2], int(float(sys.argv[3]))))
+        if not os.environ.get("ANGLE35_OWNER"):
+            if lock.exists():
+                print("locked by the other runner, skipped", flush=True); sys.exit(0)
+            lock.touch()
         run_a3(sys.argv[2], float(sys.argv[3]))

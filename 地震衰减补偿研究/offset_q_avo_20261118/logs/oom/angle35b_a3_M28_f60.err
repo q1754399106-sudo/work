@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\angle35.py", line 132, in <module>
+    run_a3(sys.argv[2], float(sys.argv[3]))
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\angle35.py", line 108, in run_a3
+    a, b, _ = e2e.solve(D[:, :, sl], Cl[:, :, sl], sig[:, sl], keep, Qc, "sat"); outs["sat"][0][:, :, k] = a[:, :, 0]; outs["sat"][1][:, :, k] = b[:, :, 0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\e2e.py", line 54, in solve
+    L = s.sd.Lmat(ax[:, i], s.sd.fb_floor(np.full(n, s.sd.FF[-1]), ax[:, i], wn[:, i])); O[:, i, :] = np.linalg.solve(GtG[i] + lam * (L.T @ L), GtR[i])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\oqa-angle35-c7d177\地震衰减补偿研究\offset_q_avo_20261118\scripts\legacy2b\satdamp.py", line 17, in Lmat
+    H = np.exp(-np.pi * np.minimum(FF[:, None], fb[None, :]) * ax[None, :]); return np.fft.irfft(H * E, N, axis=0)[:n]
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\fft\_pocketfft.py", line 525, in irfft
+    output = _raw_fft(a, n, axis, True, False, norm, out=out)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\numpy\fft\_pocketfft.py", line 95, in _raw_fft
+    out = empty_like(a, shape=a.shape[:axis] + (n_out,) + a.shape[axis + 1:],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 18.8 MiB for an array with shape (4096, 601) and data type float64

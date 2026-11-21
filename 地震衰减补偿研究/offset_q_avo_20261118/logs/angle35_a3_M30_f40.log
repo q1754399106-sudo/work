@@ -1,0 +1,10 @@
+M30 40.0 0.5 events_aligned 1170s
+M30 40.0 0.5 thin_aligned 1811s
+M30 40.0 0.7 events_aligned 2893s
+M30 40.0 0.7 thin_aligned 4064s
+M30 40.0 1.0 events_aligned 6287s
+M30 40.0 1.0 thin_aligned 7680s
+M30 40.0 1.4 events_aligned 10417s
+M30 40.0 1.4 thin_aligned 11807s
+M30 40.0 2.0 events_aligned 13575s
+M30 40.0 2.0 thin_aligned 14600s

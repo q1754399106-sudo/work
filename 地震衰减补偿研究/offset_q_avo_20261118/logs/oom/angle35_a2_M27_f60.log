@@ -1,0 +1,14 @@
+M27 60.0 0.5 c_hat done 779s
+M27 60.0 0.5 events_aligned 2923s
+M27 60.0 0.5 thin_aligned 4709s
+M27 60.0 0.5 events_nmo 5729s
+M27 60.0 0.7 c_hat done 6584s
+M27 60.0 0.7 events_aligned 8223s
+M27 60.0 0.7 thin_aligned 9967s
+M27 60.0 0.7 events_nmo 10773s
+M27 60.0 1.0 c_hat done 11575s
+M27 60.0 1.0 events_aligned 13126s
+M27 60.0 1.0 thin_aligned 14564s
+M27 60.0 1.0 events_nmo 15393s
+M27 60.0 1.4 c_hat done 16112s
+M27 60.0 1.4 events_aligned 17169s
