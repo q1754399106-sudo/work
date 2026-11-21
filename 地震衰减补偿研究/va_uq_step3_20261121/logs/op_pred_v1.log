@@ -1,0 +1,318 @@
+field
+  column_line_coord_m -1200.0
+  win_a_m (2200.0, 2500.0)
+  win_r_m (2600.0, 3200.0)
+  anchor_m 2300.0
+  win_a_time_centre_depth_m 2337.6536450591852
+  win_r_time_centre_depth_m 2920.619063047889
+  twt_a_s 2.15 2.37
+  twt_r_s 2.43 2.74
+  tstar_Q120_at_anchor_s 0.017847279617255112
+  tstar_Q120_a_s 0.018066470897882235
+  tstar_Q120_r_s 0.020770413298755185
+  dtstar_true_by_Q
+    Q120 0.0027039424008729503
+    Q60 0.005407884801745901
+    Q80 0.004055913601309425
+    Q100 0.0032447308810475404
+    Q135 0.0024035043563315115
+  band_6_23_invsnr_0
+    PH100
+      applied_s -5.94e-19 -1.39e-19 8.51e-19 3.96e-19 -1.52e-18 -2.77e-19 4.95e-19 -9.31e-19 -5.15e-19
+      applied_over_dtstar_Q120 -2.2e-16 -5.13e-17 3.15e-16 1.46e-16 -5.64e-16 -1.03e-16 1.83e-16 -3.44e-16 -1.9e-16
+    UQW1_100
+      applied_s 0.00142 0.00134 0.00127 0.00119 0.00112 0.00104 0.000969 0.000884 0.000813
+      applied_over_dtstar_Q120 0.524 0.494 0.469 0.438 0.412 0.383 0.358 0.327 0.301
+    UQW1_25
+      applied_s 0.00172 0.00162 0.00154 0.00143 0.00133 0.00122 0.00113 0.00101 0.00092
+      applied_over_dtstar_Q120 0.636 0.601 0.569 0.528 0.493 0.452 0.418 0.375 0.34
+    VA
+      applied_s 0.00496 0.00425 0.00372 0.00313 0.0027 0.00229 0.00198 0.00165 0.00142
+      applied_over_dtstar_Q120 1.83 1.57 1.37 1.16 1 0.847 0.734 0.612 0.525
+    PH25
+      applied_s 8.12e-19 -5.35e-19 -9.5e-19 -3.17e-19 2.57e-19 -6.93e-19 -1.17e-18 5.94e-20 -4.36e-19
+      applied_over_dtstar_Q120 3e-16 -1.98e-16 -3.51e-16 -1.17e-16 9.52e-17 -2.56e-16 -4.32e-16 2.2e-17 -1.61e-16
+    VAfix
+      applied_s 0.005 0.00428 0.00374 0.00315 0.00272 0.0023 0.00199 0.00166 0.00142
+      applied_over_dtstar_Q120 1.85 1.58 1.38 1.16 1.01 0.85 0.737 0.614 0.526
+  band_6_23_invsnr_15dB
+    PH100
+      applied_s -5.94e-19 -1.39e-19 8.51e-19 3.96e-19 -1.52e-18 -2.77e-19 4.95e-19 -9.31e-19 -5.15e-19
+      applied_over_dtstar_Q120 -2.2e-16 -5.13e-17 3.15e-16 1.46e-16 -5.64e-16 -1.03e-16 1.83e-16 -3.44e-16 -1.9e-16
+    UQW1_100
+      applied_s 0.00143 0.00134 0.00127 0.00118 0.00111 0.00103 0.000958 0.000872 0.0008
+      applied_over_dtstar_Q120 0.529 0.497 0.47 0.437 0.41 0.38 0.354 0.322 0.296
+    UQW1_25
+      applied_s 0.00173 0.00163 0.00154 0.00143 0.00133 0.00122 0.00112 0.00101 0.00091
+      applied_over_dtstar_Q120 0.64 0.603 0.571 0.528 0.492 0.45 0.415 0.372 0.337
+    VA
+      applied_s 0.00484 0.00414 0.00362 0.00305 0.00263 0.00223 0.00193 0.00161 0.00138
+      applied_over_dtstar_Q120 1.79 1.53 1.34 1.13 0.974 0.824 0.714 0.595 0.51
+    PH25
+      applied_s 8.12e-19 -5.35e-19 -9.5e-19 -3.17e-19 2.57e-19 -6.93e-19 -1.17e-18 5.94e-20 -4.36e-19
+      applied_over_dtstar_Q120 3e-16 -1.98e-16 -3.51e-16 -1.17e-16 9.52e-17 -2.56e-16 -4.32e-16 2.2e-17 -1.61e-16
+    VAfix
+      applied_s 0.00489 0.00418 0.00365 0.00307 0.00265 0.00224 0.00194 0.00161 0.00138
+      applied_over_dtstar_Q120 1.81 1.55 1.35 1.13 0.978 0.827 0.716 0.597 0.511
+  band_6_40_invsnr_0
+    PH100
+      applied_s -5.42e-20 -2.4e-19 3.82e-19 1.65e-19 -1.03e-19 -2.01e-19 1.81e-20 7.75e-21 -1.29e-19
+      applied_over_dtstar_Q120 -2.01e-17 -8.88e-17 1.41e-16 6.11e-17 -3.82e-17 -7.45e-17 6.69e-18 2.87e-18 -4.78e-17
+    UQW1_100
+      applied_s 0.00118 0.00112 0.00107 0.001 0.000948 0.000886 0.000833 0.000766 0.00071
+      applied_over_dtstar_Q120 0.438 0.415 0.395 0.371 0.351 0.328 0.308 0.283 0.262
+    UQW1_25
+      applied_s 0.0011 0.00107 0.00104 0.000999 0.000956 0.000903 0.000854 0.000789 0.000732
+      applied_over_dtstar_Q120 0.407 0.397 0.386 0.369 0.354 0.334 0.316 0.292 0.271
+    VA
+      applied_s 0.00447 0.00388 0.00343 0.00293 0.00255 0.00218 0.0019 0.00159 0.00137
+      applied_over_dtstar_Q120 1.65 1.44 1.27 1.08 0.943 0.805 0.702 0.59 0.508
+    PH25
+      applied_s -3.1e-20 -3e-19 9.04e-20 2.48e-19 -2.32e-20 3.62e-20 2.3e-19 5.06e-19 2.32e-19
+      applied_over_dtstar_Q120 -1.15e-17 -1.11e-16 3.34e-17 9.17e-17 -8.6e-18 1.34e-17 8.5e-17 1.87e-16 8.6e-17
+    VAfix
+      applied_s 0.00455 0.00394 0.00348 0.00296 0.00257 0.00219 0.00191 0.0016 0.00138
+      applied_over_dtstar_Q120 1.68 1.46 1.29 1.09 0.951 0.811 0.707 0.593 0.511
+  band_6_40_invsnr_15dB
+    PH100
+      applied_s -5.42e-20 -2.4e-19 3.82e-19 1.65e-19 -1.03e-19 -2.01e-19 1.81e-20 7.75e-21 -1.29e-19
+      applied_over_dtstar_Q120 -2.01e-17 -8.88e-17 1.41e-16 6.11e-17 -3.82e-17 -7.45e-17 6.69e-18 2.87e-18 -4.78e-17
+    UQW1_100
+      applied_s 0.0012 0.00113 0.00108 0.00101 0.000949 0.000885 0.00083 0.000761 0.000704
+      applied_over_dtstar_Q120 0.443 0.418 0.398 0.372 0.351 0.327 0.307 0.282 0.26
+    UQW1_25
+      applied_s 0.00111 0.00108 0.00105 0.001 0.000958 0.000902 0.000852 0.000785 0.000728
+      applied_over_dtstar_Q120 0.41 0.399 0.388 0.371 0.354 0.334 0.315 0.29 0.269
+    VA
+      applied_s 0.00438 0.0038 0.00335 0.00286 0.00249 0.00212 0.00185 0.00155 0.00134
+      applied_over_dtstar_Q120 1.62 1.4 1.24 1.06 0.919 0.784 0.684 0.574 0.494
+    PH25
+      applied_s -3.1e-20 -3e-19 9.04e-20 2.48e-19 -2.32e-20 3.62e-20 2.3e-19 5.06e-19 2.32e-19
+      applied_over_dtstar_Q120 -1.15e-17 -1.11e-16 3.34e-17 9.17e-17 -8.6e-18 1.34e-17 8.5e-17 1.87e-16 8.6e-17
+    VAfix
+      applied_s 0.00446 0.00386 0.0034 0.00289 0.00251 0.00214 0.00186 0.00156 0.00134
+      applied_over_dtstar_Q120 1.65 1.43 1.26 1.07 0.928 0.79 0.689 0.577 0.497
+  band_6_55_invsnr_0
+    PH100
+      applied_s -6.82e-20 -1.44e-19 6.47e-20 -1.26e-19 3.06e-20 -1.08e-19 -1.06e-19 -1.4e-19 -6.47e-20
+      applied_over_dtstar_Q120 -2.52e-17 -5.33e-17 2.39e-17 -4.66e-17 1.13e-17 -3.98e-17 -3.91e-17 -5.17e-17 -2.39e-17
+    UQW1_100
+      applied_s 0.00102 0.000969 0.000927 0.000875 0.000831 0.000781 0.000738 0.000684 0.000637
+      applied_over_dtstar_Q120 0.376 0.358 0.343 0.324 0.307 0.289 0.273 0.253 0.236
+    UQW1_25
+      applied_s 0.000747 0.000747 0.000742 0.00073 0.000714 0.000691 0.000666 0.00063 0.000596
+      applied_over_dtstar_Q120 0.276 0.276 0.274 0.27 0.264 0.255 0.246 0.233 0.221
+    VA
+      applied_s 0.00406 0.00357 0.00319 0.00274 0.00241 0.00207 0.00182 0.00154 0.00133
+      applied_over_dtstar_Q120 1.5 1.32 1.18 1.01 0.891 0.767 0.673 0.569 0.493
+    PH25
+      applied_s -2.09e-19 -3.93e-20 2.88e-20 1.15e-19 3.67e-20 1.86e-19 2.04e-19 -2.54e-20 4.98e-20
+      applied_over_dtstar_Q120 -7.73e-17 -1.45e-17 1.07e-17 4.27e-17 1.36e-17 6.89e-17 7.53e-17 -9.38e-18 1.84e-17
+    VAfix
+      applied_s 0.00417 0.00365 0.00325 0.00279 0.00244 0.0021 0.00184 0.00155 0.00134
+      applied_over_dtstar_Q120 1.54 1.35 1.2 1.03 0.903 0.775 0.68 0.573 0.496
+  band_6_55_invsnr_15dB
+    PH100
+      applied_s -6.82e-20 -1.44e-19 6.47e-20 -1.26e-19 3.06e-20 -1.08e-19 -1.06e-19 -1.4e-19 -6.47e-20
+      applied_over_dtstar_Q120 -2.52e-17 -5.33e-17 2.39e-17 -4.66e-17 1.13e-17 -3.98e-17 -3.91e-17 -5.17e-17 -2.39e-17
+    UQW1_100
+      applied_s 0.00103 0.000977 0.000935 0.000881 0.000835 0.000783 0.000739 0.000682 0.000635
+      applied_over_dtstar_Q120 0.38 0.361 0.346 0.326 0.309 0.29 0.273 0.252 0.235
+    UQW1_25
+      applied_s 0.000754 0.000753 0.000747 0.000733 0.000716 0.000692 0.000666 0.000629 0.000594
+      applied_over_dtstar_Q120 0.279 0.278 0.276 0.271 0.265 0.256 0.246 0.232 0.22
+    VA
+      applied_s 0.00398 0.0035 0.00312 0.00268 0.00235 0.00202 0.00177 0.0015 0.0013
+      applied_over_dtstar_Q120 1.47 1.29 1.15 0.992 0.87 0.748 0.656 0.554 0.479
+    PH25
+      applied_s -2.09e-19 -3.93e-20 2.88e-20 1.15e-19 3.67e-20 1.86e-19 2.04e-19 -2.54e-20 4.98e-20
+      applied_over_dtstar_Q120 -7.73e-17 -1.45e-17 1.07e-17 4.27e-17 1.36e-17 6.89e-17 7.53e-17 -9.38e-18 1.84e-17
+    VAfix
+      applied_s 0.00409 0.00358 0.00318 0.00272 0.00238 0.00205 0.00179 0.00151 0.00131
+      applied_over_dtstar_Q120 1.51 1.32 1.18 1.01 0.882 0.757 0.663 0.558 0.483
+  m 0.5 0.6 0.7 0.85 1 1.2 1.4 1.7 2
+synthetic
+  D1
+    tstar_a_s 0.009031610007219786
+    tstar_r_s 0.017726682593618242
+    tstar_anchor_s 0.005849263898044393
+    dtstar_true_vert_s 0.008695072586398456
+    twt_len_a_s 0.24489795918367502
+    twt_len_r_s 0.47652361673415267
+    m 0.5 0.7 1 1.4 2
+    band_8_50
+      PH100
+        applied_fraction 3.22e-17 -8.74e-18 -5.94e-17 7.63e-18 -2.86e-17
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.514 0.461 0.404 0.349 0.292
+        predicted_residual_fraction 0.486 0.539 0.596 0.651 0.708
+      UQW1_25
+        applied_fraction 0.427 0.408 0.374 0.334 0.284
+        predicted_residual_fraction 0.573 0.592 0.626 0.666 0.716
+      VA
+        applied_fraction 0.645 0.591 0.516 0.438 0.355
+        predicted_residual_fraction 0.355 0.409 0.484 0.562 0.645
+      PH25
+        applied_fraction 6.35e-18 4.61e-18 2.41e-17 -5.56e-18 1.99e-17
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 0.717 0.639 0.546 0.456 0.365
+        predicted_residual_fraction 0.283 0.361 0.454 0.544 0.635
+    band_6_23
+      PH100
+        applied_fraction -2.73e-17 -6.83e-18 -1.21e-16 -1.62e-16 1.02e-16
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.684 0.603 0.517 0.436 0.353
+        predicted_residual_fraction 0.316 0.397 0.483 0.564 0.647
+      UQW1_25
+        applied_fraction 0.827 0.717 0.599 0.492 0.387
+        predicted_residual_fraction 0.173 0.283 0.401 0.508 0.613
+      VA
+        applied_fraction 1.1 0.921 0.736 0.581 0.441
+        predicted_residual_fraction -0.105 0.0791 0.264 0.419 0.559
+      PH25
+        applied_fraction -2.05e-17 2.5e-17 -8.42e-17 -1.41e-16 -4.33e-17
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 1.16 0.952 0.753 0.59 0.446
+        predicted_residual_fraction -0.156 0.0485 0.247 0.41 0.554
+  D2
+    tstar_a_s 0.008133154126678088
+    tstar_r_s 0.015467510797726671
+    tstar_anchor_s 0.005420352080883114
+    dtstar_true_vert_s 0.007334356671048583
+    twt_len_a_s 0.23529411764705987
+    twt_len_r_s 0.46043005312420315
+    m 0.5 0.7 1 1.4 2
+    band_8_50
+      PH100
+        applied_fraction 3.6e-17 3.18e-17 -9.42e-18 -1.34e-17 2.84e-17
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.559 0.499 0.434 0.373 0.308
+        predicted_residual_fraction 0.441 0.501 0.566 0.627 0.692
+      UQW1_25
+        applied_fraction 0.477 0.45 0.408 0.359 0.302
+        predicted_residual_fraction 0.523 0.55 0.592 0.641 0.698
+      VA
+        applied_fraction 0.733 0.658 0.564 0.47 0.375
+        predicted_residual_fraction 0.267 0.342 0.436 0.53 0.625
+      PH25
+        applied_fraction 1.15e-17 3.01e-18 1.68e-17 -3.99e-17 1.6e-17
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 0.803 0.704 0.592 0.488 0.385
+        predicted_residual_fraction 0.197 0.296 0.408 0.512 0.615
+    band_6_23
+      PH100
+        applied_fraction 1.89e-17 2.43e-17 1.7e-16 -1.89e-17 -7.29e-17
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.741 0.649 0.551 0.46 0.369
+        predicted_residual_fraction 0.259 0.351 0.449 0.54 0.631
+      UQW1_25
+        applied_fraction 0.891 0.766 0.633 0.514 0.401
+        predicted_residual_fraction 0.109 0.234 0.367 0.486 0.599
+      VA
+        applied_fraction 1.2 0.983 0.775 0.605 0.455
+        predicted_residual_fraction -0.196 0.0169 0.225 0.395 0.545
+      PH25
+        applied_fraction 7.83e-17 6.75e-17 2.7e-17 8.91e-17 -1.03e-16
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 1.24 1.01 0.791 0.613 0.46
+        predicted_residual_fraction -0.243 -0.0108 0.209 0.387 0.54
+  D3
+    tstar_a_s 0.008253656253656245
+    tstar_r_s 0.015196718764116898
+    tstar_anchor_s 0.005667797667797667
+    dtstar_true_vert_s 0.006943062510460653
+    twt_len_a_s 0.2399999999999986
+    twt_len_r_s 0.4701776384535007
+    m 0.5 0.7 1 1.4 2
+    band_8_50
+      PH100
+        applied_fraction 1.03e-17 1.65e-17 -1.29e-17 1.11e-17 1.81e-17
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.561 0.501 0.436 0.374 0.309
+        predicted_residual_fraction 0.439 0.499 0.564 0.626 0.691
+      UQW1_25
+        applied_fraction 0.478 0.451 0.409 0.36 0.302
+        predicted_residual_fraction 0.522 0.549 0.591 0.64 0.698
+      VA
+        applied_fraction 0.761 0.679 0.579 0.48 0.382
+        predicted_residual_fraction 0.239 0.321 0.421 0.52 0.618
+      PH25
+        applied_fraction 4.18e-18 -1.83e-17 3.08e-17 -4.97e-18 -3.14e-17
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 0.83 0.725 0.606 0.497 0.391
+        predicted_residual_fraction 0.17 0.275 0.394 0.503 0.609
+    band_6_23
+      PH100
+        applied_fraction 7.41e-17 6.27e-17 5.7e-18 7.13e-17 2.57e-17
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.742 0.651 0.552 0.461 0.369
+        predicted_residual_fraction 0.258 0.349 0.448 0.539 0.631
+      UQW1_25
+        applied_fraction 0.893 0.767 0.634 0.515 0.402
+        predicted_residual_fraction 0.107 0.233 0.366 0.485 0.598
+      VA
+        applied_fraction 1.22 1 0.787 0.612 0.459
+        predicted_residual_fraction -0.224 -0.00199 0.213 0.388 0.541
+      PH25
+        applied_fraction -6.27e-17 -8.55e-17 1.28e-16 1.17e-16 -1.43e-17
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 1.27 1.03 0.802 0.62 0.463
+        predicted_residual_fraction -0.27 -0.0288 0.198 0.38 0.537
+  D4
+    tstar_a_s 0.011122316066066045
+    tstar_r_s 0.01543514410132065
+    tstar_anchor_s 0.009658658658658649
+    dtstar_true_vert_s 0.004312828035254604
+    twt_len_a_s 0.21759259259259095
+    twt_len_r_s 0.4433823529411741
+    m 0.5 0.7 1 1.4 2
+    band_8_50
+      PH100
+        applied_fraction 1.92e-18 -3.07e-17 -2.75e-17 2.24e-18 1.99e-17
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.509 0.457 0.401 0.348 0.291
+        predicted_residual_fraction 0.491 0.543 0.599 0.652 0.709
+      UQW1_25
+        applied_fraction 0.421 0.404 0.372 0.332 0.284
+        predicted_residual_fraction 0.579 0.596 0.628 0.668 0.716
+      VA
+        applied_fraction 1.06 0.892 0.72 0.572 0.436
+        predicted_residual_fraction -0.0573 0.108 0.28 0.428 0.564
+      PH25
+        applied_fraction -7.05e-18 -3.65e-17 6.05e-17 -6.25e-17 3.62e-17
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 1.12 0.929 0.741 0.584 0.443
+        predicted_residual_fraction -0.117 0.0711 0.259 0.416 0.557
+    band_6_23
+      PH100
+        applied_fraction -7.8e-17 2.25e-16 1.19e-16 1.65e-16 -5.51e-17
+        predicted_residual_fraction 1 1 1 1 1
+      UQW1_100
+        applied_fraction 0.679 0.599 0.515 0.435 0.352
+        predicted_residual_fraction 0.321 0.401 0.485 0.565 0.648
+      UQW1_25
+        applied_fraction 0.822 0.715 0.598 0.491 0.387
+        predicted_residual_fraction 0.178 0.285 0.402 0.509 0.613
+      VA
+        applied_fraction 1.49 1.17 0.889 0.672 0.492
+        predicted_residual_fraction -0.493 -0.174 0.111 0.328 0.508
+      PH25
+        applied_fraction 6.89e-17 6.89e-17 1.33e-16 -3.26e-16 1.15e-16
+        predicted_residual_fraction 1 1 1 1 1
+      VAfix
+        applied_fraction 1.53 1.19 0.899 0.678 0.495
+        predicted_residual_fraction -0.526 -0.193 0.101 0.322 0.505

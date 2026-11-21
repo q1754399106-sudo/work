@@ -1,0 +1,32 @@
+dt_true(Q120) 0.0027 s, target any 0.00097 s, target 30% 0.00029 s, Ta 0.224 s, Tr 0.307 s, t*_a 0.0181 s
+closed 6-23 Hz, SNR15 10 dB         SE 0.00961 s (flat 0.00977)  /target30  33.2  /target_any 10.0  K30   1101  Kany  99.1
+closed 6-23 Hz, SNR15 15 dB         SE 0.00541 s (flat 0.00549)  /target30  18.7  /target_any  5.6  K30    348  Kany  31.3
+closed 6-23 Hz, SNR15 20 dB         SE 0.00304 s (flat 0.00309)  /target30  10.5  /target_any  3.1  K30    110  Kany   9.9
+closed 6-23 Hz, SNR15 30 dB         SE 0.00096 s (flat 0.00098)  /target30   3.3  /target_any  1.0  K30     11  Kany   1.0
+closed 6-40 Hz, SNR15 10 dB         SE 0.00575 s (flat 0.00345)  /target30  19.9  /target_any  6.0  K30    394  Kany  35.5
+closed 6-40 Hz, SNR15 15 dB         SE 0.00324 s (flat 0.00194)  /target30  11.2  /target_any  3.4  K30    125  Kany  11.2
+closed 6-40 Hz, SNR15 20 dB         SE 0.00182 s (flat 0.00109)  /target30   6.3  /target_any  1.9  K30     39  Kany   3.5
+closed 6-40 Hz, SNR15 30 dB         SE 0.00058 s (flat 0.00035)  /target30   2.0  /target_any  0.6  K30      4  Kany   0.4
+closed 6-55 Hz, SNR15 10 dB         SE 0.00507 s (flat 0.00200)  /target30  17.5  /target_any  5.3  K30    306  Kany  27.6
+closed 6-55 Hz, SNR15 15 dB         SE 0.00285 s (flat 0.00112)  /target30   9.8  /target_any  3.0  K30     97  Kany   8.7
+closed 6-55 Hz, SNR15 20 dB         SE 0.00160 s (flat 0.00063)  /target30   5.5  /target_any  1.7  K30     31  Kany   2.8
+closed 6-55 Hz, SNR15 30 dB         SE 0.00051 s (flat 0.00020)  /target30   1.8  /target_any  0.5  K30      3  Kany   0.3
+tie-limited rho 0.63 snr_eff 0.66: {'6-23 Hz': np.float64(0.03807), '6-40 Hz': np.float64(0.01346), '6-55 Hz': np.float64(0.00778)}
+MC well 6-23 Hz SNR15 15 dB K=1                     mean 0.00566 sd 0.01477 bias +0.00295  sd/target30  51.0  sd/target_any 15.3
+MC well 6-23 Hz SNR15 15 dB K=5                     mean 0.00501 sd 0.00608 bias +0.00231  sd/target30  21.0  sd/target_any  6.3
+MC well 6-23 Hz SNR15 20 dB K=1                     mean 0.00469 sd 0.01308 bias +0.00199  sd/target30  45.2  sd/target_any 13.5
+MC well 6-23 Hz SNR15 20 dB K=5                     mean 0.00505 sd 0.00596 bias +0.00234  sd/target30  20.6  sd/target_any  6.2
+MC stat F-5 colour 6-23 Hz SNR15 20 dB K=20 layered mean 0.00466 sd 0.01549 bias +0.00195  sd/target30  53.5  sd/target_any 16.0
+MC stat white 6-23 Hz SNR15 20 dB K=20 layered      mean 0.00670 sd 0.01516 bias +0.00400  sd/target30  52.3  sd/target_any 15.7
+MC well 6-40 Hz SNR15 15 dB K=1                     mean 0.00351 sd 0.00546 bias +0.00080  sd/target30  18.8  sd/target_any  5.7
+MC well 6-40 Hz SNR15 15 dB K=5                     mean 0.00392 sd 0.00222 bias +0.00122  sd/target30   7.7  sd/target_any  2.3
+MC well 6-40 Hz SNR15 20 dB K=1                     mean 0.00348 sd 0.00372 bias +0.00077  sd/target30  12.8  sd/target_any  3.8
+MC well 6-40 Hz SNR15 20 dB K=5                     mean 0.00372 sd 0.00185 bias +0.00101  sd/target30   6.4  sd/target_any  1.9
+MC stat F-5 colour 6-40 Hz SNR15 20 dB K=20 layered mean 0.00302 sd 0.00667 bias +0.00031  sd/target30  23.0  sd/target_any  6.9
+MC stat white 6-40 Hz SNR15 20 dB K=20 layered      mean 0.00384 sd 0.00738 bias +0.00113  sd/target30  25.5  sd/target_any  7.6
+MC well 6-55 Hz SNR15 15 dB K=1                     mean 0.00259 sd 0.00518 bias -0.00012  sd/target30  17.9  sd/target_any  5.4
+MC well 6-55 Hz SNR15 15 dB K=5                     mean 0.00322 sd 0.00295 bias +0.00052  sd/target30  10.2  sd/target_any  3.1
+MC well 6-55 Hz SNR15 20 dB K=1                     mean 0.00285 sd 0.00395 bias +0.00015  sd/target30  13.6  sd/target_any  4.1
+MC well 6-55 Hz SNR15 20 dB K=5                     mean 0.00315 sd 0.00173 bias +0.00044  sd/target30   6.0  sd/target_any  1.8
+MC stat F-5 colour 6-55 Hz SNR15 20 dB K=20 layered mean 0.00180 sd 0.00330 bias -0.00091  sd/target30  11.4  sd/target_any  3.4
+MC stat white 6-55 Hz SNR15 20 dB K=20 layered      mean 0.00235 sd 0.00380 bias -0.00036  sd/target30  13.1  sd/target_any  3.9
