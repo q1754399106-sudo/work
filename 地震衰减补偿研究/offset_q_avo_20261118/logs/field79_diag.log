@@ -1,0 +1,20 @@
+near tc 0.6 centroid 33.2 Hz  slope -0.0013 /Hz  P(60)/peak 0.788
+near tc 0.8 centroid 36.3 Hz  slope +0.0059 /Hz  P(60)/peak 0.992
+near tc 1.0 centroid 33.9 Hz  slope +0.0002 /Hz  P(60)/peak 1.000
+near tc 1.2 centroid 32.4 Hz  slope -0.0028 /Hz  P(60)/peak 0.621
+near tc 1.4 centroid 32.1 Hz  slope -0.0040 /Hz  P(60)/peak 0.571
+near tc 1.6 centroid 29.5 Hz  slope -0.0089 /Hz  P(60)/peak 0.331
+near tc 1.8 centroid 27.6 Hz  slope -0.0138 /Hz  P(60)/peak 0.228
+near tc 2.0 centroid 26.8 Hz  slope -0.0190 /Hz  P(60)/peak 0.155
+near tc 2.2 centroid 26.6 Hz  slope -0.0181 /Hz  P(60)/peak 0.136
+2.0 s offset  500  slope -0.0003 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.03 -0.05 -0.06])
+2.0 s offset  700  slope +0.0021 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.08 -0.03  0.02])
+2.0 s offset  900  slope +0.0039 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.04 -0.01  0.13])
+2.0 s offset 1100  slope +0.0063 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.03 -0.11  0.2 ])
+2.0 s offset 1300  slope +0.0075 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.02 -0.01  0.31])
+2.0 s offset 1500  slope +0.0093 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.07 -0.05  0.32])
+2.0 s offset 1700  slope +0.0102 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.03  0.11  0.52])
+2.0 s offset 1900  slope +0.0114 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.12  0.08  0.52])
+2.0 s offset 2100  slope +0.0126 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.11  0.    0.53])
+2.0 s offset 2300  slope +0.0122 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.06  0.05  0.57])
+2.0 s offset 2500  slope +0.0120 /Hz  (0.5 ln ratio rel. 8 Hz at 10/30/50 Hz: [-0.03  0.02  0.53])
