@@ -1,0 +1,24 @@
+{
+  "rule": "max 40 m vp jump in 2150-2400 m per column, 21-point running median, 10 m grid",
+  "za_line": [
+    2220,
+    2320
+  ],
+  "za_evalwin": [
+    2220,
+    2320
+  ],
+  "za_F5": [
+    2270,
+    2290
+  ],
+  "jump_median": 517.98388671875,
+  "jump_min": 329.259765625,
+  "v_above_median": 2215.28466796875,
+  "v_below_median": 2881.962158203125,
+  "env_ratio_median": 1.3375186114802631,
+  "env_ratio_p10": 0.92408908392069322,
+  "clear_to_F5_tie_top": 280,
+  "clear_to_reservoir_top": 280,
+  "raw_minus_median_absmax": 10
+}

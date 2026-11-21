@@ -1,0 +1,27 @@
+Delta t* = 0, f  4 Hz, 1/snr  0.0: H = 1.000000+0.000000i
+Delta t* = 0, f  4 Hz, 1/snr  0.1: H = 1.000000+0.000000i
+Delta t* = 0, f  4 Hz, 1/snr 10.0: H = 1.000000+0.000000i
+f  4: va_tab(f_v = 25 known) vs uq_tab(25): max rel diff A 0 P 0 C 0
+Delta t* = 0, f 10 Hz, 1/snr  0.0: H = 1.000000+0.000000i
+Delta t* = 0, f 10 Hz, 1/snr  0.1: H = 1.000000+0.000000i
+Delta t* = 0, f 10 Hz, 1/snr 10.0: H = 1.000000+0.000000i
+f 10: va_tab(f_v = 25 known) vs uq_tab(25): max rel diff A 0 P 0 C 0
+Delta t* = 0, f 25 Hz, 1/snr  0.0: H = 1.000000+0.000000i
+Delta t* = 0, f 25 Hz, 1/snr  0.1: H = 1.000000+0.000000i
+Delta t* = 0, f 25 Hz, 1/snr 10.0: H = 1.000000+0.000000i
+f 25: va_tab(f_v = 25 known) vs uq_tab(25): max rel diff A 0 P 0 C 0
+f_v band [15 35] Hz: geometric centre 22.9 Hz, Lambda 0.847; first sinc zero at Delta t* = 0.01 s: 371 Hz
+{错误使用 fprintf
+文件标识符无效。使用 fopen 生成有效的文件标识符。
+
+出错 fld_eval (第 37 行)
+out=fullfile(P.root,'analysis');fid=fopen(fullfile(out,['stage4_field' sfx '.json']),'w');fprintf(fid,'%s',jsonencode(R,'PrettyPrint',true));fclose(fid);
+                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 fe2_eval (第 11 行)
+fld_eval([up me s 'cache' s 'images_fe2' tag '.mat'],[s up me s 'analysis' s 'fe2_eval' tag]);
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 fe2_smoke (第 48 行)
+  fe2_eval('_evaltest');
+  ^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

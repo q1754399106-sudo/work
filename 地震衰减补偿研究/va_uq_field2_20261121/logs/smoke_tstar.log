@@ -1,0 +1,15 @@
+t* fields 20/124
+t* fields 40/124
+t* fields 60/124
+t* fields 80/124
+t* fields 100/124
+t* fields 120/124
+t* fields: 126 s
+above anchor (140907 nodes x 124 shots): Delta t* median 0 ms, 95% 7.43e-07 ms, max 11.2 ms, share > 0.1 ms 0.048
+  within 200 m above the anchor, x -2.5..1.5 km: median 0 ms, 95% 6.46 ms, max 8.96 ms
+first node row below the anchor: Delta t* median 0.097 ms, 95% 8.22 ms, max 11.2 ms
+  VA operator there (m = 0.5, 1/snr = 0), f 10 Hz: max |phase| 0.3538 rad, |H| 1.0038-1.8538
+  VA operator there (m = 0.5, 1/snr = 0), f 25 Hz: max |phase| 0.0787 rad, |H| 1.0096-3.5420
+reservoir window: t* median 23.46 ms, Delta t* median 4.64 ms, Delta t*/t* median 0.201 (5-95%: 0.116-0.305)
+F-5 tie columns 2570-3170 m: t* median 23.32 ms, Delta t* median 4.42 ms, ratio 0.192
+max Delta t* 13.80 ms, max t* 32.61 ms

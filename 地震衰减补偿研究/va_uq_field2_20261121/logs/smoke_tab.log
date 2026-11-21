@@ -1,0 +1,13 @@
+Delta t* = 0, f  4 Hz, 1/snr  0.0: H = 1.000000+0.000000i
+Delta t* = 0, f  4 Hz, 1/snr  0.1: H = 1.000000+0.000000i
+Delta t* = 0, f  4 Hz, 1/snr 10.0: H = 1.000000+0.000000i
+f  4: va_tab(f_v = 25 known) vs uq_tab(25): max rel diff A 0 P 0 C 0
+Delta t* = 0, f 10 Hz, 1/snr  0.0: H = 1.000000+0.000000i
+Delta t* = 0, f 10 Hz, 1/snr  0.1: H = 1.000000+0.000000i
+Delta t* = 0, f 10 Hz, 1/snr 10.0: H = 1.000000+0.000000i
+f 10: va_tab(f_v = 25 known) vs uq_tab(25): max rel diff A 0 P 0 C 0
+Delta t* = 0, f 25 Hz, 1/snr  0.0: H = 1.000000+0.000000i
+Delta t* = 0, f 25 Hz, 1/snr  0.1: H = 1.000000+0.000000i
+Delta t* = 0, f 25 Hz, 1/snr 10.0: H = 1.000000+0.000000i
+f 25: va_tab(f_v = 25 known) vs uq_tab(25): max rel diff A 0 P 0 C 0
+f_v band [15 35] Hz: geometric centre 22.9 Hz, Lambda 0.847; first sinc zero at Delta t* = 0.01 s: 371 Hz

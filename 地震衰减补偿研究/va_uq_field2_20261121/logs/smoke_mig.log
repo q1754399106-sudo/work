@@ -1,0 +1,14 @@
+smoke mig start 21-Nov-2026 19:50:32
+block flip B = 300: traces per shot 190-236, blocks per shot 1, signs +14992/-13296 over 124 shots
+fe2 pass 1 f 15.00 Hz (1/1): 281 s, private 1.62 GB, peak private 4.95 GB (before LU 1.49), rel diff to stage-4 image 0  19:55:42
+smoke: f 15.00 Hz, source weight W = 1; |I| max 2.09e+05, stage-4 |I| max 2.09e+05
+fe2 pass 2 f 15.00 Hz (1/1): 225 s  19:59:35
+images saved D:\ChatGPT\研究\地震衰减补偿研究\va_uq_field2_20261121\cache\images_fe2_smoke.mat (21-Nov-2026 19:59:52)
+R0: size 217971x1, finite 1, rms 1.19e+04
+VA: size 217971x9, finite 1, rms 1.2e+04
+UQW1_100: size 217971x9, finite 1, rms 1.25e+04
+UQW1_25: size 217971x9, finite 1, rms 1.29e+04
+VA_B1: size 217971x9, finite 1, rms 1.2e+04
+UQW1_100_B1: size 217971x9, finite 1, rms 1.25e+04
+UQW1_25_B1: size 217971x9, finite 1, rms 1.29e+04
+smoke mig end 21-Nov-2026 19:59:56

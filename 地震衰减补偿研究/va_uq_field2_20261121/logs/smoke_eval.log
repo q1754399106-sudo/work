@@ -1,0 +1,11 @@
+fld_eval: D:\ChatGPT\研究\地震衰减补偿研究\va_uq_field2_20261121\cache\evalroot\scripts\fld_eval.m
+fld_setup: D:\ChatGPT\研究\地震衰减补偿研究\va_uq_field2_20261121\cache\evalroot\scripts\fld_setup.m (byte-identical copies of uq_rtm_20261117/scripts)
+fe2_eval_evaltest written 21-Nov-2026 19:26:48
+fe2_eval on the stage-4 image file vs stage4_field.json: max |diff| 0 (R0 tie 0.6259)
+point values vs fld_eval json: max |diff| = 0
+fe2_boot_evaltest written 21-Nov-2026 19:26:57
+R0 0.6259 | VA 0.5800 0.5875 0.5950 0.6025 0.6100 0.6175 0.6250 0.6325 0.6400 
+VA - R0: -0.0459 -0.0384 -0.0309 -0.0234 -0.0159 -0.0084 -0.0009 +0.0066 +0.0141 
+P4 (literal 0.60-0.66 at all m): 0 | P4 (R0 +- 0.03): 0 | readings disagree: 0
+follow-up (VA lower than R0 by > 0.05 at some m): 0 (0 of 9 m) | max VA - R0 +0.0141 (bound +0.033)
+judge test (expected P4 0, R0+-0.03 0, follow-up 0): 0 0 0
