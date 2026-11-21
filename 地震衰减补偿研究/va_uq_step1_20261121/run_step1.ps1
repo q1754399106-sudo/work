@@ -1,16 +1,13 @@
-# Launch the step-1 chain (PLAN_ZH.md section 6) as detached, hidden MATLAB processes at high priority.
+# Launch the step-1 chain (PLAN_ZH.md section 6) as detached hidden workers (run_step1_worker.ps1), one per
+# argument; each worker runs va_run(<models>) in MATLAB at high priority and restarts it after a crash.
+# Workers are created through Win32_Process.Create, so they do not belong to the calling shell's process
+# tree or job and keep running after it ends.
 #   powershell -NoProfile -ExecutionPolicy Bypass -File run_step1.ps1 D2 D4      # two processes in parallel
 #   powershell -NoProfile -ExecutionPolicy Bypass -File run_step1.ps1 "D2,D4"    # one process, D2 then D4
-# Each process: va_run(<models>) in scripts/; log logs/run_<models>.log (MATLAB diary). Resumable.
-$matlab = 'D:\Program Files (x86)\MATLAB2024B\bin\matlab.exe'
-$scripts = Join-Path $PSScriptRoot 'scripts'
-$t0 = Get-Date
+# Logs: logs/run_<models>.log (MATLAB diary), logs/worker_<models>.log (attempts). Resumable.
+$worker = Join-Path $PSScriptRoot 'run_step1_worker.ps1'
 foreach ($a in $args) {
-  $names = ($a -split ',') | ForEach-Object { "'" + $_.Trim() + "'" }
-  $cmd = "va_run({" + ($names -join ',') + "})"
-  $p = Start-Process -FilePath $matlab -ArgumentList @('-batch', "`"$cmd`"") -WorkingDirectory $scripts -WindowStyle Hidden -PassThru
-  Write-Output ("started {0}  launcher pid {1}  {2}" -f $cmd, $p.Id, (Get-Date -Format 'HH:mm:ss'))
+  $cl = 'powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "' + $worker + '" "' + $a + '"'
+  $r = Invoke-CimMethod -ClassName Win32_Process -MethodName Create -Arguments @{ CommandLine = $cl; CurrentDirectory = $PSScriptRoot }
+  Write-Output ("worker for {0}: pid {1} (return {2})  {3}" -f $a, $r.ProcessId, $r.ReturnValue, (Get-Date -Format 'HH:mm:ss'))
 }
-Start-Sleep -Seconds 30
-Get-Process MATLAB -ErrorAction SilentlyContinue | Where-Object { $_.StartTime -ge $t0 } | ForEach-Object {
-  $_.PriorityClass = 'High'; Write-Output ("MATLAB pid {0} priority High" -f $_.Id) }
