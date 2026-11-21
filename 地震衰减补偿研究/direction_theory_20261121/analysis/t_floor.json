@@ -1,0 +1,122 @@
+[
+ {
+  "case": "Volve RTM F-5 tie, 4-25 Hz, two-way t* 0.033 s",
+  "d": 0.2613647641344075,
+  "sd_A": 0.16467408559809216,
+  "rms_phi_perp_deg": 1.2429179374697188,
+  "loss_approx": 0.013794070582610032,
+  "loss_exact": 0.013443700232540268
+ },
+ {
+  "case": "Volve RTM F-5 tie, 4-25 Hz, two-way t* 0.033 s",
+  "d": 0.26236426446749106,
+  "sd_A": 0.16530382543295705,
+  "rms_phi_perp_deg": 1.2476710528967763,
+  "loss_approx": 0.013899773739392999,
+  "loss_exact": 0.013544122803977876
+ },
+ {
+  "case": "Volve RTM F-5 tie, 4-25 Hz, two-way t* 0.033 s",
+  "d": 0.6931471805599453,
+  "sd_A": 0.4367206058614165,
+  "rms_phi_perp_deg": 3.296255587005892,
+  "loss_approx": 0.09701732375388172,
+  "loss_exact": 0.08235936194427085
+ },
+ {
+  "case": "Volve RTM, same band, fr 25 Hz",
+  "d": 0.2613647641344075,
+  "sd_A": 0.16467408559809216,
+  "rms_phi_perp_deg": 1.2429179374697188,
+  "loss_approx": 0.013794070582610032,
+  "loss_exact": 0.013443700232540268
+ },
+ {
+  "case": "Volve RTM, same band, fr 25 Hz",
+  "d": 0.26236426446749106,
+  "sd_A": 0.16530382543295705,
+  "rms_phi_perp_deg": 1.2476710528967763,
+  "loss_approx": 0.013899773739392999,
+  "loss_exact": 0.013544122803977876
+ },
+ {
+  "case": "Volve RTM, same band, fr 25 Hz",
+  "d": 0.6931471805599453,
+  "sd_A": 0.4367206058614165,
+  "rms_phi_perp_deg": 3.296255587005892,
+  "loss_approx": 0.09701732375388172,
+  "loss_exact": 0.08235936194427096
+ },
+ {
+  "case": "post-stack Volve tie, 10-62 Hz, t* below anchor 0.0153 s",
+  "d": 0.2613647641344075,
+  "sd_A": 0.1890544047645629,
+  "rms_phi_perp_deg": 1.422252164825337,
+  "loss_approx": 0.018178874224683856,
+  "loss_exact": 0.017577630354238205
+ },
+ {
+  "case": "post-stack Volve tie, 10-62 Hz, t* below anchor 0.0153 s",
+  "d": 0.26236426446749106,
+  "sd_A": 0.18977737880874565,
+  "rms_phi_perp_deg": 1.4276910827957054,
+  "loss_approx": 0.018318177875538928,
+  "loss_exact": 0.0177079029733348
+ },
+ {
+  "case": "post-stack Volve tie, 10-62 Hz, t* below anchor 0.0153 s",
+  "d": 0.6931471805599453,
+  "sd_A": 0.501377942313626,
+  "rms_phi_perp_deg": 3.7718553277785953,
+  "loss_approx": 0.1278568001791055,
+  "loss_exact": 0.10367801507351737
+ },
+ {
+  "case": "post-stack, hypothetical 10-62 Hz, t* 0.033 s",
+  "d": 0.2613647641344075,
+  "sd_A": 0.4077644024333714,
+  "rms_phi_perp_deg": 3.067602708446805,
+  "loss_approx": 0.08456915729283936,
+  "loss_exact": 0.07318486626404597
+ },
+ {
+  "case": "post-stack, hypothetical 10-62 Hz, t* 0.033 s",
+  "d": 0.26236426446749106,
+  "sd_A": 0.4093237582149414,
+  "rms_phi_perp_deg": 3.0793337079907372,
+  "loss_approx": 0.08521720580316063,
+  "loss_exact": 0.07367107182340327
+ },
+ {
+  "case": "post-stack, hypothetical 10-62 Hz, t* 0.033 s",
+  "d": 0.6931471805599453,
+  "sd_A": 1.0814034049901753,
+  "rms_phi_perp_deg": 8.135374236385207,
+  "loss_approx": 0.5947971096375168,
+  "loss_exact": 0.2939288486877516
+ },
+ {
+  "case": "synthetic RTM deep window, 5-50 Hz, t* 0.016 s",
+  "d": 0.2613647641344075,
+  "sd_A": 0.17108995906295305,
+  "rms_phi_perp_deg": 1.5126805687035731,
+  "loss_approx": 0.014984400217277998,
+  "loss_exact": 0.014570352673810238
+ },
+ {
+  "case": "synthetic RTM deep window, 5-50 Hz, t* 0.016 s",
+  "d": 0.26236426446749106,
+  "sd_A": 0.17174423421605942,
+  "rms_phi_perp_deg": 1.5184652992401297,
+  "loss_approx": 0.015099224800491487,
+  "loss_exact": 0.014678966551051942
+ },
+ {
+  "case": "synthetic RTM deep window, 5-50 Hz, t* 0.016 s",
+  "d": 0.6931471805599453,
+  "sd_A": 0.4537356944014716,
+  "rms_phi_perp_deg": 4.011674162571881,
+  "loss_approx": 0.10538922491596552,
+  "loss_exact": 0.08840400223918499
+ }
+]
