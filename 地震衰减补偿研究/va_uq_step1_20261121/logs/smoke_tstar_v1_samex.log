@@ -1,0 +1,4 @@
+D2 (81 s): anchor 330-450 m; |Delta t*| at anchor nodes max 0.00022 s (t* there median 0.0094 s); above anchor max 0
+D2 W_deep: t* median 0.0186 s, Delta t* median 0.0081 s, Delta/t* median 0.493 (5-95%: 0.113-0.704)
+D4 (68 s): anchor 330-330 m; |Delta t*| at anchor nodes max  s (t* there median NaN s); above anchor max 0.016
+D4 W_deep: t* median 0.0170 s, Delta t* median 0.0008 s, Delta/t* median 0.049 (5-95%: 0.000-0.372)

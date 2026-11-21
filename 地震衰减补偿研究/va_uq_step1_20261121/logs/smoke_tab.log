@@ -1,0 +1,37 @@
+anchor (Delta t* = 0) f 10 Hz 1/snr  0.0: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 10 Hz 1/snr  0.1: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 10 Hz 1/snr 10.0: H = 1.000000+0.000000i
+f 10: va_tab(fixed 25 Hz) vs uq_tab(25 Hz): max rel diff A 0 P 0 C 0
+anchor (Delta t* = 0) f 25 Hz 1/snr  0.0: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 25 Hz 1/snr  0.1: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 25 Hz 1/snr 10.0: H = 1.000000+0.000000i
+f 25: va_tab(fixed 25 Hz) vs uq_tab(25 Hz): max rel diff A 0 P 0 C 0
+anchor (Delta t* = 0) f 40 Hz 1/snr  0.0: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 40 Hz 1/snr  0.1: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 40 Hz 1/snr 10.0: H = 1.000000+0.000000i
+f 40: va_tab(fixed 25 Hz) vs uq_tab(25 Hz): max rel diff A 0 P 0 C 0
+anchor (Delta t* = 0) f 55 Hz 1/snr  0.0: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 55 Hz 1/snr  0.1: H = 1.000000+0.000000i
+anchor (Delta t* = 0) f 55 Hz 1/snr 10.0: H = 1.000000+0.000000i
+f 55: va_tab(fixed 25 Hz) vs uq_tab(25 Hz): max rel diff A 0 P 0 C 0
+E_fv phase f 10 x 0.002: closed 0.999402+0.033157i brute 0.999402+0.033157i sinc 0.99995
+E_fv phase f 10 x 0.010: closed 0.985103+0.164866i brute 0.985103+0.164866i sinc 0.99880
+E_fv phase f 10 x 0.050: closed 0.655503+0.715474i brute 0.655501+0.715472i sinc 0.97035
+E_fv phase f 25 x 0.002: closed 0.999663-0.008715i brute 0.999663-0.008715i sinc 0.99970
+E_fv phase f 25 x 0.010: closed 0.991596-0.043249i brute 0.991595-0.043249i sinc 0.99254
+E_fv phase f 25 x 0.050: closed 0.803779-0.178004i brute 0.803763-0.178001i sinc 0.82325
+E_fv phase f 55 x 0.002: closed 0.980082-0.191173i brute 0.980082-0.191173i sinc 0.99855
+E_fv phase f 55 x 0.010: closed 0.550457-0.791625i brute 0.550455-0.791623i sinc 0.96420
+E_fv phase f 55 x 0.050: closed 0.032192+0.309625i brute 0.032187+0.309575i sinc 0.31129
+first sinc zero at Delta t* = 0.01 s: f = 371 Hz
+Q  20: GSLS v25/v100 = 0.97600, formula 0.97794
+Q  22: GSLS v25/v100 = 0.97811, formula 0.97994
+Q  50: GSLS v25/v100 = 0.99021, formula 0.99117
+Q  60: GSLS v25/v100 = 0.99183, formula 0.99265
+Q  70: GSLS v25/v100 = 0.99299, formula 0.99370
+Q  80: GSLS v25/v100 = 0.99386, formula 0.99448
+Q  90: GSLS v25/v100 = 0.99454, formula 0.99510
+Q 110: GSLS v25/v100 = 0.99553, formula 0.99599
+Q 120: GSLS v25/v100 = 0.99590, formula 0.99632
+D2 v_band: smoothing check 0 m/s, vb/vmig interior min 0.9799 median 0.9937 max 0.9951
+D4 v_band: smoothing check 0 m/s, vb/vmig interior min 0.9782 median 0.9960 max 0.9963
