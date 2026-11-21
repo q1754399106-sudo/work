@@ -5,6 +5,7 @@
 - `PLAN_ZH.md`：方案与写死的停止规则（e3df339，算数前提交）。
 - `DERIVATION_ZH.md`：完整推导；第 5.3–5.4 节为事后。
 - `RESULTS_STEP0_ZH.md`：S1 不过、S2 过（机制撤回）、S3 不过 → 不立项；保留的机制结论。
+- `PLAN_S2SRC_ZH.md`（a83165c，算数前）、`RESULTS_S2SRC_ZH.md`：追加诊断，分离第二关 NMO 抵消的来源——拉平场景不切除（浅层）＋t₀ 域算子作用于拉伸数据（深层）；λ、饱和阻尼、频散都不是；更正了 `s2_ideal.py` 的误差位置。脚本 `s2_source.py`、`s2_ideal_operr.py`，结果 `s2_source.json`、`s2_source_table.json`、`s2_ideal_operr.json`。
 - `scripts/tradeoff.py`（蒙特卡罗与闭式）、`s2_stretch.py`（第二关缓存）、`s2_ideal.py`（事后理想化拉伸核对）、`verdict.py`。
 - `results/`：`tradeoff.json`、`s2.json`、`s2_ideal.json`、`verdict.json`。
 
