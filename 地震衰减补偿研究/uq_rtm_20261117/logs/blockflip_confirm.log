@@ -1,0 +1,1568 @@
+=== P=rtm_setup();fd_shots('C5',1:numel(P.ixs)) try 1 2026-11-22 08:42:05 ===
+C5 shot 1: 47 s
+C5 shot 2: 45 s
+C5 shot 3: 45 s
+C5 shot 4: 45 s
+C5 shot 5: 45 s
+C5 shot 6: 45 s
+C5 shot 7: 45 s
+C5 shot 8: 45 s
+C5 shot 9: 46 s
+C5 shot 10: 46 s
+C5 shot 11: 45 s
+C5 shot 12: 44 s
+C5 shot 13: 45 s
+C5 shot 14: 45 s
+C5 shot 15: 45 s
+C5 shot 16: 45 s
+C5 shot 17: 45 s
+C5 shot 18: 45 s
+C5 shot 19: 45 s
+C5 shot 20: 45 s
+C5 shot 21: 45 s
+C5 shot 22: 45 s
+C5 shot 23: 45 s
+C5 shot 24: 47 s
+C5 shot 25: 47 s
+C5 shot 26: 45 s
+C5 shot 27: 45 s
+C5 shot 28: 45 s
+C5 shot 29: 45 s
+C5 shot 30: 45 s
+C5 shot 31: 45 s
+C5 shot 32: 45 s
+C5 shot 33: 45 s
+C5 shot 34: 45 s
+C5 shot 35: 45 s
+C5 shot 36: 45 s
+C5 shot 37: 45 s
+C5 shot 38: 45 s
+C5 shot 39: 45 s
+C5 shot 40: 45 s
+C5 shot 41: 45 s
+C5 shot 42: 46 s
+C5 shot 43: 45 s
+C5 shot 44: 45 s
+C5 shot 45: 45 s
+C5 shot 46: 45 s
+C5 shot 47: 45 s
+C5 shot 48: 45 s
+C5 shot 49: 45 s
+C5 shot 50: 45 s
+C5 shot 51: 45 s
+=== prep_data('C5') try 1 2026-11-22 09:20:49 ===
+prep_data C5: signal rms (1.2-1.8 s, |o|<=600 m) 1.23e-09
+=== est_block('C5',[],'',[1 300]) try 1 2026-11-22 09:21:22 ===
+estblk C5 f  3.0 Hz (1/105): 39 s
+estblk C5 f  3.5 Hz (2/105): 41 s
+estblk C5 f  4.0 Hz (3/105): 45 s
+estblk C5 f  4.5 Hz (4/105): 39 s
+estblk C5 f  5.0 Hz (5/105): 40 s
+estblk C5 f  5.5 Hz (6/105): 39 s
+estblk C5 f  6.0 Hz (7/105): 39 s
+estblk C5 f  6.5 Hz (8/105): 39 s
+estblk C5 f  7.0 Hz (9/105): 40 s
+estblk C5 f  7.5 Hz (10/105): 39 s
+estblk C5 f  8.0 Hz (11/105): 39 s
+estblk C5 f  8.5 Hz (12/105): 39 s
+estblk C5 f  9.0 Hz (13/105): 40 s
+estblk C5 f  9.5 Hz (14/105): 39 s
+estblk C5 f 10.0 Hz (15/105): 40 s
+estblk C5 f 10.5 Hz (16/105): 40 s
+estblk C5 f 11.0 Hz (17/105): 39 s
+estblk C5 f 11.5 Hz (18/105): 45 s
+estblk C5 f 12.0 Hz (19/105): 39 s
+estblk C5 f 12.5 Hz (20/105): 38 s
+estblk C5 f 13.0 Hz (21/105): 39 s
+estblk C5 f 13.5 Hz (22/105): 38 s
+estblk C5 f 14.0 Hz (23/105): 39 s
+estblk C5 f 14.5 Hz (24/105): 40 s
+estblk C5 f 15.0 Hz (25/105): 38 s
+estblk C5 f 15.5 Hz (26/105): 39 s
+estblk C5 f 16.0 Hz (27/105): 40 s
+estblk C5 f 16.5 Hz (28/105): 39 s
+estblk C5 f 17.0 Hz (29/105): 40 s
+estblk C5 f 17.5 Hz (30/105): 40 s
+estblk C5 f 18.0 Hz (31/105): 40 s
+estblk C5 f 18.5 Hz (32/105): 40 s
+estblk C5 f 19.0 Hz (33/105): 39 s
+estblk C5 f 19.5 Hz (34/105): 38 s
+estblk C5 f 20.0 Hz (35/105): 39 s
+estblk C5 f 20.5 Hz (36/105): 39 s
+estblk C5 f 21.0 Hz (37/105): 39 s
+estblk C5 f 21.5 Hz (38/105): 40 s
+estblk C5 f 22.0 Hz (39/105): 40 s
+estblk C5 f 22.5 Hz (40/105): 39 s
+estblk C5 f 23.0 Hz (41/105): 39 s
+estblk C5 f 23.5 Hz (42/105): 40 s
+estblk C5 f 24.0 Hz (43/105): 39 s
+estblk C5 f 24.5 Hz (44/105): 39 s
+estblk C5 f 25.0 Hz (45/105): 39 s
+estblk C5 f 25.5 Hz (46/105): 39 s
+estblk C5 f 26.0 Hz (47/105): 40 s
+estblk C5 f 26.5 Hz (48/105): 39 s
+estblk C5 f 27.0 Hz (49/105): 40 s
+estblk C5 f 27.5 Hz (50/105): 40 s
+estblk C5 f 28.0 Hz (51/105): 39 s
+estblk C5 f 28.5 Hz (52/105): 40 s
+estblk C5 f 29.0 Hz (53/105): 39 s
+estblk C5 f 29.5 Hz (54/105): 38 s
+estblk C5 f 30.0 Hz (55/105): 39 s
+estblk C5 f 30.5 Hz (56/105): 39 s
+estblk C5 f 31.0 Hz (57/105): 39 s
+estblk C5 f 31.5 Hz (58/105): 39 s
+estblk C5 f 32.0 Hz (59/105): 41 s
+estblk C5 f 32.5 Hz (60/105): 40 s
+estblk C5 f 33.0 Hz (61/105): 40 s
+estblk C5 f 33.5 Hz (62/105): 39 s
+estblk C5 f 34.0 Hz (63/105): 39 s
+estblk C5 f 34.5 Hz (64/105): 41 s
+estblk C5 f 35.0 Hz (65/105): 40 s
+estblk C5 f 35.5 Hz (66/105): 39 s
+estblk C5 f 36.0 Hz (67/105): 40 s
+estblk C5 f 36.5 Hz (68/105): 39 s
+estblk C5 f 37.0 Hz (69/105): 39 s
+estblk C5 f 37.5 Hz (70/105): 40 s
+estblk C5 f 38.0 Hz (71/105): 39 s
+estblk C5 f 38.5 Hz (72/105): 40 s
+estblk C5 f 39.0 Hz (73/105): 40 s
+estblk C5 f 39.5 Hz (74/105): 40 s
+estblk C5 f 40.0 Hz (75/105): 40 s
+estblk C5 f 40.5 Hz (76/105): 40 s
+estblk C5 f 41.0 Hz (77/105): 40 s
+estblk C5 f 41.5 Hz (78/105): 41 s
+estblk C5 f 42.0 Hz (79/105): 39 s
+estblk C5 f 42.5 Hz (80/105): 40 s
+estblk C5 f 43.0 Hz (81/105): 40 s
+estblk C5 f 43.5 Hz (82/105): 41 s
+estblk C5 f 44.0 Hz (83/105): 39 s
+estblk C5 f 44.5 Hz (84/105): 40 s
+estblk C5 f 45.0 Hz (85/105): 41 s
+estblk C5 f 45.5 Hz (86/105): 40 s
+estblk C5 f 46.0 Hz (87/105): 40 s
+estblk C5 f 46.5 Hz (88/105): 40 s
+estblk C5 f 47.0 Hz (89/105): 39 s
+estblk C5 f 47.5 Hz (90/105): 39 s
+estblk C5 f 48.0 Hz (91/105): 39 s
+estblk C5 f 48.5 Hz (92/105): 39 s
+estblk C5 f 49.0 Hz (93/105): 39 s
+estblk C5 f 49.5 Hz (94/105): 41 s
+estblk C5 f 50.0 Hz (95/105): 39 s
+estblk C5 f 50.5 Hz (96/105): 39 s
+estblk C5 f 51.0 Hz (97/105): 39 s
+estblk C5 f 51.5 Hz (98/105): 38 s
+estblk C5 f 52.0 Hz (99/105): 40 s
+estblk C5 f 52.5 Hz (100/105): 39 s
+estblk C5 f 53.0 Hz (101/105): 39 s
+estblk C5 f 53.5 Hz (102/105): 40 s
+estblk C5 f 54.0 Hz (103/105): 41 s
+estblk C5 f 54.5 Hz (104/105): 40 s
+estblk C5 f 55.0 Hz (105/105): 39 s
+invblk C5 saved
+=== run_block2('C5',1) try 1 2026-11-22 10:31:59 ===
+fields C5 shot 10/51
+fields C5 shot 20/51
+fields C5 shot 30/51
+fields C5 shot 40/51
+fields C5 shot 50/51
+LP cut-off C5_bf1 m30: 35.5 Hz
+LP cut-off C5_bf1 m40: 10.0 Hz
+LP cut-off C5_bf1 l30: 55.0 Hz
+mig2 C5_bf1 f  3.0 Hz (1/105): 51 s
+mig2 C5_bf1 f  3.5 Hz (2/105): 48 s
+mig2 C5_bf1 f  4.0 Hz (3/105): 44 s
+mig2 C5_bf1 f  4.5 Hz (4/105): 44 s
+mig2 C5_bf1 f  5.0 Hz (5/105): 45 s
+mig2 C5_bf1 f  5.5 Hz (6/105): 45 s
+mig2 C5_bf1 f  6.0 Hz (7/105): 44 s
+mig2 C5_bf1 f  6.5 Hz (8/105): 44 s
+mig2 C5_bf1 f  7.0 Hz (9/105): 43 s
+mig2 C5_bf1 f  7.5 Hz (10/105): 48 s
+mig2 C5_bf1 f  8.0 Hz (11/105): 43 s
+mig2 C5_bf1 f  8.5 Hz (12/105): 42 s
+mig2 C5_bf1 f  9.0 Hz (13/105): 43 s
+mig2 C5_bf1 f  9.5 Hz (14/105): 43 s
+mig2 C5_bf1 f 10.0 Hz (15/105): 43 s
+mig2 C5_bf1 f 10.5 Hz (16/105): 43 s
+mig2 C5_bf1 f 11.0 Hz (17/105): 43 s
+mig2 C5_bf1 f 11.5 Hz (18/105): 44 s
+mig2 C5_bf1 f 12.0 Hz (19/105): 43 s
+mig2 C5_bf1 f 12.5 Hz (20/105): 48 s
+mig2 C5_bf1 f 13.0 Hz (21/105): 44 s
+mig2 C5_bf1 f 13.5 Hz (22/105): 43 s
+mig2 C5_bf1 f 14.0 Hz (23/105): 43 s
+mig2 C5_bf1 f 14.5 Hz (24/105): 43 s
+mig2 C5_bf1 f 15.0 Hz (25/105): 43 s
+mig2 C5_bf1 f 15.5 Hz (26/105): 43 s
+mig2 C5_bf1 f 16.0 Hz (27/105): 44 s
+mig2 C5_bf1 f 16.5 Hz (28/105): 44 s
+mig2 C5_bf1 f 17.0 Hz (29/105): 43 s
+mig2 C5_bf1 f 17.5 Hz (30/105): 47 s
+mig2 C5_bf1 f 18.0 Hz (31/105): 43 s
+mig2 C5_bf1 f 18.5 Hz (32/105): 43 s
+mig2 C5_bf1 f 19.0 Hz (33/105): 43 s
+mig2 C5_bf1 f 19.5 Hz (34/105): 44 s
+mig2 C5_bf1 f 20.0 Hz (35/105): 43 s
+mig2 C5_bf1 f 20.5 Hz (36/105): 44 s
+mig2 C5_bf1 f 21.0 Hz (37/105): 43 s
+mig2 C5_bf1 f 21.5 Hz (38/105): 44 s
+mig2 C5_bf1 f 22.0 Hz (39/105): 44 s
+mig2 C5_bf1 f 22.5 Hz (40/105): 48 s
+mig2 C5_bf1 f 23.0 Hz (41/105): 43 s
+mig2 C5_bf1 f 23.5 Hz (42/105): 44 s
+mig2 C5_bf1 f 24.0 Hz (43/105): 44 s
+mig2 C5_bf1 f 24.5 Hz (44/105): 44 s
+mig2 C5_bf1 f 25.0 Hz (45/105): 44 s
+mig2 C5_bf1 f 25.5 Hz (46/105): 44 s
+mig2 C5_bf1 f 26.0 Hz (47/105): 44 s
+mig2 C5_bf1 f 26.5 Hz (48/105): 47 s
+mig2 C5_bf1 f 27.0 Hz (49/105): 45 s
+mig2 C5_bf1 f 27.5 Hz (50/105): 46 s
+mig2 C5_bf1 f 28.0 Hz (51/105): 42 s
+mig2 C5_bf1 f 28.5 Hz (52/105): 42 s
+mig2 C5_bf1 f 29.0 Hz (53/105): 43 s
+mig2 C5_bf1 f 29.5 Hz (54/105): 43 s
+mig2 C5_bf1 f 30.0 Hz (55/105): 42 s
+mig2 C5_bf1 f 30.5 Hz (56/105): 43 s
+mig2 C5_bf1 f 31.0 Hz (57/105): 43 s
+mig2 C5_bf1 f 31.5 Hz (58/105): 43 s
+mig2 C5_bf1 f 32.0 Hz (59/105): 43 s
+mig2 C5_bf1 f 32.5 Hz (60/105): 46 s
+mig2 C5_bf1 f 33.0 Hz (61/105): 42 s
+mig2 C5_bf1 f 33.5 Hz (62/105): 43 s
+mig2 C5_bf1 f 34.0 Hz (63/105): 41 s
+mig2 C5_bf1 f 34.5 Hz (64/105): 42 s
+mig2 C5_bf1 f 35.0 Hz (65/105): 43 s
+mig2 C5_bf1 f 35.5 Hz (66/105): 42 s
+mig2 C5_bf1 f 36.0 Hz (67/105): 42 s
+mig2 C5_bf1 f 36.5 Hz (68/105): 43 s
+mig2 C5_bf1 f 37.0 Hz (69/105): 45 s
+mig2 C5_bf1 f 37.5 Hz (70/105): 47 s
+mig2 C5_bf1 f 38.0 Hz (71/105): 42 s
+mig2 C5_bf1 f 38.5 Hz (72/105): 43 s
+mig2 C5_bf1 f 39.0 Hz (73/105): 42 s
+mig2 C5_bf1 f 39.5 Hz (74/105): 42 s
+mig2 C5_bf1 f 40.0 Hz (75/105): 42 s
+mig2 C5_bf1 f 40.5 Hz (76/105): 43 s
+mig2 C5_bf1 f 41.0 Hz (77/105): 44 s
+mig2 C5_bf1 f 41.5 Hz (78/105): 43 s
+mig2 C5_bf1 f 42.0 Hz (79/105): 43 s
+mig2 C5_bf1 f 42.5 Hz (80/105): 46 s
+mig2 C5_bf1 f 43.0 Hz (81/105): 42 s
+mig2 C5_bf1 f 43.5 Hz (82/105): 43 s
+mig2 C5_bf1 f 44.0 Hz (83/105): 48 s
+mig2 C5_bf1 f 44.5 Hz (84/105): 42 s
+mig2 C5_bf1 f 45.0 Hz (85/105): 42 s
+mig2 C5_bf1 f 45.5 Hz (86/105): 43 s
+mig2 C5_bf1 f 46.0 Hz (87/105): 43 s
+mig2 C5_bf1 f 46.5 Hz (88/105): 43 s
+mig2 C5_bf1 f 47.0 Hz (89/105): 44 s
+mig2 C5_bf1 f 47.5 Hz (90/105): 47 s
+mig2 C5_bf1 f 48.0 Hz (91/105): 43 s
+mig2 C5_bf1 f 48.5 Hz (92/105): 42 s
+mig2 C5_bf1 f 49.0 Hz (93/105): 43 s
+mig2 C5_bf1 f 49.5 Hz (94/105): 44 s
+mig2 C5_bf1 f 50.0 Hz (95/105): 43 s
+mig2 C5_bf1 f 50.5 Hz (96/105): 42 s
+mig2 C5_bf1 f 51.0 Hz (97/105): 42 s
+mig2 C5_bf1 f 51.5 Hz (98/105): 43 s
+mig2 C5_bf1 f 52.0 Hz (99/105): 42 s
+mig2 C5_bf1 f 52.5 Hz (100/105): 47 s
+mig2 C5_bf1 f 53.0 Hz (101/105): 42 s
+mig2 C5_bf1 f 53.5 Hz (102/105): 43 s
+mig2 C5_bf1 f 54.0 Hz (103/105): 44 s
+mig2 C5_bf1 f 54.5 Hz (104/105): 44 s
+mig2 C5_bf1 f 55.0 Hz (105/105): 47 s
+run_block2 C5 B 1 done
+=== run_block2('C5',300) try 1 2026-11-22 11:49:46 ===
+LP cut-off C5_bf300 m30: 35.0 Hz
+LP cut-off C5_bf300 m40: 10.0 Hz
+LP cut-off C5_bf300 l30: 10.0 Hz
+mig2 C5_bf300 f  3.0 Hz (1/105): 46 s
+mig2 C5_bf300 f  3.5 Hz (2/105): 51 s
+mig2 C5_bf300 f  4.0 Hz (3/105): 46 s
+mig2 C5_bf300 f  4.5 Hz (4/105): 47 s
+mig2 C5_bf300 f  5.0 Hz (5/105): 46 s
+mig2 C5_bf300 f  5.5 Hz (6/105): 46 s
+mig2 C5_bf300 f  6.0 Hz (7/105): 47 s
+mig2 C5_bf300 f  6.5 Hz (8/105): 47 s
+mig2 C5_bf300 f  7.0 Hz (9/105): 45 s
+mig2 C5_bf300 f  7.5 Hz (10/105): 49 s
+mig2 C5_bf300 f  8.0 Hz (11/105): 44 s
+mig2 C5_bf300 f  8.5 Hz (12/105): 45 s
+mig2 C5_bf300 f  9.0 Hz (13/105): 45 s
+mig2 C5_bf300 f  9.5 Hz (14/105): 45 s
+mig2 C5_bf300 f 10.0 Hz (15/105): 46 s
+mig2 C5_bf300 f 10.5 Hz (16/105): 46 s
+mig2 C5_bf300 f 11.0 Hz (17/105): 47 s
+mig2 C5_bf300 f 11.5 Hz (18/105): 45 s
+mig2 C5_bf300 f 12.0 Hz (19/105): 45 s
+mig2 C5_bf300 f 12.5 Hz (20/105): 50 s
+mig2 C5_bf300 f 13.0 Hz (21/105): 45 s
+mig2 C5_bf300 f 13.5 Hz (22/105): 45 s
+mig2 C5_bf300 f 14.0 Hz (23/105): 43 s
+mig2 C5_bf300 f 14.5 Hz (24/105): 43 s
+mig2 C5_bf300 f 15.0 Hz (25/105): 43 s
+mig2 C5_bf300 f 15.5 Hz (26/105): 43 s
+mig2 C5_bf300 f 16.0 Hz (27/105): 43 s
+mig2 C5_bf300 f 16.5 Hz (28/105): 43 s
+mig2 C5_bf300 f 17.0 Hz (29/105): 43 s
+mig2 C5_bf300 f 17.5 Hz (30/105): 47 s
+mig2 C5_bf300 f 18.0 Hz (31/105): 43 s
+mig2 C5_bf300 f 18.5 Hz (32/105): 43 s
+mig2 C5_bf300 f 19.0 Hz (33/105): 43 s
+mig2 C5_bf300 f 19.5 Hz (34/105): 42 s
+mig2 C5_bf300 f 20.0 Hz (35/105): 43 s
+mig2 C5_bf300 f 20.5 Hz (36/105): 43 s
+mig2 C5_bf300 f 21.0 Hz (37/105): 43 s
+mig2 C5_bf300 f 21.5 Hz (38/105): 44 s
+mig2 C5_bf300 f 22.0 Hz (39/105): 43 s
+mig2 C5_bf300 f 22.5 Hz (40/105): 47 s
+mig2 C5_bf300 f 23.0 Hz (41/105): 43 s
+mig2 C5_bf300 f 23.5 Hz (42/105): 43 s
+mig2 C5_bf300 f 24.0 Hz (43/105): 43 s
+mig2 C5_bf300 f 24.5 Hz (44/105): 44 s
+mig2 C5_bf300 f 25.0 Hz (45/105): 43 s
+mig2 C5_bf300 f 25.5 Hz (46/105): 44 s
+mig2 C5_bf300 f 26.0 Hz (47/105): 46 s
+mig2 C5_bf300 f 26.5 Hz (48/105): 56 s
+mig2 C5_bf300 f 27.0 Hz (49/105): 53 s
+mig2 C5_bf300 f 27.5 Hz (50/105): 65 s
+mig2 C5_bf300 f 28.0 Hz (51/105): 60 s
+mig2 C5_bf300 f 28.5 Hz (52/105): 60 s
+mig2 C5_bf300 f 29.0 Hz (53/105): 58 s
+mig2 C5_bf300 f 29.5 Hz (54/105): 60 s
+mig2 C5_bf300 f 30.0 Hz (55/105): 61 s
+mig2 C5_bf300 f 30.5 Hz (56/105): 66 s
+mig2 C5_bf300 f 31.0 Hz (57/105): 61 s
+mig2 C5_bf300 f 31.5 Hz (58/105): 61 s
+mig2 C5_bf300 f 32.0 Hz (59/105): 57 s
+mig2 C5_bf300 f 32.5 Hz (60/105): 66 s
+mig2 C5_bf300 f 33.0 Hz (61/105): 62 s
+mig2 C5_bf300 f 33.5 Hz (62/105): 64 s
+mig2 C5_bf300 f 34.0 Hz (63/105): 62 s
+mig2 C5_bf300 f 34.5 Hz (64/105): 63 s
+mig2 C5_bf300 f 35.0 Hz (65/105): 59 s
+mig2 C5_bf300 f 35.5 Hz (66/105): 62 s
+mig2 C5_bf300 f 36.0 Hz (67/105): 62 s
+mig2 C5_bf300 f 36.5 Hz (68/105): 62 s
+mig2 C5_bf300 f 37.0 Hz (69/105): 65 s
+mig2 C5_bf300 f 37.5 Hz (70/105): 71 s
+mig2 C5_bf300 f 38.0 Hz (71/105): 57 s
+mig2 C5_bf300 f 38.5 Hz (72/105): 63 s
+mig2 C5_bf300 f 39.0 Hz (73/105): 62 s
+mig2 C5_bf300 f 39.5 Hz (74/105): 63 s
+mig2 C5_bf300 f 40.0 Hz (75/105): 63 s
+mig2 C5_bf300 f 40.5 Hz (76/105): 62 s
+mig2 C5_bf300 f 41.0 Hz (77/105): 62 s
+mig2 C5_bf300 f 41.5 Hz (78/105): 63 s
+mig2 C5_bf300 f 42.0 Hz (79/105): 63 s
+mig2 C5_bf300 f 42.5 Hz (80/105): 67 s
+mig2 C5_bf300 f 43.0 Hz (81/105): 58 s
+mig2 C5_bf300 f 43.5 Hz (82/105): 61 s
+mig2 C5_bf300 f 44.0 Hz (83/105): 65 s
+mig2 C5_bf300 f 44.5 Hz (84/105): 61 s
+mig2 C5_bf300 f 45.0 Hz (85/105): 61 s
+mig2 C5_bf300 f 45.5 Hz (86/105): 60 s
+mig2 C5_bf300 f 46.0 Hz (87/105): 60 s
+mig2 C5_bf300 f 46.5 Hz (88/105): 64 s
+mig2 C5_bf300 f 47.0 Hz (89/105): 63 s
+mig2 C5_bf300 f 47.5 Hz (90/105): 68 s
+mig2 C5_bf300 f 48.0 Hz (91/105): 59 s
+mig2 C5_bf300 f 48.5 Hz (92/105): 59 s
+mig2 C5_bf300 f 49.0 Hz (93/105): 57 s
+mig2 C5_bf300 f 49.5 Hz (94/105): 52 s
+mig2 C5_bf300 f 50.0 Hz (95/105): 52 s
+mig2 C5_bf300 f 50.5 Hz (96/105): 52 s
+mig2 C5_bf300 f 51.0 Hz (97/105): 53 s
+mig2 C5_bf300 f 51.5 Hz (98/105): 53 s
+mig2 C5_bf300 f 52.0 Hz (99/105): 53 s
+mig2 C5_bf300 f 52.5 Hz (100/105): 61 s
+mig2 C5_bf300 f 53.0 Hz (101/105): 58 s
+mig2 C5_bf300 f 53.5 Hz (102/105): 59 s
+mig2 C5_bf300 f 54.0 Hz (103/105): 58 s
+mig2 C5_bf300 f 54.5 Hz (104/105): 58 s
+mig2 C5_bf300 f 55.0 Hz (105/105): 64 s
+run_block2 C5 B 300 done
+=== P=rtm_setup();fd_shots('C6',1:numel(P.ixs)) try 1 2026-11-22 13:24:13 ===
+C6 shot 1: 62 s
+C6 shot 2: 54 s
+C6 shot 3: 55 s
+C6 shot 4: 55 s
+C6 shot 5: 99 s
+C6 shot 6: 104 s
+C6 shot 7: 104 s
+C6 shot 8: 123 s
+C6 shot 9: 102 s
+C6 shot 10: 89 s
+C6 shot 11: 63 s
+C6 shot 12: 99 s
+C6 shot 13: 119 s
+C6 shot 14: 111 s
+C6 shot 15: 121 s
+C6 shot 16: 117 s
+C6 shot 17: 117 s
+C6 shot 18: 76 s
+C6 shot 19: 68 s
+C6 shot 20: 80 s
+C6 shot 21: 75 s
+C6 shot 22: 73 s
+C6 shot 23: 82 s
+C6 shot 24: 73 s
+C6 shot 25: 72 s
+C6 shot 26: 81 s
+C6 shot 27: 76 s
+C6 shot 28: 72 s
+C6 shot 29: 78 s
+C6 shot 30: 77 s
+C6 shot 31: 73 s
+C6 shot 32: 68 s
+C6 shot 33: 69 s
+C6 shot 34: 75 s
+C6 shot 35: 71 s
+C6 shot 36: 70 s
+C6 shot 37: 77 s
+C6 shot 38: 72 s
+C6 shot 39: 71 s
+C6 shot 40: 79 s
+C6 shot 41: 71 s
+C6 shot 42: 71 s
+C6 shot 43: 60 s
+C6 shot 44: 81 s
+C6 shot 45: 105 s
+C6 shot 46: 101 s
+C6 shot 47: 103 s
+C6 shot 48: 109 s
+C6 shot 49: 99 s
+C6 shot 50: 108 s
+C6 shot 51: 78 s
+=== prep_data('C6') try 1 2026-11-22 14:36:07 ===
+prep_data C6: signal rms (1.2-1.8 s, |o|<=600 m) 1.3e-09
+=== est_block('C6',[],'',[1 300]) try 1 2026-11-22 14:37:50 ===
+estblk C6 f  3.0 Hz (1/105): 68 s
+estblk C6 f  3.5 Hz (2/105): 61 s
+estblk C6 f  4.0 Hz (3/105): 64 s
+estblk C6 f  4.5 Hz (4/105): 59 s
+estblk C6 f  5.0 Hz (5/105): 60 s
+estblk C6 f  5.5 Hz (6/105): 60 s
+estblk C6 f  6.0 Hz (7/105): 58 s
+estblk C6 f  6.5 Hz (8/105): 58 s
+estblk C6 f  7.0 Hz (9/105): 58 s
+estblk C6 f  7.5 Hz (10/105): 59 s
+estblk C6 f  8.0 Hz (11/105): 59 s
+estblk C6 f  8.5 Hz (12/105): 59 s
+estblk C6 f  9.0 Hz (13/105): 58 s
+estblk C6 f  9.5 Hz (14/105): 59 s
+estblk C6 f 10.0 Hz (15/105): 59 s
+estblk C6 f 10.5 Hz (16/105): 59 s
+estblk C6 f 11.0 Hz (17/105): 59 s
+estblk C6 f 11.5 Hz (18/105): 58 s
+estblk C6 f 12.0 Hz (19/105): 60 s
+estblk C6 f 12.5 Hz (20/105): 59 s
+estblk C6 f 13.0 Hz (21/105): 58 s
+estblk C6 f 13.5 Hz (22/105): 60 s
+estblk C6 f 14.0 Hz (23/105): 65 s
+estblk C6 f 14.5 Hz (24/105): 70 s
+estblk C6 f 15.0 Hz (25/105): 67 s
+estblk C6 f 15.5 Hz (26/105): 71 s
+estblk C6 f 16.0 Hz (27/105): 63 s
+estblk C6 f 16.5 Hz (28/105): 60 s
+estblk C6 f 17.0 Hz (29/105): 62 s
+estblk C6 f 17.5 Hz (30/105): 60 s
+estblk C6 f 18.0 Hz (31/105): 60 s
+estblk C6 f 18.5 Hz (32/105): 62 s
+estblk C6 f 19.0 Hz (33/105): 59 s
+estblk C6 f 19.5 Hz (34/105): 59 s
+estblk C6 f 20.0 Hz (35/105): 62 s
+estblk C6 f 20.5 Hz (36/105): 62 s
+estblk C6 f 21.0 Hz (37/105): 62 s
+estblk C6 f 21.5 Hz (38/105): 60 s
+estblk C6 f 22.0 Hz (39/105): 61 s
+estblk C6 f 22.5 Hz (40/105): 59 s
+estblk C6 f 23.0 Hz (41/105): 58 s
+estblk C6 f 23.5 Hz (42/105): 59 s
+estblk C6 f 24.0 Hz (43/105): 59 s
+estblk C6 f 24.5 Hz (44/105): 58 s
+estblk C6 f 25.0 Hz (45/105): 61 s
+estblk C6 f 25.5 Hz (46/105): 61 s
+estblk C6 f 26.0 Hz (47/105): 57 s
+estblk C6 f 26.5 Hz (48/105): 57 s
+estblk C6 f 27.0 Hz (49/105): 58 s
+estblk C6 f 27.5 Hz (50/105): 57 s
+estblk C6 f 28.0 Hz (51/105): 58 s
+estblk C6 f 28.5 Hz (52/105): 57 s
+estblk C6 f 29.0 Hz (53/105): 57 s
+estblk C6 f 29.5 Hz (54/105): 58 s
+estblk C6 f 30.0 Hz (55/105): 59 s
+estblk C6 f 30.5 Hz (56/105): 61 s
+estblk C6 f 31.0 Hz (57/105): 57 s
+estblk C6 f 31.5 Hz (58/105): 57 s
+estblk C6 f 32.0 Hz (59/105): 58 s
+estblk C6 f 32.5 Hz (60/105): 59 s
+estblk C6 f 33.0 Hz (61/105): 59 s
+estblk C6 f 33.5 Hz (62/105): 57 s
+estblk C6 f 34.0 Hz (63/105): 57 s
+estblk C6 f 34.5 Hz (64/105): 65 s
+estblk C6 f 35.0 Hz (65/105): 60 s
+estblk C6 f 35.5 Hz (66/105): 59 s
+estblk C6 f 36.0 Hz (67/105): 59 s
+estblk C6 f 36.5 Hz (68/105): 59 s
+estblk C6 f 37.0 Hz (69/105): 59 s
+estblk C6 f 37.5 Hz (70/105): 58 s
+estblk C6 f 38.0 Hz (71/105): 60 s
+estblk C6 f 38.5 Hz (72/105): 59 s
+estblk C6 f 39.0 Hz (73/105): 52 s
+estblk C6 f 39.5 Hz (74/105): 52 s
+estblk C6 f 40.0 Hz (75/105): 52 s
+estblk C6 f 40.5 Hz (76/105): 63 s
+estblk C6 f 41.0 Hz (77/105): 54 s
+estblk C6 f 41.5 Hz (78/105): 51 s
+estblk C6 f 42.0 Hz (79/105): 51 s
+estblk C6 f 42.5 Hz (80/105): 50 s
+estblk C6 f 43.0 Hz (81/105): 60 s
+estblk C6 f 43.5 Hz (82/105): 53 s
+estblk C6 f 44.0 Hz (83/105): 52 s
+estblk C6 f 44.5 Hz (84/105): 52 s
+estblk C6 f 45.0 Hz (85/105): 52 s
+estblk C6 f 45.5 Hz (86/105): 53 s
+estblk C6 f 46.0 Hz (87/105): 52 s
+estblk C6 f 46.5 Hz (88/105): 51 s
+estblk C6 f 47.0 Hz (89/105): 48 s
+estblk C6 f 47.5 Hz (90/105): 49 s
+estblk C6 f 48.0 Hz (91/105): 49 s
+estblk C6 f 48.5 Hz (92/105): 51 s
+estblk C6 f 49.0 Hz (93/105): 49 s
+estblk C6 f 49.5 Hz (94/105): 49 s
+estblk C6 f 50.0 Hz (95/105): 49 s
+estblk C6 f 50.5 Hz (96/105): 49 s
+estblk C6 f 51.0 Hz (97/105): 48 s
+estblk C6 f 51.5 Hz (98/105): 49 s
+estblk C6 f 52.0 Hz (99/105): 49 s
+estblk C6 f 52.5 Hz (100/105): 49 s
+estblk C6 f 53.0 Hz (101/105): 49 s
+estblk C6 f 53.5 Hz (102/105): 49 s
+estblk C6 f 54.0 Hz (103/105): 48 s
+estblk C6 f 54.5 Hz (104/105): 49 s
+estblk C6 f 55.0 Hz (105/105): 51 s
+invblk C6 saved
+=== run_block2('C6',1) try 1 2026-11-22 16:19:25 ===
+fields C6 shot 10/51
+fields C6 shot 20/51
+fields C6 shot 30/51
+fields C6 shot 40/51
+fields C6 shot 50/51
+LP cut-off C6_bf1 m30: 33.5 Hz
+LP cut-off C6_bf1 m40: 10.0 Hz
+LP cut-off C6_bf1 l30: 55.0 Hz
+mig2 C6_bf1 f  3.0 Hz (1/105): 56 s
+mig2 C6_bf1 f  3.5 Hz (2/105): 58 s
+mig2 C6_bf1 f  4.0 Hz (3/105): 57 s
+mig2 C6_bf1 f  4.5 Hz (4/105): 54 s
+mig2 C6_bf1 f  5.0 Hz (5/105): 54 s
+mig2 C6_bf1 f  5.5 Hz (6/105): 55 s
+mig2 C6_bf1 f  6.0 Hz (7/105): 55 s
+mig2 C6_bf1 f  6.5 Hz (8/105): 54 s
+mig2 C6_bf1 f  7.0 Hz (9/105): 54 s
+mig2 C6_bf1 f  7.5 Hz (10/105): 58 s
+mig2 C6_bf1 f  8.0 Hz (11/105): 54 s
+mig2 C6_bf1 f  8.5 Hz (12/105): 54 s
+mig2 C6_bf1 f  9.0 Hz (13/105): 53 s
+mig2 C6_bf1 f  9.5 Hz (14/105): 54 s
+mig2 C6_bf1 f 10.0 Hz (15/105): 60 s
+mig2 C6_bf1 f 10.5 Hz (16/105): 53 s
+mig2 C6_bf1 f 11.0 Hz (17/105): 53 s
+mig2 C6_bf1 f 11.5 Hz (18/105): 53 s
+mig2 C6_bf1 f 12.0 Hz (19/105): 54 s
+mig2 C6_bf1 f 12.5 Hz (20/105): 58 s
+mig2 C6_bf1 f 13.0 Hz (21/105): 53 s
+mig2 C6_bf1 f 13.5 Hz (22/105): 54 s
+mig2 C6_bf1 f 14.0 Hz (23/105): 53 s
+mig2 C6_bf1 f 14.5 Hz (24/105): 53 s
+mig2 C6_bf1 f 15.0 Hz (25/105): 53 s
+mig2 C6_bf1 f 15.5 Hz (26/105): 53 s
+mig2 C6_bf1 f 16.0 Hz (27/105): 53 s
+mig2 C6_bf1 f 16.5 Hz (28/105): 53 s
+mig2 C6_bf1 f 17.0 Hz (29/105): 53 s
+mig2 C6_bf1 f 17.5 Hz (30/105): 58 s
+mig2 C6_bf1 f 18.0 Hz (31/105): 53 s
+mig2 C6_bf1 f 18.5 Hz (32/105): 56 s
+mig2 C6_bf1 f 19.0 Hz (33/105): 59 s
+mig2 C6_bf1 f 19.5 Hz (34/105): 59 s
+mig2 C6_bf1 f 20.0 Hz (35/105): 59 s
+mig2 C6_bf1 f 20.5 Hz (36/105): 54 s
+mig2 C6_bf1 f 21.0 Hz (37/105): 53 s
+mig2 C6_bf1 f 21.5 Hz (38/105): 54 s
+mig2 C6_bf1 f 22.0 Hz (39/105): 53 s
+mig2 C6_bf1 f 22.5 Hz (40/105): 54 s
+mig2 C6_bf1 f 23.0 Hz (41/105): 53 s
+mig2 C6_bf1 f 23.5 Hz (42/105): 50 s
+mig2 C6_bf1 f 24.0 Hz (43/105): 50 s
+mig2 C6_bf1 f 24.5 Hz (44/105): 51 s
+mig2 C6_bf1 f 25.0 Hz (45/105): 50 s
+mig2 C6_bf1 f 25.5 Hz (46/105): 50 s
+mig2 C6_bf1 f 26.0 Hz (47/105): 50 s
+mig2 C6_bf1 f 26.5 Hz (48/105): 54 s
+mig2 C6_bf1 f 27.0 Hz (49/105): 51 s
+mig2 C6_bf1 f 27.5 Hz (50/105): 55 s
+mig2 C6_bf1 f 28.0 Hz (51/105): 50 s
+mig2 C6_bf1 f 28.5 Hz (52/105): 49 s
+mig2 C6_bf1 f 29.0 Hz (53/105): 50 s
+mig2 C6_bf1 f 29.5 Hz (54/105): 50 s
+mig2 C6_bf1 f 30.0 Hz (55/105): 51 s
+mig2 C6_bf1 f 30.5 Hz (56/105): 50 s
+mig2 C6_bf1 f 31.0 Hz (57/105): 50 s
+mig2 C6_bf1 f 31.5 Hz (58/105): 50 s
+mig2 C6_bf1 f 32.0 Hz (59/105): 50 s
+mig2 C6_bf1 f 32.5 Hz (60/105): 54 s
+mig2 C6_bf1 f 33.0 Hz (61/105): 49 s
+mig2 C6_bf1 f 33.5 Hz (62/105): 50 s
+mig2 C6_bf1 f 34.0 Hz (63/105): 51 s
+mig2 C6_bf1 f 34.5 Hz (64/105): 50 s
+mig2 C6_bf1 f 35.0 Hz (65/105): 50 s
+mig2 C6_bf1 f 35.5 Hz (66/105): 52 s
+mig2 C6_bf1 f 36.0 Hz (67/105): 51 s
+mig2 C6_bf1 f 36.5 Hz (68/105): 50 s
+mig2 C6_bf1 f 37.0 Hz (69/105): 50 s
+mig2 C6_bf1 f 37.5 Hz (70/105): 55 s
+mig2 C6_bf1 f 38.0 Hz (71/105): 52 s
+mig2 C6_bf1 f 38.5 Hz (72/105): 50 s
+mig2 C6_bf1 f 39.0 Hz (73/105): 51 s
+mig2 C6_bf1 f 39.5 Hz (74/105): 50 s
+mig2 C6_bf1 f 40.0 Hz (75/105): 50 s
+mig2 C6_bf1 f 40.5 Hz (76/105): 50 s
+mig2 C6_bf1 f 41.0 Hz (77/105): 51 s
+mig2 C6_bf1 f 41.5 Hz (78/105): 50 s
+mig2 C6_bf1 f 42.0 Hz (79/105): 50 s
+mig2 C6_bf1 f 42.5 Hz (80/105): 54 s
+mig2 C6_bf1 f 43.0 Hz (81/105): 50 s
+mig2 C6_bf1 f 43.5 Hz (82/105): 50 s
+mig2 C6_bf1 f 44.0 Hz (83/105): 50 s
+mig2 C6_bf1 f 44.5 Hz (84/105): 56 s
+mig2 C6_bf1 f 45.0 Hz (85/105): 50 s
+mig2 C6_bf1 f 45.5 Hz (86/105): 50 s
+mig2 C6_bf1 f 46.0 Hz (87/105): 50 s
+mig2 C6_bf1 f 46.5 Hz (88/105): 50 s
+mig2 C6_bf1 f 47.0 Hz (89/105): 50 s
+mig2 C6_bf1 f 47.5 Hz (90/105): 55 s
+mig2 C6_bf1 f 48.0 Hz (91/105): 50 s
+mig2 C6_bf1 f 48.5 Hz (92/105): 51 s
+mig2 C6_bf1 f 49.0 Hz (93/105): 50 s
+mig2 C6_bf1 f 49.5 Hz (94/105): 50 s
+mig2 C6_bf1 f 50.0 Hz (95/105): 50 s
+mig2 C6_bf1 f 50.5 Hz (96/105): 51 s
+mig2 C6_bf1 f 51.0 Hz (97/105): 50 s
+mig2 C6_bf1 f 51.5 Hz (98/105): 49 s
+mig2 C6_bf1 f 52.0 Hz (99/105): 50 s
+mig2 C6_bf1 f 52.5 Hz (100/105): 54 s
+mig2 C6_bf1 f 53.0 Hz (101/105): 49 s
+mig2 C6_bf1 f 53.5 Hz (102/105): 51 s
+mig2 C6_bf1 f 54.0 Hz (103/105): 51 s
+mig2 C6_bf1 f 54.5 Hz (104/105): 51 s
+mig2 C6_bf1 f 55.0 Hz (105/105): 54 s
+run_block2 C6 B 1 done
+=== run_block2('C6',300) try 1 2026-11-22 17:52:14 ===
+LP cut-off C6_bf300 m30: 33.5 Hz
+LP cut-off C6_bf300 m40: 10.0 Hz
+LP cut-off C6_bf300 l30: 10.0 Hz
+mig2 C6_bf300 f  3.0 Hz (1/105): 55 s
+mig2 C6_bf300 f  3.5 Hz (2/105): 56 s
+mig2 C6_bf300 f  4.0 Hz (3/105): 56 s
+mig2 C6_bf300 f  4.5 Hz (4/105): 54 s
+mig2 C6_bf300 f  5.0 Hz (5/105): 55 s
+mig2 C6_bf300 f  5.5 Hz (6/105): 54 s
+mig2 C6_bf300 f  6.0 Hz (7/105): 54 s
+mig2 C6_bf300 f  6.5 Hz (8/105): 55 s
+mig2 C6_bf300 f  7.0 Hz (9/105): 54 s
+mig2 C6_bf300 f  7.5 Hz (10/105): 58 s
+mig2 C6_bf300 f  8.0 Hz (11/105): 56 s
+mig2 C6_bf300 f  8.5 Hz (12/105): 53 s
+mig2 C6_bf300 f  9.0 Hz (13/105): 52 s
+mig2 C6_bf300 f  9.5 Hz (14/105): 53 s
+mig2 C6_bf300 f 10.0 Hz (15/105): 54 s
+mig2 C6_bf300 f 10.5 Hz (16/105): 53 s
+mig2 C6_bf300 f 11.0 Hz (17/105): 53 s
+mig2 C6_bf300 f 11.5 Hz (18/105): 54 s
+mig2 C6_bf300 f 12.0 Hz (19/105): 54 s
+mig2 C6_bf300 f 12.5 Hz (20/105): 58 s
+mig2 C6_bf300 f 13.0 Hz (21/105): 53 s
+mig2 C6_bf300 f 13.5 Hz (22/105): 52 s
+mig2 C6_bf300 f 14.0 Hz (23/105): 52 s
+mig2 C6_bf300 f 14.5 Hz (24/105): 53 s
+mig2 C6_bf300 f 15.0 Hz (25/105): 53 s
+mig2 C6_bf300 f 15.5 Hz (26/105): 53 s
+mig2 C6_bf300 f 16.0 Hz (27/105): 52 s
+mig2 C6_bf300 f 16.5 Hz (28/105): 50 s
+mig2 C6_bf300 f 17.0 Hz (29/105): 49 s
+mig2 C6_bf300 f 17.5 Hz (30/105): 55 s
+mig2 C6_bf300 f 18.0 Hz (31/105): 51 s
+mig2 C6_bf300 f 18.5 Hz (32/105): 51 s
+mig2 C6_bf300 f 19.0 Hz (33/105): 52 s
+mig2 C6_bf300 f 19.5 Hz (34/105): 50 s
+mig2 C6_bf300 f 20.0 Hz (35/105): 50 s
+mig2 C6_bf300 f 20.5 Hz (36/105): 51 s
+mig2 C6_bf300 f 21.0 Hz (37/105): 51 s
+mig2 C6_bf300 f 21.5 Hz (38/105): 50 s
+mig2 C6_bf300 f 22.0 Hz (39/105): 51 s
+mig2 C6_bf300 f 22.5 Hz (40/105): 55 s
+mig2 C6_bf300 f 23.0 Hz (41/105): 51 s
+mig2 C6_bf300 f 23.5 Hz (42/105): 51 s
+mig2 C6_bf300 f 24.0 Hz (43/105): 53 s
+mig2 C6_bf300 f 24.5 Hz (44/105): 58 s
+mig2 C6_bf300 f 25.0 Hz (45/105): 57 s
+mig2 C6_bf300 f 25.5 Hz (46/105): 51 s
+mig2 C6_bf300 f 26.0 Hz (47/105): 50 s
+mig2 C6_bf300 f 26.5 Hz (48/105): 51 s
+mig2 C6_bf300 f 27.0 Hz (49/105): 51 s
+mig2 C6_bf300 f 27.5 Hz (50/105): 55 s
+mig2 C6_bf300 f 28.0 Hz (51/105): 50 s
+mig2 C6_bf300 f 28.5 Hz (52/105): 51 s
+mig2 C6_bf300 f 29.0 Hz (53/105): 50 s
+mig2 C6_bf300 f 29.5 Hz (54/105): 50 s
+mig2 C6_bf300 f 30.0 Hz (55/105): 52 s
+mig2 C6_bf300 f 30.5 Hz (56/105): 51 s
+mig2 C6_bf300 f 31.0 Hz (57/105): 50 s
+mig2 C6_bf300 f 31.5 Hz (58/105): 51 s
+mig2 C6_bf300 f 32.0 Hz (59/105): 50 s
+mig2 C6_bf300 f 32.5 Hz (60/105): 55 s
+mig2 C6_bf300 f 33.0 Hz (61/105): 51 s
+mig2 C6_bf300 f 33.5 Hz (62/105): 51 s
+mig2 C6_bf300 f 34.0 Hz (63/105): 51 s
+mig2 C6_bf300 f 34.5 Hz (64/105): 51 s
+mig2 C6_bf300 f 35.0 Hz (65/105): 51 s
+mig2 C6_bf300 f 35.5 Hz (66/105): 50 s
+mig2 C6_bf300 f 36.0 Hz (67/105): 51 s
+mig2 C6_bf300 f 36.5 Hz (68/105): 51 s
+mig2 C6_bf300 f 37.0 Hz (69/105): 50 s
+mig2 C6_bf300 f 37.5 Hz (70/105): 54 s
+mig2 C6_bf300 f 38.0 Hz (71/105): 51 s
+mig2 C6_bf300 f 38.5 Hz (72/105): 50 s
+mig2 C6_bf300 f 39.0 Hz (73/105): 52 s
+mig2 C6_bf300 f 39.5 Hz (74/105): 50 s
+mig2 C6_bf300 f 40.0 Hz (75/105): 51 s
+mig2 C6_bf300 f 40.5 Hz (76/105): 50 s
+mig2 C6_bf300 f 41.0 Hz (77/105): 50 s
+mig2 C6_bf300 f 41.5 Hz (78/105): 50 s
+mig2 C6_bf300 f 42.0 Hz (79/105): 50 s
+mig2 C6_bf300 f 42.5 Hz (80/105): 58 s
+mig2 C6_bf300 f 43.0 Hz (81/105): 50 s
+mig2 C6_bf300 f 43.5 Hz (82/105): 50 s
+mig2 C6_bf300 f 44.0 Hz (83/105): 50 s
+mig2 C6_bf300 f 44.5 Hz (84/105): 50 s
+mig2 C6_bf300 f 45.0 Hz (85/105): 50 s
+mig2 C6_bf300 f 45.5 Hz (86/105): 50 s
+mig2 C6_bf300 f 46.0 Hz (87/105): 50 s
+mig2 C6_bf300 f 46.5 Hz (88/105): 49 s
+mig2 C6_bf300 f 47.0 Hz (89/105): 53 s
+mig2 C6_bf300 f 47.5 Hz (90/105): 63 s
+mig2 C6_bf300 f 48.0 Hz (91/105): 59 s
+mig2 C6_bf300 f 48.5 Hz (92/105): 61 s
+mig2 C6_bf300 f 49.0 Hz (93/105): 58 s
+mig2 C6_bf300 f 49.5 Hz (94/105): 58 s
+mig2 C6_bf300 f 50.0 Hz (95/105): 58 s
+mig2 C6_bf300 f 50.5 Hz (96/105): 58 s
+mig2 C6_bf300 f 51.0 Hz (97/105): 60 s
+mig2 C6_bf300 f 51.5 Hz (98/105): 58 s
+mig2 C6_bf300 f 52.0 Hz (99/105): 58 s
+mig2 C6_bf300 f 52.5 Hz (100/105): 66 s
+mig2 C6_bf300 f 53.0 Hz (101/105): 59 s
+mig2 C6_bf300 f 53.5 Hz (102/105): 55 s
+mig2 C6_bf300 f 54.0 Hz (103/105): 53 s
+mig2 C6_bf300 f 54.5 Hz (104/105): 50 s
+mig2 C6_bf300 f 55.0 Hz (105/105): 55 s
+run_block2 C6 B 300 done
+=== P=rtm_setup();fd_shots('C7',1:numel(P.ixs)) try 1 2026-11-22 19:26:48 ===
+C7 shot 1: 52 s
+C7 shot 2: 49 s
+C7 shot 3: 49 s
+C7 shot 4: 49 s
+C7 shot 5: 51 s
+C7 shot 6: 57 s
+C7 shot 7: 58 s
+C7 shot 8: 61 s
+C7 shot 9: 57 s
+C7 shot 10: 57 s
+C7 shot 11: 57 s
+C7 shot 12: 57 s
+C7 shot 13: 54 s
+C7 shot 14: 51 s
+C7 shot 15: 50 s
+C7 shot 16: 51 s
+C7 shot 17: 51 s
+C7 shot 18: 50 s
+C7 shot 19: 50 s
+C7 shot 20: 50 s
+C7 shot 21: 50 s
+C7 shot 22: 50 s
+C7 shot 23: 50 s
+C7 shot 24: 50 s
+C7 shot 25: 50 s
+C7 shot 26: 50 s
+C7 shot 27: 57 s
+C7 shot 28: 57 s
+C7 shot 29: 56 s
+C7 shot 30: 56 s
+C7 shot 31: 56 s
+C7 shot 32: 57 s
+C7 shot 33: 57 s
+C7 shot 34: 57 s
+C7 shot 35: 57 s
+C7 shot 36: 57 s
+C7 shot 37: 57 s
+C7 shot 38: 56 s
+C7 shot 39: 51 s
+C7 shot 40: 50 s
+C7 shot 41: 53 s
+C7 shot 42: 50 s
+C7 shot 43: 50 s
+C7 shot 44: 50 s
+C7 shot 45: 50 s
+C7 shot 46: 50 s
+C7 shot 47: 50 s
+C7 shot 48: 50 s
+C7 shot 49: 50 s
+C7 shot 50: 49 s
+C7 shot 51: 50 s
+=== prep_data('C7') try 1 2026-11-22 20:12:04 ===
+prep_data C7: signal rms (1.2-1.8 s, |o|<=600 m) 4.83e-10
+=== est_block('C7',[],'',[1 300]) try 1 2026-11-22 20:12:38 ===
+estblk C7 f  3.0 Hz (1/105): 49 s
+estblk C7 f  3.5 Hz (2/105): 49 s
+estblk C7 f  4.0 Hz (3/105): 49 s
+estblk C7 f  4.5 Hz (4/105): 50 s
+estblk C7 f  5.0 Hz (5/105): 49 s
+estblk C7 f  5.5 Hz (6/105): 50 s
+estblk C7 f  6.0 Hz (7/105): 49 s
+estblk C7 f  6.5 Hz (8/105): 50 s
+estblk C7 f  7.0 Hz (9/105): 51 s
+estblk C7 f  7.5 Hz (10/105): 51 s
+estblk C7 f  8.0 Hz (11/105): 50 s
+estblk C7 f  8.5 Hz (12/105): 51 s
+estblk C7 f  9.0 Hz (13/105): 54 s
+estblk C7 f  9.5 Hz (14/105): 50 s
+estblk C7 f 10.0 Hz (15/105): 51 s
+estblk C7 f 10.5 Hz (16/105): 50 s
+estblk C7 f 11.0 Hz (17/105): 49 s
+estblk C7 f 11.5 Hz (18/105): 48 s
+estblk C7 f 12.0 Hz (19/105): 48 s
+estblk C7 f 12.5 Hz (20/105): 48 s
+estblk C7 f 13.0 Hz (21/105): 48 s
+estblk C7 f 13.5 Hz (22/105): 49 s
+estblk C7 f 14.0 Hz (23/105): 49 s
+estblk C7 f 14.5 Hz (24/105): 48 s
+estblk C7 f 15.0 Hz (25/105): 54 s
+estblk C7 f 15.5 Hz (26/105): 48 s
+estblk C7 f 16.0 Hz (27/105): 47 s
+estblk C7 f 16.5 Hz (28/105): 47 s
+estblk C7 f 17.0 Hz (29/105): 48 s
+estblk C7 f 17.5 Hz (30/105): 48 s
+estblk C7 f 18.0 Hz (31/105): 47 s
+estblk C7 f 18.5 Hz (32/105): 47 s
+estblk C7 f 19.0 Hz (33/105): 47 s
+estblk C7 f 19.5 Hz (34/105): 49 s
+estblk C7 f 20.0 Hz (35/105): 48 s
+estblk C7 f 20.5 Hz (36/105): 48 s
+estblk C7 f 21.0 Hz (37/105): 48 s
+estblk C7 f 21.5 Hz (38/105): 48 s
+estblk C7 f 22.0 Hz (39/105): 48 s
+estblk C7 f 22.5 Hz (40/105): 48 s
+estblk C7 f 23.0 Hz (41/105): 52 s
+estblk C7 f 23.5 Hz (42/105): 49 s
+estblk C7 f 24.0 Hz (43/105): 50 s
+estblk C7 f 24.5 Hz (44/105): 49 s
+estblk C7 f 25.0 Hz (45/105): 49 s
+estblk C7 f 25.5 Hz (46/105): 49 s
+estblk C7 f 26.0 Hz (47/105): 49 s
+estblk C7 f 26.5 Hz (48/105): 51 s
+estblk C7 f 27.0 Hz (49/105): 51 s
+estblk C7 f 27.5 Hz (50/105): 50 s
+estblk C7 f 28.0 Hz (51/105): 50 s
+estblk C7 f 28.5 Hz (52/105): 50 s
+estblk C7 f 29.0 Hz (53/105): 53 s
+estblk C7 f 29.5 Hz (54/105): 51 s
+estblk C7 f 30.0 Hz (55/105): 51 s
+estblk C7 f 30.5 Hz (56/105): 51 s
+estblk C7 f 31.0 Hz (57/105): 51 s
+estblk C7 f 31.5 Hz (58/105): 51 s
+estblk C7 f 32.0 Hz (59/105): 51 s
+estblk C7 f 32.5 Hz (60/105): 51 s
+estblk C7 f 33.0 Hz (61/105): 50 s
+estblk C7 f 33.5 Hz (62/105): 50 s
+estblk C7 f 34.0 Hz (63/105): 51 s
+estblk C7 f 34.5 Hz (64/105): 51 s
+estblk C7 f 35.0 Hz (65/105): 49 s
+estblk C7 f 35.5 Hz (66/105): 51 s
+estblk C7 f 36.0 Hz (67/105): 51 s
+estblk C7 f 36.5 Hz (68/105): 49 s
+estblk C7 f 37.0 Hz (69/105): 49 s
+estblk C7 f 37.5 Hz (70/105): 51 s
+estblk C7 f 38.0 Hz (71/105): 48 s
+estblk C7 f 38.5 Hz (72/105): 48 s
+estblk C7 f 39.0 Hz (73/105): 48 s
+estblk C7 f 39.5 Hz (74/105): 48 s
+estblk C7 f 40.0 Hz (75/105): 48 s
+estblk C7 f 40.5 Hz (76/105): 49 s
+estblk C7 f 41.0 Hz (77/105): 48 s
+estblk C7 f 41.5 Hz (78/105): 48 s
+estblk C7 f 42.0 Hz (79/105): 48 s
+estblk C7 f 42.5 Hz (80/105): 48 s
+estblk C7 f 43.0 Hz (81/105): 48 s
+estblk C7 f 43.5 Hz (82/105): 48 s
+estblk C7 f 44.0 Hz (83/105): 48 s
+estblk C7 f 44.5 Hz (84/105): 49 s
+estblk C7 f 45.0 Hz (85/105): 50 s
+estblk C7 f 45.5 Hz (86/105): 51 s
+estblk C7 f 46.0 Hz (87/105): 49 s
+estblk C7 f 46.5 Hz (88/105): 50 s
+estblk C7 f 47.0 Hz (89/105): 48 s
+estblk C7 f 47.5 Hz (90/105): 50 s
+estblk C7 f 48.0 Hz (91/105): 56 s
+estblk C7 f 48.5 Hz (92/105): 57 s
+estblk C7 f 49.0 Hz (93/105): 58 s
+estblk C7 f 49.5 Hz (94/105): 58 s
+estblk C7 f 50.0 Hz (95/105): 59 s
+estblk C7 f 50.5 Hz (96/105): 61 s
+estblk C7 f 51.0 Hz (97/105): 65 s
+estblk C7 f 51.5 Hz (98/105): 59 s
+estblk C7 f 52.0 Hz (99/105): 59 s
+estblk C7 f 52.5 Hz (100/105): 59 s
+estblk C7 f 53.0 Hz (101/105): 59 s
+estblk C7 f 53.5 Hz (102/105): 59 s
+estblk C7 f 54.0 Hz (103/105): 59 s
+estblk C7 f 54.5 Hz (104/105): 59 s
+estblk C7 f 55.0 Hz (105/105): 59 s
+invblk C7 saved
+=== run_block2('C7',1) try 1 2026-11-22 21:43:10 ===
+fields C7 shot 10/51
+fields C7 shot 20/51
+fields C7 shot 30/51
+fields C7 shot 40/51
+fields C7 shot 50/51
+LP cut-off C7_bf1 m30: 43.0 Hz
+LP cut-off C7_bf1 m40: 37.0 Hz
+LP cut-off C7_bf1 l30: 55.0 Hz
+mig2 C7_bf1 f  3.0 Hz (1/105): 63 s
+mig2 C7_bf1 f  3.5 Hz (2/105): 64 s
+mig2 C7_bf1 f  4.0 Hz (3/105): 61 s
+mig2 C7_bf1 f  4.5 Hz (4/105): 62 s
+mig2 C7_bf1 f  5.0 Hz (5/105): 61 s
+mig2 C7_bf1 f  5.5 Hz (6/105): 62 s
+mig2 C7_bf1 f  6.0 Hz (7/105): 72 s
+mig2 C7_bf1 f  6.5 Hz (8/105): 70 s
+mig2 C7_bf1 f  7.0 Hz (9/105): 61 s
+mig2 C7_bf1 f  7.5 Hz (10/105): 70 s
+mig2 C7_bf1 f  8.0 Hz (11/105): 61 s
+mig2 C7_bf1 f  8.5 Hz (12/105): 61 s
+mig2 C7_bf1 f  9.0 Hz (13/105): 60 s
+mig2 C7_bf1 f  9.5 Hz (14/105): 58 s
+mig2 C7_bf1 f 10.0 Hz (15/105): 55 s
+mig2 C7_bf1 f 10.5 Hz (16/105): 53 s
+mig2 C7_bf1 f 11.0 Hz (17/105): 52 s
+mig2 C7_bf1 f 11.5 Hz (18/105): 53 s
+mig2 C7_bf1 f 12.0 Hz (19/105): 59 s
+mig2 C7_bf1 f 12.5 Hz (20/105): 64 s
+mig2 C7_bf1 f 13.0 Hz (21/105): 60 s
+mig2 C7_bf1 f 13.5 Hz (22/105): 67 s
+mig2 C7_bf1 f 14.0 Hz (23/105): 69 s
+mig2 C7_bf1 f 14.5 Hz (24/105): 59 s
+mig2 C7_bf1 f 15.0 Hz (25/105): 60 s
+mig2 C7_bf1 f 15.5 Hz (26/105): 60 s
+mig2 C7_bf1 f 16.0 Hz (27/105): 59 s
+mig2 C7_bf1 f 16.5 Hz (28/105): 59 s
+mig2 C7_bf1 f 17.0 Hz (29/105): 59 s
+mig2 C7_bf1 f 17.5 Hz (30/105): 57 s
+mig2 C7_bf1 f 18.0 Hz (31/105): 51 s
+mig2 C7_bf1 f 18.5 Hz (32/105): 50 s
+mig2 C7_bf1 f 19.0 Hz (33/105): 50 s
+mig2 C7_bf1 f 19.5 Hz (34/105): 50 s
+mig2 C7_bf1 f 20.0 Hz (35/105): 51 s
+mig2 C7_bf1 f 20.5 Hz (36/105): 50 s
+mig2 C7_bf1 f 21.0 Hz (37/105): 51 s
+mig2 C7_bf1 f 21.5 Hz (38/105): 50 s
+mig2 C7_bf1 f 22.0 Hz (39/105): 49 s
+mig2 C7_bf1 f 22.5 Hz (40/105): 56 s
+mig2 C7_bf1 f 23.0 Hz (41/105): 50 s
+mig2 C7_bf1 f 23.5 Hz (42/105): 49 s
+mig2 C7_bf1 f 24.0 Hz (43/105): 50 s
+mig2 C7_bf1 f 24.5 Hz (44/105): 50 s
+mig2 C7_bf1 f 25.0 Hz (45/105): 51 s
+mig2 C7_bf1 f 25.5 Hz (46/105): 50 s
+mig2 C7_bf1 f 26.0 Hz (47/105): 50 s
+mig2 C7_bf1 f 26.5 Hz (48/105): 50 s
+mig2 C7_bf1 f 27.0 Hz (49/105): 55 s
+mig2 C7_bf1 f 27.5 Hz (50/105): 62 s
+mig2 C7_bf1 f 28.0 Hz (51/105): 58 s
+mig2 C7_bf1 f 28.5 Hz (52/105): 64 s
+mig2 C7_bf1 f 29.0 Hz (53/105): 58 s
+mig2 C7_bf1 f 29.5 Hz (54/105): 58 s
+mig2 C7_bf1 f 30.0 Hz (55/105): 59 s
+mig2 C7_bf1 f 30.5 Hz (56/105): 62 s
+mig2 C7_bf1 f 31.0 Hz (57/105): 58 s
+mig2 C7_bf1 f 31.5 Hz (58/105): 59 s
+mig2 C7_bf1 f 32.0 Hz (59/105): 59 s
+mig2 C7_bf1 f 32.5 Hz (60/105): 64 s
+mig2 C7_bf1 f 33.0 Hz (61/105): 60 s
+mig2 C7_bf1 f 33.5 Hz (62/105): 59 s
+mig2 C7_bf1 f 34.0 Hz (63/105): 59 s
+mig2 C7_bf1 f 34.5 Hz (64/105): 59 s
+mig2 C7_bf1 f 35.0 Hz (65/105): 59 s
+mig2 C7_bf1 f 35.5 Hz (66/105): 59 s
+mig2 C7_bf1 f 36.0 Hz (67/105): 58 s
+mig2 C7_bf1 f 36.5 Hz (68/105): 59 s
+mig2 C7_bf1 f 37.0 Hz (69/105): 60 s
+mig2 C7_bf1 f 37.5 Hz (70/105): 62 s
+mig2 C7_bf1 f 38.0 Hz (71/105): 53 s
+mig2 C7_bf1 f 38.5 Hz (72/105): 52 s
+mig2 C7_bf1 f 39.0 Hz (73/105): 52 s
+mig2 C7_bf1 f 39.5 Hz (74/105): 51 s
+mig2 C7_bf1 f 40.0 Hz (75/105): 51 s
+mig2 C7_bf1 f 40.5 Hz (76/105): 50 s
+mig2 C7_bf1 f 41.0 Hz (77/105): 51 s
+mig2 C7_bf1 f 41.5 Hz (78/105): 51 s
+mig2 C7_bf1 f 42.0 Hz (79/105): 53 s
+mig2 C7_bf1 f 42.5 Hz (80/105): 55 s
+mig2 C7_bf1 f 43.0 Hz (81/105): 51 s
+mig2 C7_bf1 f 43.5 Hz (82/105): 58 s
+mig2 C7_bf1 f 44.0 Hz (83/105): 58 s
+mig2 C7_bf1 f 44.5 Hz (84/105): 59 s
+mig2 C7_bf1 f 45.0 Hz (85/105): 59 s
+mig2 C7_bf1 f 45.5 Hz (86/105): 59 s
+mig2 C7_bf1 f 46.0 Hz (87/105): 58 s
+mig2 C7_bf1 f 46.5 Hz (88/105): 59 s
+mig2 C7_bf1 f 47.0 Hz (89/105): 59 s
+mig2 C7_bf1 f 47.5 Hz (90/105): 64 s
+mig2 C7_bf1 f 48.0 Hz (91/105): 61 s
+mig2 C7_bf1 f 48.5 Hz (92/105): 58 s
+mig2 C7_bf1 f 49.0 Hz (93/105): 57 s
+mig2 C7_bf1 f 49.5 Hz (94/105): 58 s
+mig2 C7_bf1 f 50.0 Hz (95/105): 57 s
+mig2 C7_bf1 f 50.5 Hz (96/105): 68 s
+mig2 C7_bf1 f 51.0 Hz (97/105): 72 s
+mig2 C7_bf1 f 51.5 Hz (98/105): 61 s
+mig2 C7_bf1 f 52.0 Hz (99/105): 60 s
+mig2 C7_bf1 f 52.5 Hz (100/105): 65 s
+mig2 C7_bf1 f 53.0 Hz (101/105): 61 s
+mig2 C7_bf1 f 53.5 Hz (102/105): 59 s
+mig2 C7_bf1 f 54.0 Hz (103/105): 61 s
+mig2 C7_bf1 f 54.5 Hz (104/105): 61 s
+mig2 C7_bf1 f 55.0 Hz (105/105): 66 s
+run_block2 C7 B 1 done
+=== run_block2('C7',300) try 1 2026-11-22 23:25:45 ===
+LP cut-off C7_bf300 m30: 43.0 Hz
+LP cut-off C7_bf300 m40: 34.0 Hz
+LP cut-off C7_bf300 l30: 39.5 Hz
+mig2 C7_bf300 f  3.0 Hz (1/105): 63 s
+mig2 C7_bf300 f  3.5 Hz (2/105): 64 s
+mig2 C7_bf300 f  4.0 Hz (3/105): 62 s
+mig2 C7_bf300 f  4.5 Hz (4/105): 62 s
+mig2 C7_bf300 f  5.0 Hz (5/105): 61 s
+mig2 C7_bf300 f  5.5 Hz (6/105): 61 s
+mig2 C7_bf300 f  6.0 Hz (7/105): 68 s
+mig2 C7_bf300 f  6.5 Hz (8/105): 54 s
+mig2 C7_bf300 f  7.0 Hz (9/105): 51 s
+mig2 C7_bf300 f  7.5 Hz (10/105): 55 s
+mig2 C7_bf300 f  8.0 Hz (11/105): 52 s
+mig2 C7_bf300 f  8.5 Hz (12/105): 52 s
+mig2 C7_bf300 f  9.0 Hz (13/105): 58 s
+mig2 C7_bf300 f  9.5 Hz (14/105): 59 s
+mig2 C7_bf300 f 10.0 Hz (15/105): 60 s
+mig2 C7_bf300 f 10.5 Hz (16/105): 60 s
+mig2 C7_bf300 f 11.0 Hz (17/105): 60 s
+mig2 C7_bf300 f 11.5 Hz (18/105): 69 s
+mig2 C7_bf300 f 12.0 Hz (19/105): 69 s
+mig2 C7_bf300 f 12.5 Hz (20/105): 63 s
+mig2 C7_bf300 f 13.0 Hz (21/105): 60 s
+mig2 C7_bf300 f 13.5 Hz (22/105): 60 s
+mig2 C7_bf300 f 14.0 Hz (23/105): 62 s
+mig2 C7_bf300 f 14.5 Hz (24/105): 58 s
+mig2 C7_bf300 f 15.0 Hz (25/105): 58 s
+mig2 C7_bf300 f 15.5 Hz (26/105): 57 s
+mig2 C7_bf300 f 16.0 Hz (27/105): 66 s
+mig2 C7_bf300 f 16.5 Hz (28/105): 68 s
+mig2 C7_bf300 f 17.0 Hz (29/105): 67 s
+mig2 C7_bf300 f 17.5 Hz (30/105): 77 s
+mig2 C7_bf300 f 18.0 Hz (31/105): 72 s
+mig2 C7_bf300 f 18.5 Hz (32/105): 69 s
+mig2 C7_bf300 f 19.0 Hz (33/105): 63 s
+mig2 C7_bf300 f 19.5 Hz (34/105): 67 s
+mig2 C7_bf300 f 20.0 Hz (35/105): 67 s
+mig2 C7_bf300 f 20.5 Hz (36/105): 66 s
+mig2 C7_bf300 f 21.0 Hz (37/105): 61 s
+mig2 C7_bf300 f 21.5 Hz (38/105): 52 s
+mig2 C7_bf300 f 22.0 Hz (39/105): 53 s
+mig2 C7_bf300 f 22.5 Hz (40/105): 56 s
+mig2 C7_bf300 f 23.0 Hz (41/105): 51 s
+mig2 C7_bf300 f 23.5 Hz (42/105): 52 s
+mig2 C7_bf300 f 24.0 Hz (43/105): 52 s
+mig2 C7_bf300 f 24.5 Hz (44/105): 51 s
+mig2 C7_bf300 f 25.0 Hz (45/105): 52 s
+mig2 C7_bf300 f 25.5 Hz (46/105): 51 s
+mig2 C7_bf300 f 26.0 Hz (47/105): 50 s
+mig2 C7_bf300 f 26.5 Hz (48/105): 51 s
+mig2 C7_bf300 f 27.0 Hz (49/105): 51 s
+mig2 C7_bf300 f 27.5 Hz (50/105): 56 s
+mig2 C7_bf300 f 28.0 Hz (51/105): 51 s
+mig2 C7_bf300 f 28.5 Hz (52/105): 51 s
+mig2 C7_bf300 f 29.0 Hz (53/105): 58 s
+mig2 C7_bf300 f 29.5 Hz (54/105): 58 s
+mig2 C7_bf300 f 30.0 Hz (55/105): 58 s
+mig2 C7_bf300 f 30.5 Hz (56/105): 58 s
+mig2 C7_bf300 f 31.0 Hz (57/105): 59 s
+mig2 C7_bf300 f 31.5 Hz (58/105): 62 s
+mig2 C7_bf300 f 32.0 Hz (59/105): 59 s
+mig2 C7_bf300 f 32.5 Hz (60/105): 63 s
+mig2 C7_bf300 f 33.0 Hz (61/105): 59 s
+mig2 C7_bf300 f 33.5 Hz (62/105): 59 s
+mig2 C7_bf300 f 34.0 Hz (63/105): 59 s
+mig2 C7_bf300 f 34.5 Hz (64/105): 59 s
+mig2 C7_bf300 f 35.0 Hz (65/105): 58 s
+mig2 C7_bf300 f 35.5 Hz (66/105): 59 s
+mig2 C7_bf300 f 36.0 Hz (67/105): 59 s
+mig2 C7_bf300 f 36.5 Hz (68/105): 65 s
+mig2 C7_bf300 f 37.0 Hz (69/105): 59 s
+mig2 C7_bf300 f 37.5 Hz (70/105): 63 s
+mig2 C7_bf300 f 38.0 Hz (71/105): 60 s
+mig2 C7_bf300 f 38.5 Hz (72/105): 60 s
+mig2 C7_bf300 f 39.0 Hz (73/105): 59 s
+mig2 C7_bf300 f 39.5 Hz (74/105): 59 s
+mig2 C7_bf300 f 40.0 Hz (75/105): 59 s
+mig2 C7_bf300 f 40.5 Hz (76/105): 60 s
+mig2 C7_bf300 f 41.0 Hz (77/105): 60 s
+mig2 C7_bf300 f 41.5 Hz (78/105): 58 s
+mig2 C7_bf300 f 42.0 Hz (79/105): 53 s
+mig2 C7_bf300 f 42.5 Hz (80/105): 57 s
+mig2 C7_bf300 f 43.0 Hz (81/105): 55 s
+mig2 C7_bf300 f 43.5 Hz (82/105): 54 s
+mig2 C7_bf300 f 44.0 Hz (83/105): 52 s
+mig2 C7_bf300 f 44.5 Hz (84/105): 53 s
+mig2 C7_bf300 f 45.0 Hz (85/105): 54 s
+mig2 C7_bf300 f 45.5 Hz (86/105): 51 s
+mig2 C7_bf300 f 46.0 Hz (87/105): 51 s
+mig2 C7_bf300 f 46.5 Hz (88/105): 52 s
+mig2 C7_bf300 f 47.0 Hz (89/105): 51 s
+mig2 C7_bf300 f 47.5 Hz (90/105): 54 s
+mig2 C7_bf300 f 48.0 Hz (91/105): 51 s
+mig2 C7_bf300 f 48.5 Hz (92/105): 52 s
+mig2 C7_bf300 f 49.0 Hz (93/105): 62 s
+mig2 C7_bf300 f 49.5 Hz (94/105): 67 s
+mig2 C7_bf300 f 50.0 Hz (95/105): 60 s
+mig2 C7_bf300 f 50.5 Hz (96/105): 61 s
+mig2 C7_bf300 f 51.0 Hz (97/105): 61 s
+mig2 C7_bf300 f 51.5 Hz (98/105): 61 s
+mig2 C7_bf300 f 52.0 Hz (99/105): 53 s
+mig2 C7_bf300 f 52.5 Hz (100/105): 57 s
+mig2 C7_bf300 f 53.0 Hz (101/105): 51 s
+mig2 C7_bf300 f 53.5 Hz (102/105): 51 s
+mig2 C7_bf300 f 54.0 Hz (103/105): 51 s
+mig2 C7_bf300 f 54.5 Hz (104/105): 51 s
+mig2 C7_bf300 f 55.0 Hz (105/105): 55 s
+run_block2 C7 B 300 done
+=== P=rtm_setup();fd_shots('C8',1:numel(P.ixs)) try 1 2026-11-23 01:08:33 ===
+C8 shot 1: 73 s
+C8 shot 2: 70 s
+C8 shot 3: 63 s
+C8 shot 4: 60 s
+C8 shot 5: 59 s
+C8 shot 6: 60 s
+C8 shot 7: 51 s
+C8 shot 8: 51 s
+C8 shot 9: 51 s
+C8 shot 10: 50 s
+C8 shot 11: 50 s
+C8 shot 12: 50 s
+C8 shot 13: 51 s
+C8 shot 14: 53 s
+C8 shot 15: 51 s
+C8 shot 16: 50 s
+C8 shot 17: 50 s
+C8 shot 18: 51 s
+C8 shot 19: 50 s
+C8 shot 20: 51 s
+C8 shot 21: 50 s
+C8 shot 22: 50 s
+C8 shot 23: 50 s
+C8 shot 24: 50 s
+C8 shot 25: 50 s
+C8 shot 26: 50 s
+C8 shot 27: 57 s
+C8 shot 28: 50 s
+C8 shot 29: 50 s
+C8 shot 30: 50 s
+C8 shot 31: 52 s
+C8 shot 32: 50 s
+C8 shot 33: 51 s
+C8 shot 34: 50 s
+C8 shot 35: 48 s
+C8 shot 36: 46 s
+C8 shot 37: 46 s
+C8 shot 38: 46 s
+C8 shot 39: 46 s
+C8 shot 40: 48 s
+C8 shot 41: 50 s
+C8 shot 42: 47 s
+C8 shot 43: 45 s
+C8 shot 44: 46 s
+C8 shot 45: 45 s
+C8 shot 46: 46 s
+C8 shot 47: 46 s
+C8 shot 48: 45 s
+C8 shot 49: 46 s
+C8 shot 50: 45 s
+C8 shot 51: 46 s
+=== prep_data('C8') try 1 2026-11-23 01:53:02 ===
+prep_data C8: signal rms (1.2-1.8 s, |o|<=600 m) 9.91e-10
+=== est_block('C8',[],'',[1 300]) try 1 2026-11-23 01:54:30 ===
+estblk C8 f  3.0 Hz (1/105): 42 s
+estblk C8 f  3.5 Hz (2/105): 45 s
+estblk C8 f  4.0 Hz (3/105): 43 s
+estblk C8 f  4.5 Hz (4/105): 42 s
+estblk C8 f  5.0 Hz (5/105): 42 s
+estblk C8 f  5.5 Hz (6/105): 43 s
+estblk C8 f  6.0 Hz (7/105): 43 s
+estblk C8 f  6.5 Hz (8/105): 42 s
+estblk C8 f  7.0 Hz (9/105): 42 s
+estblk C8 f  7.5 Hz (10/105): 42 s
+estblk C8 f  8.0 Hz (11/105): 42 s
+estblk C8 f  8.5 Hz (12/105): 44 s
+estblk C8 f  9.0 Hz (13/105): 43 s
+estblk C8 f  9.5 Hz (14/105): 42 s
+estblk C8 f 10.0 Hz (15/105): 41 s
+estblk C8 f 10.5 Hz (16/105): 42 s
+estblk C8 f 11.0 Hz (17/105): 41 s
+estblk C8 f 11.5 Hz (18/105): 41 s
+estblk C8 f 12.0 Hz (19/105): 43 s
+estblk C8 f 12.5 Hz (20/105): 42 s
+estblk C8 f 13.0 Hz (21/105): 42 s
+estblk C8 f 13.5 Hz (22/105): 42 s
+estblk C8 f 14.0 Hz (23/105): 42 s
+estblk C8 f 14.5 Hz (24/105): 41 s
+estblk C8 f 15.0 Hz (25/105): 43 s
+estblk C8 f 15.5 Hz (26/105): 43 s
+estblk C8 f 16.0 Hz (27/105): 42 s
+estblk C8 f 16.5 Hz (28/105): 43 s
+estblk C8 f 17.0 Hz (29/105): 41 s
+estblk C8 f 17.5 Hz (30/105): 42 s
+estblk C8 f 18.0 Hz (31/105): 42 s
+estblk C8 f 18.5 Hz (32/105): 43 s
+estblk C8 f 19.0 Hz (33/105): 42 s
+estblk C8 f 19.5 Hz (34/105): 42 s
+estblk C8 f 20.0 Hz (35/105): 43 s
+estblk C8 f 20.5 Hz (36/105): 42 s
+estblk C8 f 21.0 Hz (37/105): 42 s
+estblk C8 f 21.5 Hz (38/105): 43 s
+estblk C8 f 22.0 Hz (39/105): 42 s
+estblk C8 f 22.5 Hz (40/105): 42 s
+estblk C8 f 23.0 Hz (41/105): 44 s
+estblk C8 f 23.5 Hz (42/105): 44 s
+estblk C8 f 24.0 Hz (43/105): 43 s
+estblk C8 f 24.5 Hz (44/105): 42 s
+estblk C8 f 25.0 Hz (45/105): 42 s
+estblk C8 f 25.5 Hz (46/105): 42 s
+estblk C8 f 26.0 Hz (47/105): 42 s
+estblk C8 f 26.5 Hz (48/105): 42 s
+estblk C8 f 27.0 Hz (49/105): 42 s
+estblk C8 f 27.5 Hz (50/105): 43 s
+estblk C8 f 28.0 Hz (51/105): 41 s
+estblk C8 f 28.5 Hz (52/105): 42 s
+estblk C8 f 29.0 Hz (53/105): 43 s
+estblk C8 f 29.5 Hz (54/105): 43 s
+estblk C8 f 30.0 Hz (55/105): 50 s
+estblk C8 f 30.5 Hz (56/105): 43 s
+estblk C8 f 31.0 Hz (57/105): 43 s
+estblk C8 f 31.5 Hz (58/105): 43 s
+estblk C8 f 32.0 Hz (59/105): 42 s
+estblk C8 f 32.5 Hz (60/105): 43 s
+estblk C8 f 33.0 Hz (61/105): 42 s
+estblk C8 f 33.5 Hz (62/105): 43 s
+estblk C8 f 34.0 Hz (63/105): 42 s
+estblk C8 f 34.5 Hz (64/105): 42 s
+estblk C8 f 35.0 Hz (65/105): 42 s
+estblk C8 f 35.5 Hz (66/105): 42 s
+estblk C8 f 36.0 Hz (67/105): 43 s
+estblk C8 f 36.5 Hz (68/105): 42 s
+estblk C8 f 37.0 Hz (69/105): 42 s
+estblk C8 f 37.5 Hz (70/105): 42 s
+estblk C8 f 38.0 Hz (71/105): 43 s
+estblk C8 f 38.5 Hz (72/105): 43 s
+estblk C8 f 39.0 Hz (73/105): 41 s
+estblk C8 f 39.5 Hz (74/105): 41 s
+estblk C8 f 40.0 Hz (75/105): 44 s
+estblk C8 f 40.5 Hz (76/105): 42 s
+estblk C8 f 41.0 Hz (77/105): 43 s
+estblk C8 f 41.5 Hz (78/105): 43 s
+estblk C8 f 42.0 Hz (79/105): 43 s
+estblk C8 f 42.5 Hz (80/105): 43 s
+estblk C8 f 43.0 Hz (81/105): 42 s
+estblk C8 f 43.5 Hz (82/105): 44 s
+estblk C8 f 44.0 Hz (83/105): 43 s
+estblk C8 f 44.5 Hz (84/105): 42 s
+estblk C8 f 45.0 Hz (85/105): 41 s
+estblk C8 f 45.5 Hz (86/105): 41 s
+estblk C8 f 46.0 Hz (87/105): 41 s
+estblk C8 f 46.5 Hz (88/105): 40 s
+estblk C8 f 47.0 Hz (89/105): 41 s
+estblk C8 f 47.5 Hz (90/105): 40 s
+estblk C8 f 48.0 Hz (91/105): 41 s
+estblk C8 f 48.5 Hz (92/105): 41 s
+estblk C8 f 49.0 Hz (93/105): 44 s
+estblk C8 f 49.5 Hz (94/105): 40 s
+estblk C8 f 50.0 Hz (95/105): 42 s
+estblk C8 f 50.5 Hz (96/105): 40 s
+estblk C8 f 51.0 Hz (97/105): 40 s
+estblk C8 f 51.5 Hz (98/105): 41 s
+estblk C8 f 52.0 Hz (99/105): 40 s
+estblk C8 f 52.5 Hz (100/105): 41 s
+estblk C8 f 53.0 Hz (101/105): 41 s
+estblk C8 f 53.5 Hz (102/105): 42 s
+estblk C8 f 54.0 Hz (103/105): 42 s
+estblk C8 f 54.5 Hz (104/105): 41 s
+estblk C8 f 55.0 Hz (105/105): 41 s
+invblk C8 saved
+=== run_block2('C8',1) try 1 2026-11-23 03:09:48 ===
+fields C8 shot 10/51
+fields C8 shot 20/51
+fields C8 shot 30/51
+fields C8 shot 40/51
+fields C8 shot 50/51
+LP cut-off C8_bf1 m30: 42.5 Hz
+LP cut-off C8_bf1 m40: 15.5 Hz
+LP cut-off C8_bf1 l30: 55.0 Hz
+mig2 C8_bf1 f  3.0 Hz (1/105): 47 s
+mig2 C8_bf1 f  3.5 Hz (2/105): 49 s
+mig2 C8_bf1 f  4.0 Hz (3/105): 46 s
+mig2 C8_bf1 f  4.5 Hz (4/105): 46 s
+mig2 C8_bf1 f  5.0 Hz (5/105): 46 s
+mig2 C8_bf1 f  5.5 Hz (6/105): 47 s
+mig2 C8_bf1 f  6.0 Hz (7/105): 46 s
+mig2 C8_bf1 f  6.5 Hz (8/105): 46 s
+mig2 C8_bf1 f  7.0 Hz (9/105): 45 s
+mig2 C8_bf1 f  7.5 Hz (10/105): 49 s
+mig2 C8_bf1 f  8.0 Hz (11/105): 45 s
+mig2 C8_bf1 f  8.5 Hz (12/105): 44 s
+mig2 C8_bf1 f  9.0 Hz (13/105): 45 s
+mig2 C8_bf1 f  9.5 Hz (14/105): 44 s
+mig2 C8_bf1 f 10.0 Hz (15/105): 44 s
+mig2 C8_bf1 f 10.5 Hz (16/105): 46 s
+mig2 C8_bf1 f 11.0 Hz (17/105): 46 s
+mig2 C8_bf1 f 11.5 Hz (18/105): 44 s
+mig2 C8_bf1 f 12.0 Hz (19/105): 44 s
+mig2 C8_bf1 f 12.5 Hz (20/105): 49 s
+mig2 C8_bf1 f 13.0 Hz (21/105): 46 s
+mig2 C8_bf1 f 13.5 Hz (22/105): 46 s
+mig2 C8_bf1 f 14.0 Hz (23/105): 45 s
+mig2 C8_bf1 f 14.5 Hz (24/105): 45 s
+mig2 C8_bf1 f 15.0 Hz (25/105): 45 s
+mig2 C8_bf1 f 15.5 Hz (26/105): 45 s
+mig2 C8_bf1 f 16.0 Hz (27/105): 44 s
+mig2 C8_bf1 f 16.5 Hz (28/105): 45 s
+mig2 C8_bf1 f 17.0 Hz (29/105): 45 s
+mig2 C8_bf1 f 17.5 Hz (30/105): 55 s
+mig2 C8_bf1 f 18.0 Hz (31/105): 45 s
+mig2 C8_bf1 f 18.5 Hz (32/105): 45 s
+mig2 C8_bf1 f 19.0 Hz (33/105): 45 s
+mig2 C8_bf1 f 19.5 Hz (34/105): 46 s
+mig2 C8_bf1 f 20.0 Hz (35/105): 47 s
+mig2 C8_bf1 f 20.5 Hz (36/105): 47 s
+mig2 C8_bf1 f 21.0 Hz (37/105): 47 s
+mig2 C8_bf1 f 21.5 Hz (38/105): 47 s
+mig2 C8_bf1 f 22.0 Hz (39/105): 48 s
+mig2 C8_bf1 f 22.5 Hz (40/105): 51 s
+mig2 C8_bf1 f 23.0 Hz (41/105): 48 s
+mig2 C8_bf1 f 23.5 Hz (42/105): 46 s
+mig2 C8_bf1 f 24.0 Hz (43/105): 47 s
+mig2 C8_bf1 f 24.5 Hz (44/105): 48 s
+mig2 C8_bf1 f 25.0 Hz (45/105): 48 s
+mig2 C8_bf1 f 25.5 Hz (46/105): 47 s
+mig2 C8_bf1 f 26.0 Hz (47/105): 46 s
+mig2 C8_bf1 f 26.5 Hz (48/105): 47 s
+mig2 C8_bf1 f 27.0 Hz (49/105): 46 s
+mig2 C8_bf1 f 27.5 Hz (50/105): 52 s
+mig2 C8_bf1 f 28.0 Hz (51/105): 48 s
+mig2 C8_bf1 f 28.5 Hz (52/105): 47 s
+mig2 C8_bf1 f 29.0 Hz (53/105): 47 s
+mig2 C8_bf1 f 29.5 Hz (54/105): 47 s
+mig2 C8_bf1 f 30.0 Hz (55/105): 47 s
+mig2 C8_bf1 f 30.5 Hz (56/105): 46 s
+mig2 C8_bf1 f 31.0 Hz (57/105): 46 s
+mig2 C8_bf1 f 31.5 Hz (58/105): 47 s
+mig2 C8_bf1 f 32.0 Hz (59/105): 47 s
+mig2 C8_bf1 f 32.5 Hz (60/105): 51 s
+mig2 C8_bf1 f 33.0 Hz (61/105): 47 s
+mig2 C8_bf1 f 33.5 Hz (62/105): 48 s
+mig2 C8_bf1 f 34.0 Hz (63/105): 47 s
+mig2 C8_bf1 f 34.5 Hz (64/105): 46 s
+mig2 C8_bf1 f 35.0 Hz (65/105): 46 s
+mig2 C8_bf1 f 35.5 Hz (66/105): 46 s
+mig2 C8_bf1 f 36.0 Hz (67/105): 47 s
+mig2 C8_bf1 f 36.5 Hz (68/105): 47 s
+mig2 C8_bf1 f 37.0 Hz (69/105): 47 s
+mig2 C8_bf1 f 37.5 Hz (70/105): 52 s
+mig2 C8_bf1 f 38.0 Hz (71/105): 45 s
+mig2 C8_bf1 f 38.5 Hz (72/105): 47 s
+mig2 C8_bf1 f 39.0 Hz (73/105): 47 s
+mig2 C8_bf1 f 39.5 Hz (74/105): 46 s
+mig2 C8_bf1 f 40.0 Hz (75/105): 47 s
+mig2 C8_bf1 f 40.5 Hz (76/105): 47 s
+mig2 C8_bf1 f 41.0 Hz (77/105): 48 s
+mig2 C8_bf1 f 41.5 Hz (78/105): 47 s
+mig2 C8_bf1 f 42.0 Hz (79/105): 47 s
+mig2 C8_bf1 f 42.5 Hz (80/105): 53 s
+mig2 C8_bf1 f 43.0 Hz (81/105): 48 s
+mig2 C8_bf1 f 43.5 Hz (82/105): 47 s
+mig2 C8_bf1 f 44.0 Hz (83/105): 47 s
+mig2 C8_bf1 f 44.5 Hz (84/105): 47 s
+mig2 C8_bf1 f 45.0 Hz (85/105): 48 s
+mig2 C8_bf1 f 45.5 Hz (86/105): 48 s
+mig2 C8_bf1 f 46.0 Hz (87/105): 46 s
+mig2 C8_bf1 f 46.5 Hz (88/105): 47 s
+mig2 C8_bf1 f 47.0 Hz (89/105): 47 s
+mig2 C8_bf1 f 47.5 Hz (90/105): 51 s
+mig2 C8_bf1 f 48.0 Hz (91/105): 47 s
+mig2 C8_bf1 f 48.5 Hz (92/105): 46 s
+mig2 C8_bf1 f 49.0 Hz (93/105): 48 s
+mig2 C8_bf1 f 49.5 Hz (94/105): 46 s
+mig2 C8_bf1 f 50.0 Hz (95/105): 46 s
+mig2 C8_bf1 f 50.5 Hz (96/105): 48 s
+mig2 C8_bf1 f 51.0 Hz (97/105): 48 s
+mig2 C8_bf1 f 51.5 Hz (98/105): 49 s
+mig2 C8_bf1 f 52.0 Hz (99/105): 48 s
+mig2 C8_bf1 f 52.5 Hz (100/105): 51 s
+mig2 C8_bf1 f 53.0 Hz (101/105): 49 s
+mig2 C8_bf1 f 53.5 Hz (102/105): 47 s
+mig2 C8_bf1 f 54.0 Hz (103/105): 47 s
+mig2 C8_bf1 f 54.5 Hz (104/105): 46 s
+mig2 C8_bf1 f 55.0 Hz (105/105): 51 s
+run_block2 C8 B 1 done
+=== run_block2('C8',300) try 1 2026-11-23 04:33:20 ===
+LP cut-off C8_bf300 m30: 42.0 Hz
+LP cut-off C8_bf300 m40: 17.5 Hz
+LP cut-off C8_bf300 l30: 18.5 Hz
+mig2 C8_bf300 f  3.0 Hz (1/105): 54 s
+mig2 C8_bf300 f  3.5 Hz (2/105): 51 s
+mig2 C8_bf300 f  4.0 Hz (3/105): 49 s
+mig2 C8_bf300 f  4.5 Hz (4/105): 46 s
+mig2 C8_bf300 f  5.0 Hz (5/105): 45 s
+mig2 C8_bf300 f  5.5 Hz (6/105): 46 s
+mig2 C8_bf300 f  6.0 Hz (7/105): 47 s
+mig2 C8_bf300 f  6.5 Hz (8/105): 50 s
+mig2 C8_bf300 f  7.0 Hz (9/105): 46 s
+mig2 C8_bf300 f  7.5 Hz (10/105): 50 s
+mig2 C8_bf300 f  8.0 Hz (11/105): 46 s
+mig2 C8_bf300 f  8.5 Hz (12/105): 45 s
+mig2 C8_bf300 f  9.0 Hz (13/105): 45 s
+mig2 C8_bf300 f  9.5 Hz (14/105): 46 s
+mig2 C8_bf300 f 10.0 Hz (15/105): 46 s
+mig2 C8_bf300 f 10.5 Hz (16/105): 45 s
+mig2 C8_bf300 f 11.0 Hz (17/105): 44 s
+mig2 C8_bf300 f 11.5 Hz (18/105): 44 s
+mig2 C8_bf300 f 12.0 Hz (19/105): 46 s
+mig2 C8_bf300 f 12.5 Hz (20/105): 51 s
+mig2 C8_bf300 f 13.0 Hz (21/105): 44 s
+mig2 C8_bf300 f 13.5 Hz (22/105): 44 s
+mig2 C8_bf300 f 14.0 Hz (23/105): 45 s
+mig2 C8_bf300 f 14.5 Hz (24/105): 45 s
+mig2 C8_bf300 f 15.0 Hz (25/105): 45 s
+mig2 C8_bf300 f 15.5 Hz (26/105): 46 s
+mig2 C8_bf300 f 16.0 Hz (27/105): 44 s
+mig2 C8_bf300 f 16.5 Hz (28/105): 44 s
+mig2 C8_bf300 f 17.0 Hz (29/105): 44 s
+mig2 C8_bf300 f 17.5 Hz (30/105): 49 s
+mig2 C8_bf300 f 18.0 Hz (31/105): 44 s
+mig2 C8_bf300 f 18.5 Hz (32/105): 45 s
+mig2 C8_bf300 f 19.0 Hz (33/105): 45 s
+mig2 C8_bf300 f 19.5 Hz (34/105): 44 s
+mig2 C8_bf300 f 20.0 Hz (35/105): 48 s
+mig2 C8_bf300 f 20.5 Hz (36/105): 46 s
+mig2 C8_bf300 f 21.0 Hz (37/105): 45 s
+mig2 C8_bf300 f 21.5 Hz (38/105): 46 s
+mig2 C8_bf300 f 22.0 Hz (39/105): 49 s
+mig2 C8_bf300 f 22.5 Hz (40/105): 50 s
+mig2 C8_bf300 f 23.0 Hz (41/105): 46 s
+mig2 C8_bf300 f 23.5 Hz (42/105): 44 s
+mig2 C8_bf300 f 24.0 Hz (43/105): 45 s
+mig2 C8_bf300 f 24.5 Hz (44/105): 45 s
+mig2 C8_bf300 f 25.0 Hz (45/105): 46 s
+mig2 C8_bf300 f 25.5 Hz (46/105): 47 s
+mig2 C8_bf300 f 26.0 Hz (47/105): 45 s
+mig2 C8_bf300 f 26.5 Hz (48/105): 45 s
+mig2 C8_bf300 f 27.0 Hz (49/105): 45 s
+mig2 C8_bf300 f 27.5 Hz (50/105): 49 s
+mig2 C8_bf300 f 28.0 Hz (51/105): 46 s
+mig2 C8_bf300 f 28.5 Hz (52/105): 48 s
+mig2 C8_bf300 f 29.0 Hz (53/105): 45 s
+mig2 C8_bf300 f 29.5 Hz (54/105): 46 s
+mig2 C8_bf300 f 30.0 Hz (55/105): 46 s
+mig2 C8_bf300 f 30.5 Hz (56/105): 45 s
+mig2 C8_bf300 f 31.0 Hz (57/105): 45 s
+mig2 C8_bf300 f 31.5 Hz (58/105): 46 s
+mig2 C8_bf300 f 32.0 Hz (59/105): 46 s
+mig2 C8_bf300 f 32.5 Hz (60/105): 50 s
+mig2 C8_bf300 f 33.0 Hz (61/105): 45 s
+mig2 C8_bf300 f 33.5 Hz (62/105): 45 s
+mig2 C8_bf300 f 34.0 Hz (63/105): 45 s
+mig2 C8_bf300 f 34.5 Hz (64/105): 46 s
+mig2 C8_bf300 f 35.0 Hz (65/105): 49 s
+mig2 C8_bf300 f 35.5 Hz (66/105): 49 s
+mig2 C8_bf300 f 36.0 Hz (67/105): 48 s
+mig2 C8_bf300 f 36.5 Hz (68/105): 45 s
+mig2 C8_bf300 f 37.0 Hz (69/105): 45 s
+mig2 C8_bf300 f 37.5 Hz (70/105): 49 s
+mig2 C8_bf300 f 38.0 Hz (71/105): 45 s
+mig2 C8_bf300 f 38.5 Hz (72/105): 45 s
+mig2 C8_bf300 f 39.0 Hz (73/105): 44 s
+mig2 C8_bf300 f 39.5 Hz (74/105): 46 s
+mig2 C8_bf300 f 40.0 Hz (75/105): 47 s
+mig2 C8_bf300 f 40.5 Hz (76/105): 47 s
+mig2 C8_bf300 f 41.0 Hz (77/105): 49 s
+mig2 C8_bf300 f 41.5 Hz (78/105): 48 s
+mig2 C8_bf300 f 42.0 Hz (79/105): 45 s
+mig2 C8_bf300 f 42.5 Hz (80/105): 51 s
+mig2 C8_bf300 f 43.0 Hz (81/105): 48 s
+mig2 C8_bf300 f 43.5 Hz (82/105): 52 s
+mig2 C8_bf300 f 44.0 Hz (83/105): 48 s
+mig2 C8_bf300 f 44.5 Hz (84/105): 47 s
+mig2 C8_bf300 f 45.0 Hz (85/105): 47 s
+mig2 C8_bf300 f 45.5 Hz (86/105): 47 s
+mig2 C8_bf300 f 46.0 Hz (87/105): 48 s
+mig2 C8_bf300 f 46.5 Hz (88/105): 48 s
+mig2 C8_bf300 f 47.0 Hz (89/105): 53 s
+mig2 C8_bf300 f 47.5 Hz (90/105): 59 s
+mig2 C8_bf300 f 48.0 Hz (91/105): 51 s
+mig2 C8_bf300 f 48.5 Hz (92/105): 48 s
+mig2 C8_bf300 f 49.0 Hz (93/105): 49 s
+mig2 C8_bf300 f 49.5 Hz (94/105): 47 s
+mig2 C8_bf300 f 50.0 Hz (95/105): 47 s
+mig2 C8_bf300 f 50.5 Hz (96/105): 47 s
+mig2 C8_bf300 f 51.0 Hz (97/105): 50 s
+mig2 C8_bf300 f 51.5 Hz (98/105): 54 s
+mig2 C8_bf300 f 52.0 Hz (99/105): 48 s
+mig2 C8_bf300 f 52.5 Hz (100/105): 51 s
+mig2 C8_bf300 f 53.0 Hz (101/105): 46 s
+mig2 C8_bf300 f 53.5 Hz (102/105): 47 s
+mig2 C8_bf300 f 54.0 Hz (103/105): 47 s
+mig2 C8_bf300 f 54.5 Hz (104/105): 48 s
+mig2 C8_bf300 f 55.0 Hz (105/105): 60 s
+run_block2 C8 B 300 done
+=== score_block_c try 1 2026-11-23 05:56:42 ===
+C5 m30 e: B1 +0.15 B300 +0.43
+C5 m40 e: B1 +0.09 B300 +0.24
+C5 l30 e: B1 -4.41 B300 -0.33
+C6 m30 e: B1 +0.33 B300 +0.57
+C6 m40 e: B1 +0.10 B300 +0.35
+C6 l30 e: B1 -4.31 B300 -0.08
+C7 m30 e: B1 +0.59 B300 +0.88
+C7 m40 e: B1 +0.14 B300 +0.38
+C7 l30 e: B1 -2.65 B300 +0.21
+C8 m30 e: B1 +0.32 B300 +0.56
+C8 m40 e: B1 +0.15 B300 +0.46
+C8 l30 e: B1 -3.71 B300 +0.02
+
+ans = 
+
+  包含以下字段的 struct:
+
+    C5: [1x1 struct]
+    C6: [1x1 struct]
+    C7: [1x1 struct]
+    C8: [1x1 struct]
+
+=== chain done 2026-11-23 05:57:32 ===
