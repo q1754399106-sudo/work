@@ -1,0 +1,471 @@
+=== start 2026-11-21 14:04:38 ===
+D1 m30 B1 vs inv_D1: max rel diff 0
+D1 m40 B1 vs inv_D1: max rel diff 0
+LP cut-off D1_bf1 m30: 34.5 Hz
+LP cut-off D1_bf1 m40: 10.0 Hz
+LP cut-off D1_bf1 l30: 55.0 Hz
+mig2 D1_bf1 f  3.0 Hz (1/105): 246 s
+{内存不足。
+
+出错 migrate2 (第 52 行)
+ A=helm_op(vmig,f,P);[L,U,Pp,Qq,R]=lu(A);clear A
+                                   ^^^^^
+出错 run_block2 (第 23 行)
+if ~isfile(fullfile(P.cache,['images2_' name C.tag '.mat'])),migrate2(C);end
+                                                             ^^^^^^^^^^^
+} 
+=== restart 2026-11-21 14:13:41 ===
+LP cut-off D1_bf1 m30: 34.5 Hz
+LP cut-off D1_bf1 m40: 10.0 Hz
+LP cut-off D1_bf1 l30: 55.0 Hz
+mig2 D1_bf1 f  3.0 Hz (1/105): 143 s
+mig2 D1_bf1 f  3.5 Hz (2/105): 263 s
+mig2 D1_bf1 f  4.0 Hz (3/105): 385 s
+mig2 D1_bf1 f  4.5 Hz (4/105): 352 s
+mig2 D1_bf1 f  5.0 Hz (5/105): 352 s
+mig2 D1_bf1 f  5.5 Hz (6/105): 321 s
+mig2 D1_bf1 f  6.0 Hz (7/105): 309 s
+mig2 D1_bf1 f  6.5 Hz (8/105): 289 s
+mig2 D1_bf1 f  7.0 Hz (9/105): 242 s
+mig2 D1_bf1 f  7.5 Hz (10/105): 224 s
+mig2 D1_bf1 f  8.0 Hz (11/105): 223 s
+mig2 D1_bf1 f  8.5 Hz (12/105): 257 s
+mig2 D1_bf1 f  9.0 Hz (13/105): 241 s
+mig2 D1_bf1 f  9.5 Hz (14/105): 151 s
+mig2 D1_bf1 f 10.0 Hz (15/105): 139 s
+mig2 D1_bf1 f 10.5 Hz (16/105): 148 s
+mig2 D1_bf1 f 11.0 Hz (17/105): 139 s
+mig2 D1_bf1 f 11.5 Hz (18/105): 156 s
+mig2 D1_bf1 f 12.0 Hz (19/105): 146 s
+mig2 D1_bf1 f 12.5 Hz (20/105): 161 s
+mig2 D1_bf1 f 13.0 Hz (21/105): 152 s
+mig2 D1_bf1 f 13.5 Hz (22/105): 154 s
+mig2 D1_bf1 f 14.0 Hz (23/105): 141 s
+mig2 D1_bf1 f 14.5 Hz (24/105): 132 s
+mig2 D1_bf1 f 15.0 Hz (25/105): 106 s
+mig2 D1_bf1 f 15.5 Hz (26/105): 114 s
+mig2 D1_bf1 f 16.0 Hz (27/105): 118 s
+mig2 D1_bf1 f 16.5 Hz (28/105): 107 s
+mig2 D1_bf1 f 17.0 Hz (29/105): 119 s
+mig2 D1_bf1 f 17.5 Hz (30/105): 134 s
+mig2 D1_bf1 f 18.0 Hz (31/105): 124 s
+mig2 D1_bf1 f 18.5 Hz (32/105): 124 s
+mig2 D1_bf1 f 19.0 Hz (33/105): 116 s
+mig2 D1_bf1 f 19.5 Hz (34/105): 120 s
+mig2 D1_bf1 f 20.0 Hz (35/105): 122 s
+mig2 D1_bf1 f 20.5 Hz (36/105): 107 s
+mig2 D1_bf1 f 21.0 Hz (37/105): 113 s
+mig2 D1_bf1 f 21.5 Hz (38/105): 125 s
+mig2 D1_bf1 f 22.0 Hz (39/105): 106 s
+mig2 D1_bf1 f 22.5 Hz (40/105): 124 s
+mig2 D1_bf1 f 23.0 Hz (41/105): 122 s
+mig2 D1_bf1 f 23.5 Hz (42/105): 102 s
+mig2 D1_bf1 f 24.0 Hz (43/105): 100 s
+mig2 D1_bf1 f 24.5 Hz (44/105): 106 s
+mig2 D1_bf1 f 25.0 Hz (45/105): 109 s
+mig2 D1_bf1 f 25.5 Hz (46/105): 102 s
+mig2 D1_bf1 f 26.0 Hz (47/105): 117 s
+mig2 D1_bf1 f 26.5 Hz (48/105): 112 s
+mig2 D1_bf1 f 27.0 Hz (49/105): 112 s
+mig2 D1_bf1 f 27.5 Hz (50/105): 111 s
+mig2 D1_bf1 f 28.0 Hz (51/105): 116 s
+mig2 D1_bf1 f 28.5 Hz (52/105): 118 s
+mig2 D1_bf1 f 29.0 Hz (53/105): 105 s
+mig2 D1_bf1 f 29.5 Hz (54/105): 115 s
+mig2 D1_bf1 f 30.0 Hz (55/105): 118 s
+mig2 D1_bf1 f 30.5 Hz (56/105): 102 s
+mig2 D1_bf1 f 31.0 Hz (57/105): 107 s
+mig2 D1_bf1 f 31.5 Hz (58/105): 109 s
+mig2 D1_bf1 f 32.0 Hz (59/105): 89 s
+mig2 D1_bf1 f 32.5 Hz (60/105): 108 s
+mig2 D1_bf1 f 33.0 Hz (61/105): 102 s
+mig2 D1_bf1 f 33.5 Hz (62/105): 92 s
+mig2 D1_bf1 f 34.0 Hz (63/105): 113 s
+mig2 D1_bf1 f 34.5 Hz (64/105): 117 s
+mig2 D1_bf1 f 35.0 Hz (65/105): 106 s
+mig2 D1_bf1 f 35.5 Hz (66/105): 111 s
+mig2 D1_bf1 f 36.0 Hz (67/105): 113 s
+mig2 D1_bf1 f 36.5 Hz (68/105): 102 s
+mig2 D1_bf1 f 37.0 Hz (69/105): 109 s
+mig2 D1_bf1 f 37.5 Hz (70/105): 114 s
+mig2 D1_bf1 f 38.0 Hz (71/105): 104 s
+mig2 D1_bf1 f 38.5 Hz (72/105): 115 s
+mig2 D1_bf1 f 39.0 Hz (73/105): 113 s
+mig2 D1_bf1 f 39.5 Hz (74/105): 111 s
+mig2 D1_bf1 f 40.0 Hz (75/105): 108 s
+mig2 D1_bf1 f 40.5 Hz (76/105): 100 s
+mig2 D1_bf1 f 41.0 Hz (77/105): 109 s
+mig2 D1_bf1 f 41.5 Hz (78/105): 117 s
+mig2 D1_bf1 f 42.0 Hz (79/105): 113 s
+mig2 D1_bf1 f 42.5 Hz (80/105): 128 s
+mig2 D1_bf1 f 43.0 Hz (81/105): 117 s
+mig2 D1_bf1 f 43.5 Hz (82/105): 106 s
+mig2 D1_bf1 f 44.0 Hz (83/105): 97 s
+mig2 D1_bf1 f 44.5 Hz (84/105): 111 s
+mig2 D1_bf1 f 45.0 Hz (85/105): 100 s
+mig2 D1_bf1 f 45.5 Hz (86/105): 117 s
+mig2 D1_bf1 f 46.0 Hz (87/105): 117 s
+mig2 D1_bf1 f 46.5 Hz (88/105): 115 s
+mig2 D1_bf1 f 47.0 Hz (89/105): 102 s
+mig2 D1_bf1 f 47.5 Hz (90/105): 117 s
+mig2 D1_bf1 f 48.0 Hz (91/105): 108 s
+mig2 D1_bf1 f 48.5 Hz (92/105): 97 s
+mig2 D1_bf1 f 49.0 Hz (93/105): 106 s
+mig2 D1_bf1 f 49.5 Hz (94/105): 114 s
+mig2 D1_bf1 f 50.0 Hz (95/105): 100 s
+mig2 D1_bf1 f 50.5 Hz (96/105): 106 s
+mig2 D1_bf1 f 51.0 Hz (97/105): 113 s
+mig2 D1_bf1 f 51.5 Hz (98/105): 103 s
+mig2 D1_bf1 f 52.0 Hz (99/105): 110 s
+mig2 D1_bf1 f 52.5 Hz (100/105): 126 s
+mig2 D1_bf1 f 53.0 Hz (101/105): 101 s
+mig2 D1_bf1 f 53.5 Hz (102/105): 106 s
+mig2 D1_bf1 f 54.0 Hz (103/105): 107 s
+mig2 D1_bf1 f 54.5 Hz (104/105): 96 s
+mig2 D1_bf1 f 55.0 Hz (105/105): 112 s
+run_block2 D1 B 1 done
+LP cut-off D1_bf300 m30: 33.0 Hz
+LP cut-off D1_bf300 m40: 10.0 Hz
+LP cut-off D1_bf300 l30: 10.0 Hz
+mig2 D1_bf300 f  3.0 Hz (1/105): 107 s
+mig2 D1_bf300 f  3.5 Hz (2/105): 114 s
+mig2 D1_bf300 f  4.0 Hz (3/105): 112 s
+mig2 D1_bf300 f  4.5 Hz (4/105): 97 s
+mig2 D1_bf300 f  5.0 Hz (5/105): 101 s
+mig2 D1_bf300 f  5.5 Hz (6/105): 94 s
+mig2 D1_bf300 f  6.0 Hz (7/105): 88 s
+mig2 D1_bf300 f  6.5 Hz (8/105): 72 s
+mig2 D1_bf300 f  7.0 Hz (9/105): 74 s
+mig2 D1_bf300 f  7.5 Hz (10/105): 92 s
+mig2 D1_bf300 f  8.0 Hz (11/105): 82 s
+mig2 D1_bf300 f  8.5 Hz (12/105): 88 s
+mig2 D1_bf300 f  9.0 Hz (13/105): 84 s
+mig2 D1_bf300 f  9.5 Hz (14/105): 76 s
+mig2 D1_bf300 f 10.0 Hz (15/105): 72 s
+mig2 D1_bf300 f 10.5 Hz (16/105): 73 s
+mig2 D1_bf300 f 11.0 Hz (17/105): 72 s
+mig2 D1_bf300 f 11.5 Hz (18/105): 74 s
+mig2 D1_bf300 f 12.0 Hz (19/105): 70 s
+mig2 D1_bf300 f 12.5 Hz (20/105): 81 s
+mig2 D1_bf300 f 13.0 Hz (21/105): 83 s
+mig2 D1_bf300 f 13.5 Hz (22/105): 80 s
+mig2 D1_bf300 f 14.0 Hz (23/105): 88 s
+mig2 D1_bf300 f 14.5 Hz (24/105): 159 s
+mig2 D1_bf300 f 15.0 Hz (25/105): 135 s
+mig2 D1_bf300 f 15.5 Hz (26/105): 192 s
+mig2 D1_bf300 f 16.0 Hz (27/105): 386 s
+mig2 D1_bf300 f 16.5 Hz (28/105): 354 s
+mig2 D1_bf300 f 17.0 Hz (29/105): 511 s
+mig2 D1_bf300 f 17.5 Hz (30/105): 585 s
+mig2 D1_bf300 f 18.0 Hz (31/105): 442 s
+mig2 D1_bf300 f 18.5 Hz (32/105): 414 s
+mig2 D1_bf300 f 19.0 Hz (33/105): 510 s
+mig2 D1_bf300 f 19.5 Hz (34/105): 374 s
+mig2 D1_bf300 f 20.0 Hz (35/105): 401 s
+mig2 D1_bf300 f 20.5 Hz (36/105): 529 s
+mig2 D1_bf300 f 21.0 Hz (37/105): 630 s
+mig2 D1_bf300 f 21.5 Hz (38/105): 575 s
+mig2 D1_bf300 f 22.0 Hz (39/105): 517 s
+mig2 D1_bf300 f 22.5 Hz (40/105): 545 s
+mig2 D1_bf300 f 23.0 Hz (41/105): 481 s
+mig2 D1_bf300 f 23.5 Hz (42/105): 424 s
+mig2 D1_bf300 f 24.0 Hz (43/105): 480 s
+mig2 D1_bf300 f 24.5 Hz (44/105): 417 s
+mig2 D1_bf300 f 25.0 Hz (45/105): 216 s
+mig2 D1_bf300 f 25.5 Hz (46/105): 160 s
+mig2 D1_bf300 f 26.0 Hz (47/105): 174 s
+mig2 D1_bf300 f 26.5 Hz (48/105): 190 s
+mig2 D1_bf300 f 27.0 Hz (49/105): 145 s
+mig2 D1_bf300 f 27.5 Hz (50/105): 146 s
+mig2 D1_bf300 f 28.0 Hz (51/105): 144 s
+mig2 D1_bf300 f 28.5 Hz (52/105): 143 s
+mig2 D1_bf300 f 29.0 Hz (53/105): 273 s
+mig2 D1_bf300 f 29.5 Hz (54/105): 176 s
+mig2 D1_bf300 f 30.0 Hz (55/105): 202 s
+mig2 D1_bf300 f 30.5 Hz (56/105): 186 s
+mig2 D1_bf300 f 31.0 Hz (57/105): 151 s
+mig2 D1_bf300 f 31.5 Hz (58/105): 133 s
+mig2 D1_bf300 f 32.0 Hz (59/105): 155 s
+mig2 D1_bf300 f 32.5 Hz (60/105): 224 s
+mig2 D1_bf300 f 33.0 Hz (61/105): 293 s
+mig2 D1_bf300 f 33.5 Hz (62/105): 223 s
+mig2 D1_bf300 f 34.0 Hz (63/105): 162 s
+mig2 D1_bf300 f 34.5 Hz (64/105): 160 s
+mig2 D1_bf300 f 35.0 Hz (65/105): 159 s
+mig2 D1_bf300 f 35.5 Hz (66/105): 154 s
+mig2 D1_bf300 f 36.0 Hz (67/105): 160 s
+mig2 D1_bf300 f 36.5 Hz (68/105): 154 s
+mig2 D1_bf300 f 37.0 Hz (69/105): 154 s
+mig2 D1_bf300 f 37.5 Hz (70/105): 178 s
+mig2 D1_bf300 f 38.0 Hz (71/105): 173 s
+mig2 D1_bf300 f 38.5 Hz (72/105): 169 s
+mig2 D1_bf300 f 39.0 Hz (73/105): 180 s
+mig2 D1_bf300 f 39.5 Hz (74/105): 151 s
+mig2 D1_bf300 f 40.0 Hz (75/105): 151 s
+mig2 D1_bf300 f 40.5 Hz (76/105): 154 s
+mig2 D1_bf300 f 41.0 Hz (77/105): 154 s
+mig2 D1_bf300 f 41.5 Hz (78/105): 154 s
+mig2 D1_bf300 f 42.0 Hz (79/105): 153 s
+mig2 D1_bf300 f 42.5 Hz (80/105): 247 s
+{内存不足。
+
+出错 migrate2 (第 52 行)
+ A=helm_op(vmig,f,P);[L,U,Pp,Qq,R]=lu(A);clear A
+                                   ^^^^^
+出错 run_block2 (第 23 行)
+if ~isfile(fullfile(P.cache,['images2_' name C.tag '.mat'])),migrate2(C);end
+                                                             ^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+=== D1 B300 try 1 2026-11-21 23:05:40 ===
+LP cut-off D1_bf300 m30: 33.0 Hz
+LP cut-off D1_bf300 m40: 10.0 Hz
+LP cut-off D1_bf300 l30: 10.0 Hz
+mig2 D1_bf300 f 43.0 Hz (81/105): 298 s
+mig2 D1_bf300 f 43.5 Hz (82/105): 309 s
+mig2 D1_bf300 f 44.0 Hz (83/105): 294 s
+mig2 D1_bf300 f 44.5 Hz (84/105): 386 s
+mig2 D1_bf300 f 45.0 Hz (85/105): 132 s
+mig2 D1_bf300 f 45.5 Hz (86/105): 136 s
+mig2 D1_bf300 f 46.0 Hz (87/105): 125 s
+mig2 D1_bf300 f 46.5 Hz (88/105): 126 s
+mig2 D1_bf300 f 47.0 Hz (89/105): 113 s
+mig2 D1_bf300 f 47.5 Hz (90/105): 129 s
+mig2 D1_bf300 f 48.0 Hz (91/105): 112 s
+mig2 D1_bf300 f 48.5 Hz (92/105): 113 s
+mig2 D1_bf300 f 49.0 Hz (93/105): 115 s
+mig2 D1_bf300 f 49.5 Hz (94/105): 117 s
+mig2 D1_bf300 f 50.0 Hz (95/105): 116 s
+mig2 D1_bf300 f 50.5 Hz (96/105): 94 s
+mig2 D1_bf300 f 51.0 Hz (97/105): 89 s
+mig2 D1_bf300 f 51.5 Hz (98/105): 91 s
+mig2 D1_bf300 f 52.0 Hz (99/105): 96 s
+mig2 D1_bf300 f 52.5 Hz (100/105): 102 s
+mig2 D1_bf300 f 53.0 Hz (101/105): 98 s
+mig2 D1_bf300 f 53.5 Hz (102/105): 73 s
+mig2 D1_bf300 f 54.0 Hz (103/105): 75 s
+mig2 D1_bf300 f 54.5 Hz (104/105): 59 s
+mig2 D1_bf300 f 55.0 Hz (105/105): 64 s
+run_block2 D1 B 300 done
+=== D2 B1 try 1 2026-11-22 00:05:51 ===
+D2 m30 B1 vs inv_D2: max rel diff 0
+D2 m40 B1 vs inv_D2: max rel diff 0
+LP cut-off D2_bf1 m30: 36.5 Hz
+LP cut-off D2_bf1 m40: 10.0 Hz
+LP cut-off D2_bf1 l30: 55.0 Hz
+mig2 D2_bf1 f  3.0 Hz (1/105): 55 s
+mig2 D2_bf1 f  3.5 Hz (2/105): 56 s
+mig2 D2_bf1 f  4.0 Hz (3/105): 53 s
+mig2 D2_bf1 f  4.5 Hz (4/105): 52 s
+mig2 D2_bf1 f  5.0 Hz (5/105): 51 s
+mig2 D2_bf1 f  5.5 Hz (6/105): 51 s
+mig2 D2_bf1 f  6.0 Hz (7/105): 53 s
+mig2 D2_bf1 f  6.5 Hz (8/105): 51 s
+mig2 D2_bf1 f  7.0 Hz (9/105): 51 s
+mig2 D2_bf1 f  7.5 Hz (10/105): 56 s
+mig2 D2_bf1 f  8.0 Hz (11/105): 51 s
+mig2 D2_bf1 f  8.5 Hz (12/105): 51 s
+mig2 D2_bf1 f  9.0 Hz (13/105): 51 s
+mig2 D2_bf1 f  9.5 Hz (14/105): 52 s
+mig2 D2_bf1 f 10.0 Hz (15/105): 50 s
+mig2 D2_bf1 f 10.5 Hz (16/105): 50 s
+mig2 D2_bf1 f 11.0 Hz (17/105): 50 s
+mig2 D2_bf1 f 11.5 Hz (18/105): 50 s
+mig2 D2_bf1 f 12.0 Hz (19/105): 52 s
+mig2 D2_bf1 f 12.5 Hz (20/105): 56 s
+mig2 D2_bf1 f 13.0 Hz (21/105): 50 s
+mig2 D2_bf1 f 13.5 Hz (22/105): 50 s
+mig2 D2_bf1 f 14.0 Hz (23/105): 48 s
+mig2 D2_bf1 f 14.5 Hz (24/105): 51 s
+mig2 D2_bf1 f 15.0 Hz (25/105): 56 s
+mig2 D2_bf1 f 15.5 Hz (26/105): 56 s
+mig2 D2_bf1 f 16.0 Hz (27/105): 57 s
+mig2 D2_bf1 f 16.5 Hz (28/105): 58 s
+mig2 D2_bf1 f 17.0 Hz (29/105): 57 s
+mig2 D2_bf1 f 17.5 Hz (30/105): 62 s
+mig2 D2_bf1 f 18.0 Hz (31/105): 62 s
+mig2 D2_bf1 f 18.5 Hz (32/105): 57 s
+mig2 D2_bf1 f 19.0 Hz (33/105): 57 s
+mig2 D2_bf1 f 19.5 Hz (34/105): 58 s
+mig2 D2_bf1 f 20.0 Hz (35/105): 58 s
+mig2 D2_bf1 f 20.5 Hz (36/105): 59 s
+mig2 D2_bf1 f 21.0 Hz (37/105): 58 s
+mig2 D2_bf1 f 21.5 Hz (38/105): 57 s
+mig2 D2_bf1 f 22.0 Hz (39/105): 58 s
+mig2 D2_bf1 f 22.5 Hz (40/105): 62 s
+mig2 D2_bf1 f 23.0 Hz (41/105): 57 s
+mig2 D2_bf1 f 23.5 Hz (42/105): 57 s
+mig2 D2_bf1 f 24.0 Hz (43/105): 57 s
+mig2 D2_bf1 f 24.5 Hz (44/105): 57 s
+mig2 D2_bf1 f 25.0 Hz (45/105): 57 s
+mig2 D2_bf1 f 25.5 Hz (46/105): 59 s
+mig2 D2_bf1 f 26.0 Hz (47/105): 58 s
+mig2 D2_bf1 f 26.5 Hz (48/105): 56 s
+mig2 D2_bf1 f 27.0 Hz (49/105): 60 s
+mig2 D2_bf1 f 27.5 Hz (50/105): 66 s
+mig2 D2_bf1 f 28.0 Hz (51/105): 72 s
+mig2 D2_bf1 f 28.5 Hz (52/105): 78 s
+mig2 D2_bf1 f 29.0 Hz (53/105): 60 s
+mig2 D2_bf1 f 29.5 Hz (54/105): 68 s
+mig2 D2_bf1 f 30.0 Hz (55/105): 64 s
+mig2 D2_bf1 f 30.5 Hz (56/105): 63 s
+mig2 D2_bf1 f 31.0 Hz (57/105): 64 s
+mig2 D2_bf1 f 31.5 Hz (58/105): 88 s
+mig2 D2_bf1 f 32.0 Hz (59/105): 102 s
+mig2 D2_bf1 f 32.5 Hz (60/105): 105 s
+mig2 D2_bf1 f 33.0 Hz (61/105): 108 s
+mig2 D2_bf1 f 33.5 Hz (62/105): 86 s
+mig2 D2_bf1 f 34.0 Hz (63/105): 69 s
+mig2 D2_bf1 f 34.5 Hz (64/105): 97 s
+mig2 D2_bf1 f 35.0 Hz (65/105): 98 s
+mig2 D2_bf1 f 35.5 Hz (66/105): 92 s
+mig2 D2_bf1 f 36.0 Hz (67/105): 106 s
+mig2 D2_bf1 f 36.5 Hz (68/105): 85 s
+mig2 D2_bf1 f 37.0 Hz (69/105): 94 s
+mig2 D2_bf1 f 37.5 Hz (70/105): 105 s
+mig2 D2_bf1 f 38.0 Hz (71/105): 86 s
+mig2 D2_bf1 f 38.5 Hz (72/105): 107 s
+mig2 D2_bf1 f 39.0 Hz (73/105): 88 s
+mig2 D2_bf1 f 39.5 Hz (74/105): 64 s
+mig2 D2_bf1 f 40.0 Hz (75/105): 59 s
+mig2 D2_bf1 f 40.5 Hz (76/105): 58 s
+mig2 D2_bf1 f 41.0 Hz (77/105): 83 s
+mig2 D2_bf1 f 41.5 Hz (78/105): 68 s
+mig2 D2_bf1 f 42.0 Hz (79/105): 73 s
+mig2 D2_bf1 f 42.5 Hz (80/105): 90 s
+mig2 D2_bf1 f 43.0 Hz (81/105): 65 s
+mig2 D2_bf1 f 43.5 Hz (82/105): 62 s
+mig2 D2_bf1 f 44.0 Hz (83/105): 81 s
+mig2 D2_bf1 f 44.5 Hz (84/105): 64 s
+mig2 D2_bf1 f 45.0 Hz (85/105): 79 s
+mig2 D2_bf1 f 45.5 Hz (86/105): 74 s
+mig2 D2_bf1 f 46.0 Hz (87/105): 60 s
+mig2 D2_bf1 f 46.5 Hz (88/105): 47 s
+mig2 D2_bf1 f 47.0 Hz (89/105): 51 s
+mig2 D2_bf1 f 47.5 Hz (90/105): 50 s
+mig2 D2_bf1 f 48.0 Hz (91/105): 46 s
+mig2 D2_bf1 f 48.5 Hz (92/105): 46 s
+mig2 D2_bf1 f 49.0 Hz (93/105): 46 s
+mig2 D2_bf1 f 49.5 Hz (94/105): 44 s
+mig2 D2_bf1 f 50.0 Hz (95/105): 43 s
+mig2 D2_bf1 f 50.5 Hz (96/105): 43 s
+mig2 D2_bf1 f 51.0 Hz (97/105): 44 s
+mig2 D2_bf1 f 51.5 Hz (98/105): 44 s
+mig2 D2_bf1 f 52.0 Hz (99/105): 44 s
+mig2 D2_bf1 f 52.5 Hz (100/105): 48 s
+mig2 D2_bf1 f 53.0 Hz (101/105): 44 s
+mig2 D2_bf1 f 53.5 Hz (102/105): 44 s
+mig2 D2_bf1 f 54.0 Hz (103/105): 44 s
+mig2 D2_bf1 f 54.5 Hz (104/105): 44 s
+mig2 D2_bf1 f 55.0 Hz (105/105): 48 s
+run_block2 D2 B 1 done
+=== D2 B300 try 1 2026-11-22 01:56:00 ===
+LP cut-off D2_bf300 m30: 35.5 Hz
+LP cut-off D2_bf300 m40: 10.0 Hz
+LP cut-off D2_bf300 l30: 10.0 Hz
+mig2 D2_bf300 f  3.0 Hz (1/105): 46 s
+mig2 D2_bf300 f  3.5 Hz (2/105): 48 s
+mig2 D2_bf300 f  4.0 Hz (3/105): 45 s
+mig2 D2_bf300 f  4.5 Hz (4/105): 45 s
+mig2 D2_bf300 f  5.0 Hz (5/105): 45 s
+mig2 D2_bf300 f  5.5 Hz (6/105): 45 s
+mig2 D2_bf300 f  6.0 Hz (7/105): 44 s
+mig2 D2_bf300 f  6.5 Hz (8/105): 45 s
+mig2 D2_bf300 f  7.0 Hz (9/105): 44 s
+mig2 D2_bf300 f  7.5 Hz (10/105): 48 s
+mig2 D2_bf300 f  8.0 Hz (11/105): 43 s
+mig2 D2_bf300 f  8.5 Hz (12/105): 43 s
+mig2 D2_bf300 f  9.0 Hz (13/105): 45 s
+mig2 D2_bf300 f  9.5 Hz (14/105): 43 s
+mig2 D2_bf300 f 10.0 Hz (15/105): 44 s
+mig2 D2_bf300 f 10.5 Hz (16/105): 43 s
+mig2 D2_bf300 f 11.0 Hz (17/105): 43 s
+mig2 D2_bf300 f 11.5 Hz (18/105): 43 s
+mig2 D2_bf300 f 12.0 Hz (19/105): 43 s
+mig2 D2_bf300 f 12.5 Hz (20/105): 48 s
+mig2 D2_bf300 f 13.0 Hz (21/105): 43 s
+mig2 D2_bf300 f 13.5 Hz (22/105): 44 s
+mig2 D2_bf300 f 14.0 Hz (23/105): 43 s
+mig2 D2_bf300 f 14.5 Hz (24/105): 43 s
+mig2 D2_bf300 f 15.0 Hz (25/105): 43 s
+mig2 D2_bf300 f 15.5 Hz (26/105): 43 s
+mig2 D2_bf300 f 16.0 Hz (27/105): 43 s
+mig2 D2_bf300 f 16.5 Hz (28/105): 44 s
+mig2 D2_bf300 f 17.0 Hz (29/105): 44 s
+mig2 D2_bf300 f 17.5 Hz (30/105): 47 s
+mig2 D2_bf300 f 18.0 Hz (31/105): 43 s
+mig2 D2_bf300 f 18.5 Hz (32/105): 44 s
+mig2 D2_bf300 f 19.0 Hz (33/105): 44 s
+mig2 D2_bf300 f 19.5 Hz (34/105): 44 s
+mig2 D2_bf300 f 20.0 Hz (35/105): 43 s
+mig2 D2_bf300 f 20.5 Hz (36/105): 44 s
+mig2 D2_bf300 f 21.0 Hz (37/105): 43 s
+mig2 D2_bf300 f 21.5 Hz (38/105): 44 s
+mig2 D2_bf300 f 22.0 Hz (39/105): 45 s
+mig2 D2_bf300 f 22.5 Hz (40/105): 48 s
+mig2 D2_bf300 f 23.0 Hz (41/105): 44 s
+mig2 D2_bf300 f 23.5 Hz (42/105): 44 s
+mig2 D2_bf300 f 24.0 Hz (43/105): 44 s
+mig2 D2_bf300 f 24.5 Hz (44/105): 43 s
+mig2 D2_bf300 f 25.0 Hz (45/105): 44 s
+mig2 D2_bf300 f 25.5 Hz (46/105): 43 s
+mig2 D2_bf300 f 26.0 Hz (47/105): 44 s
+mig2 D2_bf300 f 26.5 Hz (48/105): 44 s
+mig2 D2_bf300 f 27.0 Hz (49/105): 44 s
+mig2 D2_bf300 f 27.5 Hz (50/105): 51 s
+mig2 D2_bf300 f 28.0 Hz (51/105): 44 s
+mig2 D2_bf300 f 28.5 Hz (52/105): 43 s
+mig2 D2_bf300 f 29.0 Hz (53/105): 44 s
+mig2 D2_bf300 f 29.5 Hz (54/105): 44 s
+mig2 D2_bf300 f 30.0 Hz (55/105): 44 s
+mig2 D2_bf300 f 30.5 Hz (56/105): 43 s
+mig2 D2_bf300 f 31.0 Hz (57/105): 43 s
+mig2 D2_bf300 f 31.5 Hz (58/105): 44 s
+mig2 D2_bf300 f 32.0 Hz (59/105): 43 s
+mig2 D2_bf300 f 32.5 Hz (60/105): 48 s
+mig2 D2_bf300 f 33.0 Hz (61/105): 45 s
+mig2 D2_bf300 f 33.5 Hz (62/105): 44 s
+mig2 D2_bf300 f 34.0 Hz (63/105): 43 s
+mig2 D2_bf300 f 34.5 Hz (64/105): 44 s
+mig2 D2_bf300 f 35.0 Hz (65/105): 44 s
+mig2 D2_bf300 f 35.5 Hz (66/105): 47 s
+mig2 D2_bf300 f 36.0 Hz (67/105): 44 s
+mig2 D2_bf300 f 36.5 Hz (68/105): 43 s
+mig2 D2_bf300 f 37.0 Hz (69/105): 44 s
+mig2 D2_bf300 f 37.5 Hz (70/105): 47 s
+mig2 D2_bf300 f 38.0 Hz (71/105): 44 s
+mig2 D2_bf300 f 38.5 Hz (72/105): 44 s
+mig2 D2_bf300 f 39.0 Hz (73/105): 46 s
+mig2 D2_bf300 f 39.5 Hz (74/105): 44 s
+mig2 D2_bf300 f 40.0 Hz (75/105): 45 s
+mig2 D2_bf300 f 40.5 Hz (76/105): 45 s
+mig2 D2_bf300 f 41.0 Hz (77/105): 44 s
+mig2 D2_bf300 f 41.5 Hz (78/105): 44 s
+mig2 D2_bf300 f 42.0 Hz (79/105): 44 s
+mig2 D2_bf300 f 42.5 Hz (80/105): 48 s
+mig2 D2_bf300 f 43.0 Hz (81/105): 46 s
+mig2 D2_bf300 f 43.5 Hz (82/105): 44 s
+mig2 D2_bf300 f 44.0 Hz (83/105): 44 s
+mig2 D2_bf300 f 44.5 Hz (84/105): 44 s
+mig2 D2_bf300 f 45.0 Hz (85/105): 44 s
+mig2 D2_bf300 f 45.5 Hz (86/105): 44 s
+mig2 D2_bf300 f 46.0 Hz (87/105): 44 s
+mig2 D2_bf300 f 46.5 Hz (88/105): 44 s
+mig2 D2_bf300 f 47.0 Hz (89/105): 44 s
+mig2 D2_bf300 f 47.5 Hz (90/105): 49 s
+mig2 D2_bf300 f 48.0 Hz (91/105): 44 s
+mig2 D2_bf300 f 48.5 Hz (92/105): 44 s
+mig2 D2_bf300 f 49.0 Hz (93/105): 44 s
+mig2 D2_bf300 f 49.5 Hz (94/105): 44 s
+mig2 D2_bf300 f 50.0 Hz (95/105): 44 s
+mig2 D2_bf300 f 50.5 Hz (96/105): 44 s
+mig2 D2_bf300 f 51.0 Hz (97/105): 44 s
+mig2 D2_bf300 f 51.5 Hz (98/105): 43 s
+mig2 D2_bf300 f 52.0 Hz (99/105): 43 s
+mig2 D2_bf300 f 52.5 Hz (100/105): 48 s
+mig2 D2_bf300 f 53.0 Hz (101/105): 44 s
+mig2 D2_bf300 f 53.5 Hz (102/105): 43 s
+mig2 D2_bf300 f 54.0 Hz (103/105): 44 s
+mig2 D2_bf300 f 54.5 Hz (104/105): 43 s
+mig2 D2_bf300 f 55.0 Hz (105/105): 48 s
+run_block2 D2 B 300 done
