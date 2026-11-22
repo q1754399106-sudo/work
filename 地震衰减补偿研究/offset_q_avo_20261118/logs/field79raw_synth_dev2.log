@@ -1,0 +1,19 @@
+D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\field79raw.py:171: RuntimeWarning: invalid value encountered in divide
+  for C, fac in ((A, (1 - gh) / (1 + R_SB * gh)), (B, (1 + gh) / (1 + R_SB * gh) * cw[None])):
+D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\field79raw.py:171: RuntimeWarning: invalid value encountered in divide
+  for C, fac in ((A, (1 - gh) / (1 + R_SB * gh)), (B, (1 + gh) / (1 + R_SB * gh) * cw[None])):
+D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\field79raw.py:171: RuntimeWarning: invalid value encountered in divide
+  for C, fac in ((A, (1 - gh) / (1 + R_SB * gh)), (B, (1 + gh) / (1 + R_SB * gh) * cw[None])):
+D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\field79raw.py:171: RuntimeWarning: invalid value encountered in divide
+  for C, fac in ((A, (1 - gh) / (1 + R_SB * gh)), (B, (1 + gh) / (1 + R_SB * gh) * cw[None])):
+synth block 3
+synth block 0
+synth block 1
+synth block 2
+synth block 7
+synth block 5
+synth block 6
+synth block 4
+pz {"invQ_eff": 4.278892319667009, "ci90_eff": [3.028035239946569, 5.363705459445404], "truth_invQ_eff": 13.646007795327414, "selfcheck_pass": false, "c0sq": 0.4964426262395004}
+a {"invQ_eff": 8.239280867013663, "ci90_eff": [5.611968984289438, 11.051827134292314], "truth_invQ_eff": 13.646007795327414, "selfcheck_pass": false, "c0sq": 0.4964426262395004}
+b {"invQ_eff": 0.82318592875795, "ci90_eff": [-0.47912032868180043, 2.0709262920097116], "truth_invQ_eff": 13.646007795327414, "selfcheck_pass": false, "c0sq": 0.4964426262395004}

@@ -1,0 +1,11 @@
+synth block 3
+synth block 0
+synth block 1
+synth block 2
+synth block 7
+synth block 5
+synth block 6
+synth block 4
+pz {"invQ_eff": 6.550925319594695, "ci90_eff": [4.884762553328436, 8.118358384735146], "truth_invQ_eff": 13.646007795327414, "selfcheck_pass": false, "sign": -1, "D_plus": 0.1036516415220864, "D_minus": 0.1007763071199963}
+a {"invQ_eff": 10.719436073998367, "ci90_eff": [8.39858761770508, 12.57993569584841], "truth_invQ_eff": 13.646007795327414, "selfcheck_pass": false}
+b {"invQ_eff": -2.2184047987309223, "ci90_eff": [-4.098494515627803, -0.12355513347727483], "truth_invQ_eff": 13.646007795327414, "selfcheck_pass": false}

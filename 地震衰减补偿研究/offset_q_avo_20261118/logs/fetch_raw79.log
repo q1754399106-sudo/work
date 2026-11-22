@@ -1,0 +1,375 @@
+first trace 462238 ffid 181013252 previous 171060632 traces 460310 bytes 3564644240
+chunk 0  64 MB  0.06 MB/s
+first trace 462238 ffid 181013252 previous 171060632 traces 460310 bytes 3564644240
+pieces to fetch 417 of 425
+piece at 72 MB  0.82 MB/s
+piece at 104 MB  1.07 MB/s
+piece at 112 MB  1.37 MB/s
+piece at 136 MB  1.38 MB/s
+piece at 128 MB  1.49 MB/s
+piece at 152 MB  1.37 MB/s
+piece at 144 MB  1.52 MB/s
+piece at 88 MB  1.72 MB/s
+piece at 64 MB  1.89 MB/s
+piece at 160 MB  1.79 MB/s
+piece at 168 MB  1.85 MB/s
+piece at 192 MB  1.89 MB/s
+piece at 96 MB  1.95 MB/s
+piece at 80 MB  2.01 MB/s
+piece at 120 MB  1.75 MB/s
+piece at 208 MB  1.70 MB/s
+piece at 184 MB  1.79 MB/s
+piece at 176 MB  1.84 MB/s
+piece at 240 MB  1.82 MB/s
+piece at 248 MB  1.91 MB/s
+piece at 216 MB  1.84 MB/s
+piece at 232 MB  1.90 MB/s
+piece at 280 MB  1.94 MB/s
+piece at 272 MB  1.97 MB/s
+piece at 224 MB  1.97 MB/s
+piece at 200 MB  1.94 MB/s
+piece at 264 MB  1.99 MB/s
+piece at 296 MB  2.04 MB/s
+piece at 312 MB  2.10 MB/s
+piece at 256 MB  2.03 MB/s
+piece at 328 MB  2.05 MB/s
+piece at 344 MB  2.09 MB/s
+piece at 360 MB  2.08 MB/s
+piece at 368 MB  2.00 MB/s
+piece at 392 MB  1.95 MB/s
+piece at 304 MB  1.94 MB/s
+piece at 352 MB  1.98 MB/s
+piece at 376 MB  2.02 MB/s
+piece at 400 MB  2.04 MB/s
+piece at 288 MB  2.03 MB/s
+piece at 408 MB  2.08 MB/s
+piece at 416 MB  2.13 MB/s
+piece at 424 MB  2.16 MB/s
+piece at 432 MB  2.18 MB/s
+piece at 320 MB  2.12 MB/s
+piece at 440 MB  2.15 MB/s
+piece at 384 MB  2.19 MB/s
+piece at 480 MB  2.14 MB/s
+piece at 448 MB  2.12 MB/s
+piece at 472 MB  2.10 MB/s
+piece at 336 MB  2.14 MB/s
+piece at 512 MB  2.14 MB/s
+piece at 464 MB  2.15 MB/s
+piece at 528 MB  2.16 MB/s
+piece at 536 MB  2.15 MB/s
+piece at 488 MB  2.16 MB/s
+piece at 568 MB  2.09 MB/s
+piece at 560 MB  2.12 MB/s
+piece at 496 MB  2.10 MB/s
+piece at 520 MB  2.12 MB/s
+piece at 584 MB  2.14 MB/s
+piece at 592 MB  2.13 MB/s
+piece at 600 MB  2.15 MB/s
+piece at 504 MB  2.09 MB/s
+piece at 576 MB  2.11 MB/s
+piece at 632 MB  2.09 MB/s
+piece at 544 MB  1.98 MB/s
+piece at 624 MB  1.94 MB/s
+piece at 616 MB  1.97 MB/s
+piece at 552 MB  1.98 MB/s
+piece at 456 MB  2.00 MB/s
+piece at 664 MB  1.99 MB/s
+piece at 672 MB  2.02 MB/s
+piece at 680 MB  2.02 MB/s
+piece at 712 MB  1.99 MB/s
+piece at 656 MB  1.62 MB/s
+piece at 640 MB  1.17 MB/s
+piece at 736 MB  1.04 MB/s
+piece at 744 MB  1.01 MB/s
+piece at 704 MB  1.01 MB/s
+piece at 696 MB  0.98 MB/s
+piece at 720 MB  0.97 MB/s
+Traceback (most recent call last):
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\fetch_raw79.py", line 63, in <module>
+    main(sys.argv[1])
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\fetch_raw79.py", line 58, in main
+    list(ex.map(job, todo))
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\fetch_raw79.py", line 48, in job
+    e = min(s + CH, SIZE) - 1; d = V.rng(s, e)
+                                   ^^^^^^^^^^^
+  File "D:\ChatGPT/研究/地震衰减补偿研究/uq_rtm_20261117/scripts\volve_fetch.py", line 42, in rng
+    raise RuntimeError(f"range {a}-{b} failed")
+RuntimeError: range 4217108880-4225497487 failed
+first trace 462238 ffid 181013252 previous 171060632 traces 460310 bytes 3564644240
+pieces to fetch 335 of 425
+piece at 648 MB  0.94 MB/s
+piece at 760 MB  1.68 MB/s
+piece at 792 MB  1.38 MB/s
+piece at 784 MB  1.69 MB/s
+piece at 800 MB  1.52 MB/s
+piece at 752 MB  1.69 MB/s
+piece at 728 MB  1.90 MB/s
+piece at 608 MB  1.98 MB/s
+piece at 688 MB  1.39 MB/s
+piece at 832 MB  1.43 MB/s
+piece at 776 MB  1.55 MB/s
+piece at 824 MB  1.61 MB/s
+piece at 816 MB  1.73 MB/s
+piece at 840 MB  1.59 MB/s
+piece at 848 MB  1.70 MB/s
+piece at 880 MB  1.63 MB/s
+piece at 768 MB  1.57 MB/s
+piece at 904 MB  1.52 MB/s
+piece at 912 MB  1.56 MB/s
+piece at 808 MB  1.58 MB/s
+piece at 856 MB  1.60 MB/s
+piece at 920 MB  1.66 MB/s
+piece at 896 MB  1.70 MB/s
+piece at 928 MB  1.71 MB/s
+piece at 872 MB  1.75 MB/s
+piece at 936 MB  1.82 MB/s
+piece at 952 MB  1.73 MB/s
+piece at 976 MB  1.67 MB/s
+piece at 960 MB  1.59 MB/s
+piece at 968 MB  1.57 MB/s
+piece at 984 MB  1.62 MB/s
+piece at 1016 MB  1.56 MB/s
+piece at 1024 MB  1.54 MB/s
+piece at 1032 MB  1.52 MB/s
+piece at 1008 MB  1.54 MB/s
+piece at 1048 MB  1.52 MB/s
+piece at 992 MB  1.55 MB/s
+piece at 1064 MB  1.53 MB/s
+piece at 1056 MB  1.57 MB/s
+piece at 864 MB  1.61 MB/s
+piece at 944 MB  1.64 MB/s
+piece at 1096 MB  1.63 MB/s
+piece at 1104 MB  1.64 MB/s
+piece at 1000 MB  1.65 MB/s
+piece at 1088 MB  1.68 MB/s
+piece at 1080 MB  1.72 MB/s
+piece at 888 MB  1.75 MB/s
+piece at 1112 MB  1.79 MB/s
+piece at 1072 MB  1.76 MB/s
+piece at 1144 MB  1.76 MB/s
+piece at 1040 MB  1.68 MB/s
+piece at 1184 MB  1.65 MB/s
+piece at 1192 MB  1.61 MB/s
+piece at 1200 MB  1.60 MB/s
+piece at 1208 MB  1.59 MB/s
+piece at 1176 MB  1.62 MB/s
+piece at 1136 MB  1.64 MB/s
+piece at 1160 MB  1.66 MB/s
+piece at 1232 MB  1.65 MB/s
+piece at 1224 MB  1.66 MB/s
+piece at 1248 MB  1.66 MB/s
+piece at 1256 MB  1.67 MB/s
+piece at 1152 MB  1.69 MB/s
+piece at 1216 MB  1.71 MB/s
+piece at 1240 MB  1.73 MB/s
+piece at 1272 MB  1.74 MB/s
+piece at 1288 MB  1.74 MB/s
+piece at 1280 MB  1.75 MB/s
+piece at 1120 MB  1.78 MB/s
+piece at 1304 MB  1.80 MB/s
+piece at 1320 MB  1.78 MB/s
+piece at 1128 MB  1.77 MB/s
+piece at 1168 MB  1.78 MB/s
+piece at 1312 MB  1.70 MB/s
+piece at 1296 MB  1.72 MB/s
+piece at 1376 MB  1.71 MB/s
+piece at 1360 MB  1.71 MB/s
+piece at 1384 MB  1.72 MB/s
+piece at 1400 MB  1.70 MB/s
+piece at 1352 MB  1.72 MB/s
+piece at 1328 MB  1.71 MB/s
+piece at 1408 MB  1.72 MB/s
+piece at 1368 MB  1.72 MB/s
+piece at 1416 MB  1.73 MB/s
+piece at 1344 MB  1.74 MB/s
+piece at 1448 MB  1.74 MB/s
+piece at 1456 MB  1.74 MB/s
+piece at 1464 MB  1.75 MB/s
+piece at 1424 MB  1.75 MB/s
+piece at 1264 MB  1.74 MB/s
+piece at 1336 MB  1.65 MB/s
+piece at 1432 MB  1.62 MB/s
+piece at 1504 MB  1.63 MB/s
+piece at 1480 MB  1.65 MB/s
+piece at 1496 MB  1.65 MB/s
+piece at 1520 MB  1.64 MB/s
+piece at 1472 MB  1.64 MB/s
+piece at 1512 MB  1.62 MB/s
+piece at 1552 MB  1.63 MB/s
+piece at 1488 MB  1.64 MB/s
+piece at 1568 MB  1.63 MB/s
+piece at 1576 MB  1.65 MB/s
+piece at 1560 MB  1.65 MB/s
+piece at 1536 MB  1.66 MB/s
+piece at 1440 MB  1.68 MB/s
+piece at 1392 MB  1.67 MB/s
+piece at 1600 MB  1.68 MB/s
+piece at 1624 MB  1.67 MB/s
+piece at 1608 MB  1.67 MB/s
+piece at 1640 MB  1.67 MB/s
+piece at 1528 MB  1.66 MB/s
+piece at 1656 MB  1.67 MB/s
+piece at 1648 MB  1.68 MB/s
+piece at 1544 MB  1.67 MB/s
+piece at 1616 MB  1.60 MB/s
+piece at 1664 MB  1.53 MB/s
+piece at 1704 MB  1.52 MB/s
+piece at 1680 MB  1.52 MB/s
+piece at 1672 MB  1.51 MB/s
+piece at 1584 MB  1.52 MB/s
+piece at 1728 MB  1.52 MB/s
+piece at 1736 MB  1.52 MB/s
+piece at 1592 MB  1.45 MB/s
+piece at 1696 MB  1.33 MB/s
+piece at 1752 MB  1.34 MB/s
+piece at 1768 MB  1.33 MB/s
+piece at 1712 MB  1.32 MB/s
+piece at 1784 MB  1.32 MB/s
+piece at 1688 MB  1.33 MB/s
+piece at 1744 MB  1.33 MB/s
+piece at 1632 MB  1.34 MB/s
+piece at 1816 MB  1.33 MB/s
+piece at 1808 MB  1.34 MB/s
+piece at 1792 MB  1.34 MB/s
+piece at 1824 MB  1.35 MB/s
+piece at 1832 MB  1.36 MB/s
+piece at 1720 MB  1.35 MB/s
+piece at 1848 MB  1.35 MB/s
+piece at 1880 MB  1.34 MB/s
+piece at 1888 MB  1.33 MB/s
+piece at 1840 MB  1.34 MB/s
+piece at 1856 MB  1.34 MB/s
+piece at 1904 MB  1.34 MB/s
+piece at 1800 MB  1.33 MB/s
+piece at 1912 MB  1.34 MB/s
+piece at 1928 MB  1.33 MB/s
+piece at 1896 MB  1.31 MB/s
+piece at 1920 MB  1.30 MB/s
+piece at 1864 MB  1.31 MB/s
+piece at 1952 MB  1.31 MB/s
+piece at 1872 MB  1.32 MB/s
+piece at 1760 MB  1.32 MB/s
+piece at 1936 MB  1.33 MB/s
+piece at 1968 MB  1.33 MB/s
+piece at 1984 MB  1.33 MB/s
+piece at 1944 MB  1.33 MB/s
+piece at 1960 MB  1.34 MB/s
+piece at 2000 MB  1.35 MB/s
+piece at 1776 MB  1.35 MB/s
+piece at 2016 MB  1.34 MB/s
+piece at 2032 MB  1.31 MB/s
+piece at 2008 MB  1.31 MB/s
+piece at 1992 MB  1.32 MB/s
+piece at 2048 MB  1.28 MB/s
+piece at 2064 MB  1.27 MB/s
+piece at 2072 MB  1.27 MB/s
+piece at 2096 MB  1.26 MB/s
+piece at 2112 MB  1.25 MB/s
+piece at 2120 MB  1.25 MB/s
+piece at 1976 MB  1.25 MB/s
+piece at 2056 MB  1.25 MB/s
+piece at 2136 MB  1.26 MB/s
+piece at 2128 MB  1.24 MB/s
+piece at 2104 MB  1.18 MB/s
+piece at 2160 MB  1.18 MB/s
+piece at 2152 MB  1.18 MB/s
+piece at 2080 MB  1.17 MB/s
+piece at 2176 MB  1.16 MB/s
+piece at 2208 MB  1.15 MB/s
+piece at 2088 MB  1.16 MB/s
+piece at 2168 MB  1.14 MB/s
+piece at 2144 MB  1.12 MB/s
+piece at 2192 MB  1.12 MB/s
+piece at 2232 MB  1.10 MB/s
+piece at 2216 MB  1.08 MB/s
+piece at 2184 MB  1.08 MB/s
+piece at 2200 MB  1.08 MB/s
+piece at 2224 MB  1.08 MB/s
+Traceback (most recent call last):
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\fetch_raw79.py", line 63, in <module>
+    main(sys.argv[1])
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\fetch_raw79.py", line 58, in main
+    list(ex.map(job, todo))
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\qq175\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ChatGPT\研究\.claude\worktrees\study-research-docs-plan-c4d4c6\地震衰减补偿研究\offset_q_avo_20261118\scripts\fetch_raw79.py", line 48, in job
+    e = min(s + CH, SIZE) - 1; d = V.rng(s, e)
+                                   ^^^^^^^^^^^
+  File "D:\ChatGPT/研究/地震衰减补偿研究/uq_rtm_20261117/scripts\volve_fetch.py", line 42, in rng
+    raise RuntimeError(f"range {a}-{b} failed")
+RuntimeError: range 5701892496-5710281103 failed
+=== retry 1 14:14:19 ===
+first trace 462238 ffid 181013252 previous 171060632 traces 460310 bytes 3564644240
+pieces to fetch 147 of 425
+piece at 2040 MB  0.44 MB/s
+piece at 2280 MB  0.82 MB/s
+piece at 2256 MB  1.11 MB/s
+piece at 2248 MB  1.47 MB/s
+piece at 2264 MB  1.76 MB/s
+piece at 2024 MB  1.07 MB/s
+piece at 2240 MB  1.25 MB/s
+piece at 2320 MB  1.43 MB/s
+piece at 2288 MB  1.54 MB/s
+piece at 2336 MB  1.15 MB/s
+piece at 2304 MB  1.24 MB/s
+piece at 2328 MB  1.33 MB/s
+piece at 2368 MB  1.26 MB/s
+piece at 2376 MB  1.35 MB/s
+piece at 2344 MB  1.41 MB/s
+piece at 2272 MB  1.51 MB/s
+piece at 2360 MB  1.53 MB/s
+piece at 2384 MB  1.50 MB/s
+piece at 2408 MB  1.49 MB/s
+piece at 2400 MB  1.47 MB/s
+piece at 2416 MB  1.42 MB/s
+piece at 2352 MB  1.39 MB/s
+piece at 2392 MB  1.39 MB/s
+piece at 2312 MB  1.41 MB/s
+piece at 2440 MB  1.46 MB/s
+piece at 2296 MB  1.13 MB/s
+piece at 2432 MB  1.17 MB/s
+piece at 2496 MB  1.14 MB/s
+piece at 2424 MB  1.09 MB/s
+piece at 2512 MB  0.98 MB/s
+piece at 2456 MB  0.99 MB/s
+piece at 2504 MB  0.98 MB/s
+piece at 2520 MB  0.95 MB/s
+piece at 2480 MB  0.94 MB/s
+piece at 2464 MB  0.93 MB/s
+piece at 2472 MB  0.93 MB/s
+piece at 2536 MB  0.92 MB/s
+piece at 2560 MB  0.91 MB/s
+piece at 2576 MB  0.89 MB/s
+piece at 2552 MB  0.89 MB/s
+piece at 2488 MB  0.90 MB/s
+piece at 2528 MB  0.89 MB/s
+piece at 2600 MB  0.90 MB/s
+piece at 2592 MB  0.84 MB/s
+piece at 2632 MB  0.84 MB/s
+piece at 2640 MB  0.81 MB/s

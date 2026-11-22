@@ -1,0 +1,7 @@
+ghost False R 0.0 swell False noise False  c0sq 0.988 | pz 11.73 (truth 13.65, n 112) | a 11.72 (truth 13.65, n 112) | b 11.75 (truth 13.65, n 112)
+ghost True R 0.0 swell False noise False  c0sq 0.980 | pz 11.53 (truth 13.65, n 112) | a 12.03 (truth 13.65, n 112) | b 11.62 (truth 13.65, n 112)
+ghost True R 0.3 swell False noise False  c0sq 0.481 | pz 10.88 (truth 13.65, n 112) | a 9.76 (truth 13.65, n 112) | b 11.74 (truth 13.65, n 112)
+ghost True R 0.3 swell True noise True  c0sq 0.489 | pz 1.31 (truth 13.65, n 112) | a 6.64 (truth 13.65, n 112) | b -1.29 (truth 13.65, n 112)
+ghost True R 0.3 swell True noise False  c0sq 0.481 | pz 9.84 (truth 13.65, n 112) | a 10.38 (truth 13.65, n 112) | b 10.04 (truth 13.65, n 112)
+ghost True R 0.3 swell False noise True  c0sq 0.479 | pz 11.27 (truth 13.65, n 112) | a 10.23 (truth 13.65, n 112) | b 12.37 (truth 13.65, n 112)
+ghost True R 0.3 swell True noise True  c0sq 0.481 | pz 10.31 (truth 13.65, n 112) | a 10.85 (truth 13.65, n 112) | b 10.55 (truth 13.65, n 112)
