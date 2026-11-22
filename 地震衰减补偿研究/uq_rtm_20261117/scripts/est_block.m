@@ -1,4 +1,4 @@
-function est_block(name,jlist,otag)
+function est_block(name,jlist,otag,BS)
 % Block-randomised polarity noise estimate (PLAN_BLOCKFLIP_ZH.md, development on D1-D4).
 % As est_noise2.m, but the random sign is shared by B consecutive receivers of a shot:
 %   B = 1   identical signs to est_noise2 (rng(P.flip_seed)), reproduction check
@@ -11,11 +11,16 @@ function est_block(name,jlist,otag)
 P=rtm_setup();maxNumCompThreads(P.threads);M=make_model(name,P);vmig=M.vmig;
 if nargin<2||isempty(jlist),jlist=1:numel(P.f);end
 if nargin<3,otag='';end
-BS=[1 8 32 300];sets={'m30','m40','g30','l30'};
+if nargin<4||isempty(BS),BS=[1 8 32 300];end                 % confirmation (PLAN_BLOCKFLIP_CONFIRM_ZH.md): [1 300]
+isC=strncmp(name,'C',1);if isC,sets={'m30','m40','l30'};else,sets={'m30','m40','g30','l30'};end
 fo=fullfile(P.cache,['invblk_' name otag '.mat']);if isfile(fo),return;end
-D=load(fullfile(P.cache,['data_' name '.mat']),'att','m30','m40','g30');
-fl=fullfile(P.cache,['data_' name '_l30.mat']);if ~isfile(fl),make_l30(name,P,fl);end
-L30=load(fl);D.l30=L30.l30;clear L30
+if isC                                                     % C models: l30 of prep_data (stage-3 recipe), no g30
+ D=load(fullfile(P.cache,['data_' name '.mat']),'att','m30','m40','l30');
+else
+ D=load(fullfile(P.cache,['data_' name '.mat']),'att','m30','m40','g30');
+ fl=fullfile(P.cache,['data_' name '_l30.mat']);if ~isfile(fl),make_l30(name,P,fl);end
+ L30=load(fl);D.l30=L30.l30;clear L30
+end
 ns=numel(P.ixs);nr=numel(P.ixr);nz=P.nz;nx=P.nx;N=nz*nx;
 [Zi,Xi]=ndgrid(P.in{1},P.in{2});lin=sub2ind([nz nx],Zi(:),Xi(:));nin=numel(lin);
 irec=sub2ind([nz nx],P.izs*ones(size(P.ixr)),P.ixr);isrc=sub2ind([nz nx],P.izs*ones(size(P.ixs)),P.ixs);

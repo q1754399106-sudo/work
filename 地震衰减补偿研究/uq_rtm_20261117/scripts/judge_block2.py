@@ -5,7 +5,9 @@ M1 = mean over m < 1, M2 = m = 1, M3 = worst over m > 1 (fields M1_u1, M2_u1, M3
 import json
 from pathlib import Path
 import numpy as np
-ROOT = Path(__file__).resolve().parents[1]; MS = ["D1", "D2", "D3", "D4"]; BS = 300; SETS = ("m30", "m40", "l30")
+import sys
+ROOT = Path(__file__).resolve().parents[1]; MS = sys.argv[1:] or ["D1", "D2", "D3", "D4"]; BS = 300; SETS = ("m30", "m40", "l30")
+OUT = "blockflip_B.json" if MS[0].startswith("D") else "blockflip_C.json"   # confirmation on C5-C8: same rules
 METH = ("R0", "PH", "IQ30", "IQ70", "LP", "W0", "W1", "UQW1")
 
 
@@ -35,7 +37,7 @@ for s in ("m30", "m40"):
     v["B2_%s_M2_min" % s] = float(min(val(m, BS, s, "M2_u1") for m in MS)); ok &= v["B2_%s_M2_min" % s] >= -0.04
     v["B2_%s_M3_min" % s] = float(min(val(m, BS, s, "M3_u1") for m in MS)); ok &= v["B2_%s_M3_min" % s] >= -0.06
 v["B2_pass"] = bool(ok); v["pass"] = bool(v["B1_pass"] and v["B2_pass"]); out["verdict"] = v
-(ROOT / "analysis" / "blockflip_B.json").write_text(json.dumps(out, indent=1), encoding="utf-8")
+(ROOT / "analysis" / OUT).write_text(json.dumps(out, indent=1), encoding="utf-8")
 print(json.dumps(v, indent=1))
 for k, c in out["cells"].items():
     print(k, "  ".join("B%d M1 %+.3f M2 %+.3f M3 %+.3f fc %.1f | UQW1@m1 %.3f B+@m1 %.3f" %
