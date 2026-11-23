@@ -24,7 +24,7 @@ ts_row = 0.011 + 0.020 * exp(-(((0:ns-1) - 25)/10).^2);
 TS_het = repmat(ts_row, nin, 1);
 G_true = exp((-pi*f + 1i*2*f*log(f/fref)) * TS_het);
 R_true = randn(nin, 1);
-N_noise = 0.05 * (randn(nin, ns) + 1i * randn(nin, ns));
+N_noise = 0.50 * (randn(nin, ns) + 1i * randn(nin, ns));
 Cs_sig = G_true .* R_true;
 Cs_tot = Cs_sig + N_noise;
 iv_true = repmat(mean(abs(sum(N_noise,2)).^2) / mean(abs(sum(Cs_sig,2)).^2), nin, 1);
@@ -32,7 +32,8 @@ iv_true = repmat(mean(abs(sum(N_noise,2)).^2) / mean(abs(sum(Cs_sig,2)).^2), nin
 c_old = corr(UQ_h, R_true);
 c_ws0 = corr(WS0_h, R_true);
 c_ws1 = corr(WS1_h, R_true);
-fprintf('ID3 (het t* 11-31ms, 30Hz): corr UQW1_old=%.4f, WS_UQ0=%.4f, WS_UQ1=%.4f\n', c_old, c_ws0, c_ws1);
+fprintf('ID3 (het t* 11-31ms, 30Hz, noise=0.5): corr UQW1_old=%.4f, WS_UQ0=%.4f, WS_UQ1=%.4f (1-r gain=%.2fx)\n', ...
+        c_old, c_ws0, c_ws1, (1 - c_old) / max(1 - c_ws1, 1e-12));
 
 ok = (e1 < 1e-6) && (e2_fix < 1e-5) && (e2_va < 1e-5) && (c_ws1 > c_old + 0.02);
 if ~ok, error('test_wsuq_identities FAILED'); end

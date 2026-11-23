@@ -57,8 +57,7 @@ m_chim  = (Z2 >= 820 & Z2 <= 1550) & (X2 >= 950 & X2 <= 1450);
 for nm = {'D2', 'D4'}
     name = nm{1};
     ff = fullfile(main_res, 'va_uq_step1_20261121', 'cache', ['fields_' name '_vb.mat']);
-    S = load(ff);
-    F = S.F; clear S
+    F = load(ff);
     ns = numel(P.ixs);
     TS = zeros(numel(lin), ns);
     for s = 1:ns
