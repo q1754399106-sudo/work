@@ -1,0 +1,57 @@
+{
+  "reproducibility_RAW_R0_vs_Stage4": {
+    "RAW_R0_F5_new": 0.6259425012107231,
+    "RAW_R0_F5_stage4": 0.6259424995506047,
+    "abs_diff": 1.660118487123441e-09
+  },
+  "gates": {
+    "V1_Beats_Stage4_UQW1": {
+      "PASS": true,
+      "hero_R0band_mean": 0.6348850798174123,
+      "stage4_UQW1_amp_mean": 0.5491570530198565,
+      "delta_mean": 0.08572802679755576,
+      "delta_m05": 0.13359369013747546,
+      "delta_m10": 0.08221301964021022
+    },
+    "V2_Beats_Uncomp_Equalized": {
+      "PASS": true,
+      "DSA_R0_Eq_R0band": 0.6252415541757265,
+      "hero_R0band_mean": 0.6348850798174123,
+      "hero_R0band_m10": 0.6354319323474767,
+      "DSA_R0_Eq_Broad": 0.5240653974842155,
+      "hero_Broad_mean": 0.525891334773865,
+      "hero_Broad_m10": 0.52691432433922
+    },
+    "V3_Beats_Original_RAW_R0": {
+      "PASS": true,
+      "RAW_R0_R0band": 0.6259425012107231,
+      "hero_R0band_mean": 0.6348850798174123,
+      "hero_R0band_m10": 0.6354319323474767,
+      "RAW_R0_Broad": 0.5023706242629591,
+      "hero_Broad_mean": 0.525891334773865,
+      "hero_Broad_m10": 0.52691432433922,
+      "pass_at_m10": true,
+      "pass_at_mean": true
+    },
+    "V4_Overcomp_Robustness_VSP": {
+      "PASS": true,
+      "m05_DSA_UQW1_PAnc": 0.6367595643854159,
+      "m05_DSA_W1_PAnc": 0.6343406727805545,
+      "m05_DSA_IQ70_PAnc": 0.6331295006884348,
+      "m20_DSA_UQW1_PAnc": 0.6317676179945516,
+      "m05_minus_m20": 0.00499194639086431
+    },
+    "V5_Seismic_Physics_Closure": {
+      "PASS": true,
+      "abs_slope_hero_m1": 0.0035559516373200287,
+      "abs_slope_DSA_R0_Eq": 0.01668370452107442,
+      "abs_slope_RAW_UQW1_Unanc_m1": 0.07145915844667833,
+      "spec_flat_pass": true,
+      "smile_frac_RAW_R0": 0.38380411291836464,
+      "smile_frac_DSA_R0": 0.038634224614725106,
+      "smile_pass": true
+    }
+  },
+  "overall_pass_count": 5,
+  "overall_total": 5
+}
