@@ -36,18 +36,23 @@ qp.PROFILES.clear()
 qp.PROFILES.update(PROFILES)
 
 RULES = ("R_med", "R_fix", "R_unit")
+ALL_RULES = ("R_med", "R_fix", "R_unit", "R_q25", "R_q75")
 TWS = (1.4, 2.0, 2.5)
 OUT = HERE / "results"
 
 
 def job_list():
     jobs = []
-    # Core 3D phase diagram: seed 9931, 3 profiles x 3 rules x 3 tw = 27 cells
+    # Core 3D phase diagram: seed 9931, 3 profiles x 3 core rules x 3 tw = 27 cells
     for tw in TWS:
         for prof in ("S", "D", "N3"):
             for rule in RULES:
                 jobs.append((prof, rule, tw, 9931))
-    # Independent seed replication at tw=1.4: seed 9932, 3 profiles x 3 rules = 9 cells
+    # Quantile continuum at tw=1.4: seed 9931, 3 profiles x {R_q25, R_q75} = 6 cells
+    for prof in ("S", "D", "N3"):
+        for rule in ("R_q25", "R_q75"):
+            jobs.append((prof, rule, 1.4, 9931))
+    # Independent seed replication at tw=1.4: seed 9932, 3 profiles x 3 core rules = 9 cells
     for prof in ("S", "D", "N3"):
         for rule in RULES:
             jobs.append((prof, rule, 1.4, 9932))
@@ -119,6 +124,10 @@ def pen_vec_y(Bt, rule, s_ref):
     base = LAM * np.sqrt(2.0 * np.log(n))
     if rule == "R_med":
         return np.full(n, base * float(np.median(s)))
+    elif rule == "R_q25":
+        return np.full(n, base * float(np.percentile(s, 25.0)))
+    elif rule == "R_q75":
+        return np.full(n, base * float(np.percentile(s, 75.0)))
     elif rule == "R_fix":
         return np.full(n, base * float(s_ref))
     elif rule == "R_unit":
@@ -131,11 +140,18 @@ def solve_rule(D, Bt, pp, rule, s_ref, start_y=None, tol=None):
     n = D.shape[0]
     scale = np.linalg.norm(Bt, axis=0)
     B = Bt / scale
+    med_s = float(np.median(scale))
     if rule == "R_med":
         a_eff = LAM
         sc_arg = scale
+    elif rule == "R_q25":
+        a_eff = LAM * (float(np.percentile(scale, 25.0)) / med_s)
+        sc_arg = scale
+    elif rule == "R_q75":
+        a_eff = LAM * (float(np.percentile(scale, 75.0)) / med_s)
+        sc_arg = scale
     elif rule == "R_fix":
-        a_eff = LAM * (float(s_ref) / float(np.median(scale)))
+        a_eff = LAM * (float(s_ref) / med_s)
         sc_arg = scale
     elif rule == "R_unit":
         a_eff = LAM

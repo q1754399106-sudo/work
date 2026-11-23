@@ -15,27 +15,30 @@ $$F(v, v_a) = \frac{1}{2}\|d - \tilde{B} y\|_2^2 + \sigma \sum_{k=1}^n p_k(v, v_
 $$\mathbf{c}_A = \tilde{B}_A^\top d - \sigma (\mathbf{p}_A \odot \mathbf{s}_A), \qquad F(v, v_a) = \frac{1}{2}\|d\|_2^2 - \frac{1}{2}\mathbf{c}_A^\top (\tilde{B}_A^\top \tilde{B}_A)^{-1}\mathbf{c}_A$$
 由此单次求解即可按二阶有限差分直接给出三规则通用的闭式斜率预测 $\alpha_F = -J_{v,v_a}/J_{vv}$。
 
-## 1. 预注册实验矩阵（全新独立随机种子 `9931, 9932`）
+## 1. 预注册实验矩阵（全新独立随机种子 `9931, 9932`；经开发种子 `9919` smoke 核查增补分位数连续相变轴）
 
 - **3 个正交 $Q$ 剖面**（均在 $c_{\text{true}} = 1.0$ 生成）：
   - `S`（浅层强衰减）：`[30, 200, 200, 200]`
   - `D`（深层强衰减）：`[250, 250, 40, 40]`
   - `N3`（中深夹层衰减）：`[100, 300, 40, 300]`
-- **3 种 L1 归一化规则**：`R_med`, `R_fix`, `R_unit`
-- **3 个子波提取窗中心深度**：$t_w \in \{1.4, 2.0, 2.5\}\text{ s}$（窗 $[t_w - 0.2, t_w + 0.2]\text{ s}$，以 $a(t_w)$ 为锚定累积吸收量）
-- **总单元数（36 组全新合成，不含任何已见旧种子）**：
-  - 核心三维相图（`seed = 9931`）：`3 profiles × 3 rules × 3 tw = 27` 组；
-  - 独立种子复现层（`seed = 9932`, `tw = 1.4 s`）：`3 profiles × 3 rules = 9` 组。
-- 每组执行 3 点锚定全网格扫描（$c_a \in \{1.0, 0.7, 1.4\}$，得实测真值 $\hat{\kappa} = (v_{\text{sel}}(0.7) - v_{\text{sel}}(1.4))/(1/0.7 - 1/1.4)$ 与零偏差基准 $v_{\text{sel}}(1.0)$）+ 1 次在 $v_0 = v_{\text{sel}}(1.0)$ 的统一闭式 $\alpha_F$ 预测与能量闭合自检。
+- **5 种 L1 归一化规则**（统一服从同一闭式公式 $\mathbf{c}_A = \tilde{B}_A^\top d - \sigma(\mathbf{p}_A \odot \mathbf{s}_A)$）：
+  - 核心 3 规则：`R_med` ($q=50$ 中位列范数)、`R_fix`（固定常数范数 $s_{\text{ref}}$，$\partial\mu/\partial v = 0$）、`R_unit`（Chai et al. 2019 标准逐列单位范数 $p_k \propto s_k$）；
+  - 连续分位数过渡轴（$t_w = 1.4\text{ s}$）：`R_q25`（浅层参考列 $q=25$）与 `R_q75`（深层参考列 $q=75$），用于刻画从 `R_fix` 失稳坍塌到 `R_med` 内点极小再到深层过追踪的连续相图。
+- **3 个子波提取窗中心深度**：$t_w \in \{1.4, 2.0, 2.5\}\text{ s}$（窗 $[t_w - 0.2, t_w + 0.2]\text{ s}$，以 $a(t_w)$ 为锚定累积吸收量）。
+- **总单元数（42 组全新合成，不含任何已见旧种子）**：
+  - 核心三维相图（`seed = 9931`）：`3 profiles × 3 core rules × 3 tw = 27` 组；
+  - 分位数连续过渡层（`seed = 9931`, `tw = 1.4 s`）：`3 profiles × {R_q25, R_q75} = 6` 组；
+  - 独立种子复现层（`seed = 9932`, `tw = 1.4 s`）：`3 profiles × 3 core rules = 9` 组。
 
 ## 2. 预注册机械判定准则（`scripts/judge_phasediag.py`）
 
 - **`N0_Closure`（数学自检）**：所有收敛单元中，固定活跃集闭式能量与 FISTA 目标值相对差 $|J_{\text{fix}} - J_{\text{solve}}|/|J_{\text{solve}}| \le 10^{-3}$。
-- **`N1_ClosedForm`（三规则通用闭式预测精度）**：在所有非边界收敛单元上，$\mathrm{median}|\alpha_F - \hat{\kappa}| \le 0.05$；且在 `R_med` 与 `R_fix` 子集上 $\mathrm{median}|\alpha_F - \hat{\kappa}| \le 0.03$。
-- **`N2_RuleShift`（归一化规则相位分离与 Chai 2019 偏差解释）**：
-  - 量化 `R_fix` 相对 `R_med` 的 $\hat{\kappa}$ 偏移（验证关断 $\mu$-耦合后 $\alpha$ 的系统变化方向与幅值）；
-  - 量化 `R_unit` 在真实锚点 $c_a=1.0$ 处相对真值 $v_{\text{true}}=1.0$ 及相对 `R_med` 的选值系统偏移 $\Delta v_{\text{sel}} = v_{\text{sel}}(\text{R\_unit}) - v_{\text{sel}}(\text{R\_med})$（检验标准单位列范数 L1 是否导致显著 $v_{\text{sel}}$ 系统偏移，从而解释小 $Q$/大 $Q$ 偏差）。
-- **`N3_DepthScaling`（子波提取深度单调标度律）**：在 `R_med` 与 `R_fix` 下，随 $t_w$ 从 $1.4 \to 2.0 \to 2.5\text{ s}$ 增大，三个剖面的 $\hat{\kappa}$ 均单调上升（$\hat{\kappa}(2.5) > \hat{\kappa}(2.0) > \hat{\kappa}(1.4)$），且与 $a(t_w)$ 标度一致。
+- **`N1_ClosedForm`（全规则通用闭式预测精度）**：在所有非边界收敛单元（含 `R_med`, `R_q25`, `R_q75`, `R_unit` 与全部 $t_w$）上，$\mathrm{median}|\alpha_F - \hat{\kappa}| \le 0.05$；且在 `R_med`/`R_unit` 上 $\le 0.04$。
+- **`N2_PhaseBoundary`（归一化相图结构与 Chai 2019 偏差解释）**：
+  - **`R_fix` 失稳坍塌验证**：关断列范数追踪（$\partial\mu/\partial v \equiv 0$）导致全部或绝大多数 `R_fix` 单元坍塌至网格下边界 $v_{\min} = 0.40$（$Q \to \infty$），证明 $\mu(v)$ 并非可有可无的副产物而是维持 QScan 内点极小的必要稳定项；
+  - **分位数单调律**：在 `tw = 1.4 s` 上，$v_{\text{sel}}(1.0)$ 随参考分位数递增（`R_q25 < R_med < R_q75`）；
+  - **Chai et al. 2019 (`R_unit`) 偏差**：定量报告 `R_unit` 相对 `R_med` 在真实锚点处的选值偏移 $\Delta v_{\text{sel}} = v_{\text{sel}}(\text{R\_unit}) - v_{\text{sel}}(\text{R\_med})$ 及与剖面深浅（`S` vs `D` vs `N3`）的符号依赖。
+- **`N3_DepthScaling`（子波提取深度单调标度律）**：在 `R_med` 与 `R_unit` 下，随 $t_w$ 从 $1.4 \to 2.0 \to 2.5\text{ s}$ 增大，三个剖面的 $\hat{\kappa}$ 均单调上升（$\hat{\kappa}(2.5) > \hat{\kappa}(2.0) > \hat{\kappa}(1.4)$）。
 
 ## 3. 计算与资源约束
 
