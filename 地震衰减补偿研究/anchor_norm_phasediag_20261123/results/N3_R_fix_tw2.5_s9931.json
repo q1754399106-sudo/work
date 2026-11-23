@@ -1,0 +1,64 @@
+{
+ "profile": "N3",
+ "rule": "R_fix",
+ "tw": 2.5,
+ "seed": 9931,
+ "c_true": 1.0,
+ "lam": 0.5,
+ "Q_profile": [
+  100.0,
+  300.0,
+  40.0,
+  300.0
+ ],
+ "s_ref": 0.3090014836742104,
+ "scans": {
+  "a1.0": {
+   "v_grid": 0.4,
+   "v_sel": 0.4,
+   "edge": true,
+   "neighbourhood_converged": true,
+   "J_min": 108457.98705590142
+  },
+  "a0.7": {
+   "v_grid": 0.4,
+   "v_sel": 0.4,
+   "edge": true,
+   "neighbourhood_converged": true,
+   "J_min": 292728.5166491868
+  },
+  "a1.4": {
+   "v_grid": 0.4,
+   "v_sel": 0.4,
+   "edge": true,
+   "neighbourhood_converged": true,
+   "J_min": 75294.14352733555
+  }
+ },
+ "v_sel_10": 0.4,
+ "kappa_hat": 0.0,
+ "valid": false,
+ "seconds_scans": 47.2,
+ "seconds": 62.0,
+ "v0": 0.4,
+ "a_tw": 0.02306344333333333,
+ "J0": 108456.6227119393,
+ "Jc": 108456.61333888852,
+ "rel_closure": 8.642211554550362e-08,
+ "Jvv": 60396.94701515448,
+ "Jvx": 48152.305846290095,
+ "alpha_F": -0.7972639053130943,
+ "t_med": 2.1,
+ "U": 1.1026197140116591,
+ "med_ratio": 1.7654949575571321,
+ "polish": {
+  "n_active": 35255,
+  "bad_sign": 7,
+  "kkt_inactive_max": 1.0010748064728723
+ },
+ "solve0": {
+  "converged": true,
+  "iterations": 575,
+  "kkt": 0.0008973393750133133
+ }
+}
