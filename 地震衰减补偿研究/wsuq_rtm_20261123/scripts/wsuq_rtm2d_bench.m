@@ -209,14 +209,11 @@ for jf = 1:nf
             TS_m = TS_abs / m;
             TS_am = TS_anc / m;
 
-            [~, uq_s, ws0_s, ws1_s] = ws_uq_apply(Cs_sig, TS_m, f, sig, fref, iv_est, s70, []);
-            [~, uq_n, ws0_n, ws1_n] = ws_uq_apply(Cs_noi, TS_m, f, sig, fref, iv_est, s70, []);
+            [~, uq_s, ws0_s, ws1_s, ~, uq_n, ws0_n, ws1_n] = ws_uq_apply(Cs_sig, TS_m, f, sig, fref, iv_est, s70, [], [], Cs_noi);
 
-            [~, iq_s, ~, ~] = ws_uq_apply(Cs_sig, TS_m, f, 0.0, fref, zeros(nin, 1), s70, []);
-            [~, iq_n, ~, ~] = ws_uq_apply(Cs_noi, TS_m, f, 0.0, fref, zeros(nin, 1), s70, []);
+            [~, iq_s, ~, ~, ~, iq_n, ~, ~] = ws_uq_apply(Cs_sig, TS_m, f, 0.0, fref, zeros(nin, 1), s70, [], [], Cs_noi);
 
-            [~, va_s, ~, wva_s] = ws_uq_apply(Cs_sig, TS_am, f, sig, fref, iv_est, s70, fv_band);
-            [~, va_n, ~, wva_n] = ws_uq_apply(Cs_noi, TS_am, f, sig, fref, iv_est, s70, fv_band);
+            [~, va_s, ~, wva_s, ~, va_n, ~, wva_n] = ws_uq_apply(Cs_sig, TS_am, f, sig, fref, iv_est, s70, fv_band, [], Cs_noi);
 
             IS.(rgn).IQ70_old(:, im)  = IS.(rgn).IQ70_old(:, im)  + iq_s;  IN.(rgn).IQ70_old(:, im)  = IN.(rgn).IQ70_old(:, im)  + iq_n;
             IS.(rgn).UQW1_old(:, im)  = IS.(rgn).UQW1_old(:, im)  + uq_s;  IN.(rgn).UQW1_old(:, im)  = IN.(rgn).UQW1_old(:, im)  + uq_n;

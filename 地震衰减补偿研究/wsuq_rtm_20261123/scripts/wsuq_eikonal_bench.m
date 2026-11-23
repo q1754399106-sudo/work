@@ -149,17 +149,14 @@ for jf = 1:numel(freqs)
         TS_m = TS_abs / m;
         TS_am = TS_anc / m;
 
-        % Fixed fref=25 Hz: UQW1_old, WS_UQ0, WS_UQ1 (apply separately to sig and noi — linear operators!)
-        [~, uq_s, ws0_s, ws1_s] = ws_uq_apply(Cs_sig, TS_m, f, sig, fref, iv, s70, []);
-        [~, uq_n, ws0_n, ws1_n] = ws_uq_apply(Cs_noi, TS_m, f, sig, fref, iv, s70, []);
+        % Fixed fref=25 Hz: UQW1_old, WS_UQ0, WS_UQ1 (shared weights for sig & noi — 2x faster!)
+        [~, uq_s, ws0_s, ws1_s, ~, uq_n, ws0_n, ws1_n] = ws_uq_apply(Cs_sig, TS_m, f, sig, fref, iv, s70, [], [], Cs_noi);
 
-        % IQ70_old (sig=0, iv=0, s70 only — classic stabilized inverse Q)
-        [~, iq_s, ~, ~] = ws_uq_apply(Cs_sig, TS_m, f, 0.0, fref, zeros(nin, 1), s70, []);
-        [~, iq_n, ~, ~] = ws_uq_apply(Cs_noi, TS_m, f, 0.0, fref, zeros(nin, 1), s70, []);
+        % IQ70_old (sig=0, iv=0, s70 only — deterministic fast path!)
+        [~, iq_s, ~, ~, ~, iq_n, ~, ~] = ws_uq_apply(Cs_sig, TS_m, f, 0.0, fref, zeros(nin, 1), s70, [], [], Cs_noi);
 
         % VA-UQ (anchored Delta t*, fv in [15, 35] Hz): VA_old & WS_VA_UQ1
-        [~, va_s, ~, wva_s] = ws_uq_apply(Cs_sig, TS_am, f, sig, fref, iv, s70, fv_band);
-        [~, va_n, ~, wva_n] = ws_uq_apply(Cs_noi, TS_am, f, sig, fref, iv, s70, fv_band);
+        [~, va_s, ~, wva_s, ~, va_n, ~, wva_n] = ws_uq_apply(Cs_sig, TS_am, f, sig, fref, iv, s70, fv_band, [], Cs_noi);
 
         S_img.IQ70_old(:, im)  = S_img.IQ70_old(:, im)  + iq_s;  N_img.IQ70_old(:, im)  = N_img.IQ70_old(:, im)  + iq_n;
         S_img.UQW1_old(:, im)  = S_img.UQW1_old(:, im)  + uq_s;  N_img.UQW1_old(:, im)  = N_img.UQW1_old(:, im)  + uq_n;
