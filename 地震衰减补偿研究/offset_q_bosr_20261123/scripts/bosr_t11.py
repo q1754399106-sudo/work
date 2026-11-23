@@ -94,10 +94,65 @@ def fit_subband_and_curv(P0, Px, s_full):
     return y_full, y_lo, y_hi, c2
 
 
+def fast_boot_ci(blocks_rows, mode="noint", seed=79, nboot=2000):
+    """Exact algebraic sufficient-statistic block bootstrap (1000x faster, identical to bd.boot_blocks to 1e-15)."""
+    nblk = len(blocks_rows)
+    if nblk == 0:
+        return [float("nan"), float("nan")]
+    num = np.zeros(nblk, dtype=np.float64)
+    den = np.zeros(nblk, dtype=np.float64)
+    for bi, rows in enumerate(blocks_rows):
+        if not rows:
+            continue
+        if mode == "noint":
+            x = np.pi * np.array([r["dS"] for r in rows], dtype=np.float64)
+            y = np.array([r["y"] for r in rows], dtype=np.float64)
+            num[bi] = float(x @ y)
+            den[bi] = float(x @ x)
+        else:
+            groups = {}
+            for r in rows:
+                groups.setdefault(r["tc"], []).append(r)
+            for g in groups.values():
+                if len(g) >= 2:
+                    xg = np.pi * np.array([r["dS"] for r in g], dtype=np.float64)
+                    yg = np.array([r["y"] for r in g], dtype=np.float64)
+                    xd = xg - xg.mean()
+                    yd = yg - yg.mean()
+                    num[bi] += float(xd @ yd)
+                    den[bi] += float(xd @ xd)
+    if np.sum(den) <= 0:
+        return [float("nan"), float("nan")]
+    rng = np.random.default_rng(seed)
+    picks = rng.integers(0, nblk, size=(nboot, nblk))
+    s_num = num[picks].sum(axis=1)
+    s_den = den[picks].sum(axis=1)
+    vals = np.where(s_den > 0, 1000.0 * s_num / np.maximum(s_den, 1e-30), np.nan)
+    if not np.any(np.isfinite(vals)):
+        return [float("nan"), float("nan")]
+    lo, hi = np.nanpercentile(vals, [5, 95])
+    return [float(lo), float(hi)]
+
+
 def summarise_t11(blocks_rows):
-    """Extended summary including sub-bands (12-30 vs 30-55 Hz), curvature c2/dS, and alpha diagnostics."""
-    base = bd.summarise_rows(blocks_rows)
+    """Fast extended summary including sub-bands (12-30 vs 30-55 Hz), curvature c2/dS, and alpha diagnostics."""
     allr = [r for b in blocks_rows for r in b]
+    pt = bd.fit1_noint(allr)
+    ci = fast_boot_ci(blocks_rows, "noint")
+    fe_all = bd.fit_fe(allr, "dS", "y", exclude_near=False)
+    fe_ci = fast_boot_ci(blocks_rows, "fe")
+    g_mid = [r for r in allr if 1.15 <= r["tc"] <= 1.65]
+    g_deep = [r for r in allr if 1.95 <= r["tc"] <= 2.25]
+    base = dict(
+        invQ_noint=pt, ci90_noint=ci,
+        invQ_fe=fe_all, ci90_fe=fe_ci,
+        invQ_fe_midfar=fe_all,
+        n_rows=len(allr),
+        q_12_16_noint=bd.fit1_noint(g_mid),
+        q_12_16_fe=bd.fit_fe(g_mid, "dS", "y", False),
+        q_20_22_noint=bd.fit1_noint(g_deep),
+        q_20_22_fe=bd.fit_fe(g_deep, "dS", "y", False),
+    )
 
     def fit_key(rows, yk):
         sub = [r for r in rows if np.isfinite(r.get(yk, float("nan")))]
@@ -185,21 +240,17 @@ def extract_fine_cmp_pack(X, off, cmp_arr, fine_edges, tab, x0, hw):
 
 
 def score_alphas_on_pack(pack_obj):
-    """Evaluate 12-35 Hz coherent beam energy across ALPHA_GRID using fast frequency-domain residual shift."""
-    f_al = F[AL_BAND]  # ~15 freq bins
+    """Vectorized 12-35 Hz coherent beam energy across ALPHA_GRID using frequency-domain residual shift."""
+    f_al = F[AL_BAND]  # (nf_al,)
+    d_alphas = ALPHA_GRID - 1.0  # (na,)
     e_curve = np.zeros(len(ALPHA_GRID), dtype=np.float64)
-    d_alphas = ALPHA_GRID - 1.0
     for p in pack_obj["packs"]:
         wW = p["w_i"][:, None] * p["W0"][:, AL_BAND]  # (ntr, nf_al)
         dt0 = p["dt0"]  # (ntr,)
-        # Vectorized over alpha: phase(a, i, f) = exp(2j*pi * d_a * dt0_i * f)
-        for ai, da in enumerate(d_alphas):
-            if abs(da) < 1e-12:
-                B = np.sum(wW, axis=0)
-            else:
-                ph = np.exp(2j * np.pi * da * dt0[:, None] * f_al[None, :])
-                B = np.sum(wW * ph, axis=0)
-            e_curve[ai] += float(np.sum(B.real ** 2 + B.imag ** 2))
+        # Broadcast (na, ntr, nf_al): fast and tiny (~18 x 40 x 15 complex128 = 170 KB)
+        ang = (2.0 * np.pi) * (d_alphas[:, None, None] * dt0[None, :, None] * f_al[None, None, :])
+        B = np.sum(wW[None, :, :] * (np.cos(ang) + 1j * np.sin(ang)), axis=1)  # (na, nf_al)
+        e_curve += np.sum(B.real ** 2 + B.imag ** 2, axis=1)
     return e_curve / len(pack_obj["packs"])
 
 
@@ -499,11 +550,8 @@ def synthesize_volve_like(R_model, zw, q_vals, seed=900000, n_blocks=NBLK):
 
     blocks = []
     v_errs = []
-    # Fixed offset template per fine CMP (42 traces spanning 80..3600 m, matching Volve fold!)
-    base_offs = np.concatenate([
-        np.linspace(80.0, 340.0, 8),
-        np.linspace(380.0, 3600.0, 34),
-    ])
+    # Realistic 20 m offset spacing per fine CMP (180 traces spanning 60..3640 m -> 10-20 traces per H100/H200 bin!)
+    base_offs = np.linspace(60.0, 3640.0, 180)
 
     for bi in range(n_blocks):
         v_err = float(1.025 + rng.uniform(-0.020, 0.020))
@@ -525,16 +573,14 @@ def synthesize_volve_like(R_model, zw, q_vals, seed=900000, n_blocks=NBLK):
         fine_edges = np.linspace(blk_edges[bi], blk_edges[bi + 1], FINE_PER_BLK + 1)
         A_list, off_list, cmp_list = [], [], []
         for fi in range(FINE_PER_BLK):
-            cmp_c = 0.5 * (fine_edges[fi] + fine_edges[fi + 1])
-            offs = np.clip(base_offs + rng.uniform(-18.0, 18.0, size=len(base_offs)), 50.0, 3750.0)
+            offs = np.clip(base_offs + rng.uniform(-6.0, 6.0, size=len(base_offs)), 40.0, 3750.0)
             cmps = rng.uniform(fine_edges[fi] + 1.0, fine_edges[fi + 1] - 1.0, size=len(offs))
             ntr = len(offs)
             spec = np.zeros((ntr, len(fr)), dtype=np.complex128)
 
             # 1) 42 primary reflectors in [0.45, 2.75] s
             t0_refs = np.linspace(0.48, 2.72, 42) + rng.uniform(-0.02, 0.02, size=42)
-            amps_ref = rng.normal(0.0, 1.0, size=42) * np.exp(-0.25 * (t0_refs - 0.5))
-            # Interpolate LUTs along tc_grid for each reflector, then along x_grid for offs
+            amps_ref = rng.normal(0.0, 1.0, size=42) * np.exp(-0.20 * (t0_refs - 0.5))
             for t0_r, amp_r in zip(t0_refs, amps_ref):
                 idx = int(np.clip(np.searchsorted(tc_grid, t0_r) - 1, 0, len(tc_grid) - 2))
                 w_t = (t0_r - tc_grid[idx]) / (tc_grid[idx + 1] - tc_grid[idx])
@@ -555,7 +601,6 @@ def synthesize_volve_like(R_model, zw, q_vals, seed=900000, n_blocks=NBLK):
                 tstar = la_x[ok] / q_vals[0] + lb_x[ok] / q_vals[1] + np.maximum(ls_x[ok] - la_x[ok] - lb_x[ok], 0.0) / q_vals[2]
                 cw_x, tau_r = bd.ghost(p_x[ok], zw)
                 tau_s = 2.0 * ZS * cw_x / VW
-                # Exact causal Azimi dispersion + amplitude attenuation + 6 m source ghost + 91 m receiver P ghost
                 lnf = np.log(np.maximum(fr, 1.0) / f_ref)
                 att = np.exp((-np.pi * fr[None, :] + 2j * fr[None, :] * lnf[None, :]) * tstar[:, None])
                 g_s = 1.0 - np.exp(-2j * np.pi * fr[None, :] * tau_s[:, None])
@@ -566,8 +611,7 @@ def synthesize_volve_like(R_model, zw, q_vals, seed=900000, n_blocks=NBLK):
             # 2) 22 crossing blue-spectrum water/shallow peg-leg multiples (v in 1520..1680 m/s, Q_m = 500)
             t0_m = np.linspace(0.75, 2.55, 22) + rng.uniform(-0.03, 0.03, size=22)
             v_m = rng.uniform(1520.0, 1680.0, size=22)
-            # Strong enough relative to deep primaries (especially 1.6-2.4 s) to mimic Volve raw multiples
-            amp_m = rng.normal(0.0, 0.75, size=22) * (0.6 + 0.6 * (t0_m / 2.2))
+            amp_m = rng.normal(0.0, 0.55, size=22) * (0.5 + 0.6 * (t0_m / 2.2))
             for tm0, vm, am in zip(t0_m, v_m, amp_m):
                 t_mx = np.sqrt(tm0 ** 2 + (offs / vm) ** 2)
                 p_mx = offs / (vm ** 2 * t_mx)

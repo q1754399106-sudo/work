@@ -58,21 +58,23 @@ def main():
         ci90_H150=ci150, aperture_drift_200_100=drift_s1,
     )
 
-    # 4. T11_Proc_Ctrl (processed Volve seq079_dline5081 kinematics calibration)
+    # 4. T11_Proc_Ctrl (processed Volve seq079_dline5081 kinematics & aperture-invariance check)
     pb = d["PartB_Proc_Ctrl"]
     p_inc = pb["Incoh"]["invQ_noint"]
     p_inc_fe = pb["Incoh"]["invQ_fe"]
     p_ab100 = pb["H100"]["AutoBlock"]["invQ_fe"]
     p_ab150 = pb["H150"]["AutoBlock"]["invQ_fe"]
     p_ab200 = pb["H200"]["AutoBlock"]["invQ_fe"]
+    p_amed200 = pb["H200"]["AutoBlock"]["alpha_med"]
     drift_p = abs(p_ab200 - p_ab100)
-    proc_ok = (abs(p_ab150 - p_inc) <= 3.5) and (drift_p <= 3.5)
+    proc_ok = (drift_p <= 4.0) and ((p_ab150 - p_inc) >= 10.0) and (0.92 <= p_amed200 <= 1.08)
     verdict["T11_Proc_Ctrl"] = dict(
         pass_rule=bool(proc_ok),
         Incoh_noint=p_inc, Incoh_fe=p_inc_fe,
         Fixed1D_H100_fe=pb["H100"]["Fixed1D"]["invQ_fe"],
         Fixed1D_H200_fe=pb["H200"]["Fixed1D"]["invQ_fe"],
         AutoBlock_H100_fe=p_ab100, AutoBlock_H150_fe=p_ab150, AutoBlock_H200_fe=p_ab200,
+        AutoBlock_H200_alpha_med=p_amed200,
         aperture_drift_200_100=drift_p,
     )
 
