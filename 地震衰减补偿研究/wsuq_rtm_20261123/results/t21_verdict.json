@@ -1,0 +1,32 @@
+{
+  "T21_Eik_Volve": {
+    "pass_rule": false,
+    "d_SNR_mean_dB": 0.027361757220722538,
+    "d_SNR_m05_dB": 0.010307746724814493,
+    "d_E1_HF_mean": 0.008616331665139754,
+    "WS_UQ1_SNR_mean": 10.500233866195675,
+    "UQW1_old_SNR_mean": 10.472872108974952,
+    "WS_VA_UQ1_SNR_mean": 9.85117368429581,
+    "VA_old_SNR_mean": 9.852455825108894
+  },
+  "T21_RTM2D_Gain": {
+    "pass_rule": false,
+    "d_E1_HF_mean": 0.004224215283344046,
+    "d_SNR_img_dB_mean": 0.5672217179338439,
+    "d_E1_m05": -0.026391525857100917,
+    "WS_UQ1_E1_mean": 0.7379022113489807,
+    "UQW1_old_E1_mean": 0.7561850390083109,
+    "WS_UQ1_E1_HF_mean": 0.8978180789093818,
+    "UQW1_old_E1_HF_mean": 0.8935938636260378,
+    "WS_UQ1_SNR_dB_mean": 9.234148216734184,
+    "UQW1_old_SNR_dB_mean": 8.66692649880034,
+    "WS_VA_UQ1_SNR_dB_mean": 9.358836792226061,
+    "VA_old_SNR_dB_mean": 8.840680409083124
+  },
+  "T21_RTM2D_NoHarm": {
+    "pass_rule": false,
+    "d_E1_clean_m1": -0.026335250516898223,
+    "WS_UQ1_E1_m1": 0.7524783614695046,
+    "UQW1_old_E1_m1": 0.7788136119864029
+  }
+}
