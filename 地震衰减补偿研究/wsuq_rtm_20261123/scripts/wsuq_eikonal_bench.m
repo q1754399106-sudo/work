@@ -65,8 +65,8 @@ P = rtm_setup();
 z2 = P.z(P.in{1}); x2 = P.x(P.in{2});
 iz2 = find(z2 >= 820 & z2 <= 1550);
 ix2 = find(x2 >= 600 & x2 <= 1800);
-% Subsample x by 2 for crisp speed (~183 x 151 = 27k -> take every 2nd z & 2nd x -> ~91 x 75 = 6825 nodes!)
-iz2 = iz2(1:2:end); ix2 = ix2(1:2:end);
+% Subsample to ~46 x 76 = 3496 evenly spaced nodes across Wdeep (~3 min runtime, exact spatial coverage)
+iz2 = iz2(1:4:end); ix2 = ix2(1:4:end);
 [IZ2, IX2] = ndgrid(P.in{1}(iz2), P.in{2}(ix2));
 lin2 = sub2ind([P.nz, P.nx], IZ2(:), IX2(:));
 

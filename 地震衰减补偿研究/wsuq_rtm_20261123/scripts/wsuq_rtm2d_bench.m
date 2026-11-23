@@ -20,18 +20,18 @@ if ~isfolder(out_dir), mkdir(out_dir); end
 addpath('D:\ChatGPT\研究\地震衰减补偿研究\uq_rtm_20261117\scripts');
 addpath(here);
 
-% ---- 1. Compact 2D Model Geometry (180 x 280 incl. 20 PML => < 0.5 GB RAM, ~3.5 min full 73 freqs) ----
-P.dx = 8.0;
-P.npml = 20;
-P.nzi = 140; P.nxi = 240;     % Interior: 1120 m x 1920 m
+% ---- 1. Compact 2D Model Geometry (136 x 196 incl. 18 PML => < 0.4 GB RAM, ~6 min full 45 freqs) ----
+P.dx = 10.0;
+P.npml = 18;
+P.nzi = 100; P.nxi = 160;     % Interior: 1000 m x 1600 m
 P.nz = P.nzi + 2 * P.npml;
 P.nx = P.nxi + 2 * P.npml;
 P.z = ((1:P.nz)' - P.npml - 1) * P.dx;
 P.x = ((1:P.nx)  - P.npml - 1) * P.dx;
 P.in = {P.npml + (1:P.nzi), P.npml + (1:P.nxi)};
-P.izs = P.npml + 3;                            % z = 16 m
-P.ixs = P.npml + 1 + (16:8:224);               % 27 shots, 64 m spacing (x = 128..1792 m)
-P.ixr = P.npml + 1 + (0:2:P.nxi-1);            % 120 receivers, 16 m spacing
+P.izs = P.npml + 3;                            % z = 20 m
+P.ixs = P.npml + 1 + (8:6:152);                % 25 shots, 60 m spacing (x = 80..1520 m)
+P.ixr = P.npml + 1 + (0:2:P.nxi-1);            % 80 receivers, 20 m spacing
 ns = numel(P.ixs);
 nr = numel(P.ixr);
 N = P.nz * P.nx;
@@ -45,28 +45,28 @@ irec = sub2ind([P.nz P.nx], P.izs * ones(1, nr), P.ixr);
 z_in = P.z(P.in{1}); x_in = P.x(P.in{2});
 
 % True velocity v_true (at f_ref = 25 Hz): 5 layers with gentle anticline under gas chimney
-z_anc = 280.0;                                 % Shallow anchor interface (280 m)
-z_r1  = 700.0 - 30.0 * exp(-((Xfull - 960.0) / 360.0).^2);
-z_r2  = 840.0 - 20.0 * exp(-((Xfull - 960.0) / 360.0).^2);
-z_r3  = 980.0 * ones(size(Xfull));
+z_anc = 240.0;                                 % Shallow anchor interface (240 m)
+z_r1  = 640.0 - 25.0 * exp(-((Xfull - 800.0) / 300.0).^2);
+z_r2  = 770.0 - 15.0 * exp(-((Xfull - 800.0) / 300.0).^2);
+z_r3  = 890.0 * ones(size(Xfull));
 
-v_true = 1900.0 * ones(P.nz, P.nx);
-v_true(Zfull >= z_anc) = 2250.0;
-v_true(Zfull >= z_r1)  = 2650.0;
-v_true(Zfull >= z_r2)  = 3000.0;
-v_true(Zfull >= z_r3)  = 3400.0;
+v_true = 1850.0 * ones(P.nz, P.nx);
+v_true(Zfull >= z_anc) = 2150.0;
+v_true(Zfull >= z_r1)  = 2550.0;
+v_true(Zfull >= z_r2)  = 2900.0;
+v_true(Zfull >= z_r3)  = 3300.0;
 
-% Smooth migration velocity (Gaussian sigma = 24 m = 3 grid cells -> ZERO sharp reflectors in v_mig!)
-v_mig = smooth2d_gauss(v_true, 3.0);
+% Smooth migration velocity (Gaussian sigma = 25 m = 2.5 grid cells -> ZERO sharp reflectors in v_mig!)
+v_mig = smooth2d_gauss(v_true, 2.5);
 
-% True Q model: background Q = 90 below z=100 m + strong gas chimney Q = 20 at x=960, z in [280, 680]
+% True Q model: background Q = 90 below z=80 m + realistic North Sea shallow gas cloud Q = 12 at x=800, z in [240, 620]
 invQ_true = (1.0 / 90.0) * ones(P.nz, P.nx);
-invQ_true(Zfull < 100.0) = 1.0 / 1000.0;
-chim_env = exp(-(((Xfull - 960.0) / 160.0).^2 + ((Zfull - 490.0) / 150.0).^2).^1.5);
-invQ_true = invQ_true + (1.0 / 20.0 - 1.0 / 90.0) * chim_env;
+invQ_true(Zfull < 80.0) = 1.0 / 1000.0;
+chim_env = exp(-(((Xfull - 800.0) / 210.0).^2 + ((Zfull - 430.0) / 160.0).^2).^1.5);
+invQ_true = invQ_true + (1.0 / 12.0 - 1.0 / 90.0) * chim_env;
 Q_true = 1.0 ./ invQ_true;
 
-% Anchored Q model (1/Q = 0 above z_anc = 280 m)
+% Anchored Q model (1/Q = 0 above z_anc = 240 m)
 Q_anc = Q_true;
 Q_anc(Zfull < z_anc) = Inf;
 
@@ -94,7 +94,7 @@ clear F_abs F_anc
 
 % Quick audit of inter-shot t* contrast under the chimney!
 [Zin_g, Xin_g] = ndgrid(z_in, x_in);
-m_chim_pix = (Zin_g >= 660 & Zin_g <= 1040) & (Xin_g >= 760 & Xin_g <= 1160);
+m_chim_pix = (Zin_g >= 600 & Zin_g <= 940) & (Xin_g >= 580 & Xin_g <= 1020);
 ts_std_chim = median(std(TS_abs(m_chim_pix(:), :), 0, 2)) * 1e3;
 ts_rng_chim = median(max(TS_abs(m_chim_pix(:), :), [], 2) - min(TS_abs(m_chim_pix(:), :), [], 2)) * 1e3;
 fprintf('2D Gas-Chimney Eikonal ready (%.1fs): W_chim t* std=%.2f ms, range=%.2f ms\n', toc(t0_all), ts_std_chim, ts_rng_chim);
@@ -103,7 +103,7 @@ fprintf('2D Gas-Chimney Eikonal ready (%.1fs): W_chim t* std=%.2f ms, range=%.2f
 if smoke
     freqs = [10.0, 22.0, 34.0];
 else
-    freqs = 4.0:0.5:40.0;   % 73 frequencies, df = 0.5 Hz -> zero time wraparound!
+    freqs = 4.0:0.75:37.0;  % 45 frequencies, df = 0.75 Hz -> wraparound 1.33s > T_max 0.95s (ZERO aliasing!)
 end
 nf = numel(freqs);
 fref = 25.0;
@@ -183,6 +183,8 @@ for jf = 1:nf
 
     Cs_sig = Us_conj .* V_vis;
     Cs_nu  = Us_conj .* V_nu;
+    % Exact source-illumination weights a_s = |U_s|^2 / sum |U_k|^2 for exact MRC in 2D RTM!
+    shot_ill = abs(Us_conj).^2;
     clear Us_conj V_vis V_nu
 
     % 3e. Apply all operators to BOTH clean (15 dB) and noisy (3 dB) regimes
@@ -196,8 +198,8 @@ for jf = 1:nf
         % Blind image-domain 1/SNR estimate via random-polarity shot-flip (same principle as est_noise2!)
         stk_tot = abs(sum(Cs_tot, 2)).^2;
         stk_flp = abs(sum(Cs_tot .* flip_sgn, 2)).^2;
-        p_tot = smooth2d_gauss(reshape(stk_tot, P.nzi, P.nxi), 6.0);
-        p_flp = smooth2d_gauss(reshape(stk_flp, P.nzi, P.nxi), 6.0);
+        p_tot = smooth2d_gauss(reshape(stk_tot, P.nzi, P.nxi), 5.0);
+        p_flp = smooth2d_gauss(reshape(stk_flp, P.nzi, P.nxi), 5.0);
         iv_est = min(max(p_flp(:) ./ max(p_tot(:) - p_flp(:), 0.05 * p_flp(:)), 1e-3), 1e3);
 
         % R0
@@ -209,11 +211,11 @@ for jf = 1:nf
             TS_m = TS_abs / m;
             TS_am = TS_anc / m;
 
-            [~, uq_s, ws0_s, ws1_s, ~, uq_n, ws0_n, ws1_n] = ws_uq_apply(Cs_sig, TS_m, f, sig, fref, iv_est, s70, [], [], Cs_noi);
+            [~, uq_s, ws0_s, ws1_s, ~, uq_n, ws0_n, ws1_n] = ws_uq_apply(Cs_sig, TS_m, f, sig, fref, iv_est, s70, [], shot_ill, Cs_noi);
 
-            [~, iq_s, ~, ~, ~, iq_n, ~, ~] = ws_uq_apply(Cs_sig, TS_m, f, 0.0, fref, zeros(nin, 1), s70, [], [], Cs_noi);
+            [~, iq_s, ~, ~, ~, iq_n, ~, ~] = ws_uq_apply(Cs_sig, TS_m, f, 0.0, fref, zeros(nin, 1), s70, [], shot_ill, Cs_noi);
 
-            [~, va_s, ~, wva_s, ~, va_n, ~, wva_n] = ws_uq_apply(Cs_sig, TS_am, f, sig, fref, iv_est, s70, fv_band, [], Cs_noi);
+            [~, va_s, ~, wva_s, ~, va_n, ~, wva_n] = ws_uq_apply(Cs_sig, TS_am, f, sig, fref, iv_est, s70, fv_band, shot_ill, Cs_noi);
 
             IS.(rgn).IQ70_old(:, im)  = IS.(rgn).IQ70_old(:, im)  + iq_s;  IN.(rgn).IQ70_old(:, im)  = IN.(rgn).IQ70_old(:, im)  + iq_n;
             IS.(rgn).UQW1_old(:, im)  = IS.(rgn).UQW1_old(:, im)  + uq_s;  IN.(rgn).UQW1_old(:, im)  = IN.(rgn).UQW1_old(:, im)  + uq_n;
@@ -233,9 +235,9 @@ end
 ref_2d = prep_img(I_ref, P.nzi, P.nxi, z_in);
 ref_hf = highpass_kz(ref_2d, P.dx, 10.0);   % kz >= 10 cycles/km (~26+ Hz!)
 
-W_chim  = {[720 1200], [640 1060]};
-W_flank = {[240 640],  [640 1060]};
-W_deep  = {[240 1680], [640 1060]};
+W_chim  = {[580 1020], [580 950]};
+W_flank = {[180 500],  [580 950]};
+W_deep  = {[180 1420], [580 950]};
 
 rms_win = @(A, W) sqrt(mean(A(z_in>=W{2}(1)&z_in<=W{2}(2), x_in>=W{1}(1)&x_in<=W{1}(2)).^2, 'all'));
 ref_ratio_cf = log10(rms_win(ref_2d, W_chim) / max(rms_win(ref_2d, W_flank), 1e-30));
