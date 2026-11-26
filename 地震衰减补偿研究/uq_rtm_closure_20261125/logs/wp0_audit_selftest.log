@@ -1,0 +1,49 @@
+=== Scientific Integrity Mechanical Audit (Gate R0) ===
+Report      : D:\ChatGPT\研究\.claude\worktrees\uq-rtm-unified-20261124\地震衰减补偿研究\uq_rtm_unified_20261124\RESULTS_ZH.md
+Results Dir : D:\ChatGPT\研究\.claude\worktrees\uq-rtm-unified-20261124\地震衰减补偿研究\uq_rtm_unified_20261124\results (11 experimental JSON files)
+Parsed 5 Markdown tables from report.
+
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U1' (synth_U1.json, 11 methods) has NO table in report!
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U1b' (synth_U1b.json) omits 3/11 methods: ['DSA_R0', 'SA_UQW1b_25', 'DSA_PH_25']
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U1b' merges multiple methods into one row (hides individual columns): ["DSA_IQ70_25 merged with ['DSA_W1b_25']", "DSA_W1b_25 merged with ['DSA_IQ70_25']"]
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U2' (synth_U2.json, 11 methods) has NO table in report!
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U2b' (synth_U2b.json) omits 2/11 methods: ['DSA_R0', 'DSA_PH_25']
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U2b' merges multiple methods into one row (hides individual columns): ["DSA_IQ70_25 merged with ['DSA_W1b_25']", "DSA_W1b_25 merged with ['DSA_IQ70_25']"]
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U3' (synth_U3.json, 11 methods) has NO table in report!
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U3b' (synth_U3b.json) omits 3/11 methods: ['DSA_R0', 'SA_UQW1b_25', 'DSA_PH_25']
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U3b' merges multiple methods into one row (hides individual columns): ["DSA_IQ70_25 merged with ['DSA_W1b_25']", "DSA_W1b_25 merged with ['DSA_IQ70_25']"]
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U4' (synth_U4.json, 12 methods) has NO table in report!
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U4b' (synth_U4b.json) omits 3/12 methods: ['RAW_UQW1b_25', 'DSA_IQ70_PAnc_25', 'DSA_UQW1_PAnc_25']
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U4b' merges multiple methods into one row (hides individual columns): ["DSA_R0 merged with ['DSA_R0_Eq']", "DSA_R0_Eq merged with ['DSA_R0']"]
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U5' (synth_U5.json) omits 7/11 methods: ['DSA_R0', 'RAW_UQW1b_25', 'SA_UQW1b_25', 'DSA_PH_25', 'DSA_IQ70_25', 'DSA_W1b_25', 'DSA_UQW1_25']
+[FAIL][Gate1-ZeroRowOmission] Dataset 'U5' merges multiple methods into one row (hides individual columns): ["RAW_R0 merged with ['RAW_UQW1b_100']", "RAW_UQW1b_100 merged with ['RAW_R0']"]
+[FAIL][Gate1-ZeroRowOmission] Dataset 'volve25_unified' merges multiple methods into one row (hides individual columns): ["DSA_R0 merged with ['DSA_R0_Eq']", "DSA_R0_Eq merged with ['DSA_R0']"]
+[FAIL][Gate1-ZeroRowOmission] Dataset 'volve45_unified' (volve45_unified.json) omits 1/16 methods: ['DSA_UQW1b_EnvAnc_Amp']
+[FAIL][Gate1-ZeroRowOmission] Dataset 'volve45_unified' merges multiple methods into one row (hides individual columns): ["DSA_R0 merged with ['DSA_R0_Eq']", "DSA_R0_Eq merged with ['DSA_R0']"]
+[FAIL][Gate2-ZeroColumnOmission] Field dataset 'volve25_unified' table is missing mandatory columns: ['Optimal Lag', 'Spectral Centroid Res_Cen']
+[FAIL][Gate2-ZeroColumnOmission] Field dataset 'volve45_unified' table is missing mandatory columns: ['Blind Well F-14', 'Spectral Centroid Res_Cen']
+[FAIL][Gate3-BetterBaselineDisclosure] Dataset 'U1b' lacks mandatory '反超主推 / 恶化项核查' block after its table (beaters > +0.001: ['SA_UQW1b_25']; F14_degraded=False).
+[FAIL][Gate3-BetterBaselineDisclosure] Dataset 'U2b' lacks mandatory '反超主推 / 恶化项核查' block after its table (beaters > +0.001: []; F14_degraded=False).
+[FAIL][Gate3-BetterBaselineDisclosure] Dataset 'U3b' lacks mandatory '反超主推 / 恶化项核查' block after its table (beaters > +0.001: ['SA_UQW1b_25']; F14_degraded=False).
+[FAIL][Gate3-BetterBaselineDisclosure] Dataset 'U4b' lacks mandatory '反超主推 / 恶化项核查' block after its table (beaters > +0.001: ['DSA_R0_Eq', 'DSA_IQ70_PAnc_25', 'DSA_UQW1_PAnc_25', 'DSA_UQW1b_EnvAnc_25']; F14_degraded=False).
+[FAIL][Gate3-BetterBaselineDisclosure] Dataset 'U5' lacks mandatory '反超主推 / 恶化项核查' block after its table (beaters > +0.001: ['RAW_UQW1_25', 'RAW_UQW1b_25', 'DSA_UQW1_25']; F14_degraded=False).
+[FAIL][Gate3-BetterBaselineDisclosure] Dataset 'volve25_unified' lacks mandatory '反超主推 / 恶化项核查' block after its table (beaters > +0.001: ['DSA_UQW1b_PAnc_Amp', 'DSA_UQW1b_PAnc_100']; F14_degraded=False).
+[FAIL][Gate3-BetterBaselineDisclosure] Dataset 'volve45_unified' lacks mandatory '反超主推 / 恶化项核查' block after its table (beaters > +0.001: ['RAW_UQW1b_PAnc_25']; F14_degraded=True).
+  [Info][Gate4] volve25_unified (DSA_UQW1b_PAnc_25): G_HF[18-24Hz] vs DSA_R0_Eq = 1.353x | R0->DSA_R0_Eq share = -9.4% of total delta (+0.0075)
+[FAIL][Gate4-ActiveOperator] Report lacks mandatory step-by-step marginal attribution ('阶梯边际归因') separating front-end equalization from UQ operator!
+  [Info][Gate4] volve45_unified (DSA_UQW1b_PAnc_25): G_HF[28-40Hz] vs DSA_R0_Eq = 1.054x | R0->DSA_R0_Eq share = 92.8% of total delta (+0.0857)
+[FAIL][Gate4-ActiveOperator] Field dataset 'volve45_unified' ('DSA_UQW1b_PAnc_25') has G_HF = 1.054 < 1.10 in 28-40 Hz (operator dormant!), and report lacks explicit dormancy disclosure!
+[FAIL][Gate4-ActiveOperator] Report lacks mandatory step-by-step marginal attribution ('阶梯边际归因') separating front-end equalization from UQ operator!
+[FAIL][Gate5-AntiHype] Banned hype term '全面超越' on active line ~12 while single-well |Delta r| < 0.01: "1. **Volve 北海实测双频段全面突破（4–25 Hz 与 4–45 Hz 均全面超越 `RAW_R0` 与 Stage 4H 历史最佳！）**：..."
+[FAIL][Gate5-AntiHype] Banned hype term '全面击败' on active line ~15 while single-well |Delta r| < 0.01: "- 全面击败不补偿 `RAW_R0 = 0.4740` 高达 **`+0.0857`**（在 `tie_r0` 带上 **`0.5687`** vs `0.4929`，高 **`+..."
+[FAIL][Gate5-AntiHype] Banned hype term '全面超越' on active line ~16 while single-well |Delta r| < 0.01: "- 全面超越 Stage 4H 历史冠军 `RAW_UQW1b_Unanc_100`（均值 `0.5222`，`m=1: 0.5380`，`m=0.6: 0.4943`）达 **`..."
+[FAIL][Gate5-AntiHype] Banned hype term '完胜' on active line ~32 while single-well |Delta r| < 0.01: "| **`G2_Synth_Confluence_Beats_Components`** | **FAIL**（极噪 `-14 dB`，`m05_robust` 过） | `-14..."
+[FAIL][Gate5-AntiHype] Banned hype term '大胜' on active line ~35 while single-well |Delta r| < 0.01: "| **`G5_Volve45_Smile_And_Spectral_Closure`** | **FAIL**（2/3 过，仅斜率子项未过） | Stage 4H 复现误差 `1..."
+[FAIL][Gate5-AntiHype] Banned hype term '完胜' on active line ~39 while single-well |Delta r| < 0.01: "> **诚实裁决记录**：按开跑前冻结脚本 `judge_unified.py` 机械计分，7 项门控通过 **`3/7`**（实测 `G4`、`G6` 与安全边界 `G7` 全过..."
+[FAIL][Gate5-AntiHype] Banned hype term '绝对第一' on active line ~140 while single-well |Delta r| < 0.01: "> - 进入 4–45 Hz 宽频后，**`DSA_UQW1b_PAnc_25`（`0.5597`）在全部 3 种相位模式中直接夺得绝对第一**（全面领先 `Amp 0.5580`..."
+[FAIL][Gate5-AntiHype] Banned hype term '全面领先' on active line ~140 while single-well |Delta r| < 0.01: "> - 进入 4–45 Hz 宽频后，**`DSA_UQW1b_PAnc_25`（`0.5597`）在全部 3 种相位模式中直接夺得绝对第一**（全面领先 `Amp 0.5580`..."
+[FAIL][Gate6-WiringChecklist] Report is missing mandatory '代码接线与实际增益核查表' section!
+
+========================================================================
+FINAL AUDIT VERDICT: FAIL (38 integrity violations detected)
+========================================================================
