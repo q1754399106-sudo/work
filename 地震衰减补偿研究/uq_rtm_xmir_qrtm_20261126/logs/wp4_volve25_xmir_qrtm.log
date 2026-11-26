@@ -1,0 +1,85 @@
+Computing 124-shot Volve 10m eikonal F_T + Str & Bent DSA geometry...
+=== WP4 Volve 4-25 Hz Showdown (smoke=0) ===
+  xmir_bent vs xmir_str (Res): med|dx|=232.6m (p90=527.0m) | flip=13.3% | fold Str=74.9 Bent=56.6 | t*_anc Str=16.22ms Bent=16.32ms
+  [Acoustic Pass1] f= 4.00 Hz ( 1/85): 22.2s
+  [Acoustic Pass1] f= 4.25 Hz ( 2/85): 23.9s
+  [Acoustic Pass1] f= 4.50 Hz ( 3/85): 21.7s
+  [Acoustic Pass1] f= 6.25 Hz (10/85): 23.2s
+  [Acoustic Pass1] f= 8.75 Hz (20/85): 31.1s
+  [Acoustic Pass1] f=11.25 Hz (30/85): 34.3s
+  [Acoustic Pass1] f=13.75 Hz (40/85): 71.8s
+  [Acoustic Pass1] f=16.25 Hz (50/85): 95.6s
+  [Acoustic Pass1] f=18.75 Hz (60/85): 52.3s
+  [Acoustic Pass1] f=21.25 Hz (70/85): 53.4s
+  [Acoustic Pass1] f=23.75 Hz (80/85): 82.3s
+  [Acoustic Pass1] f=25.00 Hz (85/85): 85.7s
+  Exact RAW_R0 repro vs state1.mat: rel L2 diff = 6.36e-08
+  Acoustic PSAE [6-22 Hz]: Str beta=+0.04343 /Hz | Bent beta=+0.04348 /Hz
+  Acoustic 13-method Pass2 finished in 3168.4s
+
+  --- True Viscoacoustic Wave-Equation Q-RTM Pass (m=0.50, Q_sed=60) ---
+  [WE-QRTM m=0.50] f= 4.00 Hz ( 1/85): 48.3s
+  [WE-QRTM m=0.50] f= 4.25 Hz ( 2/85): 44.6s
+  [WE-QRTM m=0.50] f= 4.50 Hz ( 3/85): 49.2s
+  [WE-QRTM m=0.50] f= 6.25 Hz (10/85): 35.1s
+  [WE-QRTM m=0.50] f= 8.75 Hz (20/85): 41.6s
+  [WE-QRTM m=0.50] f=11.25 Hz (30/85): 34.3s
+  [WE-QRTM m=0.50] f=13.75 Hz (40/85): 46.4s
+  [WE-QRTM m=0.50] f=16.25 Hz (50/85): 28.0s
+  [WE-QRTM m=0.50] f=18.75 Hz (60/85): 48.6s
+  [WE-QRTM m=0.50] f=21.25 Hz (70/85): 26.8s
+  [WE-QRTM m=0.50] f=23.75 Hz (80/85): 47.3s
+  [WE-QRTM m=0.50] f=25.00 Hz (85/85): 38.1s
+
+  --- True Viscoacoustic Wave-Equation Q-RTM Pass (m=1.00, Q_sed=120) ---
+  [WE-QRTM m=1.00] f= 4.00 Hz ( 1/85): 49.8s
+  [WE-QRTM m=1.00] f= 4.25 Hz ( 2/85): 44.0s
+  [WE-QRTM m=1.00] f= 4.50 Hz ( 3/85): 46.0s
+  [WE-QRTM m=1.00] f= 6.25 Hz (10/85): 47.9s
+  [WE-QRTM m=1.00] f= 8.75 Hz (20/85): 45.9s
+  [WE-QRTM m=1.00] f=11.25 Hz (30/85): 30.0s
+  [WE-QRTM m=1.00] f=13.75 Hz (40/85): 51.9s
+  [WE-QRTM m=1.00] f=16.25 Hz (50/85): 28.6s
+  [WE-QRTM m=1.00] f=18.75 Hz (60/85): 52.4s
+  [WE-QRTM m=1.00] f=21.25 Hz (70/85): 34.3s
+  [WE-QRTM m=1.00] f=23.75 Hz (80/85): 54.7s
+  [WE-QRTM m=1.00] f=25.00 Hz (85/85): 53.0s
+
+  --- True Viscoacoustic Wave-Equation Q-RTM Pass (m=2.00, Q_sed=240) ---
+  [WE-QRTM m=2.00] f= 4.00 Hz ( 1/85): 50.3s
+  [WE-QRTM m=2.00] f= 4.25 Hz ( 2/85): 45.2s
+  [WE-QRTM m=2.00] f= 4.50 Hz ( 3/85): 31.3s
+  [WE-QRTM m=2.00] f= 6.25 Hz (10/85): 27.3s
+  [WE-QRTM m=2.00] f= 8.75 Hz (20/85): 45.2s
+  [WE-QRTM m=2.00] f=11.25 Hz (30/85): 29.0s
+  [WE-QRTM m=2.00] f=13.75 Hz (40/85): 52.8s
+  [WE-QRTM m=2.00] f=16.25 Hz (50/85): 32.6s
+  [WE-QRTM m=2.00] f=18.75 Hz (60/85): 48.8s
+  [WE-QRTM m=2.00] f=21.25 Hz (70/85): 34.6s
+  [WE-QRTM m=2.00] f=23.75 Hz (80/85): 47.9s
+  [WE-QRTM m=2.00] f=25.00 Hz (85/85): 44.2s
+
+=== Volve 4-25 Hz Full 20-Method Results (bw_r0=[3.52, 12.89] cyc/km) ===
+  RAW_R0                   | R0=0.6259 (m0.5=0.626 m1=0.626) | Br=0.5024 | L0=+0.165(-30m) | F14=+0.200 | Cen=8.39 | Sm=38.4% | sl=+0.0312 | G_HF=1.43x
+  DSA_Str_R0               | R0=0.6222 (m0.5=0.622 m1=0.622) | Br=0.5017 | L0=+0.141(-30m) | F14=+0.224 | Cen=8.44 | Sm=3.9% | sl=+0.0284 | G_HF=1.37x
+  DSA_Str_R0_Eq            | R0=0.6252 (m0.5=0.625 m1=0.625) | Br=0.5241 | L0=+0.126(-30m) | F14=+0.223 | Cen=7.81 | Sm=3.7% | sl=-0.0150 | G_HF=1.02x
+  DSA_Bent_R0              | R0=0.5704 (m0.5=0.570 m1=0.570) | Br=0.4507 | L0=+0.047(-30m) | F14=+0.275 | Cen=8.36 | Sm=4.3% | sl=+0.0281 | G_HF=1.33x
+  DSA_Bent_R0_Eq           | R0=0.5484 (m0.5=0.548 m1=0.548) | Br=0.4539 | L0=+0.053(-30m) | F14=+0.272 | Cen=7.75 | Sm=4.0% | sl=-0.0154 | G_HF=1.00x
+  DSA_Str_PH_PAnc_25       | R0=0.6281 (m0.5=0.628 m1=0.629) | Br=0.5261 | L0=+0.169(-30m) | F14=+0.262 | Cen=7.83 | Sm=3.7% | sl=-0.0149 | G_HF=1.02x
+  DSA_Str_IQ70_PAnc_25     | R0=0.6292 (m0.5=0.619 m1=0.635) | Br=0.5186 | L0=+0.187(-30m) | F14=+0.240 | Cen=8.07 | Sm=4.4% | sl=+0.0012 | G_HF=1.41x
+  DSA_Str_W1b_PAnc_25      | R0=0.6291 (m0.5=0.620 m1=0.635) | Br=0.5186 | L0=+0.186(-30m) | F14=+0.241 | Cen=8.06 | Sm=4.3% | sl=+0.0002 | G_HF=1.39x
+  DSA_Str_UQW1b_PAnc_25    | R0=0.6306 (m0.5=0.625 m1=0.634) | Br=0.5214 | L0=+0.188(-30m) | F14=+0.248 | Cen=8.04 | Sm=4.3% | sl=-0.0005 | G_HF=1.38x
+  DSA_Bent_PH_PAnc_25      | R0=0.5601 (m0.5=0.567 m1=0.559) | Br=0.4623 | L0=+0.096(-30m) | F14=+0.304 | Cen=7.77 | Sm=4.0% | sl=-0.0153 | G_HF=1.00x
+  DSA_Bent_IQ70_PAnc_25    | R0=0.5657 (m0.5=0.573 m1=0.566) | Br=0.4567 | L0=+0.101(-30m) | F14=+0.299 | Cen=7.98 | Sm=5.0% | sl=-0.0003 | G_HF=1.36x
+  DSA_Bent_W1b_PAnc_25     | R0=0.5645 (m0.5=0.571 m1=0.565) | Br=0.4561 | L0=+0.102(-30m) | F14=+0.300 | Cen=7.97 | Sm=4.8% | sl=-0.0013 | G_HF=1.33x
+  DSA_Bent_UQW1b_PAnc_25   | R0=0.5652 (m0.5=0.572 m1=0.565) | Br=0.4584 | L0=+0.105(-30m) | F14=+0.302 | Cen=7.96 | Sm=4.8% | sl=-0.0018 | G_HF=1.33x
+  WE_QRTM_Unreg_Raw        | R0=0.4209 (m0.5=0.303 m1=0.417) | Br=0.3469 | L0=+0.200(-30m) | F14=+0.179 | Cen=9.14 | Sm=91.3% | sl=+0.0988 | G_HF=5.77x
+  WE_QRTM_Unreg_PAnc       | R0=0.5950 (m0.5=0.556 m1=0.604) | Br=0.5064 | L0=+0.323(-30m) | F14=+0.361 | Cen=7.59 | Sm=68.3% | sl=-0.0297 | G_HF=1.29x
+  DSA_WE_QRTM_Unreg_PAnc   | R0=0.5478 (m0.5=0.488 m1=0.576) | Br=0.4248 | L0=+0.221(-30m) | F14=+0.421 | Cen=8.27 | Sm=6.6% | sl=+0.0175 | G_HF=1.97x
+  WE_QRTM_ZhuLP_PAnc       | R0=0.5893 (m0.5=0.555 m1=0.595) | Br=0.5053 | L0=+0.336(-30m) | F14=+0.356 | Cen=7.48 | Sm=32.4% | sl=-0.0323 | G_HF=1.13x
+  WE_QRTM_Reg_PAnc         | R0=0.5950 (m0.5=0.556 m1=0.604) | Br=0.5064 | L0=+0.323(-30m) | F14=+0.361 | Cen=7.59 | Sm=68.3% | sl=-0.0297 | G_HF=1.29x
+  DSA_WE_QRTM_Reg_PAnc     | R0=0.5478 (m0.5=0.488 m1=0.576) | Br=0.4248 | L0=+0.221(-30m) | F14=+0.421 | Cen=8.27 | Sm=6.6% | sl=+0.0175 | G_HF=1.97x
+  DSA_WE_QRTM_W1b_PAnc     | R0=0.5494 (m0.5=0.494 m1=0.576) | Br=0.4275 | L0=+0.223(-30m) | F14=+0.425 | Cen=8.23 | Sm=5.9% | sl=+0.0148 | G_HF=1.88x
+
+Saved D:\ChatGPT\研究\.claude\worktrees\uq-rtm-xmir-qrtm-20261126\地震衰减补偿研究\uq_rtm_xmir_qrtm_20261126\results\volve25_xmir_qrtm.json (total 17353.7s)
+Saved final Volve 2D images and cleaned temp slice dirs.

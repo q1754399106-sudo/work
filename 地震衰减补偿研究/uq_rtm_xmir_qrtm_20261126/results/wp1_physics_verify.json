@@ -1,0 +1,102 @@
+{
+  "test1a_analytical_ray": {
+    "dip_m20": {
+      "dip_deg": -20,
+      "n_pts": 15851,
+      "th_s_med_err_str_deg": 9.2726019037801848,
+      "th_s_med_err_bent_deg": 0.85960865750917037,
+      "xmir_med_err_str_m": 189.06137404582523,
+      "xmir_p90_err_str_m": 311.71373110873412,
+      "xmir_med_err_bent_m": 15.186300325150114,
+      "xmir_p90_err_bent_m": 26.470237351629613,
+      "error_reduction_pct": 91.967528850462486
+    },
+    "dip_m10": {
+      "dip_deg": -10,
+      "n_pts": 15851,
+      "th_s_med_err_str_deg": 9.2726019037801848,
+      "th_s_med_err_bent_deg": 0.85960865750917037,
+      "xmir_med_err_str_m": 118.26755009076851,
+      "xmir_p90_err_str_m": 170.07293957399105,
+      "xmir_med_err_bent_m": 16.536503769003957,
+      "xmir_p90_err_bent_m": 25.096076919319739,
+      "error_reduction_pct": 86.017716815548766
+    },
+    "dip_p0": {
+      "dip_deg": 0,
+      "n_pts": 15492,
+      "th_s_med_err_str_deg": 9.1163857889994375,
+      "th_s_med_err_bent_deg": 0.87673051223143972,
+      "xmir_med_err_str_m": 0,
+      "xmir_p90_err_str_m": 4.5474735088646412E-13,
+      "xmir_med_err_bent_m": 20.622680664062273,
+      "xmir_p90_err_bent_m": 26.981713867187324,
+      "error_reduction_pct": -2.0622680663062271E+12
+    },
+    "dip_p10": {
+      "dip_deg": 10,
+      "n_pts": 12432,
+      "th_s_med_err_str_deg": 7.7800374683294535,
+      "th_s_med_err_bent_deg": 1.0217890513213383,
+      "xmir_med_err_str_m": 262.77115220233554,
+      "xmir_p90_err_str_m": 575.43454723716536,
+      "xmir_med_err_bent_m": 29.480337973426344,
+      "xmir_p90_err_bent_m": 33.661104661528768,
+      "error_reduction_pct": 88.780983861300626
+    },
+    "dip_p20": {
+      "dip_deg": 20,
+      "n_pts": 6663,
+      "th_s_med_err_str_deg": 5.2538029859822757,
+      "th_s_med_err_bent_deg": 1.2127074157125932,
+      "xmir_med_err_str_m": 783.83709917442138,
+      "xmir_p90_err_str_m": 1528.8878073345329,
+      "xmir_med_err_bent_m": 43.225778846622234,
+      "xmir_p90_err_bent_m": 46.891315900769676,
+      "error_reduction_pct": 94.485361959500267
+    }
+  },
+  "test1b_we_qrtm_physics": {
+    "RAW_R0": {
+      "E1": 0.83436544099697474,
+      "E_amp": 0.29671508702522353,
+      "rel_L2_scaled": 0.57534524629486949
+    },
+    "WE_Q_Adj": {
+      "E1": 0.74079552336571142,
+      "E_amp": 0.4930393716272084,
+      "rel_L2_scaled": 0.7196989432568377
+    },
+    "WE_Q_DispOnly": {
+      "E1": 0.85730924532135533,
+      "E_amp": 0.29468546507675281,
+      "rel_L2_scaled": 0.53401874958773765
+    },
+    "WE_QRTM_Unreg": {
+      "E1": 0.91232198692773014,
+      "E_amp": 0.053012472999425991,
+      "rel_L2_scaled": 0.41860621232232437
+    },
+    "max_comp_wave_ratio_f36": 1.0521500567431896,
+    "m05_f36_finite": true,
+    "m05_f36_max_amp": 0.26224556065698273
+  },
+  "test1c_volve_xmir_audit": {
+    "dt_str_s": 5.1624508,
+    "dt_bent_s": 145.7087087,
+    "vmig_seabed_m_s": 1687.2118584445227,
+    "vmig_res_m_s": 3956.1015064497838,
+    "res_med_dxmir_m": 232.63861083984375,
+    "res_p90_dxmir_m": 527.039794921875,
+    "res_steep5_med_dxmir_m": 380.300048828125,
+    "res_steep5_p90_dxmir_m": 618.94703674316406,
+    "res_med_dts_ms": 0.17896294593811035,
+    "res_p90_dts_ms": 0.62647834420204163,
+    "res_gate_flip_pct": 13.300566668996467,
+    "res_med_fold_str": 74.924008391710231,
+    "res_med_fold_bent": 56.616493797359,
+    "res_med_ths_str_deg": 18.201566696166992,
+    "res_med_ths_eik_deg": 30.096138000488281,
+    "res_med_thr_surf_deg": 12.423972129821777
+  }
+}

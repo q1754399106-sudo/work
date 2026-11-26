@@ -1,0 +1,25 @@
+Generated all 4 publication-grade 300-DPI figures in D:\ChatGPT\研究\.claude\worktrees\uq-rtm-xmir-qrtm-20261126\地震衰减补偿研究\uq_rtm_xmir_qrtm_20261126\figures
+=== POST-HOC DIAG A: Volve 4-25 Hz DSA_Bent F-5 Drop vs F-14 Jump Root Cause ===
+  [F5] x=-1212m z=[2570,3170]m v_med=3856m/s phi_med=-8.2 deg:
+       Fold: Str_total=70.8 (arr=70.8) vs Bent_total=63.9 (arr=72.1, arr*inc55=63.9, arr*surf40=72.1)
+       Active shots killed by inc55=17.6 | killed by surf40=0.0 | turned=45.0
+       In-array |th_s|: Str p50/p90=18.9/35.3 deg vs Bent(eik) p50/p90=34.2/67.5 deg
+  [F14] x=-465m z=[2680,3080]m v_med=3618m/s phi_med=-2.2 deg:
+       Fold: Str_total=81.0 (arr=84.0) vs Bent_total=81.4 (arr=90.8, arr*inc55=81.4, arr*surf40=90.8)
+       Active shots killed by inc55=14.3 | killed by surf40=0.0 | turned=31.1
+       In-array |th_s|: Str p50/p90=21.7/39.5 deg vs Bent(eik) p50/p90=33.7/60.7 deg
+
+=== POST-HOC DIAG B: S2_StrongGrad_SteepDip DSA Zero-Noise Drop & B300 +1.90 log2 Root Cause ===
+  S2 Layer z2 (true=+23.7 deg): blind phi_eff noisy=+8.7 deg, NF=+20.2 deg
+  S2 Layer z3 (true=-19.8 deg): blind phi_eff noisy=-4.6 deg, NF=-8.6 deg
+  S2 W_deep median structure-tensor coherence (SNR=+1.06 dB): 0.783
+
+=== POST-HOC DIAG C: True WE-QRTM Gain-Cap Sensitivity Sweep (10/15/20/30/70 dB) on S1 ===
+  GainCap= 6 dB (s=1.26e-01) | RAW WE-Reg: E1=0.7313 (m0.5=0.714 m1=0.744 m2=0.735) Eamp=0.219 | DSA WE-Reg: E1=0.7686 (m0.5=0.749 m1=0.784 m2=0.774) Eamp=0.179
+  GainCap=10 dB (s=3.66e-02) | RAW WE-Reg: E1=0.7210 (m0.5=0.692 m1=0.737 m2=0.734) Eamp=0.161 | DSA WE-Reg: E1=0.7605 (m0.5=0.732 m1=0.777 m2=0.773) Eamp=0.112
+  GainCap=15 dB (s=9.62e-03) | RAW WE-Reg: E1=0.7080 (m0.5=0.672 m1=0.719 m2=0.733) Eamp=0.102 | DSA WE-Reg: E1=0.7490 (m0.5=0.718 m1=0.758 m2=0.771) Eamp=0.039
+  GainCap=20 dB (s=2.78e-03) | RAW WE-Reg: E1=0.6904 (m0.5=0.632 m1=0.707 m2=0.732) Eamp=0.084 | DSA WE-Reg: E1=0.7310 (m0.5=0.677 m1=0.745 m2=0.771) Eamp=0.088
+  GainCap=30 dB (s=2.58e-04) | RAW WE-Reg: E1=0.6542 (m0.5=0.531 m1=0.700 m2=0.732) Eamp=0.107 | DSA WE-Reg: E1=0.6918 (m0.5=0.568 m1=0.737 m2=0.771) Eamp=0.143
+  GainCap=70 dB (s=2.50e-08) | RAW WE-Reg: E1=0.6317 (m0.5=0.464 m1=0.699 m2=0.732) Eamp=0.118 | DSA WE-Reg: E1=0.6664 (m0.5=0.492 m1=0.736 m2=0.770) Eamp=0.169
+
+Saved D:\ChatGPT\研究\.claude\worktrees\uq-rtm-xmir-qrtm-20261126\地震衰减补偿研究\uq_rtm_xmir_qrtm_20261126\results\posthoc_diagnostics.json
