@@ -1,0 +1,17 @@
+=== Scientific Integrity Mechanical Audit (Gate R0) ===
+Report      : D:\ChatGPT\研究\.claude\worktrees\uq-rtm-closure-20261125\地震衰减补偿研究\uq_rtm_closure_20261125\RESULTS_ZH.md
+Results Dir : D:\ChatGPT\研究\.claude\worktrees\uq-rtm-closure-20261125\地震衰减补偿研究\uq_rtm_closure_20261125\results (6 experimental JSON files)
+Parsed 11 Markdown tables from report.
+
+[PASS][Gate1-ZeroRowOmission] 100% of methods across all 6 JSON files appear in dedicated unmerged rows.
+[PASS][Gate2-ZeroColumnOmission] All field and synthetic tables contain 100% of mandatory evaluation columns.
+[PASS][Gate3-BetterBaselineDisclosure] Every dataset table includes an accurate '反超主推 / 恶化项核查' naming all beating baselines and degraded metrics.
+  [Info][Gate4] volve25_psae_ctrl (DSA_UQW1b_PAnc_25): G_HF[18-24Hz] vs DSA_R0_Eq = 1.353x | R0->DSA_R0_Eq share = -9.4% of total delta (+0.0075)
+  [Info][Gate4] volve45_closure (DSA_UQW1b_TrueDSAiv_PAnc_25): G_HF[28-40Hz] vs DSA_R0_Eq = 1.493x | R0->DSA_R0_Eq share = 117.4% of total delta (+0.0677)
+[PASS][Gate4-ActiveOperator] All field datasets pass HF active-operator verification and include step-by-step marginal attribution.
+[PASS][Gate5-AntiHype] Zero banned hype phrases found in active report text.
+[PASS][Gate6-WiringChecklist] Code wiring & active HF gain checklist table verified.
+
+========================================================================
+FINAL AUDIT VERDICT: PASS (0 violations, 0 warnings — cleared for archiving)
+========================================================================

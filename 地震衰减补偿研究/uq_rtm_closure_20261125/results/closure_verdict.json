@@ -1,0 +1,118 @@
+{
+  "gates": {
+    "R0_Integrity_Gate": {
+      "pass": true,
+      "selftest_caught_old_defects": true,
+      "new_report_audit_zero_exit": true
+    },
+    "R1_Active_Broadband_Operator": {
+      "pass": true,
+      "G_HF_28_40_vs_DSA_R0_Eq": 1.492524177825333,
+      "threshold": 1.25
+    },
+    "R2_Volve45_TrueConfluence_Closure": {
+      "pass": true,
+      "sub_smile_pass": true,
+      "smile_frac_m1": 0.04312728689639731,
+      "smile_reduction_vs_S4H": 0.9480545029665373,
+      "sub_f5_pass": true,
+      "F5_fix_mean": 0.5417735407535234,
+      "F5_RAW_R0": 0.4740476359888676,
+      "F5_delta_vs_RAW_R0": 0.06772590476465573,
+      "F5_5of5_gt_RAW_R0": true,
+      "sub_slope_pass": true,
+      "abs_slope_prop": 0.0031978007166692073,
+      "abs_slope_R0_Eq": 0.013712241326661724,
+      "slope_improvement_frac": 0.7667922668155287
+    },
+    "R3_Volve45_TrueUQ_vs_Det_At_m06": {
+      "pass": true,
+      "prop_m06": 0.5332535115848409,
+      "IQ70_m06": 0.5123470261219978,
+      "W1b_TrueDSAiv_m06": 0.5220729364079773,
+      "delta_vs_IQ70": 0.020906485462843127,
+      "delta_vs_W1b": 0.01118057517686366
+    },
+    "R4_PSAE_vs_NoW2_Attribution": {
+      "pass": true,
+      "volve25": {
+        "Unanc_F5": 0.49863414870663325,
+        "NoW2_Rel_F5": 0.5813156563155756,
+        "PAnc_F5": 0.6334238707388676,
+        "Decon_F5": 0.6354743037706218,
+        "NoW2_Rel_F14": 0.2518627648454575,
+        "PAnc_F14": 0.24765314722627213,
+        "NoW2_recovery_pct_of_PSAE_gain": 61.341106994173785
+      },
+      "volve45": {
+        "NoW2_F5": 0.5568646547027096,
+        "PAnc_F5": 0.5417735407535234,
+        "NoW2_F14": -0.04265243892627553,
+        "PAnc_F14": -0.0258757438395047,
+        "Decon_F5": 0.5410050441150134,
+        "Decon_F14": -0.017243805497513608
+      }
+    },
+    "R5_Synth_U6U7_DualMetric_And_SA_Tradeoff": {
+      "pass": true,
+      "snr_in_2_6_dB": true,
+      "RAW_R0_SNR_dB": [
+        3.97068517358363,
+        4.79224015430817
+      ],
+      "theorem3_DSA_B300_log2err": [
+        0.24714699879600785,
+        0.5699005963995217
+      ],
+      "theorem3_pass": true,
+      "E_amp_reduction_vs_PH": [
+        0.5253478082351142,
+        0.35389874357407247
+      ],
+      "E_amp_pass": true,
+      "m05_E1_gain_vs_max_det": [
+        0.1866647147269157,
+        0.038115206151240866
+      ],
+      "m05_pass": true,
+      "U6_SA_vs_DSA": [
+        0.7728603431541649,
+        0.7552656843316095
+      ],
+      "U7_SA_vs_DSA": [
+        0.632095598915226,
+        0.745955282912264
+      ]
+    },
+    "R6_NonScalar_Spatial_Q_Error_U8U9": {
+      "pass": true,
+      "U8_pass": true,
+      "U8_UQW1b_vs_IQ70_vs_W1b_vs_PH_vs_R0": {
+        "DSA_UQW1b_25": 0.735543232086242,
+        "DSA_IQ70_25": 0.6783423790130252,
+        "DSA_W1b_25": 0.6829587765338889,
+        "DSA_PH_25": 0.7643913607272464,
+        "RAW_R0": 0.7130504596457617
+      },
+      "U8_min_E1": 0.7231573715723277,
+      "U9_pass": true,
+      "U9_UQW1b_vs_IQ70_vs_W1b_vs_PH_vs_R0": {
+        "DSA_UQW1b_25": 0.7637351074136884,
+        "DSA_IQ70_25": 0.7053557036538838,
+        "DSA_W1b_25": 0.7429871325154078,
+        "DSA_PH_25": 0.7551703104771202,
+        "RAW_R0": 0.706180356882405
+      },
+      "U9_min_E1": 0.7526893584692033
+    },
+    "R7_Anomaly_Resolution": {
+      "pass": true,
+      "diagnostics_json": true,
+      "figure_png": true
+    }
+  },
+  "summary": {
+    "passed": 8,
+    "total": 8
+  }
+}
